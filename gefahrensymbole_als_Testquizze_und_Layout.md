@@ -28,7 +28,7 @@ comment: Hilkes Fragen am 20.05.25, mit Volkers Antworten
 
 [![GitHub](https://img.shields.io/badge/Ansehen%20auf-GitHub-181717?logo=github)](https://github.com/vgoehler/DiAgnostiK_LiaScript/blob/master/gefahrensymbole_als_Testquizze_und_Layout.md)
 
-[![Raw](https://img.shields.io/badge/Raw-Inhalt-blue)](https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/master/gefahrensymbole_als_Testquizze_und_Layout.md)
+[![Raw](https://img.shields.io/badge/Raw-Inhalt-blue)](https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/main/gefahrensymbole_als_Testquizze_und_Layout.md)
 
 # Testquizzes und Layout
 
