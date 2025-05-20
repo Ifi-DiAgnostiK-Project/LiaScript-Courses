@@ -30,7 +30,7 @@ comment: this is only a test for image sizes in conjunction with quizes
 -->
 # LiaScript Badges
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/master/gefahrensymbole_größen_test.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/master/gefahrensymbole_größen_test_v2.md)
 
 # Quiztest
 
