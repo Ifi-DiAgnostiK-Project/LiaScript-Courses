@@ -10,6 +10,8 @@ version:  0.0.1
 narrator: German Female
 
 comment:  this short course explains math mode in liascript (in german)
+
+import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
 -->
 
 # LiaScript Badges
@@ -211,4 +213,10 @@ Die Lösung $x_2$ ist übrigens der berühmte **Goldene Schnitt**.
 
 ---
 
+# Frage 6: Mathe-Quiz mit Berechnung
+
+6 + 6
+
+[[12]]
+@Algebrite.check(12)
 
