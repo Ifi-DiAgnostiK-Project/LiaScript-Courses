@@ -24,9 +24,9 @@ comment: Hilkes Fragen am 20.05.25, mit Volkers Antworten
 -->
 # LiaScript Badges
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/master/gefahrensymbole_als_Testquizze_und_Layout.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/main/gefahrensymbole_als_Testquizze_und_Layout.md)
 
-[![GitHub](https://img.shields.io/badge/Ansehen%20auf-GitHub-181717?logo=github)](https://github.com/vgoehler/DiAgnostiK_LiaScript/blob/master/gefahrensymbole_als_Testquizze_und_Layout.md)
+[![GitHub](https://img.shields.io/badge/Ansehen%20auf-GitHub-181717?logo=github)](https://github.com/vgoehler/DiAgnostiK_LiaScript/blob/main/gefahrensymbole_als_Testquizze_und_Layout.md)
 
 [![Raw](https://img.shields.io/badge/Raw-Inhalt-blue)](https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/main/gefahrensymbole_als_Testquizze_und_Layout.md)
 
