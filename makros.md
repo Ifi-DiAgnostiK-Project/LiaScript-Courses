@@ -27,7 +27,7 @@ comment: this makro package defines styles and a header with badges for the LiaS
 }
 @end
 
-@import: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_Bilder_Test/refs/heads/main/makros.md
+import: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_Bilder_Test/refs/heads/main/makros.md
 
 -->
 
