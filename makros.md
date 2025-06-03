@@ -27,28 +27,16 @@ comment: this makro package defines styles and a header with badges for the LiaS
 }
 @end
 
-@include: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_Bilder_Test/refs/heads/main/makros.md
+@import: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_Bilder_Test/refs/heads/main/makros.md
 
 @header
+[![LiaScript Course](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?@0?raw=true)
 
-# LiaScript Badges
+[![LiaScript LiveEditor](https://raw.githubusercontent.com/LiaScript/LiaScript/refs/heads/development/badges/editor.svg)](https://liascript.github.io/LiveEditor/?/show/file/@0?raw=true)
 
-[![LiaScript Course](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?
-@0?raw=true
-)
+[![GitHub](https://img.shields.io/badge/Ansehen%20auf-GitHub-181717?logo=github)](@0)
 
-[![LiaScript LiveEditor](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/LiveEditor/?/show/file/
-@0?raw=true
-)
-
-[![GitHub](https://img.shields.io/badge/Ansehen%20auf-GitHub-181717?logo=github)](
-@0
-)
-
-[![Rohinhalt](https://img.shields.io/badge/Raw-Inhalt-blue)](
-@0?raw=true
-)
-
+[![Rohinhalt](https://img.shields.io/badge/Raw-Inhalt-blue)](@0?raw=true)
 @end
 
 -->
