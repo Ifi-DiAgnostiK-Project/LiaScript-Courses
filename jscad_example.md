@@ -9,8 +9,8 @@ import:  https://raw.githubusercontent.com/LiaTemplates/jscad/0.0.1/README.md
 ``` js @JSCAD
 "use strict"
 /**
- * JSCAD Primitives Demonstration
- * Demonstrates the basics of a variety of 2D and 3D primitives
+ * JSCAD Demonstration
+ * Shows the basics of primitives, booleans and transforms
  */
 
 const jscad = require('@jscad/modeling')

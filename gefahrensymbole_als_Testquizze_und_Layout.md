@@ -1,6 +1,8 @@
 <!--
 author: Hilke Domsch
 comment: Hilkes Fragen am 20.05.25, mit Volkers Antworten
+@import: https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/makros.md?raw=true
+
 @style
 .flex-container {
     display: flex;
@@ -118,13 +120,13 @@ Frage: Welches der Bilder ist ein Gefahrenzeichen?
 
 <section class="flex-container">
 <div class="flex-child" style="min-width: 100px">
-Bild a) ![Erste Hilfe](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Rettungszeichen/Rettungszeichen_Erste_Hilfe.jpg?raw=true) <!-- style="width: 100px" -->
+Bild a) @Rettungszeichen.Erste_Hilfe(10)
 </div>
 <div class="flex-child" style="min-width: 100px">
-Bild b) ![Warnzeichen](https://www.bghm.de/fileadmin/user_upload/Arbeitsschuetzer/Praxishilfen/Sicherheitszeichen/warn/W018-Warnung-vor-automatischem-Anlauf.jpg) <!-- style="width: 100px" -->
+Bild b) @Warnzeichen.Automatischer_Anlauf(10)
 </div>
 <div class="flex-child" style="min-width: 100px">
-Bild c) ![Brandmelder](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Brandbek%C3%A4mpfung.jpg?raw=true) <!-- style="width: 100px" -->
+Bild c) @Brandschutzzeichen.Brandbekaempfung(10)
 </div>
 </section>
 
@@ -142,7 +144,7 @@ Frage: Welches der Bilder ist ein Erste Hilfe Zeichen?
 
 | Bild 1 | Bild 2 | Bild 3 |
 | -------- | :------: | -------: |
-| ![Erste Hilfe](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Rettungszeichen/Rettungszeichen_Erste_Hilfe.jpg?raw=true) <!-- style="width: 100px" -->| ![Warnzeichen](https://www.bghm.de/fileadmin/user_upload/Arbeitsschuetzer/Praxishilfen/Sicherheitszeichen/warn/W018-Warnung-vor-automatischem-Anlauf.jpg) <!-- style="width: 100px" -->|![Brandmelder](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Brandbek%C3%A4mpfung.jpg?raw=true) <!-- style="width: 100px" --> |
+| @Rettungszeichen.Erste_Hilfe(10)| @Warnzeichen.Automatischer_Anlauf(10) | @Brandschutzzeichen.Brandbekaempfung(10)|
 
 - [(X)] Bild 1
 - [( )] Bild 2
@@ -155,7 +157,7 @@ Frage: Welches der Bilder ist ein Erste Hilfe Zeichen?
 
 > Hier mal mit der Matrix Komponente! Man könnte auch den Text weglassen.
 
-- [[![Erste Hilfe](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Rettungszeichen/Rettungszeichen_Erste_Hilfe.jpg?raw=true) <!-- style="width: 100px" -->] (![Warnzeichen](https://www.bghm.de/fileadmin/user_upload/Arbeitsschuetzer/Praxishilfen/Sicherheitszeichen/warn/W018-Warnung-vor-automatischem-Anlauf.jpg) <!-- style="width: 100px" -->) [![Brandmelder](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Brandbek%C3%A4mpfung.jpg?raw=true) <!-- style="width: 100px" -->]]
+- [@Rettungszeichen.Erste_Hilfe(10)] (@Warnzeichen.Automatischer_Anlauf(10)) [@Brandschutzzeichen.Brandbekaempfung(10) ]
 - [    [X]           [ ]             [ ]     ]  Erste Hilfe Zeichen
 
 
