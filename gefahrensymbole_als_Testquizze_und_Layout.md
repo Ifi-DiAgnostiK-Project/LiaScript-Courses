@@ -3,6 +3,7 @@ author: Hilke Domsch
 comment: Hilkes Fragen am 20.05.25, mit Volkers Antworten
 import: https://raw.githubusercontent.com/wenik35/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 import: https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/makros.md?raw=true
+import: https://raw.githubusercontent.com/wenik35/LiaScript_ImageQuiz/refs/heads/main/README.md
 -->
 
 
@@ -174,3 +175,13 @@ Aufgabe: Wähle die Warnzeichen!
 > Drag&Drop ist auch möglich
 
 @dragdropmultipleimages(@uid,@Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src,@Leitern.Nur_eine_Person.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src)
+
+
+---
+
+Aufgabe: Wähle die Warnzeichen!
+====
+
+> Oder direkt anklicken
+
+@selectimages(@uid,10,@Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src,@Leitern.Nur_eine_Person.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src)
