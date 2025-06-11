@@ -1,0 +1,65 @@
+name: Generate LiaScript Outputs for Changed Courses
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          path: project
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+
+      - name: Install LiaScript Exporter
+        run: |
+          npm install -g @liascript/exporter
+
+      - name: Detect Changed Markdown Files
+        id: changes
+        run: |
+          cd project
+          echo "changed_files<<EOF" >> $GITHUB_OUTPUT
+          git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '^courses/.*\.md$' || true >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Export & Release for Each Changed File
+        if: steps.changes.outputs.changed_files != ''
+        run: |
+          mkdir -p build
+          cd project
+          for file in ${{ steps.changes.outputs.changed_files }}; do
+            filename=$(basename "$file" .md)
+            safe_tag=$(echo "$filename" | tr '/' '_' | tr '[:upper:]' '[:lower:]')
+
+            # Export assets
+            liaex -i "$file" --format pdf --output "../build/${filename}_Documentation" --pdf-timeout 50000
+            liaex -i "$file" --format scorm2004 --output "../build/${filename}_SCORM"
+            liaex -i "$file" --format ims --output "../build/${filename}_IMS"
+
+            cd ../build
+
+            # Create release per file
+            gh release create "$safe_tag" \
+              --title "Export for $filename" \
+              "${filename}_Documentation.pdf" \
+              "${filename}_SCORM.zip" \
+              "${filename}_IMS.zip" \
+              --notes "Automated export for $file"
+
+            cd ../project
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
