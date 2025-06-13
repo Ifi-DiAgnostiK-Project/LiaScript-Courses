@@ -10,7 +10,7 @@ import: https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/makros.md?r
 - 
 - action will be triggered with every commit that changes a markdown in courses
 
-- need to set the github pages still
+- ~need to set the github pages still~ -> pages is setup: [pages link](https://vgoehler.github.io/DiAgnostiK_LiaScript/)
 
 # liascript example
 Zeichen | Typ
