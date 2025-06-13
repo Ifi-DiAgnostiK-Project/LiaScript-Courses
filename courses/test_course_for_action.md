@@ -13,6 +13,7 @@ import: https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/makros.md?r
 - ~need to set the github pages still~ -> pages is setup: [pages link](https://vgoehler.github.io/DiAgnostiK_LiaScript/)
 
 # liascript example
+
 Zeichen | Typ
 --- | ---
 @Rettungszeichen.Erste_Hilfe(10) | Rettungszeichen
