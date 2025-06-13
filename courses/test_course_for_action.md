@@ -1,6 +1,6 @@
 <!--
 author: Volker Göhler
-version: 0.0.2
+version: 0.0.3
 comment: Test Course for the action release system
 import: https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/makros.md?raw=true
 -->
@@ -9,6 +9,8 @@ import: https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/makros.md?r
 - all courses in courses will be release handled if there are changes detected
 - 
 - action will be triggered with every commit that changes a markdown in courses
+
+- need to set the github pages still
 
 # liascript example
 Zeichen | Typ
