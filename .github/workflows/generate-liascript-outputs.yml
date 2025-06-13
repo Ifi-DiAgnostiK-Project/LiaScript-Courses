@@ -29,7 +29,9 @@ jobs:
           npm install -g @liascript/exporter
 
       - name: Show recent git history for debugging
-        run: git log --oneline --graph --all | head -20
+        run: |
+          cd project
+          git log --oneline --graph --all | head -20
 
       - name: Detect Changed Markdown Files
         id: changes
