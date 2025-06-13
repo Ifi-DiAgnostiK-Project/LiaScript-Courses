@@ -37,9 +37,8 @@ jobs:
         id: changes
         run: |
           cd project
-          echo "changed_files<<EOF" >> $GITHUB_OUTPUT
-          git diff --name-only HEAD^  HEAD | grep '^courses/.*\.md$' || true >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          files=$(git diff --name-only HEAD^  HEAD | grep '^courses/.*\.md$' || true)
+          echo "changed_files=${files//$'\n'/ }" >> $GITHUB_OUTPUT
 
       - name: Export & Release for Each Changed File
         if: steps.changes.outputs.changed_files != ''
