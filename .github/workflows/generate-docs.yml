@@ -57,7 +57,7 @@ jobs:
           for file in $(find courses -type f -name '*.md' | sort); do
             fname=$(basename "$file")
             if [ -n "$fname" ]; then
-              echo "  - url: ${BASE_URL}/courses${fname}" >> project.yml
+              echo "  - url: ${BASE_URL}courses/${fname}" >> project.yml
             else
               echo "Skipping empty file name"
               continue
