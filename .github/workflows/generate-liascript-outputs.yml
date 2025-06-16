@@ -43,6 +43,7 @@ jobs:
       - name: Export & Release for Each Changed File
         if: steps.changes.outputs.changed_files != ''
         run: |
+          set -euo pipefail
           mkdir -p build
           cd project
           for file in ${{ steps.changes.outputs.changed_files }}; do

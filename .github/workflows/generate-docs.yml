@@ -44,6 +44,7 @@ jobs:
 
       - name: Generate project.yml
         run: |
+          set -euo pipefail
           # Define base URL where markdown files will be hosted
           BASE_URL="https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/courses"
 
