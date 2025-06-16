@@ -42,21 +42,21 @@ jobs:
         run: |
           npm install -g @liascript/exporter
 
-      - name: Generate project.yaml
+      - name: Generate project.yml
         run: |
           # Define base URL where markdown files will be hosted
           BASE_URL="https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/courses"
 
           # aggregate
-          cat project-part.yaml > project.yaml
+          cat project-part.yaml > project.yml
 
           # Find all markdown files in courses and append as URLs
           for file in $(find courses -type f -name '*.md' | sort); do
             fname=$(basename "$file")
-            echo "  - url: ${BASE_URL}/${fname}" >> project.yaml
+            echo "  - url: ${BASE_URL}/${fname}" >> project.yml
           done
       
-      - name: Generate index.html from project.yaml
+      - name: Generate index.html from project.yml
         run: |
           liaex -i project.yml --format project --project-generate-cache --output docs/index
 
