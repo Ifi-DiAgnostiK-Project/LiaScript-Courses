@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>DiAgnostiK Kurse</title>
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org/",
+                    "@type": "ItemList",
+                    "itemListElement": [{
+                    "@id": "https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/courses/test_course_for_action.md",
+                        "@type": "Course",
+                        "author": {
+                        "@type": "Person",
+                            "name": "Volker Göhler"
+                    },
+                        "description": "Test Course for the action release system",
+                        "inLanguage": "en",
+                        "license": "https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/LICENSE",
+                        "name": "Test Course",
+                        "url": "https://LiaScript.github.io/course/?https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/courses/test_course_for_action.md",
+                        "version": "0.0.3"
+                }],
+                    "name": "DiAgnostiK Kurse",
+                    "description": "... made with LiaScript ..."
+            }
+        </script>
+        <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/img/Logo_234px.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script>
+            // Globale Variable zum Speichern der ausgewählten Kategorien
+            window.selectedCategories = []
+
+            // Fügt einen Chip hinzu, wenn eine Kategorie gewählt wurde
+            function addCategoryChip(category) {
+                if (!category) return // falls "All categories" gewählt wurde, nichts tun
+                if (window.selectedCategories.indexOf(category) === -1) {
+                    window.selectedCategories.push(category)
+                    // Option im Select-Menü deaktivieren
+                    document.querySelector('#categorySelect option[value="' + category + '"]').disabled = true
+                    updateChipsDisplay()
+                    filterCards()
+                }
+                // Setze das Select-Element zurück
+                document.getElementById('categorySelect').value = ''
+            }
+
+            // Entfernt einen Chip
+            function removeCategoryChip(category) {
+                const index = window.selectedCategories.indexOf(category)
+                if (index > -1) {
+                    window.selectedCategories.splice(index, 1)
+                    // Option im Select-Menü wieder aktivieren
+                    document.querySelector('#categorySelect option[value="' + category + '"]').disabled = false
+                    updateChipsDisplay()
+                    filterCards()
+                }
+            }
+
+            // Aktualisiert die Anzeige der Chips
+            function updateChipsDisplay() {
+                const chipsContainer = document.getElementById('chipsContainer')
+                chipsContainer.innerHTML = ''
+                window.selectedCategories.forEach(function (cat) {
+                    const chip = document.createElement('span')
+                    chip.className = 'badge rounded-pill bg-primary me-2'
+                    chip.style.cursor = 'pointer'
+                    chip.style.fontSize = '1rem'
+                    chip.textContent = cat + ' ×'
+                    chip.onclick = function () {
+                        removeCategoryChip(cat)
+                    }
+                    chipsContainer.appendChild(chip)
+                })
+            }
+
+            function filterCards() {
+                const cards = document.querySelectorAll('div[data-category]')
+                cards.forEach(function (card) {
+                    // Falls keine Filterkategorien ausgewählt wurden, zeige alle Karten
+                    if (window.selectedCategories.length === 0) {
+                        card.parentNode.style.display = "block";
+                        return
+                    }
+                    // Zerlege die im data-Attribut hinterlegten Kategorien
+                    const cardCategories = card.dataset.category.split('|')
+                    // Prüfe, ob alle ausgewählten Kategorien in der Karte vorhanden sind
+                    const show = window.selectedCategories.every(function (cat) {
+                        return cardCategories.indexOf(cat) !== -1
+                    })
+                    if (show) {
+                        card.parentNode.style.display = "block";
+                    } else {
+                        card.parentNode.style.display = "none";
+                    }
+                })
+            }
+        </script>
+    </head>
+    
+    <body>
+        <main>
+            <div class="container-fluid" style="background-size: cover; background-image: url('https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/img/WortBildMarkeSlogan_variante2_cropped.png'); background-position: center center; background-repeat: no-repeat;">
+                <section class="py-5 text-center container">
+                    <div class="row py-lg-5">
+                        <div class="col-lg-6 col-md-8 mx-auto">
+                             <h1 class="fw-light"><span style="background-color: rgba(0,106,179,0.75); padding: 5px; color: white">
+  DiAgnostiK Kurse
+</span>
+</h1>
+
+                            <p class="lead text-muted">
+                                <br> <span style="background-color: rgba(0,106,179,0.75); padding: 5px; color: white">
+  ... made with LiaScript ...
+</span> 
+                            </p>
+                            <div id="chipsContainer" class="mt-3"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="album py-5 bg-light">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-xl-3 g-3">
+                        <div class='col'>
+                            <div class="card shadow-sm m-1" style="height: 100%" data-category="">
+                                <div class="card-body" style="transform: rotate(0);"> <a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/courses/test_course_for_action.md" target="_blank" class="link-dark stretched-link">
+            <h5 class="card-title">Test Course</h5>
+        </a>
+
+                                    <p class="card-text">Test Course for the action release system</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="text-muted py-3">
+            <div class="container">
+                <p class="float-end"> <a href="#">Back to top</a>
+
+                </p>
+                <p>Besuchen Sie uns auf unserer Webseite: <a href="https://uelu-digital.de" target="_blank">https://uelu-digital.de</a> 
+                </p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+
+</html>
