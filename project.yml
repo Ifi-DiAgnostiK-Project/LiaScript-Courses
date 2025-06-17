@@ -1,0 +1,34 @@
+title: > 
+  <span style="background-color: rgba(0,106,179,0.75); padding: 5px; color: white">
+    DiAgnostiK Kurse
+  </span>
+
+comment: >
+  <br>
+  <span style="background-color: rgba(0,106,179,0.75); padding: 5px; color: white">
+    ... made with LiaScript ...
+  </span>  
+
+logo: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/img/WortBildMarkeSlogan_variante2_cropped.png
+
+icon: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/img/Logo_234px.png
+
+footer: >
+  Besuchen Sie uns auf unserer Webseite:
+  <a href="https://uelu-digital.de" target="_blank">https://uelu-digital.de</a>  
+
+# With this settings you can customize social metadata, og-graph for facebook or twitter
+# if not present, the title, comment, and logo will be used.
+# You can explicitly turn this of with the cmd-parameter --project-no-meta
+meta:
+  title: DiAgnostik Projekt Kurs Sammlung
+  description: Sammlung aller Kurse des DiAgnostik Projekts
+
+# A collection is where you put all your courses into, all information, such as title, comment,
+# will be taken from the links that you provide ...
+collection:
+  # - url: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/courses/test_course_for_action.md
+    #  - url: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/tischler_quiz_gen.md
+    # - url: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/test_course_for_action.md
+  - url: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/test/test_course_for_action.md
+
