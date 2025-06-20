@@ -59,7 +59,7 @@ jobs:
             liaex -i "$file" --format ims --output "../build/${filename}_v{version}_IMS"
 
             # Create release per file
-            gh release create "$safe_tag" \
+            gh release create "${safe_tag}_v${version}" \
               --title "Export for $filename (v${version})" \
               "../build/${filename}_v{version}_Documentation.pdf" \
               "../build/${filename}_v{version}_SCORM.zip" \
