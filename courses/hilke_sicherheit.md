@@ -541,14 +541,28 @@ Sechstens. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten? a) Es 
 --> 
 
 
+<section class="flex-container">
+
+<div class="flex-child" style="min-width: 250px">
+
 __6. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten?__
 
 - [( )] a) Es braucht eine zweite Person, die die andere sichert. 
 - [(x)] b) Es muss eine Absturzsicherung vorhanden sein.
 - [( )] c) Die Leiter darf nicht verwendet werden.
 
+</div>
+
+<div class="flex-child" style="min-width: 150px">
+@Verbotszeichen.Fuer_Fussgaenger_verboten(25)
+</div>
+
+</section>
+
 
 >_Können Bilder zur Illustration eingefügt werden - sozusagen rechts neben den Fragen?_
+>
+> **so?** geht mit den flex-containern, ist aber nicht sonderlich nutzerfreundlich :/
 
 ---
 
