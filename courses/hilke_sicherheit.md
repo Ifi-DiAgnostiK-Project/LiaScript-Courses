@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.2
+version:  0.0.4
 
 language: de
 
@@ -414,6 +414,7 @@ Weitere Informationen und alle Sicherheitszeichen findest du auf der BGHM-Websei
 
 ## 5. Arbeitssicherheit und Gesundheitsschutz: Leitern
 <!--
+language: de
 narrator: Deutsch Male
 -->
 
@@ -701,14 +702,17 @@ __Welche Symbole regeln den Umgang mit Leitern?__ 🤔
 
 >_Ich habe leider noch nicht geschnallt, wie ich festlege, welche Symbole die richtigen sind._
 
-@dragdropmultipleimages(@uid,@Leitern.Nur_eine_Person.src, @Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src)
+@dragdropmultipleimages(@uid, @Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src, @Leitern.Nur_eine_Person.src)
 
 
 __Welche Symbole regeln den Umgang mit Leitern?__ 🤔
 
 >_Ich habe leider noch nicht geschnallt, wie ich festlege, welche Symbole die richtigen sind._
+> 
+> Hier ist die Anleitung: @dragdropmultipleimages(@uid, alle, richtige)
+> Die Bilder mit | aneinandreihen und immer die src Varianten verwenden
 
-@dragdropmultipleimages(@uid,@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src,@Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src)
+@dragdropmultipleimages(@uid,@Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src|@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src,@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src)
 
 
 ---

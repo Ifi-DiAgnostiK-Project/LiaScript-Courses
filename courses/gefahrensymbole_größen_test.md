@@ -1,6 +1,6 @@
 <!--
 author: Volker Göhler
-email:    volker.goehler@informatik.tu-freiberg.de
+email:  volker.goehler@informatik.tu-freiberg.de
 language: de
 version: 0.0.1
 comment: this is only a test for image sizes in conjunction with quizes

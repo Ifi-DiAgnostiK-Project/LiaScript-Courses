@@ -1,8 +1,8 @@
 <!--
 author: Volker Göhler
-version: 0.0.3
+version: 0.0.4
 comment: Test Course for the action release system
-import: https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/makros.md?raw=true
+import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 -->
 # Test Course
 
@@ -10,13 +10,14 @@ import: https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/makros.md?r
 - 
 - action will be triggered with every commit that changes a markdown in courses
 
-- ~need to set the github pages still~ -> pages is setup: [pages link](https://vgoehler.github.io/DiAgnostiK_LiaScript/)
+- ~need to set the github pages still~ -> pages is setup: ~[pages link](https://vgoehler.github.io/DiAgnostiK_LiaScript/)~ [new page]{https://ifi-diagnostik-project.github.io/LiaScript-Courses/}
+
 
 # liascript example
 
-Zeichen | Typ
---- | ---
-@Rettungszeichen.Erste_Hilfe(10) | Rettungszeichen
-@Warnzeichen.Automatischer_Anlauf(10) | Warnzeichen
-@Gefahrstoffe.Komprimierte_Gase(10) | Gefahrstoff
-something
+| Zeichen | Typ|
+|--- | ---|
+|@Rettungszeichen.Erste_Hilfe(10) | Rettungszeichen|
+|@Warnzeichen.Automatischer_Anlauf(10) | Warnzeichen|
+|@Gefahrstoffe.Komprimierte_Gase(10) | Gefahrstoff|
+
