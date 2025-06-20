@@ -3,7 +3,7 @@ author: Volker Göhler
 email:    volker.goehler@informatik.tu-freiberg.de
 language: de
 narrator: German Female
-version: 0.0.1
+version: 0.0.2
 comment: this is only a test for image sizes in conjunction with quizes
 
 @style

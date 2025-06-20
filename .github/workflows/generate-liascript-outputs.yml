@@ -48,7 +48,12 @@ jobs:
           cd project
           for file in ${{ steps.changes.outputs.changed_files }}; do
             filename=$(basename "$file" .md)
-            safe_tag=$(echo "$filename" | tr '/' '_' | tr '[:upper:]' '[:lower:]')
+            safe_tag=$(echo "$filename" \
+              | tr '/' '_' \
+              | tr '[:upper:]' '[:lower:]' \
+              | sed -e 's/ä/ae/g' -e 's/ö/oe/g' -e 's/ü/ue/g' -e 's/ß/ss/g' \
+                    -e 's/Ä/ae/g' -e 's/Ö/oe/g' -e 's/Ü/ue/g' \
+                    -e 's/[^a-z0-9_-]//g')
 
             # Extract version from file
             version=$(grep -oP '(?<=version: )[\d.]+' "$file" || echo "unknown")
