@@ -64,6 +64,11 @@ jobs:
             fi
           done
       
+      - name: Debug output
+        run: |
+          echo "Generated project.yml:"
+          cat project.yml
+
       - name: Generate index.html from project.yml
         run: |
           liaex -i project.yml --format project --project-generate-cache --output docs/index

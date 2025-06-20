@@ -19,15 +19,6 @@ jobs:
           path: project
           fetch-depth: 2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '22'
-
-      - name: Install LiaScript Exporter
-        run: |
-          npm install -g @liascript/exporter
-
       - name: Show recent git history for debugging
         run: |
           cd project
@@ -39,6 +30,22 @@ jobs:
           cd project
           files=$(git diff --name-only HEAD^  HEAD | grep '^courses/.*\.md$' || true)
           echo "changed_files=${files//$'\n'/ }" >> $GITHUB_OUTPUT
+
+      - name: Fail Gate
+        if: steps.changes.outputs.changed_files == ''
+        run: |
+          echo "No changed markdown files detected. Skipping export."
+          exit 78
+        continue-on-error: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+
+      - name: Install LiaScript Exporter
+        run: |
+          npm install -g @liascript/exporter
 
       - name: Export & Release for Each Changed File
         if: steps.changes.outputs.changed_files != ''
