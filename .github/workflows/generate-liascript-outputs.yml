@@ -31,12 +31,12 @@ jobs:
           echo "changed_files=${files//$'\n'/ }" >> $GITHUB_OUTPUT
       - name: Save changed files list
         run: |
-          echo "${{ steps.changes.outputs.changed_files }}" > changed_files.txt
+          echo "${{ steps.changes.outputs.changed_files }}" > ./changed_files.txt
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: changed-files
-          path: changed-files.txt
+          path: ./changed-files.txt
 
   generate:
     runs-on: ubuntu-latest
