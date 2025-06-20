@@ -1,8 +1,6 @@
 <!--
 
-author:   
-    - Hilke Domsch
-    - Volker Göhler
+author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
@@ -199,7 +197,7 @@ __Ordne das jeweilige Symbol der richtigen Bedeutung zu.__
 
 --{{0}}--  
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Ordne die Zeichen den passenden Beschreibungen zu.
 Warnung vor elektrischer Spannung
 Aufforderung, Handschuhe zu tragen
@@ -218,7 +216,7 @@ Verbot von offenem Feuer
 
 --{{1}}--  
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Wahr oder falsch?
 Das Symbol "Schutzbrille tragen" ist ein blaues, rundes Gebotszeichen.
 -->
@@ -235,7 +233,7 @@ __Das Symbol "Schutzbrille tragen" ist ein blaues, rundes Gebotszeichen.__
 
 --{{2}}--  
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Was bedeutet das folgende Zeichen?
 a) Brandmelder
 b) Erste-Hilfe-Kasten
@@ -254,7 +252,7 @@ c) Feuerlöscher
 
 --{{3}}--  
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Lückentext:
 Das Zeichen mit einer laufenden Person und einem Pfeil auf grünem Hintergrund kennzeichnet einen Rettungsweg, Notausstieg oder Notausgang. Wähle das richtige Wort aus.
 -->
@@ -267,7 +265,7 @@ Das Zeichen mit einer laufenden Person und einem Pfeil auf grünem Hintergrund k
 
 --{{4}}--  
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Ordne die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:
 -->
 
@@ -286,7 +284,7 @@ Ordne die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:
 
 --{{5}}--  
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Wofür steht dieses Zeichen?
 -->
 
@@ -304,7 +302,7 @@ Wofür steht dieses Zeichen?
 
 --{{0}}--  
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz. 
 Entscheide, ob die folgenden Aussagen wahr oder falsch sind.
 --> 
@@ -316,7 +314,7 @@ __Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz.
 
 --{{1}}--  
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Erstens. Das Bild mit einer Person auf der Leiter und einer Zahl zeigt an, dass die Leiter von insgesamt drei Personen zu nutzen ist: Eine Person, die hinaufsteigt, und zwei Personen, welche die Leiter sichern. Wahr oder falsch? 
 -->
 
@@ -418,15 +416,15 @@ Weitere Informationen und alle Sicherheitszeichen findest du auf der BGHM-Websei
 
 >_Ich würde ab hier eine männliche Stimme haben. Leider funktioniert das bei mir nicht. </article> Des Weiteren möchte ich im nachfolgenden Text Absätze schalten. Wie macht man das?._
 
---{{0}}--   
+    --{{0}}--
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Arbeits- und Gesundheitsschutz: Schwerpunkt Leitern.
 --> 
 
---{{1 Deutsch Male}}--   
+    --{{1 Deutsch Male}}--
 
-<!-- --{{}}--
+<!-- --{{1}}--
 Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten. 
 --> 
 
@@ -462,9 +460,9 @@ __Teste nachfolgend dein Wissen! Wähle jeweils die richtige Antwort aus.__
 
 ## Quiz: Sicherer Umgang mit Leitern I
 
---{{0}}--   
+    --{{0}}--
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Erstens. Welche Maßnahme ist vor jeder Benutzung einer Leiter zwingend erforderlich? a) Die Leiter darf nur in sauberem Zustand genutzt werden. b) Die Leiter ist auf Beschädigungen und Standsicherheit zu kontrollieren. c) Es braucht immer eine zweite Person, um die Leiter zu sichern. 
 --> 
 
@@ -480,7 +478,7 @@ __1. Welche Maßnahme ist vor jeder Benutzung einer Leiter zwingend erforderlich
 
 --{{1}}--   
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Zweitens. Wie sollte eine Anlegeleiter aufgestellt werden? a) Mit einem relativ steilem Anstellwinkel, damit sie wenig Platz braucht. b) Mit einem beliebigen Anstellwinkel - Hauptsache sie steht! c) Mit einem Anstellwinkel von ca. 70 Grad.
 --> 
 
@@ -495,7 +493,7 @@ __2. Wie sollte eine Anlegeleiter aufgestellt werden?__
 
 --{{2}}--   
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Drittens. Was ist beim Transport von Werkzeugen auf der Leiter zu beachten? a) Werkzeug darf in den Hosentaschen und am Gürtel getragen werden. b) Leichtes Werkzeug darf mitgenommen werden, wenn beide Hände zum Festhalten frei bleiben. c) Es dürfen alle für die Arbeit benötigten Werkzeuge auf die Leiter mitgenommen werden. 
 --> 
 
@@ -510,7 +508,7 @@ __3. Was ist beim Transport von Werkzeugen auf der Leiter zu beachten?__
 
 --{{3}}--   
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Viertens. Wann darf eine Leiter als Arbeitsplatz genutzt werden? a) Immer, wenn sie verfügbar ist. Damit ist flexibles Arbeiten möglich. b) Im Ausnahmefall auch für längere Arbeiten, wenn kein Gerüst da ist und flexibel gearbeitet werden soll. c) Nur für kurzzeitige Arbeiten, wenn keine andere Alternative möglich ist.
 --> 
 
@@ -524,7 +522,7 @@ __4. Wann darf eine Leiter als Arbeitsplatz genutzt werden?__
 
 --{{4}}--   
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Fünftens. Wie sollte eine Leiter gekennzeichnet sein, um sie für die Arbeit zu nutzen? a) Die Leiter muss das GS-Zeichen (geprüfte Sicherheit) und zusätzlich die EN 131-Kennzeichnung tragen. b) Die Leiter muss das GS-Zeichen (geprüfte Sicherheit) haben. c) Die Leiter braucht ein Prüfkennzeichen des Firmeninhabers oder Vorarbeiters, dass die Leiter sicher ist. 
 --> 
 
@@ -539,7 +537,7 @@ __5. Wie sollte eine Leiter gekennzeichnet sein, um sie für die Arbeit zu nutze
 
 --{{5}}--   
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Sechstens. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten? a) Es braucht eine zweite Person, die die andere sichert.  b) Es muss eine Absturzsicherung vorhanden sein. c) Die Leiter darf nicht verwendet werden.
 --> 
 
@@ -559,7 +557,7 @@ __6. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten?__
 
 --{{0}}--   
 
-<!-- --{{}}--
+<!-- --{{0}}--
 Beachte bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen.
 --> 
 
