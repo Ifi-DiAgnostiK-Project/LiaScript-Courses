@@ -1,10 +1,12 @@
 <!--
 
-author:   Hilke Domsch
+author:   
+    - Hilke Domsch
+    - Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: de
 
@@ -43,7 +45,7 @@ import: https://raw.githubusercontent.com/wenik35/LiaScript_ImageQuiz/refs/heads
 
 --{{0}}-- 
 
-[](https://liascript.github.io/LiveEditor/liascript/index.html?#1)<!-- --{{}}--
+[](https://liascript.github.io/LiveEditor/liascript/index.html?#1)<!-- --{{0}}--
 Arbeitssicherheit und Gesundheitsschutz
 -->
 
@@ -561,6 +563,14 @@ __6. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten?__
 Beachte bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen.
 --> 
 
+> ```
+> <!-- --{{0}}--
+> Beachte bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen.
+> --> 
+> ```
+> Die Vorlesekommentare brauchen zwingend eine 0 in den Klammern!!!
+
+
 Beachte bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen. 
 
 ---
@@ -576,6 +586,7 @@ __Kannst du die Bilder der richtigen Bedeutung zuordnen?__ 🤔
 
 >_Ich wollte gern  2 falsche Auswahlantworten mit angeben. Leider wird die Antwort als nicht richtig gewertet. Wie kann das erreicht werden?_
 
+> **hat Andre geändert geht jetzt, ist aber immer noch buggy. einfach [] anstelle der () verwenden !?**
 ---
 
 <!-- data-randomize -->
@@ -679,14 +690,14 @@ __Welche Symbole regeln den Umgang mit Leitern?__ 🤔
 
 >_Ich habe leider noch nicht geschnallt, wie ich festlege, welche Symbole die richtigen sind._
 
-@dragdropmultipleimages(@uid,@Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src,@Leitern.Nur_eine_Person.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src)
+@dragdropmultipleimages(@uid,@Leitern.Nur_eine_Person.src, @Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src)
 
 
 __Welche Symbole regeln den Umgang mit Leitern?__ 🤔
 
 >_Ich habe leider noch nicht geschnallt, wie ich festlege, welche Symbole die richtigen sind._
 
-@dragdropmultipleimages(10,@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src,@Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src)
+@dragdropmultipleimages(@uid,@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src,@Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src)
 
 
 ---
