@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: changed-files
-          path: ./changed-files.txt
+          path: ./changed_files.txt
 
   generate:
     runs-on: ubuntu-latest
