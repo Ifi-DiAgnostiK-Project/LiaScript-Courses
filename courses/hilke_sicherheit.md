@@ -414,19 +414,16 @@ Weitere Informationen und alle Sicherheitszeichen findest du auf der BGHM-Websei
 
 ## 5. Arbeitssicherheit und Gesundheitsschutz: Leitern
 
->_Ich würde ab hier eine männliche Stimme haben. Leider funktioniert das bei mir nicht. </article> Des Weiteren möchte ich im nachfolgenden Text Absätze schalten. Wie macht man das?._
-
-    --{{0}}--
+>_Ich würde ab hier eine männliche Stimme haben. Leider funktioniert das bei mir nicht.  Des Weiteren möchte ich im nachfolgenden Text Absätze schalten. Wie macht man das?._
+<!--
+narrator: Deutsch Male
+-->
 
 <!-- --{{0}}--
 Arbeits- und Gesundheitsschutz: Schwerpunkt Leitern.
 --> 
 
-    --{{1 Deutsch Male}}--
-
-<!-- --{{1}}--
-Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten. 
---> 
+--{{1}}--
 
 Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten. Schau dir das nachfolgende Video an.
 -----------------------------------
