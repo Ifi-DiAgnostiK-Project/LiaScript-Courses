@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.4
+version: 0.0.5
 
 language: de
 
@@ -709,11 +709,16 @@ __Welche Symbole regeln den Umgang mit Leitern?__ 🤔
 
 >_Ich habe leider noch nicht geschnallt, wie ich festlege, welche Symbole die richtigen sind._
 > 
-> Hier ist die Anleitung: @dragdropmultipleimages(@uid, alle, richtige)
+> Hier ist die Anleitung: `@dragdropmultipleimages(@uid, falsche, richtige)`
 > Die Bilder mit | aneinandreihen und immer die src Varianten verwenden
+> Ist aber noch sehr Buggy, ich frag mal Niklas !
 
-@dragdropmultipleimages(@uid,@Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src|@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src,@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src)
+@dragdropmultipleimages(@uid,@Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src,@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src)
 
+testquiz
+====
+
+@dragdropmultipleimages(@uid, @Warnzeichen.Laserstrahl.src, @Leitern.Nur_eine_Person.src)
 
 ---
 Geschafft! 🙌
