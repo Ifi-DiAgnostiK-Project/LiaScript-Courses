@@ -48,7 +48,7 @@ jobs:
         run: |
           set -euo pipefail
           # Define base URL where markdown files will be hosted
-          BASE_URL="https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/"
+          BASE_URL="https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/"
 
           # aggregate
           cat project-part.yaml > project.yml
