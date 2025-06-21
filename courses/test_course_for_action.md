@@ -1,6 +1,7 @@
 <!--
 author: Volker Göhler
-version: 0.0.4
+version: 0.0.5
+title: Test Course in LiaScript
 comment: Test Course for the action release system
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 -->

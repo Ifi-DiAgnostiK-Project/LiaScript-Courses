@@ -1,11 +1,13 @@
 <!--
 author:   Volker Göhler
 
+title:  Einführung in LaTeX-Mathematik mit LiaScript
+
 language: de
 
 email:    volker.goehler@informatik.tu-freiberg.de
 
-version: 0.0.1
+version: 0.0.2
 
 narrator: German Female
 
