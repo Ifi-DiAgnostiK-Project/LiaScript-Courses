@@ -122,6 +122,8 @@ jobs:
       - name: Checkout repository
         if: steps.read_changes.outputs.changed_files != ''
         uses: actions/checkout@v4
+        with:
+          persistent-credentials: false
 
       - name: Set up Node.js
         if: steps.read_changes.outputs.changed_files != ''
@@ -180,7 +182,7 @@ jobs:
           git commit -m "Update index.html from project.yaml"|| echo "No changes to commit"
         env:
           # Required for authentication
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PUSH_INDEX_2 }}
       - name: Push changes
         if: steps.read_changes.outputs.changed_files != ''
         uses: ad-m/github-push-action@v0.8.0
