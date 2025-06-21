@@ -1,11 +1,11 @@
 title: > 
-  <span style="background-color: rgba(0,106,179,0.75); padding: 5px; color: white">
+  <span style="background-color: rgba(0,106,179,0.5); padding: 5px; color: white">
     DiAgnostiK Kurse
   </span>
 
 comment: >
   <br>
-  <span style="background-color: rgba(0,106,179,0.75); padding: 5px; color: white">
+  <span style="background-color: rgba(0,106,179,0.5); padding: 5px; color: white">
     ... made with LiaScript ...
   </span>  
 
