@@ -21,4 +21,3 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/ref
 |@Rettungszeichen.Erste_Hilfe(10) | Rettungszeichen|
 |@Warnzeichen.Automatischer_Anlauf(10) | Warnzeichen|
 |@Gefahrstoffe.Komprimierte_Gase(10) | Gefahrstoff|
-
