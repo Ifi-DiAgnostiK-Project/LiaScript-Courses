@@ -178,7 +178,13 @@ jobs:
         run: |
           git add docs/index.html
           git commit -m "Update index.html from project.yaml"|| echo "No changes to commit"
-          git push
         env:
           # Required for authentication
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push changes
+        if: steps.read_changes.outputs.changed_files != ''
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.push_index}}
+          branch: main
+          directory: ./docs
