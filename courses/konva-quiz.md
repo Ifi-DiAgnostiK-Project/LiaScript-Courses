@@ -1,6 +1,9 @@
 <!--
 author: Niklas Werner
+version: 0.0.1
 script: https://cdn.jsdelivr.net/npm/konva@latest/konva.min.js
+comment: This is a test for the Konva library in LiaScript, demonstrating how to create shapes and measure their dimensions using arrows and labels.
+edit: true
 
 @Konva
 <div id='container-@0'></div>
@@ -48,7 +51,10 @@ script: https://cdn.jsdelivr.net/npm/konva@latest/konva.min.js
 
 -->
 
-# LiaScript Badges
+# Konva Quiz
+
+LiaScript Badges
+========
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/main/konva-quiz.md)
 
