@@ -3,8 +3,10 @@ author: Volker Göhler
 email:    volker.goehler@informatik.tu-freiberg.de
 language: de
 narrator: German Female
-version: 0.0.2
+version: 0.0.3
 comment: this is only a test for image sizes in conjunction with quizes
+
+import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 
 @style
 .flex-container {
@@ -30,13 +32,13 @@ comment: this is only a test for image sizes in conjunction with quizes
 -->
 # LiaScript Badges
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/master/gefahrensymbole_größen_test_v2.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/raw/refs/heads/main/courses/gefahrensymbole_gr%C3%B6%C3%9Fen_test_v2.md)
 
 # Quiztest
 
-> Wenn ich nur ein Bild setze dann nimmt das den gesamten Space ein. Ich würde nun das Ding als html einbinden und die größe Händisch festlegen, aber das kann ich den User nicht erklären. Im Pandoc gibt es die möglichkeit die Größe als Option in `{height=5cm}` z.B. mitzugeben, aber der rendered dann auch (bei mir ) latex.
+## Bild über Quiz
 
-![Brandschutzzeichen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandmelder.jpg?raw=true)<!-- style="width: 50%" -->
+@Brandschutzzeichen.Brandmelder(10)
 
 Um was für ein Zeichen handelt es sich:
 
@@ -46,102 +48,104 @@ Um was für ein Zeichen handelt es sich:
 
 ---------------------
 
+## Layout daneben
+
+Wir nutzen flex-container und flex-child, um die Bilder nebeneinander zu platzieren. Dies sind HTML Elemente, die bis zu ihrem Ende `<div></div>` interpretieren werden und dann geschlossen sind.
+
+> An Markdown Images können wir den Container als Kommentar drüber schreiben.
+> Die minimalen Breiten können mit dem `style: min-width` Attribut gesetzt werden, damit die Bilder nicht zu klein werden.
+> Um das Bild selber in der Größe zu verändern können wir einen `style: width` tag anhängen, ebenfalls als html Kommentar.
+
+```html
 <section class="flex-container">
 
 <!-- class="flex-child" style="min-width: 250px;" -->
-![Brandschutzzeichen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandmelder.jpg?raw=true)
+![Bildbeschreibung](Bildadresse)<!--style="width: 200px;"-->
+
+<div class="flex-child" style="min-width: 250px">
+
+Um was für ein Zeichen handelt es sich:
+
+- [(X)] Sicherheitszeichen Brandleiter
+- [( )] falsche Antwort
+- [( )] auch falsch ;)
+
+</div>
+</section>
+```
+
+<section class="flex-container">
+
+<!-- class="flex-child" style="min-width: 250px;" -->
+![Brandschutzzeichen](https://raw.githubusercontent.com/vgoehler/DiAgnostiK_Bilder_Test/refs/heads/main/img/Brandschutzzeichen/Feuerleiter.jpg)<!--style="width: 200px;"-->
 
 <div class="flex-child" style="min-width: 250px">
 Um was für ein Zeichen handelt es sich:
 
-- [(X)] Sicherheitszeichen Brandmelder
+- [(X)] Sicherheitszeichen Brandleiter
 - [( )] falsche Antwort
 - [( )] auch falsch ;)
 
 </div>
 </section>
 
+----------------------
 
+Beim einbinden der Bilder als Makros `@Kategorie.Bild(Größe)` müssen wir das Bild auch mit einem div umschließen, damit es in der Flexbox funktioniert.
 
-
----
-
-> Wenn 2 nebeneinander liegen ist die individuelle Größe gut, aber hab dann eben 2 Bilder. ;)
-
-![Brandschutzzeichen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Brandbek%C3%A4mpfung.jpg?raw=true)
-![Brandschutzzeichen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Brandbek%C3%A4mpfung.jpg?raw=true)
-
-- [( )] nicht hier klickern
-- [( )] falsch
-- [(X)] Sicherheitszeichen Brandschutz Brandbekämpfung
-
-----
-
+```html
 <section class="flex-container">
 
-<!-- class="flex-child" style="min-width: 250px;" -->
-![Brandschutzzeichen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Brandbek%C3%A4mpfung.jpg?raw=true)
-
-<!-- class="flex-child" style="min-width: 250px;" -->
-![Brandschutzzeichen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Brandbek%C3%A4mpfung.jpg?raw=true)
+<div class="flex-child" style="min-width: 250px">
+@Brandschutzzeichen.Brandmeldetelefon(15)
+</div>
 
 <div class="flex-child" style="min-width: 250px">
 Um was für ein Zeichen handelt es sich:
 
-- [(X)] Sicherheitszeichen Brandmelder
+- [(X)] Sicherheitszeichen Brandmeldetelefon
+- [( )] falsche Antwort
+- [( )] auch falsch ;)
+
+</div>
+</section>
+```
+
+<section class="flex-container">
+
+<div class="flex-child" style="min-width: 250px">
+@Brandschutzzeichen.Brandmeldetelefon(15)
+</div>
+
+<div class="flex-child" style="min-width: 250px">
+Um was für ein Zeichen handelt es sich:
+
+- [(X)] Sicherheitszeichen Brandmeldetelefon
 - [( )] falsche Antwort
 - [( )] auch falsch ;)
 
 </div>
 </section>
 
------------
+-----------------------
 
+# Vorlesen von Quizes
 
-<section class="flex-container">
+Zum Vorlesen der Aufgabe können wir einen Kommentar verwenden. Diesen unter das Quiz packen.
+Die Zahl steuert die Reihenfolge der Vorlesung.
 
-<!-- class="flex-child" style="min-width: 250px;" -->
-![Brandschutzzeichen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Brandbek%C3%A4mpfung.jpg?raw=true)
-
-<!-- class="flex-child" style="min-width: 250px;" -->
-![Brandschutzzeichen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Brandbek%C3%A4mpfung.jpg?raw=true)
-
-</section>
-
-Um was für ein Zeichen handelt es sich:
-
-- [(X)] Sicherheitszeichen Brandmelder
-- [( )] falsche Antwort
-- [( )] auch falsch ;)
-
----
-
-> Hier ist mein Hack dafür. ;) not ideal.
-
-![Brandschutzzeichen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/Brandschutzzeichen/Sicherheitszeichen_Brandschutz_Feuerl%C3%B6scher.jpg?raw=true)
-![weißes Bild](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/blank.jpg?raw=true)
-
-
-- [( )] falsch
-- [(X)] Feuerlöscher
-- [( )] ganz falsch
-
-
-## 1. __Für welches Aufgabengebiet ist die Berufsgenossenschaft zuständig?__
+```markdown
+-> Quiz <-
 
 <!-- --{{0}}--
-Für welches Aufgabengebiet ist die Berufsgenossenschaft zuständig?
-a. Mutterschutz b. Schutz vor Gefahren am Arbeitsplatz c. Sportunfälle
---> 
+Hier steht unser Text, der vorgelesen werden soll.
+-->
 
-- [( )] Mutterschutz
-- [(X)] Schutz vor Gefahren am Arbeitsplatz
-- [( )] Sportunfälle
+```
 
 
-## 1. __Für welches Aufgabengebiet ist die Berufsgenossenschaft zuständig?__
-
-So tut es ...
+1. Für welches Aufgabengebiet ist die Berufsgenossenschaft zuständig?
+===
 
 - [( )] Mutterschutz
 - [(X)] Schutz vor Gefahren am Arbeitsplatz
@@ -153,4 +157,8 @@ a. Mutterschutz b. Schutz vor Gefahren am Arbeitsplatz c. Sportunfälle
 --> 
 
 --{{1}}--
-more talkingpoints
+Dieser Text steht auf der Seite und wird vorgelesen.
+
+<!-- --{{2}}--
+Gratulation, Sie haben die Aufgabe erfolgreich gelöst.
+--> 

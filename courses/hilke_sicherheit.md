@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.5
+version: 0.0.6
 
 language: de
 
@@ -12,7 +12,7 @@ narrator: Deutsch Female
 
 comment:  Arbeitssicherheit & Gesundheitsschutz
 import: https://raw.githubusercontent.com/wenik35/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
-import: https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/makros.md?raw=true
+import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 import: https://raw.githubusercontent.com/wenik35/LiaScript_ImageQuiz/refs/heads/main/README.md
 
 
