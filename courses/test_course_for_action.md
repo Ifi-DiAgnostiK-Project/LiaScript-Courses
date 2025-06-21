@@ -1,7 +1,7 @@
 <!--
 author: Volker Göhler
 email: volker.goehler@informatik.tu-freiberg.de
-version: 0.0.9
+version: 0.0.10
 edit: true
 date: 2025-05-20
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
