@@ -87,7 +87,7 @@ jobs:
                     -e 's/[^a-z0-9_-]//g')
 
             # Extract version from file
-            version=$(grep -oP '(?<=version:\s*)[\d.]+' "$file" || echo "unknown")
+            version=$(grep -oP 'version:\s*\K[\d.]+' "$file" || echo "unknown")
 
             # Export assets
             liaex -i "$file" --format pdf --output "../build/${filename}_v${version}_Documentation" --pdf-timeout 50000
