@@ -32,7 +32,8 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/ref
 -->
 # LiaScript Badges
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/raw/refs/heads/main/courses/gefahrensymbole_gr%C3%B6%C3%9Fen_test_v2.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/raw/refs/heads/main/courses/gefahrensymbole_groessen_test_v2.md)
+
 
 # Quiztest
 
