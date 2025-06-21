@@ -185,6 +185,6 @@ jobs:
         if: steps.read_changes.outputs.changed_files != ''
         uses: ad-m/github-push-action@v0.8.0
         with:
-          github_token: ${{ secrets.push_index}}
+          github_token: ${{ secrets.PUSH_INDEX_HTML_PAT}}
           branch: main
           directory: ./docs
