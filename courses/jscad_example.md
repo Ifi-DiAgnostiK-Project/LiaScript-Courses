@@ -1,10 +1,14 @@
 <!--
 
+author: Niklas Werner
+version: 0.0.1
+comment: This is a JSCAD example
+edit: true
 import:  https://raw.githubusercontent.com/LiaTemplates/jscad/0.0.1/README.md
 
 -->
 
-# JSCAD
+# JSCAD Example
 
 ``` js @JSCAD
 "use strict"
