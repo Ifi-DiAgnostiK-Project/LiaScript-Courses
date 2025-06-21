@@ -3,7 +3,7 @@ author: Volker Göhler
 email:    volker.goehler@informatik.tu-freiberg.de
 language: de
 narrator: German Female
-version: 0.0.3
+version: 0.0.4
 comment: this is only a test for image sizes in conjunction with quizes
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
