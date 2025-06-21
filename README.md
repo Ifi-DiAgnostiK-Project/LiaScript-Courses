@@ -10,3 +10,8 @@ Generated LiaScript Courses for DiAgnostiK Project
 
 - all courses are on our docs site:
 - [https://ifi-diagnostik-project.github.io/LiaScript-Courses/](https://ifi-diagnostik-project.github.io/LiaScript-Courses/)
+
+## Developer Note
+
+- Workflows push automatically to website if there is a change in `courses/`
+- we need a PAT for this with contents and workflows r/w
