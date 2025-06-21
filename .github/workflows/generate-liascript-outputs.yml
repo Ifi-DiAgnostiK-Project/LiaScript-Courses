@@ -164,6 +164,7 @@ jobs:
       - name: Generate index.html from project.yml
         if: steps.read_changes.outputs.changed_files != ''
         run: |
+          set -euo pipefail
           liaex -i project.yml --format project --project-generate-cache --output docs/index
 
       - name: Configure Git
