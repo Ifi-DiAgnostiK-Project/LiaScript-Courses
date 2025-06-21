@@ -1,10 +1,12 @@
 <!--
 author: Volker Göhler
 email:    volker.goehler@informatik.tu-freiberg.de
-title: Gefahrensymbole Größen Test V2
 language: de
 narrator: German Female
-version: 0.0.5
+version: 0.0.6
+edit: true
+date: 2025-06-10
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 comment: this is only a test for image sizes in conjunction with quizes
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
@@ -31,7 +33,10 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/ref
 @end
 
 -->
-# LiaScript Badges
+# Gefahrensymbole Größen Test V2
+
+LiaScript Badges
+====
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/raw/refs/heads/main/courses/gefahrensymbole_groessen_test_v2.md)
 

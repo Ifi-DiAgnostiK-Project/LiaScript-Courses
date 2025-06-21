@@ -1,22 +1,29 @@
 <!--
 author:   Volker Göhler
 
-title:  Einführung in LaTeX-Mathematik mit LiaScript
-
 language: de
 
 email:    volker.goehler@informatik.tu-freiberg.de
 
-version: 0.0.2
+version: 0.0.3
 
 narrator: German Female
+
+edit: true
+
+date: 2025-05-10
+
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 
 comment:  this short course explains math mode in liascript (in german)
 
 import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
 -->
 
-# LiaScript Badges
+# Einführung in LaTeX-Mathematik mit LiaScript
+
+LiaScript Badges
+========================
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/master/mathe_bsp.md)
 

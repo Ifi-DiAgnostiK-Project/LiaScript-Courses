@@ -1,8 +1,10 @@
 <!--
 author: Hilke Domsch
-title: Gefahrensymbole als Testquizze und Layout
 comment: Hilkes Fragen am 20.05.25, mit Volkers Antworten
-version: 0.0.3
+version: 0.0.4
+edit: true
+date: 2025-05-20
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 import: https://raw.githubusercontent.com/wenik35/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 import: https://raw.githubusercontent.com/wenik35/LiaScript_ImageQuiz/refs/heads/main/README.md
@@ -30,7 +32,9 @@ import: https://raw.githubusercontent.com/wenik35/LiaScript_ImageQuiz/refs/heads
 }
 @end
 -->
-# LiaScript Badges
+# Gefahrensymbole als Testquizze und Layout
+LiaScript Badges
+====
 
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/main/gefahrensymbole_als_Testquizze_und_Layout.md)

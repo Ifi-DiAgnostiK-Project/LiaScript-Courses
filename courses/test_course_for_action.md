@@ -1,11 +1,13 @@
 <!--
 author: Volker Göhler
-version: 0.0.5
-title: Test Course in LiaScript
+version: 0.0.6
+edit: true
+date: 2025-05-20
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 comment: Test Course for the action release system
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 -->
-# Test Course
+# Test Course in LiaScript
 
 - all courses in courses will be release handled if there are changes detected
 - 

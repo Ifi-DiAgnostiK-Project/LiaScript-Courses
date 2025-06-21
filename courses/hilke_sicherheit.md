@@ -4,13 +4,15 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-title: Arbeitssicherheit und Gesundheitsschutz
-
-version: 0.0.8
+version: 0.0.9
 
 language: de
 
 narrator: Deutsch Female
+
+edit: true
+date: 2025-06-15
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 
 comment:  Hilkes Kurs mit Fragen zu LiaScript
 
