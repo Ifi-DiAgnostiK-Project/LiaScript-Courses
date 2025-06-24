@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler
 
 email:    jan.franke@hwk-dresden.de
  
-version:  0.0.1
+version:  0.0.2
  
 language: de
  
@@ -42,27 +42,25 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
 
 -->
  
-
-# Probier dich einfach mal aus :-)
-
-
-
 ## Überprüfe hier dein Wissen zu den Holzarten
+
+__Probier dich einfach mal aus__ 😊.
 
 ### Bevor wir mit dem Quiz beginnen, kannst du dich im Film informieren, wie aus einem Baumstamm ein Brett entsteht
 
 !?[](https://youtu.be/veoFy8ty9Q8?si=p5xSav-HDr9Avk5n)
 
 Welche Holzart erkennst du hier?
+===
 
-![](img/78c4079dabd58afc91d0be6ebd3e3f389c8af08a.jpeg)
+![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/78c4079dabd58afc91d0be6ebd3e3f389c8af08a.jpeg)
 
 - [[x]] Ahorn
 - [[ ]] Fichte
 - [[ ]] Kiefer
 - [[ ]] Zeder
 
-![](img/5e520f8694d34696f83bf568388b0dfd1e300b84.jpeg)
+![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/5e520f8694d34696f83bf568388b0dfd1e300b84.jpeg)
 
 - [[ ]] Ahorn
 - [[x]] Birke
@@ -71,10 +69,10 @@ Welche Holzart erkennst du hier?
 
 <section class="flex-container">
 <div class="flex-child">
-![](img/834543b7e8b5418443110258628f76915d6eae70.jpeg)<!-- style="width: 250px" -->
+![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/834543b7e8b5418443110258628f76915d6eae70.jpeg)<!-- style="width: 250px" -->
 </div>
 <div class="flex-child">
-![](img/71b1d7fab8e7554438c16292c49261894df41bff.jpeg)<!-- style="width: 250px" -->
+![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/71b1d7fab8e7554438c16292c49261894df41bff.jpeg)<!-- style="width: 250px" -->
 </div>
 </section>
 
@@ -97,17 +95,16 @@ Die Buche  wird sehr gerne aufgrund ihrer [[ wilden Wuchsform |   (gleichmäßig
 
 ## Und weiter gehts mit dem Quiz
 
-Schaue dir dazu den nächsten Film an<F6>
-====
+Schaue dir dazu den nächsten Film an.
+
 
 !?[](https://youtu.be/QP7nOjA9si8?si=LXjAJXKKXkOx9Sim)
 
-
--   [[![Ahorn](https://)![](img/78c4079dabd58afc91d0be6ebd3e3f389c8af08a.jpeg) <!-- style="width: 100px" -->]        (![Balsa](https://)![](img/1c4945f4d6de59e7f52b79bdece3db8579d5bf11.jpeg) <!-- style="width: 100px" -->)                 [![Fichte](https://)![](img/b9fb21a6efb67e30927e96685605779ed132bd86.jpeg) <!-- style="width: 100px" -->]               [![Pockholz](https://)![](img/751501db64601f0f609856c7df3aa7f2ce1388c9.jpeg) <!-- style="width: 100px" -->]]
-- [    ( )              ( )                      (x)     ]  sehr hart
-- [    ( )              (X)                      ( )     ]  Sehr weich
-- [    ( )              ( )                      (x)     ]  hart
-- [    ( )              ( )                      ( )     ]  weich
+- [ [sehr hart] [hart] [weich] [sehr weich]  ]
+- [  ( )  (x)  ( )   ( ) ] __Ahorn__ ![Ahorn](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/78c4079dabd58afc91d0be6ebd3e3f389c8af08a.jpeg) <!-- style="width: 100px" -->
+- [  ( )  ( )  ( )  (x) ] __Balsa__ ![Balsa](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/1c4945f4d6de59e7f52b79bdece3db8579d5bf11.jpeg) <!-- style="width: 100px" -->
+- [  ( )  ( )  (x)  ( ) ] __Fichte__ ![Fichte](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/b9fb21a6efb67e30927e96685605779ed132bd86.jpeg) <!-- style="width: 100px" -->
+- [  (x)  ( )  ( )  ( ) ] __Pockholz__ ![Pockholz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/751501db64601f0f609856c7df3aa7f2ce1388c9.jpeg) <!-- style="width: 100px" -->
 
 
 ## Volkers Quiz - ich zeig hier mal die Bilder Quizes von Niklas:
@@ -129,7 +126,7 @@ Alle Bilder sind die Pfadangaben zu Bildern, die aktuell im Ordner `img/` liegen
 Was ist der Ahorn?
 =====
 
-@selectimages(@uid, 10, img/78c4079dabd58afc91d0be6ebd3e3f389c8af08a.jpeg, img/1c4945f4d6de59e7f52b79bdece3db8579d5bf11.jpeg|img/b9fb21a6efb67e30927e96685605779ed132bd86.jpeg)
+@selectimages(@uid, 10, https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/78c4079dabd58afc91d0be6ebd3e3f389c8af08a.jpeg, https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/1c4945f4d6de59e7f52b79bdece3db8579d5bf11.jpeg|https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/b9fb21a6efb67e30927e96685605779ed132bd86.jpeg)
 
 Drag and Drop Quiz
 =======
@@ -147,8 +144,8 @@ Alle Bilder sind die Pfadangaben zu Bildern, die aktuell im Ordner `img/` liegen
 Ziehe alle Hardhölzer in die Box
 ===
 
-> weiss nicht was hier die richtigen sind :) Hab jetzt Ahorn und Fichte genommen aus dem matrix quiz
+> weiss nicht was hier die richtigen sind :) Hab jetzt Ahorn und Pockholz genommen aus dem matrix quiz
 
-@dragdropmultipleimages(@uid, img/78c4079dabd58afc91d0be6ebd3e3f389c8af08a.jpeg|img/b9fb21a6efb67e30927e96685605779ed132bd86.jpeg, img/1c4945f4d6de59e7f52b79bdece3db8579d5bf11.jpeg|img/751501db64601f0f609856c7df3aa7f2ce1388c9.jpeg)
+@dragdropmultipleimages(@uid, https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/78c4079dabd58afc91d0be6ebd3e3f389c8af08a.jpeg|https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/751501db64601f0f609856c7df3aa7f2ce1388c9.jpeg, https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/1c4945f4d6de59e7f52b79bdece3db8579d5bf11.jpeg||https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/b9fb21a6efb67e30927e96685605779ed132bd86.jpeg)
 
 
