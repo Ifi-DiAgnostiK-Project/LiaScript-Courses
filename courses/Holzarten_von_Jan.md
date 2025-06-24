@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler
 
 email:    jan.franke@hwk-dresden.de
  
-version:  0.0.2
+version:  0.0.3
  
 language: de
  
@@ -39,6 +39,11 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
     }
 }
 @end
+
+@Fichte: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/b9fb21a6efb67e30927e96685605779ed132bd86.jpeg
+@Balsa: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/1c4945f4d6de59e7f52b79bdece3db8579d5bf11.jpeg
+@Ahorn: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/78c4079dabd58afc91d0be6ebd3e3f389c8af08a.jpeg
+@Pockholz: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/751501db64601f0f609856c7df3aa7f2ce1388c9.jpeg
 
 -->
  
@@ -126,7 +131,7 @@ Alle Bilder sind die Pfadangaben zu Bildern, die aktuell im Ordner `img/` liegen
 Was ist der Ahorn?
 =====
 
-@selectimages(@uid, 10, https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/78c4079dabd58afc91d0be6ebd3e3f389c8af08a.jpeg, https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/1c4945f4d6de59e7f52b79bdece3db8579d5bf11.jpeg|https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/b9fb21a6efb67e30927e96685605779ed132bd86.jpeg)
+@selectimages(@uid, 10, @Ahorn, @Balsa|@Fichte)
 
 Drag and Drop Quiz
 =======
@@ -146,6 +151,6 @@ Ziehe alle Hardhölzer in die Box
 
 > weiss nicht was hier die richtigen sind :) Hab jetzt Ahorn und Pockholz genommen aus dem matrix quiz
 
-@dragdropmultipleimages(@uid, https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/78c4079dabd58afc91d0be6ebd3e3f389c8af08a.jpeg|https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/751501db64601f0f609856c7df3aa7f2ce1388c9.jpeg, https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/1c4945f4d6de59e7f52b79bdece3db8579d5bf11.jpeg||https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/b9fb21a6efb67e30927e96685605779ed132bd86.jpeg)
+@dragdropmultipleimages(@uid, @Ahorn|@Pockholz, @Balsa|@Fichte)
 
 
