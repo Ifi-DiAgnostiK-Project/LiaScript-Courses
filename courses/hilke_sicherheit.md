@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.10
+version: 0.0.11
 
 language: de
 
@@ -77,14 +77,57 @@ __In welcher Zeile befinden sich Warnschilder?__
 In welcher Zeile befinden sich Warnschilder? Zeile 1, 2 oder 3?
 -->
 
-[[ __Zeile 1__ | (Zeile 2) | __Zeile 3__]]
 
-Zeile 1: ![Brandschutzzeichen](647e2d936eca4a6f97e3a605b52d072aa1d4101b.jpg) <!-- style="width: 500px" -->
+<!-- --{{2}}
+Hallo Hilke. Ich hab das Quiz mal umgebaut. Jede Zeile sind jetzt section container mit flex und darin hab ich die einzelnen elemente eingebunden. tut mir leid das das bisschen länglich ist.
+-->
 
-Zeile 2: ![Warnschilder](21af2562dc0bfc60e0468a992fdc21a17275c4d4.jpg) <!-- style="width: 500px" -->
+<section class="flex-container" style="padding: 1rem;">
+<div style="padding-top:3rem;">
+__Zeile 1:__
+</div>
+<div class="flex-child">
+@Brandschutzzeichen.Feuerloescher(10)
+</div>
+<div class="flex-child">
+@Brandschutzzeichen.Loeschschlauch(10)
+</div>
+<div class="flex-child">
+@Brandschutzzeichen.Feuerleiter(10)
+</div>
+</section>
 
-Zeile 3: ![Verbotsschilder](659139c9134e7bb834fc214a167a59c419095110.jpg) <!-- style="width: 500px" -->
+<section class="flex-container" style="padding: 1rem;">
+<div style="padding-top:3rem;">
+__Zeile 2:__
+</div>
+<div class="flex-child">
+@Warnzeichen.Elektrische_Spannung(10)
+</div>
+<div class="flex-child">
+@Warnzeichen.Flurfoerderzeugen(10)
+</div>
+<div class="flex-child">
+@Warnzeichen.Schwebende_Last(10)
+</div>
+</section>
 
+<section class="flex-container" style="padding: 1rem;">
+<div style="padding-top:3rem;">
+__Zeile 3:__
+</div>
+<div class="flex-child">
+@Verbotszeichen.Zutritt_fuer_Unbefugte_verboten(10)
+</div>
+<div class="flex-child">
+@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten(10)
+</div>
+<div class="flex-child">
+@Verbotszeichen.Allgemeines_Verbotszeichen(10)
+</div>
+</section>
+
+[[ __Zeile 1__ | (__Zeile 2__) | __Zeile 3__]]
 
 ## 1. Brandschutzzeichen
 
@@ -249,7 +292,7 @@ c) Feuerlöscher
 ===
 
 <!-- data-randomize -->
-![Feuerlöscher](4cd67a9dc9be2d133548247ca870fbbdcc5649bd.jpg) <!-- style="width: 100px" -->
+@Brandschutzzeichen.Feuerloescher(10)
 
 - [( )] Brandmelder
 - [( )] Erste-Hilfe-Kasten
