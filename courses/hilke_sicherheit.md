@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.11
+version: 0.0.12
 
 language: de
 
@@ -14,7 +14,7 @@ edit: true
 date: 2025-06-15
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 
-comment:  Hilkes Kurs mit Fragen zu LiaScript
+comment:  Arbeitssicherheit & Gesundheitsschutz
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
@@ -40,6 +40,15 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
         margin-right: 0; /* Removes the right margin */
     }
 }
+
+.image_matrix img {
+    padding: 3px;
+    margin: 5px;
+    width: 100px;
+    border: 1px black solid;
+    display:inline-block;
+}
+
 @end
 
 -->
@@ -52,6 +61,9 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
 Arbeitssicherheit und Gesundheitsschutz
 -->
 
+>_Bitte auf Zeilenumbrüche achten, z. B. "Zeile 1:" -- darunter sollen erst die 3 Bilder erscheinen. Um bei verschiedenen Browsern dies zu sichern, ist der Zeilenumbruch festzulegen!_
+
+>_Wie oft darf eine Frage falsch beantwortet werden, bevor die Lösung angezeigt wird? Wie wird im Hintergrund für den Lehrer registriert, wie viele Versuche es gab?_
 
 Arbeitsbedingte Gesundheitsgefahren, Unfälle und Erkrankungen sollen gar nicht erst entstehen. Dazu ist es wichtig, Gefahrenhinweise und Symbole richtig zu verstehen.
 Vor allem junge Menschen sind am Arbeitsplatz besonders gefährdet, weil sie (noch) nicht über alle nötigen Kenntnisse verfügen.
@@ -201,7 +213,7 @@ __Welches dieser Zeichen ist ein Rettungszeichen?__
 
 >_Klappt das mit dem Randomize auch bei einer Matrixaufgabe?_
 
->_Wo kann ich den Rückmeldetext ändern?_
+>_Wo kann ich den Rückmeldetext ändern? Ich hätte gern bei einer falschen Antwort: "Das war leider nicht richtig. Versuch's nochmal!👋"_
 
 --{{1}}--  
 
@@ -352,13 +364,17 @@ Wofür steht dieses Zeichen?
 
 <!-- --{{0}}--
 Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz. 
-Entscheide, ob die folgenden Aussagen wahr oder falsch sind.
+Entscheide, ob die folgenden Aussagen wahr oder falsch sind. Es können mehrere Antworten richtig sein.
 --> 
 
-__Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz. Entscheide, ob die folgenden Aussagen wahr oder falsch sind!__
+__Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz. Entscheide, ob die folgenden Aussagen wahr oder falsch sind! Es können mehrere Antworten richtig sein.__
 ===
 
 >_Ich habe in der Vertonung die Fragennummern mit eingesprochen, möchte aber gern, dass zukünftig das Quiz in beliebiger Reihenfolge abgespielt wird. Bitte angeben, wie ich das ändern/verbessern kann._
+
+>_Die Aussage "Es können mehrere Antworten richtig sein." hätte ich gern wieder auf einer neuen Zeile = Zeilenumbruch. Wie geht das?_
+
+--- 
 
 --{{1}}--  
 
@@ -375,6 +391,7 @@ __1. Das Bild mit einer Person auf der Leiter und einer Zahl zeigt an, dass die 
 
 >_Wie kann ich einen Absatz in der Textanleitung generieren?_
 
+---
 
 --{{2}}--  
 
@@ -386,6 +403,7 @@ __2. Brandschutzzeichen sind immer orange-schwarz. __
 
 [[ wahr | (falsch) ]]
 
+---
 
 --{{3}}--  
 
@@ -399,6 +417,9 @@ __3. Das Bild bedeutet, dass Leitern nur bei entsprechenden Witterungsbedingunge
 
 [[ (wahr) | falsch ]]
 
+---
+
+
 --{{4}}--  
 
 <!-- --{{}}--
@@ -408,9 +429,11 @@ Viertens. Diese Abbildung zeigt, dass bei der Arbeit kein Wasser aus dem Gartens
 ![Wasser spritzen verboben](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Verbotszeichen/Mit_Wasser_spritzen_verboten.jpg?raw=true) <!-- style="width: 130px" -->
 
 
-__4. Diese Abbildung zeigt, dass bei der Arbeit kein Wasser aus dem Gartenschlauch entnommen werden darf.__
+__4. Diese Abbildung zeigt, dass kein Wasser versprüht werden darf.__
 
 [[ wahr | (falsch) ]]
+
+---
 
 --{{5}}--  
 
@@ -424,33 +447,146 @@ __5. Dieses Symbol meint: Achtung: Diebstahlgefahr!__
 
 [[ wahr | (falsch) ]]
 
+---
+
+
 --{{6}}--  
 
 <!-- --{{}}--
 Sechstens. Warum sind Brandschutzzeichen wichtig? Wahr oder falsch?
 -->
 
-__6. Warum sind Brandschutzzeichen wichtig?__
 
-- [[ ]]  Sie dienen der Dekoration
-- [[X]]  Sie helfen, im Brandfall schnell die richtigen Hilfsmittel zu finden
-- [[ ]]  Sie zeigen Fluchtwege an
-- [[X]]  Sie sind gesetzlich vorgeschrieben
+__6. Warum sind Brandschutzzeichen wichtig?__
+====
+
+<section class="flex-container">
+
+<div class="flex-child" style="min-width: 250px">
+
+- [[ ]]  Sie dienen der Dekoration.
+- [[X]]  Sie helfen, im Brandfall schnell die richtigen Hilfsmittel zu finden.
+- [[ ]]  Sie zeigen Fluchtwege an.
+- [[X]]  Sie sind gesetzlich vorgeschrieben.
+
+</div>
+
+<div class="flex-child" style="min-width: 500px">
+
+<div class="image_matrix">
+@Brandschutzzeichen.Feuerloescher(10)
+@Brandschutzzeichen.Loeschschlauch(10)
+@Brandschutzzeichen.Brandmeldetelefon(10)
+@Brandschutzzeichen.Richtungspfeil_Rechts(10)
+</div>
+<div class="image_matrix">
+@Brandschutzzeichen.Brandbekaempfung(10)
+@Brandschutzzeichen.Brandmelder(10)
+@Brandschutzzeichen.Feuerleiter(10)
+@Brandschutzzeichen.Richtungspfeil_Rechts_unten(10)
+</div>
+
+</div>
+
+</section>
+
+---
+
 
 --{{7}}--  
 
 <!-- --{{}}--
-Siebentens. Wo müssen Brandschutzzeichen angebracht werden?
+Siebentens. Was bedeutet dieses Schild? Entweder: Klappbügel befindet sich hier. Oder: Fluchttür befindet sich hier. Oder: Wartung beziehungsweise Reparatur freischalten.
 -->
 
-__7. Wo müssen Brandschutzzeichen angebracht werden?__
+__7. Was bedeutet dieses Schild?__
 
-- [( )] Nur im Büro
-- [(X)] Überall, wo sich Brandschutzeinrichtungen befinden
-- [( )] Nur in der Werkstatt
-- [( )] Nur im Lager
+![Gebotszeichen. Wartung oder Reparatur](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Gebotszeichen/Wartung_oder_Reparatur_freischalten.jpg?raw=true) <!-- style="width: 130px" -->
+
+
+<!-- data-randomize -->
+[[ Klappbügel befindet sich hier. | __Fluchttür befindet sich hier.__ | (Wartung oder Reparatur freischalten.) ]]
+
+---
 
 --{{8}}--  
+
+<!-- --{{}}--
+Achtens. Ordne die Schilder den richtigen Begriffen zu!
+-->
+
+__8. Ordne die Schilder den richtigen Begriffen zu!__
+
+
+<!-- data-randomize -->
+-   [[![Warnzeichen](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Warnzeichen/Hei%C3%9Fe_Oberfl%C3%A4che.jpg?raw=true) <!-- style="width: 100px" -->]        (![Warnweste](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Gebotszeichen/Warnweste.jpg?raw=true) <!-- style="width: 100px" -->)                 [![Rauchen verboten](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Verbotszeichen/Rauchen_verboten.jpg?raw=true) <!-- style="width: 100px" -->]       (![Brandbekämpfung](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Brandschutzzeichen/Brandbek%C3%A4mpfung.jpg?raw=true) <!-- style="width: 100px" -->)                 [![Notausgang](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Rettungszeichen/Notausgang_rechts.jpg?raw=true) <!-- style="width: 100px" -->]       (![Entzündlich](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Gefahrstoffe/Entz%C3%BCndlich.gif?raw=true) <!-- style="width: 100px" -->)]
+- [    ( )              ( )                      ( )      (X)              ( )                      ( )     ]  Brandschutzzeichen
+- [    ( )              (X)                      ( )      ( )              ( )                      ( )     ]  Gebotszeichen
+- [    ( )              ( )                      ( )      ( )              ( )                      (X)     ]  Gefahrstoffe
+- [    ( )              ( )                      (X)      ( )              ( )                      ( )     ]  Verbotszeichen
+- [    (X)              ( )                      ( )      ( )              ( )                      ( )     ]  Warnzeichen
+- [    ( )              ( )                      ( )      ( )              (X)                      ( )     ]  Rettungszeichen
+
+---
+
+--{{9}}--  
+
+<!-- --{{}}--
+Neuntens. Wo müssen Brandschutzzeichen angebracht werden? Entweder: Nur im Büro. Oder: Überall, wo sich Brandschutzeinrichtungen befinden. Oder: Nur in der Werkstatt. Oder: Nur im Lager.
+-->
+
+
+__9. Wo müssen Brandschutzzeichen angebracht werden?__
+
+- [( )] Nur im Büro.
+- [(X)] Überall, wo sich Brandschutzeinrichtungen befinden.
+- [( )] Nur in der Werkstatt.
+- [( )] Nur im Lager.
+
+---
+
+
+--{{10}}--  
+
+
+<!-- --{{}}--
+Zehntens. Fülle den Lückentext richtig aus. 
+-->
+
+
+__10. Fülle den Lückentext richtig aus:__
+
+
+>_Kann der Lückentext sinnvoll vorgelesen werden, dass die Lücken offensichtlich werden?_
+
+<!-- data-randomize -->
+Arbeits- und Gesundheitsschutz ist ein wichtiger Bestandteil im Berufsleben. Ziel ist es, die [[ (Sicherheit) | __Gefährdung__ | Unfall | __Krankheit__  ]] und Gesundheit aller Beschäftigten am Arbeitsplatz zu gewährleisten. Zu den wichtigsten Maßnahmen gehören die [[ __Pausenregelung__ |  (Gefährdungsbeurteilung) | __Urlaubsplanung__ | Gehaltsabrechnung  ]] und das Ergreifen geeigneter Schutzmaßnahmen.
+
+Eine wichtige Rolle spielt auch die [[ (__Unterweisung__) |  Entlassung | __Versetzung__ | Beförderung  ]] der Mitarbeiter und Mitarbeiterinnen. Sie müssen regelmäßig über Gefahren und Schutzmaßnahmen informiert werden. Das Tragen von persönlicher [[ __Freizeitkleidung__ |  Bürobedarf | __Werkzeug__ | (Schutzausrüstung)  ]] kann in bestimmten Bereichen vorgeschrieben sein.
+
+Arbeitgeber sind verpflichtet, Arbeitsunfälle und [[ Feiertage |  __Überstunden__ | Fehlzeiten | (__Berufskrankheiten__)  ]] zu melden. Beschäftigte sollten bei Gefahr sofort ihren [[ Kollegen |  __Hausmeister__ | (Vorgesetzten) | __Kunden__  ]] informieren.
+
+---
+
+
+--{{10}}--  
+
+<!-- --{{}}--
+Kannst du auch diese Zuordnungsaufgabe lösen? - Ziehe alle Gebotszeichen in das Antwortfeld.
+-->
+
+__11. Ziehe alle Gebotszeichen in das Antwortfeld!__ 🤔
+
+
+<!-- data-randomize -->
+@dragdropmultipleimages(@uid,@Gebotszeichen.Uebergang.src,@Rettungszeichen.Arzt.src|@Leitern.Maximale_Belastung.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Richtungspfeil_Rechts_unten.src|) 
+
+>_Ich habe herausgefunden, dass Drag&Drop funktioniert, wenn ich ganz oben in der Internetleiste den Button "Seite neu laden" drücke._
+
+----
+
+--{{11}}--  
+
 
 <!-- --{{}}--
 Wenn du noch mehr wissen willst, findest du mehr Informationen und alle Sicherheitszeichen auf der BGHM-Website - siehe Link.
@@ -466,7 +602,7 @@ language: de
 narrator: Deutsch Male
 -->
 
->_Ich würde ab hier eine männliche Stimme haben. Leider funktioniert das bei mir nicht.  Des Weiteren möchte ich im nachfolgenden Text Absätze schalten. Wie macht man das?._
+>_Ich würde ab hier eine männliche Stimme haben. Leider funktioniert das bei mir nicht. </article> Des Weiteren möchte ich im nachfolgenden Text Absätze schalten. Wie macht man das?._
 
 > **den narrator an der Überschrift festzulegen sollte gehen, machts aber nicht: BUG**
 
@@ -474,7 +610,11 @@ narrator: Deutsch Male
 Arbeits- und Gesundheitsschutz: Schwerpunkt Leitern.
 --> 
 
---{{1}}--
+--{{1 Deutsch Male}}--   
+
+<!-- --{{}}--
+Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten. 
+--> 
 
 Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten. Schau dir das nachfolgende Video an.
 -----------------------------------
@@ -516,11 +656,30 @@ Erstens. Welche Maßnahme ist vor jeder Benutzung einer Leiter zwingend erforder
 
 >_Wie kann ich die Reihenfolge mischen - auch in den Antworten - wenn ich aber die a), b) und c) vorlesen lasse?_
 
+
+<section class="flex-container">
+
+<div class="flex-child" style="min-width: 250px">
+
+
 __1. Welche Maßnahme ist vor jeder Benutzung einer Leiter zwingend erforderlich?__
 
 - [( )] a) Die Leiter darf nur in sauberem Zustand genutzt werden.
 - [(x)] b) Die Leiter ist auf Beschädigungen und Standsicherheit zu kontrollieren.
 - [( )] c) Es braucht immer eine zweite Person, um die Leiter zu sichern. 
+
+
+</div>
+
+<div class="flex-child" style="min-width: 150px">
+![Leiter](img/variety_people_ladders.jpg) <!-- style="width: 150px" -->
+
+<a  href="https://www.freepik.com/free-ai-image/variety-people-multitasking-3d-cartoon-scene_152374121.htm" target=_blank>Quelle: Freepik</a>
+
+</div>
+
+</section> 
+
 
 ---
 
@@ -546,11 +705,27 @@ Drittens. Was ist beim Transport von Werkzeugen auf der Leiter zu beachten? a) W
 --> 
 
 
+<section class="flex-container">
+
+<div class="flex-child" style="min-width: 250px">
+
+
 __3. Was ist beim Transport von Werkzeugen auf der Leiter zu beachten?__
 
 - [( )] a) Werkzeug darf in den Hosentaschen und am Gürtel getragen werden.
 - [(x)] b) Leichtes Werkzeug darf mitgenommen werden, wenn beide Hände zum Festhalten frei bleiben.
 - [( )] c) Es dürfen alle für die Arbeit benötigten Werkzeuge auf die Leiter mitgenommen werden. 
+
+
+</div>
+
+<div class="flex-child" style="min-width: 150px">
+![Leitern2](img/indoor_people_multitask.jpg) <!-- style="width: 250px" -->
+
+<a  href="https://www.freepik.com/free-ai-image/3d-cartoon-scene-depicting-variety-people-multitasking_152373509.htm" target=_blank>Quelle: Freepik</a>
+</div>
+
+</section> 
 
 ---
 
@@ -594,24 +769,23 @@ Sechstens. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten? a) Es 
 
 <div class="flex-child" style="min-width: 250px">
 
+
 __6. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten?__
 
 - [( )] a) Es braucht eine zweite Person, die die andere sichert. 
 - [(x)] b) Es muss eine Absturzsicherung vorhanden sein.
 - [( )] c) Die Leiter darf nicht verwendet werden.
 
+
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-@Verbotszeichen.Fuer_Fussgaenger_verboten(25)
+![Leitern3](img/career_ladder.jpg) <!-- style="width: 250px" -->
+<a  href="https://de.freepik.com/vektoren-kostenlos/fuehrung-konzept-in-flachen-stil_3198072.htm" target=_blank>Quelle: Freepik</a>
 </div>
 
-</section>
+</section> 
 
-
->_Können Bilder zur Illustration eingefügt werden - sozusagen rechts neben den Fragen?_
->
-> **so?** geht mit den flex-containern, ist aber nicht sonderlich nutzerfreundlich :/
 
 ---
 
@@ -622,14 +796,6 @@ __6. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten?__
 <!-- --{{0}}--
 Beachte bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen.
 --> 
-
-> ```
-> <!-- --{{0}}--
-> Beachte bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen.
-> --> 
-> ```
-> Die Vorlesekommentare brauchen zwingend eine 0 in den Klammern!!!
-
 
 Beachte bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen. 
 
@@ -644,9 +810,8 @@ __Kannst du die Bilder der richtigen Bedeutung zuordnen?__ 🤔
 - [    ( )              ( )                      (x)     ]  ebener und tragfähiger Untergrund
 - [    (X)              ( )                      ( )     ]  Nur an sichere Flächen anlegen
 
->_Ich wollte gern  2 falsche Auswahlantworten mit angeben. Leider wird die Antwort als nicht richtig gewertet. Wie kann das erreicht werden?_
 
-> **hat Andre geändert geht jetzt, ist aber immer noch buggy. einfach [] anstelle der () verwenden !?**
+
 ---
 
 <!-- data-randomize -->
@@ -745,28 +910,30 @@ Bild c) @Leitern.Nicht_als_Anlegeleiter_nutzen(10)
 
 ---
 
-<!-- data-randomize -->
-__Welche Symbole regeln den Umgang mit Leitern?__ 🤔
-
-@dragdropmultipleimages(@uid, @Leitern.Nur_eine_Person.src, @Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src)
-
 
 __Welche Symbole regeln den Umgang mit Leitern?__ 🤔
 
->_Ich habe leider noch nicht geschnallt, wie ich festlege, welche Symbole die richtigen sind._
+
+>_Leider funktioniert diese Anleitung bei mir nicht zuverlässig. 😥__
 > 
 > Hier ist die Anleitung: `@dragdropmultipleimages(@uid, richtige, falsche)`
 > Die Bilder mit | aneinandreihen und immer die src Varianten verwenden `@Leitern.Anlegewinkel_beachten.src` z.B.
 > Ist aber noch sehr Buggy, ich frag mal Niklas !
 
-@dragdropmultipleimages(@uid,@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src,@Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src)
+<!-- data-randomize -->
+@dragdropmultipleimages(@uid,@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src,@Warnzeichen.Hindernisse_am_Boden.src|@Warnzeichen.Automatischer_Anlauf.src|@Gebotszeichen.Handlauf.src|@Rettungszeichen.Erste_Hilfe.src)
 
-testquiz
-====
 
-Ein Testquiz, die Richtige Antwort ist der **Laserstrahl**.
+---
 
-@dragdropmultipleimages(@uid, @Warnzeichen.Laserstrahl.src, @Leitern.Nur_eine_Person.src)
+__Schaffst du auch diese Aufgabe?__
+
+__Schau genau hin. Manche Bilder gehören zu Warn-, Verbots- oder Gebotszeichen. Aber welche Symbole regeln den Umgang mit Leitern bei der Arbeit?__ 🤔
+
+<!-- data-randomize -->
+@dragdropmultipleimages(@uid,@Leitern.Witterungsbedingungen.src|@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund.src,@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Feuerleiter.src|@Gebotszeichen.Uebergang.src) 
+
 
 ---
 Geschafft! 🙌
+===
