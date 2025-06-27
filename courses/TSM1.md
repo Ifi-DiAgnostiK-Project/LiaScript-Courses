@@ -1,10 +1,10 @@
 <!--
 
-author:   Hilke Domsch
+author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: de
 
@@ -46,13 +46,13 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
 
 -->
 
-# Verständnisfragen TSM 1 Grundlehrgang 
+# Verständnisfragen TSM 1 Grundlehrgang
 
 >_Hier wäre ein Bild nett oder eine Animation oder ein Filmchen..._
 >
 > Volker: so?
 
-<iframe src="https://giphy.com/embed/dWBGYtxY2gBoQr74A3" width="480" height="271" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/festool-construction-power-tools-carpentry-dWBGYtxY2gBoQr74A3">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/dWBGYtxY2gBoQr74A3" width="480" height="271" style="" frameBorder="0" class="giphy-embed" ></iframe><p><a href="https://giphy.com/gifs/festool-construction-power-tools-carpentry-dWBGYtxY2gBoQr74A3">via GIPHY</a></p>
 
 ## Aufgaben Teil 1
 -------------------------------
@@ -145,7 +145,7 @@ c. Reparaturen an Elektrik / Elektronik dürfen nicht von Auszubildenden vorgeno
 
 - [[X]] a) Es sind zusätzlich Schutzhandschuhe zu tragen.
 - [[X]] b) Der Netzstecker ist zu ziehen.
-- [[X]] c) Reparaturen an Elektrik / Elektronik dürfen nicht von Auszubildenden vorgenommen werden. 
+- [[X]] c) Reparaturen an Elektrik / Elektronik dürfen nicht von Auszubildenden vorgenommen werden.
 
 --{{6}}--  
 
@@ -174,20 +174,18 @@ Die Ziffern an der Tisch- und Formatkreissäge bezeichnen bestimmte Bau- und Mas
 6. __Die Ziffern an der Tisch- und Formatkreissäge bezeichnen bestimmte Bau- und Maschinenteile. Ordne die Bezeichnungen den Nummern laut Zeichnung richtig zu.__
 ===
 
-![Tisch- und Formatkreissäge](img/Saege_Quelle_BGHM_2.jpg)
+![Tisch- und Formatkreissäge](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Saege_Quelle_BGHM_2.jpg)
 
 _Quelle: BGHM_
 
-<!-- data-randomize -->
-[[1]]__Spaltkeil__  
-[[2]]__Schutzhaube mit Absauganschluss__ 
-[[10]]__Absauganschluss unten__
-[[12]]__Queranschlag__
-[[3]]__Schutzhaubenträger__
-[[8]]__Stellteile__ (EIN-AUS, NOT-AUS)
-[[4]]__Parallelanschlag__
-[[13]]__Besäumniederhalter__ (Klemmschuh)
-
+__Spaltkeil__: [[ (1) | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 ]]<br>
+__Schutzhaube mit Absauganschluss__ : [[ 1 | (2) | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 ]]<br>
+__Absauganschluss unten__: [[ 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | (10) | 11 | 12 | 13 ]]<br>
+__Queranschlag__: [[ 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | (12) | 13 ]]<br>
+__Schutzhaubenträger__: [[ 1 | 2 | (3) | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 ]]<br>
+__Stellteile__ (EIN-AUS, NOT-AUS): [[ 1 | 2 | 3 | 4 | 5 | 6 | 7 | (8) | 9 | 10 | 11 | 12 | 13 ]]<br>
+__Parallelanschlag__: [[ 1 | 2 | 3 | (4) | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 ]]<br>
+__Besäumniederhalter__ (Klemmschuh): [[ 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | (13) ]]<br>
 
 
 --{{8}}--  
@@ -204,7 +202,7 @@ d. Flachzahn für Rohzuschnitt in Faserrichtung
 ===
 
 <!-- data-randomize -->
--   [[![Flachzahn](img/BGHM_Kreissaegeblatt_Flachzahn.jpg)  <!-- style="width: 300px" -->]        (![Hohl-Trapez-Zahn](img/BGHM_Kreissaegeblatt_Hohl-Trapez-Zahn.jpg)  <!-- style="width: 300px" -->)]
+-   [[![Flachzahn](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/BGHM_Kreissaegeblatt_Flachzahn.jpg)  <!-- style="width: 300px" -->]        (![Hohl-Trapez-Zahn](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/BGHM_Kreissaegeblatt_Hohl-Trapez-Zahn.jpg)  <!-- style="width: 300px" -->)]
 - [    ( )              (X)       ]  Hohl-Trapez-Zahn für beschichtete Platten
 - [    ( )              ( )       ]  Wechselzahn für Massivholz, in und quer zur Faserrichtung
 - [    ( )              ( )       ]  Wechselzahn für funierte Platten und Massivholz quer zur Faserrichtung
@@ -223,10 +221,17 @@ Welche Piktogramme bezeichnen Teile der persönlichen Schutzausrüstung?
 ===
 
 <!-- data-randomize -->
--   [[![Kopfschutz](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Gebotszeichen/Kopfschutz.jpg?raw=true) <!-- style="width: 100px" -->]        (![Defibrillator](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Rettungszeichen/Defibrillator.jpg?raw=true) <!-- style="width: 100px" -->)                 [![Leitern](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Leitern/Gespannte_Spreizvorrichtung.jpg?raw=true) <!-- style="width: 100px" -->]       (![Atemmaske](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Gebotszeichen/Atemschutz.jpg?raw=true) <!-- style="width: 100px" -->)]
-- [      [X]                               [ ]                              [ ]                  [X]     ]  Teile der PSA
+-   [[ @Gebotszeichen.Kopfschutz(10) ]  (@Rettungszeichen.Defibrillator(10))  [@Leitern.Gespannte_Spreizvorrichtung(10)]  [ @Gebotszeichen.Atemschutz(10) ] ]
+- [   [X]    [ ]    [ ]   [X]     ]  Teile der PSA
 
 >_Es wäre schön, einen Abstand zwischen Bildchen und Antwortkästchen hinzubekommen. Noch schöner wäre, direkt hinter dem Bild das Kästchen zu setzen, statt als Block unten drunter._
+
+- [[x]] @Gebotszeichen.Kopfschutz(10)
+- [[ ]] @Rettungszeichen.Defibrillator(10)
+- [[ ]] @Leitern.Gespannte_Spreizvorrichtung(10)
+- [[x]] @Gebotszeichen.Atemschutz(10)
+
+> so ?
 
 --{{10}}--  
 
@@ -239,8 +244,8 @@ Welche persönlichen Schutzausrüstung (PSA) wird an Handkreissägen benötigt?
 
 
 <!-- data-randomize -->
--   [[![Augenschutz](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Gebotszeichen/Augenschutz.jpg?raw=true) <!-- style="width: 100px" -->]        (![Handschuh](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Gebotszeichen/Handschuh.jpg?raw=true) <!-- style="width: 100px" -->)                 [![Gehörschutz](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Gebotszeichen/Geh%C3%B6rschutz.jpg?raw=true) <!-- style="width: 100px" -->]       (![Schutzschuhe](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Gebotszeichen/Fu%C3%9Fschutz.jpg?raw=true) <!-- style="width: 100px" -->)]
-- [      [X]                               [ ]                              [X]                  [X]     ]  erforderliche PSA 
+- [ [@Gebotszeichen.Augenschutz(10)] [@Gebotszeichen.Handschuh(10)] [@Gebotszeichen.Gehoerschutz(10)] [@Gebotszeichen.Fussschutz(10)] ]
+- [      [X]    [ ]    [X]   [X]     ]  erforderliche PSA 
 
 
 
@@ -340,7 +345,7 @@ c. Der Spaltkeilabstand ist von dem jeweiligen Arbeitsgang abhängig.
 
 __Beachten Sie das Bild.__
 
-![Spaltkeil](img/Spaltkeil_Quelle_BGHM_S.0017.jpg) <!-- style="width: 400px" -->
+![Spaltkeil](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Spaltkeil_Quelle_BGHM_S.0017.jpg) <!-- style="width: 400px" -->
 
 _Quelle: BGHM_
 
