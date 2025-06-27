@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.12
+version: 0.0.13
 
 language: de
 
@@ -15,6 +15,8 @@ date: 2025-06-15
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 
 comment:  Arbeitssicherheit & Gesundheitsschutz
+
+attribute: Sicherheitszeichen von [Berufsgenossenschaft Holz und Metall](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen)
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
@@ -61,37 +63,30 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
 Arbeitssicherheit und Gesundheitsschutz
 -->
 
->_Bitte auf Zeilenumbrüche achten, z. B. "Zeile 1:" -- darunter sollen erst die 3 Bilder erscheinen. Um bei verschiedenen Browsern dies zu sichern, ist der Zeilenumbruch festzulegen!_
-
 >_Wie oft darf eine Frage falsch beantwortet werden, bevor die Lösung angezeigt wird? Wie wird im Hintergrund für den Lehrer registriert, wie viele Versuche es gab?_
 
 Arbeitsbedingte Gesundheitsgefahren, Unfälle und Erkrankungen sollen gar nicht erst entstehen. Dazu ist es wichtig, Gefahrenhinweise und Symbole richtig zu verstehen.
 Vor allem junge Menschen sind am Arbeitsplatz besonders gefährdet, weil sie (noch) nicht über alle nötigen Kenntnisse verfügen.
-Dieses Quiz zeigt dir, wie gut du dich bereits auskennst!
-Wir sind gespannt, wie du die Challange meisterst!
+Dieses Quiz zeigt Ihnen, wie gut Sie sich bereits auskennen!
+Wir sind gespannt, wie du die Challenge meisterst!
 
 <!-- --{{0}}--
 Arbeitsbedingte Gesundheitsgefahren, Unfälle und Erkrankungen sollen gar nicht erst entstehen. Dazu ist es wichtig, Gefahrenhinweise und Symbole richtig zu verstehen.
 Vor allem junge Menschen sind am Arbeitsplatz besonders gefährdet, weil sie (noch) nicht über alle nötigen Kenntnisse verfügen.
-Dieses Quiz zeigt dir, wie gut du dich bereits auskennst!
-Wir sind gespannt, wie du die Challange meisterst!
+Dieses Quiz zeigt Ihnen, wie gut Sie sich bereits auskennst!
+Wir sind gespannt, wie Sie die Challenge meistern!
 Viel Erfolg!
 -->
 
 __Viel Erfolg!__
 
->_Auch hier hört sich der vorgelesene Text sehr künstlich an. "Challange" wird deutsch gesprochen. Welche Alternativen gibt es?_
+>_Auch hier hört sich der vorgelesene Text sehr künstlich an. "Challenge" wird deutsch gesprochen. Welche Alternativen gibt es?_
 
 __In welcher Zeile befinden sich Warnschilder?__
 ===
 
 <!-- --{{1}}--
 In welcher Zeile befinden sich Warnschilder? Zeile 1, 2 oder 3?
--->
-
-
-<!-- --{{2}}
-Hallo Hilke. Ich hab das Quiz mal umgebaut. Jede Zeile sind jetzt section container mit flex und darin hab ich die einzelnen elemente eingebunden. tut mir leid das das bisschen länglich ist.
 -->
 
 <section class="flex-container" style="padding: 1rem;">
@@ -179,10 +174,10 @@ __Was bildet das Zeichen ab?__
 --{{2}}--  
 
 <!-- --{{}}--
-Ordne das jeweilige Symbol im Bild 1, 2 und 3 der richtigen Bedeutung zu. 
+Ordnen Sie das jeweilige Symbol im Bild 1, 2 und 3 der richtigen Bedeutung zu. 
 -->
 
-__Ordne das jeweilige Symbol der richtigen Bedeutung zu.__
+__Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.__
 ===
 
 <!-- data-randomize -->
@@ -218,16 +213,16 @@ __Welches dieser Zeichen ist ein Rettungszeichen?__
 --{{1}}--  
 
 <!-- --{{}}--
-Fülle den Lückentext aus. Nutze dafür folgende Worte:
-Erste Hilfe, S
+Füllen Sie den Lückentext aus.
 -->
 
-__Fülle den Lückentext aus.__
+__Füllen Sie den Lückentext aus.__
 ===
 
 <!-- data-randomize -->
 Das Rettungszeichen für den [[ Sammelpunkt | (Notausgang) | Sani-Kasten]] ist grün und zeigt eine laufende Person mit einem Pfeil.
-Rettungszeichen sind immer in der Farbe [[ rot |   blau   | (grün) ]] gehalten.
+Rettungszeichen sind immer in der Farbe [[ rot |   blau   | (grün) ]] gehalten. 
+
 Die Bedeutung der Rettungszeichen ist europaweit [[ unterschiedlich |   in den meisten Symbolen gleich   | (standardisiert) ]].
 Die Rettungszeichen befinden sich in der Regel [[ in öffentlichen Gebäuden |   (in Fluren und Ausgängen)  | in Lagerräumen ]].
 
@@ -237,10 +232,10 @@ Die Rettungszeichen befinden sich in der Regel [[ in öffentlichen Gebäuden |  
 --{{2}}--  
 
 <!-- --{{}}--
-Ordne das jeweilige Symbol im Bild 1, 2 und 3 der richtigen Bedeutung zu. 
+Ordnen Sie das jeweilige Symbol im Bild 1, 2 und 3 der richtigen Bedeutung zu. 
 -->
 
-__Ordne das jeweilige Symbol der richtigen Bedeutung zu.__
+__Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.__
 ===
 
 <!-- data-randomize -->
@@ -251,20 +246,20 @@ __Ordne das jeweilige Symbol der richtigen Bedeutung zu.__
 - [    ( )              (X)                      ( )     ]  öffentliche Schutzausrüstung
 - [    ( )              ( )                      (X)     ]  Arzt
 
->_Hier kommt wieder der Fehler, dass die beiden leeren Felder als "nicht richtig" gewertet werden._
 
-## 3. Kennst du die Sicherheitszeichen?
+
+## 3. Kennen Sie die Sicherheitszeichen?
 
 --{{0}}--  
 
-<!-- --{{0}}--
-Ordne die Zeichen den passenden Beschreibungen zu.
+<!-- --{{}}--
+Ordnen Sie die Zeichen den passenden Beschreibungen zu.
 Warnung vor elektrischer Spannung
 Aufforderung, Handschuhe zu tragen
 Verbot von offenem Feuer
 -->
 
-3.1 __Ordne die Zeichen den passenden Beschreibungen zu.__
+3.1 __Ordnen Sie die Zeichen den passenden Beschreibungen zu.__
 ===
 
 <!-- data-randomize -->
@@ -286,8 +281,8 @@ Das Symbol "Schutzbrille tragen" ist ein blaues, rundes Gebotszeichen.
 __Das Symbol "Schutzbrille tragen" ist ein blaues, rundes Gebotszeichen.__
 ===
 
-- [(X)] Wahr
-- [( )] Falsch
+- [(X)] wahr
+- [( )] falsch
 
 > _"Gebotszeichen" wird von KI seltsam ausgesprochen._
 
@@ -314,7 +309,7 @@ c) Feuerlöscher
 
 <!-- --{{0}}--
 Lückentext:
-Das Zeichen mit einer laufenden Person und einem Pfeil auf grünem Hintergrund kennzeichnet einen Rettungsweg, Notausstieg oder Notausgang. Wähle das richtige Wort aus.
+Das Zeichen mit einer laufenden Person und einem Pfeil auf grünem Hintergrund kennzeichnet einen Rettungsweg, Notausstieg oder Notausgang. Wählen Sie das richtige Wort aus.
 -->
 
 3.4 __Lückentext:__
@@ -325,11 +320,11 @@ Das Zeichen mit einer laufenden Person und einem Pfeil auf grünem Hintergrund k
 
 --{{4}}--  
 
-<!-- --{{0}}--
-Ordne die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:
+<!-- --{{}}--
+Ordnen Sie die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:
 -->
 
-3.5 __Ordne die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:__
+3.5 __Ordnen Sie die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:__
 ===
 
 <!-- data-randomize -->
@@ -340,7 +335,6 @@ Ordne die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:
 - [    ( )              ( )                      ( )     ]  Brandmelder
 - [    ( )              (X)                      ( )     ]  Schutzhelm tragen
 
->_Ich wollte gern  2 falsche Auswahlantworten mit angeben. Leider wird die Antwort als nicht richtig gewertet. Wie kann das erreicht werden?_
 
 --{{5}}--  
 
@@ -364,10 +358,10 @@ Wofür steht dieses Zeichen?
 
 <!-- --{{0}}--
 Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz. 
-Entscheide, ob die folgenden Aussagen wahr oder falsch sind. Es können mehrere Antworten richtig sein.
+Entscheiden Sie, ob die folgenden Aussagen wahr oder falsch sind. Es können mehrere Antworten richtig sein.
 --> 
 
-__Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz. Entscheide, ob die folgenden Aussagen wahr oder falsch sind! Es können mehrere Antworten richtig sein.__
+__Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz. Entscheiden Sie, ob die folgenden Aussagen wahr oder falsch sind! Es können mehrere Antworten richtig sein.__
 ===
 
 >_Ich habe in der Vertonung die Fragennummern mit eingesprochen, möchte aber gern, dass zukünftig das Quiz in beliebiger Reihenfolge abgespielt wird. Bitte angeben, wie ich das ändern/verbessern kann._
@@ -512,10 +506,10 @@ __7. Was bedeutet dieses Schild?__
 --{{8}}--  
 
 <!-- --{{}}--
-Achtens. Ordne die Schilder den richtigen Begriffen zu!
+Achtens. Ordnen Sie die Schilder den richtigen Begriffen zu!
 -->
 
-__8. Ordne die Schilder den richtigen Begriffen zu!__
+__8. Ordnen Sie die Schilder den richtigen Begriffen zu!__
 
 
 <!-- data-randomize -->
@@ -550,11 +544,11 @@ __9. Wo müssen Brandschutzzeichen angebracht werden?__
 
 
 <!-- --{{}}--
-Zehntens. Fülle den Lückentext richtig aus. 
+Zehntens. Füllen Sie den Lückentext richtig aus. 
 -->
 
 
-__10. Fülle den Lückentext richtig aus:__
+__10. Füllen Sie den Lückentext richtig aus:__
 
 
 >_Kann der Lückentext sinnvoll vorgelesen werden, dass die Lücken offensichtlich werden?_
@@ -572,10 +566,10 @@ Arbeitgeber sind verpflichtet, Arbeitsunfälle und [[ Feiertage |  __Überstunde
 --{{10}}--  
 
 <!-- --{{}}--
-Kannst du auch diese Zuordnungsaufgabe lösen? - Ziehe alle Gebotszeichen in das Antwortfeld.
+Können Sie  diese Zuordnungsaufgabe lösen? - Ziehen Sie alle Gebotszeichen in das Antwortfeld.
 -->
 
-__11. Ziehe alle Gebotszeichen in das Antwortfeld!__ 🤔
+__11. Ziehen Sie alle Gebotszeichen in das Antwortfeld!__ 🤔
 
 
 <!-- data-randomize -->
@@ -589,11 +583,11 @@ __11. Ziehe alle Gebotszeichen in das Antwortfeld!__ 🤔
 
 
 <!-- --{{}}--
-Wenn du noch mehr wissen willst, findest du mehr Informationen und alle Sicherheitszeichen auf der BGHM-Website - siehe Link.
+Wenn Sie noch mehr wissen wollen, finden Sie mehr Informationen und alle Sicherheitszeichen auf der BGHM-Website - siehe Link.
 -->
 
 __Tipp:__ 
-Weitere Informationen und alle Sicherheitszeichen findest du auf der BGHM-Webseite: https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen 
+Weitere Informationen und alle Sicherheitszeichen finden Sie auf der BGHM-Webseite: https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen 
 
 
 ## 5. Arbeitssicherheit und Gesundheitsschutz: Leitern
@@ -604,7 +598,7 @@ narrator: Deutsch Male
 
 >_Ich würde ab hier eine männliche Stimme haben. Leider funktioniert das bei mir nicht. </article> Des Weiteren möchte ich im nachfolgenden Text Absätze schalten. Wie macht man das?._
 
-> **den narrator an der Überschrift festzulegen sollte gehen, machts aber nicht: BUG**
+  
 
 <!-- --{{0}}--
 Arbeits- und Gesundheitsschutz: Schwerpunkt Leitern.
@@ -613,10 +607,10 @@ Arbeits- und Gesundheitsschutz: Schwerpunkt Leitern.
 --{{1 Deutsch Male}}--   
 
 <!-- --{{}}--
-Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten. 
+Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten.
 --> 
 
-Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten. Schau dir das nachfolgende Video an.
+Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten. 
 -----------------------------------
 
 ---
@@ -628,21 +622,21 @@ Schau dir das nachfolgende Video an.
 --> 
 
 
-**Schau dir das nachfolgende Video an.**
+**Schauen Sie sich als Erstes das Video an.**
 
 
 !?[Leitern Lehre to Go](https://www.youtube.com/watch?v=zyfX3ZtkrMI)
 
-_Quelle: ibis acam Bildungs GmbH_
+_Quelle: Lehre fördern_
 
 --{{3}}--   
 
 <!-- --{{}}--
-Teste nachfolgend dein Wissen! Wähle jeweils die richtige Antwort aus.
+Testen Sie nun Ihr Wissen! 
 --> 
 
 
-__Teste nachfolgend dein Wissen! Wähle jeweils die richtige Antwort aus.__
+__Testen Sie nun Ihr Wissen!__
 
 ---
 
@@ -793,14 +787,14 @@ __6. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten?__
 
 --{{0}}--   
 
-<!-- --{{0}}--
-Beachte bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen.
+<!-- --{{}}--
+Beachten Sie bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen.
 --> 
 
-Beachte bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen. 
+Beachten Sie bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen. 
 
 ---
-__Kannst du die Bilder der richtigen Bedeutung zuordnen?__ 🤔
+__Können Sie die Bilder der richtigen Bedeutung zuordnen?__ 🤔
 
 <!-- data-randomize -->
 -   [[![!sicher Flächen Leiter](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Leitern/Nur_an_sichere_Fl%C3%A4chen_anlegen.jpg?raw=true) <!-- style="width: 100px" -->]        (![Nicht übertreten](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Leitern/Nicht_%C3%BCbertreten.jpg?raw=true) <!-- style="width: 100px" -->)                 [![sicherer Untergrund](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Leitern/Ebener_und_tragf%C3%A4higer_Untergrund.jpg?raw=true) <!-- style="width: 100px" -->]]
@@ -926,9 +920,7 @@ __Welche Symbole regeln den Umgang mit Leitern?__ 🤔
 
 ---
 
-__Schaffst du auch diese Aufgabe?__
-
-__Schau genau hin. Manche Bilder gehören zu Warn-, Verbots- oder Gebotszeichen. Aber welche Symbole regeln den Umgang mit Leitern bei der Arbeit?__ 🤔
+__Die Bilder gehören zu Warn-, Verbots- oder Gebotszeichen. Aber welche Symbole regeln den Umgang mit Leitern bei der Arbeit?__ 🤔
 
 <!-- data-randomize -->
 @dragdropmultipleimages(@uid,@Leitern.Witterungsbedingungen.src|@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund.src,@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Feuerleiter.src|@Gebotszeichen.Uebergang.src) 
