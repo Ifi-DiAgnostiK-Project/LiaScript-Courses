@@ -1,0 +1,24 @@
+.release-links {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0.5rem;
+}
+
+.release-links li {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.release-link {
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.release-link:hover {
+    background-color: #007bff;
+    color: white;
+}
