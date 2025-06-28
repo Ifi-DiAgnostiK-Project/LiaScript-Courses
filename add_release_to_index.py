@@ -48,12 +48,11 @@ def generate_release_urls(file_name, version):
 
     base_url = f"https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/releases/download/{version_tag}"
     
-    urls = [
-        f"{base_url}/{file_base}_Documentation.pdf",
-        f"{base_url}/{file_base}_IMS.zip",
-        f"{base_url}/{file_base}_SCORM.zip"
-    ]
-    return urls
+    return {
+        "Documentation": f"{base_url}/{file_base}_Documentation.pdf",
+        "IMS": f"{base_url}/{file_base}_IMS.zip",
+        "SCORM": f"{base_url}/{file_base}_SCORM.zip"
+    }
 
 def add_release_links(soup, result):
     cards = soup.find_all("div", class_="card-body")
@@ -73,14 +72,25 @@ def add_release_links(soup, result):
             continue
 
         urls = result[id_hash]["release_urls"]
-        ul = soup.new_tag("ul")
-        for url in urls:
-            li = soup.new_tag("li")
+        # Create new div.card-links
+        card_links_div = soup.new_tag("div", **{"class": "card-links"})
+        ul = soup.new_tag("ul", **{"class": "list-inline"})
+
+        icon_map = {
+            "Documentation": "📄",
+            "IMS": "📦",
+            "SCORM": "📦"
+        }
+
+        for label, url in urls.items():
+            li = soup.new_tag("li", **{"class": "list-inline-item"})
             a = soup.new_tag("a", href=url, target="_blank")
-            a.string = os.path.basename(url)
+            a.string = f"{icon_map.get(label, '')} {label}"
             li.append(a)
             ul.append(li)
-        card.append(ul)
+
+        card_links_div.append(ul)
+        card.parent.insert(card.parent.contents.index(card) + 1, card_links_div)
 
 def save_html(soup, output_path):
     with open(output_path, "w", encoding="utf-8") as f:
