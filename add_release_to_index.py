@@ -92,6 +92,13 @@ def add_release_links(soup, result):
         card_links_div.append(ul)
         card.parent.insert(card.parent.contents.index(card) + 1, card_links_div)
 
+def add_css_link(soup):
+    head = soup.find("head")
+    if not head:
+        raise ValueError("No <head> found")
+    link_tag = soup.new_tag("link", rel="stylesheet", href="linklayout.css")
+    head.append(link_tag)
+
 def save_html(soup, output_path):
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(str(soup))
@@ -101,6 +108,7 @@ def main(input_file, output_file):
     json_data = extract_json_ld(soup)
     result = build_result(json_data)
     add_release_links(soup, result)
+    add_css_link(soup)
     save_html(soup, output_file)
 
 if __name__ == "__main__":
