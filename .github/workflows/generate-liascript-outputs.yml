@@ -169,6 +169,20 @@ jobs:
           set -euo pipefail
           liaex -i project.yml --format project --project-generate-cache --output docs/index
 
+      - name: configure python and beautfilsoup
+        if: steps.read_changes.outputs.changed_files != ''
+        run: |
+          sudo apt-get update
+          sudo apt-get install python3-pip -y
+          pip3 install beautifulsoup4
+
+      - name: modify index.html to include releases
+        if: steps.read_changes.outputs.changed_files != ''
+        run: |
+          set -euo pipefail
+          # Use BeautifulSoup to modify the index.html
+          python3 add_release_to_index.py
+
       - name: Configure Git
         if: steps.read_changes.outputs.changed_files != ''
         run: |
