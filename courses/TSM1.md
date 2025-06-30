@@ -161,7 +161,7 @@ Zum Schneiden quer zur Faserrichtung werden Kreissägeblätter mit ... Spanwinke
 Zum Schneiden ~~__in__~~ Faserrichtung sind Kreissägeblätter mit [[ (großem) | __kleinem__  | mittlerem]] Spanwinkel zu bevorzugen. 
 
 
-Zum Schneiden ~~__quer__~~ zur Faserrichtung werden Kreissägeblätter mit [[ (großem) | (__mittlerem__)  | mittlerem]] Spanwinkel bevorzugt. 
+Zum Schneiden ~~__quer__~~ zur Faserrichtung werden Kreissägeblätter mit [[ (kleinem) | __mittlerem__  | mittlerem]] Spanwinkel bevorzugt. 
 
 
 
