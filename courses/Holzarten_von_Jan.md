@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler
 
 email:    jan.franke@hwk-dresden.de
  
-version:  0.0.3
+version:  0.0.4
  
 language: de
  
@@ -40,10 +40,10 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
 }
 @end
 
-@Fichte: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/b9fb21a6efb67e30927e96685605779ed132bd86.jpeg
-@Balsa: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/1c4945f4d6de59e7f52b79bdece3db8579d5bf11.jpeg
-@Ahorn: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/78c4079dabd58afc91d0be6ebd3e3f389c8af08a.jpeg
-@Pockholz: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/751501db64601f0f609856c7df3aa7f2ce1388c9.jpeg
+@Fichte: @Hoelzer.Fichte.src
+@Balsa:  @Hoelzer.Balsa.src
+@Ahorn: @Hoelzer.Ahorn.src
+@Pockholz: @Hoelzer.Pockholz.src
 
 -->
  
@@ -58,14 +58,14 @@ __Probier dich einfach mal aus__ 😊.
 Welche Holzart erkennst du hier?
 ===
 
-![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/78c4079dabd58afc91d0be6ebd3e3f389c8af08a.jpeg)
+@Hoelzer.Ahorn(10)
 
 - [[x]] Ahorn
 - [[ ]] Fichte
 - [[ ]] Kiefer
 - [[ ]] Zeder
 
-![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/5e520f8694d34696f83bf568388b0dfd1e300b84.jpeg)
+@Hoelzer.Birke(10)
 
 - [[ ]] Ahorn
 - [[x]] Birke
@@ -74,17 +74,20 @@ Welche Holzart erkennst du hier?
 
 <section class="flex-container">
 <div class="flex-child">
-![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/834543b7e8b5418443110258628f76915d6eae70.jpeg)<!-- style="width: 250px" -->
+
+@Hoelzer.Pappel(10)
+
 </div>
 <div class="flex-child">
-![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/71b1d7fab8e7554438c16292c49261894df41bff.jpeg)<!-- style="width: 250px" -->
-</div>
-</section>
 
 - [[x]] Pappel
 - [[x]] Espe
 - [[ ]] Ahorn
 - [[x]] Aspe
+
+</div>
+</section>
+
 
 __Fülle den Lückentext aus.__
 ===
@@ -106,10 +109,10 @@ Schaue dir dazu den nächsten Film an.
 !?[](https://youtu.be/QP7nOjA9si8?si=LXjAJXKKXkOx9Sim)
 
 - [ [sehr hart] [hart] [weich] [sehr weich]  ]
-- [  ( )  (x)  ( )   ( ) ] __Ahorn__ ![Ahorn](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/78c4079dabd58afc91d0be6ebd3e3f389c8af08a.jpeg) <!-- style="width: 100px" -->
-- [  ( )  ( )  ( )  (x) ] __Balsa__ ![Balsa](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/1c4945f4d6de59e7f52b79bdece3db8579d5bf11.jpeg) <!-- style="width: 100px" -->
-- [  ( )  ( )  (x)  ( ) ] __Fichte__ ![Fichte](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/b9fb21a6efb67e30927e96685605779ed132bd86.jpeg) <!-- style="width: 100px" -->
-- [  (x)  ( )  ( )  ( ) ] __Pockholz__ ![Pockholz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/751501db64601f0f609856c7df3aa7f2ce1388c9.jpeg) <!-- style="width: 100px" -->
+- [  ( )  (x)  ( )   ( ) ] __Ahorn__ @Hoelzer.Ahorn(10)
+- [  ( )  ( )  ( )  (x) ] __Balsa__ @Hoelzer.Balsa(10)
+- [  ( )  ( )  (x)  ( ) ] __Fichte__ @Hoelzer.Fichte(10)
+- [  (x)  ( )  ( )  ( ) ] __Pockholz__ @Hoelzer.Pockholz(10)
 
 
 ## Volkers Quiz - ich zeig hier mal die Bilder Quizes von Niklas:
