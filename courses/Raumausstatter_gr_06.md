@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: de
 
@@ -68,7 +68,7 @@ _Ein Hinweis: Es können mehrere Antworten richtig sein!_
 1. Welche genannten Teile gehören zu einem Schnellnäher? Ziehe die richtigen Antworten in das Feld.
 ===
 
-_Kleiner Tipp: 10 Angaben sind richtig_ 😄
+_Kleiner Tipp: 10 Angaben sind richtig_ 😄 - Erst nach den 10 richtigen Auswahl-Antworten, gibt es ein grünes Häckchen!
 
 <!-- data-randomize -->
 @dragdropmultiple(@uid,Gestell|Tischplatte|Kopf|Arm|Handrad|Nadelstange|Fadenheber|Spulenkapsel|Transporteur,Hubtisch|Ohr|Finger|Kurbel|Gaspedal|Fadengalgen)
@@ -78,10 +78,14 @@ _Kleiner Tipp: 10 Angaben sind richtig_ 😄
 
 >_Kann man irgendwie eine Rückmeldung geben, dass - wenn viele Einzelantworten zu geben sind und diese im Einzelnen richtig sind - das die Einzelantwort zwar richtig ist, aber die Gesamtantwort noch nicht? - So denkt man, wenn man auswählt, aha, da kommt ein "X", ist also falsch_ 🤷‍♀️
 
+>_Können aus den 10 richtigen Antworten per Zufall noch 5 ausgewählt werden - ebenso sollen aus den momentan 6 falschen Antworten nur 5 falsche zur Verfügung gestellt werden.
+
 -----
 
-2. Was ist beim Zuschneiden von Dekorationsstoffen zu beachten?
+2. Was ist beim Zuschneiden von Dekorationsstoffen zu beachten? Klicke alle richtigen Angaben an!
 ===
+
+>_In der Aufgabenanleitung hätte ich wieder gerne einen Zeilenumbruch._
 
 <!-- data-randomize -->
 - [[X]] Fadenlauf
@@ -93,32 +97,35 @@ _Kleiner Tipp: 10 Angaben sind richtig_ 😄
 - [[ ]] Fadenfarbe
 - [[ ]] Fusselkante
 
->_Hier wäre ein Bild hübsch._
+>_HWK: Vielleicht Bilder statt Wörter?._
+
+>_Es wird gewünscht, das bereits bei der ersten Antwortrunde beim Auswerten die richtigen Antworten, die nicht gewählt worden sind, angezeigt werden._
+
+>_Kann die Aufgabe - falls sie falsch gelöst wurde und nochmal probiert werden soll - sofort nochmal neu gelöst werden?_
 
 ----
 
-3. Welche Polsteruntergründe kennen Sie?
+3. Welche Polsteruntergründe kennen Sie? Ordnen Sie richtig zu!
 ===
+
 
 <!-- data-randomize -->
 - [[Polsteruntergrund - ja] (Polsteruntergrund - nein)]
 - [    ( )           (X)        ]  Leisten
 - [    (X)           ( )        ]  Holzplatte
 - [    (X)           ( )        ]  Gurtung
-- [    ( )           (X)        ]  Schaumstoff
 - [    ( )           (X)        ]  Polsterpappe
 - [    (X)           ( )        ]  Federkorb
 - [    (X)           ( )        ]  Wellenfedern
 - [    ( )           (X)        ]  Gummikokos
-- [    (X)           ( )        ]  Taillenfedern
 
->_Vielleicht ließe sich die Kopfzeile durch ein Arbeitsbild Polstern aufhübschen?_
+
 ---
 
-4. Welche Nahtarten gehören zu den Handnähten? 
+4. Welche Nahtarten gehören zu den Handnähten? Entscheiden Sie sich für die richtige Handnaht: 🤷‍♀️
 ===
 
-Entscheide dich für richtige Handnaht: 🤷‍♀️
+>_Randomize funktioniert hier nicht innerhalb der Antworten! Ich würde gern die Auswahlantworten nebeneinander setzen._
 
 <!-- data-randomize -->
 [[ (verzogener Stich) | __vorgezogener Stich__]] 
@@ -137,7 +144,7 @@ Entscheide dich für richtige Handnaht: 🤷‍♀️
 
 ---
 
-5. Welche Bodenbeläge verarbeitet der Raumausstatter ~~nicht~~?
+5. Welche Bodenbeläge verarbeitet der Raumausstatter ~~nicht~~? Wähle die entsprechenden Antworten aus. 
 ===
 
 <!-- data-randomize -->
@@ -150,33 +157,35 @@ Entscheide dich für richtige Handnaht: 🤷‍♀️
 - [[X]] Terrazzo
 - [[ ]] Fertigparkett
 - [[X]] Stabparkett
-- [[X]] Designbelag
+- [[ ]] Designbelag
 - [[X]] Steinboden
 
 >_Die Zuordnung anhand kleiner Materialbilder wäre ansprechender._
 
+>_TUBAF: Wie funktionert eine Bilderpuzzleabfrage ähnlich "Ich bin kein Roboter", wo nach einem bestimmten Begriff alls Bilder angetippt werden sollen, die den entsprechenden Begriff zeigen._
+
 ---
 
-6. Sie haben verschiedene Tapezierwerkzeuge kennengelernt. Welche gehören nicht dazu?
+6. Sie haben verschiedene Tapezierwerkzeuge kennengelernt. Ordnen Sie richtig zu!
 ===
 
 <!-- data-randomize -->
 - [[Tapezierwerkzeug - ja] (Tapezierwerkzeug - nein)]
-- [    (X)           ( )        ]  Zuschneidetisch
-- [    (X)           ( )        ]  Stecknadel
-- [    ( )           (X)        ]  Kreuzlaser
-- [    ( )           (X)        ]  Wasserwaage
-- [    ( )           (X)        ]  Cuttermesser
-- [    (X)           ( )        ]  Verlegemesser
-- [    (X)           ( )        ]  Gurtspanner
-- [    ( )           (X)        ]  Lot
-- [    ( )           (X)        ]  Spachtel
-- [    ( )           (X)        ]  Tapezierbürste
-- [    (X)           ( )        ]  Drahtbürste
-- [    (X)           ( )        ]  Zahnspachtel
-- [    ( )           (X)        ]  Cutterkantmaschine
-- [    ( )           (X)        ]  Schere
-- [    ( )           (X)        ]  Tapeziertisch
+- [    ( )           (X)        ]  Zuschneidetisch
+- [    ( )           (X)        ]  Stecknadel
+- [    (X)           ( )        ]  Kreuzlaser
+- [    (X)           ( )        ]  Wasserwaage
+- [    (X)           ( )        ]  Cuttermesser
+- [    ( )           (X)        ]  Verlegemesser
+- [    ( )           (X)        ]  Gurtspanner
+- [    (X)           ( )        ]  Lot
+- [    (X)           ( )        ]  Spachtel
+- [    (X)           ( )        ]  Tapezierbürste
+- [    ( )           (X)        ]  Drahtbürste
+- [    ( )           (X)        ]  Zahnspachtel
+- [    (X)           ( )        ]  Cutterkantschiene
+- [    (X)           ( )        ]  Schere
+- [    (X)           ( )        ]  Tapeziertisch
 
 
 >_Vielleicht ließe sich die Kopfzeile durch ein Arbeitsbild Tapezieren aufhübschen?_
