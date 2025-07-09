@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.2
+version:  0.0.3
 
 language: de
 
@@ -78,7 +78,7 @@ Dieses ungleiche Verhältnis zwischen zwei Größen wird als besonders schön un
 
 >_Hier hätte ich gern eine Bildercollage zum Goldenen Schnitt._ 
 
-![golden ratio examples](img/golden_ratio_collage.png)
+![golden ratio examples](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/golden_ratio_collage.png)
 
 _Quelle:_ Generiert von Dall-E 3, An OpenAI Model, 2025
 
@@ -99,14 +99,57 @@ Die kleinere Teilstrecke (Minor) verhält sich zur größeren Teilstrecke (Major
 ## 🧪 Interaktive Darstellung des Goldenen Schnitts
 
 
-🙈
-
->_Gibt's da eine einfach zu generierende Funktion? Ich habe im Netz nicht wirklich was Schönes gefunden._
+![giphy.com](https://media2.giphy.com/media/Up8GmvOMbSdvJWvhgI/giphy.gif)
 
 
 Ein kleines Video fasst die wichtigsten Dinge zum Goldenen Schnitt zusammen.
 
 ??[](https://studyflix.de/allgemeinwissen/goldener-schnitt-6943?topic_id=640)
+
+---
+
+# Goldener Schnitt in Zahlen
+
+> ist das too much?
+
+Formel des Goldenen Schnitts  
+=============================
+
+Der Goldene Schnitt teilt eine Strecke so, dass:
+
+$$
+\frac{a + b}{a} = \frac{a}{b} = \varphi \approx 1{,618}
+$$
+
+wobei:
+
+- $a$ die **Major-Strecke** ist (größerer Abschnitt),
+- $b$ die **Minor-Strecke** ist (kleinerer Abschnitt),
+- $\varphi$ (Phi) die irrational Zahl ist, definiert durch:
+
+$$
+\varphi = \frac{1 + \sqrt{5}}{2} \approx 1{,6180339887\dots}
+$$
+
+---
+
+Näherungen des Goldenen Schnitts  
+=================================
+
+Einige gebräuchliche rationale Näherungen für $\varphi$ sind:
+
+- **Verhältnis 3:5**  
+  $$
+  \frac{5}{3} \approx 1{,666}
+  $$
+
+- **Verhältnis 5:8**  
+  $$
+  \frac{8}{5} = 1{,6}
+  $$
+
+Diese Näherungen sind praktisch, wenn exakte irrationale Zahlen im Alltag oder beim Gestalten nicht benötigt werden.
+
 
 ---
 
@@ -288,9 +331,7 @@ Sie haben während Ihrer überbetrieblichen Ausbildung eine Dekorationsschleife 
 
 
 
-Diese besteht aus zwei Teilen, dem oberen  Schleifen- [[  körper ]]   und dem unteren Schleifen- [[  band  ]].
-
-_Tipp: Verwenden Sie bei Ihrer Antwort "körper" und "band" an der richtigen Stelle._ 
+Diese besteht aus zwei Teilen, dem oberen  Schleifen- [[  (körper)|band | stoff]]   und dem unteren Schleifen- [[  körper|(band)|stoff  ]].
 
 Diese beiden Teile stehen im Verhältnis   __3:5__   zueinander. 
 
@@ -363,9 +404,9 @@ Ergebnis:
 ### Berechnen Sie die Höhe des Schleifenkörpers unter Beachtung des Verhältnisses 3 : 5.
 
 
-_Tipp: Die gegebene Gesamtlänge des Schleifenkörpers wird nun zu Major. Gesucht wird der Minor (Höhe des Schleifenkörpers)._
+_Tipp: In der vorherigen Aufgabe entsprach die Länge des Schleifenkörpers der Minor-Strecke, um daraus die Länge des Schleifenbands (Major) zu berechnen.Jetzt ist die Höhe gesucht und die Gesamtlänge des Schleifenbands stellt die Major-Strecke dar._
 
-> finde ich extrem verwirrend geschrieben. wollen wir nicht eigentlich irgendwas harmonisches zum Körper berechnen? (dann ist der Major)
+> _Volker: fand ich extrem verwirrend geschrieben. Oben die Änderung._<!--style="background-color:grey; color:red; font-weight: bolder;"-->
 
 ---
 
@@ -421,13 +462,13 @@ Wenn Sie sich nicht sicher sind, wie Sie die Strecken berechnen, schauen Sie sic
 
 ### 🎁 Hier finden Sie ein Beispiel zur Berechnung Goldener Schnitt 
 
-Eine Strecke ist nach dem Goldenen Schnitt so zu teilen, dass die kleine Teilstrecke (Minor) 1,55 m misst. 
+Eine Strecke ist nach dem Goldenen Schnitt so zu teilen, dass die kleine Teilstrecke (Minor<!--style="font-weight:bold;color:navy;"-->) 1,55 m misst. 
 
-Es wird von einem Verhältnis __5:8__ ausgegangen.
+Es wird von einem Verhältnis __5:8__<!--style="color:green;"--> ausgegangen.
 
-Wie lang ist die größte Teilstrecke (Major), wie lang die Gesamtstrecke?
+Wie lang ist die größte Teilstrecke (Major<!--style="color:orange;"-->), wie lang die Gesamtstrecke?
 
->_Unterschiedliche Schriftfarben wären ideal._
+>_Unterschiedliche Schriftfarben wären ideal._ s.o.
 
 <section class="flex-container">
 
