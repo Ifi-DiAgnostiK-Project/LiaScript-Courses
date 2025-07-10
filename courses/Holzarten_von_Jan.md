@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler
 
 email:    jan.franke@hwk-dresden.de
  
-version:  0.0.4
+version:  0.0.5
  
 language: de
  
@@ -11,7 +11,9 @@ narrator: Deutsch Female
 
 edit: true
 date: 2025-06-24
-logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
+logo: @Hoelzer.Pockholz.src
+icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
+
 
 comment:  Quiz zu Eigenschaften Holz
 
