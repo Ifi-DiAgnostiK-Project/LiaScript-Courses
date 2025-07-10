@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.3
+version:  0.0.4
 
 language: de
 
@@ -14,7 +14,7 @@ comment:  Goldener Schnitt -- Raumausstatter
 
 edit: true
 date: 2025-07-08
-logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/da_vinci.png
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
