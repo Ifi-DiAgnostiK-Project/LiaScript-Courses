@@ -139,23 +139,7 @@ jobs:
       - name: Generate project.yml
         if: steps.read_changes.outputs.changed_files != ''
         run: |
-          set -euo pipefail
-          # Define base URL where markdown files will be hosted
-          BASE_URL="https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/"
-
-          # aggregate
-          cat project-part.yaml > project.yml
-
-          # Find all markdown files in courses and append as URLs
-          for file in $(find courses -type f -name '*.md' | sort); do
-            fname=$(basename "$file")
-            if [ -n "$fname" ]; then
-              echo "  - url: ${BASE_URL}courses/${fname}" >> project.yml
-            else
-              echo "Skipping empty file name"
-              continue
-            fi
-          done
+          python generate_project_yaml.py
       
       - name: Debug output
         if: steps.read_changes.outputs.changed_files != ''
