@@ -1,10 +1,13 @@
 <!--
 
 author: Niklas Werner
-version: 0.0.1
+version: 0.0.2
 comment: This is a JSCAD example
 edit: true
 import:  https://raw.githubusercontent.com/LiaTemplates/jscad/0.0.1/README.md
+
+tags:
+  - experimente
 
 -->
 

@@ -23,6 +23,9 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
 
 import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
 
+tags:
+    - Raumausstatter
+
 @style
 .flex-container {
     display: flex;[](https://liascript.github.io/LiveEditor/liascript/index.html?#5)

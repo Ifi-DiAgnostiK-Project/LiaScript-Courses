@@ -18,6 +18,9 @@ logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses
 comment:  this short course explains math mode in liascript (in german)
 
 import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
+
+tags:
+- wissensspeicher
 -->
 
 # Einführung in LaTeX-Mathematik mit LiaScript

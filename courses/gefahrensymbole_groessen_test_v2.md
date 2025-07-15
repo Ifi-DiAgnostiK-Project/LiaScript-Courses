@@ -11,6 +11,10 @@ comment: this is only a test for image sizes in conjunction with quizes
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 
+tags:
+  - wissensspeicher
+  - gefahrstoffe
+
 @style
 .flex-container {
     display: flex;

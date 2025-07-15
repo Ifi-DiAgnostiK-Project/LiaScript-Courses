@@ -11,6 +11,11 @@ comment: test course to test out image maps and svg
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 
+title: Sägenbilder zum Anklicken
+
+tags:
+- Experimente
+
 @style
 .flex-container {
     display: flex;[](https://liascript.github.io/LiveEditor/liascript/index.html?#5)

@@ -14,6 +14,10 @@ comment:  TSM 2
 edit: true
 date: 2025-06-30
 
+tags: 
+  - TSM
+  - Tischler
+
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 

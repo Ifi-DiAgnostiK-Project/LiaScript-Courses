@@ -21,6 +21,9 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragA
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
 
+tags:
+- Raumausstatter
+
 @style
 .flex-container {
     display: flex;[](https://liascript.github.io/LiveEditor/liascript/index.html?#5)

@@ -5,6 +5,12 @@ script: https://cdn.jsdelivr.net/npm/konva@latest/konva.min.js
 comment: This is a test for the Konva library in LiaScript, demonstrating how to create shapes and measure their dimensions using arrows and labels.
 edit: true
 
+title: Flächenberechnungs Quiz
+
+tags:
+- experimente
+- konva
+
 @Konva
 <div id='container-@0'></div>
 

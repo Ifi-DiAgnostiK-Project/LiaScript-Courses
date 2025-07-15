@@ -7,6 +7,12 @@ date: 2025-05-20
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 comment: Test Course for the action release system
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
+
+title : Test Course for Action Release System
+
+tags:
+- Experimente
+
 -->
 # Test Course in LiaScript
 

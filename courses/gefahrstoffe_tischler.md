@@ -12,6 +12,10 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/ref
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
 
+tags:
+- tischler
+- gefahrstoffe
+
 @style
 .flex-container {
     display: flex;[](https://liascript.github.io/LiveEditor/liascript/index.html?#5)
