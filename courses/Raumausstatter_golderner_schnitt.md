@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.6
+version:  0.1.0
 
 language: de
 
@@ -91,9 +91,6 @@ Verhältnis 3  :  5
 ![Goldener Schnitt 3:5](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/verhaltnis35.jpg) <!-- style="width: 800px" -->
 
 Die kleinere Teilstrecke (Minor) verhält sich zur größeren Teilstrecke (Major) wie die größere Teilstrecke (Major) zur Gesamtstrecke. 
-
->_Volker: Vielleicht fällt dir etwas besseres ein zur grafischen Darstellung._
-
 
 
 ## 🧪 Interaktive Darstellung des Goldenen Schnitts
@@ -444,8 +441,6 @@ Ergebnis:
 
 *****
 
->_Es wäre cool, die richtigen Maßangaben direkt interaktiv in die Zeichnung einzutragen!_
-
 <!--style="font-size: large;"-->Auf der nächsten Folie gibt es ein Beispiel für die Berechnung im Verhältnis 5 : 8
 
 ---
@@ -487,13 +482,14 @@ Wie breit ist die Gardine insgesamt<!--style="font-weight:bold;color:red;"-->?
 Aufgabe 1: Berechnen Sie die Länge der Gesamtschleife $n$. Das Verhältnis beträgt 5 : 8. 
 ===
 
-1. Der $\text{Minor}$ (= Schleifenbreite) beträgt [[  3 | (5) | 8 | 13 ]] Teile<!--style="font-weight:bolder;"-->. 
+Der $\text{Minor}$ (= Schleifenbreite) beträgt [[  3 | (5) | 8 | 13 ]] Teile<!--style="font-weight:bolder;"-->. 
 
-2. $1$ $\text{Teil}$ $\text{=}$ [[  9 ]]  $\text{cm}$
+$1$ $\text{Teil}$ $\text{=}$ [[  9 ]]  $\text{cm}$
 
-3. Der $\text{Major}$ $\text{n}$<!--style="font-weight:bold;color:black;"--> (=Schleifenlänge) beträgt [[  72 ]]  $\text{cm}$.
+Der $\text{Major}$ $\text{n}$<!--style="font-weight:bold;color:black;"--> (=Schleifenlänge) beträgt [[  72 ]]  $\text{cm}$.
 *****
-### ✅ Aufgabe 1: Gesamtschleife berechnen
+✅ Aufgabe 1: Gesamtschleife berechnen
+====
 
 **Gegeben:**
 
@@ -516,15 +512,15 @@ Aufgabe 1: Berechnen Sie die Länge der Gesamtschleife $n$. Das Verhältnis betr
 Aufgabe 2: Berechnen Sie die Höhe Des Schleifenkörpers $m$. Das Verhältnis beträgt 5 : 8. 
 ===
 
-1. Der $\text{Major}$ (= Schleifenbreite) beträgt [[  3 | 5 | (8) | 13 ]] Teile. 
+Der $\text{Major}$ (= Schleifenbreite) beträgt [[  3 | 5 | (8) | 13 ]] Teile. 
 
-2. $1$ $\text{Teil}$ $\text{=}$ [[  5,62 ]]  $\text{cm}$@Algebrite.check2(5.625,0.1)
+$1$ $\text{Teil}$ $\text{=}$ [[  5,62 ]]  $\text{cm}$@Algebrite.check2(5.625,0.1)
 
-3. Der $\text{Schleifenkörper}$ $\text{m}$<!--style="font-weight:bold;color:red;"--> ist [[  28,1 ]]  $\text{cm}$ hoch.@Algebrite.check2(28.125,0.1)
-
+Der $\text{Schleifenkörper}$ $\text{m}$<!--style="font-weight:bold;color:red;"--> ist [[  28,1 ]]  $\text{cm}$ hoch.@Algebrite.check2(28.125,0.1)
 *****
 
-### ✅ Aufgabe 2: Höhe des Schleifenkörpers berechnen
+✅ Aufgabe 2: Höhe des Schleifenkörpers berechnen
+====
 
 **Gegeben:**
 
