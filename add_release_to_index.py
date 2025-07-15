@@ -23,19 +23,23 @@ def hash_id(id_str):
     return hashlib.sha256(id_str.encode("utf-8")).hexdigest()
 
 def build_result(item_list):
-    """Construct the result dict as specified."""
+    """Construct the result dict from nested itemListElements."""
     result = {}
-    for item in item_list.get("itemListElement", []):
-        id_url = item.get("@id", "")
-        version = item.get("version", "")
-        file_name = id_url.split("/")[-1] if id_url else ""
-        id_hash = hash_id(id_url)
-        result[id_hash] = {
-            "version": version,
-            "file_name": file_name,
-            "id_url": id_url,
-            "release_urls": generate_release_urls(file_name, version)
-        }
+    outer_list = item_list.get("itemListElement", [])
+
+    for outer in outer_list:
+        inner_list = outer.get("itemListElement", [])
+        for item in inner_list:
+            id_url = item.get("@id", "")
+            version = item.get("version", "")
+            file_name = id_url.split("/")[-1] if id_url else ""
+            id_hash = hash_id(id_url)
+            result[id_hash] = {
+                "version": version,
+                "file_name": file_name,
+                "id_url": id_url,
+                "release_urls": generate_release_urls(file_name, version)
+            }
     return result
 
 def generate_release_urls(file_name, version):
@@ -47,7 +51,7 @@ def generate_release_urls(file_name, version):
     file_base = f"{base_name}_v{version}"
 
     base_url = f"https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/releases/download/{version_tag}"
-    
+
     return {
         "Documentation": f"{base_url}/{file_base}_Documentation.pdf",
         "IMS": f"{base_url}/{file_base}_IMS.zip",
