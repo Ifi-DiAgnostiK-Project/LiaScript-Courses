@@ -59,7 +59,7 @@ def generate_release_urls(file_name, version):
     }
 
 def add_release_links(soup, result):
-    cards = soup.find_all("div", class_="card-body")
+    cards = get_cards_to_inject(soup)
     for card in cards:
         link = card.find("a", href=True)
         if not link:
@@ -95,6 +95,12 @@ def add_release_links(soup, result):
 
         card_links_div.append(ul)
         card.parent.insert(card.parent.contents.index(card) + 1, card_links_div)
+
+
+def get_cards_to_inject(soup):
+    cards = soup.select("div.card-body div.row div.card-body")
+    return cards
+
 
 def add_css_link(soup):
     head = soup.find("head")
