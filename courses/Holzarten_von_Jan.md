@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler
 
 email:    jan.franke@hwk-dresden.de
  
-version:  0.0.6
+version:  0.0.7
  
 language: de
  
@@ -11,8 +11,10 @@ narrator: Deutsch Female
 
 edit: true
 date: 2025-06-24
-logo: @Hoelzer.Pockholz.src
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
+logo: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Wood_of_a_Picea_abies_03.jpg/1920px-Wood_of_a_Picea_abies_03.jpg
+
+attribute: Title Image By Kritzolina - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=128991156 
 
 
 comment:  Quiz zu Eigenschaften Holz
