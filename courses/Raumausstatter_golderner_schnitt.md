@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.5
+version:  0.0.6
 
 language: de
 
@@ -55,13 +55,10 @@ tags:
 
 _Quelle:_ Da Vinci Vitruve Luc Viatour 2.svg; Wikipedia; 
 
->_Hier hätte ich gern etwas Bildliches zum Thema Goldener Schnitt._ 
 
 ![Illustration Goldener Schnitt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/goldener_schnitt_illustration.png)<!-- style="width: 400px;" -->
 
 _Quelle:_ Generiert von Dall-E 3, An OpenAI Model, 2025
-
-> so?<!-- style="color:red;font-weight:bolder;font-size:x-large;" -->
 
 
 ## Einführung
@@ -78,8 +75,6 @@ _Quelle:_ Generiert von Dall-E 3, An OpenAI Model, 2025
 
 <!-- style="width: 800px" -->
 
-
->_Hier hätte ich gern eine Bildercollage zum Goldenen Schnitt._ 
 
 ![golden ratio examples](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/golden_ratio_collage.png)
 
@@ -107,17 +102,13 @@ Die kleinere Teilstrecke (Minor) verhält sich zur größeren Teilstrecke (Major
 ![giphy.com](https://media2.giphy.com/media/Up8GmvOMbSdvJWvhgI/giphy.gif)
 
 
-Ein kleines Video fasst die wichtigsten Dinge zum Goldenen Schnitt zusammen.
+Ein kleines Video fasst die wichtigsten Dinge zum Goldenen Schnitt in 3 Minuten zusammen.
 
-??[](https://studyflix.de/allgemeinwissen/goldener-schnitt-6943?topic_id=640)
-
->_Die interaktive Darstellung ist nett. Vermutlich ist sie nicht besonders zielführend. Am besten, wir verweisen nur auf die Internetseite von studyflix und erproben, ob das den Azubis hilft_
+[Studyflix.de -- goldener Schnitt](https://studyflix.de/allgemeinwissen/goldener-schnitt-6943?topic_id=640)
 
 ---
 
 # Goldener Schnitt in Zahlen
-
-> ist das too much?
 
 Formel des Goldenen Schnitts  
 =============================
@@ -258,8 +249,6 @@ Die Strecke von **1,56 m** ist damit im Verhältnis **5:3** gemäß dem Golden
 
 *****
 
->_Warum kommt die Auflösung auch, wenn ich das Ergebnis richtig habe?_
-
 ---
 
 Beispiel 2:
@@ -325,14 +314,11 @@ Beispiel 3:
 
 Die Rückenfläche des Sessels mit einer Gesamtbreite von 78 cm soll eine Unterteilung in Pfeifen erhalten.
 
-1. Die Breite der beiden äußeren Pfeifen (= Minor) beträgt jeweils  [[  25,58  ]] cm. @Algebrite.check2(25.58,0.01)
+1. Die Breite der beiden äußeren Pfeifen (= Minor) beträgt jeweils  [[  14,63  ]] cm. @Algebrite.check2(14.63,0.01)
 
-2. Die Breite der beiden inneren Pfeifen (= Major) beträgt jeweils [[  47,74  ]] cm.@Algebrite.check2(47.74,0.01)
+2. Die Breite der beiden inneren Pfeifen (= Major) beträgt jeweils [[  24,38  ]] cm.@Algebrite.check2(24.38,0.01)
 
 _Hinweis: Bitte auf 2 Stellen nach dem Komma gerundet angeben._
-
-
->_Volker: Ich komme auf andere Werte: 14,63 cm für Minor und 24,38 cm für Major. Da jede Pfeife 2x vorkommt, ergibt das zusammen 78,02 cm. Die 2mm kommen durch die Rundung auf 2 Kommastellen._
 
 
 ## ✏️ Praxisaufgabe: Dekorationsschleife
@@ -369,10 +355,11 @@ Lesen Sie die Breite der Gesamtschleife (Minor) ab:
 
 <!--style="font-size: medium;"-->__Berechnung:__
 
->_Ich hab irgendwas gemacht, so dass der Rechenweg jetzt IMMER angezeigt wird 🙈._
-- $3$ Teile (**Minor**) = [[ 30 ]] $\text{cm}$ = Schleifenbreite
-- $1$ Teil = [[ 10 ]] $\text{cm}$
-- $5$ Teile (**Major**) = [[ 50 ]] $\text{cm}$ = Gesamtlänge der Schleife
+$3$ Teile (**Minor**) = [[ 30 ]] $\text{cm}$ = Schleifenbreite
+
+$1$ Teil = [[ 10 ]] $\text{cm}$
+
+$5$ Teile (**Major**) = [[ 50 ]] $\text{cm}$ = Gesamtlänge der Schleife
 *****
 Rechenweg
 =========
@@ -407,15 +394,10 @@ Ergebnis:
 *****
 
 
->_Es wäre cool, die richtigen Maßangaben direkt interaktiv in die Zeichnung einzutragen!_
-
 ### Berechnen Sie die Höhe des Schleifenkörpers unter Beachtung des Verhältnisses 3 : 5.
 
 
 _Tipp: In der vorherigen Aufgabe entsprach die Breite des Schleifenkörpers der Minor-Strecke, um daraus die Gesamtlänge des Schleifenbands (Major) zu berechnen. Jetzt ist die Höhe des Schleifenkörpers gesucht und die Breite des Schleifenkörpers stellt die Major-Strecke dar._
-
-> _Ist dieser Text jetzt verständlicher?_<!--style="background-color:white; color:red; font-weight: bolder;"-->
-
 
 ---
 
@@ -424,9 +406,11 @@ _Tipp: In der vorherigen Aufgabe entsprach die Breite des Schleifenkörpers der 
 
 <!--style="font-size: medium;"-->__Berechnung:__
 
-- $5$ Teile (**Major**) = [[ 30 ]] $\text{cm}$ = Schleifenbreite
-- $1$ Teil = [[ 6 ]] $\text{cm}$
-- $3$ Teile (**Minor**) = [[ 18 ]] $\text{cm}$ = Höhe des Schleifenkörpers
+$5$ Teile (**Major**) = [[ 30 ]] $\text{cm}$ = Schleifenbreite
+
+$1$ Teil = [[ 6 ]] $\text{cm}$
+
+$3$ Teile (**Minor**) = [[ 18 ]] $\text{cm}$ = Höhe des Schleifenkörpers
 *****
 Rechenweg 
 --------
@@ -473,15 +457,16 @@ Eine Gardine soll gerafft werden. Die beiden Schals sind so übereinander zu dek
 
 Es wird von einem Verhältnis __5:8__<!--style="color:green;font-size: large"--> ausgegangen.
 
-
-![Raffgardine](e57c7318deac85abda30ae7c906de6147f6bfbc6.jpg)
-
-
+<section class="flex-container">
+<div class="flex-child">
+![Raffgardine](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/raffgardine.jpg)
+</div>
+<div class="flex-child">
 Wie breit sind die beiden größeren, nicht überlappenden Schals (Major<!--style="font-weight:bold;color:orange;"-->)?
 
 Wie breit ist die Gardine insgesamt<!--style="font-weight:bold;color:red;"-->?
-
->_Ich wollte gern direkt neben dem Bild die Frage stellen._ 
+</div>
+</section>
 
 <!--style="font-size: medium;"-->__Berechnung:__
 
@@ -499,30 +484,63 @@ Wie breit ist die Gardine insgesamt<!--style="font-weight:bold;color:red;"-->?
 
 
 
-Berechnen Sie die Länge der Gesamtschleife. Das Verhältnis beträgt 5 : 8. 
+Aufgabe 1: Berechnen Sie die Länge der Gesamtschleife $n$. Das Verhältnis beträgt 5 : 8. 
 ===
 
-1. Der $\text{Minor}$ (= Schleifenbreite) beträgt [[  3 | (5) | 8 | 13 ]] Teile. 
+1. Der $\text{Minor}$ (= Schleifenbreite) beträgt [[  3 | (5) | 8 | 13 ]] Teile<!--style="font-weight:bolder;"-->. 
 
-2. $1$ $\text{Teil}$ $\text{=}$ [[  8 ]]  $\text{cm}$
+2. $1$ $\text{Teil}$ $\text{=}$ [[  9 ]]  $\text{cm}$
 
-3. Der $\text{Major}$ $\text{n}$<!--style="font-weight:bold;color:black;"--> (=Schleifenlänge) beträgt [[  64 ]]  $\text{cm}$.
+3. Der $\text{Major}$ $\text{n}$<!--style="font-weight:bold;color:black;"--> (=Schleifenlänge) beträgt [[  72 ]]  $\text{cm}$.
+*****
+### ✅ Aufgabe 1: Gesamtschleife berechnen
+
+**Gegeben:**
+
+- Verhältnis: 5 : 8
+- Minor = **5 Teile** = **45 cm**
+- 1 Teil = **9 cm** = Minor $/ 5$ 
+
+**Gesucht:** Gesamtlänge der Schleife $n$ (Major)
+
+**Berechnung:**
+
+- Minor = 5 × 9 cm = **45 cm**
+- Major = 8 × 9 cm = **72 cm**
+
+**✅ Ergebnis:** Die Gesamtlänge ist **72 cm**.
+*****
 
 -----
 
-Berechnen Sie die Höhe Des Schleifenkörpers. Das Verhältnis beträgt 5 : 8. 
+Aufgabe 2: Berechnen Sie die Höhe Des Schleifenkörpers $m$. Das Verhältnis beträgt 5 : 8. 
 ===
 
 1. Der $\text{Major}$ (= Schleifenbreite) beträgt [[  3 | 5 | (8) | 13 ]] Teile. 
 
-2. $1$ $\text{Teil}$ $\text{=}$ [[  5 ]]  $\text{cm}$
+2. $1$ $\text{Teil}$ $\text{=}$ [[  5,62 ]]  $\text{cm}$@Algebrite.check2(5.625,0.1)
 
-3. Der $\text{Schleifenkörper}$ $\text{m}$<!--style="font-weight:bold;color:red;"--> ist [[  25 ]]  $\text{cm}$ hoch.
+3. Der $\text{Schleifenkörper}$ $\text{m}$<!--style="font-weight:bold;color:red;"--> ist [[  28,1 ]]  $\text{cm}$ hoch.@Algebrite.check2(28.125,0.1)
 
+*****
 
->_TUBAF: Bitte Lösungshinweise einstellen._
+### ✅ Aufgabe 2: Höhe des Schleifenkörpers berechnen
 
+**Gegeben:**
 
+- Verhältnis: 5 : 8
+- Major = **8 Teile** = $45 \text{ cm}$
+- 1 Teil = **5,625 cm** = Minor $/ 8$
+
+**Gesucht:** Höhe $m$ (Minor)
+
+**Berechnung:**
+
+- Major = 8 × 5,625 cm = **45 cm**
+- Minor = 5 × 5,625 cm = **28,125 cm**
+
+**✅ Ergebnis:** Die Höhe des Schleifenkörpers beträgt **28,1 cm**.
+*****
 
 ---
 
