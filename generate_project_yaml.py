@@ -134,11 +134,6 @@ def write_output_yaml(categories):
         # Optionaler YAML-Header
         write_yaml_header(out)
 
-        if Path(HEADER_FILE).exists():
-            with open(HEADER_FILE, "r", encoding="utf-8") as header:
-                out.write(header.read())
-                out.write("\n")
-
         for category in CATEGORY_LIST:
             items = categories.get(category, [])
             if not items:
