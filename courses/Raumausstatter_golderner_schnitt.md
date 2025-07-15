@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.4
+version:  0.0.5
 
 language: de
 
@@ -66,13 +66,13 @@ _Quelle:_ Generiert von Dall-E 3, An OpenAI Model, 2025
 
 ## Einführung
 
-Der __Goldene Schnitt__ ist ein besonderes Verhältnis, das häufig in der Kunst, Architektur und Natur vorkommt. 
+<!--style="font-size: large;"-->Der __Goldene Schnitt__ ist ein besonderes Verhältnis, das häufig in der Kunst, Architektur und Natur vorkommt. 
 
-Es beträgt   1   :   1,618 zwischen zwei verschiedenen Größen bzw. 38,2% zu 61,8 %. 
+<!--style="font-size: large;"-->Es beträgt   1 <!--style="color:green;"-->  :   1,618 <!--style="color:green;"--> zwischen zwei verschiedenen Größen bzw. 38,2% <!--style="color:green;"--> zu 61,8% <!--style="color:green;"-->. 
 
-In der Praxis wird oft das angenäherte Verhältnis **3:5** bzw. **5:8** verwendet. 
+<!--style="font-size: large;"-->In der Praxis wird oft das angenäherte Verhältnis **3:5** <!--style="color:red;"--> bzw. **5:8** <!--style="color:red;"--> verwendet. 
 
-Dieses ungleiche Verhältnis zwischen zwei Größen wird als besonders schön und harmonisch empfunden. 
+<!--style="font-size: large;"-->Dieses ungleiche Verhältnis zwischen zwei Größen wird als besonders schön und harmonisch empfunden. 
 
 
 
@@ -97,6 +97,8 @@ Verhältnis 3  :  5
 
 Die kleinere Teilstrecke (Minor) verhält sich zur größeren Teilstrecke (Major) wie die größere Teilstrecke (Major) zur Gesamtstrecke. 
 
+>_Volker: Vielleicht fällt dir etwas besseres ein zur grafischen Darstellung._
+
 
 
 ## 🧪 Interaktive Darstellung des Goldenen Schnitts
@@ -108,6 +110,8 @@ Die kleinere Teilstrecke (Minor) verhält sich zur größeren Teilstrecke (Major
 Ein kleines Video fasst die wichtigsten Dinge zum Goldenen Schnitt zusammen.
 
 ??[](https://studyflix.de/allgemeinwissen/goldener-schnitt-6943?topic_id=640)
+
+>_Die interaktive Darstellung ist nett. Vermutlich ist sie nicht besonders zielführend. Am besten, wir verweisen nur auf die Internetseite von studyflix und erproben, ob das den Azubis hilft_
 
 ---
 
@@ -128,7 +132,7 @@ wobei:
 
 - $a$ die **Major-Strecke** ist (größerer Abschnitt),
 - $b$ die **Minor-Strecke** ist (kleinerer Abschnitt),
-- $\varphi$ (Phi) die irrational Zahl ist, definiert durch:
+- $\varphi$ (Phi) die irrationale Zahl ist, definiert durch:
 
 $$
 \varphi = \frac{1 + \sqrt{5}}{2} \approx 1{,6180339887\dots}
@@ -211,7 +215,7 @@ Der Prozentsatz des Major beträgt [[  61,8 ]] %.@Algebrite.check2(61.8,0.1)
 #### Teilen Sie folgende Strecken nach dem Goldenen Schnitt und berechnen Sie Minor und Major:
 
 
-_Hinweis: Nutzen Sie die 5:3 Näherung. Runden Sie auf zwei Stellen nach dem Komma._
+<!--style="font-size: large;"-->_Hinweis: Nutzen Sie die 5:3 Näherung. Runden Sie auf zwei Stellen nach dem Komma._
 
 ---
 
@@ -254,6 +258,8 @@ Die Strecke von **1,56 m** ist damit im Verhältnis **5:3** gemäß dem Golden
 
 *****
 
+>_Warum kommt die Auflösung auch, wenn ich das Ergebnis richtig habe?_
+
 ---
 
 Beispiel 2:
@@ -261,7 +267,7 @@ Beispiel 2:
 
 Auf die Stirnwand eines Raumes soll eine Fototapete aufgebracht werden. Sie steht nur mit einer Breite von 105 cm (= Minor) zur Verfügung.
 
-Wie hoch ist die Fototapete zu tapezieren, damit die Maßverhältnisse nach dem Goldenen Schnitt harmonisch wirken?
+Wie hoch (= Major) ist die Fototapete zu tapezieren, damit die Maßverhältnisse nach dem Goldenen Schnitt harmonisch wirken?
 
 _Achtung: Die Angabe ist in Meter mit 2 Stellen nach dem Komma._
 
@@ -321,11 +327,12 @@ Die Rückenfläche des Sessels mit einer Gesamtbreite von 78 cm soll eine Untert
 
 1. Die Breite der beiden äußeren Pfeifen (= Minor) beträgt jeweils  [[  25,58  ]] cm. @Algebrite.check2(25.58,0.01)
 
-2. Die Breite der beiden äußeren Pfeifen (= Major) beträgt jeweils [[  47,74  ]] cm.@Algebrite.check2(47.74,0.01)
+2. Die Breite der beiden inneren Pfeifen (= Major) beträgt jeweils [[  47,74  ]] cm.@Algebrite.check2(47.74,0.01)
 
 _Hinweis: Bitte auf 2 Stellen nach dem Komma gerundet angeben._
 
 
+>_Volker: Ich komme auf andere Werte: 14,63 cm für Minor und 24,38 cm für Major. Da jede Pfeife 2x vorkommt, ergibt das zusammen 78,02 cm. Die 2mm kommen durch die Rundung auf 2 Kommastellen._
 
 
 ## ✏️ Praxisaufgabe: Dekorationsschleife
@@ -350,7 +357,7 @@ _Quelle: HWK Dresden, Frau Schmidt_
 ---
 
 
-Lesen Sie die Länge des kleineren Teiles (Minor) der Gesamtschleife ab:
+Lesen Sie die Breite der Gesamtschleife (Minor) ab:
 ---------------------
 
  [[  30  ]] cm
@@ -358,16 +365,14 @@ Lesen Sie die Länge des kleineren Teiles (Minor) der Gesamtschleife ab:
 
 ### Berechnen Sie die Gesamtlänge der Schleife unter Beachtung des Verhältnisses 3 : 5.
 
-- $3$ Teile (**Minor**) = [[ 30 ]] $\text{cm}$
-- $5$ Teile (**Major**) = $?$ cm
+![Deko-Schleife_Major](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/schleife_major_laenge.jpg)
 
----
+<!--style="font-size: medium;"-->__Berechnung:__
 
-Berechnung:
-
-$? \text{cm} = 5 \cdot $ [[ 30 ]] $\text{cm} / {3}$
-
-$? \text{cm} = $ [[ 50 ]] $\text{cm}$
+>_Ich hab irgendwas gemacht, so dass der Rechenweg jetzt IMMER angezeigt wird 🙈._
+- $3$ Teile (**Minor**) = [[ 30 ]] $\text{cm}$ = Schleifenbreite
+- $1$ Teil = [[ 10 ]] $\text{cm}$
+- $5$ Teile (**Major**) = [[ 50 ]] $\text{cm}$ = Gesamtlänge der Schleife
 *****
 Rechenweg
 =========
@@ -407,22 +412,21 @@ Ergebnis:
 ### Berechnen Sie die Höhe des Schleifenkörpers unter Beachtung des Verhältnisses 3 : 5.
 
 
-_Tipp: In der vorherigen Aufgabe entsprach die Länge des Schleifenkörpers der Minor-Strecke, um daraus die Länge des Schleifenbands (Major) zu berechnen.Jetzt ist die Höhe gesucht und die Gesamtlänge des Schleifenbands stellt die Major-Strecke dar._
+_Tipp: In der vorherigen Aufgabe entsprach die Breite des Schleifenkörpers der Minor-Strecke, um daraus die Gesamtlänge des Schleifenbands (Major) zu berechnen. Jetzt ist die Höhe des Schleifenkörpers gesucht und die Breite des Schleifenkörpers stellt die Major-Strecke dar._
 
-> _Volker: fand ich extrem verwirrend geschrieben. Oben die Änderung._<!--style="background-color:grey; color:red; font-weight: bolder;"-->
+> _Ist dieser Text jetzt verständlicher?_<!--style="background-color:white; color:red; font-weight: bolder;"-->
 
----
-
-- $3$ Teile (**Minor**) = $?$ cm
-- $5$ Teile (**Major**) = [[ 30 ]] $\text{cm}$
 
 ---
 
-Berechnung:
+![Deko-Schleife_Höhe_Schleifenkörper](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/schleife_minor_breite.jpg)
 
-$? \text{cm} = 3 \cdot $ [[ 30 ]] $\text{cm} / {5}$
 
-$? \text{cm} = $ [[ 18 ]] $\text{cm}$
+<!--style="font-size: medium;"-->__Berechnung:__
+
+- $5$ Teile (**Major**) = [[ 30 ]] $\text{cm}$ = Schleifenbreite
+- $1$ Teil = [[ 6 ]] $\text{cm}$
+- $3$ Teile (**Minor**) = [[ 18 ]] $\text{cm}$ = Höhe des Schleifenkörpers
 *****
 Rechenweg 
 --------
@@ -458,192 +462,66 @@ Ergebnis:
 
 >_Es wäre cool, die richtigen Maßangaben direkt interaktiv in die Zeichnung einzutragen!_
 
-Wenn Sie sich nicht sicher sind, wie Sie die Strecken berechnen, schauen Sie sich das Beispiel auf der nächsten Folie an.
+<!--style="font-size: large;"-->Auf der nächsten Folie gibt es ein Beispiel für die Berechnung im Verhältnis 5 : 8
 
 ---
 
 
-### 🎁 Hier finden Sie ein Beispiel zur Berechnung Goldener Schnitt 
+### 🎁 Goldener Schnitt - Beispielrechnung 5 : 8
 
-Eine Strecke ist nach dem Goldenen Schnitt so zu teilen, dass die kleine Teilstrecke (Minor<!--style="font-weight:bold;color:navy;"-->) 1,55 m misst. 
+Eine Gardine soll gerafft werden. Die beiden Schals sind so übereinander zu dekorieren, dass der mittlere (überdeckte) Abschnitt der Dekoration (Minor<!--style="font-weight:bold;color:navy;"-->) 1,55<!--style="font-weight:bold;color:navy;"--> m<!--style="font-weight:bold;color:navy;"--> misst. 
 
-Es wird von einem Verhältnis __5:8__<!--style="color:green;"--> ausgegangen.
-
-Wie lang ist die größte Teilstrecke (Major<!--style="color:orange;"-->), wie lang die Gesamtstrecke?
-
->_Unterschiedliche Schriftfarben wären ideal._ s.o.
-
-<section class="flex-container">
-
-<div class="flex-child" style="min-width: 200px">
-
-Lösung:
---------
-
-5 Teile (Minor)  =  1,55 m
+Es wird von einem Verhältnis __5:8__<!--style="color:green;font-size: large"--> ausgegangen.
 
 
-8 Teile (Major)  =    ?  m
+![Raffgardine](e57c7318deac85abda30ae7c906de6147f6bfbc6.jpg)
 
 
-</div>
+Wie breit sind die beiden größeren, nicht überlappenden Schals (Major<!--style="font-weight:bold;color:orange;"-->)?
 
-<div class="flex-child" style="min-width: 500px">
-![Minor-Major-Berechnung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/min_maj.jpg)
-</div>
+Wie breit ist die Gardine insgesamt<!--style="font-weight:bold;color:red;"-->?
 
-</section>
+>_Ich wollte gern direkt neben dem Bild die Frage stellen._ 
 
->_Wieso steht das Bild in der Flex-Einbettung soweit rechts?_
+<!--style="font-size: medium;"-->__Berechnung:__
 
-> Weil die minimal breite der Lösung zu gross war.
-
----
-
-Minor + Major    =  Gesamtstrecke
-
-1,55 m + 2,48 m  =  4,03 m 
-
-                  
-
->_Wie lautet das "entpricht"-Zeichen in LiaScript? Wie kann ich die Summe doppelt unterstreichen? Kann man einen Bruchstrich anzeigen lassen?_
-
-> Geht alles mit Mathemodus: Entspricht: $\equiv$, Näherungsweise: $\approx$
-
-$$
-\text{Major-Strecke} = 8 \cdot \frac{1{,}55\,\text{m}}{5} = 8 \cdot 0{,}31\,\text{m} = \underline{\underline{2{,}48\,\text{m}}}
-$$
+- $5$<!--style="font-weight:bold;color:navy;"--> Teile<!--style="font-weight:bold;color:navy;"--> (Minor<!--style="font-weight:bold;color:navy;"-->) $\text{=}$ $1,55$ $\text{m}$ = Überlappung der Gardinen
+- $1$ Teil $\text{=}$ $0,31$ $\text{m}$
+- $8$<!--style="font-weight:bold;color:orange;"--> Teile<!--style="font-weight:bold;color:orange;"--> (Major<!--style="font-weight:bold;color:orange;"--> gesamt<!--style="font-weight:bold;color:orange;"-->) $\text{=}$ $2,48$ $\text{m}$ = Gesamtbreite links und rechts zusammen
+- $4$<!--style="font-weight:bold;color:orange;"--> Teile<!--style="font-weight:bold;color:orange;"--> (hälftiger<!--style="font-weight:bold;color:orange;"--> Major<!--style="font-weight:bold;color:orange;"-->) $\text{=}$ $1,24$ $\text{m}$ = je Gardinenbreite links und rechts einzeln
+- Gesamtbreite<!--style="font-weight:bold;color:red;"--> der<!--style="font-weight:bold;color:red;"--> Gardine<!--style="font-weight:bold;color:red;"--> $\text{=}$ $1,24$<!--style="font-weight:bold;color:orange;"--> $\text{m}$<!--style="font-weight:bold;color:orange;"--> $\text{+}$ $1,55$<!--style="font-weight:bold;color:navy;"-->  $\text{m}$<!--style="font-weight:bold;color:navy;"-->  $\text{+}$ $1,24$<!--style="font-weight:bold;color:orange;"--> $\text{m}$<!--style="font-weight:bold;color:orange;"--> $\text{=}$ $4,03$<!--style="font-weight:bold;color:red;"--> $\text{m}$ <!--style="font-weight:bold;color:red;"-->
 
 
-### Falls Sie noch einmal üben wollen: Hier können Sie eine weitere Dekorationsschleife berechnen
+
+### ✏️✏️ Falls Sie noch einmal üben wollen: Hier können Sie eine weitere Dekorationsschleife berechnen
 
 ![Deko-Schleife1](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/deko_schleife_masslos.jpg) <!-- style="width: 400px" -->
+
 
 
 Berechnen Sie die Länge der Gesamtschleife. Das Verhältnis beträgt 5 : 8. 
 ===
 
-Der Minor (Schleifenbreite) beträgt [[  45 ]]   cm                          =  [[  5 ]]   Teile
+1. Der $\text{Minor}$ (= Schleifenbreite) beträgt [[  3 | (5) | 8 | 13 ]] Teile. 
 
-Der Major "n" (Schleifenlänge gesamt) beträgt ? cm                          =  [[  8 ]]   Teile
+2. $1$ $\text{Teil}$ $\text{=}$ [[  8 ]]  $\text{cm}$
 
->_Die Abstände in der Darstellung sind sehr klein. Bitte anders lösen, damit es übersichtlicher wird._
+3. Der $\text{Major}$ $\text{n}$<!--style="font-weight:bold;color:black;"--> (=Schleifenlänge) beträgt [[  64 ]]  $\text{cm}$.
 
->_TUBAF: Bitte Lösungshinweise einstellen._
+-----
 
----
-
-Die Gesamtschleife (Major) hat eine Länge von [[  72 ]]   cm.
-
----
-
-Berechnen Sie die Höhe des Schleifenkörpers. Denken Sie daran, dass sich jetzt Minor und Major tauschen.
+Berechnen Sie die Höhe Des Schleifenkörpers. Das Verhältnis beträgt 5 : 8. 
 ===
 
-Der Major (Schleifenbreite) beträgt [[  45 ]]   cm  =  [[  8 ]]   Teile
+1. Der $\text{Major}$ (= Schleifenbreite) beträgt [[  3 | 5 | (8) | 13 ]] Teile. 
 
-Der Minor m (Schleifenhöhe) beträgt  ?   cm         =  [[  5 ]]   Teile
+2. $1$ $\text{Teil}$ $\text{=}$ [[  5 ]]  $\text{cm}$
 
-
->_TUBAF: Bitte Lösungshinweise einstellen._ 
-
-
-----
-
-Die Schleifenhöhe (Minor) hat eine Länge von [[  28,125 ]]   cm.
-
-_Hinweis: Bitte 3 Stellen nach dem Komma angeben._
-
->_Es wäre cool, die richtigen Maßangaben direkt interaktiv in die Zeichnung einzutragen!_
-
->_TUBAF: Bitte Lösungshinweise einstellen._
-
-
-## ✏️✏️ Zusatz Praxisaufgabe Dekorationsschleife
-
-![Dekorationsschleife mit Maßen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/deko_schleife_mit_massen.jpg)
-
-Beispiel einer Dekorationsschleife. 
-
-_Quelle: HWK Dresden_
-
-_Hinweis: Als Nahtzugabe werden je Seite 1 cm vorgegeben._ 
-
-### Maßzugabe Schleifenkörper
-
-
-Bitte geben Sie die Nahtzugabe für den Schleifenkörper bei einer Länge von 30 cm an:
-===
-
-
-![Dekorationsschleife mit Maßen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/deko_schleife_mit_massen.jpg) <!-- style="width: 300px" -->
-
-[[  2  ]]  cm
-
->_Es könnte auch "2 x 1 cm" richtig sein. Wie kann ich das in der Lösung ausdrücken?_
-
-
-
->_Ich wollte die Schleife gern rechts einstellen. Mit "Flex" kommt es aber sehr weit rechts und führt zu Zeilenumbrüchen in der Aufgabenstellung. Ich hab das daher wieder rausgenommen._
-
-
->_TUBAF: Wie können Lösungshinweise eingestellt werden?_
-
---- 
-
-Alternativ:
-
-Die Gesamtlänge des Schleifenkörpers beträgt __mit Nahtzugabe__ und einer Länge von 30 cm:
-===
-
-[[  32  ]]  cm
+3. Der $\text{Schleifenkörper}$ $\text{m}$<!--style="font-weight:bold;color:red;"--> ist [[  25 ]]  $\text{cm}$ hoch.
 
 
 >_TUBAF: Bitte Lösungshinweise einstellen._
 
-### Zuschnitthöhe Schleifenkörper
-
-Die Zuschnitthöhe beträgt bei einer Höhe des Schleifenkörpers von 38 cm und Nahtzugabe:
-
-![Dekorationsschleife mit Maßen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/deko_schleife_mit_massen.jpg) <!-- style="width: 300px" -->
-
-[[  38  ]]  cm
-
->_TUBAF: Bitte Lösungshinweise einstellen: 2 x 18 cm + 2 x 1 cm Nahtzugabe._
-
-
-### Zuschnittlänge Schleifenband
-
-
-Um die Zuschnittlänge des Schleifenbandes zu berechnen, sind folgende Einzelmaße zu ermitteln:
-===
-
-![Dekorationsschleife mit Maßen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/deko_schleife_mit_massen.jpg) <!-- style="width: 300px" -->
-
-1. Die Gesamtlänge des Schleifenbandes beträgt [[  50  ]]  cm = __a)__
-
-2. Die Höhe des Schleifenkörpers beträgt [[  18  ]]  cm - davon 1/3 (ein Drittel): [[  6  ]]  cm = __b)__ 
-
-3. Die Gesamtlänge des Schleifenbandes minus 1/3 der Höhe des Schleifenkörpers = a) - b) = [[  44  ]]  cm = __c)__ 
-
-4. Das Maß c) ist mit Zwei zu multiplizieren: c) x 2 = [[  88  ]]  cm = __d)__
-
-5. Zu dem Maß d) kommt die Nahtzugabe von je [[  1  ]]  cm.
-
-6. Die Zuschnittlänge des Schleifenbandes beträgt: [[  90  ]]  cm.
-
-
-### Zuschnittbreite Schleifenband
-
-Das Schleifenband ist 7 cm breit. Welche Zuschnittbreite ist zu beachten?
-
-![Dekorationsschleife mit Maßen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/deko_schleife_mit_massen.jpg) <!-- style="width: 300px" -->
-
-[[  16  ]]  cm
-
-_Tipp: Die Breite ist doppelt zu nehmen plus Nahtzugabe._
-
->_TUBAF: Bitte Lösungshinweise einstellen._
 
 
 ---
