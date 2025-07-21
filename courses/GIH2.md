@@ -4,13 +4,13 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.2
+version:  0.0.3
 
 language: de
 
 narrator: Deutsch Male
 
-comment:  Grundkurs Raumausstatter
+comment:  Grundkurs SHK-Anlagenmechaniker G-IH 2
 
 edit: true
 date: 2025-07-21
@@ -81,17 +81,18 @@ _Quelle: Pixabay_
 
 >_Hinweis: Es können mehrere Antworten richtig sein!_<!--style="color:blue; font-weight: bolder;"-->
 
+
 <section class="flex-container" style="padding: 1rem;">
 <div style="padding-top:3rem;">
 
 </div>
 <div class="flex-child">
 __Bild 1:__
-![Hartlöten](img/hartloeten.jpg) <!-- style="height: 400px" -->
+![Hartlöten](img/hartloeten.jpg) <!-- style="height: 300px" -->
 </div>
 <div class="flex-child">
 __Bild 2:__
-![Weichlöten](img/weichloeten.jpg) <!-- style="height: 400px" -->
+![Weichlöten](img/weichloeten.jpg) <!-- style="height: 300px" -->
 
 </div>
 </section>
@@ -134,12 +135,10 @@ https://www.ikz.de/ikz-praxis-archiv/p0108/010808.php_
 
 ### 3. Das richtige Biegen
 
-Worauf ist beim Biegen geschweißter Rohre zu achten?
+__Worauf ist beim Biegen geschweißter Rohre zu achten?__<!--style="font-size: Large; font-weight: bolder;"-->
+
+3.1. Wie wird die im Bild mit "X"<!--style="color: red; font-weight: bolder;"--> gekennzeichnete Linie bezeichnet?
 ===
-
-<!--style="font-size: Large; font-weight: bolder;"-->3.1. <!--style="font-size: Large; font-weight: bolder;"-->Wie wird die im Bild mit "X"<!--style="color: red; font-weight: bolder;"--> gekennzeichnete Linie bezeichnet?
-
->_Ich hätte gern "3.1." in einer Flucht mit dem Textbeginn der beiden Überschriften._
 
 ![Neutrale Faser_Landefeld](img/landefeld.jpg) <!-- style="width: 600px" -->
 
@@ -152,20 +151,12 @@ Worauf ist beim Biegen geschweißter Rohre zu achten?
 
 -----
 
-<!--style="font-size: Large; font-weight: bolder;"-->3.2. <!--style="font-size: Large; font-weight: bolder;"-->Vervollständigen Sie den Satz, indem Sie die richtige Antwort markieren.
-
-<!--style="color:green; font-weight: bolder;"-->Beim Biegen geschweißter Rohre ist darauf zu achten, dass die Rohrnaht in der
+3.2. Vervollständigen Sie den Satz, indem Sie die richtige Antwort markieren.
+===
 
 <!-- data-randomize -->
-- [(X)] neutralen Faser
-- [( )] Innenseite
-- [( )] Außenseite
-- [( )] kürzeren Seite
-- [( )] längeren Seite
+<!--style="color:green; font-weight: bolder;"-->_Beim Biegen geschweißter Rohre ist darauf zu achten, dass die Rohrnaht in der [[ ( neutralen Faser ) | Innenseite | Außenseite | kürzeren Seite | längeren Seite ]] liegt._ 
 
-<!--style="color:green; font-weight: bolder;"-->liegt. 
-
->_Ich wollte gern den Satz farbig unterlegt haben, aber diese Formel "$\colorbox {Apricot} {Example of text}$" funktioniert leider nicht._
 
 ### 4. Flussmittel beim Löten
 
