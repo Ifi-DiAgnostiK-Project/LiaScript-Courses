@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.3
+version: 0.0.4
 
 language: de
 
@@ -98,18 +98,15 @@ __Testen Sie nun Ihr Wissen!__
 
 ## Quiz: Sicherer Umgang mit Leitern I
 
-<!-- --{{}}--
-Erstens. Welche Maßnahme ist vor jeder Benutzung einer Leiter zwingend erforderlich? a) Die Leiter darf nur in sauberem Zustand genutzt werden. b) Die Leiter ist auf Beschädigungen und Standsicherheit zu kontrollieren. c) Es braucht immer eine zweite Person, um die Leiter zu sichern. 
---> 
-
-<section class="flex-container">
-
-<div class="flex-child" style="min-width: 250px">
-
 
 __1. Welche Maßnahme ist vor jeder Benutzung einer Leiter zwingend erforderlich?__
 ===
+<!-- --{{0}}--
+Erstens. Welche Maßnahme ist vor jeder Benutzung einer Leiter zwingend erforderlich? a) Die Leiter darf nur in sauberem Zustand genutzt werden. b) Die Leiter ist auf Beschädigungen und Standsicherheit zu kontrollieren. c) Es braucht immer eine zweite Person, um die Leiter zu sichern. 
+--> 
+<section class="flex-container">
 
+<div class="flex-child" style="min-width: 250px">
 - [( )] a) Die Leiter darf nur in sauberem Zustand genutzt werden.
 - [(x)] b) Die Leiter ist auf Beschädigungen und Standsicherheit zu kontrollieren.
 - [( )] c) Es braucht immer eine zweite Person, um die Leiter zu sichern. 
@@ -118,7 +115,7 @@ __1. Welche Maßnahme ist vor jeder Benutzung einer Leiter zwingend erforderlich
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Leiter](img/variety_people_ladders.jpg) <!-- style="width: 150px" -->
+![Leiter](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/variety_people_ladders.jpg) <!-- style="width: 150px" -->
 
 <a  href="https://www.freepik.com/free-ai-image/variety-people-multitasking-3d-cartoon-scene_152374121.htm" target=_blank>Quelle: Freepik</a>
 
@@ -129,13 +126,14 @@ __1. Welche Maßnahme ist vor jeder Benutzung einer Leiter zwingend erforderlich
 
 ---
 
-<!-- --{{}}--
-Zweitens. Wie sollte eine Anlegeleiter aufgestellt werden? a) Mit einem relativ steilem Anstellwinkel, damit sie wenig Platz braucht. b) Mit einem beliebigen Anstellwinkel - Hauptsache sie steht! c) Mit einem Anstellwinkel von ca. 70 Grad.
---> 
+
 
 
 __2. Wie sollte eine Anlegeleiter aufgestellt werden?__
 ===
+<!-- --{{1}}--
+Zweitens. Wie sollte eine Anlegeleiter aufgestellt werden? a) Mit einem relativ steilem Anstellwinkel, damit sie wenig Platz braucht. b) Mit einem beliebigen Anstellwinkel - Hauptsache sie steht! c) Mit einem Anstellwinkel von ca. 70 Grad.
+--> 
 
 - [( )] a) Mit einem relativ steilem Anstellwinkel, damit sie wenig Platz braucht.
 - [( )] b) Mit einem beliebigen Anstellwinkel - Hauptsache sie steht!  
@@ -143,18 +141,19 @@ __2. Wie sollte eine Anlegeleiter aufgestellt werden?__
 
 ---
 
-<!-- --{{}}--
-Drittens. Was ist beim Transport von Werkzeugen auf der Leiter zu beachten? a) Werkzeug darf in den Hosentaschen und am Gürtel getragen werden. b) Leichtes Werkzeug darf mitgenommen werden, wenn beide Hände zum Festhalten frei bleiben. c) Es dürfen alle für die Arbeit benötigten Werkzeuge auf die Leiter mitgenommen werden. 
---> 
 
-<section class="flex-container">
 
-<div class="flex-child" style="min-width: 250px">
+
 
 
 __3. Was ist beim Transport von Werkzeugen auf der Leiter zu beachten?__
 ===
+<!-- --{{2}}--
+Drittens. Was ist beim Transport von Werkzeugen auf der Leiter zu beachten? a) Werkzeug darf in den Hosentaschen und am Gürtel getragen werden. b) Leichtes Werkzeug darf mitgenommen werden, wenn beide Hände zum Festhalten frei bleiben. c) Es dürfen alle für die Arbeit benötigten Werkzeuge auf die Leiter mitgenommen werden. 
+--> 
+<section class="flex-container">
 
+<div class="flex-child" style="min-width: 250px">
 - [( )] a) Werkzeug darf in den Hosentaschen und am Gürtel getragen werden.
 - [(x)] b) Leichtes Werkzeug darf mitgenommen werden, wenn beide Hände zum Festhalten frei bleiben.
 - [( )] c) Es dürfen alle für die Arbeit benötigten Werkzeuge auf die Leiter mitgenommen werden. 
@@ -163,7 +162,7 @@ __3. Was ist beim Transport von Werkzeugen auf der Leiter zu beachten?__
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Leitern2](img/indoor_people_multitask.jpg) <!-- style="width: 250px" -->
+![Leitern2](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/indoor_people_multitask.jpg) <!-- style="width: 250px" -->
 
 <a  href="https://www.freepik.com/free-ai-image/3d-cartoon-scene-depicting-variety-people-multitasking_152373509.htm" target=_blank>Quelle: Freepik</a>
 </div>
@@ -172,12 +171,13 @@ __3. Was ist beim Transport von Werkzeugen auf der Leiter zu beachten?__
 
 ---
 
-<!-- --{{}}--
-Viertens. Wann darf eine Leiter als Arbeitsplatz genutzt werden? a) Immer, wenn sie verfügbar ist. Damit ist flexibles Arbeiten möglich. b) Im Ausnahmefall auch für längere Arbeiten, wenn kein Gerüst da ist und flexibel gearbeitet werden soll. c) Nur für kurzzeitige Arbeiten, wenn keine andere Alternative möglich ist.
---> 
+
 
 __4. Wann darf eine Leiter als Arbeitsplatz genutzt werden?__
 ===
+<!-- --{{3}}--
+Viertens. Wann darf eine Leiter als Arbeitsplatz genutzt werden? a) Immer, wenn sie verfügbar ist. Damit ist flexibles Arbeiten möglich. b) Im Ausnahmefall auch für längere Arbeiten, wenn kein Gerüst da ist und flexibel gearbeitet werden soll. c) Nur für kurzzeitige Arbeiten, wenn keine andere Alternative möglich ist.
+--> 
 
 - [( )] a) Immer, wenn sie verfügbar ist. Damit ist flexibles Arbeiten möglich.
 - [( )] b) Im Ausnahmefall auch für längere Arbeiten, wenn kein Gerüst da ist und flexibel gearbeitet werden soll.
@@ -185,13 +185,11 @@ __4. Wann darf eine Leiter als Arbeitsplatz genutzt werden?__
 
 ---
 
-<!-- --{{}}--
-Fünftens. Wie sollte eine Leiter gekennzeichnet sein, um sie für die Arbeit zu nutzen? a) Die Leiter muss das GS-Zeichen (geprüfte Sicherheit) und zusätzlich die EN 131-Kennzeichnung tragen. b) Die Leiter muss das GS-Zeichen (geprüfte Sicherheit) haben. c) Die Leiter braucht ein Prüfkennzeichen des Firmeninhabers oder Vorarbeiters, dass die Leiter sicher ist. 
---> 
-
-
 __5. Wie sollte eine Leiter gekennzeichnet sein, um sie für die Arbeit zu nutzen?__
 ===
+<!-- --{{5}}--
+Fünftens. Wie sollte eine Leiter gekennzeichnet sein, um sie für die Arbeit zu nutzen? a) Die Leiter muss das GS-Zeichen (geprüfte Sicherheit) und zusätzlich die EN 131-Kennzeichnung tragen. b) Die Leiter muss das GS-Zeichen (geprüfte Sicherheit) haben. c) Die Leiter braucht ein Prüfkennzeichen des Firmeninhabers oder Vorarbeiters, dass die Leiter sicher ist. 
+--> 
 
 - [(X)] a) Die Leiter muss das GS-Zeichen (geprüfte Sicherheit) und zusätzlich die EN 131-Kennzeichnung tragen.
 - [( )] b) Die Leiter muss das GS-Zeichen (geprüfte Sicherheit) haben.
@@ -199,19 +197,14 @@ __5. Wie sollte eine Leiter gekennzeichnet sein, um sie für die Arbeit zu nutze
 
 ---
 
-<!-- --{{}}--
+__6. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten?__
+===
+<!-- --{{6}}--
 Sechstens. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten? a) Es braucht eine zweite Person, die die andere sichert.  b) Es muss eine Absturzsicherung vorhanden sein. c) Die Leiter darf nicht verwendet werden.
 --> 
-
-
 <section class="flex-container">
 
 <div class="flex-child" style="min-width: 250px">
-
-
-__6. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten?__
-===
-
 - [( )] a) Es braucht eine zweite Person, die die andere sichert. 
 - [(x)] b) Es muss eine Absturzsicherung vorhanden sein.
 - [( )] c) Die Leiter darf nicht verwendet werden.
@@ -220,7 +213,7 @@ __6. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten?__
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Leitern3](img/career_ladder.jpg) <!-- style="width: 250px" -->
+![Leitern3](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/career_ladder.jpg) <!-- style="width: 250px" -->
 <a  href="https://de.freepik.com/vektoren-kostenlos/fuehrung-konzept-in-flachen-stil_3198072.htm" target=_blank>Quelle: Freepik</a>
 </div>
 
