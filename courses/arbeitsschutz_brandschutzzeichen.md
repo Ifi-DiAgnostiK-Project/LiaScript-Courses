@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.1
+version: 0.0.2
 
 language: de
 
@@ -71,11 +71,11 @@ Wir sind gespannt, wie Sie die Challenge meistern!
 __Viel Erfolg!__
 
 
-## 1. Brandschutzzeichen
+## Brandschutzzeichen
 
---{{0}}--  
-
-<!-- --{{}}--
+1. __Wie sehen Brandschutzzeichen typischerweise aus?__
+===
+<!-- --{{0}}--
 Wie sehen Brandschutzzeichen typischerweise aus?
 Blaues Quadrat mit weißem Symbol
 Grünes Rechteck mit weißem Symbol
@@ -83,37 +83,28 @@ Rotes Quadrat oder Rechteck mit weißem Symbol oder
 Gelbes Dreieck mit schwarzem Symbol 
 -->
 
-__Wie sehen Brandschutzzeichen typischerweise aus?__
-===
-
 <!-- data-randomize -->
 - [( )] Blaues Quadrat mit weißem Symbol
 - [( )] Grünes Rechteck mit weißem Symbol
 - [(X)] Rotes Quadrat oder Rechteck mit weißem Symbol
 - [( )] Gelbes Dreieck mit schwarzem Symbol 
 
---{{1}}--  
-
-<!-- --{{}}--
+2. __Was bildet das Zeichen ab?__
+===
+<!-- --{{1}}--
 Was bildet das Zeichen ab?
 -->
-
-__Was bildet das Zeichen ab?__
-===
 
 ![Feuerleiter](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Brandschutzzeichen/Feuerleiter.jpg?raw=true) <!-- style="width: 100px" -->
 
 <!-- data-randomize -->
-[[ Ein Haus steht in Flammen. | __Fluchtweg erfolgt über Leitern.__ | (Hier befindet sich eine Feuerleiter.) ]]
+[[ Ein Haus steht in Flammen. | Fluchtweg erfolgt über Leitern. | (Hier befindet sich eine Feuerleiter.) ]]
 
---{{2}}--  
-
-<!-- --{{}}--
+3. __Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.__
+===
+<!-- --{{2}}--
 Ordnen Sie das jeweilige Symbol im Bild 1, 2 und 3 der richtigen Bedeutung zu. 
 -->
-
-__Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.__
-===
 
 <!-- data-randomize -->
 [[![Brandschutzpfeil rechts](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Brandschutzzeichen/Richtungspfeil_Rechts.jpg?raw=true) <!-- style="width: 100px" -->]        (![Brandmeldetelefon](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Brandschutzzeichen/Brandmeldetelefon.jpg?raw=true) <!-- style="width: 100px" -->)                 [![Brandmelder](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Brandschutzzeichen/Brandmelder.jpg?raw=true) <!-- style="width: 100px" -->]]
@@ -125,5 +116,6 @@ __Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.__
 
 
 ---
+
 Geschafft! 🙌
 ===
