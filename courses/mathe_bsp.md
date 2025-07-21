@@ -5,7 +5,7 @@ language: de
 
 email:    volker.goehler@informatik.tu-freiberg.de
 
-version: 0.0.3
+version: 0.0.4
 
 narrator: German Female
 
@@ -20,7 +20,7 @@ comment:  this short course explains math mode in liascript (in german)
 import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
 
 tags:
-- wissensspeicher
+    - wissensspeicher
 -->
 
 # Einführung in LaTeX-Mathematik mit LiaScript

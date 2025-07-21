@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.13
+version: 0.0.14
 
 language: de
 
@@ -22,6 +22,9 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragA
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
 
+tags:
+    - Arbeitssicherheit
+    - Gesundheitsschutz
 
 @style
 .flex-container {

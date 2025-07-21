@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: de
 
@@ -13,8 +13,10 @@ narrator: Deutsch Male
 comment:  Grundkurs Raumausstatter
 
 edit: true
+
 date: 2025-07-21
-logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/da_vinci.png
+
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/heizungsrohre.jpg
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
@@ -22,10 +24,11 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragA
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
 
 title: Grundkurs SHK-Anlagenmechaniker G-IH 1
+
 tags:
-- SHK
-- Grundkurs
-- Anlagenmechaniker
+    - SHK
+    - Grundkurs
+    - Anlagenmechaniker
 
 @style
 .flex-container {
@@ -48,6 +51,7 @@ tags:
 }
 @end
 
+
 -->
 
 # Grundkurs SHK-Anlagenmechaniker G-IH 1
@@ -60,10 +64,10 @@ Bearbeitungsverfahren fachbezogener Rohrwerkstoffe
 
 </div>
 <div class="flex-child">
-![Heizungsrohre](img/heizungsrohre.jpg) <!-- style="height: 400px" -->
+![Heizungsrohre](img/heizungsrohre.jpg) <!-- style="height: 300px" -->
 </div>
 <div class="flex-child">
-![HWK SHK-Raum](img/shkraum.jpg) <!-- style="height: 400px" -->
+![HWK SHK-Raum](img/shkraum.jpg) <!-- style="height: 300px" -->
 
 </div>
 </section>

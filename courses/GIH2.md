@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: de
 
@@ -14,7 +14,7 @@ comment:  Grundkurs Raumausstatter
 
 edit: true
 date: 2025-07-21
-logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/da_vinci.png
+logo: https://upload.wikimedia.org/wikipedia/commons/0/05/2006-02-15_Piping.jpg
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
@@ -23,9 +23,9 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
 
 title: Grundkurs SHK-Anlagenmechaniker G-IH 2
 tags:
-- SHK
-- Grundkurs
-- Anlagenmechaniker
+    - SHK
+    - Grundkurs
+    - Anlagenmechaniker
 
 @style
 .flex-container {
@@ -48,6 +48,7 @@ tags:
 }
 @end
 
+attribute: Main Image By Roger McLassus Installateur Notdienst Wien - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=578502
 -->
 
 # Grundkurs SHK-Anlagenmechaniker G - IH 2
@@ -60,10 +61,10 @@ Fügetechnik - Werkstücke und Bauteile aus gleichen und unterschiedlichen Werks
 
 </div>
 <div class="flex-child">
-![Lötlampe](img/loetlampe.jpg) <!-- style="height: 500px" -->
+![Lötlampe](img/loetlampe.jpg) <!-- style="height: 300px" -->
 </div>
 <div class="flex-child">
-![Rohrinstallation](img/rohrinstallation.jpg) <!-- style="height: 500px" -->
+![Rohrinstallation](img/rohrinstallation.jpg) <!-- style="height: 300px" -->
 
 </div>
 </section>

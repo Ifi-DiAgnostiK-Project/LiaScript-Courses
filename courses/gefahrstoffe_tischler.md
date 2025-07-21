@@ -1,7 +1,7 @@
 <!--
 author: Volker Göhler
 email: volker.goehler@informatik.tu-freiberg
-version: 0.0.1
+version: 0.0.2
 language: de
 narrator: Deutsch Female
 date: 2025-06-27
@@ -13,8 +13,8 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragA
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
 
 tags:
-- tischler
-- gefahrstoffe
+    - tischler
+    - gefahrstoffe
 
 @style
 .flex-container {

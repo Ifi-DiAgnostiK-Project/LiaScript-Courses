@@ -1,7 +1,7 @@
 <!--
 author: Volker Göhler
 email: volker.goehler@informatik.tu-freiberg.de
-version: 0.0.10
+version: 0.0.11
 edit: true
 date: 2025-05-20
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
@@ -11,7 +11,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/ref
 title : Test Course for Action Release System
 
 tags:
-- Experimente
+    - Experimente
 
 -->
 # Test Course in LiaScript

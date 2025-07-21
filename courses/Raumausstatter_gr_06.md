@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.3
+version:  0.0.4
 
 language: de
 
@@ -22,7 +22,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/ref
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
 
 tags:
-- Raumausstatter
+    - Raumausstatter
 
 @style
 .flex-container {
