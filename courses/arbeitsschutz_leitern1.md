@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.2
+version: 0.0.3
 
 language: de
 
@@ -15,7 +15,7 @@ date: 2025-07-21
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: https://upload.wikimedia.org/wikipedia/commons/5/5c/Bockleiter.png
 
-comment:  Arbeitssicherheit & Gesundheitsschutz: Leitern I
+comment:  Arbeitssicherheit & Gesundheitsschutz - Leitern I
 
 attribute:
   - Sicherheitszeichen von [Berufsgenossenschaft Holz und Metall](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen) 

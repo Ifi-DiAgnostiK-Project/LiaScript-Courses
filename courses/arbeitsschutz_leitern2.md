@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.2
+version: 0.0.3
 
 language: de
 
@@ -16,7 +16,7 @@ icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses
 logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Telesteps_telescopic_ladder_-_closed.jpg/2880px-Telesteps_telescopic_ladder_-_closed.jpg
 
 
-comment:  Arbeitssicherheit & Gesundheitsschutz: Leitern II
+comment:  Arbeitssicherheit & Gesundheitsschutz - Leitern II
 
 attribute:
   - Sicherheitszeichen von [Berufsgenossenschaft Holz und Metall](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen)
