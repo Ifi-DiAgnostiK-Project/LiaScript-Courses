@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.1
+version: 0.0.2
 
 language: de
 
@@ -127,98 +127,103 @@ __Zeile 3:__
 [[ __Zeile 1__ | (__Zeile 2__) | __Zeile 3__]]
 
 
-## 4. Aussagen rund um den Arbeits- und Gesundheitsschutz
-
-<!-- --{{0}}--
-Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz. 
-Entscheiden Sie, ob die folgenden Aussagen wahr oder falsch sind. Es können mehrere Antworten richtig sein.
---> 
+## Aussagen rund um den Arbeits- und Gesundheitsschutz
 
 __Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz. Entscheiden Sie, ob die folgenden Aussagen wahr oder falsch sind! Es können mehrere Antworten richtig sein.__
-===
-
->_Ich habe in der Vertonung die Fragennummern mit eingesprochen, möchte aber gern, dass zukünftig das Quiz in beliebiger Reihenfolge abgespielt wird. Bitte angeben, wie ich das ändern/verbessern kann._
-
->_Die Aussage "Es können mehrere Antworten richtig sein." hätte ich gern wieder auf einer neuen Zeile = Zeilenumbruch. Wie geht das?_
 
 --- 
 
-<!-- --{{0}}--
+1. Das Bild mit einer Person auf der Leiter und einer Zahl zeigt an, dass die Leiter von insgesamt drei Personen zu nutzen ist: Eine Person, die hinaufsteigt, und zwei Personen, welche die Leiter sichern.
+===
+<!-- --{{1}}--
 Erstens. Das Bild mit einer Person auf der Leiter und einer Zahl zeigt an, dass die Leiter von insgesamt drei Personen zu nutzen ist: Eine Person, die hinaufsteigt, und zwei Personen, welche die Leiter sichern. Wahr oder falsch? 
 -->
-
-![Die oberen 3 Sprossen nicht nutzen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Leitern/Die_obersten_3_Sprossen_nicht_besteigen.jpg?raw=true) <!-- style="width: 130px" -->
-
-__1. Das Bild mit einer Person auf der Leiter und einer Zahl zeigt an, dass die Leiter von insgesamt drei Personen zu nutzen ist: Eine Person, die hinaufsteigt, und zwei Personen, welche die Leiter sichern. __ 
-===
-
+<section class="flex-container" >
+<div class="flex-child">
+@Leitern.Die_obersten_3_Sprossen_nicht_besteigen(10)
+</div>
+<div class="flex-child">
 [[ wahr | (falsch) ]]
+</div>
+</section>
 
-
->_Wie kann ich einen Absatz in der Textanleitung generieren?_
 
 ---
 
-<!-- --{{}}--
+
+2. Brandschutzzeichen sind immer orange-schwarz.
+===
+<!-- --{{2}}--
 Zweitens. Brandschutzzeichen sind immer orange-schwarz. Wahr oder falsch?
 -->
 
-__2. Brandschutzzeichen sind immer orange-schwarz. __
-===
-
 [[ wahr | (falsch) ]]
 
 ---
 
-<!-- --{{}}--
+3. Das Bild bedeutet, dass Leitern nur bei entsprechenden Witterungsbedingungen genutzt werden dürfen.
+===
+<!-- --{{3}}--
 Drittens. Das Bild bedeutet, dass Leitern nur bei entsprechenden Witterungsbedingungen genutzt werden dürfen. Wahr oder falsch?
 -->
 
-![Leitereinsatz](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Leitern/Witterungsbedingungen.jpg?raw=true) <!-- style="width: 130px" -->
+<section class="flex-container" >
+<div class="flex-child">
+@Leitern.Witterungsbedingungen(10)
 
-__3. Das Bild bedeutet, dass Leitern nur bei entsprechenden Witterungsbedingungen genutzt werden dürfen. __
-===
-
+</div>
+<div class="flex-child">
 [[ (wahr) | falsch ]]
+</div>
+</section>
 
 ---
 
 
-<!-- --{{}}--
+
+4. Diese Abbildung zeigt, dass kein Wasser versprüht werden darf.
+===
+<!-- --{{4}}--
 Viertens. Diese Abbildung zeigt, dass bei der Arbeit kein Wasser aus dem Gartenschlauch entnommen werden darf. Wahr oder falsch?
 -->
 
-![Wasser spritzen verboben](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Verbotszeichen/Mit_Wasser_spritzen_verboten.jpg?raw=true) <!-- style="width: 130px" -->
+<section class="flex-container" >
+<div class="flex-child">
+@Verbotszeichen.Mit_Wasser_spritzen_verboten(10)
 
-
-__4. Diese Abbildung zeigt, dass kein Wasser versprüht werden darf.__
-===
-
+</div>
+<div class="flex-child">
 [[ wahr | (falsch) ]]
+</div>
+</section>
 
 ---
 
-<!-- --{{}}--
+
+5. Dieses Symbol meint: Achtung: Diebstahlgefahr!
+===
+<!-- --{{5}}--
 Fünftens. Dieses Symbol meint: Achtung: Diebstahlgefahr! Wahr oder falsch?
 -->
 
-![Berühren verboten!](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Verbotszeichen/Ber%C3%BChren_verboten.jpg?raw=true) <!-- style="width: 130px" -->
+<section class="flex-container" >
+<div class="flex-child">
+@Verbotszeichen.Beruehren_verboten(10)
 
-__5. Dieses Symbol meint: Achtung: Diebstahlgefahr!__
-===
-
+</div>
+<div class="flex-child">
 [[ wahr | (falsch) ]]
+</div>
+</section>
 
 ---
 
 
-<!-- --{{}}--
+6. Warum sind Brandschutzzeichen wichtig?
+====
+<!-- --{{6}}--
 Sechstens. Warum sind Brandschutzzeichen wichtig? Wahr oder falsch?
 -->
-
-
-__6. Warum sind Brandschutzzeichen wichtig?__
-====
 
 <section class="flex-container">
 
@@ -252,31 +257,33 @@ __6. Warum sind Brandschutzzeichen wichtig?__
 
 ---
 
-
-<!-- --{{}}--
+7. Was bedeutet dieses Schild?
+===
+<!-- --{{7}}--
 Siebentens. Was bedeutet dieses Schild? Entweder: Klappbügel befindet sich hier. Oder: Fluchttür befindet sich hier. Oder: Wartung beziehungsweise Reparatur freischalten.
 -->
+<section class="flex-container">
 
-__7. Was bedeutet dieses Schild?__
-===
+<div class="flex-child" style="min-width: 250px">
+@Gebotszeichen.Wartung_oder_Reparatur_freischalten(10)
+</div>
 
-![Gebotszeichen. Wartung oder Reparatur](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Gebotszeichen/Wartung_oder_Reparatur_freischalten.jpg?raw=true) <!-- style="width: 130px" -->
-
-
+<div class="flex-child" style="min-width: 500px">
 <!-- data-randomize -->
 [[ Klappbügel befindet sich hier. | __Fluchttür befindet sich hier.__ | (Wartung oder Reparatur freischalten.) ]]
+</div>
+</section>
 
 ---
 
-<!-- --{{}}--
+8. Ordnen Sie die Schilder den richtigen Begriffen zu!
+===
+<!-- --{{8}}--
 Achtens. Ordnen Sie die Schilder den richtigen Begriffen zu!
 -->
 
-__8. Ordnen Sie die Schilder den richtigen Begriffen zu!__
-===
-
 <!-- data-randomize -->
--   [[![Warnzeichen](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Warnzeichen/Hei%C3%9Fe_Oberfl%C3%A4che.jpg?raw=true) <!-- style="width: 100px" -->]        (![Warnweste](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Gebotszeichen/Warnweste.jpg?raw=true) <!-- style="width: 100px" -->)                 [![Rauchen verboten](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Verbotszeichen/Rauchen_verboten.jpg?raw=true) <!-- style="width: 100px" -->]       (![Brandbekämpfung](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Brandschutzzeichen/Brandbek%C3%A4mpfung.jpg?raw=true) <!-- style="width: 100px" -->)                 [![Notausgang](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Rettungszeichen/Notausgang_rechts.jpg?raw=true) <!-- style="width: 100px" -->]       (![Entzündlich](https://github.com/Ifi-DiAgnostiK-Project/Piktogramme/blob/main/img/Gefahrstoffe/Entz%C3%BCndlich.gif?raw=true) <!-- style="width: 100px" -->)]
+-   [[ @Warnzeichen.Heisse_Oberflaeche(10)]        [ @Gebotszeichen.Warnweste(10) ]                 [ @Verbotszeichen.Rauchen_verboten(10) ]       [ @Brandschutzzeichen.Brandbekaempfung(10) ]                 [ 	@Rettungszeichen.Rettungsweg_Notausgang_rechts(10) ]       [ @Gefahrstoffe.Entzuendlich(10) ]]
 - [    ( )              ( )                      ( )      (X)              ( )                      ( )     ]  Brandschutzzeichen
 - [    ( )              (X)                      ( )      ( )              ( )                      ( )     ]  Gebotszeichen
 - [    ( )              ( )                      ( )      ( )              ( )                      (X)     ]  Gefahrstoffe
@@ -286,13 +293,14 @@ __8. Ordnen Sie die Schilder den richtigen Begriffen zu!__
 
 ---
 
-<!-- --{{}}--
+
+
+
+9. Wo müssen Brandschutzzeichen angebracht werden?
+===
+<!-- --{{9}}--
 Neuntens. Wo müssen Brandschutzzeichen angebracht werden? Entweder: Nur im Büro. Oder: Überall, wo sich Brandschutzeinrichtungen befinden. Oder: Nur in der Werkstatt. Oder: Nur im Lager.
 -->
-
-
-__9. Wo müssen Brandschutzzeichen angebracht werden?__
-===
 
 - [( )] Nur im Büro.
 - [(X)] Überall, wo sich Brandschutzeinrichtungen befinden.
@@ -301,17 +309,11 @@ __9. Wo müssen Brandschutzzeichen angebracht werden?__
 
 ---
 
-
-<!-- --{{}}--
+10. Füllen Sie den Lückentext richtig aus:
+===
+<!-- --{{10}}--
 Zehntens. Füllen Sie den Lückentext richtig aus. 
 -->
-
-
-__10. Füllen Sie den Lückentext richtig aus:__
-===
-
-
->_Kann der Lückentext sinnvoll vorgelesen werden, dass die Lücken offensichtlich werden?_
 
 <!-- data-randomize -->
 Arbeits- und Gesundheitsschutz ist ein wichtiger Bestandteil im Berufsleben. Ziel ist es, die [[ (Sicherheit) | __Gefährdung__ | Unfall | __Krankheit__  ]] und Gesundheit aller Beschäftigten am Arbeitsplatz zu gewährleisten. Zu den wichtigsten Maßnahmen gehören die [[ __Pausenregelung__ |  (Gefährdungsbeurteilung) | __Urlaubsplanung__ | Gehaltsabrechnung  ]] und das Ergreifen geeigneter Schutzmaßnahmen.
@@ -322,22 +324,18 @@ Arbeitgeber sind verpflichtet, Arbeitsunfälle und [[ Feiertage |  __Überstunde
 
 ---
 
-
-<!-- --{{}}--
+11. Ziehen Sie alle Gebotszeichen in das Antwortfeld! 🤔
+===
+<!-- --{{11}}--
 Können Sie  diese Zuordnungsaufgabe lösen? - Ziehen Sie alle Gebotszeichen in das Antwortfeld.
 -->
-
-__11. Ziehen Sie alle Gebotszeichen in das Antwortfeld!__ 🤔
-===
-
 
 <!-- data-randomize -->
 @dragdropmultipleimages(@uid,@Gebotszeichen.Uebergang.src,@Rettungszeichen.Arzt.src|@Leitern.Maximale_Belastung.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Richtungspfeil_Rechts_unten.src|) 
 
 ----
 
-
-<!-- --{{}}--
+<!-- --{{12}}--
 Wenn Sie noch mehr wissen wollen, finden Sie mehr Informationen und alle Sicherheitszeichen auf der BGHM-Website - siehe Link.
 -->
 
