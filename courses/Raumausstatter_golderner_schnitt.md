@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.1.0
+version:  0.1.1
 
 language: de
 
@@ -153,7 +153,7 @@ Diese Näherungen sind praktisch, wenn exakte irrationale Zahlen im Alltag oder 
 
 Welche der folgenden Zahlenpaare stehen im ungefähren Verhältnis des Goldenen Schnitts?
 ===
-
+<!-- data-randomize -->
 - [[ ]] 2 : 3
 - [[x]] 3 : 5
 - [[x]] 5 : 8
@@ -163,6 +163,7 @@ Welche der folgenden Zahlenpaare stehen im ungefähren Verhältnis des Goldenen 
 ### Was beschreibt der Goldene Schnitt?
 
 
+<!-- data-randomize -->
 - [( )] Eine Methode zur Berechnung von Kreisflächen
 - [(x)] Ein Verhältnis, bei dem sich der kleinere Teil zum größeren Teil so verhält wie der größere zum Ganzen
 - [( )] Eine Technik zum Messen von Winkeln
@@ -171,6 +172,7 @@ Welche der folgenden Zahlenpaare stehen im ungefähren Verhältnis des Goldenen 
 
 ### Welche Aussagen über den Goldenen Schnitt sind richtig?
 
+<!-- data-randomize -->
 - [[x]] Der Wert des Goldenen Schnittes beträgt ungefähr 1,618.
 - [[x]] Er kommt in der Natur vor.
 - [[ ]] Er ist immer größer als 3.
@@ -180,6 +182,7 @@ Welche der folgenden Zahlenpaare stehen im ungefähren Verhältnis des Goldenen 
 ### Wo kommt der Goldene Schnitt vor?  
 
 
+<!-- data-randomize -->
 - [[x]] In Blumen und Pflanzen
 - [[x]] In Kunst und Architektur
 - [[ ]] In der Zahl Pi

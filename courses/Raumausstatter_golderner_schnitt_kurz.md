@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: de
 
@@ -88,6 +88,7 @@ _Quelle:_ Generiert von Dall-E 3, An OpenAI Model, 2025
 Welche der folgenden Zahlenpaare stehen im ungefähren Verhältnis des Goldenen Schnitts?
 ===
 
+<!-- data-randomize -->
 - [[ ]] 2 : 3
 - [[x]] 3 : 5
 - [[x]] 5 : 8
@@ -97,6 +98,7 @@ Welche der folgenden Zahlenpaare stehen im ungefähren Verhältnis des Goldenen 
 ### Was beschreibt der Goldene Schnitt?
 
 
+<!-- data-randomize -->
 - [( )] Eine Methode zur Berechnung von Kreisflächen
 - [(x)] Ein Verhältnis, bei dem sich der kleinere Teil zum größeren Teil so verhält wie der größere zum Ganzen
 - [( )] Eine Technik zum Messen von Winkeln
@@ -105,6 +107,7 @@ Welche der folgenden Zahlenpaare stehen im ungefähren Verhältnis des Goldenen 
 
 ### Welche Aussagen über den Goldenen Schnitt sind richtig?
 
+<!-- data-randomize -->
 - [[x]] Der Wert des Goldenen Schnittes beträgt ungefähr 1,618.
 - [[x]] Er kommt in der Natur vor.
 - [[ ]] Er ist immer größer als 3.
@@ -114,6 +117,7 @@ Welche der folgenden Zahlenpaare stehen im ungefähren Verhältnis des Goldenen 
 ### Wo kommt der Goldene Schnitt vor?  
 
 
+<!-- data-randomize -->
 - [[x]] In Blumen und Pflanzen
 - [[x]] In Kunst und Architektur
 - [[ ]] In der Zahl Pi
@@ -242,3 +246,99 @@ Ergebnis:
 - **Minor-Strecke:** $18\,\text{cm}$  
 
 *****
+### 🎁 Goldener Schnitt - Beispielrechnung 5 : 8
+
+Eine Gardine soll gerafft werden. Die beiden Schals sind so übereinander zu dekorieren, dass der mittlere (überdeckte) Abschnitt der Dekoration (Minor<!--style="font-weight:bold;color:navy;"-->) 1,55<!--style="font-weight:bold;color:navy;"--> m<!--style="font-weight:bold;color:navy;"--> misst. 
+
+Es wird von einem Verhältnis __5:8__<!--style="color:green;font-size: large"--> ausgegangen.
+
+<section class="flex-container">
+<div class="flex-child">
+![Raffgardine](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/raffgardine.jpg)
+</div>
+<div class="flex-child">
+Wie breit sind die beiden größeren, nicht überlappenden Schals (Major<!--style="font-weight:bold;color:orange;"-->)?
+
+Wie breit ist die Gardine insgesamt<!--style="font-weight:bold;color:red;"-->?
+</div>
+</section>
+
+<!--style="font-size: medium;"-->__Berechnung:__
+
+- $5$<!--style="font-weight:bold;color:navy;"--> Teile<!--style="font-weight:bold;color:navy;"--> (Minor<!--style="font-weight:bold;color:navy;"-->) $\text{=}$ $1,55$ $\text{m}$ = Überlappung der Gardinen
+- $1$ Teil $\text{=}$ $0,31$ $\text{m}$
+- $8$<!--style="font-weight:bold;color:orange;"--> Teile<!--style="font-weight:bold;color:orange;"--> (Major<!--style="font-weight:bold;color:orange;"--> gesamt<!--style="font-weight:bold;color:orange;"-->) $\text{=}$ $2,48$ $\text{m}$ = Gesamtbreite links und rechts zusammen
+- $4$<!--style="font-weight:bold;color:orange;"--> Teile<!--style="font-weight:bold;color:orange;"--> (hälftiger<!--style="font-weight:bold;color:orange;"--> Major<!--style="font-weight:bold;color:orange;"-->) $\text{=}$ $1,24$ $\text{m}$ = je Gardinenbreite links und rechts einzeln
+- Gesamtbreite<!--style="font-weight:bold;color:red;"--> der<!--style="font-weight:bold;color:red;"--> Gardine<!--style="font-weight:bold;color:red;"--> $\text{=}$ $1,24$<!--style="font-weight:bold;color:orange;"--> $\text{m}$<!--style="font-weight:bold;color:orange;"--> $\text{+}$ $1,55$<!--style="font-weight:bold;color:navy;"-->  $\text{m}$<!--style="font-weight:bold;color:navy;"-->  $\text{+}$ $1,24$<!--style="font-weight:bold;color:orange;"--> $\text{m}$<!--style="font-weight:bold;color:orange;"--> $\text{=}$ $4,03$<!--style="font-weight:bold;color:red;"--> $\text{m}$ <!--style="font-weight:bold;color:red;"-->
+
+
+
+### ✏️✏️ Falls Sie noch einmal üben wollen: Hier können Sie eine weitere Dekorationsschleife berechnen
+
+![Deko-Schleife1](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/deko_schleife_masslos.jpg) <!-- style="width: 400px" -->
+
+
+
+Aufgabe 1: Berechnen Sie die Länge der Gesamtschleife $n$. Das Verhältnis beträgt 5 : 8. 
+===
+
+Der $\text{Minor}$ (= Schleifenbreite) beträgt [[  3 | (5) | 8 | 13 ]] Teile<!--style="font-weight:bolder;"-->. 
+
+$1$ $\text{Teil}$ $\text{=}$ [[  9 ]]  $\text{cm}$
+
+Der $\text{Major}$ $\text{n}$<!--style="font-weight:bold;color:black;"--> (=Schleifenlänge) beträgt [[  72 ]]  $\text{cm}$.
+*****
+✅ Aufgabe 1: Gesamtschleife berechnen
+====
+
+**Gegeben:**
+
+- Verhältnis: 5 : 8
+- Minor = **5 Teile** = **45 cm**
+- 1 Teil = **9 cm** = Minor $/ 5$ 
+
+**Gesucht:** Gesamtlänge der Schleife $n$ (Major)
+
+**Berechnung:**
+
+- Minor = 5 × 9 cm = **45 cm**
+- Major = 8 × 9 cm = **72 cm**
+
+**✅ Ergebnis:** Die Gesamtlänge ist **72 cm**.
+*****
+
+-----
+
+Aufgabe 2: Berechnen Sie die Höhe Des Schleifenkörpers $m$. Das Verhältnis beträgt 5 : 8. 
+===
+
+Der $\text{Major}$ (= Schleifenbreite) beträgt [[  3 | 5 | (8) | 13 ]] Teile. 
+
+$1$ $\text{Teil}$ $\text{=}$ [[  5,62 ]]  $\text{cm}$@Algebrite.check2(5.625,0.1)
+
+Der $\text{Schleifenkörper}$ $\text{m}$<!--style="font-weight:bold;color:red;"--> ist [[  28,1 ]]  $\text{cm}$ hoch.@Algebrite.check2(28.125,0.1)
+*****
+
+✅ Aufgabe 2: Höhe des Schleifenkörpers berechnen
+====
+
+**Gegeben:**
+
+- Verhältnis: 5 : 8
+- Major = **8 Teile** = $45 \text{ cm}$
+- 1 Teil = **5,625 cm** = Minor $/ 8$
+
+**Gesucht:** Höhe $m$ (Minor)
+
+**Berechnung:**
+
+- Major = 8 × 5,625 cm = **45 cm**
+- Minor = 5 × 5,625 cm = **28,125 cm**
+
+**✅ Ergebnis:** Die Höhe des Schleifenkörpers beträgt **28,1 cm**.
+*****
+
+---
+
+Viel Spaß beim Üben!
+===
