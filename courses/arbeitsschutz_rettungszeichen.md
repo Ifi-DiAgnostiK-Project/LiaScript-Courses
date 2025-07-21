@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.1
+version: 0.0.2
 
 language: de
 
@@ -72,31 +72,23 @@ __Viel Erfolg!__
 
 ## Rettungszeichen
 
---{{0}}--  
-
-<!-- --{{}}--
+1. Welches dieser Zeichen ist ein Rettungszeichen?
+===
+<!-- --{{1}}--
 Welches dieser Zeichen ist ein Rettungszeichen?
 -->
 
-__Welches dieser Zeichen ist ein Rettungszeichen?__
-===
-
 <!-- data-randomize -->
-- [[![Erste Hilfe](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Rettungszeichen/Erste_Hilfe.jpg?raw=true) <!-- style="width: 100px" -->] (![Warnzeichen Automatischer Anlauf](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Warnzeichen/Automatischer_Anlauf.jpg?raw=true) <!-- style="width: 100px" -->) [![Brandmelder](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Brandschutzzeichen/Brandmelder.jpg?raw=true) <!-- style="width: 100px" -->]]
+- [[ @Rettungszeichen.Erste_Hilfe(10) ] ( @Warnzeichen.Automatischer_Anlauf(10) ) [ @Brandschutzzeichen.Brandmelder(10) ]]
 - [    [X]           [ ]             [ ]     ]  Rettungszeichen
 
->_Klappt das mit dem Randomize auch bei einer Matrixaufgabe?_
 
->_Wo kann ich den Rückmeldetext ändern? Ich hätte gern bei einer falschen Antwort: "Das war leider nicht richtig. Versuch's nochmal!👋"_
 
---{{1}}--  
-
-<!-- --{{}}--
+2. Füllen Sie den Lückentext aus.
+===
+<!-- --{{2}}--
 Füllen Sie den Lückentext aus.
 -->
-
-__Füllen Sie den Lückentext aus.__
-===
 
 <!-- data-randomize -->
 Das Rettungszeichen für den [[ Sammelpunkt | (Notausgang) | Sani-Kasten]] ist grün und zeigt eine laufende Person mit einem Pfeil.
@@ -106,19 +98,15 @@ Die Bedeutung der Rettungszeichen ist europaweit [[ unterschiedlich |   in den m
 Die Rettungszeichen befinden sich in der Regel [[ in öffentlichen Gebäuden |   (in Fluren und Ausgängen)  | in Lagerräumen ]].
 
 
->_Wie kann ich einen Absatz zwischen den Sätzen schalten? Geht eine Aufgabe wie Lückentext auch mit Randomizen?_
 
---{{2}}--  
-
-<!-- --{{}}--
+3. Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.
+===
+<!-- --{{3}}--
 Ordnen Sie das jeweilige Symbol im Bild 1, 2 und 3 der richtigen Bedeutung zu. 
 -->
 
-__Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.__
-===
-
 <!-- data-randomize -->
--   [[![Rettungspfeil rechts](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Rettungszeichen/Richtungspfeil_rechts.jpg?raw=true) <!-- style="width: 100px" -->]        (![öffentl. Schutzausrüstung](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Rettungszeichen/%C3%96ffentliche_Rettungsausr%C3%BCstung.jpg?raw=true) <!-- style="width: 100px" -->)                 [![Arzt](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Rettungszeichen/Arzt.jpg?raw=true) <!-- style="width: 100px" -->]]
+-   [[ @Rettungszeichen.Richtungspfeil_rechts(10) ]        ( @Rettungszeichen.Oeffentliche_Rettungsausruestung(10) )                 [ 	@Rettungszeichen.Arzt(10) ]]
 - [    ( )              ( )                      ( )     ]  Fluchtweg links
 - [    (X)              ( )                      ( )     ]  Fluchtweg rechts
 - [    ( )              ( )                      ( )     ]  Rettungsring
