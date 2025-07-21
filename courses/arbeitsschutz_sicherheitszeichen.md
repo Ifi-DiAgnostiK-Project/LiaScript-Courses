@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.1
+version: 0.0.2
 
 language: de
 
@@ -127,81 +127,75 @@ __Zeile 3:__
 
 ## Kennen Sie die Sicherheitszeichen?
 
---{{0}}--  
-
-<!-- --{{}}--
+1. Ordnen Sie die Zeichen den passenden Beschreibungen zu.
+===
+<!-- --{{1}}--
 Ordnen Sie die Zeichen den passenden Beschreibungen zu.
 Warnung vor elektrischer Spannung
 Aufforderung, Handschuhe zu tragen
 Verbot von offenem Feuer
 -->
 
-1. __Ordnen Sie die Zeichen den passenden Beschreibungen zu.__
-===
-
 <!-- data-randomize -->
--   [[![Warnung elektr. Spannung](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Warnzeichen/Elektrische_Spannung.jpg?raw=true) <!-- style="width: 100px" -->]        (![Handschuh](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Gebotszeichen/Handschuh.jpg?raw=true) <!-- style="width: 100px" -->)                 [![Verbot offenes Feuer](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Verbotszeichen/Keine_Offene_Flamme.jpg?raw=true) <!-- style="width: 100px" -->]]
+-   [[ @Warnzeichen.Elektrische_Spannung(10) ]        ( @Gebotszeichen.Handschuh(10) )                 [ @Verbotszeichen.Keine_Offene_Flamme(10) ]]
 - [    (X)                                     ( )                                      ( )     ]  Warnung vor elektrischer Spannung
 - [    ( )                                     (X)                                      ( )     ]  Aufforderung, Handschuhe zu tragen
 - [    ( )                                     ( )                                      (X)     ]  Verbot von offenem Feuer
 
 
---{{1}}--  
 
-<!-- --{{0}}--
+
+2. Wahr oder falsch? -- Das Symbol "Schutzbrille tragen" ist ein blaues, rundes Gebotszeichen.
+===
+<!-- --{{2}}--
 Wahr oder falsch?
 Das Symbol "Schutzbrille tragen" ist ein blaues, rundes Gebotszeichen.
 -->
 
-2. __Wahr oder falsch? -- Das Symbol "Schutzbrille tragen" ist ein blaues, rundes Gebotszeichen.__
-===
-
 - [(X)] wahr
 - [( )] falsch
 
---{{2}}--  
 
-<!-- --{{0}}--
+
+3. Was bedeutet das folgende Zeichen?
+===
+<!-- --{{3}}--
 Was bedeutet das folgende Zeichen?
 a) Brandmelder
 b) Erste-Hilfe-Kasten
 c) Feuerlöscher
 -->
 
-3. __Was bedeutet das folgende Zeichen?__
-===
-
-<!-- data-randomize -->
+<section class="flex-container">
+<div class="flex-child">
 @Brandschutzzeichen.Feuerloescher(10)
-
+</div>
+<div class="flex-child">
+<!-- data-randomize -->
 - [( )] Brandmelder
 - [( )] Erste-Hilfe-Kasten
 - [(X)] Feuerlöscher
 
---{{3}}--  
+</div>
+</section>
 
-<!-- --{{0}}--
+4. Lückentext:
+===
+<!-- --{{4}}--
 Lückentext:
 Das Zeichen mit einer laufenden Person und einem Pfeil auf grünem Hintergrund kennzeichnet einen Rettungsweg, Notausstieg oder Notausgang. Wählen Sie das richtige Wort aus.
 -->
 
-4. __Lückentext:__
-===
-
 Das Zeichen mit einer laufenden Person und einem Pfeil auf grünem Hintergrund kennzeichnet einen [[ Sammelpunkt | (Notausgang) | Sani-Kasten]]. 
 
-
---{{4}}--  
-
-<!-- --{{}}--
+5. Ordnen Sie die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:
+===
+<!-- --{{5}}--
 Ordnen Sie die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:
 -->
 
-5. __Ordnen Sie die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:__
-===
-
 <!-- data-randomize -->
--   [[![Notruftelefon](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Rettungszeichen/Notruftelefon.jpg?raw=true) <!-- style="width: 100px" -->]        (![Schutzhelm tragen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Gebotszeichen/Kopfschutz.jpg?raw=true) <!-- style="width: 100px" -->)                 [![Ätzend-reizend](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Gefahrstoffe/%C3%84tzend_Reizend.gif?raw=true) <!-- style="width: 100px" -->]]
+-   [[ @Rettungszeichen.Notruftelefon(10) ]        ( @Gebotszeichen.Kopfschutz(10) )                 [ @Gefahrstoffe.Aetzend_Reizend(10) ]]
 - [    ( )              ( )                      ( )     ]  Warnung vor einer Gefahr
 - [    (X)              ( )                      ( )     ]  Notruftelefon
 - [    ( )              ( )                      (X)     ]  Warnung vor Gefahrstoffen - ätzend
@@ -209,21 +203,27 @@ Ordnen Sie die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:
 - [    ( )              (X)                      ( )     ]  Schutzhelm tragen
 
 
---{{5}}--  
 
-<!-- --{{0}}--
+
+6. Wofür steht dieses Zeichen?
+===
+<!-- --{{6}}--
 Wofür steht dieses Zeichen?
 -->
 
-6. __Wofür steht dieses Zeichen?__
-===
-
-![Explosiv](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Gefahrstoffe/Explosiv.gif?raw=true) <!-- style="width: 150px" -->
+<section class="flex-container">
+<div class="flex-child">
+@Gefahrstoffe.Explosiv(15)
+</div>
+<div class="flex-child">
 
 <!-- data-randomize -->
 - [( )] Achtung: Komprimierte Gase!
 - [(X)] Achtung: Explosiv!
 - [( )] Achtung: Entzündlich!
+
+</div>
+</section>
 
 ---
 
