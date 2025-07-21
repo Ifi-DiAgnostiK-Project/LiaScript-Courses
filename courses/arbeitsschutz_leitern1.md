@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.1
+version: 0.0.2
 
 language: de
 
@@ -15,21 +15,21 @@ date: 2025-07-21
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: https://upload.wikimedia.org/wikipedia/commons/5/5c/Bockleiter.png
 
-attribute: title image Von User:Jenkyll - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15880414
-
 comment:  Arbeitssicherheit & Gesundheitsschutz: Leitern I
 
-attribute: Sicherheitszeichen von [Berufsgenossenschaft Holz und Metall](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen)
+attribute:
+  - Sicherheitszeichen von [Berufsgenossenschaft Holz und Metall](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen) 
+  - title image Von User:Jenkyll - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15880414
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
 
-title: Benutzung von Leitern I
-
 tags:
-    - Arbeitssicherheit
-    - Leitern
+  - Arbeitssicherheit
+  - Leitern
+
+title: Benutzung von Leitern I
 
 @style
 .flex-container {
@@ -79,6 +79,8 @@ language: de
 narrator: Deutsch Male
 -->
 
+--{{0}}--   
+
 Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten. 
 
 **Schauen Sie sich als Erstes das Video an.**
@@ -88,7 +90,7 @@ Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unf
 
 _Quelle: Lehre fördern_
 
---{{}}--   
+--{{1}}--   
 
 __Testen Sie nun Ihr Wissen!__
 
@@ -227,5 +229,7 @@ __6. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten?__
 
 ---
 
-Geschafft! 🙌
+Herzlichen Glückwunsch! 🎉
 ===
+
+Geschafft! 🙌

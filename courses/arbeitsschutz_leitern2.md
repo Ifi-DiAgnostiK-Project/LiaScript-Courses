@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.1
+version: 0.0.2
 
 language: de
 
@@ -15,21 +15,23 @@ date: 2025-07-21
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Telesteps_telescopic_ladder_-_closed.jpg/2880px-Telesteps_telescopic_ladder_-_closed.jpg
 
-attribute: title image Von Mark Hunter - https://www.flickr.com/photos/toolstop/4986746659/, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=81370072
 
 comment:  Arbeitssicherheit & Gesundheitsschutz: Leitern II
 
-attribute: Sicherheitszeichen von [Berufsgenossenschaft Holz und Metall](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen)
+attribute:
+  - Sicherheitszeichen von [Berufsgenossenschaft Holz und Metall](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen)
+  - title image Von Mark Hunter - https://www.flickr.com/photos/toolstop/4986746659/, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=81370072
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
 
-title: Benutzung von Leitern II
 
 tags:
-    - Arbeitssicherheit
-    - Leitern
+  - Arbeitssicherheit
+  - Leitern
+
+title: Benutzung von Leitern II
 
 @style
 .flex-container {
@@ -79,6 +81,8 @@ language: de
 narrator: Deutsch Male
 -->
 
+--{{0}}--   
+
 Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten. 
 
 **Schauen Sie sich als Erstes das Video an.**
@@ -88,7 +92,7 @@ Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unf
 
 _Quelle: Lehre fördern_
 
---{{}}--   
+--{{1}}--   
 
 __Testen Sie nun Ihr Wissen!__
 
