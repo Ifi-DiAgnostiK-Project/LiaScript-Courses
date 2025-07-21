@@ -1,0 +1,265 @@
+<!--
+
+author:   Hilke Domsch
+
+email:    hilke.domsch@gkz-ev.de
+
+version:  0.0.1
+
+language: de
+
+narrator: Deutsch Male
+
+comment:  Grundkurs Raumausstatter
+
+edit: true
+date: 2025-07-21
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/da_vinci.png
+icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
+
+import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
+
+title: Grundkurs SHK-Anlagenmechaniker G-IH 1
+tags:
+- SHK
+- Grundkurs
+- Anlagenmechaniker
+
+@style
+.flex-container {
+    display: flex;[](https://liascript.github.io/LiveEditor/liascript/index.html?#5)
+    flex-wrap: wrap; /* Allows the items to wrap as needed */
+    align-items: stretch;
+    gap: 20px; /* Adds both horizontal and vertical spacing between items */
+}
+
+.flex-child { 
+    flex: 1;
+    margin-right: 20px; /* Adds space between the columns */
+}
+
+@media (max-width: 600px) {
+    .flex-child {
+        flex: 100%; /* Makes the child divs take up the full width on slim devices */
+        margin-right: 0; /* Removes the right margin */
+    }
+}
+@end
+
+-->
+
+# Grundkurs SHK-Anlagenmechaniker G-IH 1
+
+Bearbeitungsverfahren fachbezogener Rohrwerkstoffe
+===
+
+<section class="flex-container" style="padding: 1rem;">
+<div style="padding-top:3rem;">
+
+</div>
+<div class="flex-child">
+![Heizungsrohre](img/heizungsrohre.jpg) <!-- style="height: 400px" -->
+</div>
+<div class="flex-child">
+![HWK SHK-Raum](img/shkraum.jpg) <!-- style="height: 400px" -->
+
+</div>
+</section>
+
+_Quellen:_
+_Bild links: Pixabay, 
+
+## Überprüfungsaufgaben
+
+
+<!--style="font-size: large;font-weight: bold"-->Sie haben in den letzten Tagen Werkzeuge und Grundhandgriffe in der Bearbeitung von Rohrwerkstoffen kennengelernt und eingeübt.
+
+
+<!--style="font-size: large;font-weight: bold"-->Mit den folgenden Fragen können Sie Ihr erworbenes Wissen überprüfen - viel Erfolg!
+
+>_Hinweis: Es können mehrere Antworten richtig sein!_<!--style="color:blue; font-weight: bolder;"-->
+
+
+![SHK_Werkzeugkasten](img/werkzeugkasten.jpg)
+
+
+## 1. Was bedeutet der Arbeitsgang "schlichten"?
+
+Ziehen Sie die richtigen Antworten in das Antwortfeld.
+===
+
+----------------------
+
+<!-- data-randomize -->
+@dragdropmultiple(@uid,geringere Materialabtragung|Feinbearbeitung|Maßgenauigkeit herstellen|geforderte Oberflächengüte,Streit schlichten|Material nach Qualität sortieren|Werkzeug saubermachen)
+
+
+
+## 2. Die Hiebnummern
+
+Die Hiebnummern H1, H2 und H3 bei der Feile stehen für:
+===
+
+<!-- data-randomize -->
+- [[X]] Die Hiebnummer H1 bezeichnet eine grobe Feile.
+- [[ ]] Die Angaben H1 bis H3 geben an, wie viel mm Material abzutragen ist.
+- [[X]] Mit H2 wird auch eine Halbschlichtfeile bezeichnet.
+- [[ ]] Die Hiebnummern geben an, wie viel Hiebe zum Materialabtrag nötig sind. 
+- [[ ]] Die Kürzel H1, H2 und H3 stehen für die Vornamen der drei Erfinderbrüder: Hans, Heinrich und Hugo Hieb. 
+- [[X]] H3 steht für Schlicht-Feilen.
+- [[X]] Je höher die Zahl nach dem "H", desto feiner der Hieb.
+
+## 3. Die Abwicklung eines Werkstücks
+
+Die Abwicklung eines Werkstücks beschreibt...
+===
+
+<!-- data-randomize -->
+- [[X]] die entfaltete Darstellung eines Werkstücks.
+- [[ ]] einen Entsorgungsvorgang.
+- [[X]] die Seitendarstellung eines Werkstücks.
+- [[ ]] eine Zusammenstellung von mehreren Werkstücken.
+
+
+## 4. Bohren
+
+Für ein Gewinde M10 ist welches Loch vorzubohren?
+===
+
+<!-- data-randomize -->
+- [(X)] Ø 8,5 mm, da M10 eine Steigung von 1,5 mm hat
+- [( )] Ø 10 mm, da Angabe M10
+- [( )] Ø 11,5 mm, da M10 eine Steigung von 1,5 mm hat
+
+
+## 5. Das Z-Maß
+
+<!--style="font-size: large;font-weight: bold"-->Vervollständigen Sie die Sätze.
+
+
+Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="color:orange;"--> wird auch als [[ Einbaumitte   |  Einbaum  | (Einbaumaß)]] bezeichnet.
+
+Es ist der [[ kleinste | (mittlere)   |  größte ]] Abstand zwischen dem eingebaute Rohrende und der Achse des [[ Fichtenings | (Fittings)   |  Frittings ]] oder den Enden von zwei eingebauten Rohren. 
+
+Die z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="color:orange;"--> sind aus den [[ Zeichnungen   |  Stücklisten  | (Baulängen)]] abzüglich der mittleren [[ Einschublängen | (Einschraublängen)   |  Einbaulängen ]] zu berechnen. 
+
+Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="color:orange;"--> und ein [[ gutes Lagersystem   |  gutes Miteinander  | (einheitliches Messverfahren)]] sind der Kern der Montage-Methode von Georg Fischer. 
+
+Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="color:orange;"--> ist das [[ Einbaumaß | ("Konstruktionsmaß")   |  Zeitmaß ]] des Installateurs. 
+
+-----------------------
+
+<!--style="font-size: large;font-weight: bold"-->Grundlage für die Bestimmung und Anwendung des z-Maßes bildet der Grundsatz:
+
+<!-- data-randomize -->
+- [( )] einheitliches Messen - Mitte - Rand - Mitte = M
+- [(X)] einheitliches Messen - Mitte - Mitte = M
+
+-------------------------
+
+<!--style="font-size: large;font-weight: bold"-->Die z-Maß-Methode bedingt:
+
+<!-- data-randomize -->
+- [[X]] genaue Abklärung der Leitungsführung
+- [[X]] Kenntnis der Baumaße von Armaturen, Apparaten und deren Standorte
+- [[X]] normgerechte Rohrgewinde
+- [[ ]] einschlägige Rechenprogramme für die notwendigen Berechnungen
+- [[X]] einheitliches Messverfahren
+
+### Gestreckte Längen berechnen I
+
+<!--style="font-size: large;font-weight: bold"-->Zur Erinnerung:
+
+Zwischen dem Durchmesser<!-- style="color: red" --> ${d}$<!-- style="color: red" --> und dem Umfang<!-- style="color: blue" --> $l_{U}$<!-- style="color: blue" --> besteht ein festes Zahlenverhältnis, die Kreiszahl $\pi$.
+
+
+$\pi$ $\text{=}$ $3,14$
+
+
+><!--style="font-size: large;font-weight: bold"-->$\frac{l_{U}}{d}$ $\text{=}$ $\pi$ $\implies$ $l_{U}$ $\text{=}$ ${d}$ $\cdot$ $\pi$
+
+
+<!-- style="width: 350px;" -->
+![Kreis mit Durchmesser](img/KreismitDurchmesser.png)
+
+_Quelle:_ https://lernarchiv.bildung.hessen.de/sek/mathematik/geometrie/kreis/kreiszahl_pi/lernpfad_pi/index.html 
+
+-------------
+
+<!--style="font-size: large;font-weight: bold"-->Was beschreibt die gestreckte Länge eines Rohrs?
+
+<!-- data-randomize -->
+- [( )] Die gebogene Länge nach dem Einbau
+- [(X)] Die benötigte Materiallänge vor dem Einbau
+- [( )] Den Außendurchmesser
+- [( )] Die Wandstärke
+
+#### Gestreckte Längen berechnen II
+
+
+Die gestreckte<!--style="font-weight: bold"--> Länge<!--style="font-weight: bold"--> ist die Summer aller 
+
+<!-- data-randomize -->
+- [(X)] geraden und gebogenen Abschnitte
+- [( )] geraden Abschnitte
+- [( )] Kreisbögen
+
+
+Die gestreckte<!--style="font-weight: bold"--> Länge<!--style="font-weight: bold"--> ist
+
+<!-- data-randomize -->
+- [(X)] die Länge der neutralen Faser
+- [( )] die Länge der gestauchten Faser
+- [( )] die Länge der gestreckten Faser
+
+
+
+Gebogene<!--style="font-weight: bold"--> Abschnitte<!--style="font-weight: bold"--> werden mit dieser Formel berechnet:
+
+<!-- data-randomize -->
+- [( )] $l_{b}$<!-- style="color: orange" --> $\text{=}$ $\frac{{Umfang}}{2}$<!--style="font-size: large;font-weight: bold"--> 
+- [( )] $l_{b}$<!-- style="color: orange" --> $\text{=}$ $\pi$ $\cdot$ ${d}$
+- [(X)] $l_{b}$<!-- style="color: orange" --> $\text{=}$ $\frac{\pi {\cdot} {d} {\cdot} {\alpha}}{360}$<!--style="font-size: large;font-weight: bold"--> 
+
+
+
+Die neutrale<!--style="font-weight: bold"--> Faser<!--style="font-weight: bold"--> verändert sich beim Biegen
+
+<!-- data-randomize -->
+- [(X)] weder durch Zug noch durch Druck
+- [( )] durch Zug oder durch Druck
+- [( )] im Wert von $\pi$
+
+#### Gestreckte Längen berechnen III
+
+<!--style="font-size: large"-->Die gestreckte Länge eines Fallrohrs Ø ${100}$ $\text{mm}$ soll berechnet werden. 
+
+<!--style="font-size: large"-->1. Gerader Abschnitt: ${600}$ $\text{mm}$ $\text{=}$ $l_{1}$<!-- style="color: orange" -->
+
+<!--style="font-size: large"-->2. Gebogener Abschnitt: $\text{90°-Bogen}$ $\text{=}$ $l_{2}$<!-- style="color: orange" -->
+
+<!--style="font-size: large;font-weight: bold"-->Wie lang muss das Ausgangsrohr mindestens sein, damit es nach dem Biegen exakt passt?
+
+$l_{1}$ $\text{=}$ [[  600  ]] $\text{mm}$
+
+<!--style="font-size: large"-->Für die Berechnung des gebogenen Abschnitts benötigst du eine Formel. Wähle die richtige Formel aus:
+
+<!-- data-randomize -->
+- [( )] $l_{2}$<!-- style="color: orange" --> $\text{=}$ $\frac{{Umfang}}{2}$<!--style="font-size: large;font-weight: bold"--> 
+- [( )] $l_{2}$<!-- style="color: orange" --> $\text{=}$ $\pi$ $\cdot$ ${d}$
+- [(X)] $l_{2}$<!-- style="color: orange" --> $\text{=}$ $\frac{\pi {\cdot} {d} {\cdot} {\alpha}}{360}$<!--style="font-size: large;font-weight: bold"--> 
+
+<!--style="font-size: large"-->Setze in die Formel alle Daten richtig ein.
+
+Die Länge $l_{2}$ beträgt [[  78,5  ]] $\text{mm}$
+
+<!--style="font-size: large"-->Jetzt rechne die Gesamtlänge aus:
+
+$l_{1}$ $\text{=}$ [[  600  ]] $\text{mm}$ $\text{+}$ $l_{2}$  [[  78,5  ]] $\text{mm}$ $\text{=}$ [[  678,5  ]] $\text{mm}$ 
+
+---
+
+Super gemacht 👌
+===
