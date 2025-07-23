@@ -4,13 +4,13 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.2
+version:  0.0.3
 
 language: de
 
 narrator: Deutsch Male
 
-comment:  Grundkurs Raumausstatter
+comment:  Grundkurs Anlagenmechaniker 1
 
 edit: true
 
