@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.2
+version:  0.0.4
 
 language: de
 
@@ -182,13 +182,14 @@ _Quelle: BGHM_
 - [[ ]] Beim Tragen von Sicherheitsschuhen mit isollierender Sohle kann es zu keiner elektrischen Körperdurchströmung kommen.
 
 
-## 4. Weitere Quizfragen zum Schweißen I
+## 4. Weitere Quizfragen zum Thema Schweißen I
 
 <!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
 
 ----------------
 
-<!--style="color:blue; font-weight: bolder;"-->Was ist beim Elektroschweißen zum Schutz vor elektrischem Strom zu beachten?  🤔
+<!--style="color:blue; font-weight: bolder;"-->
+Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 
 
 <section class="flex-container">
@@ -196,9 +197,9 @@ _Quelle: BGHM_
 <div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
-- [( )] Mit einem Feuerzeug.
-- [(X)] Mit einem Gasanzünder.
-
+- [( )] Mit einem herkömmlichen Feuerzeug  
+- [(X)] Mit einem speziellen Gasanzünder  
+- [( )] Mit einem Streichholz
 
 </div>
 
