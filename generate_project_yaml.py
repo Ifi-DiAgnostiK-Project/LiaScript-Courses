@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-import os
 import re
 import yaml
 import logging
+import urllib.request  # newly added import for URL support
 from collections import defaultdict
 from pathlib import Path
 
@@ -15,9 +15,15 @@ CATEGORY_LIST = [
 ]
 OUTPUT_FILE = "project.yml"
 HEADER_FILE = "project-part.yaml"
+ADDITIONALS = "additional_courses.yaml"
 
 # Logging
 logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
+
+
+def is_url(filepath):
+    return filepath.startswith("http://") or filepath.startswith("https://")
+
 
 class YamlCommentParser:
     def __init__(self, strip_macros=True):
@@ -25,7 +31,12 @@ class YamlCommentParser:
 
     def parse(self, filepath):
         try:
-            content = Path(filepath).read_text(encoding='utf-8')
+            # If filepath is a URL, download its content; otherwise, read from the local file system.
+            if is_url(filepath):
+                with urllib.request.urlopen(filepath) as response:
+                    content = response.read().decode('utf-8')
+            else:
+                content = Path(filepath).read_text(encoding='utf-8')
         except Exception as e:
             logging.error(f"Error reading {filepath}: {e}")
             return {}
@@ -83,6 +94,11 @@ class YamlCommentParser:
             logging.error(f"YAML parsing error in {filepath}: {e}")
             return {}
 
+def load_additional_courses(yaml_path):
+    """Load additional course URLs from a YAML file."""
+    with open(yaml_path, 'r', encoding='utf-8') as f:
+        data = yaml.safe_load(f)
+    return data.get('courses', [])
 
 def find_markdown_files(base_dir="courses"):
     return sorted(Path(base_dir).rglob("*.md"))
@@ -105,23 +121,35 @@ def build_structure(files):
     parser = YamlCommentParser()
 
     for file in files:
-        meta = parser.parse(file)
+        meta = parser.parse(str(file))
         title = meta.get("title")
         category, tags = categorize_file(meta)
 
+        # add title and tags if they exist
         entry = {
-            "url": f"{BASE_URL}{file.as_posix()}",
+            key: value
+            for key, value in {
+                "title": title,
+                "tags": tags
+            }.items()
+            if value
         }
-
-        if title:
-            entry["title"] = title
-        if tags:
-            entry["tags"] = tags
+        # add the right url, baseurl + file or the whole url string
+        entry["url"] = get_url(file)
 
         categories[category].append(entry)
         logging.info(f"Added {file} to category '{category}'")
 
     return categories
+
+
+def get_url(file):
+    if is_url(file):
+        url = file
+    else:
+        url = f"{BASE_URL}{file.as_posix()}"
+    return url
+
 
 def write_yaml_header(out):
     if Path(HEADER_FILE).exists():
@@ -141,7 +169,6 @@ def write_output_yaml(categories):
 
             write_yaml_body(category, items, out)
 
-
 def write_yaml_body(category, items, out):
     out.write(f"""  - title: {category}
     comment: ""
@@ -157,11 +184,13 @@ def write_yaml_body(category, items, out):
             for tag in item["tags"]:
                 out.write(f"          - {tag}\n")
 
-
 def main():
     logging.info("Searching for markdown files...")
     files = find_markdown_files()
     logging.info(f"Found {len(files)} markdown files.")
+    adds = load_additional_courses(ADDITIONALS)
+    logging.info(f"Loaded {len(adds)} additional courses.")
+    files.extend(adds)
     categories = build_structure(files)
     write_output_yaml(categories)
     logging.info(f"Written output to {OUTPUT_FILE}")
