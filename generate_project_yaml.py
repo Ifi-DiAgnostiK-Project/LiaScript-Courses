@@ -22,7 +22,11 @@ logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
 
 
 def is_url(filepath):
-    return filepath.startswith("http://") or filepath.startswith("https://")
+    try:
+        return filepath.startswith("http://") or filepath.startswith("https://")
+    except AttributeError:
+        # if it is posixPath then string ops won't work
+        return False
 
 
 class YamlCommentParser:
