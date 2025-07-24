@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler
 
 email:    jan.franke@hwk-dresden.de
  
-version:  0.0.7
+version:  0.0.8
  
 language: de
  
