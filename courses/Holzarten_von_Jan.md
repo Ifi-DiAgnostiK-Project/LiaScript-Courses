@@ -22,6 +22,7 @@ comment:  Quiz zu Eigenschaften Holz
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/makros.md
 
 tags: Tischler
 
@@ -46,10 +47,10 @@ tags: Tischler
 }
 @end
 
-@Fichte: @Hoelzer.Fichte.src
-@Balsa:  @Hoelzer.Balsa.src
-@Ahorn: @Hoelzer.Ahorn.src
-@Pockholz: @Hoelzer.Pockholz.src
+@Fichte: @Hoelzer1.Fichte.src
+@Balsa:  @Hoelzer1.Balsa.src
+@Ahorn: @Hoelzer1.Ahorn.src
+@Pockholz: @Hoelzer1.Pockholz.src
 
 -->
  
