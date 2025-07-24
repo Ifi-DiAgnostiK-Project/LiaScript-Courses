@@ -35,6 +35,10 @@ Kurse, die sich mit dem Beruf Maler beschäftigen.
 
 Kurse, die sich mit dem Beruf Raumausstatter beschäftigen.
 
+### Belehrung
+
+Kategorie für Belehrungen.
+
 ### Experimente
 
 Experimentelle Kurse, die zeigen wie LiaScript mit verschiedenen Elementen funtioniert.
