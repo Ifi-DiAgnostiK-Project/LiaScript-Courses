@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.5
+version:  0.0.6
 
 language: de
 
@@ -155,7 +155,7 @@ __Worauf ist beim Biegen geschweißter Rohre zu achten?__<!--style="font-size: L
 ===
 
 <!-- data-randomize -->
-<!--style="color:green; font-weight: bolder;"-->_Beim Biegen geschweißter Rohre ist darauf zu achten, dass die Rohrnaht in der [[ ( neutralen Faser ) | Innenseite | Außenseite | kürzeren Seite | längeren Seite ]] liegt._ 
+_Beim Biegen geschweißter Rohre ist darauf zu achten, dass die Rohrnaht in der [[ ( neutralen Faser ) | Innenseite | Außenseite | kürzeren Seite | längeren Seite ]] liegt._<!--style="color:green; font-weight: bolder;"-->
 
 
 ### 4. Flussmittel beim Löten
