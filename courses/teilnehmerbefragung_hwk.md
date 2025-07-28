@@ -4,7 +4,7 @@ author: Volker Göhler
 
 email:  volker.goehler@informatik.tu-freiberg.de
 
-version: 0.0.2
+version: 0.0.3
 
 language: de
 
@@ -151,7 +151,8 @@ _Hinweis: In der Unterkunft ist kein Zimmerservice enthalten. Die Reinigung der 
 
 [[___ ___]]
 
-### Verständlichkeit der theoretischen Erklärungen
+Verständlichkeit der theoretischen Erklärungen
+===
 
     [(1)] sehr gut
     [(2)] gut
@@ -164,7 +165,8 @@ _Hinweis: In der Unterkunft ist kein Zimmerservice enthalten. Die Reinigung der 
 
 ---
 
-### Nachvollziehbarkeit der praktischen Vorgehensweise
+Nachvollziehbarkeit der praktischen Vorgehensweise
+===
 
     [(1)] sehr gut
     [(2)] gut
@@ -177,7 +179,8 @@ _Hinweis: In der Unterkunft ist kein Zimmerservice enthalten. Die Reinigung der 
 
 ---
 
-### Eingehen auf Fragen und Probleme der Teilnehmer
+Eingehen auf Fragen und Probleme der Teilnehmer
+===
 
     [(1)] sehr gut
     [(2)] gut
@@ -190,7 +193,8 @@ _Hinweis: In der Unterkunft ist kein Zimmerservice enthalten. Die Reinigung der 
 
 ---
 
-### Nützlichkeit der Unterrichtsmaterialien (wenn vorhanden)
+Nützlichkeit der Unterrichtsmaterialien (wenn vorhanden)
+===
 
     [(1)] sehr gut
     [(2)] gut
