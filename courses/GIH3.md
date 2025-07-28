@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: de
 
@@ -50,8 +50,6 @@ tags:
 
 -->
 
--->
-
 # Grundkurs SHK-Anlagenmechaniker G - IH 3
 
 Elektrotechnik und deren Sicherheitsmaßnahmen
@@ -62,10 +60,10 @@ Elektrotechnik und deren Sicherheitsmaßnahmen
 
 </div>
 <div class="flex-child">
-![Hochspannungswarnung](img/warning_sign_current.jpg) <!-- style="width: 550px" -->
+![Hochspannungswarnung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/warning_sign_current.jpg) <!-- style="width: 550px" -->
 </div>
 <div class="flex-child">
-![Schaltkasten](img/fuses.jpg) <!-- style="width: 550px" -->
+![Schaltkasten](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fuses.jpg) <!-- style="width: 550px" -->
 
 </div>
 </section>
@@ -83,7 +81,6 @@ Welche Aufgabe hat eine Sicherung?   🤔
 ===
 
 <section class="flex-container">
-
 <div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
@@ -94,15 +91,13 @@ Welche Aufgabe hat eine Sicherung?   🤔
 - [[X]] Schutz von Menschenleben.
 
 </div>
-
 <div class="flex-child" style="min-width: 150px">
-![Sicherungen](img/fuses.jpg)<!-- style="width: 250px" -->
+![Sicherungen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fuses.jpg)<!-- style="width: 250px" -->
 
 
 <a  href="https://pixabay.com/de/photos/sicherung-sicher-strom-elektrizit%C3%A4t-631745/" target=_blank>Quelle: Rabe-Foto, Pixabay</a>
 
 </div>
-
 </section> 
 
 ----------------
@@ -112,7 +107,6 @@ Was brauchen Sie als zusätzliche PSA beim Ziehen von NH-Sicherungen?   🤔
 ===
 
 <section class="flex-container">
-
 <div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
@@ -122,15 +116,13 @@ Was brauchen Sie als zusätzliche PSA beim Ziehen von NH-Sicherungen?   🤔
 - [[X]] Helm mit Gesichtsschutz
 
 </div>
-
 <div class="flex-child" style="min-width: 150px">
-![ClipArt_Sicherung](img/stromschlag.jpg)<!-- style="width: 150px" -->
+![ClipArt_Sicherung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/stromschlag.jpg)<!-- style="width: 150px" -->
 
 
 <a  href="https://pixabay.com/de/vectors/elektrische-sicherung-sicherung-155785/" target=_blank>Quelle: OpenClipart-Vectors, Pixabay</a>
 
 </div>
-
 </section> 
 
 ------
@@ -167,28 +159,23 @@ Was bedeutet dieses Symbol?   🤔
 
 ----------------
 
-
 <section class="flex-container" style="padding: 1rem;">
 <div style="padding-top:3rem;">
 </div>
 <div class="flex-child">
-![Schutzklasse II](img/schutzklasse2.jpg)<!-- style="width: 150px" -->
+![Schutzklasse II](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/schutzklasse2.jpg)<!-- style="width: 150px" -->
 </div>
 <div class="flex-child">
-![Schutzklasse I](img/earth.jpg)<!-- style="width: 150px" -->
+![Schutzklasse I](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/earth.jpg)<!-- style="width: 150px" -->
 </div>
 <div class="flex-child">
-![Schutzklasse III](img/schutzklasse3.jpg)<!-- style="width: 150px" -->
+![Schutzklasse III](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/schutzklasse3.jpg)<!-- style="width: 150px" -->
 </div>
 </section>
-
-
 
 <a  href="https://de.m.wikipedia.org/wiki/Datei:Schutzklasse_1_halb_fett.svg; https://de.m.wikipedia.org/wiki/Datei:Schutzklasse_2_fett.svg; https://de.m.wikipedia.org/wiki/Datei:Schutzklasse_3_fett.svg" target=_blank>Quelle: Wikimedia Commons, David W.</a>
 
 <br>
-
-<br> 
 
 <!--style="color:blue; font-weight: bolder;"-->
 Welche Aussagen zu den ~~Schutzklassen~~ elektrischer Betriebsmittel sind korrekt?   🤔
@@ -204,9 +191,6 @@ Welche Aussagen zu den ~~Schutzklassen~~ elektrischer Betriebsmittel sind korrek
 - [[X]] Schutzklasse III basiert auf Schutz durch Kleinspannung (SELV oder PELV) und benötigt keinen Schutzleiter.
 
 
-
-
-
 ><!--style="color:red"-->SHK-HWK zur Antwort Schutzklasse II "Quadrat in einem Quadrat" fragen.<!--style="color:red"-->
 
 -----
@@ -216,7 +200,6 @@ Wie viele Prüfvorgänge zum Feststellen der Spannungsfreiheit sind hier nötig?
 ===
 
 <section class="flex-container">
-
 <div class="flex-child" style="min-width: 250px">
 
 
@@ -226,15 +209,13 @@ Wie viele Prüfvorgänge zum Feststellen der Spannungsfreiheit sind hier nötig?
 - [( )] 12
 
 </div>
-
 <div class="flex-child" style="min-width: 150px">
-![Spannungsfreiheit](img/test_for_current.jpg)<!-- style="width: 350px" -->
+![Spannungsfreiheit](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/test_for_current.jpg)<!-- style="width: 350px" -->
 
 
 <a  href="https://pixabay.com/de/photos/sicherung-sicher-strom-elektrizit%C3%A4t-631745/" target=_blank>Quelle: BG ETEM</a>
 
 </div>
-
 </section> 
 
 
@@ -295,7 +276,7 @@ Welche Aussagen zu Reihen- und Parallelschaltungen von Widerständen sind korrek
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Symbol Schaltkreis](img/resistor.png)<!-- style="width: 400px" -->
+![Symbol Schaltkreis](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/resistor.png)<!-- style="width: 400px" -->
 
 
 <a  href="https://pixabay.com/de/vectors/schaltkreis-symbol-elektronik-146512/" target=_blank>Quelle: Pixabay; OpenClipart-Vectors</a>
@@ -324,10 +305,7 @@ Ordnen Sie zu, ob die jeweilige Aussage zur Reihen- oder Parallelschaltung gehö
 ## Arbeits- und Gesundheitsschutz bei elektrotechnischen Aufgaben 🔌
 
 <section class="flex-container">
-
 <div class="flex-child" style="min-width: 250px">
-
-
 
 Im SHK-Handwerk arbeiten Sie mit Werkzeugen, Maschinen, Strom, Wasser und Gas – da ist Sicherheit besonders wichtig. 
 
@@ -350,17 +328,14 @@ Dazu gehören, z. B.:
 ✔️das Beachten von Regeln auf der Baustelle
 
 </div>
-
 <div class="flex-child" style="min-width: 150px">
-![SHK-Experte](img/arbeitsschutz.jpg)<!-- style="width: 500px" -->
+![SHK-Experte](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/arbeitsschutz.jpg)<!-- style="width: 500px" -->
 
 
 <a  href="https://www.seton.de/arbeitsunfaelle-schilder-schutzkleidung-psa" target=_blank>Quelle: Seton.de</a>
 
 </div>
-
 </section> 
-
 
 
 <!--style="font-size: huge; color:blue; font-weight: bolder;"-->Sicheres Arbeiten ist Teamarbeit – und Sie sind ein wichtiger Teil davon.
@@ -374,7 +349,6 @@ Dazu gehören, z. B.:
 <!--style="color:blue; font-weight: bolder;"-->Was müssen Sie beim Einsetzen und Herausnehmen von NH-Sicherungen beachten?   🤔
 
 <section class="flex-container">
-
 <div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
@@ -384,25 +358,20 @@ Dazu gehören, z. B.:
 - [[ ]] Es genügen Schutzhandschuhe und eine isolierte Zange.
 
 </div>
-
 <div class="flex-child" style="min-width: 150px">
-![NH-Sicherung](img/correct_fuse_remove.jpg)<!-- style="width: 250px" -->
+![NH-Sicherung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/correct_fuse_remove.jpg)<!-- style="width: 250px" -->
 
 
 <a  href="https://www.vbg.de/zeitarbeit-fb/infos/89_szn/" target=_blank>Alle Bilder: VBG</a>
 
 </div>
-
 </section> 
-
->_Ich habe den Eindruck, dass sich die Fragen nicht mischen._
 
 ---------------------
 
 <!--style="color:blue; font-weight: bolder;"-->Welche Aussage ist richtig?   🤔
 
 <section class="flex-container">
-
 <div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
@@ -412,13 +381,11 @@ Dazu gehören, z. B.:
 - [[ ]] Ich kann jedes genormte Leuchtmittel als Bauleuchte verwenden. 
 
 </div>
-
 <div class="flex-child" style="min-width: 150px">
-![Bauleuchte](img/lamp.jpg)<!-- style="width: 150px" -->
+![Bauleuchte](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/lamp.jpg)<!-- style="width: 150px" -->
 
 
 </div>
-
 </section> 
 
 --------------------------
@@ -427,7 +394,6 @@ Dazu gehören, z. B.:
 <!--style="color:blue; font-weight: bolder;"-->Welche Schutzmaßnahmen sind bei Arbeiten an elektrischen Anlagen erforderlich?   🤔
 
 <section class="flex-container">
-
 <div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
@@ -437,13 +403,11 @@ Dazu gehören, z. B.:
 - [[X]] Bei „Unterbrechungsfreier Stromversorgung“ (USV) muss die Spannungsfreiheit der Anlage nach dem Abschalten der Netzversorgung gesondert geprüft und herbeigeführt werden.
 
 </div>
-
 <div class="flex-child" style="min-width: 150px">
-![Sicherungskasten](img/pointy_finger_to_fuses.jpg)<!-- style="width: 150px" -->
+![Sicherungskasten](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/pointy_finger_to_fuses.jpg)<!-- style="width: 150px" -->
 
 
 </div>
-
 </section> 
 
 ---------
@@ -457,7 +421,6 @@ Dazu gehören, z. B.:
 <!--style="color:blue; font-weight: bolder;"-->Kennen Sie die fünf Sicherheitsregeln bei elektrischen Anlagen?   🤔
 
 <section class="flex-container">
-
 <div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
@@ -469,14 +432,12 @@ Dazu gehören, z. B.:
 - [[X]] Benachbarte, unter Spannung stehende Teile abdecken oder abschranken.
 
 </div>
-
 <div class="flex-child" style="min-width: 150px">
-![Baustromkasten](img/external_steckdosen_kaseten.jpg)<!-- style="width: 150px" -->
+![Baustromkasten](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/external_steckdosen_kaseten.jpg)<!-- style="width: 150px" -->
 
 <a  href="https://www.vbg.de/zeitarbeit-fb/infos/89_szn/" target=_blank>Alle Bilder: VBG</a>
 
 </div>
-
 </section> 
 
 ---------------------
@@ -484,7 +445,6 @@ Dazu gehören, z. B.:
 <!--style="color:blue; font-weight: bolder;"-->Ist es erlaubt, Arbeiten auch an unter Spannung stehenden Teilen auszuführen?   🤔
 
 <section class="flex-container">
-
 <div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
@@ -494,22 +454,18 @@ Dazu gehören, z. B.:
 - [[ ]] Ja, wenn es sich um gelegentliche kurzzeitige Arbeiten an Elektroinstallationen handelt.
 
 </div>
-
 <div class="flex-child" style="min-width: 150px">
-![Arbeiten_unter_Spannung](img/blanket_current.jpg)<!-- style="width: 150px" -->
+![Arbeiten_unter_Spannung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/blanket_current.jpg)<!-- style="width: 150px" -->
 
 
 </div>
-
 </section> 
 
 --------------------------
 
-
 <!--style="color:blue; font-weight: bolder;"-->Was ist beim Einsatz von Werkzeugen im Elektrobereich zu beachten?   🤔
 
 <section class="flex-container">
-
 <div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
@@ -519,16 +475,12 @@ Dazu gehören, z. B.:
 - [[ ]] Bei Verwendung von isoliertem Werkzeug brauche ich keine Spannungsfreiheit herstellen.
 
 </div>
-
 <div class="flex-child" style="min-width: 150px">
-![Elekro-Werkzeug](img/diverse_tools.jpg)<!-- style="width: 150px" -->
-
+![Elekro-Werkzeug](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/diverse_tools.jpg)<!-- style="width: 150px" -->
 
 </div>
-
 </section> 
 
 -------------------
-
 
 <!--style="color:green; font-weight: bolder;font-size:large"-->Geschafft ! 👏
