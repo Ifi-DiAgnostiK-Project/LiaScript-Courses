@@ -1,7 +1,7 @@
 <!--
 author: Hilke Domsch
 comment: Hilkes Fragen am 20.05.25, mit Volkers Antworten
-version: 0.0.5
+version: 0.0.6
 edit: true
 date: 2025-05-20
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
@@ -185,7 +185,7 @@ Aufgabe: Wähle die Warnzeichen!
 
 > Drag&Drop ist auch möglich
 
-@dragdropmultipleimages(@uid,@Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src,@Leitern.Nur_eine_Person.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src)
+@dragdropmultiple(@uid,@Warnzeichen.Laserstrahl.src|@Warnzeichen.Automatischer_Anlauf.src,@Leitern.Nur_eine_Person.src|@Brandschutzzeichen.Brandbekaempfung.src|@Rettungszeichen.Erste_Hilfe.src)
 
 
 ---

@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.1.1
+version: 0.1.2
 
 language: de
 
@@ -579,7 +579,7 @@ __11. Ziehen Sie alle Gebotszeichen in das Antwortfeld!__ 🤔
 
 
 <!-- data-randomize -->
-@dragdropmultipleimages(@uid,@Gebotszeichen.Uebergang.src,@Rettungszeichen.Arzt.src|@Leitern.Maximale_Belastung.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Richtungspfeil_Rechts_unten.src|) 
+@dragdropmultiple(@uid,@Gebotszeichen.Uebergang.src,@Rettungszeichen.Arzt.src|@Leitern.Maximale_Belastung.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Richtungspfeil_Rechts_unten.src|) 
 
 >_Ich habe herausgefunden, dass Drag&Drop funktioniert, wenn ich ganz oben in der Internetleiste den Button "Seite neu laden" drücke._
 
@@ -916,12 +916,12 @@ __Welche Symbole regeln den Umgang mit Leitern?__ 🤔
 
 >_Leider funktioniert diese Anleitung bei mir nicht zuverlässig. 😥__
 > 
-> Hier ist die Anleitung: `@dragdropmultipleimages(@uid, richtige, falsche)`
+> Hier ist die Anleitung: `@dragdropmultiple(@uid, richtige, falsche)`
 > Die Bilder mit | aneinandreihen und immer die src Varianten verwenden `@Leitern.Anlegewinkel_beachten.src` z.B.
 > Ist aber noch sehr Buggy, ich frag mal Niklas !
 
 <!-- data-randomize -->
-@dragdropmultipleimages(@uid,@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src,@Warnzeichen.Hindernisse_am_Boden.src|@Warnzeichen.Automatischer_Anlauf.src|@Gebotszeichen.Handlauf.src|@Rettungszeichen.Erste_Hilfe.src)
+@dragdropmultiple(@uid,@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src,@Warnzeichen.Hindernisse_am_Boden.src|@Warnzeichen.Automatischer_Anlauf.src|@Gebotszeichen.Handlauf.src|@Rettungszeichen.Erste_Hilfe.src)
 
 
 ---
@@ -929,7 +929,7 @@ __Welche Symbole regeln den Umgang mit Leitern?__ 🤔
 __Die Bilder gehören zu Warn-, Verbots- oder Gebotszeichen. Aber welche Symbole regeln den Umgang mit Leitern bei der Arbeit?__ 🤔
 
 <!-- data-randomize -->
-@dragdropmultipleimages(@uid,@Leitern.Witterungsbedingungen.src|@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund.src,@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Feuerleiter.src|@Gebotszeichen.Uebergang.src) 
+@dragdropmultiple(@uid,@Leitern.Witterungsbedingungen.src|@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund.src,@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Feuerleiter.src|@Gebotszeichen.Uebergang.src) 
 
 
 ---

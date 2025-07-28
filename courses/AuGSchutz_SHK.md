@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.4
+version:  0.0.5
 
 language: de
 
@@ -105,7 +105,7 @@ Dazu gehören, z. B.:
 <!--style="color:blue; font-weight: bolder;"-->Ziehe alle richtigen Symbole in das Antwortfeld. 🤔
 
 <!-- data-randomize -->
-@dragdropmultipleimages(@uid,@Gebotszeichen.Gesichtsschutz.src|@Gebotszeichen.Augenschutz.src|@Gebotszeichen.Handschuh.src,@Gebotszeichen.Rettungsweste_benutzen.src|@Gebotszeichen.Rueckhaltesystem.src)
+@dragdropmultiple(@uid,@Gebotszeichen.Gesichtsschutz.src|@Gebotszeichen.Augenschutz.src|@Gebotszeichen.Handschuh.src,@Gebotszeichen.Rettungsweste_benutzen.src|@Gebotszeichen.Rueckhaltesystem.src)
 
 _Quelle: BGHM_
 
@@ -128,7 +128,7 @@ _Quelle: BGHM_
 <!--style="color:blue; font-weight: bolder;"-->Welche Schutzausrüstung und Sicherheitsmaßnahmen sind beim Löten zu beachten? Ziehen Sie die richtigen Bilder ins Antwortfeld. 🤔
 
 <!-- data-randomize -->
-@dragdropmultipleimages(@uid,@Gebotszeichen.Augenschutz.src|@Gebotszeichen.Handschuh.src|@Gebotszeichen.Schutzkleidung.src|@Brandschutzzeichen.Feuerloescher.src|@Gebotszeichen.Haende_waschen.src,@Gebotszeichen.Rettungsweste_benutzen.src|@Warnzeichen.Brandfoerdernde_Stoffe.src|@Warnzeichen.Heisse_Oberflaeche.src|@Warnzeichen.Laserstrahl.src|@Gebotszeichen.Kopfschutz.src)
+@dragdropmultiple(@uid,@Gebotszeichen.Augenschutz.src|@Gebotszeichen.Handschuh.src|@Gebotszeichen.Schutzkleidung.src|@Brandschutzzeichen.Feuerloescher.src|@Gebotszeichen.Haende_waschen.src,@Gebotszeichen.Rettungsweste_benutzen.src|@Warnzeichen.Brandfoerdernde_Stoffe.src|@Warnzeichen.Heisse_Oberflaeche.src|@Warnzeichen.Laserstrahl.src|@Gebotszeichen.Kopfschutz.src)
 
 ## 3. Gefahren beim Schweißen
 

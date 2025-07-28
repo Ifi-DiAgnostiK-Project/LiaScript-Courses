@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler
 
 email:    jan.franke@hwk-dresden.de
  
-version:  0.0.8
+version:  0.0.9
  
 language: de
  
@@ -147,7 +147,7 @@ Drag and Drop Quiz
 =======
 
 > Hier das Drag and Drop Quiz von Niklas
-> `@dragdropmultipleimages(@uid, richtig, falsch)`
+> `@dragdropmultiple(@uid, richtig, falsch)`
 > Beachtet dazu den import im Kopf `LiaScript_DragAndDrop_Template`
 
 - **@uid**: ist wichtig damit das Quiz funktioniert
@@ -161,6 +161,6 @@ Ziehe alle Hardhölzer in die Box
 
 > weiss nicht was hier die richtigen sind :) Hab jetzt Ahorn und Pockholz genommen aus dem matrix quiz
 
-@dragdropmultipleimages(@uid, @Ahorn|@Pockholz, @Balsa|@Fichte)
+@dragdropmultiple(@uid, @Ahorn|@Pockholz, @Balsa|@Fichte)
 
 

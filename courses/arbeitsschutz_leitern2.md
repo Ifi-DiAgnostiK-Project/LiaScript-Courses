@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.4
+version: 0.0.5
 
 language: de
 
@@ -223,7 +223,7 @@ Bild c) @Leitern.Nicht_als_Anlegeleiter_nutzen(10)
 ===
 
 <!-- data-randomize -->
-@dragdropmultipleimages(@uid,@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src,@Warnzeichen.Hindernisse_am_Boden.src|@Warnzeichen.Automatischer_Anlauf.src|@Gebotszeichen.Handlauf.src|@Rettungszeichen.Erste_Hilfe.src)
+@dragdropmultiple(@uid,@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src,@Warnzeichen.Hindernisse_am_Boden.src|@Warnzeichen.Automatischer_Anlauf.src|@Gebotszeichen.Handlauf.src|@Rettungszeichen.Erste_Hilfe.src)
 
 
 ---
@@ -232,7 +232,7 @@ Bild c) @Leitern.Nicht_als_Anlegeleiter_nutzen(10)
 ===
 
 <!-- data-randomize -->
-@dragdropmultipleimages(@uid,@Leitern.Witterungsbedingungen.src|@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund.src,@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Feuerleiter.src|@Gebotszeichen.Uebergang.src) 
+@dragdropmultiple(@uid,@Leitern.Witterungsbedingungen.src|@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund.src,@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Feuerleiter.src|@Gebotszeichen.Uebergang.src) 
 
 
 ---
