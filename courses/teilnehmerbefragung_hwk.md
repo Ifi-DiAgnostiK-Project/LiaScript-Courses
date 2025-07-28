@@ -4,7 +4,7 @@ author: Volker Göhler
 
 email:  volker.goehler@informatik.tu-freiberg.de
 
-version: 0.0.1
+version: 0.0.2
 
 language: de
 
@@ -94,7 +94,8 @@ Nutzen der Lehrunterweisung für die Anwendung am Arbeitsplatz
     [(4)] schlecht
 
 **Begründung:**  
-[[___]]
+
+[[___ ___]]
 
 ---
 
@@ -107,7 +108,8 @@ Ausstattung der Werkstätten bzw. Fachkabinette
     [(4)] schlecht
 
 **Begründung:**  
-[[___]]
+
+[[___ ___]]
 
 ---
 
@@ -120,7 +122,8 @@ Angebote zur Pausenversorgung
     [(4)] schlecht
 
 **Begründung:**  
-[[___]]
+
+[[___ ___]]
 
 ---
 
@@ -135,7 +138,8 @@ _Hinweis: In der Unterkunft ist kein Zimmerservice enthalten. Die Reinigung der 
     [(4)] schlecht
 
 **Begründung:**  
-[[___]]
+
+[[___ ___]]
 
 ---
 
@@ -144,7 +148,8 @@ _Hinweis: In der Unterkunft ist kein Zimmerservice enthalten. Die Reinigung der 
 > müsste auch vorausgefüllt sein
 
 **Name:**  
-[[___]]
+
+[[___ ___]]
 
 ### Verständlichkeit der theoretischen Erklärungen
 
@@ -154,7 +159,8 @@ _Hinweis: In der Unterkunft ist kein Zimmerservice enthalten. Die Reinigung der 
     [(4)] schlecht
 
 **Begründung:**  
-[[___]]
+
+[[___ ___]]
 
 ---
 
@@ -166,7 +172,8 @@ _Hinweis: In der Unterkunft ist kein Zimmerservice enthalten. Die Reinigung der 
     [(4)] schlecht
 
 **Begründung:**  
-[[___]]
+
+[[___ ___]]
 
 ---
 
@@ -178,7 +185,8 @@ _Hinweis: In der Unterkunft ist kein Zimmerservice enthalten. Die Reinigung der 
     [(4)] schlecht
 
 **Begründung:**  
-[[___]]
+
+[[___ ___]]
 
 ---
 
@@ -190,14 +198,16 @@ _Hinweis: In der Unterkunft ist kein Zimmerservice enthalten. Die Reinigung der 
     [(4)] schlecht
 
 **Begründung:**  
-[[___]]
+
+[[___ ___]]
 
 ---
 
 ## Ihre Anregungen und Hinweise
 
 **Hinweise oder Verbesserungsvorschläge:**  
-[[___]]
+
+[[___ ___]]
 
 ---
 Vielen Dank für Ihre Unterstützung!
