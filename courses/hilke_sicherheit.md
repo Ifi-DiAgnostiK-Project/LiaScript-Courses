@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.1.0
+version: 0.1.1
 
 language: de
 
@@ -27,6 +27,7 @@ title: Arbeitssicherheit und Gesundheitsschutz - Sammlung
 tags:
     - Arbeitssicherheit
     - Gesundheitsschutz
+    - Wissensspeicher
 
 @style
 .flex-container {
