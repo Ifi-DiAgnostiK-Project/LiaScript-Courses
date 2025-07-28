@@ -11,7 +11,7 @@ from pathlib import Path
 BASE_URL = "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/"
 CATEGORY_LIST = [
     "Tischler", "SHK", "Zahntechniker", "Maler",
-    "Raumausstatter", "Belehrung", "Wissensspeicher", "Experimente", "Sonstige"
+    "Raumausstatter", "Belehrung", "Arbeits-_und_Gesundheitsschutz", "Wissensspeicher", "Experimente", "Sonstige"
 ]
 OUTPUT_FILE = "project.yml"
 HEADER_FILE = "project-part.yaml"
