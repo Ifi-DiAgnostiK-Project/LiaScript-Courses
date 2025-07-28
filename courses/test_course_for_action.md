@@ -1,7 +1,7 @@
 <!--
 author: Volker Göhler
 email: volker.goehler@informatik.tu-freiberg.de
-version: 0.0.12
+version: 0.0.14
 edit: true
 date: 2025-05-20
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
@@ -45,17 +45,23 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/
 > s.u. ohne die srcs, definition im holzarten Kurs, mich wundert das das funktioniert, weil die imgs in divs verpackt sind.
 > Richtige Beantwortung funktioniert scheinbar nicht 😏
 
+
+`@dragdropmultiple(@uid, @Hoelzer1.Robinie | @Hoelzer2.Laerche, @Hoelzer1.Ahorn )`
+
 @dragdropmultiple(@uid, @Hoelzer1.Robinie | @Hoelzer2.Laerche, @Hoelzer1.Ahorn )
 
-> @Hoelzer1.Pockholz.src
-> Das wird unten gar nicht dargestellt -> gibt es hier ein Problem mit dem "compile" vom Live Editor?
+`@dragdropmultiple(@uid, @Hoelzer2.Laerche | @Hoelzer1.Robinie, @Hoelzer1.Ahorn )`
 
-@dragdropmultiple(@uid, @Hoelzer1.Robinie.src | @Hoelzer2.Laerche.src , @Hoelzer1.Ahorn.src, @Hoelzer1.Pockholz.src, @Hoelzer1.Elsbeere.src )
+@dragdropmultiple(@uid, @Hoelzer2.Laerche | @Hoelzer1.Robinie, @Hoelzer1.Ahorn )
 
+> @Hoelzer1.Pockholz.src als Beispiel für ein anderes Format
+
+@dragdropmultiple(@uid, @Hoelzer1.Robinie.src | @Hoelzer2.Laerche.src , @Hoelzer1.Ahorn.src | @Hoelzer1.Pockholz.src | @Hoelzer1.Elsbeere.src )
+
+# Verhaltensweise
 
 - all courses in courses will be release handled if there are changes detected
 - action will be triggered with every commit that changes a markdown in courses
-- ~need to set the github pages still~ -> pages is setup: ~[pages link](https://vgoehler.github.io/DiAgnostiK_LiaScript/)~ [new page]{https://ifi-diagnostik-project.github.io/LiaScript-Courses/}
 
 # liascript example
 
