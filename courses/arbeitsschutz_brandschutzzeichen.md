@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.2
+version: 0.0.3
 
 language: de
 
@@ -26,6 +26,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
 tags:
     - Arbeitssicherheit
     - Brandschutzzeichen
+    - Arbeits-_und_Gesundheitsschutz
 
 title: Brandschutzzeichen
 

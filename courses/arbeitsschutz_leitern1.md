@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.4
+version: 0.0.5
 
 language: de
 
@@ -28,6 +28,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
 tags:
   - Arbeitssicherheit
   - Leitern
+    - Arbeits-_und_Gesundheitsschutz
 
 title: Benutzung von Leitern I
 
