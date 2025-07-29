@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: de
 
@@ -12,10 +12,6 @@ narrator: Deutsch Male
 
 edit: true
 date: 2025-07-29
-
-tags: 
-  - Tischler
-  - TSM
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: https://upload.wikimedia.org/wikipedia/commons/3/3c/EB1911_Furniture_Fig._1.%E2%80%94Venetian_Folding_Chair%2C_walnut%2C_c._1530.jpg
