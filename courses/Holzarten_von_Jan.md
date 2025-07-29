@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler
 
 email:    jan.franke@hwk-dresden.de
  
-version:  0.0.9
+version:  0.0.10
  
 language: de
  
@@ -17,12 +17,14 @@ logo: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Wood_of_a_Picea_
 attribute: Title Image By Kritzolina - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=128991156 
 
 
-comment:  Quiz zu Eigenschaften Holz
+comment:  Der ursprüngliche Kurs von Jan
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/makros.md
+
+title: Holzarten - Alter Kurs
 
 tags: Tischler
 
