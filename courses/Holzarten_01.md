@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler; Hilke Domsch
 
 email:    jan.franke@hwk-dresden.de; volker.goehler@informatik.tu-freiberg.de; hilke.domsch@gkz-ev.de
  
-version:  0.0.2
+version:  0.0.3
  
 language: de
  
@@ -29,15 +29,6 @@ tags:
     - Holzarten
 
 @style
-.flex-container {
-    display: flex;
-    flex-wrap: wrap; /* Allows the items to wrap as needed */
-    align-items: stretch;
-    gap: 20px; /* Adds both horizontal and vertical spacing between items */
-}
-
-
-@style
 .image-container {
   width: 200px;
   height: 200px;
@@ -59,6 +50,13 @@ tags:
 .lia-table__data {
     overflow: hidden;
     padding: 0.5rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows the items to wrap as needed */
+    align-items: stretch;
+    gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
 .flex-child { 
@@ -192,10 +190,12 @@ _Bild-Quelle "Eiche": Florian Riefling, HWK Dresden_
 <!--style="color:green"-->Ziehe alle Holzbilder in die Box, welche vorrangig im Außenbereich verwendet werden.
 ===
 
-@dragdropmultiple(@uid, @Hoelzer1.Robinie.src|@Hoelzer1.Laerche.src, @Hoelzer1.Ahorn.src)
+@dragdropmultiple(@uid, @Hoelzer1.Robinie.src|@Hoelzer1.Laerche.src|@Hoelzer1.Teak.src, @Hoelzer1.Ahorn.src|@Hoelzer1.Linde.src)
  
 
-## Ordne die Holzarten ihren typischen Eigenschaften zu
+>_Wenn das Bild "Teak" dann noch etwa gleich groß ist wie die anderen..._
+
+## Ordnen Sie die Holzarten ihren typischen Eigenschaften zu
 
 <!--data-randomize -->
 Dieses Holz ist sehr hart, groß-ringporig, hat einen markanten Spiegel und ist hell-mittelbraun: [[ Linde | (Eiche) | Pappel  | Nussbaum ]] . 
