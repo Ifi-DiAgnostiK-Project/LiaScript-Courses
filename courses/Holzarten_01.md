@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler; Hilke Domsch
 
 email:    jan.franke@hwk-dresden.de; volker.goehler@informatik.tu-freiberg.de; hilke.domsch@gkz-ev.de
  
-version:  0.0.1
+version:  0.0.2
  
 language: de
  
@@ -52,7 +52,13 @@ tags:
 .image-container img {
   width: fit-content;
   height: fit-content;
-  object-fit: contain;
+  object-fit: cover;
+  display: block;
+}
+
+.lia-table__data {
+    overflow: hidden;
+    padding: 0.5rem;
 }
 
 .flex-child { 
@@ -75,7 +81,7 @@ tags:
 Teil 1
 =======
 
-![016_Holzstapel](img/bretter.jpg)
+![016_Holzstapel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bretter.jpg)
 
 _Quelle: Pixabay, antmoreton_
 
@@ -84,7 +90,7 @@ _Quelle: Pixabay, antmoreton_
 _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling
 
 <section class="flex-container" style="padding: 1rem;">
-<div style="padding-top:3rem;">
+<div class="flex-child" style="padding-top:3rem; min-width:200px;">
 <!-- data-randomize -->
 - [(X)] Ahorn
 - [( )] Fichte
@@ -92,7 +98,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 - [( )] Zeder
 </div>
 <div class="flex-child">
-@Hoelzer1.Ahorn(10)
+@Hoelzer1.Ahorn(15)
 
 </div>
 <div class="flex-child">
@@ -105,7 +111,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 -----------------------
 
 <section class="flex-container" style="padding: 1rem;">
-<div style="padding-top:3rem;">
+<div class="flex-child" style="padding-top:3rem;">
 <!-- data-randomize -->
 - [( )] Ahorn
 - [(x)] Birke
@@ -120,7 +126,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 ------------------------------
 
 <section class="flex-container" style="padding: 1rem;">
-<div style="padding-top:3rem;">
+<div class="flex-child" style="padding-top:3rem;">
 <!-- data-randomize -->
 - [[x]] Pappel
 - [[x]] Espe
@@ -159,7 +165,7 @@ Die Buche<!--style="font-weight: bolder;color: green"  --> wird sehr gerne aufgr
 
 <br>
 
-<!--data-randomize -->
+<!-- data-randomize -->
 - [  [Hartholz]     [Weichholz]  ]
 - [    (x)             ( )       ] __Ahorn__ @Hoelzer1.Ahorn(10)
 - [    ( )             (x)       ] __Balsa__ @Hoelzer1.Balsa(10)
@@ -179,7 +185,7 @@ _Bild-Quelle "Eiche": Florian Riefling, HWK Dresden_
 <!--style="color:green"-->Welches Holz eignet sich für den Möbelbau?
 ===
 
-@selectimages(@uid,10,@Hoelzer2.Buche2.src|@Hoelzer2.Mahagonie.src|@Hoelzer2.Eiche.src, @Hoelzer1.Fichte.src)
+@selectimages(@uid,10, @Hoelzer2.Buche2.src|@Hoelzer2.Mahagonie.src|@Hoelzer2.Eiche.src, @Hoelzer1.Fichte.src)
 
 >_Ich sehe beim Anklicken der Bilder keine Veränderung, habe aber alles richtig. Was stimmt hier beim Quiz nicht?_
 
