@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler; Hilke Domsch
 
 email:    jan.franke@hwk-dresden.de; volker.goehler@informatik.tu-freiberg.de; hilke.domsch@gkz-ev.de
  
-version:  0.0.3
+version:  0.0.4
  
 language: de
  
@@ -100,7 +100,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 
 </div>
 <div class="flex-child">
-@Hoelzer2.Ahorn(10)
+@Hoelzer2.Ahorn(15)
 </div>
 </section>
 
@@ -137,10 +137,6 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 </section>
 
 <br>
->_Ist es möglich, hier noch was an den Bildgrößen zu ändern? Mich stören die unterschiedlichen Abmessungen. <br> Könnten die Bildernamen bitte nach dem Alphabet sortiert werden auf Github? Da finden sie sich schneller. <br> Wenn ich hier die Bilder mit .src schreibe, dann kommen keine Bilder._
-
-
-
 
 ## Füllen Sie den Lückentext aus
 
@@ -172,8 +168,6 @@ Die Buche<!--style="font-weight: bolder;color: green"  --> wird sehr gerne aufgr
 - [    (x)             ( )       ] __Eiche__ @Hoelzer2.Eiche2(10)
 
 
->_Ahorn ist größer als die Tabellenzeile. 🤷‍♀️_
-
 
 _Bild-Quelle "Eiche": Florian Riefling, HWK Dresden_
 
@@ -185,15 +179,11 @@ _Bild-Quelle "Eiche": Florian Riefling, HWK Dresden_
 
 @selectimages(@uid,10, @Hoelzer2.Buche2.src|@Hoelzer2.Mahagonie.src|@Hoelzer2.Eiche.src, @Hoelzer1.Fichte.src)
 
->_Ich sehe beim Anklicken der Bilder keine Veränderung, habe aber alles richtig. Was stimmt hier beim Quiz nicht?_
-
 <!--style="color:green"-->Ziehe alle Holzbilder in die Box, welche vorrangig im Außenbereich verwendet werden.
 ===
 
 @dragdropmultiple(@uid, @Hoelzer1.Robinie.src|@Hoelzer1.Laerche.src|@Hoelzer1.Teak.src, @Hoelzer1.Ahorn.src|@Hoelzer1.Linde.src)
  
-
->_Wenn das Bild "Teak" dann noch etwa gleich groß ist wie die anderen..._
 
 ## Ordnen Sie die Holzarten ihren typischen Eigenschaften zu
 
