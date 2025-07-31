@@ -171,7 +171,7 @@ Quelle aller Holz-Abbildungen: https://holz-werken.com/holz-datenbank/
 ---------------
 
 <!--data-randomize -->
-@dragdropmultiple(@uid, @Hoelzer1.Fichte.src|@Hoelzer1.Weisstanne.src|@Hoelzer1.Laerche.src|@Hoelzer1.Kiefer.src,@Hoelzer1.Kirschbaum.src|@Hoelzer1.Schwarzerle.src|@Hoelzer1.Roteiche.src))
+@dragdropmultiple(@uid, @Hoelzer1.Fichte.src|@Hoelzer1.Weisstanne.src|@Hoelzer1.Laerche.src|@Hoelzer1.Kiefer.src,@Hoelzer1.Kirschbaum.src|@Hoelzer1.Schwarzerle.src|@Hoelzer1.Roteiche.src|@Hoelzer1.Edelkastanie.src)
 
 
 
@@ -307,7 +307,7 @@ __Bild 2:__
 </div>
 <div class="flex-child">
 
-@Hoelzer1.Ulme_Pappel(10)
+@Hoelzer1.Ulme_Ruester(10)
 
 __Bild 3:__
 
