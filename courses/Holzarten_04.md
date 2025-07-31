@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.2
+version:  0.0.3
 
 language: de
 
@@ -72,7 +72,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/
 
 # Holzarten: Eigenschaften, Verwendung und Aussehen I
 
-![Holzstapel](img/front_wood_stack.jpg)<!-- style="width: 800px" -->
+![Holzstapel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/front_wood_stack.jpg)<!-- style="width: 800px" -->
 
 _Quelle: Pixabay, webentwicklerin_
 
@@ -85,7 +85,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 <!--style="color:green; font-size: large; font-weight: bolder"-->Eiche (EI / QCXR)
 
 <section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<div class="flex-child" style="min-width:200px;">
 <!--style="color:green; font-size: large; font-weight: bolder"-->Eigenschaften:
 
 * markante, schmale Markstrahlen
@@ -104,8 +104,6 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 
 </div>
 </section>
-
->_Könnten bitte die beiden Textblöcke im Container auf einer Höhe stehen?_
 
 -------------------
 
@@ -131,7 +129,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 <!--style="color:green; font-size: large; font-weight: bolder"-->Buche (BU / FASY)
 
 <section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<div class="flex-child" style="min-width:200px;">
 <!--style="color:green; font-size: large; font-weight: bolder"-->Eigenschaften:
 
 * kleine Markstrahlen
@@ -172,7 +170,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 <!--style="color:green; font-size: large; font-weight: bolder"-->Nussbaum (NB / JGRG)
 
 <section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<div class="flex-child" style="min-width:200px;">
 <!--style="color:green; font-size: large; font-weight: bolder"-->Eigenschaften:
 
 * dunkler Kern
@@ -210,7 +208,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 <!--style="color:green; font-size: large; font-weight: bolder"-->Kirschbaum (KB / PRAV)
 
 <section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<div class="flex-child" style="min-width:200px;">
 <!--style="color:green; font-size: large; font-weight: bolder"-->Eigenschaften:
 
 * Jahresringzonen oft verschieden gefärbt mit leicht grünlichem Schimmer
@@ -251,7 +249,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 
 
 <section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<div class="flex-child" style="min-width:200px;">
 <!--style="color:green; font-size: large; font-weight: bolder"-->Eigenschaften:
 
 * hart
@@ -293,7 +291,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 
 
 <section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<div class="flex-child" style="min-width:200px;">
 <!--style="color:green; font-size: large; font-weight: bolder"-->Eigenschaften:
 
 * keine Harzgallen und Harzkanäle
