@@ -1,7 +1,7 @@
 <!--
 author: Volker Göhler
 email: volker.goehler@informatik.tu-freiberg.de
-version: 0.0.14
+version: 0.0.15
 edit: true
 date: 2025-05-20
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
@@ -41,6 +41,16 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/
 -->
  
 # Test Course in LiaScript
+
+Pick Wood
+===
+
+@selectimages(@uid,20, @Hoelzer1.Laerche.src, @Verbotszeichen.Rauchen_verboten.src)
+
+@Hoelzer1.Laerche(20)
+
+
+# drag and drop quizzes
 
 > s.u. ohne die srcs, definition im holzarten Kurs, mich wundert das das funktioniert, weil die imgs in divs verpackt sind.
 > Richtige Beantwortung funktioniert scheinbar nicht 😏
