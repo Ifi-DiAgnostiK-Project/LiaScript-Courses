@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: de
 
@@ -73,7 +73,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/
 
 # Holzarten: Eigenschaften, Verwendung und Aussehen II
 
-![Holzfußboden](img/oakwoodbig.jpg)<!-- style="width: 800px" -->
+![Holzfußboden](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/oakwoodbig.jpg)<!-- style="width: 800px" -->
 
 _Quelle: Pixabay, Pexels_
 
@@ -86,7 +86,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 <!--style="color:green; font-size: large; font-weight: bolder"-->Fichte (FI / PCAB)
 
 <section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<div class="flex-child" style="min-width:200px;">
 <!--style="color:green; font-size: large; font-weight: bolder"-->Eigenschaften:
 
 * angenehmer, harziger Geruch
@@ -107,8 +107,6 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 
 </div>
 </section>
-
->_Könnten bitte die beiden Textblöcke im Container auf einer Höhe stehen?_
 
 -------------------
 
@@ -134,7 +132,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 <!--style="color:green; font-size: large; font-weight: bolder"-->Lärche (LA / LADC)
 
 <section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<div class="flex-child" style="min-width:200px;">
 <!--style="color:green; font-size: large; font-weight: bolder"-->Eigenschaften:
 
 * weich harzhaltig - dadurch widerstandsfähiger gegen Pilzbefall
@@ -176,7 +174,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 <!--style="color:green; font-size: large; font-weight: bolder"-->Robinie (ROB / ROPS)
 
 <section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<div class="flex-child" style="min-width:200px;">
 <!--style="color:green; font-size: large; font-weight: bolder"-->Eigenschaften:
 
 * sehr feine Markstrahlen
@@ -221,7 +219,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 <!--style="color:green; font-size: large; font-weight: bolder"-->Linde (LI / TIXX)
 
 <section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<div class="flex-child" style="min-width:200px;">
 <!--style="color:green; font-size: large; font-weight: bolder"-->Eigenschaften:
 
 * fein- bzw. zertreutporig
@@ -267,7 +265,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 
 
 <section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<div class="flex-child" style="min-width:200px;">
 <!--style="color:green; font-size: large; font-weight: bolder"-->Eigenschaften:
 
 * sehr feinporig, zerstreut angeordnet
@@ -311,7 +309,7 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 
 
 <section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<div class="flex-child" style="min-width:200px;">
 <!--style="color:green; font-size: large; font-weight: bolder"-->Eigenschaften:
 
 * besonders hart
