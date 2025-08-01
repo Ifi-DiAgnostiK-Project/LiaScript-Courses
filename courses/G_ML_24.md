@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.1
+version:  0.0.2
 
 language: de
 
@@ -20,8 +20,8 @@ tags:
   - Maler
   - Grundkurs
 
-logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-icon: img/farben.jpg
+icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
+logo: img/farben.jpg
 
 attribute: Title Image by Pixabay, Darkmoon Art
 
@@ -171,8 +171,6 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 
 <!-- data-randomize -->
 @dragdroporder(@uid,Makulatur/Glattvlies kleben.|Decken- und Wandanschlüsse beschneiden und Schlussbeschichtung applizieren.|Wand- und Deckenflächen nachwaschen.|Wand- und Deckenflächen schleifen/entstauben.|Wand- und Deckenflächen mit unpigmentierter sowie wasserverdünnter Grundbeschichtung grundieren.|Nicht tragfähige Beschichtung und Beläge von den Wand- und Deckenflächen entfernen.|Decken- und Wandanschlüsse beschneiden und Zwischenbeschichtung applizieren.|Wand- und Deckenflächen abkleben/abdecken.|Wand- und Deckenflächen spachteln.|Tapezieren von Raufaser an der Deckenfläche.,Nicht tragfähige Beschichtung und Beläge von den Wand- und Deckenflächen entfernen.|Wand- und Deckenflächen nachwaschen.|Wand- und Deckenflächen spachteln.|Wand- und Deckenflächen schleifen/entstauben.|Wand- und Deckenflächen mit unpigmentierter sowie wasserverdünnter Grundbeschichtung grundieren.|Makulatur/Glattvlies kleben.|Tapezieren von Raufaser an der Deckenfläche.|Wand- und Deckenflächen abkleben/abdecken.|Decken- und Wandanschlüsse beschneiden und Zwischenbeschichtung applizieren.|Decken- und Wandanschlüsse beschneiden und Schlussbeschichtung applizieren.)
-
->_Funktioniert das mit dem Randomize?_
 
 
 
