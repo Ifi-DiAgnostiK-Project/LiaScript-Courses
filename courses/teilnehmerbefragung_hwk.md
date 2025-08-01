@@ -4,7 +4,7 @@ author: Volker Göhler
 
 email:  volker.goehler@informatik.tu-freiberg.de
 
-version: 0.0.3
+version: 0.0.4
 
 language: de
 
@@ -26,9 +26,8 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
 title: Teilnehmerbefragung ÜLU
 
 tags:
-    - Umfrage
+    - Umfragen
     - Teilnehmerbefragung
-    - Maler
 
 @style
 .flex-container {
