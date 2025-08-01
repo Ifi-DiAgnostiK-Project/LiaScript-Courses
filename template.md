@@ -1,11 +1,29 @@
 <!--
-author: Volker Göhler
-email:    volker.goehler@informatik.tu-freiberg.de
+author: <name hier - semikolon trennt mehrere Autoren>
+email:    <email hier - semikolon trennt mehrere Emails>
 language: de
 narrator: German Female
 version: 0.0.1
 edit: true
-comment: This is a template for a LiaScript course. We define the header here and handle the imports!
+comment: <Kommentar hier>
+title: <der Title für die Übersichtsseite>
+
+tags: 
+  - <Tag1>
+  - <Tag2>
+
+icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
+logo: <Pfad zum Logo hier>
+
+import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
+
+import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
+
+import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
+
+import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/makros.md
+
+import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Bildersammlung/refs/heads/main/makros.md
 
 @style
 .flex-container {
@@ -26,23 +44,34 @@ comment: This is a template for a LiaScript course. We define the header here an
         margin-right: 0; /* Removes the right margin */
     }
 }
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #f8f8f8;
+}
+
+.image-container img {
+  width: fit-content;
+  height: fit-content;
+  object-fit: cover;
+  display: block;
+}
+
 @end
 
-import: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_Bilder_Test/refs/heads/main/makros.md
-
 -->
-
-# LiaScript Template
-
-[![LiaScript Course](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/vgoehler/DiAgnostiK_LiaScript/blob/main/template.md?raw=true)
-[![GitHub](https://img.shields.io/badge/Ansehen%20auf-GitHub-181717?logo=github)](https://liascript.github.io/LiveEditor/?/show/file/https://github.com/vgoehler/DiAgnostiK_LiaScript/blob/main/template.md)
-[![Rohinhalt](https://img.shields.io/badge/Raw-Inhalt-blue)](https://liascript.github.io/LiveEditor/?/show/file/https://github.com/vgoehler/DiAgnostiK_LiaScript/blob/main/template.md?raw=true)
 
 # LiaScript Makros
 
 ## Bilder
 
-Bilder importiert aus dem DiagnostiK_Bilder Repository
+Bilder importiert aus dem ISO 7010 Repository
 
 > `@Brandschutzzeichen.Richtungspfeil_Rechts(10)`
 
