@@ -5,6 +5,7 @@ import hashlib
 from pathlib import Path
 from bs4 import BeautifulSoup
 import os
+import requests
 
 def load_html(filepath):
     """Load and parse HTML file."""
@@ -58,6 +59,15 @@ def generate_release_urls(file_name, version):
         "SCORM": f"{base_url}/{file_base}_SCORM.zip"
     }
 
+def release_exists(doc_url):
+    """check if the url exists"""
+    try:
+        response = requests.head(doc_url, timeout=10)
+        print(f"Release URL: {doc_url} - Status: {response.status_code}")
+        return response.status_code in (200, 302)
+    except Exception:
+        return False
+
 def add_release_links(soup, result):
     cards = get_cards_to_inject(soup)
     for card in cards:
@@ -76,25 +86,39 @@ def add_release_links(soup, result):
             continue
 
         urls = result[id_hash]["release_urls"]
-        # Create new div.card-links
-        card_links_div = soup.new_tag("div", **{"class": "card-links"})
-        ul = soup.new_tag("ul", **{"class": "list-inline"})
+        # test if releases exist, with external urls a non-existent release can happen
+        if release_exists(urls.get("Documentation")):
+            element = build_individual_release_links(soup, urls)
+        else:
+            print(f"Release not found for {id_url}")
+            element = build_no_release_found_span(soup)
 
-        icon_map = {
-            "Documentation": "📄",
-            "IMS": "📦",
-            "SCORM": "📦"
-        }
+        card.parent.insert(card.parent.contents.index(card) + 1, element)
 
-        for label, url in urls.items():
-            li = soup.new_tag("li", **{"class": "list-inline-item"})
-            a = soup.new_tag("a", href=url, target="_blank")
-            a.string = f"{icon_map.get(label, '')} {label}"
-            li.append(a)
-            ul.append(li)
 
-        card_links_div.append(ul)
-        card.parent.insert(card.parent.contents.index(card) + 1, card_links_div)
+def build_no_release_found_span(soup):
+    span = soup.new_tag("span", **{"class": "release-not-found"})
+    span.string = "Links not available."
+    return span
+
+
+def build_individual_release_links(soup, urls):
+    # Create new div.card-links
+    card_links_div = soup.new_tag("div", **{"class": "card-links"})
+    ul = soup.new_tag("ul", **{"class": "list-inline"})
+    icon_map = {
+        "Documentation": "📄",
+        "IMS": "📦",
+        "SCORM": "📦"
+    }
+    for label, url in urls.items():
+        li = soup.new_tag("li", **{"class": "list-inline-item"})
+        a = soup.new_tag("a", href=url, target="_blank")
+        a.string = f"{icon_map.get(label, '')} {label}"
+        li.append(a)
+        ul.append(li)
+    card_links_div.append(ul)
+    return card_links_div
 
 
 def get_cards_to_inject(soup):

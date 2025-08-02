@@ -35,3 +35,14 @@ p.lead span {
     -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
 }
 
+
+.release-not-found {
+    display: inline-block;
+    color: #007bff;
+    font-weight: bold;
+    background-color: #fee;
+    padding: 0.5em 1em;
+    margin-top: 0.5em;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+}
