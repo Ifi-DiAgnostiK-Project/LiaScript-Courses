@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler; Hilke Domsch
 
 email:    jan.franke@hwk-dresden.de; volker.goehler@informatik.tu-freiberg.de; hilke.domsch@gkz-ev.de
  
-version:  0.0.4
+version:  0.0.5
  
 language: de
  
@@ -69,6 +69,21 @@ tags:
         flex: 100%; /* Makes the child divs take up the full width on slim devices */
         margin-right: 0; /* Removes the right margin */
     }
+}
+
+.choice-selected {
+    padding: 10px !important;
+    border-radius: 4px !important;
+    border: 2px solid rgb(var(--color-highlight));
+}
+
+.choices-container img {
+    padding: 5px;
+    height: auto;
+    border-radius: 4px;
+    margin: 0 auto;
+    user-select: none;
+    cursor: pointer;
 }
 @end
 
