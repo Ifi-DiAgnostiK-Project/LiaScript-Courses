@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.2
+version:  0.0.3
 
 language: de
 
@@ -74,7 +74,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Bildersammlung/
 
 # Grundstufe Maler- und Lackiererhandwerk G-ML-24  🧑‍🎨
 
-![Pinsel+Farben](img/farben.jpg)<!-- style="width: 800px" -->
+![Pinsel+Farben](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/farben.jpg)<!-- style="width: 800px" -->
 
 _Quelle: Pixabay, Darkmoon Art_
 
@@ -95,7 +95,7 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 </div>
 </section>
 
-### Typische Werkzeuge im Maler- und Lackiererhandwerk
+### Typische Werkzeuge im Maler- und Lackiererhandwerk I
 
 <!--style="color:red; font-size: huge"-->Hinweis: Es können mehrere Antworten richtig sein!
 
@@ -105,22 +105,22 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 <section class="flex-container" style="padding: 1rem;">
 <div class="flex-child" style="min-width:200px;">
 
-![Abreißblech](img/spachtel.jpg)<!-- style="width: 300px" -->
+![Abreißblech](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/spachtel.jpg)<!-- style="width: 300px" -->
 
 </div>
 <div class="flex-child">
 <!-- data-randomize -->
-- [[X]] Abreisblech
+- [[ ]] Kamm
 - [[X]] Abreißblech
 - [[X]] Rakel
 - [[X]] Schwedenblech
-- [[X]] Abreissblech
+- [[ ]] Blockschiene
 - [[X]] Flächenrakel
 
 </div>
 </section>
 
------------------
+### Typische Werkzeuge im Maler- und Lackiererhandwerk II
 
 
 <!--style="color:grey; font-size: large; font-weight: bolder"-->Wie nennt man dieses Werkzeug?
@@ -129,7 +129,7 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 <section class="flex-container" style="padding: 1rem;">
 <div class="flex-child" style="min-width:200px;">
 
-![Tapezierbürste](img/buerste.jpg)<!-- style="width: 300px" -->
+![Tapezierbürste](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/buerste.jpg)<!-- style="width: 300px" -->
 
 </div>
 <div class="flex-child">
@@ -141,7 +141,7 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 </div>
 </section>
 
---------------
+### Typische Werkzeuge im Maler- und Lackiererhandwerk III
 
 
 <!--style="color:grey; font-size: large; font-weight: bolder"-->Wie nennt man dieses Werkzeug?
@@ -150,7 +150,7 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 <section class="flex-container" style="padding: 1rem;">
 <div class="flex-child" style="min-width:200px;">
 
-![Schraegstrichzieher](img/kleiner_pinsel.jpg)<!-- style="width: 300px" -->
+![Schraegstrichzieher](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/kleiner_pinsel.jpg)<!-- style="width: 300px" -->
 
 </div>
 <div class="flex-child">
@@ -166,28 +166,35 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 
 ### Wichtige Arbeitsabläufe für allgemeine Decken- und Wandgestaltungen
 
-<!--style="color:grey; font-size: large; font-weight: bolder"-->In welcher Reihenfolge führen Sie den Auftrag aus? <br> Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge.
-===
+<!--style="color:grey; font-weight: bolder"-->In welcher Reihenfolge führen Sie den Auftrag aus? <br> Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge. <br> An oberster Stelle steht der erste Arbeitsschritt.
+
+------------------
+
 
 <!-- data-randomize -->
 @dragdroporder(@uid,Makulatur/Glattvlies kleben.|Decken- und Wandanschlüsse beschneiden und Schlussbeschichtung applizieren.|Wand- und Deckenflächen nachwaschen.|Wand- und Deckenflächen schleifen/entstauben.|Wand- und Deckenflächen mit unpigmentierter sowie wasserverdünnter Grundbeschichtung grundieren.|Nicht tragfähige Beschichtung und Beläge von den Wand- und Deckenflächen entfernen.|Decken- und Wandanschlüsse beschneiden und Zwischenbeschichtung applizieren.|Wand- und Deckenflächen abkleben/abdecken.|Wand- und Deckenflächen spachteln.|Tapezieren von Raufaser an der Deckenfläche.,Nicht tragfähige Beschichtung und Beläge von den Wand- und Deckenflächen entfernen.|Wand- und Deckenflächen nachwaschen.|Wand- und Deckenflächen spachteln.|Wand- und Deckenflächen schleifen/entstauben.|Wand- und Deckenflächen mit unpigmentierter sowie wasserverdünnter Grundbeschichtung grundieren.|Makulatur/Glattvlies kleben.|Tapezieren von Raufaser an der Deckenfläche.|Wand- und Deckenflächen abkleben/abdecken.|Decken- und Wandanschlüsse beschneiden und Zwischenbeschichtung applizieren.|Decken- und Wandanschlüsse beschneiden und Schlussbeschichtung applizieren.)
 
 
 
-### Wichtige Arbeitsabläufe für Gestaltungsflächen - Wände und Sockel
+### Wichtige Arbeitsabläufe für Gestaltungsflächen: Wände und Sockel
 
-<!--style="color:grey; font-size: large; font-weight: bolder"-->In welcher Reihenfolge führen Sie den Auftrag aus? <br> Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge.
-===
+<!--style="color:grey; font-weight: bolder"-->In welcher Reihenfolge führen Sie den Auftrag aus? <br> Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge. <br> An oberster Stelle steht der erste Arbeitsschritt.
+
+------------------
 
 <!-- data-randomize -->
 @dragdroporder(@uid,Gestaltungswand: Flächengliederung abmessen und anzeichnen.|Farbflächen mit Pinsel deckend farbig auslegen.|Fläche der Wickeltechnik mit Strichzieher und Lineal einrahmen.|Radius auf der rechten Seite anzeichnen und deckend farbig auslegen.|Abklebung und Abdeckung entfernen. Abfälle sachgerecht entsorgen und Werkzeuge und Arbeitsmittel reinigen.|Farbflächen mit Strichzieher und Lineal beschneiden.|Wickeltechnik über die gesamte Gestaltung mit Latexbindemittel -glänzend- ausführen.|Sockelfläche einmessen und abkleben/abdecken.|Wickeltechnik zweifarbig im Sockelbereich ausführen.|Kontrastlinien mit Lineal und Strichzieher ziehen.,Sockelfläche einmessen und abkleben/abdecken.|Gestaltungswand: Flächengliederung abmessen und anzeichnen.|Farbflächen mit Strichzieher und Lineal beschneiden.|Farbflächen mit Pinsel deckend farbig auslegen.|Kontrastlinien mit Lineal und Strichzieher ziehen.|Radius auf der rechten Seite anzeichnen und deckend farbig auslegen.|Wickeltechnik über die gesamte Gestaltung mit Latexbindemittel -glänzend- ausführen.|Wickeltechnik zweifarbig im Sockelbereich ausführen.|Fläche der Wickeltechnik mit Strichzieher und Lineal einrahmen.|Abklebung und Abdeckung entfernen. Abfälle sachgerecht entsorgen und Werkzeuge und Arbeitsmittel reinigen.)
 
-### Untergründe
+### Beschaffenheit von Untergründen
 
 <!--style="color:red; font-size: huge"-->Hinweis: Es können mehrere Antworten richtig sein!
 
-<!--style="color:grey; font-size: large; font-weight: bolder"-->Wie muss ein Untergrund beschaffen sein, der beschichtet oder tapeziert werden soll?
+-------------------
+
+<!--style="color:grey; font-size: large; font-weight: bolder"-->Wie sollte ein Untergrund beschaffen sein, damit dieser beschichtet oder tapeziert werden kann?
 ===
+
+
 
 <section class="flex-container" style="padding: 1rem;">
 <div class="flex-child" style="min-width:200px;">
@@ -199,6 +206,9 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 - [[X]] tragfähig
 - [[X]] frei von trennenden Substanzen
 - [[X]] gleichmäßig saugfähig
+- [[ ]] Haarrisse sind unerheblich
+- [[ ]] leicht angeraute Unterfläche, damit es besser haftet
+- [[ ]] leicht angefeuchtet, damit das Auftragen leichter geht
 
 </div>
 <div class="flex-child">
@@ -208,51 +218,136 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 </section>
 
 
-----------------
+### Haftfestigkeit alter Anstriche
 
-<!--style="color:grey; font-size: large; font-weight: bolder"-->Welche baustellenübliche Untergrundprüfmethoden gibt es?
+<!--style="color:red; font-size: huge"-->Hinweis: Es können mehrere Antworten richtig sein!
+
+-------------------
+
+<!--style="color:grey; font-size: large; font-weight: bolder"-->Mit welchen Methoden kann die Haftfestigkeit alter Anstriche geprüft werden?
 ===
 
 <section class="flex-container" style="padding: 1rem;">
 <div class="flex-child" style="min-width:200px;">
 
 <!-- data-randomize -->
-- [[X]] Wischprobe mit der Hand
-- [[X]] Klopfprobe mit dem Hammer
+- [[X]] Abriebprobe/Wischprobe mit der Hand oder einem Tuch
+- [[ ]] Abkärchern
 - [[X]] Kratzprobe mit dem Spachtel
-- [[X]] Tragfähigkeit mit Klebebandtest
-- [[X]] Saugfähigkeit mit Benetzungsprobe
-- [[X]] Alkalität mit Indikatorpapier
-- [[X]] Augenschein
+- [[X]] Tragfähigkeitsprüfung mit Klebebandtest
+- [[ ]] Besprühen der Wand mit Parfüm oder Duftstoffen
+- [[ ]] Abklopfen mit dem Finger
+- [[ ]] Farbauftragstest
 
 </div>
 <div class="flex-child">
-![Maler](img/knetfigur_anstreicher.jpg)<!-- style="width: 300px" --> 
+![Maler](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/knetfigur_anstreicher.jpg)<!-- style="width: 300px" --> 
 <br>
  _Quelle: Pixabay, Ralphs-Fotos_
 
 </div>
 </section>
 
-----------------------
 
-<!--style="color:grey; font-size: large; font-weight: bolder"-->Welche Prüfgeräte für Untergrundprüfungen kennen Sie?
+### Saugfähigkeit eines Untergrundes
+
+
+
+<!--style="color:grey; font-size: large; font-weight: bolder"-->Wie prüft man am besten die Saugfähigkeit eines Untergrunds?
+===
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+
+<!-- data-randomize -->
+- [(X)] Benetzungsprobe mit Wasser
+- [( )] Farbauftragstest
+- [( )] Kratzprobe mit Messer
+- [( )] Wischprobe mit trockenem Tuch
+
+</div>
+<div class="flex-child">
+![Untergrund](img/putz.jpg)<!-- style="width: 300px" --> 
+<br>
+ _Quelle: Pixabay, geralt_
+
+</div>
+</section>
+
+### Feuchtigkeitsmessung 
+
+<!--style="color:red; font-size: huge"-->Hinweis: Es können mehrere Antworten richtig sein!
+
+-------------------
+
+<!--style="color:grey; font-size: large; font-weight: bolder"-->Wann ist eine Feuchtigkeitsprüfung sinnvoll?
+===
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+
+<!-- data-randomize -->
+- [[X]] bei sichtbarem oder vermuteten Schimmelbefall
+- [[X]] bei sichtbaren oder vermuteten Wasserschäden
+- [[X]] wenn dunkle Flecken an den Wänden sichtbar sind
+- [[X]] bei einem muffigen Geruch
+- [[ ]] immer - auch wenn die Umgebung trocken ist
+- [[ ]] Eine Feuchtigkeitsprüfung ist zugleich eine Temperaturmessung und daher immer sinnvoll.
+- [[ ]] Eine Feuchtigkeitsprüfung geht jedem Farbanstrich voraus, um die Haftfestigkeit zu prüfen. 
+
+</div>
+<div class="flex-child">
+![Wand streichen](img/malerrolle.jpg)<!-- style="width: 200px" --> 
+<br>
+ _Quelle: Pixabay, Giordano_
+
+</div>
+</section>
+
+
+
+### Prüfgeräte für Untergrundprüfungen I
+
+<!--style="color:red; font-size: huge"-->Hinweis: Es können mehrere Antworten richtig sein!
+
+-------------------
+
+<!--style="color:grey; font-size: large; font-weight: bolder"-->Welche Prüfgeräte oder Hilfsmittel werden häufig bei Untergrundprüfungen im Malerhandwerk eingesetzt?
 ===
 
 <!-- data-randomize -->
-- [[X]] Rückprallhammer
-- [[X]] Haftzugmessgerät
-- [[X]] CM-Feuchtigkeitsmessgerät
+- [[ ]] Rückprallbolzen
+- [[ ]] Haftmessgerät
+- [[ ]] CO2-Messgerät
 - [[X]] Hydrometer
 - [[X]] Gitterschnitt
 - [[X]] Profometer (Betonüberdeckung)
 - [[X]] Schichtdickenmessgerät (Lack)
+- [[X]] Lupe
 
 
-><!--style="color:red"-->_TUBAF/HWK: Es ist zu evaluieren, inwiefern durchgängig vollständig richtige Vorgaben in eienm Quiz didaktisch sinnvoll sind? <br> Florian: Bitte noch ein Prüfgerät-Bild zur Verfügung stellen._
+><!--style="color:red"-->_HWK: Vollständig richtige Vorgaben in einem Quiz sind didaktisch nicht sinnvoll. <br> Bitte noch Prüfgerät-Bilder zur Verfügung stellen._
+
+### Prüfgeräte für Untergrundprüfungen II
+
+<!--style="color:red; font-size: huge"-->Hinweis: Es können mehrere Antworten richtig sein!
+
+-------------------
+
+<!--style="color:grey; font-size: large; font-weight: bolder"-->Welche der folgenden Geräte oder Werkzeuge gehören typischerweise zu einem Untergrundprüfkoffer?
+===
+
+<!-- data-randomize -->
+- [[X]] Meißel
+- [[X]] Taschenmesser
+- [[X]] Hammer
+- [[ ]] Föhn
+- [[X]] Spritzflasche
+- [[ ]] mobiler Gasbrenner
+
 
 ### Geschafft 🎉
 
-![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 500px" --> 
+![Jubel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/colorfull_jumping.jpg)<!-- style="width: 500px" --> 
 
 _Quelle: Pixabay, geralt_
