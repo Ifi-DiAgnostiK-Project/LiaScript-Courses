@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.4
+version:  0.0.5
 
 language: de
 
@@ -93,7 +93,7 @@ _Quelle: Pixabay, webentwicklerin_
 
 ## Eiche 
 
-_Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
 
 ----------------
 
@@ -125,19 +125,16 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 Klicken Sie auf das richtige Holzarten-Bild.
 ===
 
-<!--style="color:red; font-weight: bolder"-->Es können mehrere Bilder richtig sein.
-
--------------------
 
 
-@selectimages(@uid,10, @Hoelzer2.Eiche.src|@Hoelzer1.Weisseiche.src, @Hoelzer1.Edelkastanie.src|@Hoelzer1.Nussbaum.src|@Hoelzer1.Elsbeere.src)
+@selectimages(@uid,10, @Hoelzer2.Eiche.src, @Hoelzer1.Edelkastanie.src|@Hoelzer1.Nussbaum.src|@Hoelzer1.Elsbeere.src)
 
 
 
 
 ## Buche
 
-_Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
 
 ----------------
 
@@ -168,17 +165,14 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 Klicken Sie auf das richtige Holzarten-Bild.
 ===
 
-<!--style="color:red; font-weight: bolder"-->Es können mehrere Bilder richtig sein.
-
--------------------
 
 
-@selectimages(@uid,10, @Hoelzer2.Buche2.src|@Hoelzer1.Buche.src, @Hoelzer1.Balsa.src|@Hoelzer1.Birke.src|@Hoelzer1.Schwarzerle.src)
+@selectimages(@uid,10, @Hoelzer1.Buche.src, @Hoelzer1.Douglasie.src|@Hoelzer2.Eiche.src|@Hoelzer1.Kiefer.src)
 
 
 ## Nussbaum
 
-_Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
 
 ----------------
 
@@ -206,17 +200,14 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 Klicken Sie auf das richtige Holzarten-Bild.
 ===
 
-<!--style="color:red; font-weight: bolder"-->Es ist nur ein Bild richtig.
-
--------------------
 
 
-@selectimages(@uid,10, @Hoelzer1.Nussbaum.src, @Hoelzer1.Pappel.src|@Hoelzer1.Birnbaum.src|@Hoelzer1.Schwarzerle.src|@Hoelzer1.Pockholz.src|@Hoelzer2.Mahagonie.src)
+@selectimages(@uid,10, @Hoelzer1.Nussbaum.src, @Hoelzer1.Pappel.src|@Hoelzer1.Birnbaum.src|@Hoelzer2.Mahagonie.src)
 
 
 ## Kirschbaum
 
-_Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
 
 ----------------
 
@@ -244,17 +235,14 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 Klicken Sie auf das richtige Holzarten-Bild.
 ===
 
-<!--style="color:red; font-weight: bolder"-->Es können mehrere Bilder richtig sein.
-
--------------------
 
 
-@selectimages(@uid,10, @Hoelzer1.Kirschbaum.src|@Hoelzer2.Kirsche.src, @Hoelzer1.Pockholz.src|@Hoelzer1.Ulme_Ruester.src|@Hoelzer1.Weisseiche.src|@Hoelzer2.Mahagonie.src)
+@selectimages(@uid,10, @Hoelzer1.Kirschbaum.src, @Hoelzer1.Laerche.src|@Hoelzer1.Weisseiche.src|@Hoelzer2.Mahagonie.src)
 
 
 ## Ahorn
 
-_Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
 
 ----------------
 
@@ -288,16 +276,13 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 Klicken Sie auf das richtige Holzarten-Bild.
 ===
 
-<!--style="color:red; font-weight: bolder"-->Es können mehrere Bilder richtig sein.
-
--------------------
 
 
-@selectimages(@uid,10, @Hoelzer1.Ahorn.src|@Hoelzer2.Ahorn.src|@Hoelzer2.Ahorn2.src, @Hoelzer1.Balsa.src|@Hoelzer1.Linde.src|@Hoelzer1.Schwarzerle.src)
+@selectimages(@uid,10, @Hoelzer1.Ahorn.src, @Hoelzer1.Nussbaum.src|@Hoelzer1.Kiefer.src|@Hoelzer2.Eiche.src)
 
 ## Tanne / Weißtanne
 
-_Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
 
 ----------------
 
@@ -332,19 +317,18 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 Klicken Sie auf das richtige Holzarten-Bild.
 ===
 
-<!--style="color:red; font-weight: bolder"-->Es ist nur ein Bild richtig.
 
--------------------
-
-
-@selectimages(@uid,10, @Hoelzer1.Weisstanne.src, @Hoelzer1.Ulme_Ruester.src|@Hoelzer1.Teak.src|@Hoelzer1.Douglasie.src|@Hoelzer1.Fichte.src)
+@selectimages(@uid,10, @Hoelzer1.Weisstanne.src, @Hoelzer1.Pockholz.src|@Hoelzer1.Elsbeere.src|@Hoelzer1.Robinie.src)
 
 
 ## Haben Sie sich die Kürzel je Holzart gemerkt?
 
-Ziehen Sie die richtigen Kürzel zur jeweiligen Holzart.
+Ziehen Sie die richtigen Kürzel zur jeweiligen Holzart ins "+"-Feld.
 ===
 
+<!--style="color:red"-->Wenn Sie sich unsicher sind, gehen Sie auf die entsprechenden Seiten zurück.
+
+----------------------
 
 <!--style="color:green; font-size: large; font-weight: bolder"-->Nussbaum-Kürzel deutsch: [->[  (NB) | NU ]]  ${/}$ Nussbaum-Kürzel EU: [->[  (JGRG) | RGJG ]] 
 
