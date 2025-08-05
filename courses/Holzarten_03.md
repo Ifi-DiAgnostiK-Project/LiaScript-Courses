@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.3
+version:  0.0.4
 
 language: de
 
@@ -83,24 +83,27 @@ tags:
 Teil 3
 ========
 
-![Holztextur](img/holztextur.jpg)<!-- style="width:450px" -->
+![Holztextur](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/holztextur.jpg)<!-- style="width:450px" -->
 
 _Quelle: Pixabay, Ric Evangelista_
 
-## Einteilung in Laub- und Nadelhölzer  anhand des Holzbildes
+## Einteilung in Laub- und Nadelhölzer 
 
-_Quelle aller Holz-Abbildungen: https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling_
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
 
-<br>
+--------------------------------
+
+<!--style="color:green"-->Ordnen Sie die Baumarten richtig zu.
+=== 
 
 <!--data-randomize -->
 - [  [Laubholz]     [Nadelholz]  ]
-- [    (x)             ( )       ] @Hoelzer2.Ahorn(10)
-- [    ( )             (x)       ] @Hoelzer1.Weisstanne(10)
-- [    ( )             (x)       ] @Hoelzer1.Laerche(10)
-- [    (x)             ( )       ] @Hoelzer2.Buche2(10)
-- [    (x)             ( )       ] @Hoelzer2.Eiche2(10)
-- [    ( )             (x)       ] @Hoelzer1.Kiefer(10)
+- [    (x)             ( )       ] __Ahorn__ @Hoelzer2.Ahorn(10)
+- [    ( )             (x)       ] __Weißtanne__ @Hoelzer1.Weisstanne(10)
+- [    ( )             (x)       ] __Lärche__ @Hoelzer1.Laerche(10)
+- [    (x)             ( )       ] __Buche__ @Hoelzer2.Buche2(10)
+- [    (x)             ( )       ] __Eiche__ @Hoelzer2.Eiche2(10)
+- [    ( )             (x)       ] __Kiefer__ @Hoelzer1.Kiefer(10)
 
 
 ## Zu welcher Holzart gehört folgende Beschreibung?
@@ -134,7 +137,7 @@ _Quelle aller Holz-Abbildungen: https://holz-werken.com/holz-datenbank/ bzw. HWK
 
 --------------
 
-<!--style="color:green"-->Welche Farbe hat das Kernholz der meisten Kirschen?
+<!--style="color:green"-->Welche Farbe hat das Kernholz der meisten Kirschbaumarten?
 ===
 
 <section class="flex-container">
@@ -144,13 +147,13 @@ _Quelle aller Holz-Abbildungen: https://holz-werken.com/holz-datenbank/ bzw. HWK
 <!--data-randomize -->
 - [( )] weiß
 - [( )] gelb
-- [( )] grünlich
+- [( )] bläulich
 - [(X)] rötlich-braun
 
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Holzparkett](img/lots_of_boards.jpg)<!-- style="width:250px" -->
+![Holzparkett](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/lots_of_boards.jpg)<!-- style="width:250px" -->
 
 <a  href="https://pixabay.com/de/photos/fu%C3%9Fboden-holz-holzbohlen-parkett-6990002/"  target=_blank>_Quelle: Pixabay, Lantaikayu-biz_</a>
 
@@ -159,168 +162,119 @@ _Quelle aller Holz-Abbildungen: https://holz-werken.com/holz-datenbank/ bzw. HWK
 </section> 
 
 
-## Welche Holzbilder zeigen Nadelgehölze?
+## Entscheiden Sie, welche Holzarten eher hart oder weich sind
+
+<!--style="color:green"--> Die Verarbeitung und auch das Einsatzgebiet von Holz ist davon abhängig, ob es sich um weiches oder hartes Holz handelt.
 
 
-<!--style="color:green"-->Ziehen Sie alle richtigen Holzarten in die Box.
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
+
+---------------------------
+
+<!-- data-randomize -->
+- [  [Hartholz]     [Weichholz]  ]
+- [    (x)             ( )       ] __Birke__ @Hoelzer1.Birke(10)
+- [    ( )             (x)       ] __Weißtanne__ @Hoelzer1.Weisstanne(10)
+- [    ( )             (x)       ] __Douglasie__ @Hoelzer1.Douglasie(10)
+- [    ( )             (X)       ] __Pappel__ @Hoelzer1.Pappel(10)
+- [    (x)             ( )       ] __Kirschbaum__ @Hoelzer1.Kirschbaum(10)
+
+
+
+
+## Die Linde: Eigenschaften und Verwendung
+
+<!--style="color:green"-->Welche der nachfolgenden Eigenschaften und Verwendungsbereiche sind typisch für die Linde?
 ===
 
-Quelle aller Holz-Abbildungen: https://holz-werken.com/holz-datenbank/
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
 
+<!--style="color:red"-->Es können mehrere Antworten richtig sein.
 
 ---------------
 
-<!--data-randomize -->
-@dragdropmultiple(@uid, @Hoelzer1.Fichte.src|@Hoelzer1.Weisstanne.src|@Hoelzer1.Laerche.src|@Hoelzer1.Kiefer.src,@Hoelzer1.Kirschbaum.src|@Hoelzer1.Schwarzerle.src|@Hoelzer1.Roteiche.src|@Hoelzer1.Edelkastanie.src)
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<!-- data-randomize -->
+- [[X]] weiches, sehr leichtes Holz
+- [[ ]] besonders harzreiches Holz
+- [[ ]] besitzt eine dunkle, starke Maserung
+- [[X]] Verwendung für Drechsel- und Schnitzarbeiten
+- [[ ]] Verarbeitung zu schweren Balken
+</div>
+<div class="flex-child">
+@Hoelzer1.Linde(15)
 
 
-
-## Welches Holzbild zeigt ein Laubgehölz?
-
-
-<!--data-randomize -->
-- [          [Laubholz]  ]
-- [              ( )       ] @Hoelzer1.Schwarzerle(10)
-- [              ( )       ] @Hoelzer1.Fichte(10)
-- [              ( )       ] @Hoelzer1.Laerche(10)
-- [              ( )       ] @Hoelzer1.Roteiche(10)
-- [              ( )       ] @Hoelzer1.Linde(10)
-- [              ( )       ] @Hoelzer1.Kiefer(10)
+</div>
+</section>
 
 
+## Die Fichte: Eigenschaften und Verwendung
 
-## Welche Holzarten eignen sich besonders gut für den Möbelbau?
-
-
-<!--style="color:green"-->Ziehen Sie alle richtigen Holzarten in die Box.
+<!--style="color:green"-->Welche der nachfolgenden Eigenschaften und Verwendungsbereiche sind typisch für die Linde?
 ===
 
-Quelle aller Holz-Abbildungen: https://holz-werken.com/holz-datenbank/
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
 
--------
-
-<!--data-randomize -->
-@dragdropmultiple(@uid, Buche|Birke|Lärche|Eiche|Esche|Nussbaum,Pappel|Erle)
+<!--style="color:red"-->Es können mehrere Antworten richtig sein.
 
 ---------------
 
-<!--data-randomize -->
-@dragdropmultiple(@uid, @Hoelzer1.Buche.src|@Hoelzer1.Birke.src|@Hoelzer1.Nussbaum.src|@Hoelzer1.Laerche.src|@Hoelzer1.Weisseiche.src|@Hoelzer1.Esche.src,@Hoelzer1.Pappel.src)
-
-
-## Bilderquiz Holzarten
-
-
-<!--style="color:green"-->Welches Bild zeigt das Schnitz-Holz Linde?
-===
 
 <section class="flex-container" style="padding: 1rem;">
-<div style="padding-top:3rem;">
-
+<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<!-- data-randomize -->
+- [[X]] weiches bis mittelhartes, mäßig leichtes Holz
+- [[X]] gute Maßhaltigkeit unter wechselnden Umgebungsbedingungen
+- [[ ]] Verarbeitung zu Holzrosten als Laufflächen im Schwimmbadbereich
+- [[ ]] Verwendung als Schneidbretter aufgrund der Härte
+- [[X]] Nutzung als Hobelware
+- [[X]] Einsatz für Dachstuhlkonstruktionen
 </div>
 <div class="flex-child">
+@Hoelzer1.Fichte(15)
 
-@Hoelzer1.Linde(10)
 
-__Bild 1:__
-
-</div>
-<div class="flex-child">
-
-@Hoelzer1.Birke(10)
-
-__Bild 2:__
-
-</div>
-<div class="flex-child">
-
-@Hoelzer1.Birnbaum(10)
-
-__Bild 3:__
-
- 
 </div>
 </section>
 
 
-[[ (Bild 1) | Bild 2 | Bild 3 ]]
 
-----------------
+## Esche: Eigenschaften und Verwendung
 
-
-<!--style="color:green"-->Welche Bild zeigt die Holzart Pappel?
+<!--style="color:green"-->Welche der nachfolgenden Eigenschaften und Verwendungsbereiche sind typisch für die Linde?
 ===
 
-<section class="flex-container" style="padding: 1rem;">
-<div style="padding-top:3rem;">
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
 
-</div>
-<div class="flex-child">
+<!--style="color:red"-->Es können mehrere Antworten richtig sein.
 
-@Hoelzer1.Elsbeere(10)
+---------------
 
-__Bild 1:__
-
-</div>
-<div class="flex-child">
-
-@Hoelzer1.Edelkastanie(10)
-
-__Bild 2:__
-
-</div>
-<div class="flex-child">
-
-@Hoelzer1.Ulme_Ruester(10)
-
-__Bild 3:__
-
- 
-</div>
-</section>
-
-
-[[ (Bild 1) | Bild 2 | Bild 3 ]]
-
------------
-
-<!--style="color:green"-->Welche Bild zeigt die Holzart Ulme?
-===
 
 <section class="flex-container" style="padding: 1rem;">
-<div style="padding-top:3rem;">
-
+<div class="flex-child" style="padding-top:3rem; min-width:200px;">
+<!-- data-randomize -->
+- [[X]] hartes Holz
+- [[X]] elastisches Holz
+- [[ ]] Verarbeitung für Holzkonstruktionen im Außenbereich
+- [[ ]] kaum erkennbare Maserung
+- [[X]] Verwendung für Sportgeräte
+- [[X]] Verarbeitung als Möbel
 </div>
 <div class="flex-child">
+@Hoelzer2.Esche(15)
 
-@Hoelzer1.Laerche(10)
 
-__Bild 1:__
-
-</div>
-<div class="flex-child">
-
-@Hoelzer1.Birke(10)
-
-__Bild 2:__
-
-</div>
-<div class="flex-child">
-
-@Hoelzer1.Ulme_Ruester(10)
-
-__Bild 3:__
-
- 
 </div>
 </section>
-
-[[Bild 1 | Bild 2 | (Bild 3) ]]
 
 
 ## Geschafft ! 👏
 
-![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 500px" -->
+![Jubel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/colorfull_jumping.jpg)<!-- style="width: 500px" -->
 
 
 <a  href="https://pixabay.com/de/illustrations/freude-springen-luftsprung-spa%C3%9F-3940425/" target=_blank>_Quelle: Pixabay, geralt_</a>
