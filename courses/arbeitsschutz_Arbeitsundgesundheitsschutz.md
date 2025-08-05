@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.4
+version: 0.0.5
 
 language: de
 
@@ -24,6 +24,7 @@ attribute: Sicherheitszeichen von [Berufsgenossenschaft Holz und Metall](https:/
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
+import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Bildersammlung/refs/heads/main/makros.md
 
 title: Arbeitssicherheit und Gesundheitsschutz -- Allgemeine Fragen
 
@@ -34,7 +35,7 @@ tags:
 
 @style
 .flex-container {
-    display: flex;[](https://liascript.github.io/LiveEditor/liascript/index.html?#5)
+    display: flex;
     flex-wrap: wrap; /* Allows the items to wrap as needed */
     align-items: stretch;
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
@@ -52,12 +53,22 @@ tags:
     }
 }
 
-.image_matrix img {
-    padding: 3px;
-    margin: 5px;
-    width: 100px;
-    border: 1px black solid;
-    display:inline-block;
+.image-container {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #f8f8f8;
+}
+
+.image-container img {
+  width: fit-content;
+  height: fit-content;
+  object-fit: cover;
+  display: block;
 }
 
 @end
@@ -66,19 +77,26 @@ tags:
 
 # Arbeitssicherheit und Gesundheitsschutz
 
-Arbeitsbedingte Gesundheitsgefahren, Unfälle und Erkrankungen sollen gar nicht erst entstehen. Dazu ist es wichtig, Gefahrenhinweise und Symbole richtig zu verstehen.
+Arbeitsbedingte Gesundheitsgefahren, Unfälle und Erkrankungen sollen gar nicht erst entstehen. Dazu ist es wichtig, Gefahrenhinweise und Symbole richtig zu verstehen. <br>
 Vor allem junge Menschen sind am Arbeitsplatz besonders gefährdet, weil sie (noch) nicht über alle nötigen Kenntnisse verfügen.
+<br>
+<br>
 Dieses Quiz zeigt Ihnen, wie gut Sie sich bereits auskennen!
 Wir sind gespannt, wie Sie die Challenge meistern!
 
-__Viel Erfolg!__
-
-__In welcher Zeile befinden sich Warnschilder?__
+<!--style="color:blue; font-weight: bolder"-->Viel Erfolg!
 ===
 
-<!-- --{{1}}--
-In welcher Zeile befinden sich Warnschilder? Zeile 1, 2 oder 3?
--->
+![Arbeitsschutz](img/schilder_an_zaun.jpg)<!-- style="width: 700px" --> 
+
+_Quelle: Pixabay, planet-fox_
+
+
+# In welcher Zeile befinden sich Warnschilder?
+
+_Quelle aller Piktogramme: BGHM_
+
+---------------------
 
 <section class="flex-container" style="padding: 1rem;">
 <div style="padding-top:3rem;">
@@ -125,106 +143,73 @@ __Zeile 3:__
 </div>
 </section>
 
-[[ __Zeile 1__ | (__Zeile 2__) | __Zeile 3__]]
+---------------------------
+
+<br>
+
+- [( )] Zeile 1
+- [(X)] Zeile 2
+- [( )] Zeile 3
 
 
 ## Aussagen rund um den Arbeits- und Gesundheitsschutz
 
-__Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz. Entscheiden Sie, ob die folgenden Aussagen wahr oder falsch sind! Es können mehrere Antworten richtig sein.__
+<!--style="color:blue; font-weight: bolder"-->Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz. <br> Entscheiden Sie, ob die folgenden Aussagen wahr oder falsch sind. <br> <br> 
 
---- 
+<!--style="color:red"-->Hinweis: Es können mehrere Antworten richtig sein.
 
-1. Das Bild mit einer Person auf der Leiter und einer Zahl zeigt an, dass die Leiter von insgesamt drei Personen zu nutzen ist: Eine Person, die hinaufsteigt, und zwei Personen, welche die Leiter sichern.
-===
-<!-- --{{1}}--
-Erstens. Das Bild mit einer Person auf der Leiter und einer Zahl zeigt an, dass die Leiter von insgesamt drei Personen zu nutzen ist: Eine Person, die hinaufsteigt, und zwei Personen, welche die Leiter sichern. Wahr oder falsch? 
--->
-<section class="flex-container" >
-<div class="flex-child">
-@Leitern.Die_obersten_3_Sprossen_nicht_besteigen(10)
+![Fragezeichen](img/fragezeichen.jpg)<!-- style="width: 700px" --> 
+
+_Quelle: Pixabay, Peggy+Marco_
+
+
+### 1. Umgang mit Leitern
+
+
+<!--style="color:blue; font-weight: bolder"-->Dieses Piktogramm zeigt an, dass die Leiter von insgesamt drei Personen zu nutzen ist: <br>   Eine Person, die hinaufsteigt, und zwei Personen, welche die Leiter sichern.
+
+<br>
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+
+@Leitern.Die_obersten_3_Sprossen_nicht_besteigen(20)
 </div>
 <div class="flex-child">
-[[ wahr | (falsch) ]]
-</div>
-</section>
-
-
----
-
-
-2. Brandschutzzeichen sind immer orange-schwarz.
-===
-<!-- --{{2}}--
-Zweitens. Brandschutzzeichen sind immer orange-schwarz. Wahr oder falsch?
--->
-
-[[ wahr | (falsch) ]]
-
----
-
-3. Das Bild bedeutet, dass Leitern nur bei entsprechenden Witterungsbedingungen genutzt werden dürfen.
-===
-<!-- --{{3}}--
-Drittens. Das Bild bedeutet, dass Leitern nur bei entsprechenden Witterungsbedingungen genutzt werden dürfen. Wahr oder falsch?
--->
-
-<section class="flex-container" >
-<div class="flex-child">
-@Leitern.Witterungsbedingungen(10)
-
-</div>
-<div class="flex-child">
-[[ (wahr) | falsch ]]
+- [( )] wahr
+- [(X)] falsch
 </div>
 </section>
 
----
+------------------
 
+<!--style="color:blue; font-weight: bolder"-->Dieses Piktogramm bedeutet, dass Leitern nur bei entsprechenden Witterungsbedingungen genutzt werden dürfen.
 
+<br>
 
-4. Diese Abbildung zeigt, dass kein Wasser versprüht werden darf.
-===
-<!-- --{{4}}--
-Viertens. Diese Abbildung zeigt, dass bei der Arbeit kein Wasser aus dem Gartenschlauch entnommen werden darf. Wahr oder falsch?
--->
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
 
-<section class="flex-container" >
-<div class="flex-child">
-@Verbotszeichen.Mit_Wasser_spritzen_verboten(10)
-
+@Leitern.Witterungsbedingungen(20)
 </div>
 <div class="flex-child">
-[[ wahr | (falsch) ]]
+- [(X)] wahr
+- [( )] falsch
 </div>
 </section>
 
----
+### 2. Brandschutzzeichen
 
 
-5. Dieses Symbol meint: Achtung: Diebstahlgefahr!
-===
-<!-- --{{5}}--
-Fünftens. Dieses Symbol meint: Achtung: Diebstahlgefahr! Wahr oder falsch?
--->
+<!--style="color:blue; font-weight: bolder"-->Brandschutzzeichen sind immer orange-schwarz.
 
-<section class="flex-container" >
-<div class="flex-child">
-@Verbotszeichen.Beruehren_verboten(10)
+- [( )] wahr
+- [(x)] falsch
 
-</div>
-<div class="flex-child">
-[[ wahr | (falsch) ]]
-</div>
-</section>
+----------------
 
----
+<!--style="color:blue; font-weight: bolder"-->Warum sind Brandschutzzeichen wichtig?
 
-
-6. Warum sind Brandschutzzeichen wichtig?
-====
-<!-- --{{6}}--
-Sechstens. Warum sind Brandschutzzeichen wichtig? Wahr oder falsch?
--->
 
 <section class="flex-container">
 
@@ -256,32 +241,86 @@ Sechstens. Warum sind Brandschutzzeichen wichtig? Wahr oder falsch?
 
 </section>
 
----
+--------------
 
-7. Was bedeutet dieses Schild?
-===
-<!-- --{{7}}--
-Siebentens. Was bedeutet dieses Schild? Entweder: Klappbügel befindet sich hier. Oder: Fluchttür befindet sich hier. Oder: Wartung beziehungsweise Reparatur freischalten.
--->
-<section class="flex-container">
+<!--style="color:blue; font-weight: bolder"-->Wo müssen Brandschutzzeichen angebracht werden?
 
-<div class="flex-child" style="min-width: 250px">
-@Gebotszeichen.Wartung_oder_Reparatur_freischalten(10)
+- [( )] Nur im Büro.
+- [(X)] Überall, wo sich Brandschutzeinrichtungen befinden.
+- [( )] Nur in der Werkstatt.
+- [( )] Nur im Lager.
+
+
+### Verbotszeichen
+
+<!--style="color:blue; font-weight: bolder"-->Dieses Piktogramm zeigt, dass kein Wasser versprüht werden darf.
+
+<br>
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+
+@Verbotszeichen.Mit_Wasser_spritzen_verboten(15)
+
 </div>
-
-<div class="flex-child" style="min-width: 500px">
-<!-- data-randomize -->
-[[ Klappbügel befindet sich hier. | __Fluchttür befindet sich hier.__ | (Wartung oder Reparatur freischalten.) ]]
+<div class="flex-child">
+- [( )] wahr
+- [(X)] falsch
 </div>
 </section>
 
 ---
 
-8. Ordnen Sie die Schilder den richtigen Begriffen zu!
-===
-<!-- --{{8}}--
-Achtens. Ordnen Sie die Schilder den richtigen Begriffen zu!
--->
+
+<!--style="color:blue; font-weight: bolder"-->Dieses Symbol meint: Achtung: Diebstahlgefahr!
+
+<br>
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+@Verbotszeichen.Beruehren_verboten(15)
+
+</div>
+<div class="flex-child">
+- [( )] wahr
+- [(X)] falsch
+</div>
+</section>
+
+### Gebotszeichen
+
+<!--style="color:blue; font-weight: bolder"-->Was bedeutet dieses Schild?
+
+
+<br>
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+@Gebotszeichen.Wartung_oder_Reparatur_freischalten(15)
+</div>
+<div class="flex-child">
+<!-- data-randomize -->
+- [( )] Klappbügel befindet sich hier.
+- [(X)] Wartung oder Reparatur freischalten.
+- [( )] Fluchttür befindet sich hier. 
+
+</div>
+</section>
+
+---------------
+
+<!--style="color:blue; font-weight: bolder"-->Welche Piktogramme sind Gebotsschilder? <br> Ziehe die richtigen Symbole ins Antwortfeld.
+
+<!-- data-randomize -->
+@dragdropmultiple(@uid,@Gebotszeichen.Handlauf.src|@Gebotszeichen.Rettungsweste_benutzen.src|@Gebotszeichen.Hautschutzmittel.src,@Rettungszeichen.Erste_Hilfe.src|@Rettungszeichen.Notdusche.src|@Rettungszeichen.Notausstieg.src)
+
+
+
+### Zuordnungsaufgabe Piktogramme
+
+<!--style="color:blue; font-weight: bolder"-->Ordnen Sie die Schilder den richtigen Begriffen zu!
+
+
 
 <!-- data-randomize -->
 -   [[ @Warnzeichen.Heisse_Oberflaeche(10)]        [ @Gebotszeichen.Warnweste(10) ]                 [ @Verbotszeichen.Rauchen_verboten(10) ]       [ @Brandschutzzeichen.Brandbekaempfung(10) ]                 [ 	@Rettungszeichen.Rettungsweg_Notausgang_rechts(10) ]       [ @Gefahrstoffe.Entzuendlich(10) ]]
@@ -292,58 +331,45 @@ Achtens. Ordnen Sie die Schilder den richtigen Begriffen zu!
 - [    (X)              ( )                      ( )      ( )              ( )                      ( )     ]  Warnzeichen
 - [    ( )              ( )                      ( )      ( )              (X)                      ( )     ]  Rettungszeichen
 
----
 
 
+### Lückentext zum Arbeits- und Gesundheitsschutz
 
+<!--style="color:blue; font-weight: bolder"-->Füllen Sie den Lückentext richtig aus:
 
-9. Wo müssen Brandschutzzeichen angebracht werden?
-===
-<!-- --{{9}}--
-Neuntens. Wo müssen Brandschutzzeichen angebracht werden? Entweder: Nur im Büro. Oder: Überall, wo sich Brandschutzeinrichtungen befinden. Oder: Nur in der Werkstatt. Oder: Nur im Lager.
--->
-
-- [( )] Nur im Büro.
-- [(X)] Überall, wo sich Brandschutzeinrichtungen befinden.
-- [( )] Nur in der Werkstatt.
-- [( )] Nur im Lager.
-
----
-
-10. Füllen Sie den Lückentext richtig aus:
-===
-<!-- --{{10}}--
-Zehntens. Füllen Sie den Lückentext richtig aus. 
--->
 
 <!-- data-randomize -->
-Arbeits- und Gesundheitsschutz ist ein wichtiger Bestandteil im Berufsleben. Ziel ist es, die [[ (Sicherheit) | __Gefährdung__ | Unfall | __Krankheit__  ]] und Gesundheit aller Beschäftigten am Arbeitsplatz zu gewährleisten. Zu den wichtigsten Maßnahmen gehören die [[ __Pausenregelung__ |  (Gefährdungsbeurteilung) | __Urlaubsplanung__ | Gehaltsabrechnung  ]] und das Ergreifen geeigneter Schutzmaßnahmen.
-
-Eine wichtige Rolle spielt auch die [[ (__Unterweisung__) |  Entlassung | __Versetzung__ | Beförderung  ]] der Mitarbeiter und Mitarbeiterinnen. Sie müssen regelmäßig über Gefahren und Schutzmaßnahmen informiert werden. Das Tragen von persönlicher [[ __Freizeitkleidung__ |  Bürobedarf | __Werkzeug__ | (Schutzausrüstung)  ]] kann in bestimmten Bereichen vorgeschrieben sein.
-
-Arbeitgeber sind verpflichtet, Arbeitsunfälle und [[ Feiertage |  __Überstunden__ | Fehlzeiten | (__Berufskrankheiten__)  ]] zu melden. Beschäftigte sollten bei Gefahr sofort ihren [[ Kollegen |  __Hausmeister__ | (Vorgesetzten) | __Kunden__  ]] informieren.
+Arbeits- und Gesundheitsschutz ist ein wichtiger Bestandteil im Berufsleben. <br> <br> 
+Ziel ist es, die [[ (Sicherheit) | __Gefährdung__ | Unfall | __Krankheit__  ]] und Gesundheit aller Beschäftigten am Arbeitsplatz zu gewährleisten. <br> <br> 
+Zu den wichtigsten Maßnahmen gehören die [[ __Pausenregelung__ |  (Gefährdungsbeurteilung) | __Urlaubsplanung__ | Gehaltsabrechnung  ]] und das Ergreifen geeigneter Schutzmaßnahmen.
+<br> <br>
+Eine wichtige Rolle spielt auch die [[ (__Unterweisung__) |  Entlassung | __Versetzung__ | Beförderung  ]] der Mitarbeiter und Mitarbeiterinnen. 
+<br> <br>
+Sie müssen regelmäßig über Gefahren und Schutzmaßnahmen informiert werden. 
+<br> <br>
+Das Tragen von persönlicher [[ __Freizeitkleidung__ |  Bürobedarf | __Werkzeug__ | (Schutzausrüstung)  ]] kann in bestimmten Bereichen vorgeschrieben sein.
+<br> <br>
+Arbeitgeber sind verpflichtet, Arbeitsunfälle und [[ Feiertage |  __Überstunden__ | Fehlzeiten | (__Berufskrankheiten__)  ]] zu melden. 
+<br> <br>
+Beschäftigte sollten bei Gefahr sofort ihren [[ Kollegen |  __Hausmeister__ | (Vorgesetzten) | __Kunden__  ]] informieren.
 
 ---
 
-11. Ziehen Sie alle Gebotszeichen in das Antwortfeld! 🤔
-===
-<!-- --{{11}}--
-Können Sie  diese Zuordnungsaufgabe lösen? - Ziehen Sie alle Gebotszeichen in das Antwortfeld.
--->
+### Warnzeichen 
+
+<!--style="color:blue; font-weight: bolder"-->Ziehen Sie alle Piktogramme, welche Warnzeichen abbilden, in das Antwortfeld!
 
 <!-- data-randomize -->
-@dragdropmultiple(@uid,@Gebotszeichen.Uebergang.src,@Rettungszeichen.Arzt.src|@Leitern.Maximale_Belastung.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Richtungspfeil_Rechts_unten.src|) 
+@dragdropmultiple(@uid,@Warnzeichen.Absturzgefahr.src|@Warnzeichen.Flurfoerderzeugen.src|@Warnzeichen.Magnetische_Felder.src,@Verbotszeichen.Zutritt_fuer_Unbefugte_verboten.src|@Verbotszeichen.Rauchen_verboten.src|@Verbotszeichen.Mit_Wasser_loeschen_verboten.src) 
 
-----
+### Geschafft! 🙌
 
-<!-- --{{12}}--
-Wenn Sie noch mehr wissen wollen, finden Sie mehr Informationen und alle Sicherheitszeichen auf der BGHM-Website - siehe Link.
--->
 
-__Tipp:__ 
-Weitere Informationen und alle Sicherheitszeichen finden Sie auf der BGHM-Webseite: https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen 
+<!--style="color:blue; font-size: large; font-weight: bolder"-->Tipp: <br>
+Weitere Informationen und alle Sicherheitszeichen finden Sie auf der BGHM-Webseite: <br> <br> https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen 
 
 ---
 
-Geschafft! 🙌
-===
+![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 500px" --> 
+
+_Quelle: Pixabay, geralt_
