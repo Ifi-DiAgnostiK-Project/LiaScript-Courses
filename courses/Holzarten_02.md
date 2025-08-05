@@ -3,7 +3,7 @@ author:   Volker Göhler; Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
  
-version:  0.0.1
+version:  0.0.2
  
 language: de
  
@@ -80,13 +80,13 @@ tags:
 Teil 2
 =======
 
-![Holzarbeiten](img/rotating_sander.jpg) <!-- style="width: 700px" -->
+![Holzarbeiten](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/rotating_sander.jpg) <!-- style="width: 700px" -->
 
 _Quelle: Pixabay, Detmold_
 
 ## Bestimmen Sie die Holzarten als Laub- oder Nadelholz
 
-_Quelle aller Holz-Abbildungen: https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling_
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
 
 <br>
 
@@ -113,10 +113,10 @@ Es kann in der Regel für Innen- und Außengestaltungen eingesetzt werden.
 Es ist ein typisch deutsches Bauholz.
 
 <!--data-randomize -->
-- [( )] Hartholz
-- [( )] Tropenholz
-- [(X)] Weichholz
-- [( )] Faserholz
+- [( )] Kiefer
+- [( )] Tanne
+- [(X)] Fichte
+- [( )] Linde
 
 
 Welche Hölzer sind typischerweise hell in der Farbe?
@@ -127,15 +127,15 @@ Welche Hölzer sind typischerweise hell in der Farbe?
 <div class="flex-child" style="min-width: 250px">
 
 <!--data-randomize -->
-- [[ ]] Buche
+- [[ ]] Nussbaum
 - [[X]] Ahorn
-- [[X]] Linde
+- [[ ]] Mahagonie
 - [[X]] Fichte
 
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Holzbearbeitung](img/woodworker_works.jpg)<!-- style="width: 250px" -->
+![Holzbearbeitung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/woodworker_works.jpg)<!-- style="width: 250px" -->
 
 
 <a  href="https://pixabay.com/de/photos/tischler-schreiner-handwerk-3280956/" target=_blank>_Quelle: Pixabay, Detmold_</a>
@@ -147,23 +147,36 @@ Welche Hölzer sind typischerweise hell in der Farbe?
 ## Welche Holzarten haben keine Harzkanäle?
 
 
-<!--style="color:green"-->Ziehen Sie alle richtigen Holzarten in die Box.
+<!--style="color:green"-->Ziehen Sie alle richtigen Antworten in die Box.
 ===
 
-Quelle aller Holz-Abbildungen: https://holz-werken.com/holz-datenbank/
 
--------
+
 
 <!--data-randomize -->
 @dragdropmultiple(@uid, Robinie|Tanne|Nussbaum|Edelkastanie,Fichte|Douglasie|Lärche)
 
----------------
-
-<!--data-randomize -->
-@dragdropmultiple(@uid, @Hoelzer1.Robinie.src|@Hoelzer1.Weisstanne.src|@Hoelzer1.Nussbaum.src,@Hoelzer1.Laerche.src|@Hoelzer1.Douglasie.src|@Hoelzer1.Fichte.src)
+>_Auswertung stimmt nicht. Obwohl die richtigen Begriffe in den Box gezogen werden, kommt ein falsches Ergebnis._
 
 
->_Ich wollte noch Edelkastanie reinnehmen, aber das bringt Fehler: Hoelzer1.Edelkastanie.src_
+## Entscheiden Sie, welche Holzarten eher hart oder weich sind
+
+<!--style="color:green"--> Die Verarbeitung und auch das Einsatzgebiet von Holz ist davon abhängig, ob es sich um weiches oder hartes Holz handelt.
+
+
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
+
+---------------------------
+
+<!-- data-randomize -->
+- [  [Hartholz]     [Weichholz]  ]
+- [    (x)             ( )       ] __Ulme (auch Rüster)__ @Hoelzer1.Ulme_Ruester(10)
+- [    ( )             (x)       ] __Linde__ @Hoelzer1.Linde(10)
+- [    ( )             (x)       ] __Schwarzerle__ @Hoelzer1.Schwarzerle(10)
+- [    (x)             ( )       ] __Edelkastanie__ @Hoelzer1.Edelkastanie(10)
+- [    (x)             ( )       ] __Esche__ @Hoelzer1.Esche(10)
+
+
 
 
 ## Holzarten und ihre Verwendungsmöglichkeiten
@@ -190,7 +203,7 @@ Quelle aller Holz-Abbildungen: https://holz-werken.com/holz-datenbank/
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Gartenmoebel](img/natural_chairs.jpg)<!-- style="width: 250px" -->
+![Gartenmoebel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/natural_chairs.jpg)<!-- style="width: 250px" -->
 
 
 <a  href="https://pixabay.com/de/photos/m%C3%B6bel-tisch-stuhl-holz-gartenm%C3%B6bel-617/" target=_blank>_Quelle: Pixabay, Hans_</a>
@@ -207,24 +220,43 @@ Quelle aller Holz-Abbildungen: https://holz-werken.com/holz-datenbank/
 <!--data-randomize -->
 [[ Robinie | (Eiche) | Teak]] ist wegen seiner auffälligen Fladerung (markante schmale Markstrahlen) und Härte beliebt für hochwertige Böden und rustikale Möbel. 
 
----------------
 
-<!--style="color:green"-->Eschenholz wird aufgrund seiner Härte, Zähigkeit und Elastizität vielseitig eingesetzt:
+## Holz - seine Eigenschaften - seine Verwendung
+
+<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
+
+-------------------------
+
+<!--style="color:green"-->Eschenholz wird aufgrund seiner Härte, Zähigkeit und Elastizität vielseitig eingesetzt. <br> Welche Verwendungszwecke sind richtig?
 ===
 
 <!--data-randomize -->
 - [[X]] Bootsbau
 - [[X]] Brennholz
-- [[X]] Möbelbau
-- [[X]] Treppen
+- [[ ]] Papierherstellung
+- [[ ]] Spanplatten für Möbelindustrie
 - [[X]] Werkzeugstiele
 - [[X]] Skier
 - [[X]] Musikinstrumente
 
+--------------
+
+<!--style="color:green"-->Welche Holzart ist gemeint?
+===
+
+<!--style="color:green"-->Dieses Holz wird aufgrund seiner Witterungsbeständigkeit und Langlebigkeit gesschätzt. Besonders gern wird es für Fassadenverkleidungen und Terassen im Außenbereich eingesetzt. Es ist harzhaltig.
+
+<!--data-randomize -->
+- [( )] Tanne
+- [(X)] Lärche
+- [( )] Kiefer
+- [( )] Fichte
+
+
 
 ## Geschafft ! 👏
 
-![](img/colorfull_jumping.jpg)<!-- style="width: 500px" -->
+![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/colorfull_jumping.jpg)<!-- style="width: 500px" -->
 
 
 <a  href="https://pixabay.com/de/illustrations/freude-springen-luftsprung-spa%C3%9F-3940425/" target=_blank>_Quelle: Pixabay, geralt_</a>
