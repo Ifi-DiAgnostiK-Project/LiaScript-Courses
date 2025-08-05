@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.3
+version:  0.0.4
 
 language: de
 
@@ -94,7 +94,7 @@ _Quelle: Pixabay, Pexels_
 
 ## Fichte 
 
-_Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling
+_Quelle aller Holz-Abbildungen:_ _https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling_
 
 ----------------
 
@@ -128,9 +128,6 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 Klicken Sie auf das richtige Holzarten-Bild.
 ===
 
-<!--style="color:red; font-weight: bolder"-->Es ist nur ein Bild richtig.
-
--------------------
 
 
 @selectimages(@uid,10, @Hoelzer1.Fichte.src, @Hoelzer1.Kiefer.src|@Hoelzer1.Laerche.src|@Hoelzer1.Robinie.src)
@@ -140,7 +137,7 @@ Klicken Sie auf das richtige Holzarten-Bild.
 
 ## Lärche
 
-_Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling
+_Quelle aller Holz-Abbildungen:_ _https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling_
 
 ----------------
 
@@ -171,18 +168,15 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 Klicken Sie auf das richtige Holzarten-Bild.
 ===
 
-<!--style="color:red; font-weight: bolder"-->Es können mehrere Bilder richtig sein.
-
--------------------
 
 
-@selectimages(@uid,10, @Hoelzer1.Laerche.src|@Hoelzer2.Laerche.src, @Hoelzer1.Kiefer.src|@Hoelzer1.Robinie.src|@Hoelzer1.Fichte.src)
+@selectimages(@uid,10, @Hoelzer1.Laerche.src, @Hoelzer2.Eiche.src|@Hoelzer1.Robinie.src|@Hoelzer1.Fichte.src)
 
 
 
 ## Robinie
 
-_Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling
+_Quelle aller Holz-Abbildungen:_ _https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling_
 
 ----------------
 
@@ -215,17 +209,14 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 Klicken Sie auf das richtige Holzarten-Bild.
 ===
 
-<!--style="color:red; font-weight: bolder"-->Es ist nur ein Bild richtig.
-
--------------------
 
 
-@selectimages(@uid,10, @Hoelzer1.Robinie.src, @Hoelzer1.Roteiche.src|@Hoelzer1.Teak.src|@Hoelzer1.Nussbaum.src|@Hoelzer2.Mahagonie.src)
+@selectimages(@uid,10, @Hoelzer1.Robinie.src, @Hoelzer1.Esche.src|@Hoelzer2.Vogelaugenahorn.src|@Hoelzer1.Laerche.src)
 
 
 ## Linde
 
-_Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling
+_Quelle aller Holz-Abbildungen:_ _https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling_
 
 ----------------
 
@@ -260,17 +251,14 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 Klicken Sie auf das richtige Holzarten-Bild.
 ===
 
-<!--style="color:red; font-weight: bolder"-->Es ist nur ein Bild richtig.
-
--------------------
 
 
-@selectimages(@uid,10, @Hoelzer1.Linde.src,@Hoelzer2.Ahorn.src|@Hoelzer1.Balsa.src|@Hoelzer1.Linde.src|@Hoelzer1.Schwarzerle.src)
+@selectimages(@uid,10, @Hoelzer1.Linde.src,@Hoelzer2.Nussbaum.src|@Hoelzer2.Zebrano.src|@Hoelzer2.Mooreiche.src)
 
 
 ## Birke
 
-_Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling
+_Quelle aller Holz-Abbildungen:_ _https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling_
 
 ----------------
 
@@ -306,16 +294,12 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 Klicken Sie auf das richtige Holzarten-Bild.
 ===
 
-<!--style="color:red; font-weight: bolder"-->Es ist nur ein Bild richtig.
 
--------------------
-
-
-@selectimages(@uid,10, @Hoelzer1.Birke.src, @Hoelzer1.Balsa.src|@Hoelzer1.Linde.src|@Hoelzer1.Schwarzerle.src)
+@selectimages(@uid,10, @Hoelzer1.Birke.src, @Hoelzer2.Vogelaugenahorn.src|@Hoelzer2.Nussbaum.src|@Hoelzer2.Kirsche.src)
 
 ## Esche
 
-_Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling
+_Quelle aller Holz-Abbildungen:_ _https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling_
 
 ----------------
 
@@ -352,17 +336,14 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 Klicken Sie auf das richtige Holzarten-Bild.
 ===
 
-<!--style="color:red; font-weight: bolder"-->Es ist nur ein Bild richtig.
-
--------------------
 
 
-@selectimages(@uid,10, @Hoelzer1.Esche.src, @Hoelzer1.Edelkastanie.src|@Hoelzer1.Kirschbaum.src|@Hoelzer1.Schwarzerle.src|@Hoelzer1.Birnbaum.src)
+@selectimages(@uid,10, @Hoelzer1.Esche.src, @Hoelzer1.Kirschbaum.src|@Hoelzer1.Schwarzerle.src|@Hoelzer1.Birnbaum.src)
 
 
 ## Haben Sie sich die Kürzel je Holzart gemerkt?
 
-Ziehen Sie die richtigen Kürzel zur jeweiligen Holzart.
+Ziehen Sie die richtigen Kürzel zur jeweiligen Holzart in das entsprechende "+"-Feld.
 ===
 
 
