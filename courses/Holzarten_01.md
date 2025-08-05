@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler; Hilke Domsch
 
 email:    jan.franke@hwk-dresden.de; volker.goehler@informatik.tu-freiberg.de; hilke.domsch@gkz-ev.de
  
-version:  0.0.5
+version:  0.0.6
  
 language: de
  
@@ -100,7 +100,11 @@ _Quelle: Pixabay, antmoreton_
 
 # Welche Holzart erkennen Sie?
 
-_Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
+
+<!--style="color:red; font-size: huge"-->Hinweis: Es können mehrere Antworten richtig sein!
+
+--------------------------------
 
 <section class="flex-container" style="padding: 1rem;">
 <div class="flex-child" style="padding-top:3rem; min-width:200px;">
@@ -113,18 +117,15 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 <div class="flex-child">
 @Hoelzer1.Ahorn(15)
 
-</div>
-<div class="flex-child">
-@Hoelzer2.Ahorn(15)
+
 </div>
 </section>
 
-><!--style="color:red"-->Florian: Die Ahorn-Bilder sind sehr unterschiedlich. 🤷‍♀️ Welche Abbildung ist korrekt(er)?
+------------------------
 
------------------------
 
 <section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="padding-top:3rem;">
+<div class="flex-child" style="padding-top:3rem; min-width:200px;">
 <!-- data-randomize -->
 - [( )] Ahorn
 - [(x)] Birke
@@ -132,14 +133,16 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 - [( )] Lärche
 </div>
 <div class="flex-child">
-@Hoelzer1.Birke(10)
+@Hoelzer1.Birke(15)
+
+
 </div>
 </section>
 
 ------------------------------
 
 <section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="padding-top:3rem;">
+<div class="flex-child" style="padding-top:3rem; min-width:200px;">
 <!-- data-randomize -->
 - [[x]] Pappel
 - [[x]] Espe
@@ -147,17 +150,19 @@ _Quelle aller Holz-Abbildungen:_ https://holz-werken.com/holz-datenbank/ bzw. HW
 - [[x]] Aspe
 </div>
 <div class="flex-child">
-@Hoelzer1.Pappel(10)
+@Hoelzer1.Pappel(15)
+
+
 </div>
 </section>
 
-<br>
+
 
 ## Füllen Sie den Lückentext aus
 
 
 <!--data-randomize -->
-Eiche<!--style="font-weight: bolder;color: green"  --> ist ein sehr widerstandsfähiges Holz und lässt sich daher sehr gut für [[ Schneidbretter | (Außenbereiche) | Brandschutzverkleidungen]] verwenden. 
+Eiche<!--style="font-weight: bolder;color: green"  --> ist ein sehr widerstandsfähiges Holz und lässt sich daher sehr gut für [[ Tasteninstrumente | (Außenbereiche) | Brandschutzverkleidungen]] verwenden. 
 
 <!--data-randomize -->
 Lärche<!--style="font-weight: bolder;color: green"  --> ist aufgrund seiner [[ groben Holzstruktur |   Astfreiheit   | (hohen Harzhaltigkeit) ]] für Außenverkleidungen sehr gut geeignet.
@@ -170,9 +175,12 @@ Die Buche<!--style="font-weight: bolder;color: green"  --> wird sehr gerne aufgr
 
 ## Entscheiden Sie, welche Holzarten eher hart oder weich sind
 
-<!--style="font-size: large;"--> Die Verarbeitung und auch das Einsatzgebiet von Holz ist davon abhängig, ob es sich um weiches oder hartes Holz handelt.
+<!--style="color:green"--> Die Verarbeitung und auch das Einsatzgebiet von Holz ist davon abhängig, ob es sich um weiches oder hartes Holz handelt.
 
-<br>
+
+_Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
+
+---------------------------
 
 <!-- data-randomize -->
 - [  [Hartholz]     [Weichholz]  ]
@@ -184,21 +192,36 @@ Die Buche<!--style="font-weight: bolder;color: green"  --> wird sehr gerne aufgr
 
 
 
-_Bild-Quelle "Eiche": Florian Riefling, HWK Dresden_
-
 
 ## Welches Holz eignet sich für welches Einsatzgebiet?
 
-<!--style="color:green"-->Welches Holz eignet sich für den Möbelbau?
+<!--style="color:green"-->Welche der angegebenen Holzarten eignen sich für den Möbelbau?
 ===
 
-@selectimages(@uid,10, @Hoelzer2.Buche2.src|@Hoelzer2.Mahagonie.src|@Hoelzer2.Eiche.src, @Hoelzer1.Fichte.src)
+<!--style="color:red; font-size: huge"-->Hinweis: Es können mehrere Antworten richtig sein!
 
-<!--style="color:green"-->Ziehe alle Holzbilder in die Box, welche vorrangig im Außenbereich verwendet werden.
+------------------------------------------
+
+<!--data-randomize -->
+- [[X]] Buche
+- [[X]] Mahagonie
+- [[X]] Eiche
+- [[X]] Fichte
+- [[ ]] Balsa
+
+-------------------
+
+<!--style="color:green"-->Welche der angegebenen Holzarten eignen sich gut für den Außenbereich?
 ===
 
-@dragdropmultiple(@uid, @Hoelzer1.Robinie.src|@Hoelzer1.Laerche.src|@Hoelzer1.Teak.src, @Hoelzer1.Ahorn.src|@Hoelzer1.Linde.src)
- 
+ ------------------------------------------
+
+<!--data-randomize -->
+- [[X]] Teak
+- [[X]] Robinie
+- [[ ]] Linde
+- [[ ]] Pappel
+- [[ ]] Buche
 
 ## Ordnen Sie die Holzarten ihren typischen Eigenschaften zu
 
@@ -217,3 +240,9 @@ Dieses Holz wird für den Möbelbau bevorzug. Es ist mittelhart und dunkelbraun:
 ---
 
 <!--style="color:green; font-weight: bolder;font-size:large"-->Geschafft ! 👏
+===
+
+
+![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 500px" --> 
+
+_Quelle: Pixabay, geralt_
