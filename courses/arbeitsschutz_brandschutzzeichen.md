@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.3
+version: 0.0.4
 
 language: de
 
@@ -64,25 +64,38 @@ title: Brandschutzzeichen
 
 # Arbeitssicherheit und Gesundheitsschutz
 
-Arbeitsbedingte Gesundheitsgefahren, Unfälle und Erkrankungen sollen gar nicht erst entstehen. Dazu ist es wichtig, Gefahrenhinweise und Symbole richtig zu verstehen.
+Arbeitsbedingte Gesundheitsgefahren, Unfälle und Erkrankungen sollen gar nicht erst entstehen. Dazu ist es wichtig, Gefahrenhinweise und Symbole richtig zu verstehen. <br>
 Vor allem junge Menschen sind am Arbeitsplatz besonders gefährdet, weil sie (noch) nicht über alle nötigen Kenntnisse verfügen.
+<br>
+<br>
 Dieses Quiz zeigt Ihnen, wie gut Sie sich bereits auskennen!
-Wir sind gespannt, wie Sie die Challenge meistern!
 
-__Viel Erfolg!__
+<!--style="color:red"-->Hinweis: Es können mehrere Antworten richtig sein.
 
+-----
+
+
+
+![Arbeitsschutz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/schilder_an_zaun.jpg)<!-- style="width: 700px" --> 
+
+_Quelle: Pixabay, planet-fox_
+
+
+<!--style="color:blue; font-weight: bolder"-->Viel Erfolg!
+===
 
 ## Brandschutzzeichen
 
-1. __Wie sehen Brandschutzzeichen typischerweise aus?__
-===
-<!-- --{{0}}--
+>Brandschutz geht uns alle an! <br> Im Betrieb ist es besonders wichtig, Gefahren durch Brände zu kennen und richtig auf sie zu reagieren. <br> <br> Damit Sie sich und andere schützen können, sollten Sie die wichtigsten Brandschutzzeichen kennen und wissen, wie Sie sich im Ernstfall richtig verhalten.  <br> Mit ein wenig Aufmerksamkeit können Sie helfen, Gefahren zu vermeiden und im Notfall schnell zu handeln.
+
+![sicher](img/sicher_aus_schildern.jpg)<!-- style="width: 700px" --> 
+
+_Quelle: Pixabay, succo_
+
+### 1. Signalfarbe von Brandschutzzeichen
+
 Wie sehen Brandschutzzeichen typischerweise aus?
-Blaues Quadrat mit weißem Symbol
-Grünes Rechteck mit weißem Symbol
-Rotes Quadrat oder Rechteck mit weißem Symbol oder
-Gelbes Dreieck mit schwarzem Symbol 
--->
+
 
 <!-- data-randomize -->
 - [( )] Blaues Quadrat mit weißem Symbol
@@ -90,22 +103,59 @@ Gelbes Dreieck mit schwarzem Symbol
 - [(X)] Rotes Quadrat oder Rechteck mit weißem Symbol
 - [( )] Gelbes Dreieck mit schwarzem Symbol 
 
-2. __Was bildet das Zeichen ab?__
-===
-<!-- --{{1}}--
-Was bildet das Zeichen ab?
--->
 
-![Feuerleiter](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Brandschutzzeichen/Feuerleiter.jpg?raw=true) <!-- style="width: 100px" -->
 
+### 2. Die Bedeutung einzelner Brandschutz-Piktogramme
+
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+
+@Brandschutzzeichen.Brandbekaempfung(15)
+</div>
+<div class="flex-child">
 <!-- data-randomize -->
-[[ Ein Haus steht in Flammen. | Fluchtweg erfolgt über Leitern. | (Hier befindet sich eine Feuerleiter.) ]]
+- [( )] Bei Feuer sofort Helm aufsetzen.
+- [(X)] Brandbekämpfung.
+- [( )] Bei Brand sofort fliehen - alle beschwerenden Kleidungsstücke zurücklassen.
+</div>
+</section>
 
-3. __Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.__
-===
-<!-- --{{2}}--
-Ordnen Sie das jeweilige Symbol im Bild 1, 2 und 3 der richtigen Bedeutung zu. 
--->
+------------
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+
+@Brandschutzzeichen.Feuerleiter(15)
+</div>
+<div class="flex-child">
+<!-- data-randomize -->
+- [( )] Achtung - Haus steht in Flammen!
+- [(X)] Hier befindet sich eine Feuerleiter.
+- [( )] Fluchtweg erfolgt über Leitern.
+</div>
+</section>
+
+----
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+
+@Brandschutzzeichen.Brandmelder(15)
+</div>
+<div class="flex-child">
+<!-- data-randomize -->
+- [( )] Bei Feuer sofort Fahrstuhl rufen.
+- [(X)] Bei Feuer über Signalknopf Brand melden.
+- [( )] Bei Feuer Licht ausschalten. 
+</div>
+</section>
+
+### 3. Zuordnungsaufgabe Brandschutzzeichen
+
+
+Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.
+
 
 <!-- data-randomize -->
 [[![Brandschutzpfeil rechts](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Brandschutzzeichen/Richtungspfeil_Rechts.jpg?raw=true) <!-- style="width: 100px" -->]        (![Brandmeldetelefon](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Brandschutzzeichen/Brandmeldetelefon.jpg?raw=true) <!-- style="width: 100px" -->)                 [![Brandmelder](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Brandschutzzeichen/Brandmelder.jpg?raw=true) <!-- style="width: 100px" -->]]
@@ -116,7 +166,58 @@ Ordnen Sie das jeweilige Symbol im Bild 1, 2 und 3 der richtigen Bedeutung zu.
 - [    ( )              (X)                      ( )     ]  Brandmeldetelefon
 
 
+### 4. Verhalten im Brandfall
+
+<!--style="color:red; font-size: large; font-weight: bolder"-->Was ist im Brandfall am wichtigsten?
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+
+<!-- data-randomize -->
+- [[X]] Ruhe bewahren.
+- [[X]] Andere warnen.
+- [[X]] Feuerwehr rufen.
+- [[ ]] Fenster öffnen, damit der Rauch entweichen kann.
+- [[X]] Ausgeschilderte Fluchtwege benutzen.
+- [[ ]] Sofort mit Löschen beginnen, um das Feuer im Keim zu ersticken.
+- [[X]] Keine Aufzüge verwenden.
+</div>
+<div class="flex-child">
+![Feuerloescher](img/fuenf_feuerloescher.jpg)<!-- style="width: 300px" -->
+<br>
+_Quelle: Pixabay, Foto-Rabe_
+</div>
+</section>
+
+------
+
+Welche Bedeutung hat dieses Piktogramm?
+===
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+
+@Rettungszeichen.Rettungsweg_Notausgang_rechts(15)
+</div>
+<div class="flex-child">
+<!-- data-randomize -->
+- [( )] Brandschutzzeichen sind immer rot. Daher ist es hier bedeutungslos.
+- [(X)] Fluchtweg / Notausgang.
+- [( )] Brandschutztür benutzen.
+</div>
+</section>
+
+
+
+### Geschafft! 🙌
+
+
+<!--style="color:blue; font-size: large; font-weight: bolder"-->Tipp: <br>
+Weitere Informationen und alle Sicherheitszeichen finden Sie auf der BGHM-Webseite: <br> <br> https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen 
+
 ---
 
-Geschafft! 🙌
-===
+![Jubel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/colorfull_jumping.jpg)<!-- style="width: 500px" --> 
+
+_Quelle: Pixabay, geralt_
+
