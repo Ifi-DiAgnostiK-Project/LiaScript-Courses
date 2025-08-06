@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.3
+version: 0.0.4
 
 language: de
 
@@ -64,20 +64,38 @@ tags:
 
 # Arbeitssicherheit und Gesundheitsschutz
 
-Arbeitsbedingte Gesundheitsgefahren, Unfälle und Erkrankungen sollen gar nicht erst entstehen. Dazu ist es wichtig, Gefahrenhinweise und Symbole richtig zu verstehen.
+Arbeitsbedingte Gesundheitsgefahren, Unfälle und Erkrankungen sollen gar nicht erst entstehen. Dazu ist es wichtig, Gefahrenhinweise und Symbole richtig zu verstehen. <br>
 Vor allem junge Menschen sind am Arbeitsplatz besonders gefährdet, weil sie (noch) nicht über alle nötigen Kenntnisse verfügen.
+<br>
+<br>
 Dieses Quiz zeigt Ihnen, wie gut Sie sich bereits auskennen!
-Wir sind gespannt, wie Sie die Challenge meistern!
 
-__Viel Erfolg!__
+<!--style="color:red"-->Hinweis: Es können mehrere Antworten richtig sein.
+
+-----
+
+
+
+![Arbeitsschutz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/schilder_an_zaun.jpg)<!-- style="width: 700px" --> 
+
+_Quelle: Pixabay, planet-fox_
+
+
+<!--style="color:blue; font-weight: bolder"-->Viel Erfolg!
+===
+
 
 ## Rettungszeichen
 
-1. Welches dieser Zeichen ist ein Rettungszeichen?
-===
-<!-- --{{1}}--
-Welches dieser Zeichen ist ein Rettungszeichen?
--->
+>Rettungszeichen zeigen Ihnen im Betrieb den schnellsten Weg in Sicherheit, zum Beispiel: <br> <br> -im Brandfall, <br> - bei Unfällen <br>  - bei anderen Notfällen <br>  <br> Im Betrieb ist es besonders wichtig, die Rettungswege und Rettungseinrichtungen zu kennen.<br> So können Sie sich und andere umsichtig und unverzüglich in Sicherheit bringen.
+
+![sicher](img/sicher_aus_schildern.jpg)<!-- style="width: 700px" --> 
+
+_Quelle: Pixabay, succo_
+
+
+### 1. Welches dieser Zeichen ist ein Rettungszeichen?
+
 
 <!-- data-randomize -->
 - [[ @Rettungszeichen.Erste_Hilfe(10) ] ( @Warnzeichen.Automatischer_Anlauf(10) ) [ @Brandschutzzeichen.Brandmelder(10) ]]
@@ -85,26 +103,26 @@ Welches dieser Zeichen ist ein Rettungszeichen?
 
 
 
-2. Füllen Sie den Lückentext aus.
-===
-<!-- --{{2}}--
-Füllen Sie den Lückentext aus.
--->
+
+### 2. Füllen Sie den Lückentext aus.
+
 
 <!-- data-randomize -->
-Das Rettungszeichen für den [[ Sammelpunkt | (Notausgang) | Sani-Kasten]] ist grün und zeigt eine laufende Person mit einem Pfeil.
+Das Rettungszeichen für den [[ Sammelpunkt | (Notausgang) | Sani-Kasten]] ist grün und zeigt eine laufende Person mit einem Pfeil. <br> <br>
 Rettungszeichen sind immer in der Farbe [[ rot |   blau   | (grün) ]] gehalten. 
 
-Die Bedeutung der Rettungszeichen ist europaweit [[ unterschiedlich |   in den meisten Symbolen gleich   | (standardisiert) ]].
+Die Bedeutung der Rettungszeichen ist europaweit [[ unterschiedlich |   in den meisten Symbolen gleich   | (standardisiert) ]]. <br> <br>
 Die Rettungszeichen befinden sich in der Regel [[ in öffentlichen Gebäuden |   (in Fluren und Ausgängen)  | in Lagerräumen ]].
 
+![Rettungszeichen](img/rettungsausgang_plastik.jpg)<!-- style="width: 300px" --> 
 
+_Quelle: Pixabay, MelSi_
 
-3. Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.
-===
-<!-- --{{3}}--
-Ordnen Sie das jeweilige Symbol im Bild 1, 2 und 3 der richtigen Bedeutung zu. 
--->
+### 3. Rettungszeichen und ihre Bedeutung
+
+<!--style="color:blue; font-weight: bolder"-->Ordnen Sie die Piktogramme ihrer jeweiligen Bedeutung zu.
+
+--------------
 
 <!-- data-randomize -->
 -   [[ @Rettungszeichen.Richtungspfeil_rechts(10) ]        ( @Rettungszeichen.Oeffentliche_Rettungsausruestung(10) )                 [ 	@Rettungszeichen.Arzt(10) ]]
@@ -114,7 +132,16 @@ Ordnen Sie das jeweilige Symbol im Bild 1, 2 und 3 der richtigen Bedeutung zu.
 - [    ( )              (X)                      ( )     ]  öffentliche Schutzausrüstung
 - [    ( )              ( )                      (X)     ]  Arzt
 
+
+
+### Geschafft! 🙌
+
+
+<!--style="color:blue; font-size: large; font-weight: bolder"-->Tipp: <br>
+Weitere Informationen und alle Sicherheitszeichen finden Sie auf der BGHM-Webseite: <br> <br> https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen 
+
 ---
 
-Geschafft! 🙌
-===
+![Jubel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/colorfull_jumping.jpg)<!-- style="width: 500px" --> 
+
+_Quelle: Pixabay, geralt_
