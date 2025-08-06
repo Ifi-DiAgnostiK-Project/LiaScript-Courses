@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.5
+version: 0.0.6
 
 language: de
 
@@ -82,12 +82,12 @@ Vor allem junge Menschen sind am Arbeitsplatz besonders gefährdet, weil sie (no
 <br>
 <br>
 Dieses Quiz zeigt Ihnen, wie gut Sie sich bereits auskennen!
-Wir sind gespannt, wie Sie die Challenge meistern!
+
 
 <!--style="color:blue; font-weight: bolder"-->Viel Erfolg!
 ===
 
-![Arbeitsschutz](img/schilder_an_zaun.jpg)<!-- style="width: 700px" --> 
+![Arbeitsschutz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/schilder_an_zaun.jpg)<!-- style="width: 700px" --> 
 
 _Quelle: Pixabay, planet-fox_
 
@@ -158,7 +158,7 @@ __Zeile 3:__
 
 <!--style="color:red"-->Hinweis: Es können mehrere Antworten richtig sein.
 
-![Fragezeichen](img/fragezeichen.jpg)<!-- style="width: 700px" --> 
+![Fragezeichen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fragezeichen.jpg)<!-- style="width: 700px" --> 
 
 _Quelle: Pixabay, Peggy+Marco_
 
@@ -173,7 +173,7 @@ _Quelle: Pixabay, Peggy+Marco_
 <section class="flex-container" style="padding: 1rem;">
 <div class="flex-child" style="min-width:200px;">
 
-@Leitern.Die_obersten_3_Sprossen_nicht_besteigen(20)
+@Leitern.Die_obersten_3_Sprossen_nicht_besteigen(15)
 </div>
 <div class="flex-child">
 - [( )] wahr
@@ -190,7 +190,7 @@ _Quelle: Pixabay, Peggy+Marco_
 <section class="flex-container" style="padding: 1rem;">
 <div class="flex-child" style="min-width:200px;">
 
-@Leitern.Witterungsbedingungen(20)
+@Leitern.Witterungsbedingungen(15)
 </div>
 <div class="flex-child">
 - [(X)] wahr
@@ -287,6 +287,26 @@ _Quelle: Pixabay, Peggy+Marco_
 </div>
 </section>
 
+----
+
+<!--style="color:blue; font-weight: bolder"-->Was bedeutet dieses Piktogramm?
+
+<br>
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+@Verbotszeichen.Rauchen_verboten(15)
+
+</div>
+<div class="flex-child">
+<!-- data-randomize -->
+- [( )] Kippen wegwerfen verboten!
+- [(X)] Rauchen verboten.
+- [( )] Besondere Vorsicht beim Rauchen - allgemeine Brandgefahr!
+</div>
+</section>
+
+
 ### Gebotszeichen
 
 <!--style="color:blue; font-weight: bolder"-->Was bedeutet dieses Schild?
@@ -362,7 +382,78 @@ Beschäftigte sollten bei Gefahr sofort ihren [[ Kollegen |  __Hausmeister__ | (
 <!-- data-randomize -->
 @dragdropmultiple(@uid,@Warnzeichen.Absturzgefahr.src|@Warnzeichen.Flurfoerderzeugen.src|@Warnzeichen.Magnetische_Felder.src,@Verbotszeichen.Zutritt_fuer_Unbefugte_verboten.src|@Verbotszeichen.Rauchen_verboten.src|@Verbotszeichen.Mit_Wasser_loeschen_verboten.src) 
 
+### Gefahrstoffe
+
+
+<br>
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+@Gefahrstoffe.Komprimierte_Gase(15)
+</div>
+<div class="flex-child">
+<!-- data-randomize -->
+- [( )] Achtung - herumliegende Gasflaschen!
+- [(X)] Achtung - komprimierte Gase!
+- [( )] Achtung - Stolperfallen!
+
+</div>
+</section>
+
+---------------
+
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+@Gefahrstoffe.Giftig_Sehr_giftig(15)
+</div>
+<div class="flex-child">
+<!-- data-randomize -->
+- [( )] Todeszone
+- [(X)] Giftig. Sehr giftig.
+- [( )] Zutritt verboten!
+
+</div>
+</section>
+
+---------------
+
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+@Gefahrstoffe.Reizend_Gesundheitsschaedlich(15)
+</div>
+<div class="flex-child">
+<!-- data-randomize -->
+- [( )] Achtung - Gefahr droht!
+- [(X)] Reizend. Gesundheitsschädlich.
+- [( )] Achtung - Vorfahrt beachten!
+
+</div>
+</section>
+
+---------------
+
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+@Gefahrstoffe.Aetzend_Reizend(15)
+</div>
+<div class="flex-child">
+<!-- data-randomize -->
+- [( )] Achtung - Tropfende Reagenzen!
+- [(X)] Ätzend. Reizend.
+- [( )] Wasser zum Händewaschen steht nur dosiert zur Verfügung.
+
+</div>
+</section>
+
+
+
 ### Geschafft! 🙌
+
+
+
 
 
 <!--style="color:blue; font-size: large; font-weight: bolder"-->Tipp: <br>
@@ -370,6 +461,6 @@ Weitere Informationen und alle Sicherheitszeichen finden Sie auf der BGHM-Websei
 
 ---
 
-![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 500px" --> 
+![Jubel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/colorfull_jumping.jpg)<!-- style="width: 500px" --> 
 
 _Quelle: Pixabay, geralt_
