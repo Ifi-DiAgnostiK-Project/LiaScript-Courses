@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.5
+version: 0.0.6
 
 language: de
 
@@ -68,43 +68,52 @@ title: Benutzung von Leitern II
 
 # Arbeitssicherheit und Gesundheitsschutz
 
-Arbeitsbedingte Gesundheitsgefahren, Unfälle und Erkrankungen sollen gar nicht erst entstehen. Dazu ist es wichtig, Gefahrenhinweise und Symbole richtig zu verstehen.
+Arbeitsbedingte Gesundheitsgefahren, Unfälle und Erkrankungen sollen gar nicht erst entstehen. Dazu ist es wichtig, Gefahrenhinweise und Symbole richtig zu verstehen. <br>
 Vor allem junge Menschen sind am Arbeitsplatz besonders gefährdet, weil sie (noch) nicht über alle nötigen Kenntnisse verfügen.
+<br>
+<br>
 Dieses Quiz zeigt Ihnen, wie gut Sie sich bereits auskennen!
-Wir sind gespannt, wie Sie die Challenge meistern!
 
-__Viel Erfolg!__
+<!--style="color:red"-->Hinweis: Es können mehrere Antworten richtig sein.
+
+-----
+
+
+
+![Arbeitsschutz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/schilder_an_zaun.jpg)<!-- style="width: 700px" --> 
+
+_Quelle: Pixabay, planet-fox_
+
+
+<!--style="color:blue; font-weight: bolder"-->Viel Erfolg!
+===
 
 
 ## Schwerpunkt: Leitern
-<!--
-language: de
-narrator: Deutsch Male
--->
+ 
 
---{{0}}--   
+>Leitern werden im Arbeitsalltag häufig genutzt. <br> Sie sind oft Auslöser für Unfälle. <br> Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten. 
 
-Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten. 
-
-**Schauen Sie sich als Erstes das Video an.**
+<!--style="color:blue; font-weight: bolder"-->Schauen Sie sich als Erstes das Video an.
 
 
 !?[Leitern Lehre to Go](https://www.youtube.com/watch?v=zyfX3ZtkrMI)
 
 _Quelle: Lehre fördern_
 
---{{1}}--   
 
-__Testen Sie nun Ihr Wissen!__
+<!--style="color:blue; font-weight: bolder"-->Testen Sie nun Ihr Wissen!
 
-## Quiz: Sicherer Umgang mit Leitern II
 
-Beachten Sie bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen. 
+
+### 1. Leiter-Piktogramme I
+
+<!--style="color:grey; font-weight: bolder"-->Beachten Sie bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. <br> Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen. 
 
 ---
 
-1. __Können Sie die Bilder der richtigen Bedeutung zuordnen?__ 🤔
-===
+<!--style="color:blue; font-weight: bolder"-->Ordnen Sie die Piktogramme der richtigen Bedeutung zu.
+
 
 <!-- data-randomize -->
 -   [[![!sicher Flächen Leiter](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Leitern/Nur_an_sichere_Fl%C3%A4chen_anlegen.jpg?raw=true) <!-- style="width: 100px" -->]        (![Nicht übertreten](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Leitern/Nicht_%C3%BCbertreten.jpg?raw=true) <!-- style="width: 100px" -->)                 [![sicherer Untergrund](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Leitern/Ebener_und_tragf%C3%A4higer_Untergrund.jpg?raw=true) <!-- style="width: 100px" -->]]
@@ -115,9 +124,10 @@ Beachten Sie bei der Verwendung von Leitern immer die relevanten Sicherheitsrege
 - [    (X)              ( )                      ( )     ]  Nur an sichere Flächen anlegen
 
 
+### 2. Leiter-Piktogramme II
 
-2. __Bringen Sie die Bilder mit ihrer Bedeutung in Verbindung.__ 
-===
+<!--style="color:blue; font-weight: bolder"-->Ordnen Sie die Piktogramme der richtigen Bedeutung zu.
+
 
 <!-- data-randomize -->
 -   [[![!Max Belastung](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Leitern/Maximale_Belastung.jpg?raw=true) <!-- style="width: 100px" -->]        (![Nicht übersteigen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Leitern/Nicht_%C3%BCbersteigen.jpg?raw=true) <!-- style="width: 100px" -->)                 [![Anlegewinkel beachten](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Leitern/Anlegewinkel_beachten.jpg?raw=true) <!-- style="width: 100px" -->]]
@@ -127,11 +137,12 @@ Beachten Sie bei der Verwendung von Leitern immer die relevanten Sicherheitsrege
 - [    ( )              ( )                      (x)     ]  Anlegewinkel beachten
 - [    ( )              ( )                      ( )     ]  Achtung! Leiter kippt!
 
----
 
-3. __Welches der Symbole warnt: Spreizsicherung einlegen!__ 🤔
-===
+### 3. Piktrogramm "Spreizsicherung"
 
+<!--style="color:blue; font-weight: bolder"-->Welches der Symbole warnt: Spreizsicherung einlegen! 🤔
+
+<br>
 <section class="flex-container">
 <div class="flex-child" style="min-width: 100px">
 Bild a) @Leitern.Spreizsicherung_einlegen(10)
@@ -144,16 +155,18 @@ Bild c) @Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund(10)
 </div>
 </section>
 
+<br>
 <!-- data-randomize -->
 - [[X]] Bild a
 - [[ ]] Bild b
 - [[ ]] Bild c
 
 
-----
+### 4. Piktogramm "Keine Anlegeleiter"
 
-4. __Welches der Symbole zeigt an, dass die Leiter nicht als Anlegeleiter genutzt werden darf?__
-===
+<!--style="color:blue; font-weight: bolder"-->Welches der Symbole zeigt an, dass die Leiter nicht als Anlegeleiter genutzt werden darf?
+
+<br>
 
 <section class="flex-container">
 <div class="flex-child" style="min-width: 100px">
@@ -167,15 +180,17 @@ Bild c) @Leitern.Nicht_als_Anlegeleiter_nutzen(10)
 </div>
 </section>
 
+<br>
 <!-- data-randomize -->
 - [[ ]] Bild a
 - [[ ]] Bild b
 - [[x]] Bild c
 
----
+### 5. Piktogramm "Nicht übertreten"
 
-5. __Welches der Symbole zeigt an, dass nicht übertreten werden darf?__
-===
+<!--style="color:blue; font-weight: bolder"-->Welches der Symbole zeigt an, dass nicht übertreten werden darf?
+
+<br>
 
 <section class="flex-container">
 <div class="flex-child" style="min-width: 100px">
@@ -189,15 +204,17 @@ Bild c) @Leitern.Nicht_uebertreten(10)
 </div>
 </section>
 
+<br>
 <!-- data-randomize -->
 - [[ ]] Bild a
 - [[x]] Bild b
 - [[ ]] Bild c
 
----
+### 6. Piktogramm "Nur eine Person"
 
-6. __Welches der Symbole zeigt an, dass die Leiter nur von einer Person genutzt werden darf?__ 🤔
-===
+<!--style="color:blue; font-weight: bolder"-->Welches der Symbole zeigt an, dass die Leiter nur von einer Person genutzt werden darf? 
+
+<br>
 
 <section class="flex-container">
 <div class="flex-child" style="min-width: 100px">
@@ -211,33 +228,40 @@ Bild c) @Leitern.Nicht_als_Anlegeleiter_nutzen(10)
 </div>
 </section>
 
+<br>
 <!-- data-randomize -->
 - [[ ]] Bild a
 - [[x]] Bild b
 - [[ ]] Bild c
 
 
----
+### Piktogramme Arbeits- und Gesundheitsschutz I
 
-7. __Welche Symbole regeln den Umgang mit Leitern?__ 🤔
-===
+<!--style="color:blue; font-weight: bolder"-->Welche Symbole regeln den Umgang mit Leitern? 🤔
+
 
 <!-- data-randomize -->
 @dragdropmultiple(@uid,@Leitern.Nur_eine_Person.src|@Leitern.Anlegewinkel_beachten.src|@Leitern.Mindestens_1_m_Ueberstand.src,@Warnzeichen.Hindernisse_am_Boden.src|@Warnzeichen.Automatischer_Anlauf.src|@Gebotszeichen.Handlauf.src|@Rettungszeichen.Erste_Hilfe.src)
 
 
----
+### Piktogramme Arbeits- und Gesundheitsschutz I
 
-8. __Die Bilder gehören zu Warn-, Verbots- oder Gebotszeichen. Aber welche Symbole regeln den Umgang mit Leitern bei der Arbeit?__ 🤔
-===
+<!--style="color:blue; font-weight: bolder"-->Welche Symbole regeln den Umgang mit Leitern bei der Arbeit?
+
 
 <!-- data-randomize -->
 @dragdropmultiple(@uid,@Leitern.Witterungsbedingungen.src|@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund.src,@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Feuerleiter.src|@Gebotszeichen.Uebergang.src) 
 
 
+### Geschafft! 🙌
+
+
+<!--style="color:blue; font-size: large; font-weight: bolder"-->Tipp: <br>
+Weitere Informationen und alle Sicherheitszeichen finden Sie auf der BGHM-Webseite: <br> <br> https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen 
+
 ---
 
-Herzlichen Glückwunsch! 🎉
-===
+![Jubel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/colorfull_jumping.jpg)<!-- style="width: 500px" --> 
 
-Geschafft! 🙌
+_Quelle: Pixabay, geralt_
+
