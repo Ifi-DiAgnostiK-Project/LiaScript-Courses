@@ -4,7 +4,7 @@ author: Hilke Domsch; Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.3
+version: 0.0.4
 
 language: de
 
@@ -64,33 +64,46 @@ tags:
 
 # Arbeitssicherheit und Gesundheitsschutz
 
-Arbeitsbedingte Gesundheitsgefahren, Unfälle und Erkrankungen sollen gar nicht erst entstehen. Dazu ist es wichtig, Gefahrenhinweise und Symbole richtig zu verstehen.
+Arbeitsbedingte Gesundheitsgefahren, Unfälle und Erkrankungen sollen gar nicht erst entstehen. Dazu ist es wichtig, Gefahrenhinweise und Symbole richtig zu verstehen. <br>
 Vor allem junge Menschen sind am Arbeitsplatz besonders gefährdet, weil sie (noch) nicht über alle nötigen Kenntnisse verfügen.
+<br>
+<br>
 Dieses Quiz zeigt Ihnen, wie gut Sie sich bereits auskennen!
-Wir sind gespannt, wie Sie die Challenge meistern!
 
 
-__Viel Erfolg!__
-
-__In welcher Zeile befinden sich Warnschilder?__
+<!--style="color:blue; font-weight: bolder"-->Viel Erfolg!
 ===
 
-<!-- --{{1}}--
-In welcher Zeile befinden sich Warnschilder? Zeile 1, 2 oder 3?
--->
+![Arbeitsschutz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/schilder_an_zaun.jpg)<!-- style="width: 700px" --> 
+
+_Quelle: Pixabay, planet-fox_
+
+## Sicherheitszeichen 
+
+>Im Handwerk sorgen Sicherheitszeichen und der richtige Umgang mit Gefahrstoffen dafür, dass alle gesund und unfallfrei durch den Arbeitsalltag kommen.  <br> Wer die wichtigsten Zeichen kennt und Gefahrstoffe richtig erkennt, schützt nicht nur sich selbst, sondern auch andere. <br> Die Symbole zeigen Ihnen auf einen Blick, was zu tun, zu lassen oder besonders zu beachten ist.  <br> Mit dem Quiz prüfen Sie, wie fit Sie sind beim Thema Sicherheit im Betrieb. wirklich bist!<br> 
+
+![Sicher](img/sicher_aus_schildern.jpg)<!-- style="width: 700px" --> 
+
+_Quelle: Pixabay, succo_
+
+
+
+### 1. Warnzeichen
+
+<!--style="color:blue; font-weight: bolder"-->In welcher Zeile befinden sich Warnschilder?
 
 <section class="flex-container" style="padding: 1rem;">
 <div style="padding-top:3rem;">
 __Zeile 1:__
 </div>
 <div class="flex-child">
-@Brandschutzzeichen.Feuerloescher(10)
+@Gefahrstoffe.Giftig_Sehr_giftig(10)
 </div>
 <div class="flex-child">
-@Brandschutzzeichen.Loeschschlauch(10)
+@Gefahrstoffe.Entzuendlich(10)
 </div>
 <div class="flex-child">
-@Brandschutzzeichen.Feuerleiter(10)
+@Gefahrstoffe.Umweltgefaehrlich(10)
 </div>
 </section>
 
@@ -124,76 +137,66 @@ __Zeile 3:__
 </div>
 </section>
 
-[[ __Zeile 1__ | (__Zeile 2__) | __Zeile 3__]]
+---------------------------
 
-## Kennen Sie die Sicherheitszeichen?
+<br>
 
-1. Ordnen Sie die Zeichen den passenden Beschreibungen zu.
-===
-<!-- --{{1}}--
-Ordnen Sie die Zeichen den passenden Beschreibungen zu.
-Warnung vor elektrischer Spannung
-Aufforderung, Handschuhe zu tragen
-Verbot von offenem Feuer
--->
+- [( )] Zeile 1
+- [(X)] Zeile 2
+- [( )] Zeile 3
+
+
+### 2. Sicherheitszeichen und ihre Bedeutungen I
+
+<!--style="color:blue; font-weight: bolder"-->Ordnen Sie die Zeichen den passenden Beschreibungen zu.
+
+<br>
+
+
 
 <!-- data-randomize -->
 -   [[ @Warnzeichen.Elektrische_Spannung(10) ]        ( @Gebotszeichen.Handschuh(10) )                 [ @Verbotszeichen.Keine_Offene_Flamme(10) ]]
 - [    (X)                                     ( )                                      ( )     ]  Warnung vor elektrischer Spannung
 - [    ( )                                     (X)                                      ( )     ]  Aufforderung, Handschuhe zu tragen
 - [    ( )                                     ( )                                      (X)     ]  Verbot von offenem Feuer
+- [    ( )                                     ( )                                      ( )     ]  Lagerfeuerverbot
 
 
+### 3. Sicherheitszeichen und ihre Bedeutungen II
 
+<!--style="color:blue; font-weight: bolder"-->Wahr oder falsch? -- Das Symbol "Schutzbrille tragen" ist ein blaues, rundes Gebotszeichen.
 
-2. Wahr oder falsch? -- Das Symbol "Schutzbrille tragen" ist ein blaues, rundes Gebotszeichen.
-===
-<!-- --{{2}}--
-Wahr oder falsch?
-Das Symbol "Schutzbrille tragen" ist ein blaues, rundes Gebotszeichen.
--->
-
+<!-- data-randomize -->
 - [(X)] wahr
 - [( )] falsch
 
+----
+
+<!--style="color:blue; font-weight: bolder"-->Was bedeutet das folgende Zeichen?
 
 
-3. Was bedeutet das folgende Zeichen?
-===
-<!-- --{{3}}--
-Was bedeutet das folgende Zeichen?
-a) Brandmelder
-b) Erste-Hilfe-Kasten
-c) Feuerlöscher
--->
-
-<section class="flex-container">
-<div class="flex-child">
-@Brandschutzzeichen.Feuerloescher(10)
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+@Brandschutzzeichen.Feuerloescher(15)
 </div>
 <div class="flex-child">
 <!-- data-randomize -->
 - [( )] Brandmelder
-- [( )] Erste-Hilfe-Kasten
+- [( )] Achtung - keine Brandtür!
 - [(X)] Feuerlöscher
 
 </div>
 </section>
 
-4. Lückentext:
-===
-<!-- --{{4}}--
-Lückentext:
-Das Zeichen mit einer laufenden Person und einem Pfeil auf grünem Hintergrund kennzeichnet einen Rettungsweg, Notausstieg oder Notausgang. Wählen Sie das richtige Wort aus.
--->
+----
+
+<!--style="color:blue; font-weight: bolder"-->Füllen Sie den Lückentext richtig aus.
 
 Das Zeichen mit einer laufenden Person und einem Pfeil auf grünem Hintergrund kennzeichnet einen [[ Sammelpunkt | (Notausgang) | Sani-Kasten]]. 
 
-5. Ordnen Sie die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:
-===
-<!-- --{{5}}--
-Ordnen Sie die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:
--->
+### 4. Zuordnungsaufgabe Sicherheitszeichen
+
+<!--style="color:blue; font-weight: bolder"-->Ordnen Sie die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:
 
 <!-- data-randomize -->
 -   [[ @Rettungszeichen.Notruftelefon(10) ]        ( @Gebotszeichen.Kopfschutz(10) )                 [ @Gefahrstoffe.Aetzend_Reizend(10) ]]
@@ -204,16 +207,13 @@ Ordnen Sie die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:
 - [    ( )              (X)                      ( )     ]  Schutzhelm tragen
 
 
+### 5. Sicherheitszeichen und ihre Bedeutungen III
+
+<!--style="color:blue; font-weight: bolder"-->Wofür steht dieses Zeichen?
 
 
-6. Wofür steht dieses Zeichen?
-===
-<!-- --{{6}}--
-Wofür steht dieses Zeichen?
--->
-
-<section class="flex-container">
-<div class="flex-child">
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
 @Gefahrstoffe.Explosiv(15)
 </div>
 <div class="flex-child">
@@ -228,5 +228,43 @@ Wofür steht dieses Zeichen?
 
 ---
 
-Geschafft! 🙌
-===
+<!--style="color:blue; font-weight: bolder"-->Wofür steht dieses Zeichen?
+
+
+<section class="flex-container" style="padding: 1rem;">
+<div class="flex-child" style="min-width:200px;">
+@Gefahrstoffe.Oxidierend(15)
+</div>
+<div class="flex-child">
+
+<!-- data-randomize -->
+- [( )] Entzündbar
+- [(X)] Brandfördernd, oxidierend
+- [( )] Umweltgefährlich
+
+</div>
+</section>
+
+---
+
+<!--style="color:blue; font-weight: bolder"-->Was ist beim Umgang mit gekennzeichneten Gefahrstoffen zu beachten?
+
+
+<!-- data-randomize -->
+- [[ ]] Nur Fachkräfte mit einer entsprechenden Zulassung dürfen mit Gefahrstoffen arbeiten.
+- [[X]] Betriebsanweisung lesen.
+- [[ ]] Handschuhe sind nur nach Anweisung nötig.
+- [[X]] Schutzmaßnahmen einhalten.
+
+
+
+### Geschafft! 🙌
+
+<!--style="color:blue; font-size: large; font-weight: bolder"-->Tipp: <br>
+Weitere Informationen und alle Sicherheitszeichen finden Sie auf der BGHM-Webseite: <br> <br> https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen 
+
+---
+
+![Jubel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/colorfull_jumping.jpg)<!-- style="width: 500px" --> 
+
+_Quelle: Pixabay, geralt_
