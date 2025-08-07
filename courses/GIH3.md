@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.2
+version:  0.0.3
 
 language: de
 
@@ -68,7 +68,7 @@ Elektrotechnik und deren Sicherheitsmaßnahmen
 </div>
 </section>
 
-_Quelle: Pixabay_
+_Quelle: Pixabay, Sondermann (Bild links) und Foto-Rabe (Bild rechts)_
 
 ## Überprüfungsaufgaben I
 
@@ -76,9 +76,9 @@ _Quelle: Pixabay_
 
 ----------------
 
-<!--style="color:blue; font-weight: bolder;"-->
+<!--style="color:blue; font-weight: bolder; font-size: large"-->
 Welche Aufgabe hat eine Sicherung?   🤔
-===
+
 
 <section class="flex-container">
 <div class="flex-child" style="min-width: 250px">
@@ -127,9 +127,9 @@ Was brauchen Sie als zusätzliche PSA beim Ziehen von NH-Sicherungen?   🤔
 
 ------
 
-<!--style="color:blue; font-weight: bolder;"-->
+<!--style="color:blue; font-weight: bolder; font-size: large"-->
 Was bedeutet dieses Symbol?   🤔
-===
+
 
 <section class="flex-container">
 <div class="flex-child" style="min-width: 250px">
@@ -173,13 +173,13 @@ Was bedeutet dieses Symbol?   🤔
 </div>
 </section>
 
-<a  href="https://de.m.wikipedia.org/wiki/Datei:Schutzklasse_1_halb_fett.svg; https://de.m.wikipedia.org/wiki/Datei:Schutzklasse_2_fett.svg; https://de.m.wikipedia.org/wiki/Datei:Schutzklasse_3_fett.svg" target=_blank>Quelle: Wikimedia Commons, David W.</a>
+<a  href="https://de.m.wikipedia.org/wiki/Datei:Schutzklasse_1_halb_fett.svg; https://de.m.wikipedia.org/wiki/Datei:Schutzklasse_2_fett.svg; https://de.m.wikipedia.org/wiki/Datei:Schutzklasse_3_fett.svg" target=_blank>_Quelle: Wikimedia Commons, David W._</a>
 
-<br>
+<br> <br>
 
-<!--style="color:blue; font-weight: bolder;"-->
+<!--style="color:blue; font-weight: bolder; font-size: large"-->
 Welche Aussagen zu den ~~Schutzklassen~~ elektrischer Betriebsmittel sind korrekt?   🤔
-===
+
 
 
 <!-- data-randomize -->
@@ -195,9 +195,9 @@ Welche Aussagen zu den ~~Schutzklassen~~ elektrischer Betriebsmittel sind korrek
 
 -----
 
-<!--style="color:blue; font-weight: bolder;"-->
+<!--style="color:blue; font-weight: bolder; font-size: large"-->
 Wie viele Prüfvorgänge zum Feststellen der Spannungsfreiheit sind hier nötig?   🤔
-===
+
 
 <section class="flex-container">
 <div class="flex-child" style="min-width: 250px">
@@ -213,7 +213,7 @@ Wie viele Prüfvorgänge zum Feststellen der Spannungsfreiheit sind hier nötig?
 ![Spannungsfreiheit](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/test_for_current.jpg)<!-- style="width: 350px" -->
 
 
-<a  href="https://pixabay.com/de/photos/sicherung-sicher-strom-elektrizit%C3%A4t-631745/" target=_blank>Quelle: BG ETEM</a>
+<a  href="https://pixabay.com/de/photos/sicherung-sicher-strom-elektrizit%C3%A4t-631745/" target=_blank>_Quelle: BG ETEM_</a>
 
 </div>
 </section> 
@@ -222,27 +222,28 @@ Wie viele Prüfvorgänge zum Feststellen der Spannungsfreiheit sind hier nötig?
 ## Aufputzinstallation
 
 
-----------------
 
-<!--style="color:blue; font-weight: bolder;"-->
+<!--style="color:grey; font-weight: bolder; font-size: large"-->
 Welche Aussagen zur Verlegung von Leitungen bei der Aufputzinstallation sind korrekt?   🤔
 ===
 
-<!--style="font-weight: bolder;"-->Der maximale Abstand zwischen zwei Befestigungsschellen bei waagerechter Verlegung von Leitungen beträgt 30 cm.
+------
+
+<!--style="color:blue; font-weight: bolder; font-size: large"-->Der maximale Abstand zwischen zwei Befestigungsschellen bei waagerechter Verlegung von Leitungen beträgt 30 cm.
 
 - [( )] falsch
 - [(X)] wahr
 
 ---------
 
-<!--style="font-weight: bolder;"-->Der maximale Abstand zwischen zwei Befestigungsschellen bei waagerechter Verlegung von Leitungen beträgt 25 cm.
+<!--style="color:blue; font-weight: bolder; font-size: large"-->Der maximale Abstand zwischen zwei Befestigungsschellen bei waagerechter Verlegung von Leitungen beträgt 25 cm.
 
 - [(X)] falsch
 - [( )] wahr
 
 ---------------
 
-<!--style="font-weight: bolder;"-->Bei senkrechter Verlegung dürfen Schellen weiter auseinanderliegen als bei waagerechter.
+<!--style="color:blue; font-weight: bolder; font-size: large"-->Bei senkrechter Verlegung dürfen Schellen weiter auseinanderliegen als bei waagerechter.
 
 - [( )] falsch
 - [(X)] wahr
@@ -250,7 +251,7 @@ Welche Aussagen zur Verlegung von Leitungen bei der Aufputzinstallation sind kor
 --------------------
 
 
-<!--style="font-weight: bolder;"-->Der Biegeradius darf bei flexiblen Leitungen kleiner sein als bei festen Leitungen.
+<!--style="color:blue; font-weight: bolder; font-size: large"-->Der Biegeradius darf bei flexiblen Leitungen kleiner sein als bei festen Leitungen.
 
 - [( )] falsch
 - [(X)] wahr
@@ -258,9 +259,9 @@ Welche Aussagen zur Verlegung von Leitungen bei der Aufputzinstallation sind kor
 
 ## Reihen- und Parallelschaltung
 
-<!--style="color:blue; font-weight: bolder;"-->
+<!--style="color:blue; font-weight: bolder; font-size: large"-->
 Welche Aussagen zu Reihen- und Parallelschaltungen von Widerständen sind korrekt?   🤔
-===
+
 
 <section class="flex-container">
 
@@ -287,9 +288,9 @@ Welche Aussagen zu Reihen- und Parallelschaltungen von Widerständen sind korrek
 
 ------
 
-<!--style="color:blue; font-weight: bolder;"-->
+<!--style="color:blue; font-weight: bolder; font-size: large"-->
 Ordnen Sie zu, ob die jeweilige Aussage zur Reihen- oder Parallelschaltung gehört?   🤔
-===
+
 
 <!-- data-randomize -->
 - [[Reihenschaltung] (Parallelschaltung) ]
@@ -331,8 +332,7 @@ Dazu gehören, z. B.:
 <div class="flex-child" style="min-width: 150px">
 ![SHK-Experte](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/arbeitsschutz.jpg)<!-- style="width: 500px" -->
 
-
-<a  href="https://www.seton.de/arbeitsunfaelle-schilder-schutzkleidung-psa" target=_blank>Quelle: Seton.de</a>
+_Quelle: generiert durch DALL-E von OpenAI
 
 </div>
 </section> 
@@ -481,6 +481,11 @@ Dazu gehören, z. B.:
 </div>
 </section> 
 
--------------------
 
-<!--style="color:green; font-weight: bolder;font-size:large"-->Geschafft ! 👏
+
+## Geschafft ! 👏
+
+![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 700px" --> 
+
+_Quelle: Pixabay, geralt_
+
