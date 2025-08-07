@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.6
+version:  0.0.7
 
 language: de
 
@@ -61,15 +61,15 @@ Fügetechnik - Werkstücke und Bauteile aus gleichen und unterschiedlichen Werks
 
 </div>
 <div class="flex-child">
-![Lötlampe](img/loetlampe.jpg) <!-- style="height: 300px" -->
+![Lötlampe](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/loetlampe.jpg) <!-- style="height: 300px" -->
 </div>
 <div class="flex-child">
-![Rohrinstallation](img/rohrinstallation.jpg) <!-- style="height: 300px" -->
+![Rohrinstallation](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/rohrinstallation.jpg) <!-- style="height: 300px" -->
 
 </div>
 </section>
 
-_Quelle: Pixabay_
+_Quelle: Pixabay, Ken Boyd (Bild links)_
 
 ## Überprüfungsaufgaben
 
@@ -79,7 +79,9 @@ _Quelle: Pixabay_
 
 <!--style="font-size: large"-->Mit den folgenden Fragen können Sie Ihr erworbenes Wissen überprüfen - viel Erfolg!
 
->_Hinweis: Es können mehrere Antworten richtig sein!_<!--style="color:blue; font-weight: bolder;"-->
+_Hinweis: Es können mehrere Antworten richtig sein!_<!--style="color:red; font-weight: bolder;"-->
+
+-----------
 
 
 <section class="flex-container" style="padding: 1rem;">
@@ -87,22 +89,22 @@ _Quelle: Pixabay_
 
 </div>
 <div class="flex-child">
-__Bild 1:__
-![Hartlöten](img/hartloeten.jpg) <!-- style="height: 300px" -->
+<!--style="font-weight: bolder; color: blue"-->Bild 1:
+![Hartlöten](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/hartloeten.jpg) <!-- style="height: 300px" -->
 </div>
 <div class="flex-child">
-__Bild 2:__
-![Weichlöten](img/weichloeten.jpg) <!-- style="height: 300px" -->
+<!--style="font-weight: bolder; color: blue"-->Bild 2:
+![Weichlöten](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/weichloeten.jpg) <!-- style="height: 300px" -->
 
 </div>
 </section>
 
 _Arbeitsgänge für Hart- und Weichlöten. Quelle: Strobel-Verlag. Bilder: BrazeTec GmbH, Hanau_,
-https://www.ikz.de/ikz-praxis-archiv/p0108/010808.php_ 
+_https://www.ikz.de/ikz-praxis-archiv/p0108/010808.php _
 
 ----
 
-<!--style="font-size: Large; font-weight: bolder;"-->Ordnen Sie die Bilder dem Arbeitsvorgang "Hartlöten" oder "Weichlöten" zu:
+<!--style="font-weight: bolder; color: blue"-->Ordnen Sie die Bilder dem Arbeitsvorgang "Hartlöten" oder "Weichlöten" zu:
 
 
 
@@ -113,13 +115,13 @@ https://www.ikz.de/ikz-praxis-archiv/p0108/010808.php_
 
 ### 1. Vorbereitende Arbeitsschritte beim Hart- und Weichlöten
 
-<!--style="font-size: Large; font-weight: bolder;"-->Bringen Sie die vorbereitenden Arbeitsschritte in die richtige Reihenfolge:
+<!--style="font-weight: bolder; color: blue"-->Bringen Sie die vorbereitenden Arbeitsschritte in die richtige Reihenfolge:
 
 @dragdroporder(@uid,Kalibrieren|Entgraten|Ablängen|Reinigen,Ablängen|Entgraten|Kalibrieren|Reinigen)
 
 ### 2. Einsatzgebiete des Hart- und Weichlötens
 
-<!--style="font-size: Large; font-weight: bolder;"-->Entscheiden Sie, welche Fügetechnik für welchen Installationsbereich zulässig ist:
+<!--style="font-weight: bolder; color: blue"-->Entscheiden Sie, welche Fügetechnik für welchen Installationsbereich zulässig ist:
 
 <!-- data-randomize -->
 - [[Hartlöten] [Weichlöten]]
@@ -135,12 +137,12 @@ https://www.ikz.de/ikz-praxis-archiv/p0108/010808.php_
 
 ### 3. Das richtige Biegen
 
-__Worauf ist beim Biegen geschweißter Rohre zu achten?__<!--style="font-size: Large; font-weight: bolder;"-->
+<!--style="font-weight: bolder; color: blue"-->Worauf ist beim Biegen geschweißter Rohre zu achten?
 
 3.1. Wie wird die im Bild mit "X"<!--style="color: red; font-weight: bolder;"--> gekennzeichnete Linie bezeichnet?
 ===
 
-![Neutrale Faser_Landefeld](img/landefeld.jpg) <!-- style="width: 600px" -->
+![Neutrale Faser_Landefeld](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/landefeld.jpg) <!-- style="width: 600px" -->
 
 <!-- data-randomize -->
 - [( )] Biegeachse
@@ -155,7 +157,7 @@ __Worauf ist beim Biegen geschweißter Rohre zu achten?__<!--style="font-size: L
 ===
 
 <!-- data-randomize -->
-_Beim Biegen geschweißter Rohre ist darauf zu achten, dass die Rohrnaht in der [[ ( neutralen Faser ) | Innenseite | Außenseite | kürzeren Seite | längeren Seite ]] liegt._<!--style="color:green; font-weight: bolder;"-->
+_Beim Biegen geschweißter Rohre ist darauf zu achten, dass die Rohrnaht in der [[ ( neutralen Faser ) | Innenseite | Außenseite | kürzeren Seite | längeren Seite ]] liegt._<!--style="color:blue; font-weight: bolder;"-->
 
 
 ### 4. Flussmittel beim Löten
@@ -166,7 +168,7 @@ Die Schmelztemperatur des Lotes liegt [[ oberhalb   |  gleich  | (unterhalb)]] d
 
 ----
 
-<!--style="font-size: Large; font-weight: bolder;"-->Welche Aufgaben hat das Flussmittel?
+<!--style="font-weight: bolder; color: blue"-->Welche Aufgaben hat das Flussmittel?
 
 <!-- data-randomize -->
 - [[ ]] das Werkstück zu kühlen
@@ -176,14 +178,14 @@ Die Schmelztemperatur des Lotes liegt [[ oberhalb   |  gleich  | (unterhalb)]] d
 - [[X]] Verhindern, dass sich neue Oxidschichten während der Erwärmung bilden
 - [[ ]] Entfernen jeder Art von Verschmutzung
 
-<!--style="font-size: Large; font-weight: bolder;"-->Zu welcher Farbe wechselt das Weichlötflussmittel bei Erwärmung? Ziehen Sie die richtige Antwort in das Feld.
+<!--style="font-weight: bolder; color: blue"-->Zu welcher Farbe wechselt das Weichlötflussmittel bei Erwärmung? Ziehen Sie die richtige Antwort in das Feld.
 
 <!-- data-randomize -->
 @dragdropmultiple(@uid,Silber,Gold |Grün|Weiß|Blau)
 
 ### 5.1 Fehler beim Rohrbiegen I
 
-<!--style="font-size: Large; font-weight: bolder;"-->Ein geschweißtes Rohr reißt beim Biegen auf. Was könnte die Ursache sein?
+<!--style="font-weight: bolder; color: blue"-->Ein geschweißtes Rohr reißt beim Biegen auf. Was könnte die Ursache sein?
 
 <!-- data-randomize -->
 - [( )] Die Schweißnaht war auf der neutralen Faser.
@@ -194,7 +196,7 @@ Die Schmelztemperatur des Lotes liegt [[ oberhalb   |  gleich  | (unterhalb)]] d
 
 -----
 
-<!--style="font-size: Large; font-weight: bolder;"-->Wie kann beim Biegen von Stahlrohren ein Knicken der Rohrwandung verhindert werden?
+<!--style="font-weight: bolder; color: blue"-->Wie kann beim Biegen von Stahlrohren ein Knicken der Rohrwandung verhindert werden?
 
 <!-- data-randomize -->
 - [[ ]] durch Zwischenkühlen des Rohres
@@ -206,7 +208,7 @@ Die Schmelztemperatur des Lotes liegt [[ oberhalb   |  gleich  | (unterhalb)]] d
 
 ### 5.2 Fehler beim Rohrbiegen II
 
-<!--style="font-size: Large; font-weight: bolder;"-->Welche Fehler können beim Rohrbiegen auftreten?
+<!--style="font-weight: bolder; color: blue"-->Welche Fehler können beim Rohrbiegen auftreten?
 
 <!-- data-randomize -->
 - [[X]] Ovalisierung des Rohrquerschnittes bei der Biegung
@@ -218,7 +220,7 @@ Die Schmelztemperatur des Lotes liegt [[ oberhalb   |  gleich  | (unterhalb)]] d
 
 ----
 
-<!--style="font-size: Large; font-weight: bolder;"-->Entscheiden Sie, ob die folgenden Aussagen wahr oder falsch sind.
+<!--style="font-weight: bolder; color: blue"-->Entscheiden Sie, ob die folgenden Aussagen wahr oder falsch sind.
 
 
 a) Um einen präzisen Biegeradius zu erzielen, ist das Material einmal grob vorzubiegen.
@@ -244,7 +246,7 @@ d) Für Rohre mit sehr geringer Wandstärke sollte besonders auf den Biegeradius
 
 ### 6. Schweißen mit Acetylen-Sauerstoff
 
-<!--style="font-size: Large; font-weight: bolder;"-->Bringen Sie die Arbeitsschritte in die richtige Reihenfolge. 
+<!--style="font-size: Large; font-weight: bolder;color: grey"-->Bringen Sie die Arbeitsschritte in die richtige Reihenfolge. 
 
 Arbeitsvorbereitung<!--style="color:blue; font-weight: bolder;"-->
 
@@ -259,10 +261,16 @@ Arbeitsvorbereitung<!--style="color:blue; font-weight: bolder;"-->
 
 ----
 
-<!--style="font-size: Large; font-weight: bolder;"-->Welcher Druck ist am Druckminderer für Acetylen einzustellen?
+<!--style="font-size: Large; font-weight: bolder;color: blue"-->Welcher Druck ist am Druckminderer für Acetylen einzustellen?
 
 - [( )] 25 bar
 - [( )] 10 bar
 - [( )] 2,5 bar
 - [(X)] 0,5 bar
 - [( )] 0,01 bar
+
+## Super gemacht 👌
+
+![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 700px" --> 
+
+_Quelle: Pixabay, geralt_
