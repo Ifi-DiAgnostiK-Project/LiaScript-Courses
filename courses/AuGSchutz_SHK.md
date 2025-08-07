@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.5
+version:  0.0.6
 
 language: de
 
@@ -162,7 +162,7 @@ _Quelle: BGHM_
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Schweißer](img/worker.jpg)<!-- style="width: 350px" -->
+![Schweißer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/worker.jpg)<!-- style="width: 350px" -->
 
 
 <a  href="https://www.zehnder-cleanairsolutions.com/de/blog/gefahren-beim-schweissen" target=_blank>Quelle: Zehnder-Cleanairsolutions.com</a>
@@ -204,7 +204,7 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Gasanzünder](img/gas_welding_flame.jpg)<!-- style="width: 150px" -->
+![Gasanzünder](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/gas_welding_flame.jpg)<!-- style="width: 150px" -->
 
 
 <a  href="https://www.vbg.de/zeitarbeit-fb/fragebogen/10/" target=_blank>Alle Bilder: VGB</a>
@@ -233,7 +233,7 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Elektro-Handschweißen](img/welding_mask.jpg)<!-- style="width: 150px" -->
+![Elektro-Handschweißen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/welding_mask.jpg)<!-- style="width: 150px" -->
 
 
 </div>
@@ -258,7 +258,7 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![](img/gas_welding.jpg)<!-- style="width: 150px" -->
+![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/gas_welding.jpg)<!-- style="width: 150px" -->
 
 
 </div>
@@ -287,7 +287,7 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Schweißer](img/welding_with_protective_gear.jpg)<!-- style="width: 150px" -->
+![Schweißer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/welding_with_protective_gear.jpg)<!-- style="width: 150px" -->
 
 
 <a  href="https://www.vbg.de/zeitarbeit-fb/fragebogen/10/" target=_blank>Alle Bilder: VGB</a>
@@ -314,7 +314,7 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Schweißerbrille](img/goggles.jpg)<!-- style="width: 150px" -->
+![Schweißerbrille](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/goggles.jpg)<!-- style="width: 150px" -->
 
 </div>
 
@@ -337,7 +337,7 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Feuerlöscher](img/fire_extinguisher.jpg)<!-- style="width: 150px" -->
+![Feuerlöscher](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fire_extinguisher.jpg)<!-- style="width: 150px" -->
 
 </div>
 
@@ -362,7 +362,7 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Kennzeichnung](img/machine.jpg)<!-- style="width: 150px" -->
+![Kennzeichnung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/machine.jpg)<!-- style="width: 150px" -->
 
 
 <a  href="https://www.vbg.de/zeitarbeit-fb/fragebogen/10/" target=_blank>Alle Bilder: VGB</a>
@@ -389,7 +389,7 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![fehlerhafte Isolierung](img/no_schweissen.jpg)<!-- style="width: 150px" -->
+![fehlerhafte Isolierung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/no_schweissen.jpg)<!-- style="width: 150px" -->
 
 </div>
 
@@ -416,7 +416,7 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Löten2](img/soldering_station.jpg)<!-- style="width: 150px" -->
+![Löten2](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/soldering_station.jpg)<!-- style="width: 150px" -->
 
 </div>
 
@@ -439,7 +439,7 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Löten1](img/dangers_of_soldering.jpg)<!-- style="width: 150px" -->
+![Löten1](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/dangers_of_soldering.jpg)<!-- style="width: 150px" -->
 
 </div>
 
@@ -460,7 +460,7 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 </div>
 
 <div class="flex-child" style="min-width: 150px">
-![Löten3](img/soldering.jpg)<!-- style="width: 150px" -->
+![Löten3](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/soldering.jpg)<!-- style="width: 150px" -->
 
 </div>
 
