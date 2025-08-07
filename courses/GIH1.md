@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.4
+version:  0.0.5
 
 language: de
 
@@ -64,35 +64,42 @@ Bearbeitungsverfahren fachbezogener Rohrwerkstoffe
 
 </div>
 <div class="flex-child">
-![Heizungsrohre](img/heizungsrohre.jpg) <!-- style="height: 300px" -->
+![Heizungsrohre](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/heizungsrohre.jpg) <!-- style="height: 300px" -->
 </div>
 <div class="flex-child">
-![HWK SHK-Raum](img/shkraum.jpg) <!-- style="height: 300px" -->
+![HWK SHK-Raum](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/shkraum.jpg) <!-- style="height: 300px" -->
 
 </div>
 </section>
 
 _Quellen:_
-_Bild links: Pixabay, 
+_Bild links: Pixabay; Bild rechts: GKZ_
 
 ## Überprüfungsaufgaben
 
 
-<!--style="font-size: large;font-weight: bold"-->Sie haben in den letzten Tagen Werkzeuge und Grundhandgriffe in der Bearbeitung von Rohrwerkstoffen kennengelernt und eingeübt.
+<!--style="color: grey; font-size: large"-->Sie haben in den letzten Tagen Werkzeuge und Grundhandgriffe in der Bearbeitung von Rohrwerkstoffen kennengelernt und eingeübt. <br> Mit den folgenden Fragen können Sie Ihr erworbenes Wissen überprüfen.
+
+<!--style="color:red; font-weight: bolder;"-->Hinweis: Es können mehrere Antworten richtig sein.
+
+------------------
 
 
-<!--style="font-size: large;font-weight: bold"-->Mit den folgenden Fragen können Sie Ihr erworbenes Wissen überprüfen - viel Erfolg!
 
->_Hinweis: Es können mehrere Antworten richtig sein!_<!--style="color:blue; font-weight: bolder;"-->
+![SHK_Werkzeugkasten](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/werkzeugkasten.jpg)<!-- style="width: 700px" --> 
 
 
-![SHK_Werkzeugkasten](img/werkzeugkasten.jpg)
+
+_Quelle: HWK Dresden, Florian Riefling_
+
+----------
+
+<!--style="color:blue; font-weight: bolder; font-size: large"-->Viel Erfolg!
 
 
 ## 1. Was bedeutet der Arbeitsgang "schlichten"?
 
-Ziehen Sie die richtigen Antworten in das Antwortfeld.
-===
+<!--style="color:blue; font-weight: bolder"-->Ziehen Sie die richtigen Begriffe in das Antwortfeld.
 
 ----------------------
 
@@ -103,8 +110,8 @@ Ziehen Sie die richtigen Antworten in das Antwortfeld.
 
 ## 2. Die Hiebnummern
 
-Die Hiebnummern H1, H2 und H3 bei der Feile stehen für:
-===
+<!--style="color:blue; font-weight: bolder"-->Die Hiebnummern H1, H2 und H3 bei der Feile stehen für:
+
 
 <!-- data-randomize -->
 - [[X]] Die Hiebnummer H1 bezeichnet eine grobe Feile.
@@ -117,8 +124,8 @@ Die Hiebnummern H1, H2 und H3 bei der Feile stehen für:
 
 ## 3. Die Abwicklung eines Werkstücks
 
-Die Abwicklung eines Werkstücks beschreibt...
-===
+<!--style="color:blue; font-weight: bolder"-->Die Abwicklung eines Werkstücks beschreibt...
+
 
 <!-- data-randomize -->
 - [[X]] die entfaltete Darstellung eines Werkstücks.
@@ -129,8 +136,8 @@ Die Abwicklung eines Werkstücks beschreibt...
 
 ## 4. Bohren
 
-Für ein Gewinde M10 ist welches Loch vorzubohren?
-===
+<!--style="color:blue; font-weight: bolder"-->Für ein Gewinde M10 ist welches Loch vorzubohren?
+
 
 <!-- data-randomize -->
 - [(X)] Ø 8,5 mm, da M10 eine Steigung von 1,5 mm hat
@@ -140,7 +147,7 @@ Für ein Gewinde M10 ist welches Loch vorzubohren?
 
 ## 5. Das Z-Maß
 
-<!--style="font-size: large;font-weight: bold"-->Vervollständigen Sie die Sätze.
+<!--style="color:blue; font-weight: bolder"-->Vervollständigen Sie die Sätze.
 
 
 Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="color:orange;"--> wird auch als [[ Einbaumitte   |  Einbaum  | (Einbaumaß)]] bezeichnet.
@@ -155,7 +162,7 @@ Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="col
 
 -----------------------
 
-<!--style="font-size: large;font-weight: bold"-->Grundlage für die Bestimmung und Anwendung des z-Maßes bildet der Grundsatz:
+<!--style="color:blue; font-weight: bolder"-->Grundlage für die Bestimmung und Anwendung des z-Maßes bildet der Grundsatz:
 
 <!-- data-randomize -->
 - [( )] einheitliches Messen - Mitte - Rand - Mitte = M
@@ -163,7 +170,7 @@ Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="col
 
 -------------------------
 
-<!--style="font-size: large;font-weight: bold"-->Die z-Maß-Methode bedingt:
+<!--style="color:blue; font-weight: bolder"-->Die z-Maß-Methode bedingt:
 
 <!-- data-randomize -->
 - [[X]] genaue Abklärung der Leitungsführung
@@ -172,7 +179,7 @@ Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="col
 - [[ ]] einschlägige Rechenprogramme für die notwendigen Berechnungen
 - [[X]] einheitliches Messverfahren
 
-### Gestreckte Längen berechnen I
+## 6. Gestreckte Längen berechnen I
 
 <!--style="font-size: large;font-weight: bold"-->Zur Erinnerung:
 
@@ -186,13 +193,13 @@ $\pi$ $\text{=}$ $3,14$
 
 
 <!-- style="width: 350px;" -->
-![Kreis mit Durchmesser](img/KreismitDurchmesser.png)
+![Kreis mit Durchmesser](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/KreismitDurchmesser.png)
 
-_Quelle:_ https://lernarchiv.bildung.hessen.de/sek/mathematik/geometrie/kreis/kreiszahl_pi/lernpfad_pi/index.html 
+_Quelle: https://lernarchiv.bildung.hessen.de/sek/mathematik/geometrie/kreis/kreiszahl_pi/lernpfad_pi/index.html _
 
 -------------
 
-<!--style="font-size: large;font-weight: bold"-->Was beschreibt die gestreckte Länge eines Rohrs?
+<!--style="color:blue; font-weight: bolder"-->Was beschreibt die gestreckte Länge eines Rohrs?
 
 <!-- data-randomize -->
 - [( )] Die gebogene Länge nach dem Einbau
@@ -200,7 +207,7 @@ _Quelle:_ https://lernarchiv.bildung.hessen.de/sek/mathematik/geometrie/kreis/kr
 - [( )] Den Außendurchmesser
 - [( )] Die Wandstärke
 
-#### Gestreckte Längen berechnen II
+### Gestreckte Längen berechnen II
 
 
 Die gestreckte<!--style="font-weight: bold"--> Länge<!--style="font-weight: bold"--> ist die Summer aller 
@@ -236,7 +243,7 @@ Die neutrale<!--style="font-weight: bold"--> Faser<!--style="font-weight: bold"-
 - [( )] durch Zug oder durch Druck
 - [( )] im Wert von $\pi$
 
-#### Gestreckte Längen berechnen III
+### Gestreckte Längen berechnen III
 
 <!--style="font-size: large"-->Die gestreckte Länge eines Fallrohrs Ø ${100}$ $\text{mm}$ soll berechnet werden. 
 
@@ -244,7 +251,7 @@ Die neutrale<!--style="font-weight: bold"--> Faser<!--style="font-weight: bold"-
 
 <!--style="font-size: large"-->2. Gebogener Abschnitt: $\text{90°-Bogen}$ $\text{=}$ $l_{2}$<!-- style="color: orange" -->
 
-<!--style="font-size: large;font-weight: bold"-->Wie lang muss das Ausgangsrohr mindestens sein, damit es nach dem Biegen exakt passt?
+<!--style="color:blue; font-weight: bolder"-->Wie lang muss das Ausgangsrohr mindestens sein, damit es nach dem Biegen exakt passt?
 
 $l_{1}$ $\text{=}$ [[  600  ]] $\text{mm}$
 
@@ -263,7 +270,11 @@ Die Länge $l_{2}$ beträgt [[  78,5  ]] $\text{mm}$
 
 $l_{1}$ $\text{=}$ [[  600  ]] $\text{mm}$ $\text{+}$ $l_{2}$  [[  78,5  ]] $\text{mm}$ $\text{=}$ [[  678,5  ]] $\text{mm}$ 
 
----
 
-Super gemacht 👌
-===
+
+## Super gemacht 👌
+
+![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 700px" --> 
+
+_Quelle: Pixabay, geralt_
+
