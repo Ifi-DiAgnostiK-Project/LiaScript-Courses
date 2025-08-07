@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.3
+version:  0.0.4
 
 language: de
 
@@ -325,8 +325,6 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 - [[X]] Schichtdickenmessgerät (Lack)
 - [[X]] Lupe
 
-
-><!--style="color:red"-->_HWK: Vollständig richtige Vorgaben in einem Quiz sind didaktisch nicht sinnvoll. <br> Bitte noch Prüfgerät-Bilder zur Verfügung stellen._
 
 ### Prüfgeräte für Untergrundprüfungen II
 
