@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.6
+version:  0.0.7
 
 language: de
 
@@ -86,8 +86,7 @@ Dazu gehören, z. B.:
 <div class="flex-child" style="min-width: 150px">
 ![SHK_Experte](img/schutzkleidung.jpg)<!-- style="width: 500px" -->
 
-
-<a  href="https://www.seton.de/arbeitsunfaelle-schilder-schutzkleidung-psa" target=_blank>Quelle: Seton.de</a>
+_Quelle: generiert durch DALL-E von OpenAI_
 
 </div>
 
