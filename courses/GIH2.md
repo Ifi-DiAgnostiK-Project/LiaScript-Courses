@@ -35,7 +35,7 @@ tags:
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -126,7 +126,7 @@ _https://www.ikz.de/ikz-praxis-archiv/p0108/010808.php _
 <!-- data-randomize -->
 - [[Hartlöten] [Weichlöten]]
 - [    [ ]          [X]     ]  Trinkwasser Cu-Rohr weich (R220)
-- [    [X]          [X]     ]  Trinkwasser Cu-Rohr ziehhart (R290) ab ${d}$ 35 mm 
+- [    [X]          [X]     ]  Trinkwasser Cu-Rohr ziehhart (R290) ab ${d}$ 35 mm
 - [    [X]          [X]     ]  Heizung
 - [    [X]          [X]     ]  Dachrinnen und Regenfallrohre
 - [    [X]          [ ]     ]  Stadt-, Erd-, Flüssiggas
@@ -192,7 +192,7 @@ Die Schmelztemperatur des Lotes liegt [[ oberhalb   |  gleich  | (unterhalb)]] d
 - [(X)] Die Schweißnaht war auf der Innenseite des Bogens.
 - [( )] Das Rohr wurde nicht genügend erwärmt.
 - [( )] Die Elastizitätsgrenze wurde etwas überschritten.
-- [( )] Das Rohr wurde zu schnell verformt. 
+- [( )] Das Rohr wurde zu schnell verformt.
 
 -----
 
@@ -246,7 +246,7 @@ d) Für Rohre mit sehr geringer Wandstärke sollte besonders auf den Biegeradius
 
 ### 6. Schweißen mit Acetylen-Sauerstoff
 
-<!--style="font-size: Large; font-weight: bolder;color: grey"-->Bringen Sie die Arbeitsschritte in die richtige Reihenfolge. 
+<!--style="font-size: Large; font-weight: bolder;color: grey"-->Bringen Sie die Arbeitsschritte in die richtige Reihenfolge.
 
 Arbeitsvorbereitung<!--style="color:blue; font-weight: bolder;"-->
 
@@ -271,6 +271,6 @@ Arbeitsvorbereitung<!--style="color:blue; font-weight: bolder;"-->
 
 ## Super gemacht 👌
 
-![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 700px" --> 
+![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 700px" -->
 
 _Quelle: Pixabay, geralt_

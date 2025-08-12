@@ -52,7 +52,7 @@ jobs:
         run: |
           CHANGED=$(cat changed_files.txt)
           echo "changed_files=${CHANGED}" >> $GITHUB_OUTPUT
-          
+
       - name: Checkout Repository
         uses: actions/checkout@v4
         if: steps.read_changes.outputs.changed_files != ''
@@ -62,7 +62,7 @@ jobs:
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
-        if: steps.read_changes.outputs.changed_files != ''        
+        if: steps.read_changes.outputs.changed_files != ''
         with:
           node-version: '22'
 
@@ -72,7 +72,7 @@ jobs:
           npm install -g @liascript/exporter
 
       - name: Export & Release for Each Changed File
-        if: steps.read_changes.outputs.changed_files != ''      
+        if: steps.read_changes.outputs.changed_files != ''
         run: |
           set -euo pipefail
           mkdir -p build
@@ -140,7 +140,7 @@ jobs:
         if: steps.read_changes.outputs.changed_files != ''
         run: |
           python generate_project_yaml.py
-      
+
       - name: Debug output
         if: steps.read_changes.outputs.changed_files != ''
         run: |

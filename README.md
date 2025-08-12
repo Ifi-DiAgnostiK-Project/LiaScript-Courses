@@ -68,7 +68,7 @@ oder als Liste:
 
 ```markdown
 <!--
-tags: 
+tags:
 - Tischler
 - Grundkurs
 - Anlagenwissen

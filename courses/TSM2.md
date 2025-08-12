@@ -14,7 +14,7 @@ comment:  TSM 2
 edit: true
 date: 2025-06-30
 
-tags: 
+tags:
   - TSM
   - Tischler
 
@@ -34,7 +34,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -53,13 +53,13 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
 # Verständnisfragen TSM 2
 
 
---{{1}}-- 
+--{{1}}--
 
 <!-- --{{}}--
 Verständnisfragen TSM Grundlehrgang 2
 -->
 
-Schauen Sie sich das Video der Berufsgenossenschaft an. Beantworten Sie dann die folgenden Fragen, indem Sie die richtigen Antworten ankreuzen. Es können auch mehrere richtig sein. 
+Schauen Sie sich das Video der Berufsgenossenschaft an. Beantworten Sie dann die folgenden Fragen, indem Sie die richtigen Antworten ankreuzen. Es können auch mehrere richtig sein.
 
 <!-- --{{1}}--
 Schauen Sie sich das Video der Berufsgenossenschaft an. Beantworten Sie dann die folgenden Fragen, indem du die richtigen Antworten ankreuzt. Es können mehrere Antworten richtig sein.
@@ -70,11 +70,11 @@ __Viel Erfolg!__
 
 ??[BGHM Tischbandsäge Teil 1](https://player.vimeo.com/video/519896815)
 
---{{2}}--  
+--{{2}}--
 
 <!-- --{{Erstens}}--
 Welche Aussage trifft für das Arbeiten an Bandsägen zu?
-a. Bandsägen müssen bei geringen Einsatzzeiten nicht abgesaugt werden. 
+a. Bandsägen müssen bei geringen Einsatzzeiten nicht abgesaugt werden.
 b. Die obere Sägeblattführung ist knapp über Werkstückdicke einzustellen.
 c. Da die Maschine bereits Sicherheitseinrichtungen besitzt, braucht das Bandsägeblatt nicht besonders abgesichert sein.
 -->
@@ -82,11 +82,11 @@ c. Da die Maschine bereits Sicherheitseinrichtungen besitzt, braucht das Bandsä
 1. __Welche Aussage trifft für das Arbeiten an Bandsägen zu?__
 ===
 
-- [[X]]  a) Bandsägen müssen bei geringen Einsatzzeiten nicht abgesaugt werden. 
+- [[X]]  a) Bandsägen müssen bei geringen Einsatzzeiten nicht abgesaugt werden.
 - [[X]]  b) Die obere Sägeblattführung ist knapp über Werkstückdicke einzustellen.
 - [[ ]]  c) Da die Maschine bereits Sicherheitseinrichtungen besitzt, braucht das Bandsägeblatt nicht besonders abgesichert sein.
 
---{{3}}--  
+--{{3}}--
 
 <!-- --{{Zweitens}}--
 Welche Vorrichtung ist zum Ablängen von Rundholz an der Bandsäge zu verwenden?
@@ -102,7 +102,7 @@ c. Keilstütze oder Prismenführung
 - [( )] b) Spannlade
 - [(X)] c) Keilstütze oder Prismenführung
 
---{{4}}--  
+--{{4}}--
 
 <!-- --{{Drittens}}--
 Warum soll der Zahngrund eines Bandsägeblattes rund geschliffen sein?
@@ -118,7 +118,7 @@ c. Um ein Einreißen des Sägeblattes zu verhindern
 - [( )] b) Weil es sich leichter schneiden lässt
 - [(X)] c) Um ein Einreißen des Sägeblattes zu verhindern
 
---{{5}}--  
+--{{5}}--
 
 <!-- --{{Viertens}}--
 Wie wird die obere Sägeblattführung richtig eingestellt?
@@ -137,10 +137,10 @@ d. Die Einstellung erfolgt nach Augenmaß.
 - [( )] b) Die Einstellung erfolgt nach Augenmaß.
 
 
---{{6}}--  
+--{{6}}--
 
 <!-- --{{Fünftens}}--
-Sehen Sie sich das nächste Video an und beantworten Sie dann die Frage. 
+Sehen Sie sich das nächste Video an und beantworten Sie dann die Frage.
 -->
 
 5. Sehen Sie sich das nächste Video an und beantworte dann die Frage.
@@ -150,18 +150,18 @@ Sehen Sie sich das nächste Video an und beantworten Sie dann die Frage.
 
 <!-- --{{6}}--
 Auf was ist beim Herstellen geschweifter Werkstücke besonders zu achten?
-a. Bei großen, sperrigen Werkstücken muss eine 2. Person mit zufassen. 
-b. Es kann eine Stehhilfe genutzt werden, um die Wirbelsäule zu entlasten. 
+a. Bei großen, sperrigen Werkstücken muss eine 2. Person mit zufassen.
+b. Es kann eine Stehhilfe genutzt werden, um die Wirbelsäule zu entlasten.
 c. Das Werkstück ist nur an den Kanten und mit möglichst großem Abstand zum Sägeblatt zu halten.
-d. Beim Zurückziehen in der Sägeschnittfuge könnte das Bandsägeblatt abspringen und reißen. 
+d. Beim Zurückziehen in der Sägeschnittfuge könnte das Bandsägeblatt abspringen und reißen.
 -->
 
 __Auf was ist beim Herstellen geschweifter Werkstücke besonders zu achten?__
 ===
 
-- [[ ]]  a) Bei großen, sperrigen Werkstücken muss eine 2. Person mit zufassen. 
-- [[X]]  b) Es kann eine Stehhilfe genutzt werden, um die Wirbelsäule zu entlasten. 
+- [[ ]]  a) Bei großen, sperrigen Werkstücken muss eine 2. Person mit zufassen.
+- [[X]]  b) Es kann eine Stehhilfe genutzt werden, um die Wirbelsäule zu entlasten.
 - [[X]]  c) Das Werkstück ist nur an den Kanten und mit möglichst großem Abstand zum Sägeblatt zu halten.
-- [[X]]  d) Beim Zurückziehen in der Sägeschnittfuge könnte das Bandsägeblatt abspringen und reißen. 
+- [[X]]  d) Beim Zurückziehen in der Sägeschnittfuge könnte das Bandsägeblatt abspringen und reißen.
 
 >_Der Text von a) wird bei "2. Person" nicht gut gesprochen._

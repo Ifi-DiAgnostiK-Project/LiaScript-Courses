@@ -23,7 +23,7 @@ tags:
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -165,11 +165,11 @@ Hier steht unser Text, der vorgelesen werden soll.
 <!-- --{{0}}--
 Für welches Aufgabengebiet ist die Berufsgenossenschaft zuständig?
 a. Mutterschutz b. Schutz vor Gefahren am Arbeitsplatz c. Sportunfälle
---> 
+-->
 
 --{{1}}--
 Dieser Text steht auf der Seite und wird vorgelesen.
 
 <!-- --{{2}}--
 Gratulation, Sie haben die Aufgabe erfolgreich gelöst.
---> 
+-->

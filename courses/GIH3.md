@@ -35,7 +35,7 @@ tags:
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -72,7 +72,7 @@ _Quelle: Pixabay, Sondermann (Bild links) und Foto-Rabe (Bild rechts)_
 
 ## Überprüfungsaufgaben I
 
-<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
+<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein.
 
 ----------------
 
@@ -98,7 +98,7 @@ Welche Aufgabe hat eine Sicherung?   🤔
 <a  href="https://pixabay.com/de/photos/sicherung-sicher-strom-elektrizit%C3%A4t-631745/" target=_blank>Quelle: Rabe-Foto, Pixabay</a>
 
 </div>
-</section> 
+</section>
 
 ----------------
 
@@ -123,7 +123,7 @@ Was brauchen Sie als zusätzliche PSA beim Ziehen von NH-Sicherungen?   🤔
 <a  href="https://pixabay.com/de/vectors/elektrische-sicherung-sicherung-155785/" target=_blank>Quelle: OpenClipart-Vectors, Pixabay</a>
 
 </div>
-</section> 
+</section>
 
 ------
 
@@ -155,7 +155,7 @@ Was bedeutet dieses Symbol?   🤔
 
 ## Überprüfungsaufgaben II
 
-<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
+<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein.
 
 ----------------
 
@@ -216,7 +216,7 @@ Wie viele Prüfvorgänge zum Feststellen der Spannungsfreiheit sind hier nötig?
 <a  href="https://pixabay.com/de/photos/sicherung-sicher-strom-elektrizit%C3%A4t-631745/" target=_blank>_Quelle: BG ETEM_</a>
 
 </div>
-</section> 
+</section>
 
 
 ## Aufputzinstallation
@@ -273,7 +273,7 @@ Welche Aussagen zu Reihen- und Parallelschaltungen von Widerständen sind korrek
 - [[X]] In einer Parallelschaltung ist die Spannung an allen Widerständen gleich groß.
 - [[ ]] Der Gesamtwiderstand einer Parallelschaltung ist stets größer als der größte Einzelwiderstand.
 - [[X]] Der Gesamtwiderstand einer Reihenschaltung ist die Summe der Einzelwiderstände.
-- [[X]] In einer Parallelschaltung fließt durch den kleineren Widerstand ein größerer Strom. 
+- [[X]] In einer Parallelschaltung fließt durch den kleineren Widerstand ein größerer Strom.
 </div>
 
 <div class="flex-child" style="min-width: 150px">
@@ -284,7 +284,7 @@ Welche Aussagen zu Reihen- und Parallelschaltungen von Widerständen sind korrek
 
 </div>
 
-</section> 
+</section>
 
 ------
 
@@ -299,8 +299,8 @@ Ordnen Sie zu, ob die jeweilige Aussage zur Reihen- oder Parallelschaltung gehö
 - [       [X]              [ ]           ]  Der Gesamtwiderstand ist größer als jeder Einzelwiderstand.
 - [       [ ]              [X]           ]  Der Strom teilt sich auf die einzelnen Zweige auf.
 - [       [ ]              [X]           ]  Beim Ausfall eines Bauteil funktionieren die anderen weiter.
-- [       [X]              [ ]           ]  $U_{Quelle}$ = $U_{1}$ + $U_{2}$ + $U_{3}$ + ... + $U_{n}$ 
-- [       [X]              [ ]           ]  $I_{Gesamt}$ = $I_{1}$ = $I_{2}$ = $I_{3}$ = ... = $I_{n}$ 
+- [       [X]              [ ]           ]  $U_{Quelle}$ = $U_{1}$ + $U_{2}$ + $U_{3}$ + ... + $U_{n}$
+- [       [X]              [ ]           ]  $I_{Gesamt}$ = $I_{1}$ = $I_{2}$ = $I_{3}$ = ... = $I_{n}$
 
 
 ## Arbeits- und Gesundheitsschutz bei elektrotechnischen Aufgaben 🔌
@@ -308,23 +308,23 @@ Ordnen Sie zu, ob die jeweilige Aussage zur Reihen- oder Parallelschaltung gehö
 <section class="flex-container">
 <div class="flex-child" style="min-width: 250px">
 
-Im SHK-Handwerk arbeiten Sie mit Werkzeugen, Maschinen, Strom, Wasser und Gas – da ist Sicherheit besonders wichtig. 
+Im SHK-Handwerk arbeiten Sie mit Werkzeugen, Maschinen, Strom, Wasser und Gas – da ist Sicherheit besonders wichtig.
 
-Arbeits- und Gesundheitsschutz bedeutet: 
+Arbeits- und Gesundheitsschutz bedeutet:
 
 <!--style="font-weight: bolder;"-->👍 Unfälle vermeiden
 
-<!--style="font-weight: bolder;"-->👍 gesund bleiben 
+<!--style="font-weight: bolder;"-->👍 gesund bleiben
 
 <!--style="font-weight: bolder;"-->👍 aufeinander achten
 
-Dazu gehören, z. B.: 
+Dazu gehören, z. B.:
 
 ✔️ das Tragen von Schutzkleidung
 
 ✔️ sicheres Heben
 
-✔️ sauberes Arbeiten 
+✔️ sauberes Arbeiten
 
 ✔️das Beachten von Regeln auf der Baustelle
 
@@ -335,14 +335,14 @@ Dazu gehören, z. B.:
 _Quelle: generiert durch DALL-E von OpenAI
 
 </div>
-</section> 
+</section>
 
 
 <!--style="font-size: huge; color:blue; font-weight: bolder;"-->Sicheres Arbeiten ist Teamarbeit – und Sie sind ein wichtiger Teil davon.
 
 ### Quizfragen I
 
-<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
+<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein.
 
 ----------------
 
@@ -365,7 +365,7 @@ _Quelle: generiert durch DALL-E von OpenAI
 <a  href="https://www.vbg.de/zeitarbeit-fb/infos/89_szn/" target=_blank>Alle Bilder: VBG</a>
 
 </div>
-</section> 
+</section>
 
 ---------------------
 
@@ -378,7 +378,7 @@ _Quelle: generiert durch DALL-E von OpenAI
 - [[ ]] Für die Demontage von Lampen im Innenbereich ist keine Sicherung auszuschalten.
 - [[X]] Bauleuchten müssen mindestens sprühwassergeschützt sein.
 - [[X]] Auf Baustellen dürfen Elektrogeräte nur am Baustromverteiler angeschlossen werden.
-- [[ ]] Ich kann jedes genormte Leuchtmittel als Bauleuchte verwenden. 
+- [[ ]] Ich kann jedes genormte Leuchtmittel als Bauleuchte verwenden.
 
 </div>
 <div class="flex-child" style="min-width: 150px">
@@ -386,7 +386,7 @@ _Quelle: generiert durch DALL-E von OpenAI
 
 
 </div>
-</section> 
+</section>
 
 --------------------------
 
@@ -408,13 +408,13 @@ _Quelle: generiert durch DALL-E von OpenAI
 
 
 </div>
-</section> 
+</section>
 
 ---------
 
 ### Quizfragen II
 
-<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
+<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein.
 
 ----------------
 
@@ -438,7 +438,7 @@ _Quelle: generiert durch DALL-E von OpenAI
 <a  href="https://www.vbg.de/zeitarbeit-fb/infos/89_szn/" target=_blank>Alle Bilder: VBG</a>
 
 </div>
-</section> 
+</section>
 
 ---------------------
 
@@ -459,7 +459,7 @@ _Quelle: generiert durch DALL-E von OpenAI
 
 
 </div>
-</section> 
+</section>
 
 --------------------------
 
@@ -469,7 +469,7 @@ _Quelle: generiert durch DALL-E von OpenAI
 <div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
-- [[X]] Ich prüfe die Werkzeuge vor dem Arbeitsbeginn auf sichtbare Mängel. 
+- [[X]] Ich prüfe die Werkzeuge vor dem Arbeitsbeginn auf sichtbare Mängel.
 - [[ ]] Die Handgriffe der Werkzeuge sind immer grün = isoliert.
 - [[X]] Auf Schraubendrehern und Zangen sollte sich ein VDE-Prüfzeichen befinden.
 - [[ ]] Bei Verwendung von isoliertem Werkzeug brauche ich keine Spannungsfreiheit herstellen.
@@ -479,13 +479,13 @@ _Quelle: generiert durch DALL-E von OpenAI
 ![Elekro-Werkzeug](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/diverse_tools.jpg)<!-- style="width: 150px" -->
 
 </div>
-</section> 
+</section>
 
 
 
 ## Geschafft ! 👏
 
-![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 700px" --> 
+![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 700px" -->
 
 _Quelle: Pixabay, geralt_
 

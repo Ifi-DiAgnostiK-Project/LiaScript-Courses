@@ -32,9 +32,9 @@ tags:     SHK, Arbeitsschutz, Gesundheitsschutz, Anlagenmechaniker
 <div class="flex-child">
 
 
-Im SHK-Handwerk arbeiten Sie mit Werkzeugen, Maschinen, Strom, Wasser und Gas – da ist Sicherheit besonders wichtig. 
+Im SHK-Handwerk arbeiten Sie mit Werkzeugen, Maschinen, Strom, Wasser und Gas – da ist Sicherheit besonders wichtig.
 
-Arbeits- und Gesundheitsschutz bedeutet: 
+Arbeits- und Gesundheitsschutz bedeutet:
 
 __👍 Unfälle vermeiden__
 
@@ -48,7 +48,7 @@ Dazu gehören, z.B.:
 
 ✔️ sicheres Heben
 
-✔️ sauberes Arbeiten 
+✔️ sauberes Arbeiten
 
 ✔️das Beachten von Regeln auf der Baustelle
 
@@ -83,12 +83,12 @@ _Quelle: BGHM_
 __Entscheiden Sie, welche Maßnahmen des Arbeitssicherheit und Gesundheitsschutz für Löt- und Schweißarbeiten zu beachten sind.  🤔__
 
 <!-- data-randomize -->
-- [[X]] Schutzausrüstung 
+- [[X]] Schutzausrüstung
 - [[X]] Belüftung
-- [[ ]] Abstimmung mit den Kollegen 
+- [[ ]] Abstimmung mit den Kollegen
 - [[X]] Löschmittel in unmittelbarer Nähe
-- [[X]] gereinigte Arbeitsstücke 
-- [[ ]] Beaufsichtigung der Arbeiten durch einen erfahrenen Fachmann 
+- [[X]] gereinigte Arbeitsstücke
+- [[ ]] Beaufsichtigung der Arbeiten durch einen erfahrenen Fachmann
 
 -----------------------
 
@@ -160,8 +160,8 @@ __Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?__
 <div class="flex-child">
 
 <!-- data-randomize -->
-- [( )] Mit einem herkömmlichen Feuerzeug  
-- [(X)] Mit einem speziellen Gasanzünder  
+- [( )] Mit einem herkömmlichen Feuerzeug
+- [(X)] Mit einem speziellen Gasanzünder
 - [( )] Mit einem Streichholz
 
 </div>
@@ -182,11 +182,11 @@ __Was ist beim Elektro-Handschweißen zu beachten? 🤔__
 
 <!-- data-randomize -->
 - [[ ]] Das Massekabel kann ich beliebig verlängern.
-- [[X]] Ich nehme die Elektrode aus dem Elektrodenhalter und lege beides isoliert ab. 
+- [[X]] Ich nehme die Elektrode aus dem Elektrodenhalter und lege beides isoliert ab.
 - [[X]] Zu meiner eigenen Sicherheit habe ich vor Arbeitsbeginn das Schweißgerät und die Leitung auf äußere Beschädigungen zu prüfen.
 - [[ ]] Mit einem beschädigten Elektrodenhalter darf ich weiterarbeiten, wenn ich isolierende Schutzhandschuhe trage.
-- [[ ]] Die elektrische Prüfung der Schweißstromquelle ist meine Aufgabe als Schweißer/Schweißerin. 
-- [[X]] Auch bei kurzfristigen Schweißarbeiten habe ich ein Schutzschild, einen Schutzschirm oder eine Schweißerschutzhaube zu tragen. 
+- [[ ]] Die elektrische Prüfung der Schweißstromquelle ist meine Aufgabe als Schweißer/Schweißerin.
+- [[X]] Auch bei kurzfristigen Schweißarbeiten habe ich ein Schutzschild, einen Schutzschirm oder eine Schweißerschutzhaube zu tragen.
 
 </div>
 
@@ -233,7 +233,7 @@ __Welche Maßnahmen sind bei Schweißarbeiten an Behältern, die entzündbare od
 
 <!-- data-randomize -->
 - [[ ]] Reste der Stoffe sind ungefährlich, solange diese nicht mit dem Lichtbogen des Schweißapparates in Berührung kommen.
-- [[X]] Schweißarbeiten an geschlossenen Behältern darf ich nur unter Aufsicht ausführen. 
+- [[X]] Schweißarbeiten an geschlossenen Behältern darf ich nur unter Aufsicht ausführen.
 - [[X]] Die Behälter müssen gereinigt und mit Wasser oder Schutzgas geflutet werden.
 - [[ ]] Eine gründliche Reinigung der Behälter ist ausreichend.
 

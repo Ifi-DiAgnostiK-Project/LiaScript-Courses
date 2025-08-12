@@ -24,7 +24,7 @@ tags:
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -57,7 +57,7 @@ _Rein Sikk, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via W
 - [( )] Blaues Quadrat mit weißem Symbol
 - [( )] Grünes Rechteck mit weißem Symbol
 - [(X)] Weiße Raute, mit rotem Rand und schwarzem Symbol
-- [( )] Gelbes Dreieck mit schwarzem Symbol 
+- [( )] Gelbes Dreieck mit schwarzem Symbol
 </div>
 <!--class="flex-child"-->
 ![](https://upload.wikimedia.org/wikipedia/commons/3/32/Mathematrix_book_02.svg)

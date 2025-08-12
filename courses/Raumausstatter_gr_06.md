@@ -32,7 +32,7 @@ tags:
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -72,7 +72,7 @@ _Quelle: HWK Dresden, André Wirsing_
 
 
 
-## 1. Welche genannten Teile gehören zu einem Schnellnäher? 
+## 1. Welche genannten Teile gehören zu einem Schnellnäher?
 
 Ziehe die richtigen Antworten in das Feld.
 ===
@@ -92,7 +92,7 @@ _Kleiner Tipp: 10 Angaben sind richtig_ 😄 - Erst nach den 10 richtigen Auswah
 
 
 
-## 2. Was ist beim Zuschneiden von Dekorationsstoffen zu beachten? 
+## 2. Was ist beim Zuschneiden von Dekorationsstoffen zu beachten?
 
 Klicke alle richtigen Angaben an!
 ===
@@ -115,7 +115,7 @@ Klicke alle richtigen Angaben an!
 
 
 
-## 3. Welche Polsteruntergründe kennen Sie? 
+## 3. Welche Polsteruntergründe kennen Sie?
 
 Ordnen Sie richtig zu!
 ===
@@ -144,7 +144,7 @@ Ordnen Sie richtig zu!
 >_Cool wäre auch ein Tool, in dem ich auf die richtigen Begriffe tippe. Auch hier steht immer gleich die Frage von den Ausbildern: Wie wird bei Mehrfachauswahl zurückgemeldet, wenn die gegebene Einzelantwort richtig bzw. falsch war? Bis jetzt tippe ich "blind" an und erfahre erst das Gesamtergebnis - und hier auch nicht, wie viele Einzelfehler für die Gesamt-falsche Antwort gemacht worden sind._
 
 
-## 4. Welche Nahtarten gehören zu den Handnähten? 
+## 4. Welche Nahtarten gehören zu den Handnähten?
 
 Entscheiden Sie sich für die richtige Handnaht: 🤷‍♀️
 ===
@@ -152,28 +152,28 @@ Entscheiden Sie sich für die richtige Handnaht: 🤷‍♀️
 >_Randomize funktioniert hier nicht innerhalb der Antworten! Ich würde gern die Auswahlantworten nebeneinander setzen._
 
 <!-- data-randomize -->
-[[ (verzogener Stich) | __vorgezogener Stich__]] 
+[[ (verzogener Stich) | __vorgezogener Stich__]]
 
 <!-- data-randomize -->
-[[ (überwendlicher Stich) | __überwundener Stich__]] 
+[[ (überwendlicher Stich) | __überwundener Stich__]]
 
 <!-- data-randomize -->
-[[ Kettelnaht | (__Rückstich__)  ]] 
+[[ Kettelnaht | (__Rückstich__)  ]]
 
 <!-- data-randomize -->
-[[ (Zierstich) | __Verbindungsnaht__]] 
+[[ (Zierstich) | __Verbindungsnaht__]]
 
 <!-- data-randomize -->
-[[ Säbelstich | (__Schwertstich__)  ]] 
+[[ Säbelstich | (__Schwertstich__)  ]]
 
 
 
 >_Hier wäre auch cool, beide Schreibweisen nebeneinander stehen zu haben und der Azubi klickt seine Wahl an._
 
 
-## 5. Welche Bodenbeläge verarbeitet der Raumausstatter ~~nicht~~? 
+## 5. Welche Bodenbeläge verarbeitet der Raumausstatter ~~nicht~~?
 
-Wähle die entsprechenden Antworten aus. 
+Wähle die entsprechenden Antworten aus.
 ===
 
 <!-- data-randomize -->
@@ -196,7 +196,7 @@ Wähle die entsprechenden Antworten aus.
 >Hier wäre ein Anklick-Tool besser. Die Auswahlliste ist (zu) lang. Alternativ soll aus den vorgegebenen Begriffen immer 5 Antwortmöglichkeiten in unterschiedlicher Zusammensetzung "falsch-richtig" vom System vorgegeben werden._
 
 
-## 6. Sie haben verschiedene Tapezierwerkzeuge kennengelernt. 
+## 6. Sie haben verschiedene Tapezierwerkzeuge kennengelernt.
 
 Ordnen Sie richtig zu!
 ===

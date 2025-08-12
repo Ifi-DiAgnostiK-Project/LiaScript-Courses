@@ -34,7 +34,7 @@ LiaScript Badges
 
 Dieses Modul zeigt dir, wie du mathematische Ausdrücke in **[LiaScript](https://liascript.github.io)** mit LaTeX-Matheausdrücken schreibst.
 
-> ℹ️ LiaScript basiert auf Markdown, unterstützt aber nur **`$...$`** zur Darstellung mathematischer Formeln.  
+> ℹ️ LiaScript basiert auf Markdown, unterstützt aber nur **`$...$`** zur Darstellung mathematischer Formeln.
 
 
 ---
@@ -72,7 +72,7 @@ Mit `$$` lässt sich eine Mathe Umgebung über mehrere Zeilen etablieren.
 
 | Eingabe               | Bedeutung                         |
 | --------------------- | --------------------------------- |
-| `$x^2$`               | Hochzahl: $x^2$  | 
+| `$x^2$`               | Hochzahl: $x^2$  |
 | `$a_1$`               | Tiefstellung: $ a_1 $           |
 | `$\frac{a}{b}$`       | Bruch: $ \frac{a}{b} $          |
 | `$\sqrt{x}$`          | Wurzel: $ \sqrt{x} $            |
@@ -122,7 +122,7 @@ Was ist die Lösung von $x = 2+3$ (Leerzeile ist hiernach wichtig!)
 Frage 2
 ============
 
-> Lösungen werden mit 2 Linien definiert *** 
+> Lösungen werden mit 2 Linien definiert ***
 
 
 Was ergibt $x = \sum_{i=1}^4 i$?
@@ -140,7 +140,7 @@ x = 1+2+3+4
 Frage 3: Flächeninhalt eines Kreises
 =================
 
-Gegeben: Ein Kreis mit dem Radius $r = 5$.  
+Gegeben: Ein Kreis mit dem Radius $r = 5$.
 Berechne den Flächeninhalt $A$ auf zwei Dezimalstellen.
 
 [[78,54]]
@@ -156,7 +156,7 @@ $$
 Frage 4: Quadratische Gleichung
 ============
 
-Gegeben: $x^2 - 5x + 6 = 0$  
+Gegeben: $x^2 - 5x + 6 = 0$
 Finde die Nullstellen mit der Mitternachtsformel:
 
 $x_1=$
@@ -227,7 +227,7 @@ Die Lösung $x_2$ ist übrigens der berühmte **Goldene Schnitt**.
 
 
 
-Frage 6: Mathe-Quiz 
+Frage 6: Mathe-Quiz
 =================
 
 Was ist $6 + 6$?

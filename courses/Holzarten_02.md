@@ -2,11 +2,11 @@
 author:   Volker Göhler; Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
- 
+
 version:  0.0.2
- 
+
 language: de
- 
+
 narrator: Deutsch Male
 
 edit: true
@@ -25,7 +25,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/
 
 title: Holzarten II
 
-tags: 
+tags:
     - Tischler
     - Holzarten
 
@@ -60,7 +60,7 @@ tags:
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -74,7 +74,7 @@ tags:
 @end
 
 -->
- 
+
 # Überprüfen Sie Ihr Wissen zu den Holzarten II
 
 Teil 2
@@ -102,11 +102,11 @@ _Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-ab
 
 ## Zu welcher Holzart gehört folgende Beschreibung?
 
-<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
+<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein.
 
 -----------------
 
-<!--style="color: green"  -->Dieses Holz besitzt einen hohen Harzgehalt, oft mit sichtbaren Harzkanälen. 
+<!--style="color: green"  -->Dieses Holz besitzt einen hohen Harzgehalt, oft mit sichtbaren Harzkanälen.
 <br>
 Es kann in der Regel für Innen- und Außengestaltungen eingesetzt werden.
 <br>
@@ -142,7 +142,7 @@ Welche Hölzer sind typischerweise hell in der Farbe?
 
 </div>
 
-</section> 
+</section>
 
 ## Welche Holzarten haben keine Harzkanäle?
 
@@ -181,7 +181,7 @@ _Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-ab
 
 ## Holzarten und ihre Verwendungsmöglichkeiten
 
-<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
+<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein.
 
 -----------------
 
@@ -210,7 +210,7 @@ _Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-ab
 
 </div>
 
-</section> 
+</section>
 
 -------------------
 
@@ -218,12 +218,12 @@ _Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-ab
 ===
 
 <!--data-randomize -->
-[[ Robinie | (Eiche) | Teak]] ist wegen seiner auffälligen Fladerung (markante schmale Markstrahlen) und Härte beliebt für hochwertige Böden und rustikale Möbel. 
+[[ Robinie | (Eiche) | Teak]] ist wegen seiner auffälligen Fladerung (markante schmale Markstrahlen) und Härte beliebt für hochwertige Böden und rustikale Möbel.
 
 
 ## Holz - seine Eigenschaften - seine Verwendung
 
-<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
+<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein.
 
 -------------------------
 

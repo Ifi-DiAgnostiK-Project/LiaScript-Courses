@@ -16,7 +16,7 @@ logo:     https://upload.wikimedia.org/wikipedia/commons/5/5c/Bockleiter.png
 comment:  Arbeitssicherheit & Gesundheitsschutz - Leitern I
 
 attribute:
-  - Sicherheitszeichen von [Berufsgenossenschaft Holz und Metall](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen) 
+  - Sicherheitszeichen von [Berufsgenossenschaft Holz und Metall](https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen)
   - title image Von User:Jenkyll - Eigenes Werk, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15880414
 
 link:    style.css
@@ -102,7 +102,7 @@ __Wie sollte eine Anlegeleiter aufgestellt werden?__
 
 <!-- data-randomize -->
 - [( )] Mit einem relativ steilem Anstellwinkel, damit sie wenig Platz braucht.
-- [( )] Mit einem beliebigen Anstellwinkel - Hauptsache sie steht!  
+- [( )] Mit einem beliebigen Anstellwinkel - Hauptsache sie steht!
 - [(x)] Mit einem Anstellwinkel von ca. 70 Grad.
 
 --------------------
@@ -215,7 +215,7 @@ __Was ist bei Arbeiten über drei Meter zusätzlich zu beachten?__
 >
 > Weitere Informationen und alle Sicherheitszeichen finden Sie auf der BGHM-Webseite:
 >
-> https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen 
+> https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen
 
 --------------------
 

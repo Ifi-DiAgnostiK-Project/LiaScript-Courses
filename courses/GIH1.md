@@ -38,7 +38,7 @@ tags:
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -86,7 +86,7 @@ _Bild links: Pixabay; Bild rechts: GKZ_
 
 
 
-![SHK_Werkzeugkasten](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/werkzeugkasten.jpg)<!-- style="width: 700px" --> 
+![SHK_Werkzeugkasten](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/werkzeugkasten.jpg)<!-- style="width: 700px" -->
 
 
 
@@ -117,8 +117,8 @@ _Quelle: HWK Dresden, Florian Riefling_
 - [[X]] Die Hiebnummer H1 bezeichnet eine grobe Feile.
 - [[ ]] Die Angaben H1 bis H3 geben an, wie viel mm Material abzutragen ist.
 - [[X]] Mit H2 wird auch eine Halbschlichtfeile bezeichnet.
-- [[ ]] Die Hiebnummern geben an, wie viel Hiebe zum Materialabtrag nötig sind. 
-- [[ ]] Die Kürzel H1, H2 und H3 stehen für die Vornamen der drei Erfinderbrüder: Hans, Heinrich und Hugo Hieb. 
+- [[ ]] Die Hiebnummern geben an, wie viel Hiebe zum Materialabtrag nötig sind.
+- [[ ]] Die Kürzel H1, H2 und H3 stehen für die Vornamen der drei Erfinderbrüder: Hans, Heinrich und Hugo Hieb.
 - [[X]] H3 steht für Schlicht-Feilen.
 - [[X]] Je höher die Zahl nach dem "H", desto feiner der Hieb.
 
@@ -152,13 +152,13 @@ _Quelle: HWK Dresden, Florian Riefling_
 
 Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="color:orange;"--> wird auch als [[ Einbaumitte   |  Einbaum  | (Einbaumaß)]] bezeichnet.
 
-Es ist der [[ kleinste | (mittlere)   |  größte ]] Abstand zwischen dem eingebaute Rohrende und der Achse des [[ Fichtenings | (Fittings)   |  Frittings ]] oder den Enden von zwei eingebauten Rohren. 
+Es ist der [[ kleinste | (mittlere)   |  größte ]] Abstand zwischen dem eingebaute Rohrende und der Achse des [[ Fichtenings | (Fittings)   |  Frittings ]] oder den Enden von zwei eingebauten Rohren.
 
-Die z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="color:orange;"--> sind aus den [[ Zeichnungen   |  Stücklisten  | (Baulängen)]] abzüglich der mittleren [[ Einschublängen | (Einschraublängen)   |  Einbaulängen ]] zu berechnen. 
+Die z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="color:orange;"--> sind aus den [[ Zeichnungen   |  Stücklisten  | (Baulängen)]] abzüglich der mittleren [[ Einschublängen | (Einschraublängen)   |  Einbaulängen ]] zu berechnen.
 
-Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="color:orange;"--> und ein [[ gutes Lagersystem   |  gutes Miteinander  | (einheitliches Messverfahren)]] sind der Kern der Montage-Methode von Georg Fischer. 
+Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="color:orange;"--> und ein [[ gutes Lagersystem   |  gutes Miteinander  | (einheitliches Messverfahren)]] sind der Kern der Montage-Methode von Georg Fischer.
 
-Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="color:orange;"--> ist das [[ Einbaumaß | ("Konstruktionsmaß")   |  Zeitmaß ]] des Installateurs. 
+Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="color:orange;"--> ist das [[ Einbaumaß | ("Konstruktionsmaß")   |  Zeitmaß ]] des Installateurs.
 
 -----------------------
 
@@ -210,7 +210,7 @@ _Quelle: https://lernarchiv.bildung.hessen.de/sek/mathematik/geometrie/kreis/kre
 ### Gestreckte Längen berechnen II
 
 
-Die gestreckte<!--style="font-weight: bold"--> Länge<!--style="font-weight: bold"--> ist die Summer aller 
+Die gestreckte<!--style="font-weight: bold"--> Länge<!--style="font-weight: bold"--> ist die Summer aller
 
 <!-- data-randomize -->
 - [(X)] geraden und gebogenen Abschnitte
@@ -230,9 +230,9 @@ Die gestreckte<!--style="font-weight: bold"--> Länge<!--style="font-weight: bol
 Gebogene<!--style="font-weight: bold"--> Abschnitte<!--style="font-weight: bold"--> werden mit dieser Formel berechnet:
 
 <!-- data-randomize -->
-- [( )] $l_{b}$<!-- style="color: orange" --> $\text{=}$ $\frac{{Umfang}}{2}$<!--style="font-size: large;font-weight: bold"--> 
+- [( )] $l_{b}$<!-- style="color: orange" --> $\text{=}$ $\frac{{Umfang}}{2}$<!--style="font-size: large;font-weight: bold"-->
 - [( )] $l_{b}$<!-- style="color: orange" --> $\text{=}$ $\pi$ $\cdot$ ${d}$
-- [(X)] $l_{b}$<!-- style="color: orange" --> $\text{=}$ $\frac{\pi {\cdot} {d} {\cdot} {\alpha}}{360}$<!--style="font-size: large;font-weight: bold"--> 
+- [(X)] $l_{b}$<!-- style="color: orange" --> $\text{=}$ $\frac{\pi {\cdot} {d} {\cdot} {\alpha}}{360}$<!--style="font-size: large;font-weight: bold"-->
 
 
 
@@ -245,7 +245,7 @@ Die neutrale<!--style="font-weight: bold"--> Faser<!--style="font-weight: bold"-
 
 ### Gestreckte Längen berechnen III
 
-<!--style="font-size: large"-->Die gestreckte Länge eines Fallrohrs Ø ${100}$ $\text{mm}$ soll berechnet werden. 
+<!--style="font-size: large"-->Die gestreckte Länge eines Fallrohrs Ø ${100}$ $\text{mm}$ soll berechnet werden.
 
 <!--style="font-size: large"-->1. Gerader Abschnitt: ${600}$ $\text{mm}$ $\text{=}$ $l_{1}$<!-- style="color: orange" -->
 
@@ -258,9 +258,9 @@ $l_{1}$ $\text{=}$ [[  600  ]] $\text{mm}$
 <!--style="font-size: large"-->Für die Berechnung des gebogenen Abschnitts benötigst du eine Formel. Wähle die richtige Formel aus:
 
 <!-- data-randomize -->
-- [( )] $l_{2}$<!-- style="color: orange" --> $\text{=}$ $\frac{{Umfang}}{2}$<!--style="font-size: large;font-weight: bold"--> 
+- [( )] $l_{2}$<!-- style="color: orange" --> $\text{=}$ $\frac{{Umfang}}{2}$<!--style="font-size: large;font-weight: bold"-->
 - [( )] $l_{2}$<!-- style="color: orange" --> $\text{=}$ $\pi$ $\cdot$ ${d}$
-- [(X)] $l_{2}$<!-- style="color: orange" --> $\text{=}$ $\frac{\pi {\cdot} {d} {\cdot} {\alpha}}{360}$<!--style="font-size: large;font-weight: bold"--> 
+- [(X)] $l_{2}$<!-- style="color: orange" --> $\text{=}$ $\frac{\pi {\cdot} {d} {\cdot} {\alpha}}{360}$<!--style="font-size: large;font-weight: bold"-->
 
 <!--style="font-size: large"-->Setze in die Formel alle Daten richtig ein.
 
@@ -268,13 +268,13 @@ Die Länge $l_{2}$ beträgt [[  78,5  ]] $\text{mm}$
 
 <!--style="font-size: large"-->Jetzt rechne die Gesamtlänge aus:
 
-$l_{1}$ $\text{=}$ [[  600  ]] $\text{mm}$ $\text{+}$ $l_{2}$  [[  78,5  ]] $\text{mm}$ $\text{=}$ [[  678,5  ]] $\text{mm}$ 
+$l_{1}$ $\text{=}$ [[  600  ]] $\text{mm}$ $\text{+}$ $l_{2}$  [[  78,5  ]] $\text{mm}$ $\text{=}$ [[  678,5  ]] $\text{mm}$
 
 
 
 ## Super gemacht 👌
 
-![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 700px" --> 
+![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 700px" -->
 
 _Quelle: Pixabay, geralt_
 

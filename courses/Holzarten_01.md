@@ -2,11 +2,11 @@
 author:   Jan Franke; Volker Göhler; Hilke Domsch
 
 email:    jan.franke@hwk-dresden.de; volker.goehler@informatik.tu-freiberg.de; hilke.domsch@gkz-ev.de
- 
+
 version:  0.0.6
- 
+
 language: de
- 
+
 narrator: Deutsch Female
 
 edit: true
@@ -24,7 +24,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/
 
 title: Holzarten I
 
-tags: 
+tags:
     - Tischler
     - Holzarten
 
@@ -59,7 +59,7 @@ tags:
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -88,7 +88,7 @@ tags:
 @end
 
 -->
- 
+
 ## Überprüfen Sie Ihr Wissen zu den Holzarten I
 
 Teil 1
@@ -162,7 +162,7 @@ _Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-ab
 
 
 <!--data-randomize -->
-Eiche<!--style="font-weight: bolder;color: green"  --> ist ein sehr widerstandsfähiges Holz und lässt sich daher sehr gut für [[ Tasteninstrumente | (Außenbereiche) | Brandschutzverkleidungen]] verwenden. 
+Eiche<!--style="font-weight: bolder;color: green"  --> ist ein sehr widerstandsfähiges Holz und lässt sich daher sehr gut für [[ Tasteninstrumente | (Außenbereiche) | Brandschutzverkleidungen]] verwenden.
 
 <!--data-randomize -->
 Lärche<!--style="font-weight: bolder;color: green"  --> ist aufgrund seiner [[ groben Holzstruktur |   Astfreiheit   | (hohen Harzhaltigkeit) ]] für Außenverkleidungen sehr gut geeignet.
@@ -226,16 +226,16 @@ _Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-ab
 ## Ordnen Sie die Holzarten ihren typischen Eigenschaften zu
 
 <!--data-randomize -->
-Dieses Holz ist sehr hart, groß-ringporig, hat einen markanten Spiegel und ist hell-mittelbraun: [[ Linde | (Eiche) | Pappel  | Nussbaum ]] . 
+Dieses Holz ist sehr hart, groß-ringporig, hat einen markanten Spiegel und ist hell-mittelbraun: [[ Linde | (Eiche) | Pappel  | Nussbaum ]] .
 
 <!--data-randomize -->
-Dieses Holz ist besonders feinporig und sehr gut zum Schnitzen geeignet. Seine Farbe ist hell-gelblich: [[ (Linde) |  Eiche  | Pappel  | Nussbaum ]] 
+Dieses Holz ist besonders feinporig und sehr gut zum Schnitzen geeignet. Seine Farbe ist hell-gelblich: [[ (Linde) |  Eiche  | Pappel  | Nussbaum ]]
 
 <!--data-randomize -->
-Dieses Holz ist weich, besitzt eine wechselhafte Maserung und wird oft für Sperrholz verwendet: [[ Linde | Eiche | (Pappel)  | Nussbaum ]] 
+Dieses Holz ist weich, besitzt eine wechselhafte Maserung und wird oft für Sperrholz verwendet: [[ Linde | Eiche | (Pappel)  | Nussbaum ]]
 
 <!--data-randomize -->
-Dieses Holz wird für den Möbelbau bevorzug. Es ist mittelhart und dunkelbraun: [[ Linde | Eiche | Pappel  | (Nussbaum) ]] 
+Dieses Holz wird für den Möbelbau bevorzug. Es ist mittelhart und dunkelbraun: [[ Linde | Eiche | Pappel  | (Nussbaum) ]]
 
 ---
 
@@ -243,6 +243,6 @@ Dieses Holz wird für den Möbelbau bevorzug. Es ist mittelhart und dunkelbraun:
 ===
 
 
-![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 500px" --> 
+![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 500px" -->
 
 _Quelle: Pixabay, geralt_

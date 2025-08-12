@@ -48,9 +48,9 @@ Viel Erfolg!
 
 ## Sicherheitszeichen
 
->Im Handwerk sorgen Sicherheitszeichen und der richtige Umgang mit Gefahrstoffen dafür, dass alle gesund und unfallfrei durch den Arbeitsalltag kommen.  <br> Wer die wichtigsten Zeichen kennt und Gefahrstoffe richtig erkennt, schützt nicht nur sich selbst, sondern auch andere. <br> Die Symbole zeigen Ihnen auf einen Blick, was zu tun, zu lassen oder besonders zu beachten ist.  <br> Mit dem Quiz prüfen Sie, wie fit Sie sind beim Thema Sicherheit im Betrieb. wirklich bist!<br> 
+>Im Handwerk sorgen Sicherheitszeichen und der richtige Umgang mit Gefahrstoffen dafür, dass alle gesund und unfallfrei durch den Arbeitsalltag kommen.  <br> Wer die wichtigsten Zeichen kennt und Gefahrstoffe richtig erkennt, schützt nicht nur sich selbst, sondern auch andere. <br> Die Symbole zeigen Ihnen auf einen Blick, was zu tun, zu lassen oder besonders zu beachten ist.  <br> Mit dem Quiz prüfen Sie, wie fit Sie sind beim Thema Sicherheit im Betrieb. wirklich bist!<br>
 
-![Sicher](img/sicher_aus_schildern.jpg)<!-- style="width: 700px" --> 
+![Sicher](img/sicher_aus_schildern.jpg)<!-- style="width: 700px" -->
 
 _Quelle: Pixabay, succo_
 
@@ -197,7 +197,7 @@ __Was ist beim Umgang mit gekennzeichneten Gefahrstoffen zu beachten?__
 >
 > Weitere Informationen und alle Sicherheitszeichen finden Sie auf der BGHM-Webseite:
 >
-> https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen 
+> https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen
 
 --------------------
 

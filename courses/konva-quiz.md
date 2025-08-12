@@ -30,7 +30,7 @@ tags:
             @1
 
             stage.draw();
-            
+
         })();
     }, 100);
 </script>
@@ -45,7 +45,7 @@ tags:
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -98,7 +98,7 @@ const rectY = (stage.height() - rectHeight) / 2;
 const pathData = `
   M ${rectX} ${rectY}
   L ${rectX + rectWidth} ${rectY}
-  L ${rectX + rectWidth} ${rectY + rectHeight} 
+  L ${rectX + rectWidth} ${rectY + rectHeight}
   L ${rectX} ${rectY + rectHeight}
   Z
 `;
@@ -290,7 +290,7 @@ const rectY = (stage.height() - rectHeight) / 2;
 const pathData = `
   M ${rectX} ${rectY}
   L ${rectX + rectWidth} ${rectY}
-  L ${rectX + rectWidth} ${rectY + cutOffY} 
+  L ${rectX + rectWidth} ${rectY + cutOffY}
   L ${rectX + cutOffX} ${rectY + cutOffY}
   L ${rectX + cutOffX} ${rectY + rectHeight}
   L ${rectX} ${rectY + rectHeight}

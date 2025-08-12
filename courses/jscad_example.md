@@ -42,9 +42,9 @@ const main = () => {
   const leg = translate([2,4,0], cuboid({ size: [1, 1, 5] }))
   const legs = union(leg, mirrorX(leg))
   const legss = union(legs, mirrorY(legs))
-  const plate = translate([0,0,3], cuboid({ size: [8, 12, 1] }))  
+  const plate = translate([0,0,3], cuboid({ size: [8, 12, 1] }))
   const table = colorize(colorNameToRgb('burlywood'), union(legss, plate))
-  
+
   const fliese = translate([2.75,4.9,3.5], cuboid({ size: [1, 1, 0.1] }))
   const fliesen = pattern(pattern(fliese, 1, 6, -1.1), 2, 10, -1.1)
   const fliesen_color = colorize(colorNameToRgb('white'), fliesen)

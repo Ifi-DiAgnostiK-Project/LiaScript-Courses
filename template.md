@@ -8,7 +8,7 @@ edit: true
 comment: <Kommentar hier>
 title: <der Title für die Übersichtsseite>
 
-tags: 
+tags:
   - <Tag1>
   - <Tag2>
 
@@ -33,7 +33,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Bildersammlung/
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }

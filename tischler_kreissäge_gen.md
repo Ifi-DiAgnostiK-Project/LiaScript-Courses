@@ -2,7 +2,7 @@
 
 ## Willkommen
 
-Dieser Kurs vermittelt euch die wesentlichen Kenntnisse und Fertigkeiten zur Bedienung von Tischsägemaschinen, speziell Formatkreissägen, und richtet sich an Auszubildende im Holzhandwerk. 
+Dieser Kurs vermittelt euch die wesentlichen Kenntnisse und Fertigkeiten zur Bedienung von Tischsägemaschinen, speziell Formatkreissägen, und richtet sich an Auszubildende im Holzhandwerk.
 
 ---
 
@@ -57,7 +57,7 @@ Am Ende dieses Kurses kannst du:
 Übungen:
 
 > Rechne um:
-> 
+>
 > `3,50 m = ? cm`
 >
 > `1,20 dm = ? cm`

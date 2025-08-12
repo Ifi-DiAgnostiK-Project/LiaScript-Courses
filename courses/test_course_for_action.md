@@ -25,7 +25,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -39,7 +39,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/
 @end
 
 -->
- 
+
 # Test Course in LiaScript
 
 Pick Wood

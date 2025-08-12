@@ -41,7 +41,7 @@ tags:
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -70,9 +70,9 @@ LiaScript Badges
 __Welches dieser Zeichen ist ein Rettungszeichen?__
 ===
 
- 
 
-> ❓_Bilder sind nicht automatisch verkleinert. Ich hätte gern 3 Bilder nebeneinander._  
+
+> ❓_Bilder sind nicht automatisch verkleinert. Ich hätte gern 3 Bilder nebeneinander._
  ✔
 
 
@@ -139,7 +139,7 @@ Um was für ein Zeichen handelt es sich?
 
 ---
 
-> Wenn du dich jetzt fragst woher die icons herkommen. dann drück im Live Editor mal :  
+> Wenn du dich jetzt fragst woher die icons herkommen. dann drück im Live Editor mal :
 🤖⚒
 
 ---
@@ -168,7 +168,7 @@ Bild c) @Brandschutzzeichen.Brandbekaempfung(10)
 - [[x]] Bild c
 
 
---- 
+---
 
 Frage: Welches der Bilder ist ein Erste Hilfe Zeichen?
 ====

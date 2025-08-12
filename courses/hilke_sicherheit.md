@@ -37,7 +37,7 @@ tags:
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -63,7 +63,7 @@ tags:
 
 # Arbeitssicherheit und Gesundheitsschutz
 
---{{0}}-- 
+--{{0}}--
 
 [](https://liascript.github.io/LiveEditor/liascript/index.html?#1)<!-- --{{0}}--
 Arbeitssicherheit und Gesundheitsschutz
@@ -144,14 +144,14 @@ __Zeile 3:__
 
 ## 1. Brandschutzzeichen
 
---{{0}}--  
+--{{0}}--
 
 <!-- --{{}}--
 Wie sehen Brandschutzzeichen typischerweise aus?
 Blaues Quadrat mit weißem Symbol
 Grünes Rechteck mit weißem Symbol
 Rotes Quadrat oder Rechteck mit weißem Symbol oder
-Gelbes Dreieck mit schwarzem Symbol 
+Gelbes Dreieck mit schwarzem Symbol
 -->
 
 __Wie sehen Brandschutzzeichen typischerweise aus?__
@@ -161,9 +161,9 @@ __Wie sehen Brandschutzzeichen typischerweise aus?__
 - [( )] Blaues Quadrat mit weißem Symbol
 - [( )] Grünes Rechteck mit weißem Symbol
 - [(X)] Rotes Quadrat oder Rechteck mit weißem Symbol
-- [( )] Gelbes Dreieck mit schwarzem Symbol 
+- [( )] Gelbes Dreieck mit schwarzem Symbol
 
---{{1}}--  
+--{{1}}--
 
 <!-- --{{}}--
 Was bildet das Zeichen ab?
@@ -177,10 +177,10 @@ __Was bildet das Zeichen ab?__
 <!-- data-randomize -->
 [[ Ein Haus steht in Flammen. | __Fluchtweg erfolgt über Leitern.__ | (Hier befindet sich eine Feuerleiter.) ]]
 
---{{2}}--  
+--{{2}}--
 
 <!-- --{{}}--
-Ordnen Sie das jeweilige Symbol im Bild 1, 2 und 3 der richtigen Bedeutung zu. 
+Ordnen Sie das jeweilige Symbol im Bild 1, 2 und 3 der richtigen Bedeutung zu.
 -->
 
 __Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.__
@@ -199,7 +199,7 @@ __Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.__
 
 ## 2. Rettungszeichen
 
---{{0}}--  
+--{{0}}--
 
 <!-- --{{}}--
 Welches dieser Zeichen ist ein Rettungszeichen?
@@ -216,7 +216,7 @@ __Welches dieser Zeichen ist ein Rettungszeichen?__
 
 >_Wo kann ich den Rückmeldetext ändern? Ich hätte gern bei einer falschen Antwort: "Das war leider nicht richtig. Versuch's nochmal!👋"_
 
---{{1}}--  
+--{{1}}--
 
 <!-- --{{}}--
 Füllen Sie den Lückentext aus.
@@ -227,7 +227,7 @@ __Füllen Sie den Lückentext aus.__
 
 <!-- data-randomize -->
 Das Rettungszeichen für den [[ Sammelpunkt | (Notausgang) | Sani-Kasten]] ist grün und zeigt eine laufende Person mit einem Pfeil.
-Rettungszeichen sind immer in der Farbe [[ rot |   blau   | (grün) ]] gehalten. 
+Rettungszeichen sind immer in der Farbe [[ rot |   blau   | (grün) ]] gehalten.
 
 Die Bedeutung der Rettungszeichen ist europaweit [[ unterschiedlich |   in den meisten Symbolen gleich   | (standardisiert) ]].
 Die Rettungszeichen befinden sich in der Regel [[ in öffentlichen Gebäuden |   (in Fluren und Ausgängen)  | in Lagerräumen ]].
@@ -235,10 +235,10 @@ Die Rettungszeichen befinden sich in der Regel [[ in öffentlichen Gebäuden |  
 
 >_Wie kann ich einen Absatz zwischen den Sätzen schalten? Geht eine Aufgabe wie Lückentext auch mit Randomizen?_
 
---{{2}}--  
+--{{2}}--
 
 <!-- --{{}}--
-Ordnen Sie das jeweilige Symbol im Bild 1, 2 und 3 der richtigen Bedeutung zu. 
+Ordnen Sie das jeweilige Symbol im Bild 1, 2 und 3 der richtigen Bedeutung zu.
 -->
 
 __Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.__
@@ -256,7 +256,7 @@ __Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.__
 
 ## 3. Kennen Sie die Sicherheitszeichen?
 
---{{0}}--  
+--{{0}}--
 
 <!-- --{{}}--
 Ordnen Sie die Zeichen den passenden Beschreibungen zu.
@@ -275,7 +275,7 @@ Verbot von offenem Feuer
 - [    ( )                                     ( )                                      (X)     ]  Verbot von offenem Feuer
 
 
---{{1}}--  
+--{{1}}--
 
 <!-- --{{0}}--
 Wahr oder falsch?
@@ -292,7 +292,7 @@ __Das Symbol "Schutzbrille tragen" ist ein blaues, rundes Gebotszeichen.__
 
 > _"Gebotszeichen" wird von KI seltsam ausgesprochen._
 
---{{2}}--  
+--{{2}}--
 
 <!-- --{{0}}--
 Was bedeutet das folgende Zeichen?
@@ -311,7 +311,7 @@ c) Feuerlöscher
 - [( )] Erste-Hilfe-Kasten
 - [(X)] Feuerlöscher
 
---{{3}}--  
+--{{3}}--
 
 <!-- --{{0}}--
 Lückentext:
@@ -321,10 +321,10 @@ Das Zeichen mit einer laufenden Person und einem Pfeil auf grünem Hintergrund k
 3.4 __Lückentext:__
 ===
 
-Das Zeichen mit einer laufenden Person und einem Pfeil auf grünem Hintergrund kennzeichnet einen [[ Sammelpunkt | (Notausgang) | Sani-Kasten]]. 
+Das Zeichen mit einer laufenden Person und einem Pfeil auf grünem Hintergrund kennzeichnet einen [[ Sammelpunkt | (Notausgang) | Sani-Kasten]].
 
 
---{{4}}--  
+--{{4}}--
 
 <!-- --{{}}--
 Ordnen Sie die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:
@@ -342,7 +342,7 @@ Ordnen Sie die abgebildeten Sicherheitszeichen dem richtigen Begriff zu:
 - [    ( )              (X)                      ( )     ]  Schutzhelm tragen
 
 
---{{5}}--  
+--{{5}}--
 
 <!-- --{{0}}--
 Wofür steht dieses Zeichen?
@@ -360,12 +360,12 @@ Wofür steht dieses Zeichen?
 
 ## 4. Aussagen rund um den Arbeits- und Gesundheitsschutz
 
---{{0}}--  
+--{{0}}--
 
 <!-- --{{0}}--
-Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz. 
+Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz.
 Entscheiden Sie, ob die folgenden Aussagen wahr oder falsch sind. Es können mehrere Antworten richtig sein.
---> 
+-->
 
 __Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz. Entscheiden Sie, ob die folgenden Aussagen wahr oder falsch sind! Es können mehrere Antworten richtig sein.__
 ===
@@ -374,17 +374,17 @@ __Die nächsten Aussagen drehen sich rund um den Arbeits- und Gesundheitsschutz.
 
 >_Die Aussage "Es können mehrere Antworten richtig sein." hätte ich gern wieder auf einer neuen Zeile = Zeilenumbruch. Wie geht das?_
 
---- 
+---
 
---{{1}}--  
+--{{1}}--
 
 <!-- --{{0}}--
-Erstens. Das Bild mit einer Person auf der Leiter und einer Zahl zeigt an, dass die Leiter von insgesamt drei Personen zu nutzen ist: Eine Person, die hinaufsteigt, und zwei Personen, welche die Leiter sichern. Wahr oder falsch? 
+Erstens. Das Bild mit einer Person auf der Leiter und einer Zahl zeigt an, dass die Leiter von insgesamt drei Personen zu nutzen ist: Eine Person, die hinaufsteigt, und zwei Personen, welche die Leiter sichern. Wahr oder falsch?
 -->
 
 ![Die oberen 3 Sprossen nicht nutzen](https://github.com/vgoehler/DiAgnostiK_Bilder_Test/blob/main/img/Leitern/Die_obersten_3_Sprossen_nicht_besteigen.jpg?raw=true) <!-- style="width: 130px" -->
 
-__1. Das Bild mit einer Person auf der Leiter und einer Zahl zeigt an, dass die Leiter von insgesamt drei Personen zu nutzen ist: Eine Person, die hinaufsteigt, und zwei Personen, welche die Leiter sichern. __ 
+__1. Das Bild mit einer Person auf der Leiter und einer Zahl zeigt an, dass die Leiter von insgesamt drei Personen zu nutzen ist: Eine Person, die hinaufsteigt, und zwei Personen, welche die Leiter sichern. __
 
 [[ wahr | (falsch) ]]
 
@@ -393,7 +393,7 @@ __1. Das Bild mit einer Person auf der Leiter und einer Zahl zeigt an, dass die 
 
 ---
 
---{{2}}--  
+--{{2}}--
 
 <!-- --{{}}--
 Zweitens. Brandschutzzeichen sind immer orange-schwarz. Wahr oder falsch?
@@ -405,7 +405,7 @@ __2. Brandschutzzeichen sind immer orange-schwarz. __
 
 ---
 
---{{3}}--  
+--{{3}}--
 
 <!-- --{{}}--
 Drittens. Das Bild bedeutet, dass Leitern nur bei entsprechenden Witterungsbedingungen genutzt werden dürfen. Wahr oder falsch?
@@ -420,7 +420,7 @@ __3. Das Bild bedeutet, dass Leitern nur bei entsprechenden Witterungsbedingunge
 ---
 
 
---{{4}}--  
+--{{4}}--
 
 <!-- --{{}}--
 Viertens. Diese Abbildung zeigt, dass bei der Arbeit kein Wasser aus dem Gartenschlauch entnommen werden darf. Wahr oder falsch?
@@ -435,7 +435,7 @@ __4. Diese Abbildung zeigt, dass kein Wasser versprüht werden darf.__
 
 ---
 
---{{5}}--  
+--{{5}}--
 
 <!-- --{{}}--
 Fünftens. Dieses Symbol meint: Achtung: Diebstahlgefahr! Wahr oder falsch?
@@ -450,7 +450,7 @@ __5. Dieses Symbol meint: Achtung: Diebstahlgefahr!__
 ---
 
 
---{{6}}--  
+--{{6}}--
 
 <!-- --{{}}--
 Sechstens. Warum sind Brandschutzzeichen wichtig? Wahr oder falsch?
@@ -493,7 +493,7 @@ __6. Warum sind Brandschutzzeichen wichtig?__
 ---
 
 
---{{7}}--  
+--{{7}}--
 
 <!-- --{{}}--
 Siebentens. Was bedeutet dieses Schild? Entweder: Klappbügel befindet sich hier. Oder: Fluchttür befindet sich hier. Oder: Wartung beziehungsweise Reparatur freischalten.
@@ -509,7 +509,7 @@ __7. Was bedeutet dieses Schild?__
 
 ---
 
---{{8}}--  
+--{{8}}--
 
 <!-- --{{}}--
 Achtens. Ordnen Sie die Schilder den richtigen Begriffen zu!
@@ -529,7 +529,7 @@ __8. Ordnen Sie die Schilder den richtigen Begriffen zu!__
 
 ---
 
---{{9}}--  
+--{{9}}--
 
 <!-- --{{}}--
 Neuntens. Wo müssen Brandschutzzeichen angebracht werden? Entweder: Nur im Büro. Oder: Überall, wo sich Brandschutzeinrichtungen befinden. Oder: Nur in der Werkstatt. Oder: Nur im Lager.
@@ -546,11 +546,11 @@ __9. Wo müssen Brandschutzzeichen angebracht werden?__
 ---
 
 
---{{10}}--  
+--{{10}}--
 
 
 <!-- --{{}}--
-Zehntens. Füllen Sie den Lückentext richtig aus. 
+Zehntens. Füllen Sie den Lückentext richtig aus.
 -->
 
 
@@ -569,7 +569,7 @@ Arbeitgeber sind verpflichtet, Arbeitsunfälle und [[ Feiertage |  __Überstunde
 ---
 
 
---{{10}}--  
+--{{10}}--
 
 <!-- --{{}}--
 Können Sie  diese Zuordnungsaufgabe lösen? - Ziehen Sie alle Gebotszeichen in das Antwortfeld.
@@ -579,21 +579,21 @@ __11. Ziehen Sie alle Gebotszeichen in das Antwortfeld!__ 🤔
 
 
 <!-- data-randomize -->
-@dragdropmultiple(@uid,@Gebotszeichen.Uebergang.src,@Rettungszeichen.Arzt.src|@Leitern.Maximale_Belastung.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Richtungspfeil_Rechts_unten.src|) 
+@dragdropmultiple(@uid,@Gebotszeichen.Uebergang.src,@Rettungszeichen.Arzt.src|@Leitern.Maximale_Belastung.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Richtungspfeil_Rechts_unten.src|)
 
 >_Ich habe herausgefunden, dass Drag&Drop funktioniert, wenn ich ganz oben in der Internetleiste den Button "Seite neu laden" drücke._
 
 ----
 
---{{11}}--  
+--{{11}}--
 
 
 <!-- --{{}}--
 Wenn Sie noch mehr wissen wollen, finden Sie mehr Informationen und alle Sicherheitszeichen auf der BGHM-Website - siehe Link.
 -->
 
-__Tipp:__ 
-Weitere Informationen und alle Sicherheitszeichen finden Sie auf der BGHM-Webseite: https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen 
+__Tipp:__
+Weitere Informationen und alle Sicherheitszeichen finden Sie auf der BGHM-Webseite: https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen
 
 
 ## 5. Arbeitssicherheit und Gesundheitsschutz: Leitern
@@ -604,28 +604,28 @@ narrator: Deutsch Male
 
 >_Ich würde ab hier eine männliche Stimme haben. Leider funktioniert das bei mir nicht. </article> Des Weiteren möchte ich im nachfolgenden Text Absätze schalten. Wie macht man das?._
 
-  
+
 
 <!-- --{{0}}--
 Arbeits- und Gesundheitsschutz: Schwerpunkt Leitern.
---> 
+-->
 
---{{1 Deutsch Male}}--   
+--{{1 Deutsch Male}}--
 
 <!-- --{{}}--
 Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten.
---> 
+-->
 
-Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten. 
+Leitern werden im Arbeitsalltag häufig genutzt. Sie sind oft Auslöser für Unfälle. Es ist wichtig, die grundlegenden Sicherheitsregeln zu kennen und zu beachten.
 -----------------------------------
 
 ---
 
---{{2}}--   
+--{{2}}--
 
 <!-- --{{}}--
 Schau dir das nachfolgende Video an.
---> 
+-->
 
 
 **Schauen Sie sich als Erstes das Video an.**
@@ -635,11 +635,11 @@ Schau dir das nachfolgende Video an.
 
 _Quelle: Lehre fördern_
 
---{{3}}--   
+--{{3}}--
 
 <!-- --{{}}--
-Testen Sie nun Ihr Wissen! 
---> 
+Testen Sie nun Ihr Wissen!
+-->
 
 
 __Testen Sie nun Ihr Wissen!__
@@ -651,8 +651,8 @@ __Testen Sie nun Ihr Wissen!__
     --{{0}}--
 
 <!-- --{{0}}--
-Erstens. Welche Maßnahme ist vor jeder Benutzung einer Leiter zwingend erforderlich? a) Die Leiter darf nur in sauberem Zustand genutzt werden. b) Die Leiter ist auf Beschädigungen und Standsicherheit zu kontrollieren. c) Es braucht immer eine zweite Person, um die Leiter zu sichern. 
---> 
+Erstens. Welche Maßnahme ist vor jeder Benutzung einer Leiter zwingend erforderlich? a) Die Leiter darf nur in sauberem Zustand genutzt werden. b) Die Leiter ist auf Beschädigungen und Standsicherheit zu kontrollieren. c) Es braucht immer eine zweite Person, um die Leiter zu sichern.
+-->
 
 >_Wie kann ich die Reihenfolge mischen - auch in den Antworten - wenn ich aber die a), b) und c) vorlesen lasse?_
 
@@ -666,7 +666,7 @@ __1. Welche Maßnahme ist vor jeder Benutzung einer Leiter zwingend erforderlich
 
 - [( )] a) Die Leiter darf nur in sauberem Zustand genutzt werden.
 - [(x)] b) Die Leiter ist auf Beschädigungen und Standsicherheit zu kontrollieren.
-- [( )] c) Es braucht immer eine zweite Person, um die Leiter zu sichern. 
+- [( )] c) Es braucht immer eine zweite Person, um die Leiter zu sichern.
 
 
 </div>
@@ -678,31 +678,31 @@ __1. Welche Maßnahme ist vor jeder Benutzung einer Leiter zwingend erforderlich
 
 </div>
 
-</section> 
+</section>
 
 
 ---
 
---{{1}}--   
+--{{1}}--
 
 <!-- --{{0}}--
 Zweitens. Wie sollte eine Anlegeleiter aufgestellt werden? a) Mit einem relativ steilem Anstellwinkel, damit sie wenig Platz braucht. b) Mit einem beliebigen Anstellwinkel - Hauptsache sie steht! c) Mit einem Anstellwinkel von ca. 70 Grad.
---> 
+-->
 
 
 __2. Wie sollte eine Anlegeleiter aufgestellt werden?__
 
 - [( )] a) Mit einem relativ steilem Anstellwinkel, damit sie wenig Platz braucht.
-- [( )] b) Mit einem beliebigen Anstellwinkel - Hauptsache sie steht!  
+- [( )] b) Mit einem beliebigen Anstellwinkel - Hauptsache sie steht!
 - [(x)] c) Mit einem Anstellwinkel von ca. 70 Grad.
 
 ---
 
---{{2}}--   
+--{{2}}--
 
 <!-- --{{0}}--
-Drittens. Was ist beim Transport von Werkzeugen auf der Leiter zu beachten? a) Werkzeug darf in den Hosentaschen und am Gürtel getragen werden. b) Leichtes Werkzeug darf mitgenommen werden, wenn beide Hände zum Festhalten frei bleiben. c) Es dürfen alle für die Arbeit benötigten Werkzeuge auf die Leiter mitgenommen werden. 
---> 
+Drittens. Was ist beim Transport von Werkzeugen auf der Leiter zu beachten? a) Werkzeug darf in den Hosentaschen und am Gürtel getragen werden. b) Leichtes Werkzeug darf mitgenommen werden, wenn beide Hände zum Festhalten frei bleiben. c) Es dürfen alle für die Arbeit benötigten Werkzeuge auf die Leiter mitgenommen werden.
+-->
 
 
 <section class="flex-container">
@@ -714,7 +714,7 @@ __3. Was ist beim Transport von Werkzeugen auf der Leiter zu beachten?__
 
 - [( )] a) Werkzeug darf in den Hosentaschen und am Gürtel getragen werden.
 - [(x)] b) Leichtes Werkzeug darf mitgenommen werden, wenn beide Hände zum Festhalten frei bleiben.
-- [( )] c) Es dürfen alle für die Arbeit benötigten Werkzeuge auf die Leiter mitgenommen werden. 
+- [( )] c) Es dürfen alle für die Arbeit benötigten Werkzeuge auf die Leiter mitgenommen werden.
 
 
 </div>
@@ -725,15 +725,15 @@ __3. Was ist beim Transport von Werkzeugen auf der Leiter zu beachten?__
 <a  href="https://www.freepik.com/free-ai-image/3d-cartoon-scene-depicting-variety-people-multitasking_152373509.htm" target=_blank>Quelle: Freepik</a>
 </div>
 
-</section> 
+</section>
 
 ---
 
---{{3}}--   
+--{{3}}--
 
 <!-- --{{0}}--
 Viertens. Wann darf eine Leiter als Arbeitsplatz genutzt werden? a) Immer, wenn sie verfügbar ist. Damit ist flexibles Arbeiten möglich. b) Im Ausnahmefall auch für längere Arbeiten, wenn kein Gerüst da ist und flexibel gearbeitet werden soll. c) Nur für kurzzeitige Arbeiten, wenn keine andere Alternative möglich ist.
---> 
+-->
 
 __4. Wann darf eine Leiter als Arbeitsplatz genutzt werden?__
 
@@ -743,26 +743,26 @@ __4. Wann darf eine Leiter als Arbeitsplatz genutzt werden?__
 
 ---
 
---{{4}}--   
+--{{4}}--
 
 <!-- --{{0}}--
-Fünftens. Wie sollte eine Leiter gekennzeichnet sein, um sie für die Arbeit zu nutzen? a) Die Leiter muss das GS-Zeichen (geprüfte Sicherheit) und zusätzlich die EN 131-Kennzeichnung tragen. b) Die Leiter muss das GS-Zeichen (geprüfte Sicherheit) haben. c) Die Leiter braucht ein Prüfkennzeichen des Firmeninhabers oder Vorarbeiters, dass die Leiter sicher ist. 
---> 
+Fünftens. Wie sollte eine Leiter gekennzeichnet sein, um sie für die Arbeit zu nutzen? a) Die Leiter muss das GS-Zeichen (geprüfte Sicherheit) und zusätzlich die EN 131-Kennzeichnung tragen. b) Die Leiter muss das GS-Zeichen (geprüfte Sicherheit) haben. c) Die Leiter braucht ein Prüfkennzeichen des Firmeninhabers oder Vorarbeiters, dass die Leiter sicher ist.
+-->
 
 
 __5. Wie sollte eine Leiter gekennzeichnet sein, um sie für die Arbeit zu nutzen?__
 
 - [(X)] a) Die Leiter muss das GS-Zeichen (geprüfte Sicherheit) und zusätzlich die EN 131-Kennzeichnung tragen.
 - [( )] b) Die Leiter muss das GS-Zeichen (geprüfte Sicherheit) haben.
-- [( )] c) Die Leiter braucht ein Prüfkennzeichen des Firmeninhabers oder Vorarbeiters, dass die Leiter sicher ist. 
+- [( )] c) Die Leiter braucht ein Prüfkennzeichen des Firmeninhabers oder Vorarbeiters, dass die Leiter sicher ist.
 
 ---
 
---{{5}}--   
+--{{5}}--
 
 <!-- --{{0}}--
 Sechstens. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten? a) Es braucht eine zweite Person, die die andere sichert.  b) Es muss eine Absturzsicherung vorhanden sein. c) Die Leiter darf nicht verwendet werden.
---> 
+-->
 
 
 <section class="flex-container">
@@ -772,7 +772,7 @@ Sechstens. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten? a) Es 
 
 __6. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten?__
 
-- [( )] a) Es braucht eine zweite Person, die die andere sichert. 
+- [( )] a) Es braucht eine zweite Person, die die andere sichert.
 - [(x)] b) Es muss eine Absturzsicherung vorhanden sein.
 - [( )] c) Die Leiter darf nicht verwendet werden.
 
@@ -784,20 +784,20 @@ __6. Was ist bei Arbeiten über drei Meter zusätzlich zu beachten?__
 <a  href="https://de.freepik.com/vektoren-kostenlos/fuehrung-konzept-in-flachen-stil_3198072.htm" target=_blank>Quelle: Freepik</a>
 </div>
 
-</section> 
+</section>
 
 
 ---
 
 ## Quiz: Sicherer Umgang mit Leitern II
 
---{{0}}--   
+--{{0}}--
 
 <!-- --{{}}--
 Beachten Sie bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen.
---> 
+-->
 
-Beachten Sie bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen. 
+Beachten Sie bei der Verwendung von Leitern immer die relevanten Sicherheitsregeln und Vorschriften. Durch regelmäßige Kontrolle, richtige Auswahl und sachgemäßen Umgang lassen sich Unfälle vermeiden und die Gesundheit schützen.
 
 ---
 __Können Sie die Bilder der richtigen Bedeutung zuordnen?__ 🤔
@@ -915,7 +915,7 @@ __Welche Symbole regeln den Umgang mit Leitern?__ 🤔
 
 
 >_Leider funktioniert diese Anleitung bei mir nicht zuverlässig. 😥__
-> 
+>
 > Hier ist die Anleitung: `@dragdropmultiple(@uid, richtige, falsche)`
 > Die Bilder mit | aneinandreihen und immer die src Varianten verwenden `@Leitern.Anlegewinkel_beachten.src` z.B.
 > Ist aber noch sehr Buggy, ich frag mal Niklas !
@@ -929,7 +929,7 @@ __Welche Symbole regeln den Umgang mit Leitern?__ 🤔
 __Die Bilder gehören zu Warn-, Verbots- oder Gebotszeichen. Aber welche Symbole regeln den Umgang mit Leitern bei der Arbeit?__ 🤔
 
 <!-- data-randomize -->
-@dragdropmultiple(@uid,@Leitern.Witterungsbedingungen.src|@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund.src,@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Feuerleiter.src|@Gebotszeichen.Uebergang.src) 
+@dragdropmultiple(@uid,@Leitern.Witterungsbedingungen.src|@Leitern.Stahlspitzen_auf_nachgiebigem_Untergrund.src,@Verbotszeichen.Besteigen_fuer_Unbefugte_verboten.src|@Warnzeichen.Absturzgefahr.src|@Brandschutzzeichen.Feuerleiter.src|@Gebotszeichen.Uebergang.src)
 
 
 ---

@@ -15,7 +15,7 @@ date: 2025-06-27
 
 comment:  TSM 1
 
-tags: 
+tags:
   - Tischler
   - TSM
 
@@ -35,7 +35,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -64,17 +64,17 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Image
 [](https://liascript.github.io/LiveEditor/liascript/index.html?#1)
 
 
---{{1}}-- 
+--{{1}}--
 
 [](https://liascript.github.io/LiveEditor/liascript/index.html?#1)<!-- --{{}}--
 Verständnisfragen TSM Grundlehrgang 1
 -->
 
-Beantworten Sie die folgenden Fragen. Es können auch mehrere richtig sein. 
+Beantworten Sie die folgenden Fragen. Es können auch mehrere richtig sein.
 ===
 
 <!-- --{{1}}--
-Beantworten Sie die folgenden Fragen. Es können auch mehrere richtig sein. 
+Beantworten Sie die folgenden Fragen. Es können auch mehrere richtig sein.
 Viel Erfolg!
 -->
 
@@ -83,12 +83,12 @@ __Viel Erfolg!__
 
 >_Auch hier gilt: Fragen gern mischen! Wie ist das dann aber mit der Nummerierung?_
 
---{{2}}--  
+--{{2}}--
 
 <!-- --{{Erstens}}--
 Für welches Aufgabengebiet ist die Berufsgenossenschaft zuständig?
-a. Mutterschutz 
-b. Schutz vor Gefahren am Arbeitsplatz 
+a. Mutterschutz
+b. Schutz vor Gefahren am Arbeitsplatz
 c. Sportunfälle
 -->
 
@@ -101,7 +101,7 @@ c. Sportunfälle
 
 >_Warum liest die KI-Stimme hier so schnell - in der folgenden Frage mit Vorlesen der AW-Möglichkeiten sind angenehme Pausen?_
 
---{{3}}--  
+--{{3}}--
 
 <!-- --{{Zweitens}}--
 Was ist beim Lagern von Schnittholz zu beachten?
@@ -117,13 +117,13 @@ a. Möglichst hoch stapeln, um Platz zu sparen. b. Für Brettware mit unterschie
 
 
 
---{{4}}--  
+--{{4}}--
 
 <!-- --{{Drittens}}--
 Wie ist der Spaltkeil in Handkreissägemaschinen einzustellen?
 a. Wie bei Tischkreissägen
 b. Bei Handkreissägemaschinen ist der Spaltkeil nicht einstellbar.
-c. Nicht mehr als 5 mm von den Zahnspitzen des Sägeblattes entfernt. 
+c. Nicht mehr als 5 mm von den Zahnspitzen des Sägeblattes entfernt.
 -->
 
 3. __Wie ist der Spaltkeil in Handkreissägemaschinen einzustellen?__
@@ -135,13 +135,13 @@ c. Nicht mehr als 5 mm von den Zahnspitzen des Sägeblattes entfernt.
 
 
 
---{{5}}--  
+--{{5}}--
 
 <!-- --{{Viertens}}--
 Was ist grundsätzlich bei Werkzeugwechsel, Störungen und Reparaturarbeiten an Handmaschinen zu beachten?
 a. Es sind zusätzlich Schutzhandschuhe zu tragen.
 b. Der Netzstecker ist zu ziehen.
-c. Reparaturen an Elektrik / Elektronik dürfen nicht von Auszubildenden vorgenommen werden. 
+c. Reparaturen an Elektrik / Elektronik dürfen nicht von Auszubildenden vorgenommen werden.
 -->
 
 4. __Was ist grundsätzlich bei Werkzeugwechsel, Störungen und Reparaturarbeiten an Handmaschinen zu beachten?__
@@ -151,7 +151,7 @@ c. Reparaturen an Elektrik / Elektronik dürfen nicht von Auszubildenden vorgeno
 - [[X]] b) Der Netzstecker ist zu ziehen.
 - [[X]] c) Reparaturen an Elektrik / Elektronik dürfen nicht von Auszubildenden vorgenommen werden.
 
---{{6}}--  
+--{{6}}--
 
 <!-- --{{Fünftens}}--
 Ergänzen Sie das jeweils fehlende Wort im Text.
@@ -162,14 +162,14 @@ Zum Schneiden quer zur Faserrichtung werden Kreissägeblätter mit ... Spanwinke
 5. __Ergänzen Sie das jeweils fehlende Wort im Text.__
 ===
 
-Zum Schneiden ~~__in__~~ Faserrichtung sind Kreissägeblätter mit [[ (großem) | __kleinem__  | mittlerem]] Spanwinkel zu bevorzugen. 
+Zum Schneiden ~~__in__~~ Faserrichtung sind Kreissägeblätter mit [[ (großem) | __kleinem__  | mittlerem]] Spanwinkel zu bevorzugen.
 
 
-Zum Schneiden ~~__quer__~~ zur Faserrichtung werden Kreissägeblätter mit [[ (kleinem) | __mittlerem__  | mittlerem]] Spanwinkel bevorzugt. 
+Zum Schneiden ~~__quer__~~ zur Faserrichtung werden Kreissägeblätter mit [[ (kleinem) | __mittlerem__  | mittlerem]] Spanwinkel bevorzugt.
 
 
 
---{{7}}--  
+--{{7}}--
 
 <!-- --{{Sechstens}}--
 Die Ziffern an der Tisch- und Formatkreissäge bezeichnen bestimmte Bau- und Maschinenteile. Ordne die Bezeichnungen den Nummern laut Zeichnung richtig zu!
@@ -192,10 +192,10 @@ __Parallelanschlag__: [[ 1 | 2 | 3 | (4) | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13
 __Besäumniederhalter__ (Klemmschuh): [[ 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | (13) ]]<br>
 
 
---{{8}}--  
+--{{8}}--
 
 <!-- --{{Siebentens}}--
-Welches Kreissägeblatt ist abgebildet? 
+Welches Kreissägeblatt ist abgebildet?
 a. Hohl-Trapez-Zahn für beschichtete Platten
 b. Wechselzahn für Massivholz, in und quer zur Faserrichtung
 c. Wechselzahn für furnierte Platten und Massivholz quer zur Faserrichtung
@@ -215,7 +215,7 @@ d. Flachzahn für Rohzuschnitt in Faserrichtung
 
 >_Funktioniert das Randomize bei einer Matrix?_ 🤔 => JA
 
---{{9}}--  
+--{{9}}--
 
 <!-- --{{Achtens}}--
 Welche Piktogramme bezeichnen Teile der persönlichen Schutzausrüstung?
@@ -237,7 +237,7 @@ Welche Piktogramme bezeichnen Teile der persönlichen Schutzausrüstung?
 
 > so ?
 
---{{10}}--  
+--{{10}}--
 
 <!-- --{{Neuntens}}--
 Welche persönlichen Schutzausrüstung (PSA) wird an Handkreissägen benötigt?
@@ -249,13 +249,13 @@ Welche persönlichen Schutzausrüstung (PSA) wird an Handkreissägen benötigt?
 
 <!-- data-randomize -->
 - [ [@Gebotszeichen.Augenschutz(10)] [@Gebotszeichen.Handschuh(10)] [@Gebotszeichen.Gehoerschutz(10)] [@Gebotszeichen.Fussschutz(10)] ]
-- [      [X]    [ ]    [X]   [X]     ]  erforderliche PSA 
+- [      [X]    [ ]    [X]   [X]     ]  erforderliche PSA
 
 
 
 ----
 
---{{11}}--  
+--{{11}}--
 
 <!-- --{{Zehntens}}--
 Für einen Auftrag wird Schnittholz im Holzlager (Schuppen) gelagert. Wähle fünf Regeln aus, die für das Stapeln von Schnittholz mit Stapelleisten wichtig sind.
@@ -275,17 +275,17 @@ Für einen Auftrag wird Schnittholz im Holzlager (Schuppen) gelagert. Wähle fü
 ---------------------------------------
 
 
---{{1}}-- 
+--{{1}}--
 
 [](https://liascript.github.io/LiveEditor/liascript/index.html?#1)<!-- --{{}}--
 Verständnisfragen TSM Grundlehrgang 1
 -->
 
-Beantworten Sie die folgenden Fragen. Es können auch mehrere richtig sein. 
+Beantworten Sie die folgenden Fragen. Es können auch mehrere richtig sein.
 ===
 
 <!-- --{{1}}--
-Beantworte die folgenden Fragen. Es können auch mehrere richtig sein. 
+Beantworte die folgenden Fragen. Es können auch mehrere richtig sein.
 Viel Erfolg!
 -->
 
@@ -294,11 +294,11 @@ __Viel Erfolg!__
 
 >_Auch hier gilt: Fragen gern mischen! Wie ist das dann aber mit der Nummerierung?_
 
---{{2}}--  
+--{{2}}--
 
 <!-- --{{Erstens}}--
 Entscheiden Sie: Welche Aussage ist bei der Auswahl des Sägeblattes wichtig?
-a. Sägeblätter mit wenig Zähnen und großer Spanlücke sind für Langholzbearbeitung zu verwenden 
+a. Sägeblätter mit wenig Zähnen und großer Spanlücke sind für Langholzbearbeitung zu verwenden
 b. Auf der Formatkreissägemaschine werden nur Sägeblätter über
 350 mm verwendet
 c. Auf Kreissägeblättern muss die maximale Drehzahl angegeben sein
@@ -308,13 +308,13 @@ c. Auf Kreissägeblättern muss die maximale Drehzahl angegeben sein
 ===
 
 <!-- data-randomize -->
-- [[X]] a) Sägeblätter mit wenig Zähnen und großer Spanlücke sind für Langholzbearbeitung zu verwenden. 
+- [[X]] a) Sägeblätter mit wenig Zähnen und großer Spanlücke sind für Langholzbearbeitung zu verwenden.
 - [[ ]] b) Auf der Formatkreissägemaschine werden nur Sägeblätter über 350 mm verwendet.
 - [[X]] c) Auf Kreissägeblättern muss die maximale Drehzahl angegeben sein.
 
 ---
 
---{{3}}--  
+--{{3}}--
 
 <!-- --{{Zweitens}}--
 Welche Schutzvorrichtungen / Hilfsmittel müssen beim Auftrennen von 20 Millimeter breiten Leisten verwendet werden?
@@ -334,7 +334,7 @@ c. Schiebeholz in Verbindung mit auf Werkstückhöhe abgesenkter Schutzhaube
 
 ---
 
---{{4}}--  
+--{{4}}--
 
 <!-- --{{Drittens}}--
 Schauen Sie sich das Bild an und beantworten Sie dann die Frage.
@@ -361,7 +361,7 @@ _Quelle: BGHM_
 
 ---
 
---{{5}}--  
+--{{5}}--
 
 <!-- --{{Viertens}}--
 Wie groß darf bei Tisch- und Formatkreissägen der Abstand des Spaltkeiles zum Schneidenflugkreis höchstens sein?
@@ -382,7 +382,7 @@ c. 8 Millimeter
 ---
 
 
---{{6}}--  
+--{{6}}--
 
 <!-- --{{Fünftens}}--
 Füllen Sie den Lückentext aus.

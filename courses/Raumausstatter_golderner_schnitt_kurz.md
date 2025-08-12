@@ -36,7 +36,7 @@ title: Goldener Schnitt -- Kurzversion
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -51,11 +51,11 @@ title: Goldener Schnitt -- Kurzversion
 
 -->
 
-# Der Goldene Schnitt 
+# Der Goldene Schnitt
 
 ![Da Vinci](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/da_vinci.png)
 
-_Quelle:_ Da Vinci Vitruve Luc Viatour 2.svg; Wikipedia; 
+_Quelle:_ Da Vinci Vitruve Luc Viatour 2.svg; Wikipedia;
 
 
 ![Illustration Goldener Schnitt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/goldener_schnitt_illustration.png)<!-- style="width: 400px;" -->
@@ -65,13 +65,13 @@ _Quelle:_ Generiert von Dall-E 3, An OpenAI Model, 2025
 
 ## Einführung
 
-<!--style="font-size: large;"-->Der __Goldene Schnitt__ ist ein besonderes Verhältnis, das häufig in der Kunst, Architektur und Natur vorkommt. 
+<!--style="font-size: large;"-->Der __Goldene Schnitt__ ist ein besonderes Verhältnis, das häufig in der Kunst, Architektur und Natur vorkommt.
 
-<!--style="font-size: large;"-->Es beträgt   1 <!--style="color:green;"-->  :   1,618 <!--style="color:green;"--> zwischen zwei verschiedenen Größen bzw. 38,2% <!--style="color:green;"--> zu 61,8% <!--style="color:green;"-->. 
+<!--style="font-size: large;"-->Es beträgt   1 <!--style="color:green;"-->  :   1,618 <!--style="color:green;"--> zwischen zwei verschiedenen Größen bzw. 38,2% <!--style="color:green;"--> zu 61,8% <!--style="color:green;"-->.
 
-<!--style="font-size: large;"-->In der Praxis wird oft das angenäherte Verhältnis **3:5** <!--style="color:red;"--> bzw. **5:8** <!--style="color:red;"--> verwendet. 
+<!--style="font-size: large;"-->In der Praxis wird oft das angenäherte Verhältnis **3:5** <!--style="color:red;"--> bzw. **5:8** <!--style="color:red;"--> verwendet.
 
-<!--style="font-size: large;"-->Dieses ungleiche Verhältnis zwischen zwei Größen wird als besonders schön und harmonisch empfunden. 
+<!--style="font-size: large;"-->Dieses ungleiche Verhältnis zwischen zwei Größen wird als besonders schön und harmonisch empfunden.
 
 
 
@@ -114,7 +114,7 @@ Welche der folgenden Zahlenpaare stehen im ungefähren Verhältnis des Goldenen 
 - [[x]] Er wird oft in der Kunst verwendet.
 
 
-### Wo kommt der Goldene Schnitt vor?  
+### Wo kommt der Goldene Schnitt vor?
 
 
 <!-- data-randomize -->
@@ -126,13 +126,13 @@ Welche der folgenden Zahlenpaare stehen im ungefähren Verhältnis des Goldenen 
 
 ## ✏️ Praxisaufgabe: Dekorationsschleife
 
-Sie haben während Ihrer überbetrieblichen Ausbildung eine Dekorationsschleife gefertigt. 
+Sie haben während Ihrer überbetrieblichen Ausbildung eine Dekorationsschleife gefertigt.
 
 
 
 Diese besteht aus zwei Teilen, dem oberen  Schleifen- [[  (körper)|band | stoff]]   und dem unteren Schleifen- [[  körper|(band)|stoff  ]].
 
-Diese beiden Teile stehen im Verhältnis   __3:5__   zueinander. 
+Diese beiden Teile stehen im Verhältnis   __3:5__   zueinander.
 
 ---
 
@@ -173,26 +173,26 @@ Rechenweg
 
 ---
 
-Berechnung:  
+Berechnung:
 ===========
 
-Ein Teil entspricht:  
+Ein Teil entspricht:
 $$
 \frac{30\,\text{cm}}{3} = 10\,\text{cm}
 $$
 
-Major-Strecke (5 Teile):  
+Major-Strecke (5 Teile):
 $$
 5 \cdot 10\,\text{cm} = 50\,\text{cm}
 $$
 
 ---
 
-Ergebnis:  
+Ergebnis:
 =========
 
-- **Minor-Strecke:** $30\,\text{cm}$  
-- **Major-Strecke:** $50\,\text{cm}$  
+- **Minor-Strecke:** $30\,\text{cm}$
+- **Major-Strecke:** $50\,\text{cm}$
 
 *****
 
@@ -215,7 +215,7 @@ $1$ Teil = [[ 6 ]] $\text{cm}$
 
 $3$ Teile (**Minor**) = [[ 18 ]] $\text{cm}$ = Höhe des Schleifenkörpers
 *****
-Rechenweg 
+Rechenweg
 --------
 
 - **Major-Strecke** (5 Teile): $30\,\text{cm}$
@@ -224,31 +224,31 @@ Rechenweg
 
 ---
 
-Berechnung:  
+Berechnung:
 ===========
 
-Ein Teil entspricht:  
+Ein Teil entspricht:
 $$
 \frac{30\,\text{cm}}{5} = 6\,\text{cm}
 $$
 
-Minor-Strecke (3 Teile):  
+Minor-Strecke (3 Teile):
 $$
 3 \cdot 6\,\text{cm} = 18\,\text{cm}
 $$
 
 ---
 
-Ergebnis:  
+Ergebnis:
 =========
 
-- **Major-Strecke:** $30\,\text{cm}$  
-- **Minor-Strecke:** $18\,\text{cm}$  
+- **Major-Strecke:** $30\,\text{cm}$
+- **Minor-Strecke:** $18\,\text{cm}$
 
 *****
 ### 🎁 Goldener Schnitt - Beispielrechnung 5 : 8
 
-Eine Gardine soll gerafft werden. Die beiden Schals sind so übereinander zu dekorieren, dass der mittlere (überdeckte) Abschnitt der Dekoration (Minor<!--style="font-weight:bold;color:navy;"-->) 1,55<!--style="font-weight:bold;color:navy;"--> m<!--style="font-weight:bold;color:navy;"--> misst. 
+Eine Gardine soll gerafft werden. Die beiden Schals sind so übereinander zu dekorieren, dass der mittlere (überdeckte) Abschnitt der Dekoration (Minor<!--style="font-weight:bold;color:navy;"-->) 1,55<!--style="font-weight:bold;color:navy;"--> m<!--style="font-weight:bold;color:navy;"--> misst.
 
 Es wird von einem Verhältnis __5:8__<!--style="color:green;font-size: large"--> ausgegangen.
 
@@ -279,10 +279,10 @@ Wie breit ist die Gardine insgesamt<!--style="font-weight:bold;color:red;"-->?
 
 
 
-Aufgabe 1: Berechnen Sie die Länge der Gesamtschleife $n$. Das Verhältnis beträgt 5 : 8. 
+Aufgabe 1: Berechnen Sie die Länge der Gesamtschleife $n$. Das Verhältnis beträgt 5 : 8.
 ===
 
-Der $\text{Minor}$ (= Schleifenbreite) beträgt [[  3 | (5) | 8 | 13 ]] Teile<!--style="font-weight:bolder;"-->. 
+Der $\text{Minor}$ (= Schleifenbreite) beträgt [[  3 | (5) | 8 | 13 ]] Teile<!--style="font-weight:bolder;"-->.
 
 $1$ $\text{Teil}$ $\text{=}$ [[  9 ]]  $\text{cm}$
 
@@ -295,7 +295,7 @@ Der $\text{Major}$ $\text{n}$<!--style="font-weight:bold;color:black;"--> (=Schl
 
 - Verhältnis: 5 : 8
 - Minor = **5 Teile** = **45 cm**
-- 1 Teil = **9 cm** = Minor $/ 5$ 
+- 1 Teil = **9 cm** = Minor $/ 5$
 
 **Gesucht:** Gesamtlänge der Schleife $n$ (Major)
 
@@ -309,10 +309,10 @@ Der $\text{Major}$ $\text{n}$<!--style="font-weight:bold;color:black;"--> (=Schl
 
 -----
 
-Aufgabe 2: Berechnen Sie die Höhe Des Schleifenkörpers $m$. Das Verhältnis beträgt 5 : 8. 
+Aufgabe 2: Berechnen Sie die Höhe Des Schleifenkörpers $m$. Das Verhältnis beträgt 5 : 8.
 ===
 
-Der $\text{Major}$ (= Schleifenbreite) beträgt [[  3 | 5 | (8) | 13 ]] Teile. 
+Der $\text{Major}$ (= Schleifenbreite) beträgt [[  3 | 5 | (8) | 13 ]] Teile.
 
 $1$ $\text{Teil}$ $\text{=}$ [[  5,62 ]]  $\text{cm}$@Algebrite.check2(5.625,0.1)
 

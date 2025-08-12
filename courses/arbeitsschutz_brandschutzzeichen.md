@@ -185,7 +185,7 @@ Welche Bedeutung hat dieses Piktogramm?
 >
 > Weitere Informationen und alle Sicherheitszeichen finden Sie auf der BGHM-Webseite:
 >
-> https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen 
+> https://www.bghm.de/arbeitsschuetzer/praxishilfen/sicherheitszeichen
 
 ---------------------------
 

@@ -37,7 +37,7 @@ tags:
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -63,23 +63,23 @@ tags:
 
 # Teilnehmerbefragung ÜLU
 
-Das Bildungszentrum des Handwerks  
+Das Bildungszentrum des Handwerks
 
 Gültig ab: 01.01.2019
 
 > Das müsste in der Kopfzeile stehen, damit die Formulare eindeutig zugeordnet werden können.
 
-- Kurs: **G-MBF/03**  
-- Zeitraum: **16.06.2025 – 27.06.2025**  
-- Bildungsstätte: **BTZ Pirna**  
+- Kurs: **G-MBF/03**
+- Zeitraum: **16.06.2025 – 27.06.2025**
+- Bildungsstätte: **BTZ Pirna**
 - Fachbereich: **Farbtechnik**
 
 ---
 
 Sehr geehrte Auszubildende, sehr geehrter Auszubildender,
 
-Sie nehmen an einer überbetrieblichen Lehrunterweisung der Handwerkskammer Dresden teil.  
-Um unsere Lehrunterweisungen ständig weiter zu verbessern, bitten wir Sie um Ihre Einschätzung.  
+Sie nehmen an einer überbetrieblichen Lehrunterweisung der Handwerkskammer Dresden teil.
+Um unsere Lehrunterweisungen ständig weiter zu verbessern, bitten wir Sie um Ihre Einschätzung.
 Wir danken Ihnen für Ihre Unterstützung.
 
 ## Ihre Bewertung der überbetrieblichen Lehrunterweisung
@@ -92,7 +92,7 @@ Nutzen der Lehrunterweisung für die Anwendung am Arbeitsplatz
     [(3)] mittelmäßig
     [(4)] schlecht
 
-**Begründung:**  
+**Begründung:**
 
 [[___ ___]]
 
@@ -106,7 +106,7 @@ Ausstattung der Werkstätten bzw. Fachkabinette
     [(3)] mittelmäßig
     [(4)] schlecht
 
-**Begründung:**  
+**Begründung:**
 
 [[___ ___]]
 
@@ -120,13 +120,13 @@ Angebote zur Pausenversorgung
     [(3)] mittelmäßig
     [(4)] schlecht
 
-**Begründung:**  
+**Begründung:**
 
 [[___ ___]]
 
 ---
 
-Unterkunft  
+Unterkunft
 ===
 
 _Hinweis: In der Unterkunft ist kein Zimmerservice enthalten. Die Reinigung der Zimmer erfolgt eigenverantwortlich während des Aufenthalts._
@@ -136,7 +136,7 @@ _Hinweis: In der Unterkunft ist kein Zimmerservice enthalten. Die Reinigung der 
     [(3)] mittelmäßig
     [(4)] schlecht
 
-**Begründung:**  
+**Begründung:**
 
 [[___ ___]]
 
@@ -146,7 +146,7 @@ _Hinweis: In der Unterkunft ist kein Zimmerservice enthalten. Die Reinigung der 
 
 > müsste auch vorausgefüllt sein
 
-**Name:**  
+**Name:**
 
 [[___ ___]]
 
@@ -158,7 +158,7 @@ Verständlichkeit der theoretischen Erklärungen
     [(3)] mittelmäßig
     [(4)] schlecht
 
-**Begründung:**  
+**Begründung:**
 
 [[___ ___]]
 
@@ -172,7 +172,7 @@ Nachvollziehbarkeit der praktischen Vorgehensweise
     [(3)] mittelmäßig
     [(4)] schlecht
 
-**Begründung:**  
+**Begründung:**
 
 [[___ ___]]
 
@@ -186,7 +186,7 @@ Eingehen auf Fragen und Probleme der Teilnehmer
     [(3)] mittelmäßig
     [(4)] schlecht
 
-**Begründung:**  
+**Begründung:**
 
 [[___ ___]]
 
@@ -200,7 +200,7 @@ Nützlichkeit der Unterrichtsmaterialien (wenn vorhanden)
     [(3)] mittelmäßig
     [(4)] schlecht
 
-**Begründung:**  
+**Begründung:**
 
 [[___ ___]]
 
@@ -208,7 +208,7 @@ Nützlichkeit der Unterrichtsmaterialien (wenn vorhanden)
 
 ## Ihre Anregungen und Hinweise
 
-**Hinweise oder Verbesserungsvorschläge:**  
+**Hinweise oder Verbesserungsvorschläge:**
 
 [[___ ___]]
 

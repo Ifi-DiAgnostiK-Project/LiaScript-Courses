@@ -16,7 +16,7 @@ date: 2025-07-31
 comment:  Holzarten und die üblichen Kürzel
 title: Holzarten IV
 
-tags: 
+tags:
   - Tischler
   - Holzarten
 
@@ -36,7 +36,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -91,7 +91,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/
 
 _Quelle: Pixabay, webentwicklerin_
 
-## Eiche 
+## Eiche
 
 _Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
 
@@ -330,19 +330,19 @@ Ziehen Sie die richtigen Kürzel zur jeweiligen Holzart ins "+"-Feld.
 
 ----------------------
 
-<!--style="color:green; font-size: large; font-weight: bolder"-->Nussbaum-Kürzel deutsch: [->[  (NB) | NU ]]  ${/}$ Nussbaum-Kürzel EU: [->[  (JGRG) | RGJG ]] 
+<!--style="color:green; font-size: large; font-weight: bolder"-->Nussbaum-Kürzel deutsch: [->[  (NB) | NU ]]  ${/}$ Nussbaum-Kürzel EU: [->[  (JGRG) | RGJG ]]
 
 ---------------
 
-<!--style="color:green; font-size: large; font-weight: bolder"-->Tanne-Kürzel deutsch: [->[  (TA) | TN ]]  ${/}$ Tanne-Kürzel EU: [->[  ALAB | (ABAL) ]] 
+<!--style="color:green; font-size: large; font-weight: bolder"-->Tanne-Kürzel deutsch: [->[  (TA) | TN ]]  ${/}$ Tanne-Kürzel EU: [->[  ALAB | (ABAL) ]]
 
 ----------------
 
-<!--style="color:green; font-size: large; font-weight: bolder"-->Buche-Kürzel deutsch: [->[  BC | (BU) ]]  ${/}$ Buche-Kürzel EU: [->[  FAST | (FASY) ]] 
+<!--style="color:green; font-size: large; font-weight: bolder"-->Buche-Kürzel deutsch: [->[  BC | (BU) ]]  ${/}$ Buche-Kürzel EU: [->[  FAST | (FASY) ]]
 
 --------------
 
-<!--style="color:green; font-size: large; font-weight: bolder"-->Ahorn-Kürzel deutsch: [->[  (AH) | AN ]]  ${/}$ Ahorn-Kürzel EU: [->[  (ACCM) | ACCE ]] 
+<!--style="color:green; font-size: large; font-weight: bolder"-->Ahorn-Kürzel deutsch: [->[  (AH) | AN ]]  ${/}$ Ahorn-Kürzel EU: [->[  (ACCM) | ACCE ]]
 
 ><!--style="color:red"-->_Florian: Laut einer DIN-Liste lautet für Bergahorn das EU-Kürzel ACPS; für Feldahorn ACCM. Bitte klären._
 

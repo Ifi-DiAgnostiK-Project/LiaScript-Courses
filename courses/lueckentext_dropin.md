@@ -35,5 +35,5 @@ Das Handwerk ist ein sehr [->[  (traditioneller) | zukunfstweisender ]] Wirtscha
 
 > In den Optionen kann wiederum LiaScript Inhalt stehen.
 
-Das Handwerk ist eine [->[ (![](https://github.com/TUBAF-IfI-LiaScript/VL_Softwareentwicklung/blob/master/img/00_Einleitung/Atlas_Agena_with_Mariner_1.jpg?raw=true)<!--style="height: 100px;"-->) | (![](https://cdn.pixabay.com/photo/2022/08/01/17/37/horse-7358652_1280.jpg) <!--style="height: 100px;"-->) ]] in Sachen Digitalisierung 
+Das Handwerk ist eine [->[ (![](https://github.com/TUBAF-IfI-LiaScript/VL_Softwareentwicklung/blob/master/img/00_Einleitung/Atlas_Agena_with_Mariner_1.jpg?raw=true)<!--style="height: 100px;"-->) | (![](https://cdn.pixabay.com/photo/2022/08/01/17/37/horse-7358652_1280.jpg) <!--style="height: 100px;"-->) ]] in Sachen Digitalisierung
 

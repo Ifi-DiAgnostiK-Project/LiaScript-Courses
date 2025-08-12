@@ -27,7 +27,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/
 
 title: Holzarten III
 
-tags: 
+tags:
     - Tischler
     - Holzarten
 
@@ -62,7 +62,7 @@ tags:
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -77,7 +77,7 @@ tags:
 
 
 -->
- 
+
 # Überprüfen Sie Ihr Wissen zu den Holzarten III
 
 Teil 3
@@ -87,14 +87,14 @@ Teil 3
 
 _Quelle: Pixabay, Ric Evangelista_
 
-## Einteilung in Laub- und Nadelhölzer 
+## Einteilung in Laub- und Nadelhölzer
 
 _Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-abc/ bzw. HWK Dresden, Florian Riefling_
 
 --------------------------------
 
 <!--style="color:green"-->Ordnen Sie die Baumarten richtig zu.
-=== 
+===
 
 <!--data-randomize -->
 - [  [Laubholz]     [Nadelholz]  ]
@@ -133,7 +133,7 @@ _Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-ab
 
 </div>
 
-</section> 
+</section>
 
 --------------
 
@@ -159,7 +159,7 @@ _Quelle aller Holz-Abbildungen:_ _https://holzvomfach.de/fachwissen-holz/holz-ab
 
 </div>
 
-</section> 
+</section>
 
 
 ## Entscheiden Sie, welche Holzarten eher hart oder weich sind

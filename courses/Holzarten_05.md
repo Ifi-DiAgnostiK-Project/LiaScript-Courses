@@ -16,7 +16,7 @@ date: 2025-07-31
 comment:  Holzarten und die üblichen Kürzel
 title: Holzarten V
 
-tags: 
+tags:
   - Tischler
   - Holzarten
 
@@ -37,7 +37,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/
     gap: 20px; /* Adds both horizontal and vertical spacing between items */
 }
 
-.flex-child { 
+.flex-child {
     flex: 1;
     margin-right: 20px; /* Adds space between the columns */
 }
@@ -92,7 +92,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/
 
 _Quelle: Pixabay, Pexels_
 
-## Fichte 
+## Fichte
 
 _Quelle aller Holz-Abbildungen:_ _https://holz-werken.com/holz-datenbank/ bzw. HWK Dresden, Florian Riefling_
 
@@ -231,7 +231,7 @@ _Quelle aller Holz-Abbildungen:_ _https://holz-werken.com/holz-datenbank/ bzw. H
 * fein- bzw. zertreutporig
 * feine Textur, unauffällige Maserung
 * trockenes Holz
-* weißlich-gelbliche Farbe, bisweilen auch etwas rötlich oder hellbraun 
+* weißlich-gelbliche Farbe, bisweilen auch etwas rötlich oder hellbraun
 
 </div>
 <div class="flex-child">
@@ -347,19 +347,19 @@ Ziehen Sie die richtigen Kürzel zur jeweiligen Holzart in das entsprechende "+"
 ===
 
 
-<!--style="color:green; font-size: large; font-weight: bolder"-->Lärche-Kürzel deutsch: [->[  (LA) | LE ]]  ${/}$ Lärche-Kürzel EU: [->[  (LADC) | LAUC ]] 
+<!--style="color:green; font-size: large; font-weight: bolder"-->Lärche-Kürzel deutsch: [->[  (LA) | LE ]]  ${/}$ Lärche-Kürzel EU: [->[  (LADC) | LAUC ]]
 
 ---------------
 
-<!--style="color:green; font-size: large; font-weight: bolder"-->Robinie-Kürzel deutsch: [->[  (ROB) | ROE ]]  ${/}$ Robinie-Kürzel EU: [->[  ROBS | (ROPS) ]] 
+<!--style="color:green; font-size: large; font-weight: bolder"-->Robinie-Kürzel deutsch: [->[  (ROB) | ROE ]]  ${/}$ Robinie-Kürzel EU: [->[  ROBS | (ROPS) ]]
 
 ----------------
 
-<!--style="color:green; font-size: large; font-weight: bolder"-->Fichte-Kürzel deutsch: [->[  FE | (FI) ]]  ${/}$ Fichte-Kürzel EU: [->[  PUCT | (PCAB) ]] 
+<!--style="color:green; font-size: large; font-weight: bolder"-->Fichte-Kürzel deutsch: [->[  FE | (FI) ]]  ${/}$ Fichte-Kürzel EU: [->[  PUCT | (PCAB) ]]
 
 --------------
 
-<!--style="color:green; font-size: large; font-weight: bolder"-->Esche-Kürzel deutsch: [->[  (ES) | EE ]]  ${/}$ Esche-Kürzel EU: [->[  (FXEX) | FDEX ]] 
+<!--style="color:green; font-size: large; font-weight: bolder"-->Esche-Kürzel deutsch: [->[  (ES) | EE ]]  ${/}$ Esche-Kürzel EU: [->[  (FXEX) | FDEX ]]
 
 
 -----
