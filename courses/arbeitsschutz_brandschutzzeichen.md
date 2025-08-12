@@ -66,7 +66,21 @@ Wie sehen Brandschutzzeichen typischerweise aus?
 - [( )] Grünes Rechteck mit weißem Symbol
 - [(X)] Rotes Quadrat oder Rechteck mit weißem Symbol
 - [( )] Gelbes Dreieck mit schwarzem Symbol
+*****************************************************
 
+> __Auflösung:__
+>
+> Die richtige Antwort ist: __Rotes Quadrat oder Rechteck mit weißem Symbol__.
+>
+> Brandschutzzeichen sind immer rot mit weißen Symbolen. Diese Farbkombination ist international standardisiert und dient dem schnellen Erkennen in Notfallsituationen. Die Signalfarbe Rot signalisiert "Halt" oder "Verbot" und weist außerdem auf Brandschutzeinrichtungen hin.
+>
+> Die anderen Farbkombinationen kennzeichnen andere Arten von Sicherheitszeichen:
+>
+> - Blaues Quadrat mit weißem Symbol: Gebotszeichen
+> - Grünes Rechteck mit weißem Symbol: Rettungszeichen
+> - Gelbes Dreieck mit schwarzem Symbol: Warnzeichen
+
+******************************************************
 
 
 ### 2. Die Bedeutung einzelner Brandschutz-Piktogramme
@@ -79,6 +93,15 @@ Wie sehen Brandschutzzeichen typischerweise aus?
 - [( )] Bei Feuer sofort Helm aufsetzen.
 - [(X)] Brandbekämpfung.
 - [( )] Bei Brand sofort fliehen - alle beschwerenden Kleidungsstücke zurücklassen.
+*****************************************
+
+> __Auflösung:__
+>
+> Die richtige Antwort ist: __Brandbekämpfung__.
+>
+> Dieses Symbol kennzeichnet Stellen, an denen sich Ausrüstung zur Brandbekämpfung befindet, wie z.B. Feuerlöscher, Löschschläuche oder andere Löschmittel. Es ist wichtig, diese Standorte zu kennen, um im Notfall schnell handeln zu können. Das Symbol zeigt eine stilisierte Flamme, was direkt auf seinen Zweck im Brandschutz hinweist.
+
+*****************************************
 
 </div>
 <div class="flex-child-2 center">
@@ -95,6 +118,15 @@ Wie sehen Brandschutzzeichen typischerweise aus?
 - [( )] Achtung - Haus steht in Flammen!
 - [(X)] Hier befindet sich eine Feuerleiter.
 - [( )] Fluchtweg erfolgt über Leitern.
+********************************************
+
+> __Auflösung:__
+>
+> Die richtige Antwort ist: __Hier befindet sich eine Feuerleiter__.
+>
+> Dieses Brandschutzzeichen weist auf den Standort einer Feuerleiter hin. Feuerleitern sind spezielle Leitern, die für die Brandbekämpfung oder als zusätzlicher Fluchtweg bei Bränden genutzt werden. Sie sind besonders wichtig in höheren Gebäuden, wo normale Fluchtwege durch Rauch oder Feuer versperrt sein könnten. Im Notfall können sowohl Bewohner als auch Feuerwehrleute diese Leitern nutzen.
+
+********************************************
 
 </div>
 <div class="flex-child-2 center">
@@ -104,12 +136,27 @@ Wie sehen Brandschutzzeichen typischerweise aus?
 </div>
 </section>
 
+
+
 <section class="flex-container border">
 <div class="flex-child">
+
 <!-- data-randomize -->
 - [( )] Bei Feuer sofort Fahrstuhl rufen.
 - [(X)] Bei Feuer über Signalknopf Brand melden.
 - [( )] Bei Feuer Licht ausschalten.
+************************************************
+
+> __Auflösung:__
+>
+> Die richtige Antwort ist: __Bei Feuer über Signalknopf Brand melden__.
+>
+> Dieses Brandschutzzeichen kennzeichnet den Standort eines Brandmelders. Brandmelder sind Geräte, mit denen im Brandfall schnell und einfach Alarm ausgelöst werden kann. Sie aktivieren oft automatisch eine Alarmsirene und informieren in vielen Gebäuden direkt die Feuerwehr. Bei Entdeckung eines Brandes ist die schnelle Alarmierung entscheidend, um alle Personen zu warnen und professionelle Hilfe zu rufen.
+>
+> Die falsche Antwort "Bei Feuer sofort Fahrstuhl rufen" ist besonders gefährlich - im Brandfall dürfen Aufzüge niemals benutzt werden, da die Gefahr besteht, in ihnen eingeschlossen zu werden.
+
+*************************************************
+
 </div>
 <div class="flex-child-2 center">
 
@@ -117,6 +164,8 @@ Wie sehen Brandschutzzeichen typischerweise aus?
 
 </div>
 </section>
+
+
 
 
 
@@ -131,8 +180,21 @@ Ordnen Sie das jeweilige Symbol der richtigen Bedeutung zu.
 - [ ( ) ( ) (X) ]  Brandmelder
 - [ ( ) ( ) ( ) ]  Notruftelefon
 - [ ( ) (X) ( ) ]  Brandmeldetelefon
+******************************************
 
+> __Auflösung:__
+>
+> Die richtige Zuordnung ist:
+>
+> 1. __Richtungspfeil rechts:__ Zeigt die Richtung an, in der Brandschutzeinrichtungen zu finden sind. Diese Richtungsangaben sind im Notfall besonders wichtig, um schnell die nächsten Löschmittel oder andere Brandschutzeinrichtungen zu finden.
+>
+> 2. __Brandmeldetelefon:__ Kennzeichnet den Standort eines speziellen Telefons für Brandmeldungen. Es ermöglicht die direkte Kommunikation mit der zuständigen Feuerwehrleitstelle oder dem Brandschutzbeauftragten und ist besonders in größeren Gebäuden wichtig.
+>
+> 3. __Brandmelder:__ Weist auf den Standort eines Brandmeldeknopfes hin, mit dem manuell Alarm ausgelöst werden kann. Diese Melder sind Teil eines Brandmelde- und Alarmsystems und sollten im Brandfall sofort betätigt werden.
+>
+> Die Kenntnis dieser Symbole kann im Notfall Leben retten, da sie ein schnelles Handeln ermöglichen.
 
+*******************************************
 
 ### 4. Verhalten im Brandfall
 
@@ -152,12 +214,31 @@ Was ist im Brandfall am wichtigsten?
 - [[X]] Ausgeschilderte Fluchtwege benutzen.
 - [[ ]] Sofort mit Löschen beginnen, um das Feuer im Keim zu ersticken.
 - [[X]] Keine Aufzüge verwenden.
+***********************************************************************
+
+> __Auflösung:__
+>
+> Die richtigen Antworten für das Verhalten im Brandfall sind:
+>
+> - __Ruhe bewahren:__ Panik führt zu falschen Entscheidungen und kann die Situation verschlimmern.
+> - __Andere warnen:__ Alle im Gebäude befindlichen Personen müssen über die Gefahr informiert werden.
+> - __Feuerwehr rufen:__ Professionelle Hilfe unter der Notrufnummer 112 alarmieren.
+> - __Ausgeschilderte Fluchtwege benutzen:__ Diese Wege sind speziell für Notfälle konzipiert und führen sicher ins Freie.
+> - __Keine Aufzüge verwenden:__ Aufzüge können steckenbleiben oder zu Rauchschleusen werden.
+>
+> Die falschen Antworten wären gefährlich:
+>
+> - Fenster öffnen kann die Brandausbreitung durch zusätzliche Sauerstoffzufuhr beschleunigen.
+> - Mit dem Löschen zu beginnen ist nur bei sehr kleinen Entstehungsbränden und mit entsprechender Ausbildung sinnvoll. Die eigene Sicherheit geht immer vor.
+
+************************************************************************
 
 </div>
 <div class="flex-child-2 center">
 ![Feuerlöscher](img/fuenf_feuerloescher.jpg "_Quelle: Pixabay, Foto-Rabe_")
 </div>
 </section>
+
 
 <section class="flex-container border">
 <div class="flex-child-2 center">
@@ -172,9 +253,22 @@ Welche Bedeutung hat dieses Piktogramm?
 - [( )] Brandschutzzeichen sind immer rot. Daher ist es hier bedeutungslos.
 - [(X)] Fluchtweg / Notausgang.
 - [( )] Brandschutztür benutzen.
+*********************************************
+
+> __Auflösung:__
+>
+> Die richtige Antwort ist: __Fluchtweg / Notausgang__.
+>
+> Dieses Zeichen ist ein Rettungszeichen, erkennbar an seiner grünen Farbe mit weißem Symbol. Es weist auf einen Fluchtweg nach rechts hin. Rettungszeichen sind grün, nicht rot wie Brandschutzzeichen. Sie kennzeichnen Fluchtwege, Notausgänge und Rettungseinrichtungen und sind im Notfall lebenswichtig, da sie den schnellsten Weg ins Freie weisen.
+>
+> Die Aussage "Brandschutzzeichen sind immer rot. Daher ist es hier bedeutungslos" ist falsch, da es sich hier um ein Rettungszeichen handelt, nicht um ein Brandschutzzeichen. Rettungszeichen haben eine eigenständige, wichtige Funktion im Notfall.
+
+*********************************************
 
 </div>
 </section>
+
+
 
 
 
