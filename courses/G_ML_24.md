@@ -1,114 +1,64 @@
 <!--
 
-author:   Hilke Domsch
+author:    Hilke Domsch
+email:     hilke.domsch@gkz-ev.de
+version:   0.0.4
 
-email:    hilke.domsch@gkz-ev.de
+language:  de
+narrator:  Deutsch Male
 
-version:  0.0.4
+edit:      true
+date:      2025-08-01
 
-language: de
+title:     Grundkurs Maler/Lackierer G-ML-24
+comment:   Grundkurs Maler/Lackierer
 
-narrator: Deutsch Male
+tags:      Maler, Grundkurs
 
-edit: true
-date: 2025-08-01
-
-title:  Grundkurs Maler/Lackierer G-ML-24
-comment:  Grundkurs Maler/Lackierer
-
-tags: 
-  - Maler
-  - Grundkurs
-
-icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo: img/farben.jpg
+icon:      https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
+logo:      img/farben.jpg
 
 attribute: Title Image by Pixabay, Darkmoon Art
 
-import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
-import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
-import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
-import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Bildersammlung/refs/heads/main/makros.md
-
-@style
-.flex-container {
-    display: flex;
-    flex-wrap: wrap; /* Allows the items to wrap as needed */
-    align-items: stretch;
-    gap: 20px; /* Adds both horizontal and vertical spacing between items */
-}
-
-.flex-child { 
-    flex: 1;
-    margin-right: 20px; /* Adds space between the columns */
-}
-
-@media (max-width: 600px) {
-    .flex-child {
-        flex: 100%; /* Makes the child divs take up the full width on slim devices */
-        margin-right: 0; /* Removes the right margin */
-    }
-}
-
-.image-container {
-  width: 200px;
-  height: 200px;
-  border: 1px solid #ccc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #f8f8f8;
-}
-
-.image-container img {
-  width: fit-content;
-  height: fit-content;
-  object-fit: cover;
-  display: block;
-}
-
-@end
+link:      style.css
+import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
+           https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
+           https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
+           https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Bildersammlung/refs/heads/main/makros.md
 
 -->
 
 # Grundstufe Maler- und Lackiererhandwerk G-ML-24  🧑‍🎨
 
-![Pinsel+Farben](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/farben.jpg)<!-- style="width: 800px" -->
-
-_Quelle: Pixabay, Darkmoon Art_
+![Pinsel+Farben](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/farben.jpg "_Quelle: Pixabay, Darkmoon Art_")<!-- style="width: 100%" -->
 
 ## Überprüfungsaufgaben
 
-<!--style="color:grey; font-size: large; font-weight: bolder"-->Sie haben in den letzten Tagen Werkzeuge und Grundhandgriffe im Maler- und Lackiererhandwerk kennengelernt und eingeübt. <br> <br> Überprüfen Sie Ihr Wissen - viel Erfolg!
+<!--style="font-size: large; font-weight: bolder"-->
+Sie haben in den letzten Tagen Werkzeuge und Grundhandgriffe im Maler- und Lackiererhandwerk kennengelernt und eingeübt.\
+\
+Überprüfen Sie Ihr Wissen - viel Erfolg!
 
+<center>
 
-<section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="min-width:200px;">
+@Maler_Planung.Uebung3_Ergebnis(70)
 
-@Maler_Planung.Uebung3_Ergebnis(70) 
-
-</div>
-<div class="flex-child">
 _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 
-</div>
-</section>
+</center>
 
 ### Typische Werkzeuge im Maler- und Lackiererhandwerk I
 
-<!--style="color:red; font-size: huge"-->Hinweis: Es können mehrere Antworten richtig sein!
+> __Hinweis:__ Es können mehrere Antworten richtig sein!
 
-<!--style="color:grey; font-size: large; font-weight: bolder"-->Wie nennt man dieses Werkzeug?
-===
 
-<section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="min-width:200px;">
-
-![Abreißblech](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/spachtel.jpg)<!-- style="width: 300px" -->
-
-</div>
+<section class="flex-container">
 <div class="flex-child">
+
+<!-- class="highlight" -->
+Wie nennt man dieses Werkzeug?
+------------------------------
+
 <!-- data-randomize -->
 - [[ ]] Kamm
 - [[X]] Abreißblech
@@ -118,46 +68,55 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 - [[X]] Flächenrakel
 
 </div>
+<div class="flex-child">
+
+![Abreißblech](img/spachtel.jpg)
+
+</div>
 </section>
+
+
 
 ### Typische Werkzeuge im Maler- und Lackiererhandwerk II
 
-
-<!--style="color:grey; font-size: large; font-weight: bolder"-->Wie nennt man dieses Werkzeug?
-===
-
-<section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="min-width:200px;">
-
-![Tapezierbürste](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/buerste.jpg)<!-- style="width: 300px" -->
-
-</div>
+<section class="flex-container">
 <div class="flex-child">
+
+<!-- class="highlight" -->
+Wie nennt man dieses Werkzeug?
+------------------------------
+
 <!-- data-randomize -->
 - [( )] Kehrbesen
 - [( )] Wandbürste
 - [(X)] Tapezierbürste
 
 </div>
+<div class="flex-child-2">
+
+![Tapezierbürste](img/buerste.jpg)
+
+</div>
 </section>
 
 ### Typische Werkzeuge im Maler- und Lackiererhandwerk III
 
-
-<!--style="color:grey; font-size: large; font-weight: bolder"-->Wie nennt man dieses Werkzeug?
-===
-
-<section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="min-width:200px;">
-
-![Schraegstrichzieher](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/kleiner_pinsel.jpg)<!-- style="width: 300px" -->
-
-</div>
+<section class="flex-container">
 <div class="flex-child">
+
+<!-- class="highlight" -->
+Wie nennt man dieses Werkzeug?
+------------------------------
+
 <!-- data-randomize -->
 - [( )] Ringpinsel
 - [( )] Heizkörperpinsel
 - [(X)] Schrägstrichzieher
+
+</div>
+<div class="flex-child-2">
+
+![Schraegstrichzieher](img/kleiner_pinsel.jpg)
 
 </div>
 </section>
@@ -166,7 +125,10 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 
 ### Wichtige Arbeitsabläufe für allgemeine Decken- und Wandgestaltungen
 
-<!--style="color:grey; font-weight: bolder"-->In welcher Reihenfolge führen Sie den Auftrag aus? <br> Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge. <br> An oberster Stelle steht der erste Arbeitsschritt.
+<!-- class="highlight"-->
+__In welcher Reihenfolge führen Sie den Auftrag aus?__\
+__Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge.__\
+__An oberster Stelle steht der erste Arbeitsschritt.__
 
 ------------------
 
@@ -178,7 +140,10 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 
 ### Wichtige Arbeitsabläufe für Gestaltungsflächen: Wände und Sockel
 
-<!--style="color:grey; font-weight: bolder"-->In welcher Reihenfolge führen Sie den Auftrag aus? <br> Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge. <br> An oberster Stelle steht der erste Arbeitsschritt.
+<!-- class="highlight"-->
+__In welcher Reihenfolge führen Sie den Auftrag aus?__\
+__Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge.__\
+__An oberster Stelle steht der erste Arbeitsschritt.__
 
 ------------------
 
@@ -187,17 +152,17 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 
 ### Beschaffenheit von Untergründen
 
-<!--style="color:red; font-size: huge"-->Hinweis: Es können mehrere Antworten richtig sein!
+> __Hinweis:__ Es können mehrere Antworten richtig sein!
 
 -------------------
 
-<!--style="color:grey; font-size: large; font-weight: bolder"-->Wie sollte ein Untergrund beschaffen sein, damit dieser beschichtet oder tapeziert werden kann?
-===
+<!-- class="highlight" -->
+Wie sollte ein Untergrund beschaffen sein, damit dieser beschichtet oder tapeziert werden kann?
+-----------------------------------------------------------------------------------------------
 
 
-
-<section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="min-width:200px;">
+<section class="flex-container">
+<div class="flex-child">
 
 <!-- data-randomize -->
 - [[X]] sauber
@@ -211,7 +176,8 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 - [[ ]] leicht angefeuchtet, damit das Auftragen leichter geht
 
 </div>
-<div class="flex-child">
+<div class="flex-child-2">
+
 @Maler_Taetigkeiten.Koje_Vorbereitung(25)
 
 </div>
@@ -220,15 +186,16 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 
 ### Haftfestigkeit alter Anstriche
 
-<!--style="color:red; font-size: huge"-->Hinweis: Es können mehrere Antworten richtig sein!
+> __Hinweis:__ Es können mehrere Antworten richtig sein!
 
 -------------------
 
-<!--style="color:grey; font-size: large; font-weight: bolder"-->Mit welchen Methoden kann die Haftfestigkeit alter Anstriche geprüft werden?
-===
+<!-- class="highlight" -->
+Mit welchen Methoden kann die Haftfestigkeit alter Anstriche geprüft werden?
+----------------------------------------------------------------------------
 
-<section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="min-width:200px;">
+<section class="flex-container">
+<div class="flex-child">
 
 <!-- data-randomize -->
 - [[X]] Abriebprobe/Wischprobe mit der Hand oder einem Tuch
@@ -241,23 +208,22 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 
 </div>
 <div class="flex-child">
-![Maler](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/knetfigur_anstreicher.jpg)<!-- style="width: 300px" --> 
-<br>
- _Quelle: Pixabay, Ralphs-Fotos_
+
+![Maler](img/knetfigur_anstreicher.jpg "_Quelle: Pixabay, Ralphs-Fotos_")
 
 </div>
 </section>
 
 
+
 ### Saugfähigkeit eines Untergrundes
 
+<!-- class="highlight" -->
+Wie prüft man am besten die Saugfähigkeit eines Untergrunds?
+------------------------------------------------------------
 
-
-<!--style="color:grey; font-size: large; font-weight: bolder"-->Wie prüft man am besten die Saugfähigkeit eines Untergrunds?
-===
-
-<section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="min-width:200px;">
+<section class="flex-container">
+<div class="flex-child">
 
 <!-- data-randomize -->
 - [(X)] Benetzungsprobe mit Wasser
@@ -266,25 +232,25 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 - [( )] Wischprobe mit trockenem Tuch
 
 </div>
-<div class="flex-child">
-![Untergrund](img/putz.jpg)<!-- style="width: 300px" --> 
-<br>
- _Quelle: Pixabay, geralt_
+<div class="flex-child-3">
+
+![Untergrund](img/putz.jpg "_Quelle: Pixabay, geralt_")
 
 </div>
 </section>
 
-### Feuchtigkeitsmessung 
+### Feuchtigkeitsmessung
 
-<!--style="color:red; font-size: huge"-->Hinweis: Es können mehrere Antworten richtig sein!
+> __Hinweis:__ Es können mehrere Antworten richtig sein!
 
 -------------------
 
-<!--style="color:grey; font-size: large; font-weight: bolder"-->Wann ist eine Feuchtigkeitsprüfung sinnvoll?
-===
+<!-- class="highlight" -->
+Wann ist eine Feuchtigkeitsprüfung sinnvoll?
+--------------------------------------------
 
-<section class="flex-container" style="padding: 1rem;">
-<div class="flex-child" style="min-width:200px;">
+<section class="flex-container">
+<div class="flex-child">
 
 <!-- data-randomize -->
 - [[X]] bei sichtbarem oder vermuteten Schimmelbefall
@@ -293,13 +259,12 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 - [[X]] bei einem muffigen Geruch
 - [[ ]] immer - auch wenn die Umgebung trocken ist
 - [[ ]] Eine Feuchtigkeitsprüfung ist zugleich eine Temperaturmessung und daher immer sinnvoll.
-- [[ ]] Eine Feuchtigkeitsprüfung geht jedem Farbanstrich voraus, um die Haftfestigkeit zu prüfen. 
+- [[ ]] Eine Feuchtigkeitsprüfung geht jedem Farbanstrich voraus, um die Haftfestigkeit zu prüfen.
 
 </div>
-<div class="flex-child">
-![Wand streichen](img/malerrolle.jpg)<!-- style="width: 200px" --> 
-<br>
- _Quelle: Pixabay, Giordano_
+<div class="flex-child-1">
+
+![Wand streichen](img/malerrolle.jpg "_Quelle: Pixabay, Giordano_")
 
 </div>
 </section>
@@ -308,12 +273,13 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 
 ### Prüfgeräte für Untergrundprüfungen I
 
-<!--style="color:red; font-size: huge"-->Hinweis: Es können mehrere Antworten richtig sein!
+> __Hinweis:__ Es können mehrere Antworten richtig sein!
 
 -------------------
 
-<!--style="color:grey; font-size: large; font-weight: bolder"-->Welche Prüfgeräte oder Hilfsmittel werden häufig bei Untergrundprüfungen im Malerhandwerk eingesetzt?
-===
+<!-- class="highlight" -->
+Welche Prüfgeräte oder Hilfsmittel werden häufig bei Untergrundprüfungen im Malerhandwerk eingesetzt?
+-----------------------------------------------------------------------------------------------------
 
 <!-- data-randomize -->
 - [[ ]] Rückprallbolzen
@@ -328,12 +294,13 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 
 ### Prüfgeräte für Untergrundprüfungen II
 
-<!--style="color:red; font-size: huge"-->Hinweis: Es können mehrere Antworten richtig sein!
+> __Hinweis:__ Es können mehrere Antworten richtig sein!
 
 -------------------
 
-<!--style="color:grey; font-size: large; font-weight: bolder"-->Welche der folgenden Geräte oder Werkzeuge gehören typischerweise zu einem Untergrundprüfkoffer?
-===
+<!-- class="highlight" -->
+Welche der folgenden Geräte oder Werkzeuge gehören typischerweise zu einem Untergrundprüfkoffer?
+------------------------------------------------------------------------------------------------
 
 <!-- data-randomize -->
 - [[X]] Meißel
@@ -344,8 +311,6 @@ _Quelle aller Bilder: HWK Dresden, Florian Riefling_
 - [[ ]] mobiler Gasbrenner
 
 
-### Geschafft 🎉
+## Geschafft 🎉
 
-![Jubel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/colorfull_jumping.jpg)<!-- style="width: 500px" --> 
-
-_Quelle: Pixabay, geralt_
+![Jubel](img/colorfull_jumping.jpg "_Quelle: Pixabay, geralt_")

@@ -28,7 +28,7 @@ tags: Arbeitssicherheit, Leitern, Arbeits- und Gesundheitsschutz
 
 -->
 
-# Arbeitssicherheit und Gesundheitsschutz
+# Arbeitssicherheit & Gesundheitsschutz - Leitern I
 
 Arbeitsbedingte Gesundheitsgefahren, Unfälle und Erkrankungen sollen gar nicht erst entstehen.
 Dazu ist es wichtig, Gefahrenhinweise und Symbole richtig zu verstehen.\
@@ -39,7 +39,7 @@ Dieses Quiz zeigt Ihnen, wie gut Sie sich bereits auskennen!
 
 --------------------
 
-![Arbeitsschutz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/schilder_an_zaun.jpg "_Quelle: Pixabay, planet-fox_")<!-- style="max-width: 700px; width: 100%" --> 
+![Arbeitsschutz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/schilder_an_zaun.jpg "_Quelle: Pixabay, planet-fox_")<!-- style="max-width: 700px; width: 100%" -->
 
 <!-- class="highlight"-->
 Viel Erfolg!
