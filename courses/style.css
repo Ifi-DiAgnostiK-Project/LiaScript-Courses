@@ -1,0 +1,90 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows the items to wrap as needed */
+  align-items: stretch;
+  gap: 20px; /* Adds both horizontal and vertical spacing between items */
+}
+
+.flex-child {
+  flex: 4;
+  margin-right: 20px; /* Adds space between the columns */
+  min-width: 200px;
+}
+
+.flex-child-1 {
+  flex: 1;
+  margin-right: 20px; /* Adds space between the columns */
+  min-width: 200px;
+}
+
+.flex-child-2 {
+  flex: 2;
+  margin-right: 20px; /* Adds space between the columns */
+  min-width: 200px;
+}
+
+.flex-child-3 {
+  flex: 3;
+  margin-right: 20px; /* Adds space between the columns */
+  min-width: 200px;
+}
+
+.flex-child-4 {
+  flex: 4;
+  margin-right: 20px; /* Adds space between the columns */
+  min-width: 200px;
+}
+
+@media (max-width: 600px) {
+  .flex-child-1,
+  .flex-child-2,
+  .flex-child-3,
+  .flex-child-4 {
+    flex: 100%; /* Makes the child divs take up the full width on slim devices */
+    margin-right: 0; /* Removes the right margin */
+    min-width: 200px;
+  }
+}
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #f8f8f8;
+}
+
+.image-container img {
+  width: fit-content;
+  height: fit-content;
+  object-fit: cover;
+  display: block;
+}
+
+.border {
+  border: 3px solid #ddd;
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.highlight {
+  color: rgba(0, 38, 255, 1);
+  font-weight: bolder;
+}
+
+.group {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
