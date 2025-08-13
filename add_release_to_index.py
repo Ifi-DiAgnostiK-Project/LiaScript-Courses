@@ -107,7 +107,6 @@ def build_individual_release_links(soup, urls):
     ul = soup.new_tag("ul", **{"class": "list-inline"})
     icon_map = {
         "Documentation": "📄",
-        "IMS": "📦",
         "SCORM": "📦"
     }
     for label, url in urls.items():
