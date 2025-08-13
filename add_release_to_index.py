@@ -55,7 +55,6 @@ def generate_release_urls(file_name, version):
 
     return {
         "Documentation": f"{base_url}/{file_base}_Documentation.pdf",
-        "IMS": f"{base_url}/{file_base}_IMS.zip",
         "SCORM": f"{base_url}/{file_base}_SCORM.zip"
     }
 

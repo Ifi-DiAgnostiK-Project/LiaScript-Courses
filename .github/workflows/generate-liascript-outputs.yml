@@ -94,14 +94,12 @@ jobs:
             # Export assets
             liaex -i "$file" --format pdf --output "../build/${filename}_v${version}_Documentation" --pdf-timeout 50000
             liaex -i "$file" --format scorm2004 --output "../build/${filename}_v${version}_SCORM"
-            liaex -i "$file" --format ims --output "../build/${filename}_v${version}_IMS"
 
             # Create release per file
             gh release create "${safe_tag}_v${version}" \
               --title "Export for $filename (v${version})" \
               "../build/${filename}_v${version}_Documentation.pdf" \
               "../build/${filename}_v${version}_SCORM.zip" \
-              "../build/${filename}_v${version}_IMS.zip" \
               --notes "Automated export for $file - version ${version}"
 
           done
