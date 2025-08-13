@@ -6,6 +6,8 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 import os
 import requests
+from urllib.parse import urlparse
+import posixpath
 
 def load_html(filepath):
     """Load and parse HTML file."""
@@ -23,6 +25,15 @@ def hash_id(id_str):
     """Return a SHA256 hash of the ID URL."""
     return hashlib.sha256(id_str.encode("utf-8")).hexdigest()
 
+def separate_filename(id_url):
+    """Separate file name and URL from the ID URL."""
+    if not id_url:
+        return ""
+    else:
+        parsed = urlparse(id_url)
+        file_name = posixpath.basename(parsed.path)
+        return file_name
+
 def build_result(item_list):
     """Construct the result dict from nested itemListElements."""
     result = {}
@@ -33,29 +44,59 @@ def build_result(item_list):
         for item in inner_list:
             id_url = item.get("@id", "")
             version = item.get("version", "")
-            file_name = id_url.split("/")[-1] if id_url else ""
+            file_name = separate_filename(id_url)
             id_hash = hash_id(id_url)
             result[id_hash] = {
                 "version": version,
                 "file_name": file_name,
                 "id_url": id_url,
-                "release_urls": generate_release_urls(file_name, version)
+                "release_urls": generate_release_urls(file_name, id_url, version)
             }
     return result
 
-def generate_release_urls(file_name, version):
+def build_release_asset_baseurl(id_url: str) -> str:
+    """
+    Convert a GitHub raw/blob URL (or a repo subfolder URL) to a releases/download URL.
+    Examples handled:
+      - https://raw.githubusercontent.com/{owner}/{repo}/{ref}/path/to/file.ext
+      - https://github.com/{owner}/{repo}/blob/{ref}/path/to/file.ext
+      - https://github.com/{owner}/{repo}/tree/{ref}/path/to/folder
+      - https://raw.githubusercontent.com/{owner}/{repo}/refs/heads/main/courses
+    Returns:
+      https://github.com/{owner}/{repo}/releases/download
+    """
+    if not id_url:
+        raise ValueError("id_url is empty")
+
+    p = urlparse(id_url)
+    host = p.netloc.lower()
+    # split and drop empty segments (leading slash)
+    parts = [seg for seg in p.path.split('/') if seg]
+
+    if host not in ("raw.githubusercontent.com", "github.com"):
+        raise ValueError(f"Not a GitHub URL: {id_url}")
+
+    # Extract owner/repo
+    if len(parts) < 2:
+        raise ValueError(f"Cannot extract owner/repo from: {id_url}")
+    owner, repo = parts[0], parts[1]
+
+    return f"https://github.com/{owner}/{repo}/releases/download"
+
+def generate_release_urls(file_name, id_url, version):
     """
     Generate GitHub release URLs for PDF, IMS, and SCORM versions.
     """
     base_name = os.path.splitext(file_name)[0]
-    version_tag = f"{base_name.lower()}_v{version.lower()}"
-    file_base = f"{base_name}_v{version}"
 
-    base_url = f"https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/releases/download/{version_tag}"
+    #base_url = f"https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/releases/download/{version_tag}"
+    base_url = build_release_asset_baseurl(id_url)
+
+    release_urlbase = f"{base_url}/{base_name.lower()}_v{version.lower()}/{base_name}_v{version}"
 
     return {
-        "Documentation": f"{base_url}/{file_base}_Documentation.pdf",
-        "SCORM": f"{base_url}/{file_base}_SCORM.zip"
+        "Documentation": f"{release_urlbase}_Documentation.pdf",
+        "SCORM": f"{release_urlbase}_SCORM.zip"
     }
 
 def release_exists(doc_url):
@@ -86,7 +127,7 @@ def add_release_links(soup, result):
 
         urls = result[id_hash]["release_urls"]
         # test if releases exist, with external urls a non-existent release can happen
-        if release_exists(urls.get("Documentation")):
+        if release_exists(urls.get("SCORM")):
             element = build_individual_release_links(soup, urls)
         else:
             print(f"Release not found for {id_url}")
@@ -110,6 +151,10 @@ def build_individual_release_links(soup, urls):
         "SCORM": "📦"
     }
     for label, url in urls.items():
+        # we drop the link if the release does not exist
+        if not release_exists(url):
+            print(f"Release {label} not found for {url}")
+            continue
         li = soup.new_tag("li", **{"class": "list-inline-item"})
         a = soup.new_tag("a", href=url, target="_blank")
         a.string = f"{icon_map.get(label, '')} {label}"
