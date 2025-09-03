@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.5
+version:  0.0.6
 
 language: de
 
@@ -14,7 +14,8 @@ comment:  Grundkurs Raumausstatter
 
 edit: true
 date: 2025-06-24
-logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/hwk1.jpg
+icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 
 tags:
     - Raumausstatter
