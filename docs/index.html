@@ -184,6 +184,29 @@
                 }, {
                     "@type": "ItemList",
                         "itemListElement": [{
+                        "@id": "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/AuGSchutz_SHK.md",
+                            "@type": "Course",
+                            "author": {
+                            "@type": "Person",
+                                "email": "hilke.domsch@gkz-ev.de",
+                                "name": "Hilke Domsch"
+                        },
+                            "description": "Löten und Schweißen",
+                            "image": {
+                            "@type": "ImageObject",
+                                "url": "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/worker.jpg"
+                        },
+                            "inLanguage": "de",
+                            "keywords": [
+                            "[ SHK",
+                            "Arbeitsschutz",
+                            "Gesundheitsschutz",
+                            "Anlagenmechaniker ]"],
+                            "license": "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/LICENSE",
+                            "name": "Arbeits- und Gesundheitsschutz beim Löten und Schweißen 🦺",
+                            "url": "https://LiaScript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/AuGSchutz_SHK.md",
+                            "version": "0.0.10"
+                    }, {
                         "@id": "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/GIH1.md",
                             "@type": "Course",
                             "author": {
@@ -632,29 +655,6 @@
                 }, {
                     "@type": "ItemList",
                         "itemListElement": [{
-                        "@id": "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/AuGSchutz_SHK.md",
-                            "@type": "Course",
-                            "author": {
-                            "@type": "Person",
-                                "email": "hilke.domsch@gkz-ev.de",
-                                "name": "Hilke Domsch"
-                        },
-                            "description": "Löten und Schweißen",
-                            "image": {
-                            "@type": "ImageObject",
-                                "url": "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/worker.jpg"
-                        },
-                            "inLanguage": "de",
-                            "keywords": [
-                            "SHK",
-                            "Arbeitsschutz",
-                            "Gesundheitsschutz",
-                            "Anlagenmechaniker"],
-                            "license": "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/LICENSE",
-                            "name": "Arbeits- und Gesundheitsschutz beim Löten und Schweißen 🦺",
-                            "url": "https://LiaScript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/AuGSchutz_SHK.md",
-                            "version": "0.0.9"
-                    }, {
                         "@id": "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/arbeitsschutz_Arbeitsundgesundheitsschutz.md",
                             "@type": "Course",
                             "author": {
@@ -884,6 +884,7 @@
 <select aria-label="Default select example" class="form-select" id="categorySelect" onchange="addCategoryChip(this.value)">
 <option selected="" value="">All categories</option>
 <option value="anlagenmechaniker">anlagenmechaniker</option>
+<option value="arbeitsschutz">arbeitsschutz</option>
 <option value="arbeitssicherheit">arbeitssicherheit</option>
 <option value="arbeitssicherheit, brandschutzzeichen, arbeits-_und_gesundheitsschutz">arbeitssicherheit, brandschutzzeichen, arbeits-_und_gesundheitsschutz</option>
 <option value="arbeitssicherheit, gesundheitsschutz, arbeits- und gesundheitsschutz">arbeitssicherheit, gesundheitsschutz, arbeits- und gesundheitsschutz</option>
@@ -900,7 +901,6 @@
 <option value="maler">maler</option>
 <option value="raumausstatter">raumausstatter</option>
 <option value="shk">shk</option>
-<option value="shk, arbeitsschutz, gesundheitsschutz, anlagenmechaniker">shk, arbeitsschutz, gesundheitsschutz, anlagenmechaniker</option>
 <option value="teilnehmerbefragung">teilnehmerbefragung</option>
 <option value="tischler">tischler</option>
 <option value="tsm">tsm</option>
@@ -1047,6 +1047,19 @@
 <div class="card-body">
 <p class="card-text"></p>
 <div class="row">
+<div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+<div class="card shadow-sm m-1" data-category="shk|arbeitsschutz|gesundheitsschutz|anlagenmechaniker" style="height: 100%">
+<div class="card-img-top" style="background-size: cover; height: 175px; background-image: url('https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/worker.jpg'); background-position: center center; background-repeat: no-repeat;"></div>
+<div class="card-body" style="transform: rotate(0);"> <a class="link-dark stretched-link" href="https://liascript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/AuGSchutz_SHK.md" target="_blank">
+<h6 class="card-title">Arbeits- und Gesundheitsschutz SHK-Anlagenmechaniker</h6>
+</a>
+<p class="card-text"><small>Löten und Schweißen</small>
+</p>
+<p><span class="badge rounded-pill bg-light text-dark" style="display: inline; white-space: break-spaces;">SHK</span><span class="badge rounded-pill bg-light text-dark" style="display: inline; white-space: break-spaces;">Arbeitsschutz</span><span class="badge rounded-pill bg-light text-dark" style="display: inline; white-space: break-spaces;">Gesundheitsschutz</span><span class="badge rounded-pill bg-light text-dark" style="display: inline; white-space: break-spaces;">Anlagenmechaniker</span>
+</p>
+</div><div class="card-links"><ul class="list-inline"><li class="list-inline-item"><a href="https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/releases/download/augschutz_shk_v0.0.10/AuGSchutz_SHK_v0.0.10_Documentation.pdf" target="_blank">📄 Documentation</a></li><li class="list-inline-item"><a href="https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/releases/download/augschutz_shk_v0.0.10/AuGSchutz_SHK_v0.0.10_SCORM.zip" target="_blank">📦 SCORM</a></li></ul></div>
+</div>
+</div>
 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
 <div class="card shadow-sm m-1" data-category="shk|grundkurs|anlagenmechaniker" style="height: 100%">
 <div class="card-img-top" style="background-size: cover; height: 175px; background-image: url('https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/heizungsrohre.jpg'); background-position: center center; background-repeat: no-repeat;"></div>
@@ -1428,19 +1441,6 @@
 <div class="card-body">
 <p class="card-text"></p>
 <div class="row">
-<div class="col-sm-6 col-md-4 col-lg-3 mb-3">
-<div class="card shadow-sm m-1" data-category="shk, arbeitsschutz, gesundheitsschutz, anlagenmechaniker" style="height: 100%">
-<div class="card-img-top" style="background-size: cover; height: 175px; background-image: url('https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/worker.jpg'); background-position: center center; background-repeat: no-repeat;"></div>
-<div class="card-body" style="transform: rotate(0);"> <a class="link-dark stretched-link" href="https://liascript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/AuGSchutz_SHK.md" target="_blank">
-<h6 class="card-title">Arbeits- und Gesundheitsschutz SHK-Anlagenmechaniker</h6>
-</a>
-<p class="card-text"><small>Löten und Schweißen</small>
-</p>
-<p><span class="badge rounded-pill bg-light text-dark" style="display: inline; white-space: break-spaces;">SHK, Arbeitsschutz, Gesundheitsschutz, Anlagenmechaniker</span>
-</p>
-</div><div class="card-links"><ul class="list-inline"><li class="list-inline-item"><a href="https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/releases/download/augschutz_shk_v0.0.9/AuGSchutz_SHK_v0.0.9_Documentation.pdf" target="_blank">📄 Documentation</a></li><li class="list-inline-item"><a href="https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/releases/download/augschutz_shk_v0.0.9/AuGSchutz_SHK_v0.0.9_SCORM.zip" target="_blank">📦 SCORM</a></li></ul></div>
-</div>
-</div>
 <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
 <div class="card shadow-sm m-1" data-category="arbeitssicherheit, gesundheitsschutz, arbeits- und gesundheitsschutz" style="height: 100%">
 <div class="card-img-top" style="background-size: cover; height: 175px; background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/cc/Bundesarchiv_Bild_183-41030-0002%2C_Sichtwerbung_f%C3%BCr_Arbeits-_und_Gesundheitsschutzes.jpg'); background-position: center center; background-repeat: no-repeat;"></div>
