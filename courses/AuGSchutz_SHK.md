@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.9
+version:  0.0.10
 language: de
 narrator: Deutsch Male
 
@@ -21,7 +21,7 @@ import:   https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/r
 
 title:    Arbeits- und Gesundheitsschutz SHK-Anlagenmechaniker
 
-tags:     SHK, Arbeitsschutz, Gesundheitsschutz, Anlagenmechaniker
+tags:     [ SHK, Arbeitsschutz, Gesundheitsschutz, Anlagenmechaniker ]
 
 -->
 
