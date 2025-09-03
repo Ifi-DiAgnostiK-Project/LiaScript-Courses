@@ -3,7 +3,7 @@
 author:    Hilke Domsch; Volker Göhler
 email:     hilke.domsch@gkz-ev.de
 
-version:   0.0.6
+version:   0.0.7
 language:  de
 narrator:  Deutsch Female
 
@@ -24,7 +24,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 title:     Sicherheitszeichen
 
-tags:      Arbeitssicherheit, Sicherheitszeichen, Arbeits- und Gesundheitsschutz
+tags:      [ Arbeitssicherheit, Sicherheitszeichen, Arbeits- und Gesundheitsschutz ]
 
 -->
 

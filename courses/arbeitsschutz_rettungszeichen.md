@@ -2,7 +2,7 @@
 
 author:    Hilke Domsch; Volker Göhler
 email:     hilke.domsch@gkz-ev.de
-version:   0.0.6
+version:   0.0.7
 
 language:  de
 narrator:  Deutsch Female
@@ -22,7 +22,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
            https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
            https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
 
-tags:   Arbeitssicherheit, Gesundheitsschutz, Arbeits- und Gesundheitsschutz
+tags:  [ Arbeitssicherheit, Gesundheitsschutz, Arbeits- und Gesundheitsschutz ]
 
 -->
 
