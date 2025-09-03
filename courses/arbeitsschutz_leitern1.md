@@ -25,7 +25,7 @@ import:   https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dra
           https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
           https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
 
-tags: [ Arbeitssicherheit, Leitern, Arbeits- und Gesundheitsschutz ]
+tags: [ Arbeitssicherheit, Leitern, Arbeits-_und_Gesundheitsschutz ]
 
 -->
 

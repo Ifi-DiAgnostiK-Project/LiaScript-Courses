@@ -24,7 +24,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 title:     Sicherheitszeichen
 
-tags:      [ Arbeitssicherheit, Sicherheitszeichen, Arbeits- und Gesundheitsschutz ]
+tags:      [ Arbeitssicherheit, Sicherheitszeichen, Arbeits-_und_Gesundheitsschutz ]
 
 -->
 
