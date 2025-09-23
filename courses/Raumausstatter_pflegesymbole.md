@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.1
+version:  0.0.2
 language: de
 narrator: Deutsch Female
 
@@ -11,8 +11,6 @@ date: 2025-09-08
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: https://upload.wikimedia.org/wikipedia/commons/3/33/Textilpflegesymbole.svgBundesarchiv_Bild_183-41030-0002%2C_Sichtwerbung_f%C3%BCr_Arbeits-_und_Gesundheitsschutzes.jpg
-
-attribute: title image Von Bundesarchiv, Bild 183-41030-0002 / Draum / CC-BY-SA 3.0, CC BY-SA 3.0 de, https://commons.wikimedia.org/w/index.php?curid=5428443
 
 comment:  Kurs mit den Piktogrammen zur Textilpflege für Raumausstatter.
 
@@ -31,9 +29,9 @@ tags: [ Textilpflege, Bügeln, Waschen, Bleichen, Trocknen, Raumausstatter]
 
 -->
 
-# Textilpflege - Symbole  ![Waschschüssel](img/wash.png)<!-- style="max-width: 100px; width: 100%" -->
+# Textilpflege - Symbole 
 
->_Ich möchte das Icon gern auf einer Linie mit der Überschrift haben._
+![Waschschüssel](img/wash.png)<!-- style="max-width: 100px; width: 100%;" -->
 
 Jede Textilfaser und Stoffart benötigt eine besondere Behandlung. Pflegeetiketten sind die "Geheimschrift" der Textilien-Hersteller. Sie enthalten wichtige Hinweise für die Reinigung und Bearbeitung. Die Textilpflegesymbole sind international standardisiert. Sie geben nicht nur Empfehlungen, sondern auch Einschränkungen wie "nicht bleichen" an. 
 
@@ -46,7 +44,7 @@ Viel Erfolg!
 ------------
 
 <center>
-![Pflegesymbole](fb6d6d29087ec327ccf2beb7f4a93ff6194a62e4.svg "Quelle: https://commons.wikimedia.org/wiki/File:Textilpflegesymbole.svg")<!-- style="max-width: 500px; width: 100%" -->
+![Pflegesymbole](https://upload.wikimedia.org/wikipedia/commons/3/33/Textilpflegesymbole.svg "Quelle: https://commons.wikimedia.org/wiki/File:Textilpflegesymbole.svg")<!-- style="max-width: 500px; width: 100%" -->
 </center>
 
 
