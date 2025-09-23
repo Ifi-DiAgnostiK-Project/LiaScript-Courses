@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.1
+version:  0.0.2
 language: de
 narrator: Deutsch male
 
@@ -54,9 +54,6 @@ Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen!
 </center>
 
 ## Vorbereiten der Oberfläche - einfache Fragen
-
-<section class="flex-container border">
-<div class="flex-child">
 
 <!-- class="highlight" -->
 Was gehört zu den vorbereitenden Maßnahmen vor dem Ölen einer Holzoberfläche?\
