@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.6
+version:  0.0.7
 
 language: de
 
@@ -75,29 +75,34 @@ _Quelle: HWK Dresden, André Wirsing_
 
 
 
-## 1. Welche genannten Teile gehören zu einem Schnellnäher?
+## 1. Der Schnellnäher Dürkopp Adler 281
+
+Auch wenn jede Nähmaschine im Detail etwas anders ist, wiederholen sich Grundelemente und -funktionen.
+
+Im Grundkurs Raumausstatter haben Sie einen Schnellnäher der Marke Dürkopp Adler kennengelernt.
+
+Können Sie die einzelen Bezeichnungen am Schnellnäher Dürkopp Adler 281 den verschiedenen Nummern laut Zeichnung zuordnen?
 
 <!--style="color:blue; font-weight: bolder; font-size: large"-->
-Ziehe die richtigen Antworten in das Feld.
+Wählen Sie zu jeder Teile-Bezeichung die richtige Nummer aus.
 
 ----------------
 
-<!--style="font-size: huge; color: red"--> 
-Kleiner Tipp: 
+<center>
 
-<!--style="font-size: huge; color: black"-->  10 Angaben sind richtig 😄 - Erst nach den 10 richtigen Auswahl-Antworten gibt es ein grünes Häkchen!
+![Schnellnäher](img/duerkopp_adler_281.jpg)<!-- style="width: 800px" -->
 
->_Wie kann ich ich "Kleiner Tipp:" in Rot schreiben und danach in Schwarz auf der gleichen Zeile weiter?_
-
-------------
-
-<!-- data-randomize -->
-@dragdropmultiple(@uid,Gestell|Tischplatte|Kopf|Arm|Handrad|Nadelstange|Fadenheber|Spulenkapsel|Transporteur,Hubtisch|Ohr|Finger|Kurbel|Gaspedal|Fadengalgen)
+_Quelle: www.duerkopp-adler.com_
+</center>
 
 
->_Können aus den 10 richtigen Antworten per Zufall nur 5 ausgewählt werden - ebenso sollen aus den momentan 6 falschen Antworten nur 5 falsche zur Verfügung gestellt werden._
+
+${Arm}$: [[ (1) | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14  | 15  | 16 | 17 ]]<br>
 
 
+>_Ich hätte gern nach jedem Doppelpunkt ein Leerzeichen. Mit &nbsp; und Unicode \u00A0 funktioniert das leider nicht._
+
+>_HWK Raumausstatter: Bitte die Zahlen richtig bezeichnen!_
 
 
 ## 2. Was ist beim Zuschneiden von Dekorationsstoffen zu beachten?
@@ -275,6 +280,40 @@ Ordnen Sie auch auch hier richtig zu:
 - [               (X)           ( )                 ]  Cutterkantschiene
 - [               (X)           ( )                 ]  Schere
 - [               (X)           ( )                 ]  Tapeziertisch
+
+## Zusatz: Wiederholung zum Schnellnäher
+
+<!--style="color:blue; font-weight: bolder; font-size: large"-->
+Welche Teile gehören zum Schnellnäher? Wählen Sie richtig aus!
+
+<!--style="font-size: huge; color: red"--> 
+Kleiner Tipp: 
+
+<!--style="font-size: huge; color: blue"-->  10 Angaben sind richtig 😄 
+
+------------
+
+<!-- data-randomize -->
+- [[X]] Gestell
+- [[X]] Tischplatte
+- [[X]] Kopf
+- [[X]] Arm
+- [[X]] Handrad
+- [[X]] Nadelstange
+- [[X]] Fadenheber
+- [[X]] Spulenkapsel
+- [[X]] Transporteur
+- [[ ]] Hubtisch
+- [[ ]] Ohr
+- [[ ]] Finger
+- [[ ]] Kurbel
+- [[ ]] Gaspedal
+- [[ ]] Fadengalgen
+
+>_Können aus den richtigen und falschen Antworten per Zufall nur 6 ausgewählt werden?_
+
+
+
 
 ## Geschafft ! 👏
 
