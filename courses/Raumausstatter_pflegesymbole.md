@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.2
+version:  0.0.3
 language: de
 narrator: Deutsch Female
 
@@ -10,7 +10,7 @@ edit: true
 date: 2025-09-08
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo: https://upload.wikimedia.org/wikipedia/commons/3/33/Textilpflegesymbole.svgBundesarchiv_Bild_183-41030-0002%2C_Sichtwerbung_f%C3%BCr_Arbeits-_und_Gesundheitsschutzes.jpg
+logo: https://commons.wikimedia.org/wiki/File:Textilpflegesymbole.svg
 
 comment:  Kurs mit den Piktogrammen zur Textilpflege für Raumausstatter.
 
