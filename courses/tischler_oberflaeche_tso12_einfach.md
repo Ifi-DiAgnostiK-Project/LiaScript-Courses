@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.2
+version:  0.0.3
 language: de
 narrator: Deutsch male
 
@@ -11,8 +11,6 @@ date: 2025-09-12
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: img/woodboard.jpg
-
-attribute: title image Von Bundesarchiv, Bild 183-41030-0002 / Draum / CC-BY-SA 3.0, CC BY-SA 3.0 de, https://commons.wikimedia.org/w/index.php?curid=5428443
 
 attribute: Oberflächenveredlung I TSO 1/2024, Oberflächenveredlung II TSO 2/2024, einfache Fragen
 
