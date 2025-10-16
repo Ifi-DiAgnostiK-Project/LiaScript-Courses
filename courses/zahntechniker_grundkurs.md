@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.1
+version: 0.0.2
 
 language: de
 

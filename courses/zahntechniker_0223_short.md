@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.1
+version: 0.0.2
 
 language: de
 
@@ -15,8 +15,7 @@ date: 2025-10-06
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: img/bruecke_old.jpeg
 
-attribute: 
-logo: https://de.wikipedia.org/wiki/Modellgussprothese#/media/Datei:Modellguss-geschiebe.jpg
+attribute: https://de.wikipedia.org/wiki/Modellgussprothese#/media/Datei:Modellguss-geschiebe.jpg
 
 comment:  ZAHN 2-23 Partielle Prothese - Modellguss
 
