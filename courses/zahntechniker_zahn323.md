@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.5
+version: 0.0.6
 
 language: de
 
@@ -29,7 +29,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragA
 
 title: ZAHN 3-23: ZAHN 3-23: Herstellen eines totalen Zahnersatzes nach System
 
-tags: [Zahntechniker, Zahnersatz, Kieferorthopädie, Zahnklammer, Zahnprothese]
+tags: [ Zahntechniker, Zahnersatz, Kieferorthopädie, Zahnklammer, Zahnprothese ]
 
 -->
 
