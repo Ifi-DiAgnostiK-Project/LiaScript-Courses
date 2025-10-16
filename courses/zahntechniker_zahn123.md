@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.6
+version: 0.0.7
 
 language: de
 
@@ -27,9 +27,14 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragA
         https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
         https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Bildersammlung/refs/heads/main/makros.md
 
-title: ZAHN 1-23: Kieferorthopäische Geräte und temporäre Interimsprothesen
+title: ZAHN 1-23 - Kieferorthopäische Geräte und temporäre Interimsprothesen
 
-tags: [ Zahntechniker, Kieferorthopädie, Zahnersatz, Zahnklammer, Zahnprothese ]
+tags:
+    - Zahntechniker
+    - Kieferorthopädie
+    - Zahnersatz
+    - Zahnklammer
+    - Zahnprothese
 
 -->
 
