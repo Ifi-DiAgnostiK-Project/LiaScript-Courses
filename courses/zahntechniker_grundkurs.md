@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.3
+version: 0.0.4
 
 language: de
 
@@ -35,7 +35,7 @@ tags:
     - Prothese
     - Zahnprothese
     - Krone
-    - CAD-Schiene
+    - "CAD-Schiene"
 
 @style
 .flex-container {
