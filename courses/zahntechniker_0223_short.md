@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.7
+version: 0.0.8
 
 language: de
 
@@ -27,11 +27,13 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragA
         https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
         https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Bildersammlung/refs/heads/main/makros.md
 
-title: Kurztest: Partielle Prothese (MoGu)
+title: Kurztest - Partielle Prothese (MoGu)
 
-tag: [ Zahntechniker, Zahnersatz, Prothese, Zahnprothese ]
-
-tags: Zahntechniker
+tags: 
+    - Zahntechniker
+    - Zahnersatz
+    - Prothese
+    - Zahnprothese
 
 -->
 
