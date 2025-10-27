@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.7
+version:  0.0.8
 
 language: de
 
@@ -19,27 +19,6 @@ icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses
 
 tags:
     - Raumausstatter
-
-@style
-.flex-container {
-    display: flex;[](https://liascript.github.io/LiveEditor/liascript/index.html?#5)
-    flex-wrap: wrap; /* Allows the items to wrap as needed */
-    align-items: stretch;
-    gap: 20px; /* Adds both horizontal and vertical spacing between items */
-}
-
-.flex-child {
-    flex: 1;
-    margin-right: 20px; /* Adds space between the columns */
-}
-
-@media (max-width: 600px) {
-    .flex-child {
-        flex: 100%; /* Makes the child divs take up the full width on slim devices */
-        margin-right: 0; /* Removes the right margin */
-    }
-}
-@end
 
 link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
@@ -90,9 +69,8 @@ Wählen Sie zu jeder Teile-Bezeichung die richtige Nummer aus.
 
 <center>
 
-![Schnellnäher](img/duerkopp_adler_281.jpg)<!-- style="width: 800px" -->
+![Schnellnäher](img/duerkopp_adler_281.jpg "**Quelle:** _©2025 [Dürkopp Adler GmbH](https://www.duerkopp-adler.com), alle Rechte vorbehalten._")<!-- style="width: 800px" -->
 
-_Quelle: www.duerkopp-adler.com_
 </center>
 
 
