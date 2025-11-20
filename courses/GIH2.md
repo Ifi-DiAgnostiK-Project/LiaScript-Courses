@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.7
+version:  0.0.8
 
 language: de
 
@@ -90,11 +90,11 @@ _Hinweis: Es können mehrere Antworten richtig sein!_<!--style="color:red; font-
 </div>
 <div class="flex-child">
 <!--style="font-weight: bolder; color: blue"-->Bild 1:
-![Hartlöten](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/hartloeten.jpg) <!-- style="height: 300px" -->
+![Hartlöten](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/hartloeten.jpg) <!-- style="max-height: 300px" -->
 </div>
 <div class="flex-child">
 <!--style="font-weight: bolder; color: blue"-->Bild 2:
-![Weichlöten](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/weichloeten.jpg) <!-- style="height: 300px" -->
+![Weichlöten](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/weichloeten.jpg) <!-- style="max-height: 300px" -->
 
 </div>
 </section>
