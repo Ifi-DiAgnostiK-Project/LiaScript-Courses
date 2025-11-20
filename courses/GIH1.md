@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.6
+version:  0.0.7
 
 language: de
 
@@ -265,7 +265,6 @@ $l_{1}$ $\text{=}$ [[  600  ]] $\text{mm}$
 <!--style="font-size: large"-->Setze in die Formel alle Daten richtig ein.
 
 Die Länge $l_{2}$ beträgt [[  78,5  ]] $\text{mm}$
-
 ****************************************
 
 Lösung: Berechnung der Bogenlänge $l_2$
@@ -337,7 +336,6 @@ $\boxed{l_2 \approx 78{,}5\,\text{mm}}$
 <!--style="font-size: large"-->Jetzt rechne die Gesamtlänge aus:
 
 $l_{1}$ $\text{=}$ [[  600  ]] $\text{mm}$ $\text{+}$ $l_{2}$  [[  78,5  ]] $\text{mm}$ $\text{=}$ [[  678,5  ]] $\text{mm}$
-
 ****************************************
 Lösung: Gesamtlänge berechnen
 ===
