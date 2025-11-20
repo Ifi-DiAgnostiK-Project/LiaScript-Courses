@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.7
+version: 0.0.8
 
 language: de
 
@@ -71,19 +71,19 @@ Ordnen Sie den Zahlen 1 - 5 im Bild den jeweils richtigen Fachbegriff zu.
 <br>
 
 <!-- data-randomize -->
-2<!--style="color: red; font-weight: bolder"-->  =  [[ Okklusionsebene/Lippenschlusslinie | (Gesichtsmitte)   | Eckzahnpunkte  |   Schneidezahnlinie |  Lachlinie ]]
+2<!--style="color: red; font-weight: bolder"-->  =  [[ Okklusionsebene/Lippenschlusslinie | Gesichtsmitte   | Eckzahnpunkte  |   Schneidezahnlinie |  (Lachlinie) ]]
 
 <br>
 
 <!-- data-randomize -->
-3<!--style="color: red; font-weight: bolder"-->  =  [[Okklusionsebene/Lippenschlusslinie | (Gesichtsmitte)   | Eckzahnpunkte  |   Schneidezahnlinie |  Lachlinie ]]
+3<!--style="color: red; font-weight: bolder"-->  =  [[Okklusionsebene/Lippenschlusslinie | Gesichtsmitte   | (Eckzahnpunkte)  |   Schneidezahnlinie |  Lachlinie ]]
 <br>
 
 <!-- data-randomize -->
-4<!--style="color: red; font-weight: bolder"-->  =  [[Okklusionsebene/Lippenschlusslinie | (Gesichtsmitte)   | Eckzahnpunkte  |   Schneidezahnlinie |  Lachlinie ]]
+4<!--style="color: red; font-weight: bolder"-->  =  [[ (Okklusionsebene/Lippenschlusslinie) | Gesichtsmitte   | Eckzahnpunkte  |   Schneidezahnlinie |  Lachlinie ]]
 
 <!-- data-randomize -->
-5<!--style="color: red; font-weight: bolder"-->  =  [[Okklusionsebene/Lippenschlusslinie | (Gesichtsmitte)   | Eckzahnpunkte  |   Schneidezahnlinie |  Lachlinie ]]
+5<!--style="color: red; font-weight: bolder"-->  =  [[Okklusionsebene/Lippenschlusslinie | Gesichtsmitte   | Eckzahnpunkte  |   (Schneidezahnlinie) |  Lachlinie ]]
 
 
 </div>
