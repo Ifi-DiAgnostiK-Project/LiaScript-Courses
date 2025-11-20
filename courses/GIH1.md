@@ -4,7 +4,7 @@ author:   Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.5
+version:  0.0.6
 
 language: de
 
@@ -251,7 +251,7 @@ Die neutrale<!--style="font-weight: bold"--> Faser<!--style="font-weight: bold"-
 
 <!--style="font-size: large"-->2. Gebogener Abschnitt: $\text{90°-Bogen}$ $\text{=}$ $l_{2}$<!-- style="color: orange" -->
 
-<!--style="color:blue; font-weight: bolder"-->Wie lang muss das Ausgangsrohr mindestens sein, damit es nach dem Biegen exakt passt?
+<!--style="color:blue; font-weight: bolder"-->Wie lang muss das Ausgangsrohr **mindestens** sein, damit es nach dem Biegen passt?
 
 $l_{1}$ $\text{=}$ [[  600  ]] $\text{mm}$
 
@@ -266,10 +266,95 @@ $l_{1}$ $\text{=}$ [[  600  ]] $\text{mm}$
 
 Die Länge $l_{2}$ beträgt [[  78,5  ]] $\text{mm}$
 
+****************************************
+
+Lösung: Berechnung der Bogenlänge $l_2$
+===
+
+Gegeben:
+
+- Durchmesser: $d = 100\,\text{mm}$
+- Winkel: $\alpha = 90^\circ$
+
+Gesucht ist die Bogenlänge $l_2$.
+
+---
+
+**1. Formel**
+===
+
+$l_2 = \frac{\pi \cdot d \cdot \alpha}{360}$
+
+Diese Formel basiert auf der allgemeinen Bogenlänge:
+
+$l = 2\pi r \cdot \frac{\alpha}{360}$
+
+Da $d = 2r$, folgt:
+
+$l = \pi d \cdot \frac{\alpha}{360}$
+
+---
+
+**2. Werte einsetzen**
+===
+
+$l_2 = \frac{\pi \cdot 100\,\text{mm} \cdot 90}{360}$
+
+---
+
+**3. Vereinfachen**
+===
+
+$\frac{90}{360} = \frac{1}{4}$
+
+$l_2 = \pi \cdot 100\,\text{mm} \cdot \frac{1}{4}$
+
+---
+
+**4. Weiter vereinfachen**
+===
+
+$l_2 = \pi \cdot 25\,\text{mm}$
+
+---
+
+**5. Numerisches Ergebnis**
+===
+
+$l_2 \approx 3{,}1416 \cdot 25\,\text{mm}$
+
+$l_2 \approx 78{,}54\,\text{mm}$
+
+---
+
+**Ergebnis**
+===
+
+$\boxed{l_2 \approx 78{,}5\,\text{mm}}$
+
+****************************************
+
 <!--style="font-size: large"-->Jetzt rechne die Gesamtlänge aus:
 
 $l_{1}$ $\text{=}$ [[  600  ]] $\text{mm}$ $\text{+}$ $l_{2}$  [[  78,5  ]] $\text{mm}$ $\text{=}$ [[  678,5  ]] $\text{mm}$
 
+****************************************
+Lösung: Gesamtlänge berechnen
+===
+
+$l_1 = 600\,\text{mm}$
+$l_2 \approx 78{,}5\,\text{mm}$
+
+Einsetzen
+===
+
+$l_{gesamt} = l_1 + l_2$
+
+$l_{gesamt} = 600\,\text{mm} + 78{,}5\,\text{mm}$
+
+$l_{gesamt} = 678{,}5\,\text{mm}$
+
+****************************************
 
 
 ## Super gemacht 👌
