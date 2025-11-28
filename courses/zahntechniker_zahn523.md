@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.1
+version: 0.0.2
 
 language: de
 
@@ -93,9 +93,9 @@ Ordnen Sie den Zahlen 1 - 6 im Bild den jeweils richtigen Fachbegriff zu.
 6<!--style="color: green; font-weight: bolder"-->  =  [[ (Teleskoprand) | Okklusalfläche   | Okklusale Phase  |   Zervikaler Rand |  Zervikale Stufe |  Gefräßte Fläche]]
 
 </div>
-<div class="flex-child-1">
+<div class="flex-child" style="margin-top:100px;">
 
-![Primärteleskop](img/krone_w_points.png "                         _Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 350px; width: 100%" -->
+![Primärteleskop](img/krone_w_points.png " _Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 550px; width: 100%" -->
 
 
 </div>
