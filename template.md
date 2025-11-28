@@ -10,6 +10,7 @@ comment: <Kommentar hier>
 title: Templatefile <der Title für die Übersichtsseite>
 
 tags:
+  - Wissensspeicher
   - <Tag1>
   - <Tag2>
 
