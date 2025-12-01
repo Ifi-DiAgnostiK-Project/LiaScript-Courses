@@ -1,9 +1,10 @@
 <!--
 author: Niklas Werner
-version: 0.0.3
+version: 0.0.4
 script: https://cdn.jsdelivr.net/npm/konva@latest/konva.min.js
 comment: This is a test for the Konva library in LiaScript, demonstrating how to create shapes and measure their dimensions using arrows and labels.
 edit: true
+language: de
 
 logo: https://konvajs.org/assets/users/windoor.jpg
 icon: https://konvajs.org/img/icon.png

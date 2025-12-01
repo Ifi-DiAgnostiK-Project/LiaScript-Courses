@@ -1,7 +1,8 @@
 <!--
 author: Hilke Domsch
 comment: Hilkes Fragen am 20.05.25, mit Volkers Antworten
-version: 0.0.7
+version: 0.0.8
+language: de
 edit: true
 date: 2025-05-20
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png

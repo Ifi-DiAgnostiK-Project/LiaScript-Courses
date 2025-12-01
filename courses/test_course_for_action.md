@@ -1,9 +1,10 @@
 <!--
 author: Volker Göhler
 email: volker.goehler@informatik.tu-freiberg.de
-version: 0.0.19
+version: 0.0.20
 edit: true
 date: 2025-05-20
+language: de
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 comment: Test Course for the action release system
 

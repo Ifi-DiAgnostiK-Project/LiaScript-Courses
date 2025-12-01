@@ -1,8 +1,9 @@
 <!--
 
 author: Niklas Werner
-version: 0.0.2
+version: 0.0.3
 comment: This is a JSCAD example
+language: de
 edit: true
 import:  https://raw.githubusercontent.com/LiaTemplates/jscad/0.0.1/README.md
 
