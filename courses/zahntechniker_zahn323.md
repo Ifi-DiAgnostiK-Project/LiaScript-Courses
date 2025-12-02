@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.8
+version: 0.0.9
 
 language: de
 
@@ -50,7 +50,7 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 <center>
 
 
-![Zahnersatz](img/zahnimplantat.jpg "[_Quelle: Pixabay, muklinika_](https://pixabay.com/photos/dentistry-dentals-teeth-model-jaw-668214/)")<!-- style="width: 500px" -->
+![Zahnersatz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zahnimplantat.jpg "[_Quelle: Pixabay, muklinika_](https://pixabay.com/photos/dentistry-dentals-teeth-model-jaw-668214/)")<!-- style="width: 500px" -->
 
 </center> 
 
@@ -89,7 +89,7 @@ Ordnen Sie den Zahlen 1 - 5 im Bild den jeweils richtigen Fachbegriff zu.
 </div>
 <div class="flex-child-0">
 
-![Bissschablone](img/zahn_greenGumm.png "                         _Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 350px; width: 100%" -->
+![Bissschablone](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zahn_greenGumm.png "                         _Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 350px; width: 100%" -->
 
 
 </div>
@@ -121,19 +121,17 @@ Wie heißen der Anfangs- und Endpunkt richtig?
 <!-- class="highlight"-->
 Welche Funktion hat der Camper'sche Ebene bei der Herstellung einer Vollprothese?
 
-<!--style="color: red"-->Es sind mehrere Antworten möglich.
-
 <!-- data-randomize -->
-- [[X]] Sie dient als Orientierungshilfe zur Bestimmung der Okklusionsebene.
-- [[X]] Sie sorgt für eine harmonische Ästhetik und Lautbildung.
-- [[ ]] Sie gibt die Lage der Kauebene im Unterkiefer exakt anatomisch vor.
-- [[ ]] Sie wird zur Bestimmung der Zahnfarben verwendet.
-- [[ ]] Sie ersetzt die Kauebene im Artikulator vollständig. 
+- [(X)] Sie dient als Orientierungshilfe zur Bestimmung der Okklusionsebene.
+- [( )] Sie sorgt für eine harmonische Ästhetik und Lautbildung.
+- [( )] Sie gibt die Lage der Kauebene im Unterkiefer exakt anatomisch vor.
+- [( )] Sie wird zur Bestimmung der Zahnfarben verwendet.
+- [( )] Sie ersetzt die Kauebene im Artikulator vollständig. 
 
 </div>
 <div class="flex-child-0">
 
-![Fragezeichen](img/question_maennl.jpg"                         _Quelle: Pixabay, Peggy+Marco_")<!-- style="max-width: 250px; width: 100%" -->
+![Fragezeichen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/question_maennl.jpg"                         _Quelle: Pixabay, Peggy+Marco_")<!-- style="max-width: 250px; width: 100%" -->
 
 
 </div>
@@ -148,7 +146,7 @@ Wie wird die Camper'sche Ebene in der Praxis überprüft oder eingestellt?
 <!--style="color: red"-->Es sind mehrere Antworten möglich.
 
 <!-- data-randomize -->
-- [[X]] Mit Hilfe des Gesichtsbogens oder einer Fox-Ebene.
+- [[X]] Mit Hilfe eines Gerberlineals.
 - [[X]] Durch Sichtkontrolle, dass die Okklusionsebene parallel zur Camper'schen Ebene verläuft. 
 - [[ ]] Durch Anzeichnen der Ebene auf dem Modellgips mit einem Zirkel.
 - [[ ]] Sie wird ausschließlich im Artikulator eingestellt. 
@@ -187,7 +185,7 @@ Welche Aussagen sind richtig?
 Ordnen Sie die richtigen Begriffe den Aussagen zu!
 
 <!-- data-randomize -->
-Die Ruheschwebelage ist eine [->[ (muskulär) | aktiv ]] bestimmte Lage des [->[ (Oberkiefers) | Unterkiefers ]].
+Die Ruheschwebelage ist eine [->[ (muskulär) | aktiv ]] bestimmte Lage des [->[  Oberkiefers | (Unterkiefers) ]].
 
 <!-- data-randomize -->
 Sie ist [->[ identisch | (nicht identisch) ]] mit der Zentrik. Sie wird genutzt, um die [->[ (Bisshöhe) | Kaubewegung ]] bei der Herstellung von Vollprothesen festzustellen. 
@@ -268,7 +266,7 @@ Was entsteht während der Stützstiftregistrierung bei den Unterkieferbewegungen
 <!--style="color: red"-->Es sind mehrere Antworten möglich.
 
 <!-- data-randomize -->
-- [[X]] Eine grafische Darstellung der Kieferbewegungen, meist in Form eines Dreiecks.   
+- [[X]] Eine grafische Darstellung der Kieferbewegungen, meist in Form eines Pfeiles.   
 - [[X]] Ein sogenanntes „Gothisches Bogenbild“. 
 - [[ ]] Eine Aufnahme der Zahnkontakte in Zentrik. 
 - [[ ]] Ein dreidimensionales Röntgenbild. 
@@ -319,7 +317,7 @@ Ordnen Sie den Zahlen 1 - 6 im Bild den jeweils richtigen Fachbegriff zu.
 </div>
 <div class="flex-child-0">
 
-![Modellanalyse](img/biss_marked.png "                         _Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 350px; width: 100%" -->
+![Modellanalyse](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/biss_marked.png "                         _Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 350px; width: 100%" -->
 
 
 </div>
