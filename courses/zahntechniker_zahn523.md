@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.3
+version: 0.0.4
 
 language: de
 
@@ -54,7 +54,7 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 <center>
 
 
-![Zahntechnikerin](img/zahntechniker_et_work.jpg "[_Quelle: Pixabay, Ri-Ya_](https://pixabay.com/photos/dental-lab-models-dental-crowns-7660684/)")<!-- style="width: 500px" -->
+![Zahntechnikerin](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zahntechniker_et_work.jpg "[_Quelle: Pixabay, Ri-Ya_](https://pixabay.com/photos/dental-lab-models-dental-crowns-7660684/)")<!-- style="width: 500px" -->
 
 </center> 
 
@@ -95,7 +95,7 @@ Ordnen Sie den Zahlen 1 - 6 im Bild den jeweils richtigen Fachbegriff zu.
 </div>
 <div class="flex-child" style="margin-top:100px;">
 
-![Primärteleskop](img/krone_w_points.png " _Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 550px; width: 100%" -->
+![Primärteleskop](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/krone_w_points.png " _Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 550px; width: 100%" -->
 
 
 </div>
@@ -124,7 +124,7 @@ Welche Fügetechnik gibt es in der Zahntechnik NICHT?
 
 <center>
 
-![kleine Zahnarbeiter](img/zaehne_und_maennl.jpg "[_Quelle: Pixabay, Vilkasss_](https://pixabay.com/illustrations/ai-generated-teeth-dental-miniature-9431605/)")<!-- style="width: 500px" -->
+![kleine Zahnarbeiter](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zaehne_und_maennl.jpg "[_Quelle: Pixabay, Vilkasss_](https://pixabay.com/illustrations/ai-generated-teeth-dental-miniature-9431605/)")<!-- style="width: 500px" -->
 
 </center> 
 
@@ -146,7 +146,7 @@ Welcher Fachbegriff bezeichnet eine zahntechnische Klebeverbindung?
 </div>
 <div class="flex-child-0">
 
-![Fragezeichen](img/fragezeichen2.jpg"                         _Quelle: Pixabay, Peggy+Marco_")<!-- style="max-width: 250px; width: 100%" -->
+![Fragezeichen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fragezeichen2.jpg"                         _Quelle: Pixabay, Peggy+Marco_")<!-- style="max-width: 250px; width: 100%" -->
 
 </div>
 </section>
@@ -214,9 +214,9 @@ Wählen Sie das richtige Ergebnis.
 - [(X)] 10,04 g
 - [( )] 10,75 g
 - [( )] 4,50 g
-
 ****************************************
-## **Lösung**
+**Lösung**
+======
 
 Da das Volumen beim Gussprozess gleich bleibt (Wachsmodell → Metallgussstück), gilt:
 
@@ -236,7 +236,8 @@ $W_M \approx 10{,}04\,\text{g}$
 
 ---
 
-## **Ergebnis**
+**Ergebnis**
+========
 
 $\boxed{W_M \approx 10{,}04\,\text{g}}$
 
@@ -259,8 +260,10 @@ $\boxed{W_M \approx 10{,}04\,\text{g}}$
 <!-- class="highlight"-->
 Welche Werkstoffe werden üblicherweise in der Zahntechnik für die Teleskoptechnik eingesetzt?
 
-- [[ ]] Zirkonoxid (nur primär)
-- [[ ]] PEEK (nur sekundär)
+<!--style="color: red"-->Es sind mehrere Antworten richtig.
+
+- [[ ]] Zirkonoxid (nur sekundär)
+- [[ ]] PMMA 
 - [[X]] CoCr
 - [[X]] hochgoldhaltige Legierungen
 - [[X]] goldreduzierte Legierungen
@@ -268,7 +271,7 @@ Welche Werkstoffe werden üblicherweise in der Zahntechnik für die Teleskoptech
 </div>
 <div class="flex-child-1">
 
-![Zahntechnikerin](img/worker_et_krone.jpg "[_Quelle: Pixabay, ExplorerBob_](https://pixabay.com/photos/adult-woman-medicine-people-3264741/)")<!-- style="max-width: 200px; width: 100%" -->
+![Zahntechnikerin](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/worker_et_krone.jpg "[_Quelle: Pixabay, ExplorerBob_](https://pixabay.com/photos/adult-woman-medicine-people-3264741/)")<!-- style="max-width: 200px; width: 100%" -->
 
 
 </div>

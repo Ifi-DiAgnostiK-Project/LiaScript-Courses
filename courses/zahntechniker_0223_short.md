@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.8
+version: 0.0.9
 
 language: de
 
@@ -49,7 +49,7 @@ Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen!
 <center>
 
 
-![Modellguss](img/bruecke_old.jpeg "[_Quelle: Wikipedia, Von www.dr-horn.com_, CC BY-SA 3.0](https://de.wikipedia.org/wiki/Modellgussprothese)")<!-- style="width: 600px" -->
+![Modellguss](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bruecke_old.jpeg "[_Quelle: Wikipedia, Von www.dr-horn.com_, CC BY-SA 3.0](https://de.wikipedia.org/wiki/Modellgussprothese)")<!-- style="width: 600px" -->
 
 </center> 
 
@@ -76,7 +76,7 @@ Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen!
 <center>
 
 
-![Zähne mit Männeln](img/arbeiter_an_gebiss.jpg"_Quelle: Pixabay, Marco Federmann_")<!-- style="max-width: 300px; width: 100%" -->
+![Zähne mit Männeln](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/arbeiter_an_gebiss.jpg"_Quelle: Pixabay, Marco Federmann_")<!-- style="max-width: 300px; width: 100%" -->
 
 </center>
 
@@ -104,7 +104,7 @@ Welche Art der Klammergestaltung sollte hier genutzt werden?
 <div class="flex-child-0">
 
 
-![Sattelferne Unterstützung](img/keine_vorderzähne.jpg"_              Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 300px; width: 100%" -->
+![Sattelferne Unterstützung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/keine_vorderzähne.jpg"_              Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 300px; width: 100%" -->
 
 
 </div>
@@ -132,7 +132,7 @@ Welche Art der Klammergestaltung sollte hier genutzt werden?
 <div class="flex-child-0">
 
 
-![Sattelnahe Abstützung](img/zahnluecke.jpg"_              Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 300px; width: 100%" -->
+![Sattelnahe Abstützung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zahnluecke.jpg"_              Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 300px; width: 100%" -->
 
 
 </div>
@@ -180,7 +180,7 @@ Welche Art der Klammergestaltung sollte hier genutzt werden?
 <!--style="color: blue; font-weight: bolder"-->Ziehen Sie die jeweils richtige Antwort in das entsprechende Feld.
 
 <!-- data-randomize -->
-Das Akronym NEM<!--style="color: green; font-weight: bolder"--> steht für [->[  (Edelmetalllegierung) | Nichtedelmaterial ]] und EM<!--style="color: green; font-weight: bolder"--> für  [->[  (Edelmetalllegierung) | Elektromagnet ]].
+Das Akronym NEM<!--style="color: green; font-weight: bolder"--> steht für [->[  Edelmetall | (Nichtedelmetalllegierung) ]] und EM<!--style="color: green; font-weight: bolder"--> für  [->[  (Edelmetalllegierung) | Elektromagnet ]].
 
 </div>
 </section>
@@ -249,7 +249,7 @@ Das Mischungsverhältnis beträgt 80%.
 - [( )] Liq. 60 ml  und  H₂O 20 ml
 - [( )] Liq. 75 ml  und  H₂O 5 ml
 - [( )] Liq. 50 ml  und  H₂O 30 ml
-- [( )] Liq. 64 ml  und  H₂O 16 ml
+- [(X)] Liq. 64 ml  und  H₂O 16 ml
 *******
 Berechnung:
 ===========
