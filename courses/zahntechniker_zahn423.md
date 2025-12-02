@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.1
+version: 0.0.2
 
 language: de
 
@@ -55,7 +55,7 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 <center>
 
 
-![CAD-CAM](img/laserscanner.jpg "[_Quelle: jb-zahntechnik_](https://www.jb-zahntechnik.de/wp-content/uploads/2015/06/fraeszentrum-061.jpg)")<!-- style="width: 500px" -->
+![CAD-CAM](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/laserscanner.jpg "[_Quelle: jb-zahntechnik_](https://www.jb-zahntechnik.de/wp-content/uploads/2015/06/fraeszentrum-061.jpg)")<!-- style="width: 500px" -->
 
 </center> 
 
@@ -142,7 +142,7 @@ Welche Vorteile bietet die CAD/CAM-Technologie?
 </div>
 <div class="flex-child-0">
 
-![Fragezeichen](img/fragezeichen.jpg"                         _Quelle: Pixabay, Peggy+Marco_")<!-- style="max-width: 250px; width: 100%" -->
+![Fragezeichen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fragezeichen.jpg"                         _Quelle: Pixabay, Peggy+Marco_")<!-- style="max-width: 250px; width: 100%" -->
 
 
 </div>
@@ -162,14 +162,14 @@ Welche Frässtrategien können in der CAM-Technik vorkommen?
 <!-- data-randomize -->
 - [[ ]] 9-Achs-Fräsen
 - [[ ]] Rotationssintern
-- [[X]] 3-Achs-Fräsen
+- [[X]] 3+2-Achs-Fräsen
 - [[X]] 5-Achs-Fräsen
-- [[X]] 2-Achs-Fräsen (selten!)
+- [[ ]] 2-Achs-Fräsen (selten!)
 
 </div>
 <div class="flex-child-0">
 
-![CAM](img/typ_am_computer_mit_bruecke.jpg"                       [_Quelle: jb-zahntechnik_](https://www.jb-zahntechnik.de/wp-content/uploads/2015/06/fraeszentrum-011.jpg)")<!-- style="max-width: 400px; width: 100%" -->
+![CAM](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/typ_am_computer_mit_bruecke.jpg"                       [_Quelle: jb-zahntechnik_](https://www.jb-zahntechnik.de/wp-content/uploads/2015/06/fraeszentrum-011.jpg)")<!-- style="max-width: 400px; width: 100%" -->
 
 
 </div>
@@ -238,7 +238,7 @@ Welche Arbeitsschritte gehören typischerweise zur CAD-Technik in der Zahntechni
 </div>
 <div class="flex-child-0">
 
-![CAD](img/zahnfraese.jpg"                       [_Quelle: jb-zahntechnik_](https://www.jb-zahntechnik.de/wp-content/uploads/2015/06/fraeszentrum-081.jpg)")<!-- style="max-width: 400px; width: 100%" -->
+![CAD](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zahnfraese.jpg"                       [_Quelle: jb-zahntechnik_](https://www.jb-zahntechnik.de/wp-content/uploads/2015/06/fraeszentrum-081.jpg)")<!-- style="max-width: 400px; width: 100%" -->
 
 
 </div>
@@ -263,7 +263,7 @@ Ziehen Sie die richtigen Begriffe für die drei Kristallphasen der temperaturabh
 <br>
 <br>
 <center>
-![Zirkoniumoxxde](img/kuenstliche_Schneidezaehne.jpg"   [_Quelle: dentaltechnik caspers_](https://dentaltechnik-caspers.de/portfolio-items/vollkeramik-zirkon/?portfolioCats=6)")<!-- style="max-width: 400px; width: 100%" -->
+![Zirkoniumoxxde](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/kuenstliche_Schneidezaehne.jpg"   [_Quelle: dentaltechnik caspers_](https://dentaltechnik-caspers.de/portfolio-items/vollkeramik-zirkon/?portfolioCats=6)")<!-- style="max-width: 400px; width: 100%" -->
 </center>
 
 ## 6. Werkstoffe in der CAD/CAM-Technologie
@@ -285,7 +285,7 @@ Ziehen Sie die entsprechenden Begriffe in das Antwortfeld.
 <br>
 <br>
 <center>
-![CAD/CAM](img/zahn_maschinen.jpg"   [_Quelle: dentaltechnik caspers_](https://dentaltechnik-caspers.de/portfolio-items/cadcam/?portfolioCats=6#)")<!-- style="max-width: 400px; width: 100%" -->
+![CAD/CAM](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zahn_maschinen.jpg"   [_Quelle: dentaltechnik caspers_](https://dentaltechnik-caspers.de/portfolio-items/cadcam/?portfolioCats=6#)")<!-- style="max-width: 400px; width: 100%" -->
 </center>
 
 ## Super gemacht! 🙌
