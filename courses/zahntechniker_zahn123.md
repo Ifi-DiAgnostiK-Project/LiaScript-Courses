@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.7
+version: 0.0.8
 
 language: de
 
@@ -50,7 +50,7 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 <center>
 
 
-![Zahnspange](img/bracket_closeup.jpg "[_Quelle: Pixabay, guentherbraun0_](https://pixabay.com/de/photos/zahnarzt-kieferorthop%C3%A4die-542252/)")<!-- style="width: 400px" -->
+![Zahnspange](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bracket_closeup.jpg "[_Quelle: Pixabay, guentherbraun0_](https://pixabay.com/de/photos/zahnarzt-kieferorthop%C3%A4die-542252/)")<!-- style="width: 400px" -->
 
 </center> 
 
@@ -150,7 +150,7 @@ Ordnen Sie den Zahlen 1 - 6 im Bild den jeweils richtigen Fachbegriff zu.
 </div>
 <div class="flex-child-0">
 
-![Gebogene Klammer](img/zahn-draht-schematisch.png "                                             _Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 350px; width: 100%" -->
+![Gebogene Klammer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zahn-draht-schematisch.png "                                             _Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 350px; width: 100%" -->
 
 
 </div>
@@ -187,7 +187,7 @@ Ordnen Sie den Zahlen 1 - 4 im Bild den jeweils richtigen Fachbegriff zu.
 </div>
 <div class="flex-child-0">
 
-![aktive Platte](img/rainbow_bracket.png "                         _Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 350px; width: 100%" -->
+![aktive Platte](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/rainbow_bracket.png "_Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 350px; width: 100%" -->
 
 
 </div>
@@ -224,7 +224,7 @@ Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge.\
 An oberster Stelle seht der erste Arbeitsschritt.
 
 <!-- data-randomize -->
-@dragdroporder(@uid,Modelltradierung|Halteelemente biegen|Dehnschraube platzieren|Halteelemente am Modell fixieren|Modell wässern und isolieren|Kunststoff streuen|Polymerisieren|Ausarbeiten der Platte|Politur und Fertigstellung)
+@dragdroporder(@uid,Ausarbeiten der Platte|Politur und Fertigstellung|Modelltradierung|Polymerisieren|Halteelemente biegen|Modell wässern und isolieren|Dehnschraube platzieren|Halteelemente am Modell fixieren|Kunststoff streuen,Modelltradierung|Halteelemente biegen|Dehnschraube platzieren|Halteelemente am Modell fixieren|Modell wässern und isolieren|Kunststoff streuen|Polymerisieren|Ausarbeiten der Platte|Politur und Fertigstellung)
 
 </div>
 <div class="flex-child-0">
@@ -261,7 +261,7 @@ Welche Aussagen treffen auf Interimsprothesen (Sofortprothesen) zu?
 <center>
 
 
-![Zahnspange](img/bracket_yellow.jpg"_Quelle: Pixabay, guentherbraun0_")<!-- style="max-width: 350px; width: 100%" -->
+![Zahnspange](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bracket_yellow.jpg"_Quelle: Pixabay, guentherbraun0_")<!-- style="max-width: 350px; width: 100%" -->
 
 
 </center>
