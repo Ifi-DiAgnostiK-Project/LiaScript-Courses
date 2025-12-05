@@ -1,10 +1,10 @@
 <!--
 
-author: Hilke Domsch; Kay Deblitz
+author: Hilke Domsch; Alexander Maywaldt
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.1
+version: 0.0.2
 
 language: de
 
@@ -45,7 +45,7 @@ Sie haben in den letzten Tagen den Herstellungsprozess sowie die Arbeits- und Hi
 
 ---------------
 
-![Zahnersatz](img/unterkiefer_ansicht.jpg)<!-- style="width: 700px" -->
+![Zahnersatz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/unterkiefer_ansicht.jpg)<!-- style="width: 700px" -->
 
 _Quelle: Pixabay, dental-inno_
 
@@ -73,16 +73,18 @@ Biokompatible Materialien in der Zahntechnik sind besonders wichtig, weil sie im
 
 <!--style="color: blue; font-weight: bolder"-->Welches Material wird häufig für Kronen und Brücken verwendet?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
+
 <!-- data-randomize -->
-- [( )] Kunststoff
-- [(X)] Keramik
-- [( )] Amalgan
-- [( )] Biomaterialien
-- [( )] Gold bzw. Titan
+- [[ ]] Kunststoff
+- [[X]] Zirkonoxid
+- [[ ]] Amalgan
+- [[ ]] Biomaterialien
+- [[X]] CoCr
 
 </div>
 <div class="flex-child-2 center">
-![Implantate](img/zahnersatz.jpg"_Quelle: Pixabay, Emergency Denture Repair_")<!-- style="max-width: 300px; width: 100%" -->
+![Implantate](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zahnersatz.jpg"_Quelle: Pixabay, Emergency Denture Repair_")<!-- style="max-width: 300px; width: 100%" -->
 
 </div>
 </section>
@@ -113,28 +115,28 @@ Klicken Sie in der "Auswahl" das richtige Verfahren an.
 Bei diesem Verfahren wird ein elektrischer Widerstand genutzt. <br> Es eignet sich sehr gut für die Schmelze von Metallen in speziellen Tiegeln. <br> Die Wärme verteilt sich gleichmäßig.
 
 <!-- data-randomize -->
-[[Plasmaschmelzverfahren |  | Elektronenschmelzververfahren | Widerstandsschmelzverfahren | Induktionsschmelzverfahren | Flammschmelzen ]]
+[[Plasmaschmelzverfahren  | Elektronenschmelzververfahren | (Widerstandsschmelzverfahren) | Induktionsschmelzverfahren | Flammschmelzen ]]
 
 -----
 
 Bei diesem Verfahren wird ein Brenngas, meist Acetylen oder Propan, verwendet. <br> Es eignet sich gut für das Schmelzen von Edelmetallen wie Gold. <br> Das Verfahren ist für kleine Schmelzmengen gut geeignet.
 
 <!-- data-randomize -->
-[[Elektronenschmelzverfahren |  | Pressschmelzverfahren | (Widerstandsschmelzverfahren) | Induktionsschmelzverfahren | Flammschmelzen ]]
+[[Elektronenschmelzverfahren | Pressschmelzverfahren | Widerstandsschmelzverfahren | Induktionsschmelzverfahren | (Flammschmelzen) ]]
 
 -----------
 
 Bei diesem Verfahren wird eine Spule erwärmt, die das zu schmelzende Material erhitzt, ohne direkten Kontakt. <br> Es wird oft für Edelmetalle und Legierungen verwendet. <br> Das Verfahren ist sehr schnell, effizient und bietet eine präzise Temperaturkontrolle.
 
 <!-- data-randomize -->
-[[(Induktionsschmelzverfahren) |  | Plasmaschmelzverfahren | Widerstandsschmelzverfahren | Lichtbogenschmelzverfahren | Elektronenstrahlschmelzen ]]
+[[(Induktionsschmelzverfahren) | Plasmaschmelzverfahren | Widerstandsschmelzverfahren | Lichtbogenschmelzverfahren | Elektronenstrahlschmelzen ]]
 
 -----------
 
-Bei diesem Verfahren wird im Zusammenspiel von zwei Elektroden eine extrem hohe Temperatur erzeugt. <br> Primär wird dieses Verfahren bei der Herstellung von speziellen Legierungen und für Kupfer- oder Titanlegierungen eingesetzt. <br> Es eignet sich für große Mengen an Material, besitzt eine hohe Schmelzgeschwindigkeit und Effizienz.
+Bei diesem Verfahren wird im Zusammenspiel von zwei Elektroden eine extrem hohe Temperatur erzeugt. <br> Primär wird dieses Verfahren bei der Herstellung von speziellen Legierungen und für Titanlegierungen eingesetzt. <br> Es eignet sich für große Mengen an Material, besitzt eine hohe Schmelzgeschwindigkeit und Effizienz.
 
 <!-- data-randomize -->
-[[Elektronenschmelzverfahren |  | (Lichtbogenschmelzen) | Plasmaschmelzen | Induktionsschmelzverfahren | Flammschmelzen ]]
+[[Elektronenschmelzverfahren | (Lichtbogenschmelzen) | Plasmaschmelzen | Induktionsschmelzverfahren | Flammschmelzen ]]
 
 
 ## 3. Fügetechniken in der Zahntechnik
@@ -168,6 +170,8 @@ In der Zahntechnik unterscheidet man verschiedene Verbindungen. Eine davon sind 
 <!--class="highlight"-->
 Welche Verbindungsarten in der zahntechnischen Anwendungen sind richtig benannt?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
+
 <!-- data-randomize -->
 - [[ ]] hybride Verbindung
 - [[X]] formschlüssige Verbindung
@@ -176,7 +180,7 @@ Welche Verbindungsarten in der zahntechnischen Anwendungen sind richtig benannt?
 
 </div>
 <div class="flex-child-2 center">
-![Dentist](img/arbeiter_an_krone.jpg"_Quelle: Pixabay, wir-sind-klein_")<!-- style="max-width: 300px; width: 100%" -->
+![Dentist](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/arbeiter_an_krone.jpg"_Quelle: Pixabay, wir-sind-klein_")<!-- style="max-width: 300px; width: 100%" -->
 
 </div>
 </section>
@@ -188,6 +192,7 @@ Welche Verbindungsarten in der zahntechnischen Anwendungen sind richtig benannt?
 
 <!--style="color: blue; font-weight: bolder"-->Welche Aussagen zum ~~Löten~~ in der Zahntechnik sind korrekt?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
 
 <!-- data-randomize -->
 - [[ ]] Es erfolgt bei Temperaturen über 1.200 °C.
@@ -204,7 +209,7 @@ Welche Verbindungsarten in der zahntechnischen Anwendungen sind richtig benannt?
 <!--class="highlight"-->
 Ziehe die passenden Begriffe in das entsprechende Feld.
 
-In der Zahntechnik<!--style="color: green; font-weight: bolder"--> wird nur  [->[  (Hartlöten) | Weichlöten ]] eingesetzt.
+In der Zahntechnik<!--style="color: green; font-weight: bolder"--> wird nur  [->[  (Hartlöten) | Punktlöten ]] eingesetzt.
 
 Die Festigkeitswerte<!--style="color: green; font-weight: bolder"--> der Lotnaht ist [->[  (geringer) | höher ]] als bei einer Schweißnaht.
 
@@ -219,11 +224,12 @@ Die Festigkeitswerte<!--style="color: green; font-weight: bolder"--> der Lotnaht
 <!--class="highlight"-->
 Welche Lote werden in der Zahntechnik unterschieden?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
+
 <!-- data-randomize -->
 - [[ ]] Vorlote
 - [[X]] Hauptlote
 - [[ ]] Feinlote
-- [[X]] Nachlote
 - [[X]] Reparaturlote
 
 </div>
@@ -240,6 +246,7 @@ Welche Lote werden in der Zahntechnik unterschieden?
 
 <!--style="color: blue; font-weight: bolder"-->Welche Aussagen zum ~~Kleben~~ in der Zahntechnik sind korrekt?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
 
 <!-- data-randomize -->
 - [[ ]] Es ist besonders hitzebeständig bei hohen Temperaturen.
@@ -256,6 +263,7 @@ Welche Lote werden in der Zahntechnik unterschieden?
 
 <!--style="color: blue; font-weight: bolder"-->Welche Bedingungen sind wichtig, damit eine Klebeverbindung in der Zahntechnik dauerhaft hält?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
 
 <!-- data-randomize -->
 - [[ ]] Unebenheiten verbessern die Haftung.
@@ -287,6 +295,7 @@ Ziehe die richtigen Antworten in das Feld.
 
 <!--style="color: blue; font-weight: bolder"-->Welche Aussagen zum ~~Laserschweißen~~ in der Zahntechnik sind korrekt?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
 
 <!-- data-randomize -->
 - [[ ]] Es benötigt immer zusätzliche Lötlegierungen.
@@ -302,6 +311,7 @@ Ziehe die richtigen Antworten in das Feld.
 
 <!--style="color: blue; font-weight: bolder"-->Für welche Zwecke wird das Laserschweißen in der Zahntechnik eingesetzt?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
 
 <!-- data-randomize -->
 - [[ ]] Zum Verbinden von Keramik mit Kunststoff.
@@ -311,7 +321,7 @@ Ziehe die richtigen Antworten in das Feld.
 
 </div>
 <div class="flex-child-2 center">
-![Zähne](img/arbeiter_an_gebiss.jpg "_Quelle: Pixabay, marcofedermann_")<!-- style="max-width: 300px; width: 100%" -->
+![Zähne](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/arbeiter_an_gebiss.jpg "_Quelle: Pixabay, marcofedermann_")<!-- style="max-width: 300px; width: 100%" -->
 
 </div>
 </section>
@@ -347,6 +357,7 @@ Die Festigkeitswerte<!--style="color: green; font-weight: bolder"--> der Lotnaht
 
 <!--style="color: blue; font-weight: bolder"-->Welche Aussagen zum ~~Phaser-Technik~~ in der Zahntechnik sind korrekt?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
 
 <!-- data-randomize -->
 - [[ ]] Es ist besonders hitzebeständig bei hohen Temperaturen.
@@ -375,6 +386,7 @@ Ziehe die richtigen Antworten in das Feld.
 
 <!--style="color: blue; font-weight: bolder"-->Welche Gasarten können in einem Zahntechniklabor zum Einsatz kommen?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
 
 <!-- data-randomize -->
 - [[ ]] Acetylen
@@ -387,7 +399,7 @@ Ziehe die richtigen Antworten in das Feld.
 
 </div>
 <div class="flex-child-2 center">
-![Gasflaschen](img/fuenf_feuerloescher.jpg"_Quelle: Pixabay, Foto-Rabe_")<!-- style="max-width: 300px; width: 100%" -->
+![Gasflaschen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fuenf_feuerloescher.jpg"_Quelle: Pixabay, Foto-Rabe_")<!-- style="max-width: 300px; width: 100%" -->
 
 </div>
 </section>
@@ -397,6 +409,7 @@ Ziehe die richtigen Antworten in das Feld.
 
 <!--style="color: blue; font-weight: bolder"-->Welche Aussagen zum Einsatz von Gasen im Zahntechniklabor sind korrekt?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
 
 <!-- data-randomize -->
 - [[ ]] Acetylen gehört zu den Standardgasen im Zahntechniklabor.
@@ -424,6 +437,7 @@ Ziehe die richtigen Antworten in das Feld.
 
 <!--style="color: blue; font-weight: bolder"-->Welche Arbeitsschutzmaßnahmen beim Umgang mit Gasen sind verpflichtend?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
 
 <!-- data-randomize -->
 - [[ ]] Lagern von Gasflaschen im Freien ist erlaubt.
@@ -440,6 +454,7 @@ Ziehe die richtigen Antworten in das Feld.
 
 <!--style="color: blue; font-weight: bolder"-->Welche Teile gehören zur Persönlichen Schutzausrüstung (PSA)?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
 
 <!-- data-randomize -->
 - [[ ]] Kopfbedeckung 🧢
@@ -458,6 +473,7 @@ Ziehe die richtigen Antworten in das Feld.
 
 <!--style="color: blue; font-weight: bolder"-->Sicherheit im Laboralltag - Welche Regeln sind verbindlich?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
 
 <!-- data-randomize -->
 - [[ ]] Schutzbrille ist nur bei Laserarbeiten notwendig.
@@ -474,6 +490,7 @@ Ziehe die richtigen Antworten in das Feld.
 
 <!--style="color: blue; font-weight: bolder"-->Welche Aussagen zum Einsatz von Gasen im Zahntechniklabor sind korrekt?
 
+<!--style="color:red;"-->Hinweis: Es sind mehrere Antworten richtig.
 
 <!-- data-randomize -->
 - [[ ]] Acetylen gehört zu den Standardgasen im Zahntechniklabor.
@@ -484,7 +501,7 @@ Ziehe die richtigen Antworten in das Feld.
 
 </div>
 <div class="flex-child-2 center">
-![Arbeitsschutzzeichen](img/schilder_an_zaun.jpg"_Quelle: Pixabay, planet fox_")<!-- style="max-width: 300px; width: 100%" -->
+![Arbeitsschutzzeichen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/schilder_an_zaun.jpg"_Quelle: Pixabay, planet fox_")<!-- style="max-width: 300px; width: 100%" -->
 
 </div>
 </section>
