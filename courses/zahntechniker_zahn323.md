@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.9
+version: 0.0.10
 
 language: de
 
@@ -87,9 +87,9 @@ Ordnen Sie den Zahlen 1 - 5 im Bild den jeweils richtigen Fachbegriff zu.
 
 
 </div>
-<div class="flex-child-0">
+<div class="flex-child" style="margin-top:100px;">
 
-![Bissschablone](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zahn_greenGumm.png "                         _Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 350px; width: 100%" -->
+![Bissschablone](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zahn_greenGumm.png "_Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 550px; width: 100%" -->
 
 
 </div>
@@ -315,9 +315,9 @@ Ordnen Sie den Zahlen 1 - 6 im Bild den jeweils richtigen Fachbegriff zu.
 
 
 </div>
-<div class="flex-child-0">
+<div class="flex-child" style="margin-top:100px;">>
 
-![Modellanalyse](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/biss_marked.png "                         _Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 350px; width: 100%" -->
+![Modellanalyse](img/abdruck_for_quiz.png"_Quelle: HWK Dresden, Alexander Meiwald_")<!-- style="max-width: 550px; width: 100%" -->
 
 
 </div>
