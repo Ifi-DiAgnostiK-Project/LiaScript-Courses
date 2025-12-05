@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.1.1
+version:  0.1.2
 
 language: de
 
@@ -51,15 +51,9 @@ tags:
 
 # Der Goldene Schnitt
 
-![Da Vinci](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/da_vinci.png)
+![Da Vinci](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/da_vinci.png "_Quelle:_ Da Vinci Vitruve Luc Viatour 2.svg; Wikipedia;")
 
-_Quelle:_ Da Vinci Vitruve Luc Viatour 2.svg; Wikipedia;
-
-
-![Illustration Goldener Schnitt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/goldener_schnitt_illustration.png)<!-- style="width: 400px;" -->
-
-_Quelle:_ Generiert von Dall-E 3, An OpenAI Model, 2025
-
+![Illustration Goldener Schnitt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/goldener_schnitt_illustration.png "_Quelle:_ Generiert von Dall-E 3, An OpenAI Model, 2025")<!-- style="width: 400px;" -->
 
 ## Einführung
 
@@ -76,9 +70,7 @@ _Quelle:_ Generiert von Dall-E 3, An OpenAI Model, 2025
 <!-- style="width: 800px" -->
 
 
-![golden ratio examples](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/golden_ratio_collage.png)
-
-_Quelle:_ Generiert von Dall-E 3, An OpenAI Model, 2025
+![golden ratio examples](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/golden_ratio_collage.png "_Quelle:_ Generiert von Dall-E 3, An OpenAI Model, 2025")
 
 ## 🎨 Grafische Darstellung des Goldenen Schnitts
 
@@ -336,9 +328,7 @@ Diese beiden Teile stehen im Verhältnis   __3:5__   zueinander.
 Schauen Sie sich die folgende Skizze an.
 ------------------
 
-![Deko-Schleife](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/deko_schleife.jpg)
-
-_Quelle: HWK Dresden, Frau Schmidt_
+![Deko-Schleife](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/deko_schleife.jpg "_Quelle: HWK Dresden, Frau Schmidt_")
 
 ---
 
