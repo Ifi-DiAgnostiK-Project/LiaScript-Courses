@@ -4,7 +4,7 @@ author: Hilke Domsch; Alexander Meiwald
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.4
+version: 0.0.5
 
 language: de
 
@@ -263,7 +263,7 @@ Welche Werkstoffe werden üblicherweise in der Zahntechnik für die Teleskoptech
 <!--style="color: red"-->Es sind mehrere Antworten richtig.
 
 - [[ ]] Zirkonoxid (nur sekundär)
-- [[ ]] PMMA 
+- [[ ]] PMMA (nur primär)
 - [[X]] CoCr
 - [[X]] hochgoldhaltige Legierungen
 - [[X]] goldreduzierte Legierungen
