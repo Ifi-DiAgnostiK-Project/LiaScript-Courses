@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.2
+version:  0.0.3
 
 language: de
 
@@ -53,15 +53,9 @@ title: Goldener Schnitt -- Kurzversion
 
 # Der Goldene Schnitt
 
-![Da Vinci](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/da_vinci.png)
+![Da Vinci](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/da_vinci.png "_Quelle:_ Da Vinci Vitruve Luc Viatour 2.svg; Wikipedia;")
 
-_Quelle:_ Da Vinci Vitruve Luc Viatour 2.svg; Wikipedia;
-
-
-![Illustration Goldener Schnitt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/goldener_schnitt_illustration.png)<!-- style="width: 400px;" -->
-
-_Quelle:_ Generiert von Dall-E 3, An OpenAI Model, 2025
-
+![Illustration Goldener Schnitt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/goldener_schnitt_illustration.png "_Quelle:_ Generiert von Dall-E 3, An OpenAI Model, 2025")<!-- style="width: 400px;" -->
 
 ## Einführung
 
@@ -139,9 +133,7 @@ Diese beiden Teile stehen im Verhältnis   __3:5__   zueinander.
 Schauen Sie sich die folgende Skizze an.
 ------------------
 
-![Deko-Schleife](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/deko_schleife.jpg)
-
-_Quelle: HWK Dresden, Frau Schmidt_
+![Deko-Schleife](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/deko_schleife.jpg "_Quelle: HWK Dresden, Frau Schmidt_")
 
 ---
 
