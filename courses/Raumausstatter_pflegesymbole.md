@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.4
+version:  0.0.5
 language: de
 narrator: Deutsch Female
 
@@ -30,7 +30,7 @@ tags: [ Textilpflege, Bügeln, Waschen, Bleichen, Trocknen, Raumausstatter]
 
 # Textilpflege - Symbole 
 
-![Waschschüssel](img/wash.png)<!-- style="max-width: 100px; width: 100%;" -->
+![Waschschüssel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/wash.png)<!-- style="max-width: 100px; width: 100%;" -->
 
 Jede Textilfaser und Stoffart benötigt eine besondere Behandlung. Pflegeetiketten sind die "Geheimschrift" der Textilien-Hersteller. Sie enthalten wichtige Hinweise für die Reinigung und Bearbeitung. Die Textilpflegesymbole sind international standardisiert. Sie geben nicht nur Empfehlungen, sondern auch Einschränkungen wie "nicht bleichen" an. 
 
@@ -56,7 +56,7 @@ Viel Erfolg!
 Was versteht man unter textilen Artikeln?\
 Setzen Sie den jeweils richtigen Begriff an die passende Stelle.
 
-[->[  (Garn) | Leder ]], Stückware und konfektionierte Produkte mit einem Gewichtsanteil an [->[ (Textilfasern) | nicht-fasrigen Materialien ]] von mindestens [->[  55% | (80%)  ]], einschließlich nichttextiler Bestandteile.  
+[->[ (Garn) ]], Stückware und konfektionierte Produkte mit einem Gewichtsanteil an [->[ (Textilfasern) ]] von mindestens [->[  55% | (80%)  ]], einschließlich nichttextiler Bestandteile.  
 
 </div>
 </section>
