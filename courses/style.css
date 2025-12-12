@@ -88,3 +88,10 @@
   justify-content: center;
   align-items: center;
 }
+
+.large {
+  font-size: large;
+}
+.bold {
+  font-weight: bolder;
+}
