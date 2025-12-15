@@ -4,7 +4,7 @@ author: Hilke Domsch; Florian Riefling
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.1
+version: 0.0.2
 
 language: de
 
@@ -13,7 +13,7 @@ narrator: Deutsch Female
 edit: true
 date: 2025-12-11
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo: img/waermedaemmung.jpg
+logo: img/bauwerk_schichten.jpg
 
 attribute: https://de.freepik.com/fotos-kostenlos/im-modernen-stil-haus-im-bau_997935.htm#fromView=keyword&page=2&position=46&uuid=e3d1e428-80f1-4fcc-b9e4-1cd4e3b5de48&query=Waermedaemmung
 
@@ -163,46 +163,24 @@ An oberster Stelle steht der erste Arbeitsschritt.
 <section class="flex-container border">
 <div class="flex-child">
 
-
-<!-- class="highlight"-->
+<!-- class="highlight" style="margin-bottom:40px;"-->
 Ordnen Sie den Zahlen 1 - 7 im Bild den jeweils richtigen Fachbegriff zu.  
 
-<br>
 
-<!-- data-randomize -->
-1<!--style="color: green; font-weight: bolder"-->  =  [[ Dämmstoff | Kleber   | Oberputz/Endbeschichtung  |  (Wand)  |  Grundierung |  Armierungsgewebe  |  Armierungsmasse ]]
-
-<br>
-
-<!-- data-randomize -->
-2<!--style="color: green; font-weight: bolder"-->  =  [[ Dämmstoff | (Kleber)   | Oberputz/Endbeschichtung  |  Wand  |  Grundierung |  Armierungsgewebe  |  Armierungsmasse ]]
-
-<br>
-
-<!-- data-randomize -->
-3<!--style="color: green; font-weight: bolder"-->  =  [[ (Dämmstoff) | Kleber   | Oberputz/Endbeschichtung  |  Wand  |  Grundierung |  Armierungsgewebe  |  Armierungsmasse ]]
-
-<br>
-
-<!-- data-randomize -->
-4<!--style="color: green; font-weight: bolder"-->  =  [[ Dämmstoff | Kleber   | Oberputz/Endbeschichtung  |  Wand  |  Grundierung |  Armierungsgewebe  |  (Armierungsmasse) ]]
-
-<br>
-
-<!-- data-randomize -->
-5<!--style="color: green; font-weight: bolder"-->  =  [[ Dämmstoff | Kleber   | Oberputz/Endbeschichtung  |  Wand  |  Grundierung |  (Armierungsgewebe)  |  Armierungsmasse ]]
-
-<br>
-
-<!-- data-randomize -->
-6<!--style="color: green; font-weight: bolder"-->  =  [[ Dämmstoff | Kleber   | Oberputz/Endbeschichtung  |  Wand  |  (Grundierung) |  Armierungsgewebe  |  Armierungsmasse ]]
-
-<br>
-
-<!-- data-randomize -->
-7<!--style="color: green; font-weight: bolder"-->  =  [[ Dämmstoff | Kleber   | (Oberputz/Endbeschichtung)  |  Wand  |  Grundierung |  Armierungsgewebe  |  Armierungsmasse ]]
-
-<br>
+<ol class="styled-list">
+<!-- 
+data-randomize
+data-max-trials="3"
+data-solution-button="off" 
+-->
+<li> [[ Dämmstoff | Kleber   | Oberputz/Endbeschichtung  |  (Wand)  |  Grundierung |  Armierungsgewebe  |  Armierungsmasse ]]</li>
+<li> [[ Dämmstoff | (Kleber)   | Oberputz/Endbeschichtung  |  Wand  |  Grundierung |  Armierungsgewebe  |  Armierungsmasse ]]</li>
+<li> [[ (Dämmstoff) | Kleber   | Oberputz/Endbeschichtung  |  Wand  |  Grundierung |  Armierungsgewebe  |  Armierungsmasse ]]</li>
+<li> [[ Dämmstoff | Kleber   | Oberputz/Endbeschichtung  |  Wand  |  Grundierung |  Armierungsgewebe  |  (Armierungsmasse) ]]</li>
+<li> [[ Dämmstoff | Kleber   | Oberputz/Endbeschichtung  |  Wand  |  Grundierung |  (Armierungsgewebe)  |  Armierungsmasse ]]</li>
+<li> [[ Dämmstoff | Kleber   | Oberputz/Endbeschichtung  |  Wand  |  (Grundierung) |  Armierungsgewebe  |  Armierungsmasse ]]</li>
+<li> [[ Dämmstoff | Kleber   | (Oberputz/Endbeschichtung)  |  Wand  |  Grundierung |  Armierungsgewebe  |  Armierungsmasse ]]</li>
+</ol>
 
 </div>
 <div class="flex-child" style="margin-top:100px;">
@@ -215,22 +193,22 @@ Ordnen Sie den Zahlen 1 - 7 im Bild den jeweils richtigen Fachbegriff zu.
 
 ## Mathematische Aufgabe: Materialbedarf für Kleber + Putz berechnen
 
-<section class="flex-container border">
-<div class="flex-child">
+<div class="border">
 
 <!--style="font-size: large"-->Eine Fassade besitzt folgende Maße:
 
 <!--class="large"-->
-Breite:<!-- class="bold"-->  12 m
+<span>Breite:</span><!-- class="bold"-->  12 m
 <br>
+
 <!--class="large"-->
-Höhe:  7 m
+<span>Höhe:</span><!-- class="bold"-->  7 m
 <br>
+
 <!--class="large"-->
-Abzüge<!-- class="bold"--> für<!-- class="bold"--> Fenster/Türen:<!-- class="bold"-->  6 m²
+<span>Abzüge für Fenster/Türen:</span><!-- class="bold"-->  6 m²
 
 </div>
-</section>
 
 <!--style="background-color:#A090FF; color: white;"-->
 
@@ -259,20 +237,22 @@ Es soll berechnet werden, wie viel Kleber/Armierungsmörtel und Strukturputz K 2
 
 ### Schritt 1: Fassadenflächen berechnen
 
-<section class="flex-container border">
-<div class="flex-child">
+<div class="border">
 
 <!--style="font-size: large"-->Eine Fassade besitzt folgende Maße:
 
-<!--class="large bold"-->
-Breite<!--style="font-size: large;font-weight: bolder"-->:<!--style="font-size: large;font-weight: bolder"-->  12<!--style="font-size: large"--> m<!--style="font-size: large"-->
+<!--class="large"-->
+<span>Breite:</span><!-- class="bold"-->  12 m
 <br>
-Höhe<!--style="font-size: large;font-weight: bolder"-->:<!--style="font-size: large;font-weight: bolder"-->  7<!--style="font-size: large"--> m<!--style="font-size: large"-->
+
+<!--class="large"-->
+<span>Höhe:</span><!-- class="bold"-->  7 m
 <br>
-Abzüge<!--style="font-size: large;font-weight: bolder"--> für<!--style="font-size: large;font-weight: bolder"--> Fenster/Türen<!--style="font-size: large;font-weight: bolder"-->:<!--style="font-size: large;font-weight: bolder"-->  6<!--style="font-size: large"--> m²<!--style="font-size: large"-->
+
+<!--class="large"-->
+<span>Abzüge für Fenster/Türen:</span><!-- class="bold"-->  6 m²
 
 </div>
-</section>
 
 <section class="flex-container border">
 <div class="flex-child">
@@ -281,11 +261,24 @@ Abzüge<!--style="font-size: large;font-weight: bolder"--> für<!--style="font-s
 Berechnen Sie dieFläche ohne Abzüge.\
 Welche m²-Zahl ist richtig?
 
-<!-- data-randomize -->
+<!-- 
+data-randomize
+data-max-trials="3"
+data-solution-button="off" 
+-->
 - [( )] 80 m²
 - [(X)] 84 m²
 - [( )] 78 m²
 - [( )] 46 m²
+******************************
+
+$Fläche = Breite * Höhe$
+
+$Fläche = 12 m * 7 m$
+
+$Fläche = 84 m^2$
+
+******************************
 
 </div>
 </section>
@@ -310,11 +303,22 @@ Welche m²-Zahl ist richtig?
 <!-- class="highlight"-->
 Wie viel kg Kleber-/Armierung benötigen Sie?
 
-<!-- data-randomize -->
-- [( )] 250 kg
-- [(X)] 390 kg
+<!-- 
+data-randomize
+data-max-trials="3"
+data-solution-button="off" 
+-->
+- [(X)] 420 kg
+- [( )] 390 kg
 - [( )] 415 kg
 - [( )] 350 kg
+******************************
+$Kleberbedarf = Fläche * Verbrauch$
+
+$Kleberbedarf = 84 m^2 * 5,0 kg/m^2$
+
+$Kleberbedarf = 420 kg$
+******************************
 
 </div>
 </section>
@@ -338,12 +342,22 @@ Wie viel kg Kleber-/Armierung benötigen Sie?
 <!-- class="highlight"-->
 Wie viel kg Strukturputz benötigen Sie?
 
-<!-- data-randomize -->
+<!-- 
+data-randomize
+data-max-trials="3"
+data-solution-button="off" 
+-->
 - [( )] 390 kg
-- [(X)] 195 kg
+- [(X)] 210 kg
 - [( )] 155 kg
-- [( )] 415 kg
+- [( )] 420 kg
+******************************
+$Strukturputzbedarf = Fläche * Verbrauch$
 
+$Strukturputzbedarf = 84 m^2 * 2,5 kg/m^2$
+
+$Strukturputzbedarf = 210 kg$
+******************************
 
 </div>
 </section>
@@ -358,7 +372,11 @@ Welche Aussagen sind richtig?
 
 ><!--style="color: red; font-weight: bolder"-->Es sind insgesamt drei Antworten richtig!
 
-<!-- data-randomize -->
+<!-- 
+data-randomize
+data-max-trials="3"
+data-solution-button="off" 
+-->
 - [[ ]] Kreidende Altanstriche können überarbeitet werden.
 - [[ ]] Gering durchfeuchtete Stellen sind unkritisch.
 - [[X]] Der Untergrund muss tragfähig sein.
@@ -385,7 +403,11 @@ Was gehört zu den Anforderungen beim Setzen der Sockelschiene?
 
 ><!--style="color: red; font-weight: bolder"-->Es sind insgesamt drei Antworten richtig!
 
-<!-- data-randomize -->
+<!-- 
+data-randomize
+data-max-trials="3"
+data-solution-button="off" 
+-->
 - [[ ]] Die Sockelschiene kann ohne Abstand zum Gelände montiert werden. 
 - [[ ]] Die Sockelschiene kann nach dem Kleben der Dämmplatten montiert werden. 
 - [[X]] Die Sockelschiene wird lot- und waagerecht an der Fassade ausgerichtet. 
@@ -413,7 +435,11 @@ Welche Aussagen zur Armierungsmasse und zum eingelegten Gewebe stimmen?
 
 ><!--style="color: red; font-weight: bolder"-->Es sind drei Antworten richtig!
 
-<!-- data-randomize -->
+<!-- 
+data-randomize
+data-max-trials="3"
+data-solution-button="off" 
+-->
 - [[ ]] Das Armierungsgewebe wird mittig in die Armierungsmasse eingebettet.
 - [[ ]] Die Armierung kann auch ohne Eckschutzschienen erfolgen.
 - [[X]] Gewebebahnen müssen mindestens 10 cm überlappt werden. 
@@ -441,7 +467,11 @@ Welche Aussagen sind richtig?
 
 ><!--style="color: red; font-weight: bolder"-->Es sind drei Antworten richtig!
 
-<!-- data-randomize -->
+<!-- 
+data-randomize
+data-max-trials="3"
+data-solution-button="off" 
+-->
 - [[ ]] Strukturputz kann direkt auf die Dämmplatten aufgetragen werden. 
 - [[ ]] Trocknungszeiten zwischen den Arbeitsschritten entfallen, wenn die Umgebungstemperatur eine rasche Trocknung unterstützt.
 - [[X]] Vor dem Strukturputz wird eine geeignete Grundierung aufgebracht. 

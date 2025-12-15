@@ -95,3 +95,24 @@
 .bold {
   font-weight: bolder;
 }
+
+/* Styles for the ordered list */
+.styled-list {
+    /* Remove default margin/padding if necessary */
+    list-style-type: decimal; /* Ensures it's a numbered list */
+    padding-left: 25px; /* Adjust as needed for marker visibility */
+}
+
+/* Styles for the list items */
+.styled-list li {
+    /* Add 10px vertical space between items */
+    margin-bottom: 10px;
+}
+
+/* Target the list marker/number specifically */
+.styled-list li::marker {
+    /* Make the number bold */
+    font-weight: bold;
+    /* Set the number color to green */
+    color: green;
+}
