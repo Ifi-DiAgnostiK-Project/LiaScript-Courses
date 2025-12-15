@@ -4,7 +4,7 @@ author: Hilke Domsch; Florian Riefling
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.1
+version: 0.0.2
 
 language: de
 
@@ -64,6 +64,19 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 </center> 
 
 # Arbeitsablauf zur Verarbeitung von Untertapeten
+
+Familie Farbe hat die Renovierung ihres Einfamilienhauses beauftragt.
+
+Sie arbeiten mit Kollegen auf dieser Baustelle. 
+
+Alle notwendigen Arbeitsmaterialien und -werkzeuge sind bereits vor Ort. 
+<br> <br>
+Ihr Vorabeiter beauftragt Sie, im Wohnzimmer zu tapezieren. 
+
+Er bittet Sie, ihm den notwendigen Arbeitsablauf vorzulegen.
+
+Sie sollen das konkrete Aufmaß für den Raum erstellen und alle benötigten Geräte und Werkzeuge aufschreiben.
+
 
 <section class="flex-container border">
 <div class="flex-child">
