@@ -4,7 +4,7 @@ author: Hilke Domsch; Florian Riefling
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.0.3
+version: 0.0.4
 
 language: de
 
@@ -42,12 +42,17 @@ tags:
     - Fassade
 
 @style
-    div.pool-container img {
-        width:500px !important;
-        height: auto !important;
-        object-fit: cover;
+    div.pool-container img[style] {
+        width:1000px !important;
+        height: 100% !important;
+        max-height: 100% !important;
+        max-width: 96% !important;
+        object-fit: contain !important;
+        flex: 4;
     }
-
+    div.pool-container {
+        padding-left: 2px !important;
+    }
 @end
     
 -->
