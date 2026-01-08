@@ -126,3 +126,10 @@ ul.thumbup li {
 ul.checkmark li::marker {
   content: "✔️ ";
 }
+
+ul.book li::marker {
+  content: "📘 ";
+}
+ul.book li {
+    font-weight: bold;
+}
