@@ -116,3 +116,13 @@
     /* Set the number color to green */
     color: green;
 }
+
+ul.thumbup li::marker {
+  content: "👍";
+}
+ul.thumbup li {
+    font-weight: bold;
+}
+ul.checkmark li::marker {
+  content: "✔️ ";
+}
