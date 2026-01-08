@@ -155,8 +155,8 @@ jobs:
           set -euo pipefail
           # WORKAROUND: Untertapeten Card needs to be in two categories
           # FIXME: Remove when LiaScriptExporter supports multiple categories per course
-          echo "WORKAROUND: Copy Card for Untertapeten"
-          python3 clone_untertapeten_card.py docs/index.html
+          echo "WORKAROUND: Copy Card to duplicate certain cards into another category"
+          python3 clone_cards.py docs/index.html
 
       - name: Configure Git
         run: |
