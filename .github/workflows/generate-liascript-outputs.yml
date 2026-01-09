@@ -146,7 +146,35 @@ jobs:
       - name: Generate index.html from project.yml
         run: |
           set -euo pipefail
+
+          TARGET="docs/index.html"
+
+          # Compute pre-hash (empty if not present)
+          if [ -f "$TARGET" ]; then
+            PRE_HASH=$(sha256sum "$TARGET" | awk '{print $1}')
+          else
+            PRE_HASH="__MISSING__"
+          fi
+          echo "pre-hash: $PRE_HASH"
+          
+          # generator
           liaex -i project.yml --format project --project-generate-cache --output docs/index
+
+          # Compute post-hash (empty if not present)
+          if [ -f "$TARGET" ]; then
+            POST_HASH=$(sha256sum "$TARGET" | awk '{print $1}')
+          else
+            POST_HASH="__MISSING__"
+          fi
+          echo "post-hash: $POST_HASH"
+
+          if [ "$PRE_HASH" = "$POST_HASH" ]; then
+            echo "No change detected in $TARGET — failing step as requested."
+            exit 1
+          fi
+
+          echo "$TARGET changed (proceeding)."
+
 
       - name: configure Python and beautifulSoup
         run: |
