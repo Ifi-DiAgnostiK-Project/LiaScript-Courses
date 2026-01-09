@@ -253,3 +253,4 @@ fabric.properties
 # custom
 *.xcf
 project.yml
+.idea/.name
