@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.12
+version:  0.0.13
 language: de
 narrator: Deutsch Male
 
@@ -11,7 +11,7 @@ comment:  Löten und Schweißen
 edit:     true
 date:     2025-07-23
 
-logo:     https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/worker.jpg
+logo:     https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/burning.jpg
 icon:     https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 
 link:     style.css
@@ -56,23 +56,30 @@ Dazu gehören, z.B.:
 </div>
 </section>
 
+<!--class="highlight"-->
+__Sicheres Arbeiten ist Teamarbeit – und Sie sind ein wichtiger Teil davon.__
 
-<!--style="font-size: huge; color:blue; font-weight: bolder;"-->Sicheres Arbeiten ist Teamarbeit – und Sie sind ein wichtiger Teil davon.
+
+
 
 ## 1. Welche persönliche Schutzausrüstung (PSA) ist beim Schweißen unbedingt erforderlich?
 
-<!--style="color:blue; font-weight: bolder;"-->Ziehe alle richtigen Symbole in das Antwortfeld. 🤔
+<!-- class="highlight" -->
+__Ziehe alle richtigen Symbole in das Antwortfeld. 🤔__
 
-<!-- data-randomize -->
 @dragdropmultiple(@uid,@Gebotszeichen.Gesichtsschutz.src|@Gebotszeichen.Augenschutz.src|@Gebotszeichen.Handschuh.src,@Gebotszeichen.Rettungsweste_benutzen.src|@Gebotszeichen.Rueckhaltesystem.src)
 
-_Quelle: BGHM_
+_Piktogramme Quelle: BGHM_
 
 ## 2. Wichtige Schutzmaßnahmen beim Schweißen und Löten
 
-<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
+> __Hinweis:__ Es können mehrere Antworten richtig sein.
 
-<!--style="color:blue; font-weight: bolder;"-->Entscheiden Sie, welche Maßnahmen des Arbeitssicherheit und Gesundheitsschutz für Löt- und Schweißarbeiten zu beachten sind.  🤔
+<section class="flex-container border">
+<div class="flex-child">
+
+<!-- class="highlight" -->
+__Entscheiden Sie, welche Maßnahmen des Arbeitssicherheit und Gesundheitsschutz für Löt- und Schweißarbeiten zu beachten sind.  🤔__
 
 <!-- data-randomize -->
 - [[X]] Schutzausrüstung
@@ -82,35 +89,41 @@ _Quelle: BGHM_
 - [[X]] gereinigte Arbeitsstücke
 - [[ ]] Beaufsichtigung der Arbeiten durch einen erfahrenen Fachmann
 
------------------------
+</div>
+</section> 
 
-<!--style="color:blue; font-weight: bolder;"-->Welche Schutzausrüstung und Sicherheitsmaßnahmen sind beim Löten zu beachten? Ziehen Sie die richtigen Bilder ins Antwortfeld. 🤔
+<!-- class="highlight" -->
+__Welche Schutzausrüstung und Sicherheitsmaßnahmen sind beim Löten zu beachten? Ziehen Sie die richtigen Bilder ins Antwortfeld. 🤔__
 
 <!-- data-randomize -->
 @dragdropmultiple(@uid,@Gebotszeichen.Augenschutz.src|@Gebotszeichen.Handschuh.src|@Gebotszeichen.Schutzkleidung.src|@Brandschutzzeichen.Feuerloescher.src|@Gebotszeichen.Haende_waschen.src,@Gebotszeichen.Rettungsweste_benutzen.src|@Warnzeichen.Brandfoerdernde_Stoffe.src|@Warnzeichen.Heisse_Oberflaeche.src|@Warnzeichen.Laserstrahl.src|@Gebotszeichen.Kopfschutz.src)
 
-_Quelle: BGHM_
+_Piktogramme Quelle: BGHM_
 
 ## 3. Gefahren beim Schweißen
 
-<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
+> __Hinweis:__ Es können mehrere Antworten richtig sein.
 
-----------------
+<section class="flex-container border">
+<div class="flex-child">
 
-<!--style="color:blue; font-weight: bolder;"-->Sind besondere Schutzmaßnahmen gegen elektrischen Strom beim Schweißen notwendig? 🤔
+<!-- class="highlight" -->
+__Sind besondere Schutzmaßnahmen gegen elektrischen Strom beim Schweißen notwendig? 🤔__
 
 <!-- data-randomize -->
 - [[X]] Ja. Zum Beispiel durch eine Isoliermatte unter den Füßen
 - [[X]] Ja. Zum Beispiel durch elektrisch isolierende Schutzhandschuhe und Sicherheitsschuhe
 - [[ ]] Es sind keine besonderen Maßnahmen notwendig.
 
------------------
+</div>
+</section> 
 
-<!--style="color:blue; font-weight: bolder;"-->Welche Risiken bestehen beim Schweißen?  🤔
+<section class="flex-container border">
+<div class="flex-child">
 
-<section class="flex-container">
+<!-- class="highlight" -->
+__Welche Risiken bestehen beim Schweißen?  🤔__
 
-<div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
 - [[X]] Gase und Dämpfe
@@ -120,17 +133,18 @@ _Quelle: BGHM_
 - [[X]] Brände und Explosionen
 
 </div>
+<div class="flex-child-2 center">
 
-<div class="flex-child" style="min-width: 150px">
-![Schweißer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/worker.jpg "[Quelle: Zehnder-Cleanairsolutions.com](https://www.zehnder-cleanairsolutions.com/de/blog/gefahren-beim-schweissen)")<!-- style="width: 350px" -->
-
+![Schweißer](img/stick_welding_pipe.jpg "[_Quelle: Pixabay, saldahnae_](https://pixabay.com/photos/welder-industrial-welding-working-5408909/)")<!-- style="max-width: 550px; width: 100%; margin-left: -60px; margin-top:50px;" -->
 
 </div>
 </section>
 
-----------------
+<section class="flex-container border">
+<div class="flex-child">
 
-<!--style="color:blue; font-weight: bolder;"-->Was ist beim Elektroschweißen zum Schutz vor elektrischem Strom zu beachten?  🤔
+<!-- class="highlight" -->
+__Was ist beim Elektroschweißen zum Schutz vor elektrischem Strom zu beachten? 🤔__
 
 <!-- data-randomize -->
 - [[ ]] Ein Schweißeranzug bietet ausreichenden Schutz gegen elektrische Gefährdung.
@@ -138,20 +152,20 @@ _Quelle: BGHM_
 - [[X]] Nasse und durchschwitzte Kleidung hat eine erhöhte elektrische Leitfähigkeit und sollte gewechselt werden.
 - [[ ]] Beim Tragen von Sicherheitsschuhen mit isollierender Sohle kann es zu keiner elektrischen Körperdurchströmung kommen.
 
+</div>
+</section>
 
 ## 4. Weitere Quizfragen zum Thema Schweißen I
 
-<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
-
-----------------
-
-<!--style="color:blue; font-weight: bolder;"-->
-Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
+> __Hinweis:__ Es können mehrere Antworten richtig sein.
 
 
-<section class="flex-container">
+<section class="flex-container border">
+<div class="flex-child">
 
-<div class="flex-child" style="min-width: 250px">
+<!-- class="highlight" -->
+__Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?__
+
 
 <!-- data-randomize -->
 - [( )] Mit einem herkömmlichen Feuerzeug
@@ -159,23 +173,21 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 - [( )] Mit einem Streichholz
 
 </div>
-
-<div class="flex-child" style="min-width: 150px">
-![Gasanzünder](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/gas_welding_flame.jpg "[Quelle: VBG](https://www.vbg.de/zeitarbeit-fb/fragebogen/10/)")<!-- style="width: 150px" -->
+<div class="flex-child">
 
 
-
+![Schweißerflamme](img/welding_torch.jpg "[_Quelle: Pixabay, Shutterbug78_](https://pixabay.com/photos/acetylene-aluminium-aluminum-blow-1239330/)")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:50px;" -->
 
 </div>
 </section>
 
-----------------
 
-<!--style="color:blue; font-weight: bolder;"-->Was ist beim Elektro-Handschweißen zu beachten?  🤔
+<section class="flex-container border">
+<div class="flex-child">
 
-<section class="flex-container">
+<!-- class="highlight" -->
+__Was ist beim Elektro-Handschweißen zu beachten? 🤔__
 
-<div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
 - [[ ]] Das Massekabel kann ich beliebig verlängern.
@@ -185,22 +197,23 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 - [[ ]] Die elektrische Prüfung der Schweißstromquelle ist meine Aufgabe als Schweißer/Schweißerin.
 - [[X]] Auch bei kurzfristigen Schweißarbeiten habe ich ein Schutzschild, einen Schutzschirm oder eine Schweißerschutzhaube zu tragen.
 
-</div>
 
-<div class="flex-child" style="min-width: 150px">
-![Elektro-Handschweißen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/welding_mask.jpg "[Quelle: VBG](https://www.vbg.de/zeitarbeit-fb/fragebogen/10/)")<!-- style="width: 150px" -->
+</div>
+<div class="flex-child">
+
+
+![Schweißerzubehör](img/welding_hat.jpg "[_Quelle: Pixabay, Benfe_](https://pixabay.com/photos/work-material-vacancy-work-welder-3954244/)")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:100px;" -->
 
 
 </div>
 </section>
 
-----------------
 
-<!--style="color:blue; font-weight: bolder;"-->Was ist beim Arbeiten mit dem Schweißbrenner zu beachten?  🤔
+<section class="flex-container border">
+<div class="flex-child">
 
-<section class="flex-container">
-
-<div class="flex-child" style="min-width: 250px">
+<!-- class="highlight" -->
+__Was ist beim Arbeiten mit dem Schweißbrenner zu beachten? 🤔__
 
 <!-- data-randomize -->
 - [[ ]] Das Ausmachen des Brenners erfolgt in der Reihenfolge: 1. Schließen des Sauerstoffventils, 2. Schließen des Brenngasventils
@@ -208,25 +221,23 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 - [[X]] Heiße Brenner, die direkt an der Brenngasflasche angehängt werden, können zu einer punktförmigen Erhitzung der Flaschenwand führen und die gefährliche Zersetzung des Gases einleiten.
 
 </div>
+<div class="flex-child">
 
-<div class="flex-child" style="min-width: 150px">
-![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/gas_welding.jpg "[Quelle: VBG](https://www.vbg.de/zeitarbeit-fb/fragebogen/10/)")<!-- style="width: 150px" -->
 
+![Schweißgasbehälter](img/welding_bottles.jpg "[_Quelle: Pixabay, Bru-nO_](https://pixabay.com/photos/gas-welding-welder-protective-gas-2147487/)")<!-- style="max-width: 250px; width: 100%; margin-left: 20px; margin-top:30px;" -->
 
 </div>
 </section>
 
 ## 5. Weitere Quizfragen zum Schweißen II
 
-<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
+> __Hinweis:__ Es können mehrere Antworten richtig sein.
 
-----------------
+<section class="flex-container border">
+<div class="flex-child">
 
-<!--style="color:blue; font-weight: bolder;"-->Welche Maßnahmen sind bei Schweißarbeiten an Behältern, die entzündbare oder explosive Stoffe enthalten, zu beachten?  🤔
-
-<section class="flex-container">
-
-<div class="flex-child" style="min-width: 250px">
+<!-- class="highlight" -->
+__Welche Maßnahmen sind bei Schweißarbeiten an Behältern, die entzündbare oder explosive Stoffe enthalten, zu beachten? 🤔__
 
 <!-- data-randomize -->
 - [[ ]] Reste der Stoffe sind ungefährlich, solange diese nicht mit dem Lichtbogen des Schweißapparates in Berührung kommen.
@@ -235,20 +246,20 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 - [[ ]] Eine gründliche Reinigung der Behälter ist ausreichend.
 
 </div>
+<div class="flex-child">
 
-<div class="flex-child" style="min-width: 150px">
-![Schweißer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/welding_with_protective_gear.jpg "[Quelle: VBG](https://www.vbg.de/zeitarbeit-fb/fragebogen/10/)")<!-- style="width: 150px" -->
+
+![Arbeiten_am_Schweißbehälter](img/pipe_weld.jpg "[_Quelle: Pixabay, wyllyston_](https://pixabay.com/photos/welder-welding-industry-worker-4086983//)")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:50px;" -->
+
 
 </div>
 </section>
 
----------------------
+<section class="flex-container border">
+<div class="flex-child">
 
-<!--style="color:blue; font-weight: bolder;"-->Welche Gefahren ergeben sich beim Autogenschweißen? Wie verhalten Sie sich?  🤔
-
-<section class="flex-container">
-
-<div class="flex-child" style="min-width: 250px">
+<!-- class="highlight" -->
+__Welche Gefahren ergeben sich beim Autogenschweißen? Wie verhalten Sie sich? 🤔__
 
 <!-- data-randomize -->
 - [[X]] Durch die Enden der langen Schweißdrähte können Augen- und Gesichtsverletzungen verursacht werden. Deshalb biege ich die Enden rund.
@@ -257,20 +268,20 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 - [[ ]] Wegspritzende Schweißperlen kühlen so schnell ab, dass diese keine Verbrennungen verursachen.
 
 </div>
+<div class="flex-child">
 
-<div class="flex-child" style="min-width: 150px">
-![Schweißerbrille](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/goggles.jpg "[Quelle: VBG](https://www.vbg.de/zeitarbeit-fb/fragebogen/10/)")<!-- style="width: 150px" -->
+
+![Cartoon_Schweißer](img/soldering_puppet.jpg "[_Quelle: Pixabay, Peggy+Marco_](https://pixabay.com/de/illustrations/schwei%c3%9fer-metall-angestellte-1825675/)")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:50px;" -->
+
 
 </div>
 </section>
 
----------------
+<section class="flex-container border">
+<div class="flex-child">
 
-<!--style="color:blue; font-weight: bolder;"-->Wie verhalten Sie sich bei Entstehungsbränden in der Nähe von Gasflaschen?  🤔
-
-<section class="flex-container">
-
-<div class="flex-child" style="min-width: 250px">
+<!-- class="highlight" -->
+__Wie verhalten Sie sich bei Entstehungsbränden in der Nähe von Gasflaschen? 🤔__
 
 <!-- data-randomize -->
 - [[X]] Wenn möglich, schließe ich geöffnete Flaschenventile, warne die Kollegen/Kolleginnen, räume die Umgebung und alarmiere die Feuerwehr.
@@ -278,9 +289,11 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 - [[X]] Ich lösche die Flamme mit Pulver- oder CO2-Löscher, und kühle bei Bränden in der Nähe von Acetylenflaschen die Flasche bis zum Eintreffen der Feuerwehr mit kaltem Wasser.
 
 </div>
+<div class="flex-child">
 
-<div class="flex-child" style="min-width: 150px">
-![Feuerlöscher](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fire_extinguisher.jpg "[Quelle: VBG](https://www.vbg.de/zeitarbeit-fb/fragebogen/10/)")<!-- style="width: 150px" -->
+
+![Feuerlöscher](img/fire_extinguisher.png "[_Quelle: Pixabay, maja7777_](https://pixabay.com/photos/fire-extinguisher-isolated-2976921/)")<!-- style="max-width: 150px; width: 100%; margin-left: 20px; margin-top:50px;" -->
+
 
 </div>
 
@@ -288,35 +301,33 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 
 ## 6. Weitere Quizfragen zum Schweißen III
 
-<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
+> __Hinweis:__ Es können mehrere Antworten richtig sein.
 
--------------
+<section class="flex-container border">
+<div class="flex-child">
 
-<!--style="color:blue; font-weight: bolder;"-->Welche Kennzeichnung steht für Schweißstromquellen, die beim Schweißen mit erhöhter elektrischer Gefährung eingesetzt werden müssen?  🤔
-
-<section class="flex-container">
-
-<div class="flex-child" style="min-width: 250px">
+<!-- class="highlight" -->
+Welche Kennzeichnung steht für Schweißstromquellen, die beim Schweißen mit erhöhter elektrischer Gefährung eingesetzt werden müssen?  🤔
 
 <!-- data-randomize -->
 - [( )] CE
 - [(X)] S
 
-</div>
 
-<div class="flex-child" style="min-width: 150px">
-![Kennzeichnung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/machine.jpg "[Quelle: VBG](https://www.vbg.de/zeitarbeit-fb/fragebogen/10/)")<!-- style="width: 150px" -->
+</div>
+<div class="flex-child">
+
+
+![CE+S](img/CE_sign.jpg "_Quelle: Hilke Domsch, GKZ_")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:0px;" -->
 
 </div>
 </section>
 
------------------
+<section class="flex-container border">
+<div class="flex-child">
 
-<!--style="color:blue; font-weight: bolder;"-->Was tun Sie egen elektrische Gefährdung beim Schweißen?  🤔
-
-<section class="flex-container">
-
-<div class="flex-child" style="min-width: 250px">
+<!-- class="highlight" -->
+__Was tun Sie gegen elektrische Gefährdung beim Schweißen? 🤔__
 
 <!-- data-randomize -->
 - [[X]] Durch eine ausreichende Isolierung meines Standplatzes kann ich mich gegen eine elektrische Durchströmung meines Körpers schützen.
@@ -325,45 +336,48 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 - [[ ]] Der Massekontakt hat keinen Einfluss auf die elektrische Gefährdung.
 
 </div>
+<div class="flex-child">
 
-<div class="flex-child" style="min-width: 150px">
-![fehlerhafte Isolierung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/no_schweissen.jpg "[Quelle: VBG](https://www.vbg.de/zeitarbeit-fb/fragebogen/10/)")<!-- style="width: 150px" -->
+
+![Feuerflamme](img/burning.jpg "[_Quelle: Pixabay, popmelon_](https://pixabay.com/illustrations/flaming-torch-torch-flame-fire-8765143/)")<!-- style="max-width: 550px; width: 100%; margin-left: 20px; margin-top:50px;" -->
+
 
 </div>
 </section>
 
 ## 7. Weitere Quizfragen zum Löten
 
-<!--style="font-size: huge; color: red"-->Hinweis: Es können mehrere Antworten richtig sein. 
+> __Hinweis:__ Es können mehrere Antworten richtig sein.
 
----------------
+<section class="flex-container border">
+<div class="flex-child">
 
-<!--style="color:blue; font-weight: bolder;"-->Sie löten. Worauf achten Sie?  🤔
+<!-- class="highlight" -->
+__Sie löten. Worauf achten Sie? 🤔__
 
-<section class="flex-container">
-
-<div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
 - [[X]] Ich darf den Kopf nicht direkt über die Lötstelle beugen.
 - [[ ]] Bei Weichlötarbeiten Wasser als Feuerlöschmittel bereithalten.
 - [[X]] Löt- und Flussmitteldämpfe sind gesundheitsschädlich, deshalb ist die richtige Einstellung der Absauganlage wichtig.
 
-</div>
 
-<div class="flex-child" style="min-width: 150px">
-![Löten2](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/soldering_station.jpg "[Quelle: VBG](https://www.vbg.de/zeitarbeit-fb/fragebogen/10/)")<!-- style="width: 150px" -->
+</div>
+<div class="flex-child">
+
+
+![Löten](img/soldering.jpg "[_Quelle: Pixabay, This-is-Engineering_](https://pixabay.com/photos/engineer-engineering-solder-4904910/)")<!-- style="max-width: 200px; width: 100%; margin-left: 0px; margin-top:0px;" -->
+
 
 </div>
 </section>
 
---------------------
+<section class="flex-container border">
+<div class="flex-child">
 
-<!--style="color:blue; font-weight: bolder;"-->Auf was achten Sie beim Weichlöten?  🤔
+<!-- class="highlight" -->
+Auf was achten Sie beim Weichlöten?  🤔
 
-<section class="flex-container">
-
-<div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
 - [[ ]] Weichlote können nicht überhitzen.
@@ -372,35 +386,36 @@ Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?
 - [[X]] Beim Flammlöten muss die Schutzbrille zusätzlich Schutz gegen Infrarotstrahlung bieten.
 
 </div>
+<div class="flex-child">
 
-<div class="flex-child" style="min-width: 150px">
-![Löten1](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/dangers_of_soldering.jpg "[Quelle: VBG](https://www.vbg.de/zeitarbeit-fb/fragebogen/10/)")<!-- style="width: 150px" -->
+
+![Lötmaterial](img/soldering_utensils.jpg "[_Quelle: Pixabay, bru-nO_](https://pixabay.com/photos/soldering-soldering-station-tin-1038518/)")<!-- style="max-width: 350px; width: 100%; margin-left: 0px; margin-top:0px;" -->
+
 
 </div>
 </section>
 
---------------------
+<section class="flex-container border">
+<div class="flex-child">
 
-<!--style="color:blue; font-weight: bolder;"-->Welche Gesundheitsgefahren bestehen beim Weichlöten?  🤔
+<!-- class="highlight" -->
+__Welche Gesundheitsgefahren bestehen beim Weichlöten? 🤔__
 
-<section class="flex-container">
-
-<div class="flex-child" style="min-width: 250px">
 
 <!-- data-randomize -->
 - [( )] Es gibt keine besonderen Gesundheitsgefahren beim Weichlöten.
 - [(X)] Die Lot- und Flussmitteldämpfe sind gesundheitsschädlich.
 
 </div>
+<div class="flex-child">
 
-<div class="flex-child" style="min-width: 150px">
-![Löten3](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/soldering.jpg "[Quelle: VBG](https://www.vbg.de/zeitarbeit-fb/fragebogen/10/)")<!-- style="width: 150px" -->
+
+![Löten2](img/fine_soldering.jpg "[_Quelle: Pixabay, photosforyou_](https://pixabay.com/photos/work-hand-man-craft-jewellery-3748395/)")<!-- style="max-width: 300px; width: 100%; margin-left: 0px; margin-top:0px;" -->
+
 
 </div>
-
 </section>
 
--------------------
+# Geschafft 🎉
 
-
-<!--style="color:green; font-weight: bolder;font-size:large"-->Geschafft ! 👏
+![Jubel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/colorfull_jumping.jpg "_Quelle: Pixabay, geralt_")
