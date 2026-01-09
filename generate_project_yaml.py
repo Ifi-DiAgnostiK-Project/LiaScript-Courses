@@ -1,20 +1,24 @@
 #!/usr/bin/env python3
-
+import pathlib
 import re
 import yaml
 import logging
 import urllib.request  # newly added import for URL support
 from collections import defaultdict
 from pathlib import Path
+import unicodedata
+import os.path
+
 
 # Konfiguration
-BASE_URL = "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/"
+BASE_URL = "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/"
 CATEGORY_LIST = [
     "Tischler", "SHK", "Zahntechniker", "Maler", "Raumausstatter",  "Belehrung", "Arbeits-_und_Gesundheitsschutz", "Umfragen", "Wissensspeicher", "Experimente", "Sonstige"
 ]
 OUTPUT_FILE = "project.yml"
 HEADER_FILE = "project-part.yaml"
 ADDITIONALS = "additional_courses.yaml"
+COURSE_DIRECTORY = "courses"
 
 # Logging
 logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
@@ -103,7 +107,7 @@ def load_additional_courses(yaml_path):
         data = yaml.safe_load(f)
     return data.get('courses', [])
 
-def find_markdown_files(base_dir="courses"):
+def find_markdown_files(base_dir=COURSE_DIRECTORY):
     return sorted(Path(base_dir).rglob("*.md"))
 
 def categorize_file(metadata):
@@ -127,6 +131,7 @@ def build_structure(files):
         meta = parser.parse(str(file))
         title = meta.get("title")
         category, tags = categorize_file(meta)
+        version = meta.get("version")
 
         # add title and tags if they exist
         entry = {
@@ -138,19 +143,19 @@ def build_structure(files):
             if value
         }
         # add the right url, baseurl + file or the whole url string
-        entry["url"] = get_url(file)
+        entry["url"] = get_url(file, version)
 
         categories[category].append(entry)
         logging.info(f"Added {file} to category '{category}'")
-
     return categories
 
 
-def get_url(file):
+def get_url(file, version):
     if is_url(file):
         url = file
     else:
-        url = f"{BASE_URL}{file.as_posix()}"
+        # https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.0.13/courses/AuGSchutz_SHK.md
+        url = f"{BASE_URL}{to_github_tag(file)}_v{version}/{file.as_posix()}"
     return url
 
 
@@ -186,6 +191,49 @@ def write_yaml_body(category, items, out):
             out.write("        tags:\n")
             for tag in item["tags"]:
                 out.write(f"          - {tag}\n")
+
+def to_github_tag(s: pathlib.Path, max_length: int = 35, allow_underscore: bool = True) -> str:
+    """
+    Convert an arbitrary string into a GitHub-style tag:
+    - If the input appears to be a filename (has an extension), the extension is stripped.
+    - Normalize unicode to ASCII,
+    - lower-case,
+    - replace any sequence of characters that are not [a-z0-9-] (or underscore if allowed)
+      with a single hyphen,
+    - collapse repeated hyphens,
+    - strip leading/trailing hyphens,
+    - optionally trim to max_length and remove any trailing hyphen after trim.
+
+    Returns an empty string for empty/None input after normalization.
+    """
+    # Detect and strip final extension from the basename if present
+    base = s.name
+    stem = s.stem
+
+    # Normalize unicode (e.g., convert accented characters to ASCII equivalents)
+    stem = unicodedata.normalize("NFKD", stem)
+    stem = stem.encode("ascii", "ignore").decode("ascii")
+
+    stem = stem.lower().strip()
+
+    # Build regex for allowed characters
+    if allow_underscore:
+        allowed_re = r"[^a-z0-9_-]+"
+    else:
+        allowed_re = r"[^a-z0-9-]+"
+
+    # Replace disallowed runs with a single hyphen
+    stem = re.sub(allowed_re, "-", stem)
+
+    # Collapse multiple hyphens and strip edges
+    stem = re.sub(r"-{2,}", "-", stem).strip("-")
+
+    # Trim to max_length if requested and strip trailing hyphen
+    if max_length and max_length > 0:
+        stem = stem[:max_length].rstrip("-")
+
+    return stem
+
 
 def main():
     logging.info("Searching for markdown files...")
