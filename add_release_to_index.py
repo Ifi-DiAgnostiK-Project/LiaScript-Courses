@@ -3,7 +3,6 @@
 import json
 import hashlib
 from pathlib import Path
-from unittest import result
 
 from bs4 import BeautifulSoup
 from bs4.element import Tag
@@ -168,8 +167,8 @@ def build_individual_release_links(soup, urls):
         "SCORM": "📦"
     }
     for label, url in urls.items():
-        # we drop the link if the release does not exist
-        if not release_exists(url):
+        # we drop the link if the release does not exist, check only Documentation as SCORM has been already checked
+        if label == "Documentation" and not release_exists(url):
             print(f"Release {label} not found for {url}")
             continue
         li = soup.new_tag("li", **{"class": "list-inline-item"})
