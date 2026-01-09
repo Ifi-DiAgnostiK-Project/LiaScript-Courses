@@ -157,7 +157,7 @@ def get_url(file, version, tagged = False):
         url = file
     elif tagged:
         # https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.0.13/courses/AuGSchutz_SHK.md
-        url = f"{BASE_URL}{TAG_URL}{to_github_tag(file)}_v{version}/{file.as_posix()}"
+        url = f"{BASE_URL}{TAG_URL}{to_github_tag(file)}_v{version}/courses/{file.as_posix()}"
     else:
         url = f"{BASE_URL}{HEAD_URL}{file.as_posix()}"
     return url
