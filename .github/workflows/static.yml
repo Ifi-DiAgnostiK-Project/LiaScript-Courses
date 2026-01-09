@@ -44,5 +44,3 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          error_count: 0
-          timeout: 100
