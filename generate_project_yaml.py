@@ -150,12 +150,14 @@ def build_structure(files):
     return categories
 
 
-def get_url(file, version):
+def get_url(file, version, tagged = False):
     if is_url(file):
         url = file
-    else:
+    elif tagged:
         # https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.0.13/courses/AuGSchutz_SHK.md
         url = f"{BASE_URL}{to_github_tag(file)}_v{version}/{file.as_posix()}"
+    else:
+        url = f"{BASE_URL}{file.as_posix()}"
     return url
 
 
