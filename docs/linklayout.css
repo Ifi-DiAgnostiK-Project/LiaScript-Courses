@@ -2,6 +2,7 @@ li.list-inline-item {
     display: inline-block;
     margin-right: 0.5rem;
     margin-bottom: 0.2rem;
+    margin-left: 0.2rem;
 }
 
 .list-inline-item {
@@ -16,6 +17,28 @@ li.list-inline-item {
 .list-inline-item:hover {
     background-color: #007bff;
     color: white;
+    font-weight: bold;
+}
+
+h6.card-title {
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    color: #007bff;
+    display: inline-flex;
+    align-items: center;
+}
+
+h6.card-title:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+img.course-title-icon {
+    display: inline-block;
+    width: 1.1em;
+    height: 1.1em;
+    margin-right: 0.5em;
+    vertical-align: middle;
 }
 
 .form-select {
