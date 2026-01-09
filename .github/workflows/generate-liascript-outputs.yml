@@ -150,7 +150,7 @@ jobs:
           # Use BeautifulSoup to modify the index.html
           python3 add_release_to_index.py
 
-      - name: WORKAROUND for Untertapeten Card
+      - name: WORKAROUND for Cards with more then one category
         run: |
           set -euo pipefail
           # WORKAROUND: Untertapeten Card needs to be in two categories
