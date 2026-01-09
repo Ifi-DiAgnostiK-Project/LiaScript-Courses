@@ -26,14 +26,21 @@ h6.card-title {
     color: #007bff;
     display: inline-flex;
     align-items: center;
+    padding: 5px;
+    text-decoration: underline;
+    width: 85%;
 }
 
-h6.card-title:hover {
-    background-color: #007bff;
-    color: white;
+a:hover h6.card-title,
+a:focus-visible h6.card-title {
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  transform: translateX(2px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
-img.course-title-icon {
+img.course-title-icon{
     display: inline-block;
     width: 1.1em;
     height: 1.1em;
