@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler; Hilke Domsch
 
 email:    jan.franke@hwk-dresden.de; volker.goehler@informatik.tu-freiberg.de; hilke.domsch@gkz-ev.de
 
-version:  0.0.6
+version:  0.0.7
 
 language: de
 
@@ -17,10 +17,12 @@ attribute: Title Image by Martin Vorel, CC BY-SA 4.0 <https://creativecommons.or
 
 comment:  Quiz zu Eigenschaften von Holz -- Teil 1
 
+link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
+
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
-import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
-import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
-import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/makros.md
+        https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
+        https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
+        https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/makros.md
 
 title: Holzarten I
 
@@ -29,46 +31,9 @@ tags:
     - Holzarten
 
 @style
-.image-container {
-  width: 200px;
-  height: 200px;
-  border: 1px solid #ccc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  background-color: #f8f8f8;
-}
-
-.image-container img {
-  width: fit-content;
-  height: fit-content;
-  object-fit: cover;
-  display: block;
-}
-
 .lia-table__data {
     overflow: hidden;
     padding: 0.5rem;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap; /* Allows the items to wrap as needed */
-    align-items: stretch;
-    gap: 20px; /* Adds both horizontal and vertical spacing between items */
-}
-
-.flex-child {
-    flex: 1;
-    margin-right: 20px; /* Adds space between the columns */
-}
-
-@media (max-width: 600px) {
-    .flex-child {
-        flex: 100%; /* Makes the child divs take up the full width on slim devices */
-        margin-right: 0; /* Removes the right margin */
-    }
 }
 
 .choice-selected {
