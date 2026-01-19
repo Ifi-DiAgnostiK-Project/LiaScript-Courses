@@ -197,7 +197,7 @@ def write_yaml_body(category, items, out):
             for tag in item["tags"]:
                 out.write(f"          - {tag}\n")
 
-def to_github_tag(s: pathlib.Path, max_length: int = 35, allow_underscore: bool = True) -> str:
+def to_github_tag(s: pathlib.Path, max_length: int = 100, allow_underscore: bool = True) -> str:
     """
     Convert an arbitrary string into a GitHub-style tag:
     - If the input appears to be a filename (has an extension), the extension is stripped.
