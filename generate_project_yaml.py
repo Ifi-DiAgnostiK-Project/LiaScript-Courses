@@ -125,7 +125,7 @@ def categorize_file(metadata):
             return category, tags
     return "Sonstige", tags
 
-def build_structure(files):
+def build_structure(files: list, exernal_dict: dict):
     categories = defaultdict(list)
     parser = YamlCommentParser()
 
@@ -145,7 +145,7 @@ def build_structure(files):
             if value
         }
         # add the right url, baseurl + file or the whole url string
-        entry["url"] = get_url(file, version)
+        entry["url"] = get_url(file, version, tagged = exernal_dict.get(file, False))
 
         categories[category].append(entry)
         logging.info(f"Added {file} to category '{category}'")
@@ -246,9 +246,14 @@ def main():
     adds = load_additional_courses(ADDITIONALS)
     logging.info(f"Loaded {len(adds)} additional courses.")
     files.extend(adds)
-    categories = build_structure(files)
+    external_dict = create_external_dict(files, adds)
+    categories = build_structure(files, external_dict)
     write_output_yaml(categories)
     logging.info(f"Written output to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
+
+def create_external_dict(files: list, externals: list):
+    external_dict = {key: True if key in externals else False for key in files.keys()}
+    return external_dict
