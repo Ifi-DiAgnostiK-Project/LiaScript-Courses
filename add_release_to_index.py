@@ -89,7 +89,7 @@ def build_release_asset_baseurl(id_url: str) -> str:
 
 def generate_release_urls(file_name, id_url, version):
     """
-    Generate GitHub release URLs for PDF, IMS, and SCORM versions.
+    Generate GitHub release URLs for PDF, and SCORM versions.
     """
     base_name = os.path.splitext(file_name)[0]
 
@@ -135,15 +135,18 @@ def add_release_links(soup, result):
             print(f"Error processing card: {e}")
             continue
 
+        urls = result[id_hash]["release_urls"]
+        has_release = release_exists(urls.get("SCORM"))
+
         # change href to the taged version
-        link["href"] = link["href"].replace(
-            result[id_hash]["id_url"], result[id_hash]["tag_course"]
-        )
+        if has_release:
+            link["href"] = link["href"].replace(
+                result[id_hash]["id_url"], result[id_hash]["tag_course"]
+            )
 
         # insert download cards
-        urls = result[id_hash]["release_urls"]
         # test if releases exist, with external urls a non-existent release can happen
-        if release_exists(urls.get("SCORM")):
+        if has_release:
             element = build_individual_release_links(soup, urls)
         else:
             print(f"Release not found for {result[id_hash]['file_name']}")
