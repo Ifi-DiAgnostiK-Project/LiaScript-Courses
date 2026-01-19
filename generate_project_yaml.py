@@ -125,7 +125,7 @@ def categorize_file(metadata):
             return category, tags
     return "Sonstige", tags
 
-def build_structure(files: list, exernal_dict: dict):
+def build_structure(files: list, external_dict: dict):
     categories = defaultdict(list)
     parser = YamlCommentParser()
 
@@ -145,7 +145,7 @@ def build_structure(files: list, exernal_dict: dict):
             if value
         }
         # add the right url, baseurl + file or the whole url string
-        entry["url"] = get_url(file, version, tagged = exernal_dict.get(file, False))
+        entry["url"] = get_url(file, version, tagged = external_dict.get(file, False))
 
         categories[category].append(entry)
         logging.info(f"Added {file} to category '{category}'")
@@ -239,6 +239,11 @@ def to_github_tag(s: pathlib.Path, max_length: int = 35, allow_underscore: bool 
     return stem
 
 
+def create_external_dict(files: list, externals: list):
+    external_dict = {key: False if key in externals else True for key in files}
+    return external_dict
+
+
 def main():
     logging.info("Searching for markdown files...")
     files = find_markdown_files()
@@ -254,6 +259,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-def create_external_dict(files: list, externals: list):
-    external_dict = {key: True if key in externals else False for key in files.keys()}
-    return external_dict
