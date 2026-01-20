@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.5
+version:  0.0.6
 
 language: de
 
@@ -23,31 +23,14 @@ tags:
 logo: img/front_wood_stack.jpg
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 
+link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
+
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
-import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
-import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
-import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/makros.md
+        https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
+        https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
+        https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Holzarten/refs/heads/main/makros.md
 
 @style
-.flex-container {
-    display: flex;
-    flex-wrap: wrap; /* Allows the items to wrap as needed */
-    align-items: stretch;
-    gap: 20px; /* Adds both horizontal and vertical spacing between items */
-}
-
-.flex-child {
-    flex: 1;
-    margin-right: 20px; /* Adds space between the columns */
-}
-
-@media (max-width: 600px) {
-    .flex-child {
-        flex: 100%; /* Makes the child divs take up the full width on slim devices */
-        margin-right: 0; /* Removes the right margin */
-    }
-}
-
 .image-container {
   width: 200px;
   height: 200px;
