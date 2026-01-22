@@ -4,7 +4,7 @@ author: Hilke Domsch; Florian Riefling
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.1.2
+version: 0.1.3
 
 language: de
 
@@ -19,7 +19,7 @@ attribute: https://pixabay.com/de/photos/armlehne-sessel-polsterer-stoff-647300/
 
 comment:  Holzverarbeitung im Raumausstatter-Handwerk (Polsterei)
 
-link: style.css
+link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/raumausstatter_polstergestelle_v0.1.2/courses/style.css
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
         https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
@@ -96,7 +96,7 @@ data-randomize
 data-max-trials="3"
 data-solution-button="off" 
 -->
-Holzgestelle bestehen aus [->[  (mehreren Holzteilen) | aus einem Holzteil ]]. 
+Holzgestelle bestehen aus [->[  (mehreren Holzteilen) | einem Holzteil ]]. 
 
 </div>
 </section> 
@@ -140,8 +140,8 @@ Welche Holzarten werden typischerweise für ~~Blindholzgestelle~~ verwendet?
 - [[X]] Sperrholz
 - [[X]] Holzfaserplatte
 - [[ ]] Eiche
-- [[ ]] Multiplex (Birke)
-- [[ ]] MDF-Platten
+- [[ ]] Esche
+- [[ ]] Kirsche
 
 </div>
 <div class="flex-child">
@@ -166,7 +166,7 @@ Welche Holzarten werden typischerweise für ~~Vollholzgestelle~~ verwendet?
 - [[X]] Esche
 - [[X]] Kirsche
 - [[X]] Birke
-- [[ ]] Fichte
+- [[ ]] Sperrholz
 - [[ ]] Leimholz
 - [[ ]] OSB-Platte
 
@@ -195,9 +195,7 @@ Aus welchen Gestellteilen besteht ein Vollholzgestell?
 - [[X]] Rückenlehne
 - [[ ]] Schaumstoffträger
 - [[ ]] Sitzfläche
-- [[ ]] Lehnenrahmen
 - [[ ]] Rückenpolster
-- [[ ]] Seitenteil
 
 </div>
 <div class="flex-child">
@@ -264,7 +262,7 @@ Die wichtigste Holzverbindung im Polstergestellbau ist die [->[  (verleimte Düb
 <div class="flex-child">
 
 <!-- class="highlight" style="margin-bottom:40px;"-->
-Welche Holzverbindungen kommen üblicherweise beim Aufbau von Vollholzgestellen zum Einsatz?
+Welche Holzverbindungen kommen üblicherweise beim Aufbau von ~~Vollholzgestellen~~ zum Einsatz?
 
 <!-- class="redbold"-->
 > Es sind insgesamt fünf Antworten richtig!
@@ -274,9 +272,9 @@ Welche Holzverbindungen kommen üblicherweise beim Aufbau von Vollholzgestellen 
 - [[X]] Dübelverbindung
 - [[X]] Zinkenverbindung
 - [[X]] Überblattung
-- [[ ]] Nutverbindung
-- [[ ]] Federverbindung
-- [[ ]] Falzverbindung
+- [[ ]] Nut-Blatt-Verbindung
+- [[ ]] Federsperrverbindung
+- [[ ]] Falzkniffverbindung
 - [[X]] Schraubverbindung
 
 </div>
@@ -486,9 +484,7 @@ Wählen Sie die richtigen vier Antworten aus.
 </div>
 <div class="flex-child">
 
-
-![Holzlasieren](img/dark_painting.jpg "[_Quelle: Pixabay, Ulrike Mai_](https://pixabay.com/photos/paint-brush-paint-can-paint-can-1198172/)")<!-- style="max-width: 200px; width: 100%; margin-left: 80px; margin-top:30px;" -->
-
+![Hartwachs](Hartwachs_Holz_FR.JPG "Hartwachs, Bild: Florian Riefling, HWK")<!-- style="max-width: 200px; width: 100%; margin-left: 80px; margin-top:30px;" -->
 
 </div>
 </section> 
