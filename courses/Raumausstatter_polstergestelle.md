@@ -4,7 +4,7 @@ author: Hilke Domsch; Florian Riefling
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.1.3
+version: 0.1.4
 
 language: de
 
@@ -484,7 +484,7 @@ Wählen Sie die richtigen vier Antworten aus.
 </div>
 <div class="flex-child">
 
-![Hartwachs](Hartwachs_Holz_FR.JPG "Hartwachs, Bild: Florian Riefling, HWK")<!-- style="max-width: 200px; width: 100%; margin-left: 80px; margin-top:30px;" -->
+![Hartwachs](img/Hartwachs_Holz_FR.JPG "Hartwachs, Bild: Florian Riefling, HWK")<!-- style="max-width: 200px; width: 100%; margin-left: 80px; margin-top:30px;" -->
 
 </div>
 </section> 
