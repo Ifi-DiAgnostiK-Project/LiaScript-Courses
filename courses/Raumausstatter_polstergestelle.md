@@ -4,7 +4,7 @@ author: Hilke Domsch; Florian Riefling
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.1.4
+version: 0.1.5
 
 language: de
 
@@ -31,7 +31,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragA
 title: Konstruktive Holzgestelle beim Bau von Polstermöbeln
 
 tags:
-    - Raumausstattung
+    - Raumausstatter
     - Tischler
     - Polsterei
     - Handwerk
