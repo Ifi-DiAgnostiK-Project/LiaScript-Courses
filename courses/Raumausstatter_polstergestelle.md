@@ -4,7 +4,7 @@ author: Hilke Domsch; Florian Riefling
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.1.6
+version: 0.1.7
 
 language: de
 
@@ -129,14 +129,14 @@ data-solution-button="off"
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Welche Holzarten werden typischerweise für ~~Blindholzgestelle~~ verwendet?
+Welche Holzarten und Holzverbundarten werden typischerweise für ~~Blindholzgestelle~~ verwendet?
 
 <!-- class="redbold"-->
 > Es sind insgesamt vier Antworten richtig!
 
 <!-- data-randomize -->
 - [[X]] Buche
-- [[X]] Schichtholz
+- [[X]] Holzspanplatte
 - [[X]] Sperrholz
 - [[X]] Holzfaserplatte
 - [[ ]] Eiche
@@ -220,14 +220,14 @@ data-randomize
 data-max-trials="3"
 data-solution-button="off" 
 -->
-<li> [[ (Vorderschwinge) | Hinterschwinge   | Seitenschwinge  |  Füße |  Armlehnstütze/Vorderstollen |  Armlehnbrett/Armlehnfederbrett  |  Backenhölzer | Kopfleiste ]]</li>
-<li> [[ Vorderschwinge | (Hinterschwinge)   | Seitenschwinge  |  Füße |  Armlehnstütze/Vorderstollen |  Armlehnbrett/Armlehnfederbrett  |  Backenhölzer | Kopfleiste  ]]</li>
-<li> [[ Vorderschwinge | Hinterschwinge   | (Seitenschwinge)  |  Füße |  Armlehnstütze/Vorderstollen |  Armlehnbrett/Armlehnfederbrett  |  Backenhölzer | Kopfleiste ]]</li>
-<li> [[ Vorderschwinge | Hinterschwinge   | Seitenschwinge  |  (Füße) |  Armlehnstütze/Vorderstollen |  Armlehnbrett/Armlehnfederbrett  |  Backenhölzer | Kopfleiste ]]</li>
-<li> [[ Vorderschwinge | Hinterschwinge   | Seitenschwinge  |  Füße |  (Armlehnstütze/Vorderstollen) |  Armlehnbrett/Armlehnfederbrett  |  Backenhölzer | Kopfleiste  ]]</li>
-<li> [[ Vorderschwinge | Hinterschwinge   | Seitenschwinge  |  Füße |  Armlehnstütze/Vorderstollen |  (Armlehnbrett/Armlehnfederbrett)  |  Backenhölzer | Kopfleiste  ]]</li>
-<li> [[ Vorderschwinge | Hinterschwinge   | Seitenschwinge  |  Füße |  Armlehnstütze/Vorderstollen |  Armlehnbrett/Armlehnfederbrett  |  (Backenhölzer) | Kopfleiste ]]</li>
-<li> [[ Vorderschwinge | Hinterschwinge   | Seitenschwinge  |  Füße |  Armlehnstütze/Vorderstollen |  Armlehnbrett/Armlehnfederbrett  |  Backenhölzer | (Kopfleiste) ]]</li>
+<li> [[ (Vorderschwinge/-zarge) | Hinterschwinge/-zarge   | Seitenschwinge/-zarge  |  Füße |  Armlehnstütze/Vorderstollen |  Armlehnbrett/Armlehnfederbrett  |  Backenhölzer | Kopfleiste ]]</li>
+<li> [[ Vorderschwinge/-zarge | (Hinterschwinge/-zarge)   | Seitenschwinge/-zarge  |  Füße |  Armlehnstütze/Vorderstollen |  Armlehnbrett/Armlehnfederbrett  |  Backenhölzer | Kopfleiste  ]]</li>
+<li> [[ Vorderschwinge/-zarge | Hinterschwinge/-zarge   | (Seitenschwinge/-zarge)  |  Füße |  Armlehnstütze/Vorderstollen |  Armlehnbrett/Armlehnfederbrett  |  Backenhölzer | Kopfleiste ]]</li>
+<li> [[ Vorderschwinge/-zarge | Hinterschwinge/-zarge   | Seitenschwinge/-zarge  |  (Füße) |  Armlehnstütze/Vorderstollen |  Armlehnbrett/Armlehnfederbrett  |  Backenhölzer | Kopfleiste ]]</li>
+<li> [[ Vorderschwinge/-zarge | Hinterschwinge/-zarge   | Seitenschwinge/-zarge  |  Füße |  (Armlehnstütze/Vorderstollen) |  Armlehnbrett/Armlehnfederbrett  |  Backenhölzer | Kopfleiste  ]]</li>
+<li> [[ Vorderschwinge/-zarge | Hinterschwinge/-zarge   | Seitenschwinge/-zarge  |  Füße |  Armlehnstütze/Vorderstollen |  (Armlehnbrett/Armlehnfederbrett)  |  Backenhölzer | Kopfleiste  ]]</li>
+<li> [[ Vorderschwinge/-zarge | Hinterschwinge/-zarge   | Seitenschwinge/-zarge  |  Füße |  Armlehnstütze/Vorderstollen |  Armlehnbrett/Armlehnfederbrett  |  (Backenhölzer) | Kopfleiste ]]</li>
+<li> [[ Vorderschwinge/-zarge | Hinterschwinge/-zarge   | Seitenschwinge/-zarge  |  Füße |  Armlehnstütze/Vorderstollen |  Armlehnbrett/Armlehnfederbrett  |  Backenhölzer | (Kopfleiste) ]]</li>
 </ol>
 
 </div>
@@ -253,7 +253,7 @@ data-randomize
 data-max-trials="3"
 data-solution-button="off" 
 -->
-Die wichtigste Holzverbindung im Polstergestellbau ist die [->[  (verleimte Dübelung) | Steckverbindung ]]. 
+Eine der typischen Holzverbindungen im Polstergestellbau ist die [->[  (verleimte Dübelung) | Steckverbindung ]]. 
 
 </div>
 </section> 
@@ -262,15 +262,15 @@ Die wichtigste Holzverbindung im Polstergestellbau ist die [->[  (verleimte Düb
 <div class="flex-child">
 
 <!-- class="highlight" style="margin-bottom:40px;"-->
-Welche Holzverbindungen kommen üblicherweise beim Aufbau von ~~Vollholzgestellen~~ zum Einsatz?
+Welche Holzverbindungen können beim Polstergestellbau zum Einsatz kommen?
 
 <!-- class="redbold"-->
 > Es sind insgesamt fünf Antworten richtig!
 
 <!-- data-randomize -->
-- [[X]] Schlitzverbindung 
+- [[X]] Schlitz-Zapfen-Verbindung 
 - [[X]] Dübelverbindung
-- [[X]] Zinkenverbindung
+- [[X]] gezinkte Verbindung
 - [[X]] Überblattung
 - [[ ]] Nut-Blatt-Verbindung
 - [[ ]] Federsperrverbindung
@@ -307,20 +307,20 @@ Bei Blindholzgestellen werden alle Gestellteile [->[  (überpolstert bzw. bezoge
 <section class="flex-container border">
 <div class="flex-child">
 
-<!-- class="highlight" style="margin-bottom:40px;"-->
-Welche Holzarten werden üblicherweise bei Blindholzgestellen verwendet?
+<!-- class="highlight"-->
+Welche Holzarten und Holzverbundarten werden typischerweise für ~~Blindholzgestelle~~ verwendet?
 
 <!-- class="redbold"-->
 > Es sind insgesamt vier Antworten richtig!
 
 <!-- data-randomize -->
-- [[X]] Buche  
-- [[X]] Furniersperrholz
-- [[X]] Fichte
+- [[X]] Buche
+- [[X]] Holzspanplatte
+- [[X]] Sperrholz
+- [[X]] Holzfaserplatte
 - [[ ]] Eiche
-- [[ ]] Mahagoni
+- [[ ]] Esche
 - [[ ]] Kirsche
-- [[X]] Kiefer
 
 </div>
 <div class="flex-child">
@@ -337,8 +337,10 @@ Welche Holzarten werden üblicherweise bei Blindholzgestellen verwendet?
 <div class="flex-child">
 
 <!-- class="highlight" style="margin-bottom:40px;"-->
-Worin besteht der Unterschied zwischen Blind- und Sichtholzgestelle?\
-Markieren Sie die richtigen vier Aussagen.
+Welche Aussagen zu Blind- und Sichtholzgestellen sind richtig?
+
+<!-- class="redbold"-->
+> Es stimmen vier Antworten!
 
 <!-- data-randomize -->
 - [[X]] Blindholzgestelle sind vollständig verdeckt und gepolstert.  
@@ -365,7 +367,7 @@ Markieren Sie die richtigen vier Aussagen.
 <div class="flex-child">
 
 <!-- class="highlight" style="margin-bottom:40px;"-->
-Welche Oberflächenbehandlungen sind bei Sichtholzgestellen üblich?
+Welche Oberflächenbehandlungen sind bei ~~Sichtholzgestellen~~ üblich?
 
 <!-- class="redbold"-->
 > Es sind insgesamt vier Antworten richtig!
@@ -374,7 +376,7 @@ Welche Oberflächenbehandlungen sind bei Sichtholzgestellen üblich?
 - [[X]] Lackieren 
 - [[X]] Ölen
 - [[X]] Beizen
-- [[ ]] Farbanstrich
+- [[ ]] Sandstrahlen
 - [[ ]] Pulverbeschichtung
 - [[ ]] Heißwachsüberzug
 - [[X]] Wachsen
@@ -393,7 +395,7 @@ Welche Oberflächenbehandlungen sind bei Sichtholzgestellen üblich?
 <div class="flex-child">
 
 <!-- class="highlight" style="margin-bottom:40px;"-->
-Warum werden Oberflächen von Sichtholzgestellen behandelt?
+Warum werden Oberflächen von ~~Sichtholzgestellen~~ behandelt?
 
 <!-- class="redbold"-->
 > Es sind insgesamt drei Antworten richtig!
@@ -415,15 +417,16 @@ Warum werden Oberflächen von Sichtholzgestellen behandelt?
 <div class="flex-child">
 
 <!-- class="highlight" style="margin-bottom:40px;"-->
-Lackieren - Wie erfolgt diese Oberflächenbehandlung?/
-Wählen Sie die richtigen vier Antworten aus. 
+Lackieren:\
+Welche vier Aussagen treffen zu?
+
 
 <!-- data-randomize -->
 - [[X]] Der Lack bildet einen geschlossenen Film auf der Holzoberfläche. 
 - [[X]] Die Oberfläche wird widerstandsfähig gegen Feuchtigkeit und Schmutz.
 - [[X]] Die Holzmaserung kann vollständig oder teilweise überdeckt sein. 
 - [[X]] Es können Zwischenschliffe erforderlich sein.
-- [[ ]] Der Lack dringt tief in die Holzfasern ein.
+- [[ ]] Um die Holzmaserung vollständig zur Geltung zu bringen, bildet der Lack eine weiche Oberfläche.
 - [[ ]] Das Lackieren erfordert keine Vorbehandlung.
 - [[ ]] Es werden nur Klarlacke verwendet.
 
@@ -442,13 +445,13 @@ Wählen Sie die richtigen vier Antworten aus.
 <div class="flex-child">
 
 <!-- class="highlight" style="margin-bottom:40px;"-->
-Beizen - Welche Aussagen zu dieser Oberflächenbehandlung sind richtig?/
-Wählen Sie die richtigen vier Antworten aus. 
+Beizen:\
+Welche vier Aussagen treffen zu?
 
 <!-- data-randomize -->
 - [[X]] Die natürliche Holzfarbe wird durch ein farberzeugendes Beizmittel verändert. 
 - [[X]] Die Holzmaserung bleibt erhalten. 
-- [[X]] Es ist zusätzlich ein Klarlacküberzug notwendig. 
+- [[X]] Es ist zusätzlich eine weitere Oberflächenbehandlung notwendig. 
 - [[X]] Die Beize reagiert mit den Inhaltsstoffen des Holzes. 
 - [[ ]] Die Beize ist wasserfest.
 - [[ ]] Beizen schützt das Holz zusätzlich vor mechanischer Beansprachung.
@@ -469,8 +472,9 @@ Wählen Sie die richtigen vier Antworten aus.
 <div class="flex-child">
 
 <!-- class="highlight" style="margin-bottom:40px;"-->
-Wachsen - Welche Aussagen zu dieser Oberflächenbehandlung sind richtig?/
-Wählen Sie die richtigen vier Antworten aus. 
+Wachsen\
+Welche vier Aussagen treffen zu?
+
 
 <!-- data-randomize -->
 - [[X]] Die Holzflächen erhalten durch das Auftragen des Wachses einen leichten Glanz.
@@ -478,7 +482,7 @@ Wählen Sie die richtigen vier Antworten aus.
 - [[X]] Gewachste Oberflächen können jederzeit nachgewachst werden.
 - [[X]] Es werden Natur- und Kunstwachse verwendet.
 - [[ ]] Die Wachsschicht bietet einen zusätzlichen Kratz- und Abriebschutz.
-- [[ ]] Die mit Wachs behandelten Oberflächen sind schmutzabweisend.
+- [[ ]] Die mit Wachs behandelten Oberflächen sind nicht atmungsaktiv.
 - [[ ]] Wachsen verschließt die Poren des Holzes dauerhaft. 
 
 </div>
