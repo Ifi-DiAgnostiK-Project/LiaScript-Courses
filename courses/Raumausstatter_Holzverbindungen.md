@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.3
+version:  0.0.4
 language: de
 narrator: Deutsch Male
 
@@ -11,7 +11,7 @@ date: 2026-01-22
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: https://pixabay.com/images/download/wood-connection-2162234_1920.jpg
-attribute: Quelle Titlebild: pixabay
+attribute: "Quelle Titlebild: pixabay"
 
 comment:  Kurs zu den im Gestellbau für Polstermöbel übliche Holzverbindungen
 
