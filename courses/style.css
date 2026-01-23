@@ -133,3 +133,28 @@ ul.book li::marker {
 ul.book li {
     font-weight: bold;
 }
+ul.bluefolder li::marker {
+  content: "🟦 ";
+}
+ul.bluefolder li {
+    font-weight: bold;
+}
+ul.intdes li::marker {
+  content: "👨‍🏫 ";
+}
+ul.intdes li {
+    font-weight: bold;
+}
+ul.blueball li::marker {
+  content: "🔵 ";
+}
+ul.blueball li {
+    font-weight: bold;
+}
+#️⃣ 
+ul.hash li::marker {
+  content: "#️⃣  ";
+}
+ul.hash li {
+    font-weight: bold;
+}
