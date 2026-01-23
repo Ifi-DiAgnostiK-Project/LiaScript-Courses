@@ -140,7 +140,7 @@ ul.bluefolder li {
     font-weight: bold;
 }
 ul.intdes li::marker {
-  content: "👨‍🏫 ";
+  content: "👨 🏫 ";
 }
 ul.intdes li {
     font-weight: bold;
@@ -151,7 +151,6 @@ ul.blueball li::marker {
 ul.blueball li {
     font-weight: bold;
 }
-#️⃣ 
 ul.hash li::marker {
   content: "#️⃣  ";
 }

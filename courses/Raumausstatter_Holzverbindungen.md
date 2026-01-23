@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.1
+version:  0.0.2
 language: de
 narrator: Deutsch Male
 
@@ -10,12 +10,14 @@ edit: true
 date: 2026-01-22
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo: https://pixabay.com/photos/wood-connection-galvanized-beams-2162234/
+logo: https://pixabay.com/images/download/wood-connection-2162234_1920.jpg
+attribute: Quelle Titlebild: pixabay
+
 comment:  Kurs zu den im Gestellbau für Polstermöbel übliche Holzverbindungen
 
 title: Holzverbindungen im Polstermöbelbau - Überblickswissen
 
-link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
+link: ./style.css
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
         https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
@@ -39,20 +41,24 @@ Sie sorgen dafür, dass Gestelle
 - belastbar
 - langlebig
 
-sind – auch dann, wenn sie später nicht mehr sichtbar sind.\
 <br>
+
+sind - auch dann, wenn sie später nicht mehr sichtbar sind.\
+
 Als angehende Raumausstatterin bzw. angehender Raumausstatter sollten Sie die wichtigsten Holzverbindungen 
 
-<!--- class="intdes"-->
+<!-- class="intdes"-->
 - erkennen
 - benennen
 - unterscheiden können.
 
+<br>
+
 In diesem Quiz testen Sie Ihr Grundwissen zu 
 
 <!-- class="blueball"-->
-- typischen Holzverbindungen\
-- deren Grundprinzip\
+- typischen Holzverbindungen
+- deren Grundprinzip
 - Einsatz im Polstermöbelbau 
 
 <br>
@@ -141,7 +147,7 @@ Welche Holzverbindung ist abgebildet?
 
 </div>
 <div class="flex-child-2 center">
-![Dübelverbindung](img/Holzverb_duebel_zoom.jpg" _Quelle:HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%; margin-left:-50px; margin-top:10px;" -->
+![Dübelverbindung](img/Holzverb_duebel_zoom.png" _Quelle:HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%; margin-left:-50px; margin-top:10px;" -->
 
 </div>
 </section>
@@ -272,7 +278,7 @@ Ordnen Sie die folgenden Aussagen in "richtig" und "falsch" ein.
 
 <!-- data-randomize -->
 - [  [richtig]     (falsch) ]
-- [    [X]           [ ]    ]  Holzverbindungen im Polstergestellbau müssen hohe Belastungen aushalten.
+- [    (X)           ( )    ]  Holzverbindungen im Polstergestellbau müssen hohe Belastungen aushalten.
 - [    ( )           (X)    ]  Die überplattete Verbindung wird ausschließlich bei Vollholz- bzw. Sichtholzgestellen verwendet.
 - [    (X)           ( )    ]  Gedübelte Verbindungen zeichnen sich durch eine hohe Stabilität, einfache Fertigung und Ästhetik aus.
 - [    ( )           (X)    ]  Die durchbohrte und gezapfte Verbindung eignet sich für weniger beanspruchte Gestellteile.
