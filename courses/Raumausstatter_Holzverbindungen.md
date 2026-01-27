@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.5
+version:  0.0.6
 language: de
 narrator: Deutsch Male
 
@@ -120,14 +120,14 @@ Welche Holzverbindung ist abgebildet?
 
 </div>
 <div class="flex-child-2 center">
-![durchbohrt_und_gezapft](img/Holzverb_rund_durch_auseinander.jpg" _Quelle:HWK Dresden, Florian Riefling_")<!-- style="max-width: 450px; width: 100%; margin-left:-50px; margin-top:10px;" -->
+![durchbohrt_und_gezapft](img/Holzverb_rund_durch_auseinander.jpg "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 450px; width: 100%; margin-left:-50px; margin-top:10px;" -->
 
 </div>
 </section>
 
 <center> 
 
-![durchbohrt_und_gezapft_fertig](img/Holzverb_rund_durch_unfertig.jpg)<!-- style="max-width: 450px; width: 100%" -->
+![durchbohrt_und_gezapft_fertig](img/Holzverb_rund_durch_unfertig.jpg "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 450px; width: 100%" -->
 
 </center> 
 
@@ -147,14 +147,14 @@ Welche Holzverbindung ist abgebildet?
 
 </div>
 <div class="flex-child-2 center">
-![Dübelverbindung](img/Holzverb_duebel_zoom.png" _Quelle:HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%; margin-left:-50px; margin-top:10px;" -->
+![Dübelverbindung](img/Holzverb_duebel_zoom.png "_Quelle:HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%; margin-left:-50px; margin-top:10px;" -->
 
 </div>
 </section>
 
 <center> 
 
-![Dübelverbindung_groß](img/Holzverb_duebel.png)<!-- style="max-width: 550px; width: 100%" -->
+![Dübelverbindung_groß](img/Holzverb_duebel.png "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%" -->
 
 </center> 
 
@@ -174,14 +174,14 @@ Welche Holzverbindung ist abgebildet?
 
 </div>
 <div class="flex-child-2 center">
-![Schlitzverbindung](img/Holzverb_platten.jpg" _Quelle:HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%; margin-left:-50px; margin-top:10px;" -->
+![Schlitzverbindung](img/Holzverb_platten.jpg "_Quelle:HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%; margin-left:-50px; margin-top:10px;" -->
 
 </div>
 </section>
 
 <center> 
 
-![Schlitzverbindung_fertig](img/Holzverb_platten_fertig.jpg)<!-- style="max-width: 550px; width: 100%" -->
+![Schlitzverbindung_fertig](img/Holzverb_platten_fertig.jpg "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%" -->
 
 </center> 
 
@@ -201,14 +201,14 @@ Welche Holzverbindung ist abgebildet?
 
 </div>
 <div class="flex-child-2 center">
-![Zinkung](img/Holzverb_zinken_auseinander.png" _Quelle:HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%; margin-left:-50px; margin-top:10px;" -->
+![Zinkung](img/Holzverb_zinken_auseinander.png "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%; margin-left:-50px; margin-top:10px;" -->
 
 </div>
 </section>
 
 <center> 
 
-![Zinkung_klein](img/Holzverb_zinken.jpg)<!-- style="max-width: 550px; width: 100%" -->
+![Zinkung_klein](img/Holzverb_zinken.jpg "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%" -->
 
 </center> 
 
@@ -228,14 +228,14 @@ Welche Holzverbindung ist abgebildet?
 
 </div>
 <div class="flex-child-2 center">
-![Überplattung](img/Holzverb_glue_auseinander.jpg" _Quelle:HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%; margin-left:-50px; margin-top:10px;" -->
+![Überplattung](img/Holzverb_glue_auseinander.jpg "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%; margin-left:-50px; margin-top:10px;" -->
 
 </div>
 </section>
 
 <center> 
 
-![Überplattung_fertig](img/Holzverb_glue.jpg)<!-- style="max-width: 550px; width: 100%" -->
+![Überplattung_fertig](img/Holzverb_glue.jpg "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%" -->
 
 </center> 
 
@@ -255,14 +255,14 @@ Welche Holzverbindung ist abgebildet?
 
 </div>
 <div class="flex-child-2 center">
-![Zapfverbindung](img/Holzverb_zapfen.jpg" _Quelle:HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%; margin-left:-50px; margin-top:10px;" -->
+![Zapfverbindung](img/Holzverb_zapfen.jpg"_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%; margin-left:-50px; margin-top:10px;" -->
 
 </div>
 </section>
 
 <center> 
 
-![Zapfenverbindung_fertig](img/Holzverb_zapfen_durch.jpg)<!-- style="max-width: 550px; width: 100%" -->
+![Zapfenverbindung_fertig](img/Holzverb_zapfen_durch.jpg "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%" -->
 
 </center> 
 
@@ -290,7 +290,7 @@ Ordnen Sie die folgenden Aussagen in "richtig" und "falsch" ein.
 
 <center> 
 
-![Holzverbindung_Stuhl_KI](img/Holzverb_Stuhl.png" _Quelle:KI generiert, bearbeitet GKZ_")<!-- style="max-width: 350px; width: 100%" -->
+![Holzverbindung_Stuhl_KI](img/Holzverb_Stuhl.png "_Quelle: KI generiert, bearbeitet GKZ_")<!-- style="max-width: 350px; width: 100%" -->
 
 </center> 
 
