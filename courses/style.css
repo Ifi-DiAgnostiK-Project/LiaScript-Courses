@@ -117,6 +117,17 @@
     color: green;
 }
 
+ul.explained > li {
+  font-size: 1.15em;
+  font-weight: 700;
+}
+
+ul.explained li p span:has(br),
+ul.explained li p span:has(br) ~ span {
+  font-size: 1.0em;
+  font-weight: 400;
+}
+
 ul.thumbup li::marker {
   content: "👍";
 }
