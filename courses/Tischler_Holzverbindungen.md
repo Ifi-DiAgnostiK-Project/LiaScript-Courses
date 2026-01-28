@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.2
+version:  0.0.3
 language: de
 narrator: Deutsch Male
 
@@ -202,10 +202,10 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [(X)] durchgehende Schwalbenschwanzverbindung
-- [( )] verdeckte Zinkung
-- [(X)] offene Zinkung
-- [( )] Zargen-Schlitz-Verbindung
+- [[X]] durchgehende Schwalbenschwanzverbindung
+- [[ ]] verdeckte Zinkung
+- [[X]] offene Zinkung
+- [[ ]] Zargen-Schlitz-Verbindung
 
 </div>
 <div class="flex-child-2 center">
@@ -266,10 +266,10 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [( )] verdeckte Zapfenverbindung
-- [(X)] Zapfenverbindung
-- [(X)] abgesetzter Lochzapfen
-- [( )] durchgehende Zapfen-Domino-Verbindung
+- [[ ]] verdeckte Zapfenverbindung
+- [[X]] Zapfenverbindung
+- [[X]] abgesetzter Lochzapfen
+- [[ ]] durchgehende Zapfen-Domino-Verbindung
 
 </div>
 <div class="flex-child-2 center">
@@ -299,10 +299,10 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [(X)] Zapfenverbindung
-- [( )] Nut-Feder-Verbindung
-- [(X)] Dominoverbindung
-- [( )] durchgehende Zapfen-Domino-Verbindung
+- [[X]] Zapfenverbindung
+- [[ ]] Nut-Feder-Verbindung
+- [[X]] Dominoverbindung
+- [[ ]] durchgehende Zapfen-Domino-Verbindung
 
 </div>
 <div class="flex-child-2 center">
@@ -332,10 +332,10 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [(X)] Schlitz-Zapfen-Verbindung
-- [(X)] einfache Schlitz-Zapfen-Verbindung
-- [( )] Schwalbenschwanzverbindung
-- [( )] Spalt-Zapfen-Verbindung
+- [[X]] Schlitz-Zapfen-Verbindung
+- [[X]] einfache Schlitz-Zapfen-Verbindung
+- [[ ]] Schwalbenschwanzverbindung
+- [[ ]] Spalt-Zapfen-Verbindung
 
 </div>
 <div class="flex-child-2 center">
