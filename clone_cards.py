@@ -96,6 +96,7 @@ def main(path: Path):
         # (source card-text substring, target card-header substring)
         ("Untertapeten", "Raumausstatter"),
         ("Kurs mit den Piktogrammen zur Kennzeichnung von Tapeten im Raumausstatter- und Maler-/Lackiererhandwerk", "Raumausstatter"),
+        ("Typische Tapezierwerkzeuge", "Raumausstatter"),
     ]
 
     for source_text, target_header in transfers:
