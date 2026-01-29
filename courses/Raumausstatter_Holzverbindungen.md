@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.1.0
+version:  0.1.1
 language: de
 narrator: Deutsch Male
 
@@ -27,7 +27,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragA
         https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Tapetensymbole/refs/heads/main/makros.md
 
 
-tags: [Polstern, Polstermöbel, Gestellbau, Polstergestellbau, Holzverbindung, Holz, Raumausstatter, Tischler]
+tags: [Polstern, Polstermöbel, Gestellbau, Polstergestellbau, Holzverbindung, Holz, Raumausstatter]
 
 -->
 
