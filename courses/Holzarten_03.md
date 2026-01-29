@@ -4,7 +4,7 @@ author:   Hilke Domsch, Volker Göhler
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.5
+version:  0.0.7
 
 language: de
 
@@ -14,11 +14,11 @@ edit: true
 date: 2025-07-29
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo: https://upload.wikimedia.org/wikipedia/commons/3/3c/EB1911_Furniture_Fig._1.%E2%80%94Venetian_Folding_Chair%2C_walnut%2C_c._1530.jpg
+logo: img/156_Freepik_rawpixel.com_wooden-textured-background.jpg
 
 link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
 
-attribute: Title Image By AnonymousUnknown author, Public domain, via Wikimedia Commons
+attribute: Title Image By FreePik
 
 comment:  Quiz zu Eigenschaften von Holz -- Teil 3
 
