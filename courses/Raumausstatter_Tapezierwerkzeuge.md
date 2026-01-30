@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.1
+version:  0.0.2
 language: de
 narrator: Deutsch Male
 
@@ -64,7 +64,7 @@ Testen Sie Ihr Wissen zu den wichtigsten Tapezierwerkzeugen!
 
 <center> 
 
-![Tapezierwerkzeug](img/assortment_of_tools.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/various-sizes-paint-brushes-flat-lay_9988852.htm#fromView=search&page=2&position=46&uuid=89cff885-29c8-41c6-a4c6-327cb7365c4f&query=tapezierwerkzeuge)")<!-- style="max-width: 550px; width: 100%" -->
+![Tapezierwerkzeug](https://img.freepik.com/free-photo/old-construction-hand-tool-set-with-worker-hand-white-wooden-background_1150-6089.jpg "[_Quelle: Freepik_](https://www.freepik.com/free-photo/various-sizes-paint-brushes-flat-lay_9988852.htm#fromView=search&page=2&position=46&uuid=89cff885-29c8-41c6-a4c6-327cb7365c4f&query=tapezierwerkzeuge)")<!-- style="max-width: 550px; width: 100%" -->
 
 </center> 
 
