@@ -2,6 +2,11 @@
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/learn_more.svg)](https://LiaScript.github.io/)
 
+![GitHub contributors](https://img.shields.io/github/contributors/Ifi-DiAgnostiK-Project/LiaScript-Courses)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Ifi-DiAgnostiK-Project/LiaScript-Courses)
+![GitHub repo size](https://img.shields.io/github/repo-size/Ifi-DiAgnostiK-Project/LiaScript-Courses)
+[![GitHub issues](https://img.shields.io/github/issues/Ifi-DiAgnostiK-Project/LiaScript-Courses)](https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/issues)
+
 Generated LiaScript Courses for DiAgnostiK Project
 
 ![DiAgnostiK Projekt](https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/img/WortBildMarkeSlogan_variante2_cropped.png)
