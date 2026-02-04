@@ -45,6 +45,11 @@ gh auth login
 Always start with a dry run to see what would be deleted:
 
 ```bash
+# From the repository root
+python3 scripts/cleanup_old_releases.py
+
+# Or from the scripts directory
+cd scripts
 python3 cleanup_old_releases.py
 ```
 
@@ -59,6 +64,11 @@ This will show you:
 After reviewing the dry run output, execute the actual cleanup:
 
 ```bash
+# From the repository root
+python3 scripts/cleanup_old_releases.py --execute
+
+# Or from the scripts directory
+cd scripts
 python3 cleanup_old_releases.py --execute
 ```
 
@@ -74,22 +84,22 @@ python3 cleanup_old_releases.py --execute
 
 **Keep only the last 2 versions (default):**
 ```bash
-python3 cleanup_old_releases.py --execute
+python3 scripts/cleanup_old_releases.py --execute
 ```
 
 **Keep only the last 3 versions:**
 ```bash
-python3 cleanup_old_releases.py --execute --keep 3
+python3 scripts/cleanup_old_releases.py --execute --keep 3
 ```
 
 **Delete only tags, not releases:**
 ```bash
-python3 cleanup_old_releases.py --execute --tags-only
+python3 scripts/cleanup_old_releases.py --execute --tags-only
 ```
 
 **Dry run with keeping 5 versions:**
 ```bash
-python3 cleanup_old_releases.py --keep 5
+python3 scripts/cleanup_old_releases.py --keep 5
 ```
 
 ## How It Works
@@ -187,7 +197,7 @@ Total tags to delete: 9
 
 This means the GitHub CLI is not installed or not authenticated. You have two options:
 1. Install and authenticate `gh` CLI (see Requirements section)
-2. Use the `--tags-only` flag to only delete tags: `python3 cleanup_old_releases.py --execute --tags-only`
+2. Use the `--tags-only` flag to only delete tags: `python3 scripts/cleanup_old_releases.py --execute --tags-only`
 
 ### "Warning: Could not delete release"
 
@@ -229,7 +239,7 @@ jobs:
       
       - name: Run cleanup script
         run: |
-          python3 cleanup_old_releases.py --execute --keep 2
+          python3 scripts/cleanup_old_releases.py --execute --keep 2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
