@@ -192,11 +192,36 @@ def delete_tag(tag: str, dry_run: bool = True):
     if dry_run:
         print(f"  [DRY RUN] Would delete tag: {tag}")
     else:
-        # Delete local tag
-        subprocess.run(['git', 'tag', '-d', tag], check=True, capture_output=True)
-        # Delete remote tag
-        subprocess.run(['git', 'push', 'origin', f':refs/tags/{tag}'], check=True, capture_output=True)
-        print(f"  Deleted tag: {tag}")
+        try:
+            # Delete local tag
+            result = subprocess.run(
+                ['git', 'tag', '-d', tag],
+                check=True,
+                capture_output=True,
+                text=True
+            )
+        except subprocess.CalledProcessError as e:
+            print(f"  Warning: Failed to delete local tag '{tag}'")
+            if e.stderr:
+                print(f"    Error: {e.stderr.strip()}")
+            return
+        
+        try:
+            # Delete remote tag
+            result = subprocess.run(
+                ['git', 'push', 'origin', f':refs/tags/{tag}'],
+                check=True,
+                capture_output=True,
+                text=True
+            )
+            print(f"  Deleted tag: {tag}")
+        except subprocess.CalledProcessError as e:
+            print(f"  Warning: Failed to delete remote tag '{tag}'")
+            if e.stderr:
+                print(f"    Error: {e.stderr.strip()}")
+            # Tag was deleted locally, so note that
+            print(f"    (Note: Local tag was deleted successfully)")
+
 
 
 def delete_release(tag: str, dry_run: bool = True):
