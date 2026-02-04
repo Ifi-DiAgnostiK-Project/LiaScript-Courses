@@ -5,7 +5,7 @@ language: de
 
 email:    sebastian.zug@informatik.tu-freiberg.de
 
-version: 0.0.1
+version: 0.0.2
 
 narrator: German Female
 

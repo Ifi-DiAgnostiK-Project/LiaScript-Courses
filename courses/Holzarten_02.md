@@ -3,7 +3,7 @@ author:   Volker Göhler; Hilke Domsch
 
 email:    hilke.domsch@gkz-ev.de
 
-version:  0.0.3
+version:  0.0.4
 
 language: de
 

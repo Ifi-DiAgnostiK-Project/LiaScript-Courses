@@ -1,7 +1,7 @@
 <!--
 author: Volker Göhler
 email: volker.goehler@informatik.tu-freiberg
-version: 0.0.2
+version: 0.0.3
 language: de
 narrator: Deutsch Female
 date: 2025-06-27
