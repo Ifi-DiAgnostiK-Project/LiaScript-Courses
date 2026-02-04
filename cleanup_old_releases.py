@@ -283,7 +283,7 @@ Examples:
     tags_to_delete = find_tags_to_delete(grouped_tags, keep_count=args.keep)
     
     if not tags_to_delete:
-        print("\n✅ No tags need to be deleted. All courses have at most {args.keep} version(s).")
+        print(f"\n✅ No tags need to be deleted. All courses have at most {args.keep} version(s).")
         return
     
     # Get releases if needed
