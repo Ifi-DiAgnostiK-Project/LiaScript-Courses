@@ -134,11 +134,12 @@ def increment_patch_version(filepath: str) -> bool:
         full_match, major, minor, patch = version_info
         new_patch = patch + 1
         
-        # Create the replacement string preserving the original spacing
+        # Create the replacement using the same pattern as VERSION_PATTERN
+        # Capture groups: (1) version: and spaces, (2) version number, (3) trailing spaces
         def replacer(match):
             return f"{match.group(1)}{major}.{minor}.{new_patch}{match.group(3)}"
         
-        # Pattern to capture whitespace: (version:)(spaces)(version)(trailing spaces)
+        # Use a pattern consistent with VERSION_PATTERN for replacement
         replace_pattern = r'(version:\s*)(\d+\.\d+\.\d+)(\s*)$'
         new_content = re.sub(replace_pattern, replacer, content, count=1, flags=re.MULTILINE)
         
