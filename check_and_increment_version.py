@@ -15,6 +15,10 @@ from pathlib import Path
 from typing import List, Tuple, Optional
 
 
+# Version pattern for LiaScript course files
+VERSION_PATTERN = r'version:\s*(\d+)\.(\d+)\.(\d+)\s*$'
+
+
 def get_changed_course_files(base_ref: str = "HEAD^", head_ref: str = "HEAD") -> List[str]:
     """
     Get list of changed markdown files in the courses directory.
@@ -53,11 +57,8 @@ def extract_version_from_content(content: str) -> Optional[Tuple[str, int, int, 
     Returns:
         Tuple of (full_match, major, minor, patch) or None if not found
     """
-    # Match version: with flexible whitespace, format: Major.Minor.Patch
-    pattern = r'^version:\s*(\d+)\.(\d+)\.(\d+)\s*$'
-    
     for line in content.split('\n'):
-        match = re.match(pattern, line, re.MULTILINE)
+        match = re.match(VERSION_PATTERN, line)
         if match:
             major = int(match.group(1))
             minor = int(match.group(2))
@@ -134,13 +135,12 @@ def increment_patch_version(filepath: str) -> bool:
         new_patch = patch + 1
         
         # Create the replacement string preserving the original spacing
-        # Extract the whitespace after "version:"
-        version_line_pattern = r'(version:\s*)(\d+\.\d+\.\d+)(\s*)$'
-        
         def replacer(match):
             return f"{match.group(1)}{major}.{minor}.{new_patch}{match.group(3)}"
         
-        new_content = re.sub(version_line_pattern, replacer, content, count=1, flags=re.MULTILINE)
+        # Pattern to capture whitespace: (version:)(spaces)(version)(trailing spaces)
+        replace_pattern = r'(version:\s*)(\d+\.\d+\.\d+)(\s*)$'
+        new_content = re.sub(replace_pattern, replacer, content, count=1, flags=re.MULTILINE)
         
         if new_content != content:
             with open(filepath, 'w', encoding='utf-8') as f:

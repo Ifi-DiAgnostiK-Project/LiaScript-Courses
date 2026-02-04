@@ -46,7 +46,7 @@ jobs:
           python3 check_and_increment_version.py
           # Commit any version changes
           if ! git diff --quiet; then
-            git add courses/*.md
+            git add courses/
             git commit -m "Auto-increment version tags for changed courses [skip ci]"
             git push
           fi
