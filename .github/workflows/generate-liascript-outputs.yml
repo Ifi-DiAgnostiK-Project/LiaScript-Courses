@@ -43,7 +43,7 @@ jobs:
           cd project
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          python3 check_and_increment_version.py
+          python3 scripts/check_and_increment_version.py
           # Commit any version changes
           if ! git diff --quiet; then
             git add -u courses/

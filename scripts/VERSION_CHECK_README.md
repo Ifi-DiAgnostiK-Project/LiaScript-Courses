@@ -37,7 +37,7 @@ The whitespace around the version number is flexible, but the version must be on
 You can run the script manually from the repository root:
 
 ```bash
-python3 check_and_increment_version.py
+python3 scripts/check_and_increment_version.py
 ```
 
 The script will:
@@ -148,7 +148,7 @@ The script is called in the `check_changes` job of the workflow:
     cd project
     git config user.name "github-actions[bot]"
     git config user.email "github-actions[bot]@users.noreply.github.com"
-    python3 check_and_increment_version.py
+    python3 scripts/check_and_increment_version.py
     if ! git diff --quiet; then
       git add courses/*.md
       git commit -m "Auto-increment version tags for changed courses [skip ci]"
