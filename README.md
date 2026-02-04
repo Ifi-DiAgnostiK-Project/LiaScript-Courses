@@ -91,13 +91,13 @@ The repository includes a cleanup script to manage course releases and tags. Eac
 
 ```bash
 # See what would be deleted (dry run)
-python3 cleanup_old_releases.py
+python3 scripts/cleanup_old_releases.py
 
 # Delete old tags/releases, keeping last 2 versions
-python3 cleanup_old_releases.py --execute
+python3 scripts/cleanup_old_releases.py --execute
 
 # Keep last 3 versions
-python3 cleanup_old_releases.py --execute --keep 3
+python3 scripts/cleanup_old_releases.py --execute --keep 3
 ```
 
-For detailed documentation, see [CLEANUP_SCRIPT_README.md](CLEANUP_SCRIPT_README.md).
+For detailed documentation, see [scripts/CLEANUP_SCRIPT_README.md](scripts/CLEANUP_SCRIPT_README.md).
