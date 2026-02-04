@@ -33,6 +33,24 @@ jobs:
           cd project
           git log --oneline --graph --all | head -20
 
+      - name: Set up Python for version check
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Check and auto-increment version tags
+        run: |
+          cd project
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          python3 check_and_increment_version.py
+          # Commit any version changes
+          if ! git diff --quiet; then
+            git add courses/*.md
+            git commit -m "Auto-increment version tags for changed courses [skip ci]"
+            git push
+          fi
+
       - name: Detect Changed Markdown Files
         id: changes
         run: |
