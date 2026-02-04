@@ -85,6 +85,15 @@ tags:
 - Workflows push automatically to website if there is a change in `courses/`
 - we need a PAT for this with contents and workflows r/w
 
+### Change Detection and State Persistence
+
+The deployment workflow uses a checksum-based state persistence mechanism to track changes across workflow runs. This ensures:
+- Accurate detection of changed files across multiple commits
+- Efficient processing of only modified courses
+- Persistent state management via GitHub Actions artifacts
+
+For detailed information, see [docs/checksum-state-persistence.md](docs/checksum-state-persistence.md).
+
 ### Tag and Release Management
 
 The repository includes a cleanup script to manage course releases and tags. Each time a course is changed, a new SCORM course is built with a corresponding version tag. Use the cleanup script to keep only the most recent versions:

@@ -21,8 +21,11 @@ from typing import List, Tuple, Optional
 try:
     from checksum_state import get_changed_course_files as checksum_get_changed_files
     CHECKSUM_AVAILABLE = True
-except ImportError:
+except ImportError as e:
+    # Checksum module not available in scripts directory
     CHECKSUM_AVAILABLE = False
+    import warnings
+    warnings.warn(f"Checksum module not available, will use git-based detection: {e}")
 
 
 # Version pattern for LiaScript course files

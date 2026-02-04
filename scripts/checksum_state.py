@@ -24,7 +24,7 @@ def compute_file_checksum(filepath: Path) -> Optional[str]:
         filepath: Path to the file
     
     Returns:
-        Hex digest of the file checksum, or None if file doesn't exist
+        Hex digest of the file checksum, or None if file doesn't exist or on error
     """
     try:
         if not filepath.exists():
