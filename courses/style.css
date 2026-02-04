@@ -122,6 +122,20 @@ ul.explained > li {
   font-weight: 700;
 }
 
+/* 2. Sobald ein span mit br existiert, setzen wir das GANZE p-Element 
+      auf die dünnere Schrift. Das betrifft auch den nackten Text. */
+ul.explained li p:has(span:has(br)) {
+  font-size: 1.0em;
+  font-weight: 400;
+}
+
+/* 3. Jetzt der Trick: Wir nutzen ::first-line, um die erste Zeile 
+      (deine Überschrift) wieder fett zu machen. */
+ul.explained li p:has(span:has(br))::first-line {
+  font-size: 1.15rem; /* Entspricht 1.15em des li */
+  font-weight: 700;
+}
+
 ul.explained li p span:has(br),
 ul.explained li p span:has(br) ~ span {
   font-size: 1.0em;
