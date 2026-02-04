@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.5
+version:  0.0.6
 language: de
 narrator: Deutsch Male
 
@@ -37,16 +37,16 @@ Holzverbindungen<!-- style="font-weight: bolder; font-size: 12pt; color: green;"
 Holzverbindungen werden eingesetzt für:
 
 <!-- class="explained" -->
-- Stabilität und Belastbarkeit\
+- **Stabilität und Belastbarkeit**\
 Holzverbindungen sorgen dafür, dass Bauteile dauerhaft und sicher miteinander verbunden sind.
 
-- Formgebung und Funktion\
+- **Formgebung und Funktion**\
 Holzverbindungen ermöglichen komplexe Formen und Konstruktionen, z. B. bei Möbeln, Türen oder Fenster.
 
-- Materialgerechtes Arbeiten\
+- **Materialgerechtes Arbeiten**\
 Holz "arbeitet" - es dehnt sich aus und zieht sich zusammen. Gute Verbindungen berücksichtigen diese Eigenschaften.
 
-- Ästhetik und Handwerkskunst\
+- **Ästhetik und Handwerkskunst**\
 Sichtbare Verbindungen wie Zinken oder Schwalbenschwanzverbindungen zeigen handwerkliches Können und sind of gestalterisches Element.
 
 <br> 
