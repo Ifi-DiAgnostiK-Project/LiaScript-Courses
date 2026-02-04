@@ -84,3 +84,20 @@ tags:
 
 - Workflows push automatically to website if there is a change in `courses/`
 - we need a PAT for this with contents and workflows r/w
+
+### Tag and Release Management
+
+The repository includes a cleanup script to manage course releases and tags. Each time a course is changed, a new SCORM course is built with a corresponding version tag. Use the cleanup script to keep only the most recent versions:
+
+```bash
+# See what would be deleted (dry run)
+python3 cleanup_old_releases.py
+
+# Delete old tags/releases, keeping last 2 versions
+python3 cleanup_old_releases.py --execute
+
+# Keep last 3 versions
+python3 cleanup_old_releases.py --execute --keep 3
+```
+
+For detailed documentation, see [CLEANUP_SCRIPT_README.md](CLEANUP_SCRIPT_README.md).
