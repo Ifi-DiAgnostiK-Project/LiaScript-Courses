@@ -28,8 +28,20 @@ class Version:
     def __lt__(self, other):
         return (self.major, self.minor, self.patch) < (other.major, other.minor, other.patch)
     
+    def __le__(self, other):
+        return (self.major, self.minor, self.patch) <= (other.major, other.minor, other.patch)
+    
     def __eq__(self, other):
         return (self.major, self.minor, self.patch) == (other.major, other.minor, other.patch)
+    
+    def __ne__(self, other):
+        return (self.major, self.minor, self.patch) != (other.major, other.minor, other.patch)
+    
+    def __gt__(self, other):
+        return (self.major, self.minor, self.patch) > (other.major, other.minor, other.patch)
+    
+    def __ge__(self, other):
+        return (self.major, self.minor, self.patch) >= (other.major, other.minor, other.patch)
     
     def __repr__(self):
         return f"v{self.major}.{self.minor}.{self.patch}"
@@ -63,13 +75,22 @@ def parse_tag(tag: str) -> Tuple[str, Version]:
 
 def get_all_tags() -> List[str]:
     """Get all tags from the repository."""
-    result = subprocess.run(
-        ['git', 'tag', '-l'],
-        capture_output=True,
-        text=True,
-        check=True
-    )
-    return [tag.strip() for tag in result.stdout.strip().split('\n') if tag.strip()]
+    try:
+        result = subprocess.run(
+            ['git', 'tag', '-l'],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+        return [tag.strip() for tag in result.stdout.strip().split('\n') if tag.strip()]
+    except subprocess.CalledProcessError as e:
+        print(f"Error: Failed to get tags from git. Make sure git is installed and you're in a git repository.")
+        print(f"Git error: {e}")
+        sys.exit(1)
+    except FileNotFoundError:
+        print("Error: git command not found. Please install git.")
+        sys.exit(1)
+
 
 
 def get_all_releases() -> List[str]:
@@ -200,6 +221,17 @@ def delete_release(tag: str, dry_run: bool = True):
             print(f"  Warning: Could not delete release '{tag}': {e}")
 
 
+def positive_int(value):
+    """Validate that the argument is a positive integer."""
+    try:
+        ivalue = int(value)
+        if ivalue < 1:
+            raise argparse.ArgumentTypeError(f"{value} is not a positive integer (must be >= 1)")
+        return ivalue
+    except ValueError:
+        raise argparse.ArgumentTypeError(f"{value} is not a valid integer")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='Cleanup old course releases and tags, keeping only the last N versions per course.',
@@ -226,7 +258,7 @@ Examples:
     )
     parser.add_argument(
         '--keep',
-        type=int,
+        type=positive_int,
         default=2,
         help='Number of highest versions to keep per course (default: 2)'
     )
@@ -237,10 +269,6 @@ Examples:
     )
     
     args = parser.parse_args()
-    
-    if args.keep < 1:
-        print("Error: --keep must be at least 1")
-        sys.exit(1)
     
     print("=" * 70)
     print("Course Tag/Release Cleanup Script")
