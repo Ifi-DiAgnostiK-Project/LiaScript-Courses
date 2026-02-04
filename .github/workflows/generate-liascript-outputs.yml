@@ -38,6 +38,23 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Download previous checksum state
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: checksum-state
+          path: project/
+      
+      - name: Show checksum state if exists
+        run: |
+          cd project
+          if [ -f .checksum_state.json ]; then
+            echo "Previous checksum state found:"
+            ls -lh .checksum_state.json
+          else
+            echo "No previous checksum state found (first run or state expired)"
+          fi
+
       - name: Check and auto-increment version tags
         run: |
           cd project
@@ -57,14 +74,26 @@ jobs:
           cd project
           files=$(git diff --name-only HEAD^  HEAD | grep '^courses/.*\.md$' || true)
           echo "changed_files=${files//$'\n'/ }" >> $GITHUB_OUTPUT
+      
+      - name: Update checksum state
+        run: |
+          cd project
+          python3 scripts/checksum_state.py update
+          echo "Checksum state updated"
       - name: Save changed files list
         run: |
           echo "${{ steps.changes.outputs.changed_files }}" > ./changed_files.txt
-      - name: Upload artifact
+      - name: Upload changed files artifact
         uses: actions/upload-artifact@v4
         with:
           name: changed-files
           path: ./changed_files.txt
+      - name: Upload checksum state
+        uses: actions/upload-artifact@v4
+        with:
+          name: checksum-state
+          path: project/.checksum_state.json
+          retention-days: 90
 
   generate_outputs:
     if: ${{ !contains(github.actor, '[bot]') && github.actor != 'github-actions' }}

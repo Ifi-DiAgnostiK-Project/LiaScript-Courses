@@ -3,7 +3,7 @@
 author:    Hilke Domsch; Volker Göhler
 email:     hilke.domsch@gkz-ev.de
 
-version:   0.0.8
+version:   0.0.9
 language:  de
 narrator:  Deutsch Female
 

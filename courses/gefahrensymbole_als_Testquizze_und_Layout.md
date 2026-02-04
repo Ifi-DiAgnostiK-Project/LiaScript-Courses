@@ -1,7 +1,7 @@
 <!--
 author: Hilke Domsch
 comment: Hilkes Fragen am 20.05.25, mit Volkers Antworten
-version: 0.0.8
+version: 0.0.9
 language: de
 edit: true
 date: 2025-05-20

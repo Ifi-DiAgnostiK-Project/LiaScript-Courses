@@ -1,7 +1,7 @@
 <!--
 
 author: Niklas Werner
-version: 0.0.3
+version: 0.0.4
 comment: This is a JSCAD example
 language: de
 edit: true

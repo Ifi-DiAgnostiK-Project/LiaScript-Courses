@@ -4,7 +4,7 @@ author: Volker Göhler
 
 email:  volker.goehler@informatik.tu-freiberg.de
 
-version: 0.0.4
+version: 0.0.5
 
 language: de
 

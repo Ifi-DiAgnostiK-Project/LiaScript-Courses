@@ -6,6 +6,10 @@ This script:
 1. Detects changed markdown files in the courses directory
 2. For each changed file, checks if the version tag also changed
 3. If the version hasn't changed, increments the patch version
+
+Change detection methods (in order of preference):
+1. Checksum-based state file (persists across workflow runs)
+2. Git diff against HEAD^ (fallback for single commits)
 """
 
 import re
@@ -14,14 +18,23 @@ import subprocess
 from pathlib import Path
 from typing import List, Tuple, Optional
 
+try:
+    from checksum_state import get_changed_course_files as checksum_get_changed_files
+    CHECKSUM_AVAILABLE = True
+except ImportError as e:
+    # Checksum module not available in scripts directory
+    CHECKSUM_AVAILABLE = False
+    import warnings
+    warnings.warn(f"Checksum module not available, will use git-based detection: {e}")
+
 
 # Version pattern for LiaScript course files
 VERSION_PATTERN = r'version:\s*(\d+)\.(\d+)\.(\d+)\s*$'
 
 
-def get_changed_course_files(base_ref: str = "HEAD^", head_ref: str = "HEAD") -> List[str]:
+def get_changed_course_files_git(base_ref: str = "HEAD^", head_ref: str = "HEAD") -> List[str]:
     """
-    Get list of changed markdown files in the courses directory.
+    Get list of changed markdown files using git diff (fallback method).
     
     Args:
         base_ref: Base git reference (default: HEAD^)
@@ -45,6 +58,37 @@ def get_changed_course_files(base_ref: str = "HEAD^", head_ref: str = "HEAD") ->
     except subprocess.CalledProcessError as e:
         print(f"Error getting changed files: {e}", file=sys.stderr)
         return []
+
+
+def get_changed_course_files(use_checksums: bool = True) -> List[str]:
+    """
+    Get list of changed markdown files in the courses directory.
+    
+    Uses checksum-based detection if available, falls back to git diff.
+    
+    Args:
+        use_checksums: Whether to use checksum-based detection (default: True)
+    
+    Returns:
+        List of changed course file paths
+    """
+    if use_checksums and CHECKSUM_AVAILABLE:
+        try:
+            state_file = Path(".checksum_state.json")
+            # Only use checksum detection if state file exists
+            if state_file.exists():
+                changed_files_set = checksum_get_changed_files()
+                print(f"Using checksum-based change detection ({len(changed_files_set)} files)")
+                return sorted(list(changed_files_set))
+            else:
+                print("No checksum state file found, falling back to git-based detection")
+        except Exception as e:
+            print(f"Warning: Checksum detection failed: {e}", file=sys.stderr)
+            print("Falling back to git-based detection", file=sys.stderr)
+    
+    # Fallback to git-based detection
+    print("Using git-based change detection (HEAD^ comparison)")
+    return get_changed_course_files_git()
 
 
 def extract_version_from_content(content: str) -> Optional[Tuple[str, int, int, int]]:

@@ -3,7 +3,7 @@ author:   Jan Franke; Volker Göhler; Hilke Domsch
 
 email:    jan.franke@hwk-dresden.de; volker.goehler@informatik.tu-freiberg.de; hilke.domsch@gkz-ev.de
 
-version:  0.0.7
+version:  0.0.8
 
 language: de
 

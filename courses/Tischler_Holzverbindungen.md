@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.6
+version:  0.0.7
 language: de
 narrator: Deutsch Male
 
