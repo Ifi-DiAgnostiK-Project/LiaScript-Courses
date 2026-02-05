@@ -122,7 +122,7 @@ jobs:
         if: steps.read_changes.outputs.changed_files != ''
         run: |
           cd project
-          git pull origin ${{ github.ref_name }}
+          git pull --ff-only origin ${{ github.ref_name }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -177,6 +177,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: false
+
+      - name: Pull latest changes (including version commit)
+        run: |
+          git pull --ff-only origin ${{ github.ref_name }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
