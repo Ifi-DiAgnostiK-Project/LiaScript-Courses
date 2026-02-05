@@ -37,8 +37,10 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       changed_files: ${{ steps.changes.outputs.changed_files }}
-      # version_incremented will be 'true' in Phase 1 when version was just incremented
-      # It will be empty/unset in Phase 2 (version-increment commit) or when no version change was needed
+      # version_incremented values:
+      #   'true' = Phase 1, version was just incremented and pushed
+      #   'false' = Phase 1 or Phase 2, no version increment needed
+      #   unset = Phase 2, version_check step was skipped
       version_incremented: ${{ steps.version_check.outputs.version_incremented }}
     steps:
       - name: Checkout Repository
@@ -227,6 +229,7 @@ jobs:
     needs: [check_changes, generate_outputs]
     # Only run if version was not just incremented (Phase 2 or no version change)
     # This prevents running when Phase 1 just pushed a version increment
+    # Note: In Phase 2, version_incremented is unset, so != 'true' evaluates to true
     if: needs.check_changes.outputs.version_incremented != 'true'
     steps:
       - name: Checkout repository
