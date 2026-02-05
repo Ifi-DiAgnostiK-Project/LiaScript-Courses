@@ -188,7 +188,6 @@ __Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?__
 <!-- class="highlight" -->
 __Was ist beim Elektro-Handschweißen zu beachten? 🤔__
 
-
 <!-- data-randomize -->
 - [[ ]] Das Massekabel kann ich beliebig verlängern.
 - [[X]] Ich nehme die Elektrode aus dem Elektrodenhalter und lege beides isoliert ab.
