@@ -2,10 +2,22 @@
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/learn_more.svg)](https://LiaScript.github.io/)
 
+<!-- Build Status Badges -->
+[![Generate LiaScript Outputs](https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/actions/workflows/generate-liascript-outputs.yml/badge.svg)](https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/actions/workflows/generate-liascript-outputs.yml)
+[![Deploy to Pages](https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/actions/workflows/static.yml/badge.svg)](https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/actions/workflows/static.yml)
+[![Monthly Cleanup](https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/actions/workflows/monthly-cleanup.yml/badge.svg)](https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/actions/workflows/monthly-cleanup.yml)
+
+<!-- Repository Stats -->
+![Course Count](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/main/.badges/course-count.json)
 ![GitHub contributors](https://img.shields.io/github/contributors/Ifi-DiAgnostiK-Project/LiaScript-Courses)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Ifi-DiAgnostiK-Project/LiaScript-Courses)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ifi-DiAgnostiK-Project/LiaScript-Courses)
 [![GitHub issues](https://img.shields.io/github/issues/Ifi-DiAgnostiK-Project/LiaScript-Courses)](https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/issues)
+
+<!-- License and Version -->
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Ifi-DiAgnostiK-Project/LiaScript-Courses)
+![Python Version](https://img.shields.io/badge/python-%3E%3D3.11-blue)
 
 Generated LiaScript Courses for DiAgnostiK Project
 
