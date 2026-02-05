@@ -66,6 +66,8 @@ jobs:
             git add -u courses/
             git commit -m "Auto-increment version tags for changed courses [skip ci]"
             git push
+            # Reload repository to include the new version commit
+            git pull --rebase
           fi
 
       - name: Detect Changed Markdown Files
