@@ -63,8 +63,7 @@ Testen Sie Ihr Wissen zum sicheren Umgang mit Holzbearbeitungsmaschinen!
 
 ------------
 
-<br> <br>
-
+<br>
 
 <center> 
 
