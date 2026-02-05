@@ -37,12 +37,19 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       changed_files: ${{ steps.changes.outputs.changed_files }}
+      # version_incremented values:
+      #   'true' = Phase 1, version was just incremented and pushed
+      #   'false' = version_check ran but no increment was needed
+      #   unset/empty = version_check step was skipped (Phase 2: version-increment commit)
+      version_incremented: ${{ steps.version_check.outputs.version_incremented }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           path: project
           fetch-depth: 2
+          # Use custom token to allow triggering workflows on push
+          token: ${{ secrets.PUSH_INDEX_2 }}
 
       - name: Check if this is a version-increment commit
         id: check_commit
@@ -219,7 +226,11 @@ jobs:
 
   create_project_index_html:
     runs-on: ubuntu-latest
-    needs: generate_outputs
+    needs: [check_changes, generate_outputs]
+    # Skip when version was just incremented in Phase 1 (version_incremented == 'true')
+    # Run in Phase 2 (version_incremented unset/empty) or when no increment needed (version_incremented == 'false')
+    # Note: Unset outputs are treated as empty strings in GitHub Actions, so != 'true' matches both unset and 'false'
+    if: needs.check_changes.outputs.version_incremented != 'true'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

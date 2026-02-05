@@ -111,25 +111,26 @@ When a user pushes changes to a course file:
 
 1. The workflow detects this is NOT a version-increment commit
 2. Runs the version check script
-3. If version needs incrementing, commits the change WITHOUT `[skip ci]`
+3. If version needs incrementing, commits the change WITHOUT `[skip ci]`, using a custom token
 4. Pushes the version-increment commit
-5. **Stops processing** (doesn't create releases yet)
-6. The push triggers a second workflow run
+5. **Stops processing** - skips release creation and index generation
+6. The push (using custom token) triggers a second workflow run
 
 #### Phase 2: Tag Creation (Second Workflow Run)
 
 When the version-increment commit is pushed:
 
 1. The workflow detects this IS a version-increment commit (by checking commit message)
-2. **Skips the version increment step**
+2. **Skips the version increment step** (prevents infinite loop)
 3. Continues to create tags and releases with the updated version
-4. Updates the documentation index
+4. Updates the documentation index (project.yml and docs/index.html)
 
 This two-phase approach ensures:
 - Version increments and tag creation are always synchronized
 - If the workflow crashes after version increment, it can be re-run
-- No infinite loops (version-increment commits don't trigger another version increment)
+- No infinite loops (version-increment commits trigger Phase 2, not Phase 1 again)
 - Better error recovery and debugging capabilities
+- Index generation only happens after tags are created, preventing 404 errors
 
 #### Why Not Use `[skip ci]`?
 
@@ -139,11 +140,18 @@ Previous versions used `[skip ci]` to prevent infinite loops. However, this caus
 - Version in the repository was out of sync with tags
 - Manual intervention was required to fix the state
 
-The new approach solves this by using **commit message detection** instead of `[skip ci]` to prevent infinite loops.
+The new approach solves this by using **commit message detection** and a **custom authentication token** instead of `[skip ci]` to prevent infinite loops.
+
+#### Why Use a Custom Token?
+
+The workflow uses `secrets.PUSH_INDEX_2` (a personal access token or GitHub App token) instead of the default `GITHUB_TOKEN` when pushing version-increment commits. This is necessary because:
+- GitHub Actions does not trigger new workflow runs for commits made with `GITHUB_TOKEN`
+- This is a security feature to prevent accidental infinite loops
+- Using a custom token allows the version-increment commit to trigger Phase 2
 
 The workflow will:
 - Run when changes are pushed to course files
-- Create a version-increment commit (if needed) WITHOUT `[skip ci]`
+- Create a version-increment commit (if needed) WITHOUT `[skip ci]`, using the custom token
 - Trigger a second workflow run that creates the tags
 - The second run detects it's a version-increment commit and skips version checking
 
