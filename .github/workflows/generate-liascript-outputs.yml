@@ -1,5 +1,20 @@
 name: Generate LiaScript Outputs for Changed Courses
 
+# This workflow uses a TWO-PHASE approach to ensure version increments and tag creation stay synchronized:
+#
+# PHASE 1 (triggered by user commit):
+#   - Detect if version needs incrementing
+#   - If yes: commit version increment WITHOUT [skip ci] and stop
+#   - This triggers PHASE 2
+#
+# PHASE 2 (triggered by version-increment commit):
+#   - Detect this is a version-increment commit (by checking commit message)
+#   - Skip version increment step
+#   - Continue to create releases and tags with the updated version
+#
+# This design ensures that if the workflow crashes after version increment,
+# it can be re-run without manual intervention, keeping versions and tags in sync.
+
 on:
   push:
     branches:
@@ -69,6 +84,8 @@ jobs:
 
       - name: Check and auto-increment version tags
         id: version_check
+        # Only check versions if this is NOT already a version-increment commit
+        # This prevents infinite loops: version commits don't trigger another version increment
         if: steps.check_commit.outputs.is_version_commit != 'true'
         run: |
           cd project
@@ -81,16 +98,18 @@ jobs:
             git commit -m "Auto-increment version tags for changed courses"
             git push
             echo "version_incremented=true" >> $GITHUB_OUTPUT
-            echo "Version incremented and pushed. Workflow will be re-triggered to create releases."
+            echo "✓ Version incremented and pushed. Workflow will be re-triggered to create releases."
           else
             echo "version_incremented=false" >> $GITHUB_OUTPUT
-            echo "No version increment needed."
+            echo "✓ No version increment needed."
           fi
 
       - name: Detect Changed Markdown Files
         id: changes
-        # Only detect changes if we didn't just increment versions (the next workflow run will handle it)
-        # OR if this is already a version-increment commit (then we need to process it)
+        # Continue to release creation in two cases:
+        # 1. Version was NOT just incremented (normal processing)
+        # 2. This IS a version-increment commit (second phase - create releases)
+        # Skip if version was just incremented (first phase - wait for second workflow run)
         if: |
           (steps.version_check.outputs.version_incremented != 'true' || steps.check_commit.outputs.is_version_commit == 'true')
         run: |
