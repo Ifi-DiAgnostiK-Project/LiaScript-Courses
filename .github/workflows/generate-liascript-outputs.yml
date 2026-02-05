@@ -130,14 +130,16 @@ jobs:
           if ! git diff --quiet .checksum_state.json; then
             git add .checksum_state.json
             git commit -m "Update checksum state [skip ci]"
-            if git push; then
-              echo "✓ Checksum state committed and pushed"
-            else
-              echo "⚠ Warning: Failed to push checksum state" >&2
+            
+            # Push changes - fail if this doesn't work to prevent state desync
+            if ! git push; then
+              echo "❌ ERROR: Failed to push checksum state" >&2
+              echo "This is critical - without updated state, the next run will be incorrect" >&2
               echo "Common causes: concurrent workflow runs, network issues, or permission problems" >&2
-              echo "Recovery: The workflow will continue, but state may be out of sync" >&2
-              echo "To fix: Re-run the workflow or manually run 'python3 scripts/checksum_state.py update' and commit" >&2
+              echo "Recovery: Re-run this workflow after resolving the issue" >&2
+              exit 1
             fi
+            echo "✓ Checksum state committed and pushed"
           else
             echo "✓ Checksum state unchanged, no commit needed"
           fi

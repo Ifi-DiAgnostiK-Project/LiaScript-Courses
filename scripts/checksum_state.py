@@ -108,9 +108,11 @@ def save_state(checksums: Dict[str, str], state_file: Path = Path(DEFAULT_STATE_
         True if successful, False otherwise
     """
     try:
+        # Sort checksums for consistent diffs, but keep version first
+        sorted_checksums = dict(sorted(checksums.items()))
         state_data = {
             "version": "1.0",
-            "checksums": checksums
+            "checksums": sorted_checksums
         }
         
         with open(state_file, 'w', encoding='utf-8') as f:
