@@ -37,12 +37,15 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       changed_files: ${{ steps.changes.outputs.changed_files }}
+      version_incremented: ${{ steps.version_check.outputs.version_incremented }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           path: project
           fetch-depth: 2
+          # Use custom token to allow triggering workflows on push
+          token: ${{ secrets.PUSH_INDEX_2 }}
 
       - name: Check if this is a version-increment commit
         id: check_commit
@@ -219,7 +222,10 @@ jobs:
 
   create_project_index_html:
     runs-on: ubuntu-latest
-    needs: generate_outputs
+    needs: [check_changes, generate_outputs]
+    # Only run if version was not just incremented (Phase 2 or no version change)
+    # This prevents running when Phase 1 just pushed a version increment
+    if: needs.check_changes.outputs.version_incremented != 'true'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
