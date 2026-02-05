@@ -8,6 +8,7 @@
 [![Monthly Cleanup](https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/actions/workflows/monthly-cleanup.yml/badge.svg)](https://github.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/actions/workflows/monthly-cleanup.yml)
 
 <!-- Repository Stats -->
+![Course Count](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/main/.badges/course-count.json)
 ![GitHub contributors](https://img.shields.io/github/contributors/Ifi-DiAgnostiK-Project/LiaScript-Courses)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Ifi-DiAgnostiK-Project/LiaScript-Courses)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ifi-DiAgnostiK-Project/LiaScript-Courses)
