@@ -37,6 +37,8 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       changed_files: ${{ steps.changes.outputs.changed_files }}
+      # version_incremented will be 'true' in Phase 1 when version was just incremented
+      # It will be empty/unset in Phase 2 (version-increment commit) or when no version change was needed
       version_incremented: ${{ steps.version_check.outputs.version_incremented }}
     steps:
       - name: Checkout Repository
