@@ -130,8 +130,12 @@ jobs:
           if ! git diff --quiet .checksum_state.json; then
             git add .checksum_state.json
             git commit -m "Update checksum state [skip ci]"
-            git push
-            echo "✓ Checksum state committed and pushed"
+            if git push; then
+              echo "✓ Checksum state committed and pushed"
+            else
+              echo "⚠ Warning: Failed to push checksum state. This may cause issues in next run." >&2
+              echo "The workflow will continue, but state may be out of sync." >&2
+            fi
           else
             echo "✓ Checksum state unchanged, no commit needed"
           fi
