@@ -106,35 +106,35 @@ jobs:
 
       - name: Detect Changed Markdown Files
         id: changes
-        # Continue to release creation in two cases:
-        # 1. Version was NOT just incremented (normal processing)
-        # 2. This IS a version-increment commit (second phase - create releases)
-        # Skip if version was just incremented (first phase - wait for second workflow run)
+        # Run in two cases:
+        # 1. This IS a version-increment commit (Phase 2: create releases)
+        # 2. No version was just incremented (normal flow or manual version change)
+        # Skip if version was just incremented (Phase 1: wait for Phase 2)
         if: |
-          (steps.version_check.outputs.version_incremented != 'true' || steps.check_commit.outputs.is_version_commit == 'true')
+          steps.check_commit.outputs.is_version_commit == 'true' || steps.version_check.outputs.version_incremented != 'true'
         run: |
           cd project
           files=$(git diff --name-only HEAD^  HEAD | grep '^courses/.*\.md$' || true)
           echo "changed_files=${files//$'\n'/ }" >> $GITHUB_OUTPUT
       
       - name: Update checksum state
-        if: steps.changes.outcome == 'success'
+        if: steps.changes.conclusion == 'success'
         run: |
           cd project
           python3 scripts/checksum_state.py update
           echo "Checksum state updated"
       - name: Save changed files list
-        if: steps.changes.outcome == 'success'
+        if: steps.changes.conclusion == 'success'
         run: |
           echo "${{ steps.changes.outputs.changed_files }}" > ./changed_files.txt
       - name: Upload changed files artifact
-        if: steps.changes.outcome == 'success'
+        if: steps.changes.conclusion == 'success'
         uses: actions/upload-artifact@v4
         with:
           name: changed-files
           path: ./changed_files.txt
       - name: Upload checksum state
-        if: steps.changes.outcome == 'success'
+        if: steps.changes.conclusion == 'success'
         uses: actions/upload-artifact@v4
         with:
           name: checksum-state

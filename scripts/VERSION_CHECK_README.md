@@ -232,11 +232,21 @@ The subsequent steps only run if version wasn't just incremented OR if this is a
 ```yaml
 - name: Detect Changed Markdown Files
   id: changes
+  # Run in two cases:
+  # 1. This IS a version-increment commit (Phase 2: create releases)
+  # 2. No version was just incremented (normal flow or manual version change)
+  # Skip if version was just incremented (Phase 1: wait for Phase 2)
   if: |
-    (steps.version_check.outputs.version_incremented != 'true' || steps.check_commit.outputs.is_version_commit == 'true')
+    steps.check_commit.outputs.is_version_commit == 'true' || steps.version_check.outputs.version_incremented != 'true'
   run: |
     # ... detect changed files
 ```
+
+**Plain language explanation**: This step runs when either:
+- We're in Phase 2 (this is already a version-increment commit), OR
+- We're in normal flow (no version was just incremented, either because it wasn't needed or was manually updated)
+
+The step is skipped only in Phase 1 when a version was just auto-incremented and committed.
 
 This ensures version tags are correct before the export process begins, and that releases are created in a separate workflow run with the updated versions.
 
