@@ -66,8 +66,6 @@ jobs:
             git add -u courses/
             git commit -m "Auto-increment version tags for changed courses [skip ci]"
             git push
-            # Reload repository to include the new version commit
-            git pull --rebase
           fi
 
       - name: Detect Changed Markdown Files
@@ -119,6 +117,12 @@ jobs:
         with:
           path: project
           fetch-depth: 2
+
+      - name: Pull latest changes (including version commit)
+        if: steps.read_changes.outputs.changed_files != ''
+        run: |
+          cd project
+          git pull origin ${{ github.ref_name }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
