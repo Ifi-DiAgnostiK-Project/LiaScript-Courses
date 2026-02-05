@@ -23,11 +23,6 @@ tags:
     - wissensspeicher
 -->
 
-# Einführung in LaTeX-Mathematik mit LiaScript
-
-LiaScript Badges
-========================
-
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/master/mathe_bsp.md)
 
 # Einführung in LaTeX-Mathematik mit LiaScript
