@@ -50,7 +50,7 @@ Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen!
 
 <br>
 <center>
-![Tischlerwerkstatt](img/kappsaege.jpg"_Foto: Pixabay, ekenamillwork_")<!-- style="max-width: 600px; width: 100%" -->
+![Tischlerwerkstatt](img/kappsaege_dewalt.jpg"_Foto: Pixabay, ekenamillwork_")<!-- style="max-width: 600px; width: 100%" -->
 </center>
 
 ## Vorbereiten der Oberfläche - schwere Fragen
