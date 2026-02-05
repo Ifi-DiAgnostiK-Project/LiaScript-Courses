@@ -31,6 +31,7 @@ Dieses Modul zeigt dir, wie du mathematische Ausdrücke in **[LiaScript](https:/
 
 > ℹ️ LiaScript basiert auf Markdown, unterstützt aber nur **`$...$`** zur Darstellung mathematischer Formeln.
 
+Wir erklären erst die Matheanzeige und dann Quizes mit Algebrite. Damit kann LiaScript rechnen!
 
 ---
 
