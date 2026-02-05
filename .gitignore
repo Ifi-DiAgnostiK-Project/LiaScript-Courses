@@ -254,6 +254,3 @@ fabric.properties
 *.xcf
 project.yml
 .idea/.name
-
-# Checksum state (managed as GitHub Actions artifact)
-.checksum_state.json
