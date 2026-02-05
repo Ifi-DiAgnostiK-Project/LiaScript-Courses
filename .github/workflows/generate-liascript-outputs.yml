@@ -118,23 +118,23 @@ jobs:
           echo "changed_files=${files//$'\n'/ }" >> $GITHUB_OUTPUT
       
       - name: Update checksum state
-        if: steps.changes.conclusion == 'success'
+        if: steps.changes.outcome == 'success'
         run: |
           cd project
           python3 scripts/checksum_state.py update
           echo "Checksum state updated"
       - name: Save changed files list
-        if: steps.changes.conclusion == 'success'
+        if: steps.changes.outcome == 'success'
         run: |
           echo "${{ steps.changes.outputs.changed_files }}" > ./changed_files.txt
       - name: Upload changed files artifact
-        if: steps.changes.conclusion == 'success'
+        if: steps.changes.outcome == 'success'
         uses: actions/upload-artifact@v4
         with:
           name: changed-files
           path: ./changed_files.txt
       - name: Upload checksum state
-        if: steps.changes.conclusion == 'success'
+        if: steps.changes.outcome == 'success'
         uses: actions/upload-artifact@v4
         with:
           name: checksum-state
