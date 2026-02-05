@@ -133,8 +133,10 @@ jobs:
             if git push; then
               echo "✓ Checksum state committed and pushed"
             else
-              echo "⚠ Warning: Failed to push checksum state. This may cause issues in next run." >&2
-              echo "The workflow will continue, but state may be out of sync." >&2
+              echo "⚠ Warning: Failed to push checksum state" >&2
+              echo "Common causes: concurrent workflow runs, network issues, or permission problems" >&2
+              echo "Recovery: The workflow will continue, but state may be out of sync" >&2
+              echo "To fix: Re-run the workflow or manually run 'python3 scripts/checksum_state.py update' and commit" >&2
             fi
           else
             echo "✓ Checksum state unchanged, no commit needed"

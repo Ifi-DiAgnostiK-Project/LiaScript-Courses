@@ -124,8 +124,8 @@ If multiple branches modify different courses:
 
 ## Security Notes
 
-- Checksums use SHA256 for file integrity verification (detecting changes)
-- SHA256 is a cryptographic hash function, but used here for content comparison, not security
+- Checksums use SHA256 for change detection (identifying modified files)
+- SHA256 is a cryptographic hash function, but used here for content comparison, not security protection
 - Checksums cannot be reversed to recover file contents
 - State file only contains file paths (relative) and checksums
 - No sensitive data stored in state file

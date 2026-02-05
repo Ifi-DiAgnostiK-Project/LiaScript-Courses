@@ -114,7 +114,7 @@ def save_state(checksums: Dict[str, str], state_file: Path = Path(DEFAULT_STATE_
         }
         
         with open(state_file, 'w', encoding='utf-8') as f:
-            json.dump(state_data, f, indent=2, sort_keys=True)
+            json.dump(state_data, f, indent=2)
         
         return True
     except Exception as e:
