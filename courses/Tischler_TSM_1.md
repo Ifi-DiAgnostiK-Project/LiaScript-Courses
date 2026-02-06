@@ -103,6 +103,10 @@ Die Werkstücke sind festzuspannen und gegen Verschieben zu sichern.
 
 </center> 
 
+<!--style="background-color:#FFA500;color: white"-->
+> Hinweise zur Lösung finden Sie im TSM-Lehrgangsbegleitheft ab S. 137.
+
+
 ## Kreissägen - Fragen zum sicheren Umgang
 
 Die Kreissäge<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"--> gehört zu den wichtigsten, aber auch gefährlichsten<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"-->  Maschinen<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"-->  im Tischler-/ Schreinerhandwerk. Ihre sichere Handhabung erfordert 
@@ -136,7 +140,7 @@ data-max-trials="3"
 -->
 Der Abstand von den Zahnspitzen des Sägeblatts zum Spaltkeil darf max.\
 <br>
-[[solution]] mm\
+[[5]] mm\
 <br>
 betragen.
 ********************
@@ -149,6 +153,9 @@ Der Spaltkeil darf nicht mehr als __5 mm__ von den Zahnspitzen des Sägeblattes 
 
 </div>
 </section>
+
+<!--style="background-color:#FFA500;color: white"-->
+> Hinweise zur Lösung finden Sie im TSM-Lehrgangsbegleitheft ab S. 140.
 
 ### Die Zahnformen von HM Kreissägeblatter
 
@@ -164,6 +171,9 @@ _Abb.: BGHM_<!-- style="margin-left: 750px;" -->
 - [    ( )                         ( )                (x)                          ( )              ] @Tischler_TSM.Hohl_Trapez_Zahn_HM_Kreissaegeblatt(10)
 - [    ( )                         ( )                ( )                          (X)              ] @Tischler_TSM.Wechselzahn_wenig_Zaehne_HM_Kreissaegeblatt(10)
 
+
+<!--style="background-color:#FFA500;color: white"-->
+> Hinweise zur Lösung finden Sie im TSM-Lehrgangsbegleitheft ab S. 11.
 
 ### Einsatzarten der HM Kreissägeblätter
 
@@ -205,6 +215,9 @@ Die opimale Schnittgeschwindigkeit für Holz an Tisch- und Formatkreissägen lie
 </div>
 </section>
 
+<!--style="background-color:#FFA500;color: white"-->
+> Hinweise zur Lösung finden Sie im TSM-Lehrgangsbegleitheft ab S. 11.
+
 ### Parallelanschlag an der Tisch- und Formatkreissäge
 
 <section class="flex-container border">
@@ -241,6 +254,9 @@ Folgende Antworten sind richtig:\
 
 </div>
 </section>
+
+<!--style="background-color:#FFA500;color: white"-->
+> Hinweise zur Lösung finden Sie im TSM-Lehrgangsbegleitheft ab S. 11.
 
 ## Stationäre Hobelmaschinen
 
@@ -292,6 +308,9 @@ Sie dienen der Lärmminderung.
 </div>
 </section>
 
+<!--style="background-color:#FFA500;color: white"-->
+> Hinweise zur Lösung finden Sie im TSM-Lehrgangsbegleitheft ab S. 57.
+
 ### Messerwellen
 
 <!-- class="highlight" -->
@@ -302,6 +321,8 @@ _Abb.: BGHM_<!-- style="margin-left: 750px;" -->
 <!-- data-randomize -->
 @dragdropsort(@uid,Keilleiste;@Tischler_TSM.Keilleistenmesserwelle_Abrichthobelmaschine.src|Spiralmeserwelle mit Wendemessern;@Tischler_TSM.Spiralmesserwelle_mit_Wendemessern_Abrichthobelmaschine.src|Messerwelle mit formschlüssiger Messerbefestigung;@Tischler_TSM.Messerwelle_mit_formschluessiger_Messerbefestigung_Abrichthobelmaschine.src)
 
+<!--style="background-color:#FFA500;color: white"-->
+> Hinweise zur Lösung finden Sie im TSM-Lehrgangsbegleitheft ab S. 57.
 
 ### Holzauflage beim Abrichten
 
@@ -331,6 +352,10 @@ Welche Seite des Holzes aufgelegt wird, ist nicht entscheidend. Das Holz muss si
 
 </div>
 </section>
+
+<!--style="background-color:#FFA500;color: white"-->
+> Hinweise zur Lösung finden Sie im TSM-Lehrgangsbegleitheft ab S. 57.
+
 
 ### Abrichten kurzer Werkstücke
 
@@ -368,6 +393,9 @@ Folgende Antworten sind richtig:\
 
 </div>
 </section>
+
+<!--style="background-color:#FFA500;color: white"-->
+> Hinweise zur Lösung finden Sie im TSM-Lehrgangsbegleitheft ab S. 57.
 
 ## Arbeiten an Sägemaschinen
 
@@ -424,6 +452,9 @@ Die Rückenrolle muss so eingestellt werden, dass sie sich nur bei belastetem Ba
 
 </div>
 </section>
+
+<!--style="background-color:#FFA500;color: white"-->
+> Hinweise zur Lösung finden Sie im TSM-Lehrgangsbegleitheft ab S. 41.
 
 ## Geschafft 🎉
 
