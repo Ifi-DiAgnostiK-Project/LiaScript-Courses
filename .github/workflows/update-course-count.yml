@@ -8,6 +8,12 @@ on:
       - 'courses/**.md'
   workflow_dispatch:
 
+# Prevent concurrent runs that modify repository state
+# This ensures workflows triggered by course changes don't race with each other
+concurrency:
+  group: course-modifications
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
