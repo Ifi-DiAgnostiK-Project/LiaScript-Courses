@@ -24,14 +24,30 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Check if this is a version-increment commit
+        id: check_commit
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          if echo "$COMMIT_MSG" | grep -q "Auto-increment version tags"; then
+            echo "is_version_commit=true" >> $GITHUB_OUTPUT
+            echo "This is a version-increment commit, skipping update_course_count"
+          else
+            echo "is_version_commit=false" >> $GITHUB_OUTPUT
+            echo "This is a regular commit, will update course count"
+          fi
+
       - name: Count Course Files
         id: count_courses
+        # Skip if this is a version-increment commit (Phase 2 of generate-liascript workflow)
+        if: steps.check_commit.outputs.is_version_commit != 'true'
         run: |
           course_count=$(find courses/ -name "*.md" -type f | wc -l)
           echo "Course count: $course_count"
           echo "count=$course_count" >> $GITHUB_OUTPUT
-          
+
       - name: Create Badge JSON
+        # Skip if this is a version-increment commit
+        if: steps.check_commit.outputs.is_version_commit != 'true'
         run: |
           mkdir -p .badges
           cat > .badges/course-count.json << EOF
@@ -45,6 +61,8 @@ jobs:
           cat .badges/course-count.json
 
       - name: Commit Badge Data
+        # Skip if this is a version-increment commit
+        if: steps.check_commit.outputs.is_version_commit != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
