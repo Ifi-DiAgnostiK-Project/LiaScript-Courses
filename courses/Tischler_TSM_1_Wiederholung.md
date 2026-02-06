@@ -1,5 +1,4 @@
 <!--
-
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
 version:  0.0.2
@@ -23,9 +22,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragA
         https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Bildersammlung/refs/heads/main/makros.md
         https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Tapetensymbole/refs/heads/main/makros.md
 
-
 tags: [Tischler, Schreiner, Arbeitssicherheit, Holzbearbeitungsmaschinen, BGHM]
-
 -->
 
 # Modul 1 TSM - Überprüfungsfragen in Vorbereitung auf Modul 2
