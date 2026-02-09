@@ -8,6 +8,7 @@ from collections import defaultdict
 from pathlib import Path
 import unicodedata
 import os.path
+import subprocess
 
 
 # Konfiguration
@@ -24,6 +25,33 @@ COURSE_DIRECTORY = "courses"
 
 # Logging
 logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
+
+# Cache for git tags to avoid repeated subprocess calls
+_GIT_TAGS_CACHE = None
+
+
+def get_git_tags():
+    """Get all git tags from the repository. Returns a set of tag names."""
+    global _GIT_TAGS_CACHE
+    if _GIT_TAGS_CACHE is None:
+        try:
+            result = subprocess.run(
+                ['git', 'tag'],
+                capture_output=True,
+                text=True,
+                check=True
+            )
+            _GIT_TAGS_CACHE = set(result.stdout.strip().split('\n')) if result.stdout.strip() else set()
+            logging.info(f"Loaded {len(_GIT_TAGS_CACHE)} git tags from repository")
+        except subprocess.CalledProcessError as e:
+            logging.warning(f"Failed to get git tags: {e}")
+            _GIT_TAGS_CACHE = set()
+    return _GIT_TAGS_CACHE
+
+
+def tag_exists(tag_name):
+    """Check if a specific git tag exists."""
+    return tag_name in get_git_tags()
 
 
 def is_url(filepath):
@@ -100,7 +128,10 @@ class YamlCommentParser:
                 logging.warning(f"YAML section is not a dict in {filepath}, got: {type(parsed)}")
                 return {}
         except yaml.YAMLError as e:
-            logging.error(f"YAML parsing error in {filepath}: {e}")
+            logging.error(f"❌ YAML parsing error in {filepath}")
+            logging.error(f"   Error: {e}")
+            logging.error(f"   Please check the YAML header syntax (especially attribute fields with special characters like [[ ]])")
+            logging.error(f"   Tip: Quote values that contain special YAML characters")
             return {}
 
 def load_additional_courses(yaml_path):
@@ -135,6 +166,11 @@ def build_structure(files: list, external_dict: dict):
         category, tags = categorize_file(meta)
         version = meta.get("version")
 
+        # Warn if version is missing or None for local files (not external URLs)
+        if not is_url(file) and external_dict.get(file, False) and not version:
+            logging.warning(f"⚠️  Course {file} has no version field or failed to parse - will use HEAD URL instead of tag")
+            logging.warning(f"   This may indicate a YAML parsing error. Please check the YAML header in this file.")
+
         # add title and tags if they exist
         entry = {
             key: value
@@ -155,10 +191,18 @@ def build_structure(files: list, external_dict: dict):
 def get_url(file, version, tagged = False):
     if is_url(file):
         url = file
-    elif tagged:
-        # https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.0.13/courses/AuGSchutz_SHK.md
-        folder = "" if file.parent.match("courses") else "courses/"
-        url = f"{BASE_URL}{TAG_URL}{to_github_tag(file)}_v{version}/{folder}{file.as_posix()}"
+    elif tagged and version:
+        # Check if the tag exists before using it
+        tag_name = f"{to_github_tag(file)}_v{version}"
+        if tag_exists(tag_name):
+            # https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.0.13/courses/AuGSchutz_SHK.md
+            folder = "" if file.parent.match("courses") else "courses/"
+            url = f"{BASE_URL}{TAG_URL}{tag_name}/{folder}{file.as_posix()}"
+            logging.debug(f"Using tag-based URL for {file}: {tag_name}")
+        else:
+            # Tag doesn't exist yet, fall back to main branch
+            url = f"{BASE_URL}{HEAD_URL}{file.as_posix()}"
+            logging.info(f"Tag {tag_name} not found for {file}, using HEAD URL instead")
     else:
         url = f"{BASE_URL}{HEAD_URL}{file.as_posix()}"
     return url
