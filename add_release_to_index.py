@@ -40,9 +40,16 @@ def separate_filename(id_url):
 def extract_file_path(id_url):
     """Extract the file path relative to repo root from a GitHub URL.
     
+    This function parses GitHub URLs and extracts the file path after the ref
+    (branch/tag) identifier. It handles the standard GitHub URL structure:
+    https://raw.githubusercontent.com/{owner}/{repo}/refs/{heads|tags}/{ref-name}/{file-path}
+    
     Examples:
         https://raw.githubusercontent.com/.../refs/heads/main/courses/File.md -> courses/File.md
         https://raw.githubusercontent.com/.../refs/tags/v1.0/File.md -> File.md
+    
+    Returns:
+        The file path relative to the repository root, or just the filename if parsing fails.
     """
     if not id_url:
         return ""
@@ -50,22 +57,22 @@ def extract_file_path(id_url):
     parsed = urlparse(id_url)
     parts = [p for p in parsed.path.split('/') if p]
     
-    # Find where the ref name ends (after 'heads', 'tags', or direct branch name)
-    ref_index = -1
-    for i, part in enumerate(parts):
-        if i > 0 and parts[i-1] in ['heads', 'tags']:
-            ref_index = i
-            break
-        elif part in ['main', 'master'] and i > 0:
-            ref_index = i
-            break
+    # GitHub URL structure: /{owner}/{repo}/refs/{heads|tags}/{ref-name}/{file-path}
+    # We need to find where the ref name ends and the file path begins
+    # Look for 'heads' or 'tags' followed by the ref name
+    try:
+        refs_index = parts.index('refs')
+        # After 'refs', we should have 'heads' or 'tags', then the ref name, then the file path
+        if refs_index + 2 < len(parts):
+            # Everything after {owner}/{repo}/refs/{heads|tags}/{ref-name}/ is the file path
+            file_path_start = refs_index + 3
+            if file_path_start < len(parts):
+                return '/'.join(parts[file_path_start:])
+    except (ValueError, IndexError):
+        pass
     
-    if ref_index >= 0 and ref_index < len(parts) - 1:
-        # Return everything after the ref name
-        return '/'.join(parts[ref_index + 1:])
-    else:
-        # Fallback to just the filename
-        return posixpath.basename(parsed.path)
+    # Fallback: return just the filename
+    return posixpath.basename(parsed.path)
 
 def build_result(item_list):
     """Construct the result dict from nested itemListElements."""
@@ -82,16 +89,26 @@ def build_result(item_list):
             id_hash = hash_id(id_url)
             
             # Generate alternative URL without directory path for matching
-            # This handles the case where liaex strips directory paths from hrefs
-            # e.g., .../main/courses/File.md -> .../main/File.md
+            # This handles the case where liaex strips directory paths from hrefs.
+            # For example, liaex may convert:
+            #   .../refs/heads/main/courses/File.md -> .../refs/heads/main/File.md
+            # We generate an alternative hash for the stripped version to enable matching.
             parsed = urlparse(id_url)
             path_parts = parsed.path.split('/')
             alt_hash = None
-            if len(path_parts) >= 2 and path_parts[-2] not in ['', 'main', 'heads', 'tags', 'refs']:
-                # Remove the directory before the filename
-                alt_path = '/'.join(path_parts[:-2] + [path_parts[-1]])
-                alt_url = parsed._replace(path=alt_path).geturl()
-                alt_hash = hash_id(alt_url)
+            
+            # Only create alternative URL if the file path contains a subdirectory
+            # (i.e., file_path contains at least one '/')
+            if '/' in file_path:
+                # Create URL with just the filename (remove directory)
+                # Find the filename in path_parts and remove the directory before it
+                if file_name in path_parts:
+                    filename_index = len(path_parts) - 1 - path_parts[::-1].index(file_name)
+                    # Remove the directory before the filename (path_parts[filename_index - 1])
+                    # and keep everything else up to that point
+                    alt_path = '/'.join(path_parts[:filename_index-1] + [file_name])
+                    alt_url = parsed._replace(path=alt_path).geturl()
+                    alt_hash = hash_id(alt_url)
             
             entry = {
                 "version": version,
