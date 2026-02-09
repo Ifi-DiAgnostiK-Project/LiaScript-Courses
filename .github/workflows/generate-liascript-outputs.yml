@@ -427,7 +427,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Pull latest changes to avoid conflicts with concurrent workflows
+          # Pull latest changes to sync with any commits from other jobs or manual pushes
           # Use --rebase to apply our badge update on top of any other commits
           git pull --rebase origin main || {
             echo "Failed to pull latest changes, attempting to continue anyway"
