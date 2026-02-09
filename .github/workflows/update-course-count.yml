@@ -111,6 +111,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Pull latest changes to avoid conflicts with concurrent workflows
+          # Use --rebase to apply our badge update on top of any other commits
+          git pull --rebase origin main || {
+            echo "Failed to pull latest changes, attempting to continue anyway"
+          }
+          
           git add .badges/course-count.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
