@@ -77,7 +77,7 @@ jobs:
           if [ "$badge_exists" = "false" ]; then
             echo "Update needed: Badge file does not exist"
             echo "needs_update=true" >> $GITHUB_OUTPUT
-          elif [ "$current_count" -ne "$previous_count" ]; then
+          elif [ "${current_count:-0}" -ne "${previous_count:-0}" ]; then
             echo "Update needed: Count changed from $previous_count to $current_count"
             echo "needs_update=true" >> $GITHUB_OUTPUT
           else
