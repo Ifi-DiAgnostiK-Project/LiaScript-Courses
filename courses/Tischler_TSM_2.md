@@ -10,7 +10,8 @@ edit: true
 date: 2026-02-09
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo: https://www.freepik.com/free-photo/professional-carpenter-working-with-sawing-machine_8819639.htm#fromView=search&page=1&position=6&uuid=c6171409-8c97-44bd-bb3d-d9cb55127139&query=Tischfr%C3%A4schmaschine
+logo: https://img.freepik.com/free-photo/professional-carpenter-working-with-sawing-machine_1157-35628.jpg
+attribute: [[_Quelle: Freepik, prostooleh_](https://www.freepik.com/free-photo/professional-carpenter-working-with-sawing-machine_8819639.htm#fromView=search&page=1&position=6&uuid=c6171409-8c97-44bd-bb3d-d9cb55127139&query=Tischfr%C3%A4schmaschine)]]
 comment:  Handhabung und sicheres Arbeiten Modul TSM 2
 
 title: Holzbearbeitungsmaschinen - TSM 2
