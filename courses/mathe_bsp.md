@@ -5,7 +5,7 @@ language: de
 
 email:    volker.goehler@informatik.tu-freiberg.de
 
-version: 0.1.1
+version: 0.1.2
 
 narrator: German Female
 
@@ -18,6 +18,8 @@ logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses
 comment:  this short course explains math mode in liascript (in german)
 
 import: https://raw.githubusercontent.com/liaTemplates/algebrite/master/README.md
+
+title: Mathematik mit LaTeX in LiaScript
 
 tags:
     - wissensspeicher
