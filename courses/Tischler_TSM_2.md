@@ -474,7 +474,6 @@ Die Tischfräsmaschine gehört zu den wichtigsten, aber auch gefährlichsten<!--
 
 <br>
 
-
 Es ist wichtig, Aufbau, Einstellmöglichkeiten und Schutzeinrichtungen zu kennen.
 
 -------
@@ -608,10 +607,8 @@ Es unbedingt ein durchgehender Anschlag und ein Nachschiebeholz zu verwenden.
 
 </center> 
 
-
 </div>
 </section>
-
 
 <!--style="background-color:#FFA500;color: white"-->
 > Hinweise zur Lösung finden Sie im TSM-Lehrgangsbegleitheft, S. 83-115.
@@ -619,4 +616,3 @@ Es unbedingt ein durchgehender Anschlag und ein Nachschiebeholz zu verwenden.
 ## Geschafft 🎉
 
 ![Jubel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/colorfull_jumping.jpg "_Quelle: Pixabay, geralt_")
-
