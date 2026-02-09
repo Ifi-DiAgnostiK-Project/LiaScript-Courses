@@ -97,6 +97,18 @@ def test_get_url_not_tagged():
     print("✓ test_get_url_not_tagged passed")
 
 
+def test_get_url_with_none_version():
+    """Test that get_url handles None version (YAML parsing error case)"""
+    test_file = Path("courses/Tischler_TSM_2.md")
+    version = None
+    
+    url = get_url(test_file, version, tagged=True)
+    assert "refs/heads/main" in url, f"Should use HEAD URL when version is None: {url}"
+    assert "vNone" not in url, f"Should not have vNone in URL: {url}"
+    assert "refs/tags/" not in url, f"Should not use tag-based URL when version is None: {url}"
+    print("✓ test_get_url_with_none_version passed")
+
+
 def run_all_tests():
     """Run all tests"""
     print("\n" + "="*60)
@@ -110,6 +122,7 @@ def run_all_tests():
         test_get_url_with_non_existing_tag,
         test_get_url_external_url,
         test_get_url_not_tagged,
+        test_get_url_with_none_version,
     ]
     
     failed = []
