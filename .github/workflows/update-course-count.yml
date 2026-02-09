@@ -45,9 +45,45 @@ jobs:
           echo "Course count: $course_count"
           echo "count=$course_count" >> $GITHUB_OUTPUT
 
-      - name: Create Badge JSON
+      - name: Read Existing Badge Data
+        id: read_badge
         # Skip if this is a version-increment commit
         if: steps.check_commit.outputs.is_version_commit != 'true'
+        run: |
+          if [ -f .badges/course-count.json ]; then
+            previous_count=$(jq -r '.message' .badges/course-count.json)
+            echo "Previous count: $previous_count"
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "previous_count=$previous_count" >> $GITHUB_OUTPUT
+          else
+            echo "Badge file does not exist"
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "previous_count=0" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check if Update Needed
+        id: check_update
+        # Skip if this is a version-increment commit
+        if: steps.check_commit.outputs.is_version_commit != 'true'
+        run: |
+          current_count="${{ steps.count_courses.outputs.count }}"
+          previous_count="${{ steps.read_badge.outputs.previous_count }}"
+          badge_exists="${{ steps.read_badge.outputs.exists }}"
+          
+          if [ "$badge_exists" = "false" ]; then
+            echo "Update needed: Badge file does not exist"
+            echo "needs_update=true" >> $GITHUB_OUTPUT
+          elif [ "$current_count" != "$previous_count" ]; then
+            echo "Update needed: Count changed from $previous_count to $current_count"
+            echo "needs_update=true" >> $GITHUB_OUTPUT
+          else
+            echo "No update needed: Count unchanged at $current_count"
+            echo "needs_update=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Badge JSON
+        # Skip if this is a version-increment commit or if no update is needed
+        if: steps.check_commit.outputs.is_version_commit != 'true' && steps.check_update.outputs.needs_update == 'true'
         run: |
           mkdir -p .badges
           cat > .badges/course-count.json << EOF
@@ -61,8 +97,8 @@ jobs:
           cat .badges/course-count.json
 
       - name: Commit Badge Data
-        # Skip if this is a version-increment commit
-        if: steps.check_commit.outputs.is_version_commit != 'true'
+        # Skip if this is a version-increment commit or if no update is needed
+        if: steps.check_commit.outputs.is_version_commit != 'true' && steps.check_update.outputs.needs_update == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
