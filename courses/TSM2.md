@@ -16,7 +16,7 @@ date: 2025-06-30
 
 tags:
   - TSM
-  - Tischler
+  - experimente
 
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
