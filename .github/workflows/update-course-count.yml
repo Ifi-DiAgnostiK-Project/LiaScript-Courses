@@ -51,7 +51,11 @@ jobs:
         if: steps.check_commit.outputs.is_version_commit != 'true'
         run: |
           if [ -f .badges/course-count.json ]; then
-            previous_count=$(jq -r '.message' .badges/course-count.json)
+            previous_count=$(jq -r '.message // "0"' .badges/course-count.json 2>/dev/null || echo "0")
+            # Ensure previous_count is numeric
+            if ! [[ "$previous_count" =~ ^[0-9]+$ ]]; then
+              previous_count=0
+            fi
             echo "Previous count: $previous_count"
             echo "exists=true" >> $GITHUB_OUTPUT
             echo "previous_count=$previous_count" >> $GITHUB_OUTPUT
@@ -73,7 +77,7 @@ jobs:
           if [ "$badge_exists" = "false" ]; then
             echo "Update needed: Badge file does not exist"
             echo "needs_update=true" >> $GITHUB_OUTPUT
-          elif [ "$current_count" != "$previous_count" ]; then
+          elif [ "$current_count" -ne "$previous_count" ]; then
             echo "Update needed: Count changed from $previous_count to $current_count"
             echo "needs_update=true" >> $GITHUB_OUTPUT
           else
