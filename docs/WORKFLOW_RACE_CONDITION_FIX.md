@@ -24,11 +24,11 @@ This ensures that:
 
 ## Changes Made
 Added `git pull --rebase` before commits in:
-- `update-course-count.yml`: Before badge data commit (line ~114)
+- `update-course-count.yml`: Before badge data commit (line 117)
 - `generate-liascript-outputs.yml`: 
-  - Before version increment commit (line ~106)
-  - Before checksum state commit (line ~148)
-  - Before index.html commit (line ~334)
+  - Before version increment commit (line 107)
+  - Before checksum state commit (line 149)
+  - Before index.html commit (line 336)
 
 ## Error Handling
 The `|| { echo "..." }` fallback allows the workflow to continue even if the pull fails. This is intentional:
