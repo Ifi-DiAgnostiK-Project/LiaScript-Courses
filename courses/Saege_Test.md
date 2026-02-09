@@ -3,7 +3,7 @@ author: Volker Göhler
 email:    volker.goehler@informatik.tu-freiberg.de
 language: de
 narrator: German Female
-version: 0.0.8
+version: 0.0.9
 edit: true
 date: 2025-06-24
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
@@ -38,8 +38,6 @@ tags:
 @end
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
-
-
 -->
 # Image Maps:
 
