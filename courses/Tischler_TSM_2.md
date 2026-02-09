@@ -28,7 +28,6 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragA
 
 tags: [Tischler, Schreiner, Arbeitssicherheit, Holzbearbeitungsmaschinen, BGHM]
 -->
-
 # Modul 2 TSM - Überprüfungsfragen
 
 Die praktischen überbetrieblichen TSM<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> -<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> Lehrgänge<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> sind ein wichtiger Bestandteil Ihrer Ausbildung.\
@@ -63,8 +62,7 @@ Testen Sie Ihr Wissen zum sicheren Umgang mit Holzbearbeitungsmaschinen!
 
 ------------
 
-<br> <br>
-
+<br>
 
 <center> 
 
@@ -90,8 +88,7 @@ Ihre Hauptaufgaben sind:
 
 </div>
 
-<br> <br>
-
+<br>
 
 <center> 
 
