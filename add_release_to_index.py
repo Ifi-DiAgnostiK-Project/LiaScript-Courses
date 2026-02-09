@@ -37,6 +37,43 @@ def separate_filename(id_url):
         file_name = posixpath.basename(parsed.path)
         return file_name
 
+def extract_file_path(id_url):
+    """Extract the file path relative to repo root from a GitHub URL.
+    
+    This function parses GitHub URLs and extracts the file path after the ref
+    (branch/tag) identifier. It handles the standard GitHub URL structure:
+    https://raw.githubusercontent.com/{owner}/{repo}/refs/{heads|tags}/{ref-name}/{file-path}
+    
+    Examples:
+        https://raw.githubusercontent.com/.../refs/heads/main/courses/File.md -> courses/File.md
+        https://raw.githubusercontent.com/.../refs/tags/v1.0/File.md -> File.md
+    
+    Returns:
+        The file path relative to the repository root, or just the filename if parsing fails.
+    """
+    if not id_url:
+        return ""
+    
+    parsed = urlparse(id_url)
+    parts = [p for p in parsed.path.split('/') if p]
+    
+    # GitHub URL structure: /{owner}/{repo}/refs/{heads|tags}/{ref-name}/{file-path}
+    # We need to find where the ref name ends and the file path begins
+    # Look for 'heads' or 'tags' followed by the ref name
+    try:
+        refs_index = parts.index('refs')
+        # After 'refs', we should have 'heads' or 'tags', then the ref name, then the file path
+        if refs_index + 2 < len(parts):
+            # Everything after {owner}/{repo}/refs/{heads|tags}/{ref-name}/ is the file path
+            file_path_start = refs_index + 3
+            if file_path_start < len(parts):
+                return '/'.join(parts[file_path_start:])
+    except (ValueError, IndexError):
+        pass
+    
+    # Fallback: return just the filename
+    return posixpath.basename(parsed.path)
+
 def build_result(item_list):
     """Construct the result dict from nested itemListElements."""
     result = {}
@@ -48,14 +85,44 @@ def build_result(item_list):
             id_url = item.get("@id", "")
             version = item.get("version", "")
             file_name = separate_filename(id_url)
+            file_path = extract_file_path(id_url)  # e.g., "courses/Holzarten_01.md"
             id_hash = hash_id(id_url)
-            result[id_hash] = {
+            
+            # Generate alternative URL without directory path for matching
+            # This handles the case where liaex strips directory paths from hrefs.
+            # For example, liaex may convert:
+            #   .../refs/heads/main/courses/File.md -> .../refs/heads/main/File.md
+            # We generate an alternative hash for the stripped version to enable matching.
+            parsed = urlparse(id_url)
+            path_parts = parsed.path.split('/')
+            alt_hash = None
+            
+            # Only create alternative URL if the file path contains a subdirectory
+            # (i.e., file_path contains at least one '/')
+            if '/' in file_path:
+                # Create URL with just the filename (remove directory)
+                # Find the filename in path_parts and remove the directory before it
+                if file_name in path_parts:
+                    filename_index = len(path_parts) - 1 - path_parts[::-1].index(file_name)
+                    # Remove the directory before the filename (path_parts[filename_index - 1])
+                    # and keep everything else up to that point
+                    alt_path = '/'.join(path_parts[:filename_index-1] + [file_name])
+                    alt_url = parsed._replace(path=alt_path).geturl()
+                    alt_hash = hash_id(alt_url)
+            
+            entry = {
                 "version": version,
                 "file_name": file_name,
                 "id_url": id_url,
                 "release_urls": generate_release_urls(file_name, id_url, version),
-                "tag_course": get_url(Path(file_name), version, tagged=True)
+                "tag_course": get_url(Path(file_path), version, tagged=True)  # Use full path
             }
+            
+            # Store under both hashes to support both URL formats
+            result[id_hash] = entry
+            if alt_hash and alt_hash != id_hash:
+                result[alt_hash] = entry
+                
     return result
 
 def build_release_asset_baseurl(id_url: str) -> str:
@@ -138,11 +205,18 @@ def add_release_links(soup, result):
         urls = result[id_hash]["release_urls"]
         has_release = release_exists(urls.get("SCORM"))
 
-        # change href to the taged version
+        # change href to the tagged version
         if has_release:
-            link["href"] = link["href"].replace(
-                result[id_hash]["id_url"], result[id_hash]["tag_course"]
-            )
+            # Extract the query parameter (the course URL) from the href
+            if "?" in link["href"]:
+                base_href = link["href"].split("?")[0]  # e.g., "https://liascript.github.io/course/"
+                # Replace with the tagged course URL
+                link["href"] = f"{base_href}?{result[id_hash]['tag_course']}"
+            else:
+                # Fallback: try direct replacement (shouldn't happen normally)
+                link["href"] = link["href"].replace(
+                    result[id_hash]["id_url"], result[id_hash]["tag_course"]
+                )
 
         # insert download cards
         # test if releases exist, with external urls a non-existent release can happen
