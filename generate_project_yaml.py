@@ -8,6 +8,7 @@ from collections import defaultdict
 from pathlib import Path
 import unicodedata
 import os.path
+import subprocess
 
 
 # Konfiguration
@@ -24,6 +25,33 @@ COURSE_DIRECTORY = "courses"
 
 # Logging
 logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
+
+# Cache for git tags to avoid repeated subprocess calls
+_GIT_TAGS_CACHE = None
+
+
+def get_git_tags():
+    """Get all git tags from the repository. Returns a set of tag names."""
+    global _GIT_TAGS_CACHE
+    if _GIT_TAGS_CACHE is None:
+        try:
+            result = subprocess.run(
+                ['git', 'tag'],
+                capture_output=True,
+                text=True,
+                check=True
+            )
+            _GIT_TAGS_CACHE = set(result.stdout.strip().split('\n')) if result.stdout.strip() else set()
+            logging.info(f"Loaded {len(_GIT_TAGS_CACHE)} git tags from repository")
+        except subprocess.CalledProcessError as e:
+            logging.warning(f"Failed to get git tags: {e}")
+            _GIT_TAGS_CACHE = set()
+    return _GIT_TAGS_CACHE
+
+
+def tag_exists(tag_name):
+    """Check if a specific git tag exists."""
+    return tag_name in get_git_tags()
 
 
 def is_url(filepath):
@@ -155,10 +183,18 @@ def build_structure(files: list, external_dict: dict):
 def get_url(file, version, tagged = False):
     if is_url(file):
         url = file
-    elif tagged:
-        # https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.0.13/courses/AuGSchutz_SHK.md
-        folder = "" if file.parent.match("courses") else "courses/"
-        url = f"{BASE_URL}{TAG_URL}{to_github_tag(file)}_v{version}/{folder}{file.as_posix()}"
+    elif tagged and version:
+        # Check if the tag exists before using it
+        tag_name = f"{to_github_tag(file)}_v{version}"
+        if tag_exists(tag_name):
+            # https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.0.13/courses/AuGSchutz_SHK.md
+            folder = "" if file.parent.match("courses") else "courses/"
+            url = f"{BASE_URL}{TAG_URL}{tag_name}/{folder}{file.as_posix()}"
+            logging.debug(f"Using tag-based URL for {file}: {tag_name}")
+        else:
+            # Tag doesn't exist yet, fall back to main branch
+            url = f"{BASE_URL}{HEAD_URL}{file.as_posix()}"
+            logging.info(f"Tag {tag_name} not found for {file}, using HEAD URL instead")
     else:
         url = f"{BASE_URL}{HEAD_URL}{file.as_posix()}"
     return url
