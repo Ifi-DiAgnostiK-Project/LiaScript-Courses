@@ -21,9 +21,7 @@ def test_tag_exists_with_existing_tag():
     # Get actual tags from the repository
     tags = get_git_tags()
     
-    if not tags:
-        print("⚠ No tags found in repository, skipping test")
-        return
+    assert len(tags) > 0, "Repository should have at least one tag for this test to be meaningful"
     
     # Pick a tag we know exists
     sample_tag = next(iter(tags))
@@ -40,24 +38,19 @@ def test_tag_exists_with_non_existing_tag():
 
 def test_get_url_with_existing_tag():
     """Test that get_url generates tag-based URL when tag exists"""
-    # Create a mock file path
-    test_file = Path("courses/test_course.md")
-    test_version = "0.0.1"
-    
     # Get actual tags to find one that exists
     tags = get_git_tags()
-    if not tags:
-        print("⚠ No tags found in repository, skipping test")
-        return
+    assert len(tags) > 0, "Repository should have at least one tag for this test to be meaningful"
     
-    # Find a tag that matches our pattern (if any)
-    matching_tags = [t for t in tags if t.endswith(f"_v{test_version}")]
-    if not matching_tags:
-        print("⚠ No matching tags found, skipping test")
-        return
+    # Find a tag that matches the pattern course_name_vX.Y.Z
+    matching_tags = [t for t in tags if '_v' in t and len(t.split('_v')) == 2]
+    assert len(matching_tags) > 0, "Repository should have at least one tag matching pattern course_name_vX.Y.Z"
     
     # Use a real course file that has a tag
     sample_tag = matching_tags[0]
+    course_name = sample_tag.rsplit("_v", 1)[0]
+    test_version = sample_tag.rsplit("_v", 1)[1]
+    test_file = Path(f"courses/{course_name}.md")
     course_name = sample_tag.rsplit("_v", 1)[0]
     test_file = Path(f"courses/{course_name}.md")
     

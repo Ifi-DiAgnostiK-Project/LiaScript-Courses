@@ -128,7 +128,10 @@ class YamlCommentParser:
                 logging.warning(f"YAML section is not a dict in {filepath}, got: {type(parsed)}")
                 return {}
         except yaml.YAMLError as e:
-            logging.error(f"YAML parsing error in {filepath}: {e}")
+            logging.error(f"❌ YAML parsing error in {filepath}")
+            logging.error(f"   Error: {e}")
+            logging.error(f"   Please check the YAML header syntax (especially attribute fields with special characters like [[ ]])")
+            logging.error(f"   Tip: Quote values that contain special YAML characters")
             return {}
 
 def load_additional_courses(yaml_path):
@@ -162,6 +165,11 @@ def build_structure(files: list, external_dict: dict):
         title = meta.get("title")
         category, tags = categorize_file(meta)
         version = meta.get("version")
+
+        # Warn if version is missing or None for local files (not external URLs)
+        if not is_url(file) and external_dict.get(file, False) and not version:
+            logging.warning(f"⚠️  Course {file} has no version field or failed to parse - will use HEAD URL instead of tag")
+            logging.warning(f"   This may indicate a YAML parsing error. Please check the YAML header in this file.")
 
         # add title and tags if they exist
         entry = {
