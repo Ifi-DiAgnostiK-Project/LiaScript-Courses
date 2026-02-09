@@ -37,6 +37,36 @@ def separate_filename(id_url):
         file_name = posixpath.basename(parsed.path)
         return file_name
 
+def extract_file_path(id_url):
+    """Extract the file path relative to repo root from a GitHub URL.
+    
+    Examples:
+        https://raw.githubusercontent.com/.../refs/heads/main/courses/File.md -> courses/File.md
+        https://raw.githubusercontent.com/.../refs/tags/v1.0/File.md -> File.md
+    """
+    if not id_url:
+        return ""
+    
+    parsed = urlparse(id_url)
+    parts = [p for p in parsed.path.split('/') if p]
+    
+    # Find where the ref name ends (after 'heads', 'tags', or direct branch name)
+    ref_index = -1
+    for i, part in enumerate(parts):
+        if i > 0 and parts[i-1] in ['heads', 'tags']:
+            ref_index = i
+            break
+        elif part in ['main', 'master'] and i > 0:
+            ref_index = i
+            break
+    
+    if ref_index >= 0 and ref_index < len(parts) - 1:
+        # Return everything after the ref name
+        return '/'.join(parts[ref_index + 1:])
+    else:
+        # Fallback to just the filename
+        return posixpath.basename(parsed.path)
+
 def build_result(item_list):
     """Construct the result dict from nested itemListElements."""
     result = {}
@@ -48,14 +78,34 @@ def build_result(item_list):
             id_url = item.get("@id", "")
             version = item.get("version", "")
             file_name = separate_filename(id_url)
+            file_path = extract_file_path(id_url)  # e.g., "courses/Holzarten_01.md"
             id_hash = hash_id(id_url)
-            result[id_hash] = {
+            
+            # Generate alternative URL without directory path for matching
+            # This handles the case where liaex strips directory paths from hrefs
+            # e.g., .../main/courses/File.md -> .../main/File.md
+            parsed = urlparse(id_url)
+            path_parts = parsed.path.split('/')
+            alt_hash = None
+            if len(path_parts) >= 2 and path_parts[-2] not in ['', 'main', 'heads', 'tags', 'refs']:
+                # Remove the directory before the filename
+                alt_path = '/'.join(path_parts[:-2] + [path_parts[-1]])
+                alt_url = parsed._replace(path=alt_path).geturl()
+                alt_hash = hash_id(alt_url)
+            
+            entry = {
                 "version": version,
                 "file_name": file_name,
                 "id_url": id_url,
                 "release_urls": generate_release_urls(file_name, id_url, version),
-                "tag_course": get_url(Path(file_name), version, tagged=True)
+                "tag_course": get_url(Path(file_path), version, tagged=True)  # Use full path
             }
+            
+            # Store under both hashes to support both URL formats
+            result[id_hash] = entry
+            if alt_hash and alt_hash != id_hash:
+                result[alt_hash] = entry
+                
     return result
 
 def build_release_asset_baseurl(id_url: str) -> str:
@@ -138,11 +188,18 @@ def add_release_links(soup, result):
         urls = result[id_hash]["release_urls"]
         has_release = release_exists(urls.get("SCORM"))
 
-        # change href to the taged version
+        # change href to the tagged version
         if has_release:
-            link["href"] = link["href"].replace(
-                result[id_hash]["id_url"], result[id_hash]["tag_course"]
-            )
+            # Extract the query parameter (the course URL) from the href
+            if "?" in link["href"]:
+                base_href = link["href"].split("?")[0]  # e.g., "https://liascript.github.io/course/"
+                # Replace with the tagged course URL
+                link["href"] = f"{base_href}?{result[id_hash]['tag_course']}"
+            else:
+                # Fallback: try direct replacement (shouldn't happen normally)
+                link["href"] = link["href"].replace(
+                    result[id_hash]["id_url"], result[id_hash]["tag_course"]
+                )
 
         # insert download cards
         # test if releases exist, with external urls a non-existent release can happen
