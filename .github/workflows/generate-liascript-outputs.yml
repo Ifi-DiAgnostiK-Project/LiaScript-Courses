@@ -348,3 +348,95 @@ jobs:
           github_token: ${{ secrets.PUSH_INDEX_2}}
           branch: main
           directory: ./docs
+
+  update_course_count:
+    runs-on: ubuntu-latest
+    needs: [check_changes]
+    # Skip when version was just incremented in Phase 1 (version_incremented == 'true')
+    # Run in Phase 2 (version_incremented unset/empty) or when no increment needed (version_incremented == 'false')
+    if: needs.check_changes.outputs.version_incremented != 'true'
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Count Course Files
+        id: count_courses
+        run: |
+          course_count=$(find courses/ -name "*.md" -type f | wc -l)
+          # Ensure course_count is numeric
+          if ! [[ "$course_count" =~ ^[0-9]+$ ]]; then
+            echo "Error: Invalid course count, defaulting to 0"
+            course_count=0
+          fi
+          echo "Course count: $course_count"
+          echo "count=$course_count" >> $GITHUB_OUTPUT
+
+      - name: Read Existing Badge Data
+        id: read_badge
+        run: |
+          if [ -f .badges/course-count.json ]; then
+            previous_count=$(jq -r '.message // "0"' .badges/course-count.json 2>/dev/null || echo "0")
+            # Ensure previous_count is numeric
+            if ! [[ "$previous_count" =~ ^[0-9]+$ ]]; then
+              previous_count=0
+            fi
+            echo "Previous count: $previous_count"
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "previous_count=$previous_count" >> $GITHUB_OUTPUT
+          else
+            echo "Badge file does not exist"
+            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "previous_count=0" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check if Update Needed
+        id: check_update
+        run: |
+          current_count="${{ steps.count_courses.outputs.count }}"
+          previous_count="${{ steps.read_badge.outputs.previous_count }}"
+          badge_exists="${{ steps.read_badge.outputs.exists }}"
+          
+          if [ "$badge_exists" = "false" ]; then
+            echo "Update needed: Badge file does not exist"
+            echo "needs_update=true" >> $GITHUB_OUTPUT
+          elif [ "${current_count:-0}" -ne "${previous_count:-0}" ]; then
+            echo "Update needed: Count changed from $previous_count to $current_count"
+            echo "needs_update=true" >> $GITHUB_OUTPUT
+          else
+            echo "No update needed: Count unchanged at $current_count"
+            echo "needs_update=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Badge JSON
+        if: steps.check_update.outputs.needs_update == 'true'
+        run: |
+          mkdir -p .badges
+          cat > .badges/course-count.json << EOF
+          {
+            "schemaVersion": 1,
+            "label": "courses",
+            "message": "${{ steps.count_courses.outputs.count }}",
+            "color": "brightgreen"
+          }
+          EOF
+          cat .badges/course-count.json
+
+      - name: Commit Badge Data
+        if: steps.check_update.outputs.needs_update == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Pull latest changes to avoid conflicts with concurrent workflows
+          # Use --rebase to apply our badge update on top of any other commits
+          git pull --rebase origin main || {
+            echo "Failed to pull latest changes, attempting to continue anyway"
+          }
+          
+          git add .badges/course-count.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update course count badge data [skip ci]"
+            git push
+          fi
