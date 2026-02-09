@@ -42,6 +42,11 @@ jobs:
         if: steps.check_commit.outputs.is_version_commit != 'true'
         run: |
           course_count=$(find courses/ -name "*.md" -type f | wc -l)
+          # Ensure course_count is numeric
+          if ! [[ "$course_count" =~ ^[0-9]+$ ]]; then
+            echo "Error: Invalid course count, defaulting to 0"
+            course_count=0
+          fi
           echo "Course count: $course_count"
           echo "count=$course_count" >> $GITHUB_OUTPUT
 
