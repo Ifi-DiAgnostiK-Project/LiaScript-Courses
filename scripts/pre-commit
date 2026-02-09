@@ -1,0 +1,126 @@
+#!/usr/bin/env python3
+"""
+Pre-commit hook to validate YAML syntax in course markdown files.
+
+This hook runs automatically before each commit to catch YAML syntax errors
+in course files before they are committed.
+
+Installation:
+    python3 scripts/install-pre-commit-hook.py
+
+Manual installation:
+    ln -s ../../scripts/pre-commit .git/hooks/pre-commit
+    chmod +x .git/hooks/pre-commit
+"""
+
+import sys
+import os
+from pathlib import Path
+
+# Determine repo root - this script may be run from .git/hooks/ or scripts/
+# When run as a hook, __file__ is .git/hooks/pre-commit
+# When run directly, __file__ is scripts/pre-commit
+SCRIPT_PATH = Path(__file__).resolve()
+
+# Check if we're running from .git/hooks/
+if SCRIPT_PATH.parent.name == 'hooks':
+    # We're in .git/hooks/, so repo root is two levels up
+    REPO_ROOT = SCRIPT_PATH.parent.parent.parent
+else:
+    # We're in scripts/, so repo root is one level up
+    REPO_ROOT = SCRIPT_PATH.parent.parent
+
+# Add scripts directory to path
+SCRIPTS_DIR = REPO_ROOT / 'scripts'
+sys.path.insert(0, str(SCRIPTS_DIR))
+
+# Import validation function
+from validate_course_yaml import validate_course_file
+
+
+def get_staged_course_files():
+    """
+    Get list of staged course markdown files.
+    
+    Returns:
+        List of Path objects for staged .md files in courses/
+    """
+    import subprocess
+    
+    try:
+        # Get list of staged files
+        result = subprocess.run(
+            ['git', 'diff', '--cached', '--name-only', '--diff-filter=ACM'],
+            capture_output=True,
+            text=True,
+            check=True,
+            cwd=REPO_ROOT
+        )
+        
+        staged_files = result.stdout.strip().split('\n')
+        
+        # Filter for course markdown files
+        course_files = []
+        for file in staged_files:
+            if file.startswith('courses/') and file.endswith('.md'):
+                filepath = REPO_ROOT / file
+                if filepath.exists():
+                    course_files.append(filepath)
+        
+        return course_files
+    except subprocess.CalledProcessError:
+        return []
+
+
+def main():
+    """Main pre-commit hook function."""
+    
+    # Get staged course files
+    course_files = get_staged_course_files()
+    
+    if not course_files:
+        # No course files staged, allow commit
+        sys.exit(0)
+    
+    print(f"🔍 Validating {len(course_files)} staged course file(s)...")
+    
+    # Validate each staged file
+    has_errors = False
+    has_warnings = False
+    
+    for filepath in course_files:
+        result = validate_course_file(filepath)
+        
+        if not result.success:
+            has_errors = True
+            print(f"\n❌ {filepath.relative_to(REPO_ROOT)}")
+            print(f"   {result.error_message or result.warning_message}")
+        elif result.warning_message:
+            has_warnings = True
+            print(f"\n⚠️  {filepath.relative_to(REPO_ROOT)}")
+            print(f"   {result.warning_message}")
+    
+    # Print summary
+    if has_errors:
+        print("\n" + "="*70)
+        print("❌ COMMIT REJECTED - YAML validation failed")
+        print("="*70)
+        print("\nFix the errors above and try again.")
+        print("Or run: python3 scripts/validate_course_yaml.py --verbose")
+        print("\nTo bypass this check (NOT recommended):")
+        print("  git commit --no-verify")
+        sys.exit(1)
+    elif has_warnings:
+        print("\n" + "="*70)
+        print("⚠️  COMMIT ALLOWED - But warnings found")
+        print("="*70)
+        print("\nConsider fixing warnings before committing.")
+        print("See: docs/YAML_VALIDATION_GUIDE.md")
+        sys.exit(0)
+    else:
+        print("\n✅ All staged course files validated successfully")
+        sys.exit(0)
+
+
+if __name__ == '__main__':
+    main()
