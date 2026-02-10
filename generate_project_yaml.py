@@ -46,15 +46,16 @@ def get_git_tags():
             # Parse output: each line is like "hash\trefs/tags/tagname"
             # Extract just the tag name from "refs/tags/tagname"
             tag_names = set()
-            for line in result.stdout.strip().split('\n'):
-                if line and '\t' in line:
-                    ref = line.split('\t')[1]  # Get the refs/tags/... part
-                    if ref.startswith('refs/tags/'):
-                        # Remove "refs/tags/" prefix to get just the tag name
-                        tag_name = ref[len('refs/tags/'):]
-                        # Skip ^{} annotated tag references
-                        if not tag_name.endswith('^{}'):
-                            tag_names.add(tag_name)
+            if result.stdout.strip():  # Only process if we have output
+                for line in result.stdout.strip().split('\n'):
+                    if line and '\t' in line:
+                        ref = line.split('\t')[1]  # Get the refs/tags/... part
+                        if ref.startswith('refs/tags/'):
+                            # Remove "refs/tags/" prefix to get just the tag name
+                            tag_name = ref.removeprefix('refs/tags/')
+                            # Skip ^{} annotated tag references
+                            if not tag_name.endswith('^{}'):
+                                tag_names.add(tag_name)
             _GIT_TAGS_CACHE = tag_names
             logging.info(f"Loaded {len(_GIT_TAGS_CACHE)} git tags from remote repository")
         except subprocess.CalledProcessError as e:
