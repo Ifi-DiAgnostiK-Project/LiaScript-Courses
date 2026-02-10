@@ -230,6 +230,11 @@ Frage 6: Mathe-Quiz
 
 Was ist $6 + 6$?
 
+```
+[[12]]
+@Algebrite.check(12)
+```
+
 [[12]]
 @Algebrite.check(12)
 
@@ -238,6 +243,11 @@ Frage 7: Komplexer
 
 Parabel -1?
 
+```
+[[x ^ 2 - 1]]
+@Algebrite.check(x^2-1)
+```
+
 [[x ^ 2 - 1]]
 @Algebrite.check(x^2-1)
 
@@ -245,6 +255,11 @@ Frage 8: Runden
 ==========================
 
 $1/3$ ?
+
+```
+[[1/3]]
+@Algebrite.check2(1/3,0.01)
+```
 
 [[1/3]]
 @Algebrite.check2(1/3,0.01)
