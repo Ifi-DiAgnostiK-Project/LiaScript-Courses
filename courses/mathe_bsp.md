@@ -5,7 +5,7 @@ language: de
 
 email:    volker.goehler@informatik.tu-freiberg.de
 
-version: 0.1.2
+version: 0.1.3
 
 narrator: German Female
 
