@@ -31,20 +31,35 @@ _GIT_TAGS_CACHE = None
 
 
 def get_git_tags():
-    """Get all git tags from the repository. Returns a set of tag names."""
+    """Get all git tags from the repository (from remote). Returns a set of tag names."""
     global _GIT_TAGS_CACHE
     if _GIT_TAGS_CACHE is None:
         try:
+            # Use ls-remote to get tags from remote, which works even without local tags
+            # This is important for GitHub Actions workflows where tags may not be fetched
             result = subprocess.run(
-                ['git', 'tag'],
+                ['git', 'ls-remote', '--tags', 'origin'],
                 capture_output=True,
                 text=True,
                 check=True
             )
-            _GIT_TAGS_CACHE = set(result.stdout.strip().split('\n')) if result.stdout.strip() else set()
-            logging.info(f"Loaded {len(_GIT_TAGS_CACHE)} git tags from repository")
+            # Parse output: each line is like "hash\trefs/tags/tagname"
+            # Extract just the tag name from "refs/tags/tagname"
+            tag_names = set()
+            if result.stdout.strip():  # Only process if we have output
+                for line in result.stdout.strip().split('\n'):
+                    if line and '\t' in line:
+                        ref = line.split('\t')[1]  # Get the refs/tags/... part
+                        if ref.startswith('refs/tags/'):
+                            # Remove "refs/tags/" prefix to get just the tag name
+                            tag_name = ref.removeprefix('refs/tags/')
+                            # Skip ^{} annotated tag references
+                            if not tag_name.endswith('^{}'):
+                                tag_names.add(tag_name)
+            _GIT_TAGS_CACHE = tag_names
+            logging.info(f"Loaded {len(_GIT_TAGS_CACHE)} git tags from remote repository")
         except subprocess.CalledProcessError as e:
-            logging.warning(f"Failed to get git tags: {e}")
+            logging.warning(f"Failed to get git tags from remote: {e}")
             _GIT_TAGS_CACHE = set()
     return _GIT_TAGS_CACHE
 
