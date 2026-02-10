@@ -10,7 +10,6 @@ version: 0.1.4
 narrator: German Female
 
 edit: true
-
 date: 2025-05-10
 
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
