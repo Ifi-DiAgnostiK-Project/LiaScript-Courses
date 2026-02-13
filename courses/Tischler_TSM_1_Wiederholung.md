@@ -294,6 +294,89 @@ Es ist eine Drehzahl von\
 einzustellen.
 ********************
 Die Lösung lautet: 4.500 U/min. - Siehe dazu das TSM-Lehrbuch, S. 15.
+
+🔧 Lösung mit Rechenweg (einfach erklärt)
+==========
+
+**Gegeben:**
+
+- Durchmesser des Sägeblatts:  
+  $ d = 350 \,\text{mm} = 0{,}35 \,\text{m} $
+
+- Schnittgeschwindigkeit:  
+  $ v = 79 \,\text{m/s} $
+
+- Gesucht:  
+  Drehzahl $ n $ in **U/min**
+
+---
+
+1️⃣ Umfang des Sägeblatts berechnen
+==========
+
+Bei einer Umdrehung legt das Blatt den **Umfang** zurück.
+
+Formel:
+
+$ U = \pi \cdot d $
+
+Einsetzen:
+
+$ U = 3{,}14 \cdot 0{,}35 $
+
+$ U \approx 1{,}10 \,\text{m} $
+
+👉 Das Blatt legt pro Umdrehung ca. **1,10 m** zurück.
+
+---
+
+2️⃣ Umdrehungen pro Sekunde berechnen
+==========
+
+Die Schnittgeschwindigkeit gibt an,  
+wie viele Meter das Blatt pro Sekunde zurücklegt.
+
+Formel:
+
+$ n = \frac{v}{U} $
+
+Einsetzen:
+
+$ n = \frac{79}{1{,}10} $
+
+$ n \approx 71{,}8 \,\text{U/s} $
+
+👉 Das Blatt dreht sich also ca. **72 Mal pro Sekunde**.
+
+---
+
+3️⃣ Umrechnung in Umdrehungen pro Minute
+==========
+
+1 Minute = 60 Sekunden
+
+$ n = 71{,}8 \cdot 60 $
+
+$ n \approx 4308 \,\text{U/min} $
+
+---
+
+4️⃣ Maschinenwert wählen
+==========
+
+Maschinen haben feste Einstellwerte.  
+4300 U/min liegt nahe bei:
+
+> ✅ 4500 U/min
+
+---
+
+📌 Ergebnis
+==========
+
+
+> $n \approx 4500 \,\text{U/min}$
+
 ********************
 
 </div>
@@ -302,8 +385,6 @@ Die Lösung lautet: 4.500 U/min. - Siehe dazu das TSM-Lehrbuch, S. 15.
 
 </div>
 </section>
-
->Volker: Hast du zufällig einen mathematischen Lösungsweg? Im Heft fand ich keinen. Ich komme zwar auf ein ungefähres Ergebnis, aber da muss ich mit 79x1000/17,5 rechnen. 🤷‍♀️
 
 
 ### Ordnung am Arbeitsplatz
