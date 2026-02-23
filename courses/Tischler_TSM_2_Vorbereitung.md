@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.3
+version:  0.1.3
 language: de
 narrator: Deutsch Male
 
@@ -10,7 +10,8 @@ edit: true
 date: 2026-02-12
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo: https://www.freepik.com/free-photo/circular-saw-miter-saw-photographed-workshop-atmosphere_16773058.htm#fromView=search&page=1&position=0&uuid=4a96c627-7c5e-4238-bf01-e48e07d68f1d&query=wood+maschines
+logo: https://img.freepik.com/free-photo/circular-saw-miter-saw-photographed-workshop-atmosphere_169016-13187.jpg
+attribute: "https://www.freepik.com/free-photo/circular-saw-miter-saw-photographed-workshop-atmosphere_16773058.htm#fromView=search&page=1&position=0&uuid=4a96c627-7c5e-4238-bf01-e48e07d68f1d&query=wood+maschines"
 comment:  Holzbearbeitungsmaschinen - TSM Handhabung und sicheres Arbeiten - Vorbereitung auf TSM 2
 
 title: Holzbearbeitungsmaschinen - Vorbereitung auf TSM 2 
