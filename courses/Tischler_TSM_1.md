@@ -12,9 +12,9 @@ date: 2026-02-09
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: https://img.freepik.com/free-photo/professional-carpenter-working-with-sawing-machine_1157-35628.jpg
 attribute: "[[_Quelle: Freepik, prostooleh_](https://www.freepik.com/free-photo/professional-carpenter-working-with-sawing-machine_8819639.htm#fromView=search&page=1&position=6&uuid=c6171409-8c97-44bd-bb3d-d9cb55127139&query=Tischfr%C3%A4schmaschine)]]"
-comment:  Handhabung und sicheres Arbeiten Modul TSM 2
+comment:  Holzbearbeitungsmaschinen - TSM Handhabung und sicheres Arbeiten - Überprüfungsfragen TSM 1
 
-title: Holzbearbeitungsmaschinen - TSM 2
+title: Holzbearbeitungsmaschinen - Überprüfungsfragen zu TSM 1
 
 link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
 link: https://raw.githubusercontent.com/vgoehler/TUBAF_Distributed_Software/refs/heads/main/./styles.css
@@ -28,7 +28,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragA
 
 tags: [Tischler, Schreiner, Arbeitssicherheit, Holzbearbeitungsmaschinen, BGHM]
 -->
-# Modul 2 TSM - Überprüfungsfragen
+# TSM 1 - Überprüfungsfragen nach Abschluss des Praxiskurses
 
 Die praktischen überbetrieblichen TSM<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> -<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> Lehrgänge<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> sind ein wichtiger Bestandteil Ihrer Ausbildung.\
 In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das 
