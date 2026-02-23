@@ -11,9 +11,9 @@ date: 2026-02-02
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: https://img.freepik.com/free-photo/top-view-wood-tools-desk_23-2148898120.jpg
-comment:  Holzbearbeitungsmaschinen - TSM Handhabung und sicheres Arbeiten Modul 1
+comment:  Holzbearbeitungsmaschinen - TSM Handhabung und sicheres Arbeiten - Überprüfungsfragen G-TSM
 
-title: Holzbearbeitungsmaschinen - TSM 1 Handhabung und sicheres Arbeiten
+title: Holzbearbeitungsmaschinen - TSM Handhabung und sicheres Arbeiten - Überprüfungsfragen G-TSM
 
 link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
 
@@ -29,7 +29,7 @@ tags: [Tischler, Schreiner, Arbeitssicherheit, Holzbearbeitungsmaschinen, BGHM]
 
 -->
 
-# Modul 1 TSM - Überprüfungsfragen
+# G-TSM - Überprüfungsfragen nach Abschluss des Praxiskurses
 
 Die praktischen überbetrieblichen TSM<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> -<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> Lehrgänge<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> sind ein wichtiger Bestandteil Ihrer Ausbildung.\
 In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das 
