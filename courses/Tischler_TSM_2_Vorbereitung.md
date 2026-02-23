@@ -43,9 +43,9 @@ In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das
 - sichere Arbeiten mit Handmaschinen (Oberfräse, Formfedernutfräse, Handhobel und Handkreissäge)
 <br>
 <div class="colorbox colorbox--info" style="width:auto;">
-Das vorliegende Quiz wiederholt Wissen aus den **TSM-Modulen 1+2** zum Bedienen der genannten Maschinen.
+Das vorliegende Quiz wiederholt Wissen aus den Modulen **G-TSM und TSM 1** zum Bedienen der genannten Maschinen.
 
-Damit haben Sie eine **optimale Vorbereitung** auf das Modul 3 bzw. Ihren Abschlusstest.
+Damit haben Sie eine **optimale Vorbereitung** auf das Praxismodul TSM 2 bzw. Ihren Abschlusstest.
 </div>
 
 
@@ -819,7 +819,7 @@ Damit ergeben sich folgende Rechnungsschritte:
 3.  $r$<!--style="font-size: large;font-weight: bold; Color: orange"--> berechnet sich aus:  $\frac{{d}}{2}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\frac{{12}}{2}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $6$<!--style="font-weight: bold; color: orange"--> $\text{cm}$<!--style="font-weight: bold; color: orange"-->
 4. $v$<!--style="font-size: large;font-weight: bold; Color: orange"--> ist als Schnittgeschwindigkeit gegeben:  $54$<!--style="font-weight: bold; color: orange"--> $\text{U/min}$<!--style=";font-weight: bold; color: orange"-->.
 5. Gesucht ist $n$<!--style="font-size: large;font-weight: bold; Color: orange"-->. Die Formel $v$ $\text{=}$ $r$ $\cdot$ $n$ wird nach $n$<!--style="font-size: large;font-weight: bold; Color: orange"--> umgestellt:  $n$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\frac{v {\cdot}}{r}$<!--style="font-size: large;font-weight: bold; color: orange"-->
-6. Eingesetzt mit den gegebenen bzw. ermittelten Zahlenwerten __ohne__ __Maßeinheiten__ ergibt sich:  $n$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\frac{54 {\cdot}}{6}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $9$<!--style="font-weight: bold; color: orange"-->
+6. Eingesetzt mit den gegebenen bzw. ermittelten Zahlenwerten __ohne__ __Maßeinheiten__ ergibt sich:  $n$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\frac{54}{6}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $9$<!--style="font-weight: bold; color: orange"-->
 7. Zum Ergebnis werden die drei Nullen wieder hinzugefügt - damit lautet die Antwort  $9.000$<!--style="font-size: large;font-weight: bold; color: green"-->  $\text{U/min}$<!--style="font-size: large;font-weight: bold; color: green"--> 
 ********************
 
