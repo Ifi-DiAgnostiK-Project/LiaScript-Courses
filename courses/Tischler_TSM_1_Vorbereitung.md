@@ -10,9 +10,10 @@ date: 2026-02-06
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: https://img.freepik.com/free-photo/carpenter-works-with-tree_1157-18913.jpg
-comment:  Holzbearbeitungsmaschinen - TSM Handhabung und sicheres Arbeiten - Vorbereitung auf TSM 1
 
-title: Holzbearbeitungsmaschinen - Vorbereitung auf TSM 1
+comment:  TSM 1 Vorbereitungsfragen 
+
+title: TSM 1 Fragen zur Kursvorbereitung
 
 link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
 
@@ -36,7 +37,7 @@ In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das
 - sichere Arbeiten an stationären Hobelmaschinen (Abricht- und Dickenhobelmaschine)
 - sichere Arbeiten mit Handmaschinen (Oberfräse, Formfedernutfräse, Handhobel und Handkreissäge)
 
-Das vorliegende Quiz wiederholt Wissen aus dem Einführungskurs zum Bedienen der genannten Maschinen.\
+Das vorliegende Quiz wiederholt Wissen aus dem Einführungskurs (G<!-- style="font-weight: bolder; font-size: 12pt; color: green;"-->-<!-- style="font-weight: bolder; font-size: 12pt; color: green;"-->TSM<!-- style="font-weight: bolder; font-size: 12pt; color: green;"-->) zum Bedienen der genannten Maschinen.\
 Damit haben Sie eine optimale Vorbereitung auf das Modul 2 bzw. Ihren Abschlusstest.
 <br>
 Die Fragen sind gemäß den Vorgaben der Berufsgenossenschaft Holz und Metall (BGHM) und den geltenden Unfallverhütungsvorschriften formuliert.
@@ -787,10 +788,10 @@ _Abb.: BGHM_<!-- style="margin-left: 750px;" -->
 
 <!--data-randomize -->
 - [  [Einteiliges Werkzeug]     [Verbundwerkzeug]        [Werkzeugsatz]     [zusammengesetztes Werkzeug]  ]
-- [           (x)                         ( )                  ( )                       ( )              ] ![Einteiliges_Werkzeug](img/3_zuegiger_bohrere.png)<!-- style="max-width: 150px;" -->
-- [           ( )                         (X)                  ( )                       ( )              ] ![Verbundwerkzeug](img/bohrer_fraes_kopf.png)<!-- style="max-width: 150px;" -->
-- [           ( )                         ( )                  (x)                       ( )              ] ![Werkzeugsatz](img/fraesenkopf_cutter.png)<!-- style="max-width: 150px;" -->
-- [           ( )                         ( )                  ( )                       (X)              ] ![zusammengesetztes_Werkzeug](img/fraese_fetter_cutter.png)<!-- style="max-width: 150px;" -->
+- [           (x)                         ( )                  ( )                       ( )              ] ![Einteiliges_Werkzeug](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_vorbereitung_v0.0.5/courses/img/3_zuegiger_bohrere.png)<!-- style="max-width: 150px;" -->
+- [           ( )                         (X)                  ( )                       ( )              ] ![Verbundwerkzeug](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_vorbereitung_v0.0.5/courses/img/bohrer_fraes_kopf.png)<!-- style="max-width: 150px;" -->
+- [           ( )                         ( )                  (x)                       ( )              ] ![Werkzeugsatz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_vorbereitung_v0.0.5/courses/img/fraesenkopf_cutter.png)<!-- style="max-width: 150px;" -->
+- [           ( )                         ( )                  ( )                       (X)              ] ![zusammengesetztes_Werkzeug](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_vorbereitung_v0.0.5/courses/img/fraese_fetter_cutter.png)<!-- style="max-width: 150px;" -->
 
 
 <!--style="background-color:#FFA500;color: white"-->
@@ -806,9 +807,9 @@ _Abb.: BGHM_<!-- style="margin-left: 750px;" -->
 
 <!--data-randomize -->
 - [  [Druck- und Schutzvorrichtung]     [Bogenfeder]        [Vorschubapparat]     ]
-- [           (x)                         ( )                  ( )                ] ![Druck-_und_Schutzvorrichtung](img/Seitenfraese_mit_anderen_sicherheitsmechanismen.png)<!-- style="max-width: 200px;" -->
-- [           ( )                         (X)                  ( )                ] ![Bogenfeder](img/Seitenfraese_mit_sicherheitsmechanismen.png)<!-- style="max-width: 200px;" -->
-- [           ( )                         ( )                  (x)                ] ![Vorschubapparat](img/alte_seiten_fraese.png)<!-- style="max-width: 200px;" -->
+- [           (x)                         ( )                  ( )                ] ![Druck-_und_Schutzvorrichtung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_vorbereitung_v0.0.5/courses/img/Seitenfraese_mit_anderen_sicherheitsmechanismen.png)<!-- style="max-width: 200px;" -->
+- [           ( )                         (X)                  ( )                ] ![Bogenfeder](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_vorbereitung_v0.0.5/courses/img/Seitenfraese_mit_sicherheitsmechanismen.png)<!-- style="max-width: 200px;" -->
+- [           ( )                         ( )                  (x)                ] ![Vorschubapparat](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_vorbereitung_v0.0.5/courses/img/alte_seiten_fraese.png)<!-- style="max-width: 200px;" -->
 
 
 <!--style="background-color:#FFA500;color: white"-->
