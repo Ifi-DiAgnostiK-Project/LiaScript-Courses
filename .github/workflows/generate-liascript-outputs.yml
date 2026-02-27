@@ -428,8 +428,10 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
           # Pull latest changes before pushing (e.g., from index.html job or manual commits)
-          # Use --rebase to apply our badge update on top of any new commits
-          git pull --rebase origin main || {
+          # Use --rebase --autostash to apply our badge update on top of any new commits;
+          # --autostash stashes the badge file written in the previous step so the rebase
+          # can succeed even though there are uncommitted changes.
+          git pull --rebase --autostash origin main || {
             echo "Failed to pull latest changes, attempting to continue anyway"
           }
           
