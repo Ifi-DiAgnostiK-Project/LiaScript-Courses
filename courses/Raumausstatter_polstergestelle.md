@@ -28,7 +28,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragA
         https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Bildersammlung/refs/heads/main/makros.md
         https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Textilpflegesymbole/refs/heads/main/makros.md
 
-title: Konstruktive Holzgestelle beim Bau von Polstermöbeln
+title: R3/06 Konstruktive Holzgestelle beim Bau von Polstermöbeln
 
 tags:
     - Raumausstatter
@@ -261,7 +261,7 @@ Eine der typischen Holzverbindungen im Polstergestellbau ist die [->[  (verleimt
 <div class="flex-child">
 
 <!-- class="highlight" style="margin-bottom:40px;"-->
-Welche Holzverbindungen können beim Polstergestellbau zum Einsatz kommen?
+Welche Verbindungen können beim Polstergestellbau zum Einsatz kommen?
 
 <!-- class="redbold"-->
 > Es sind insgesamt fünf Antworten richtig!
@@ -279,7 +279,7 @@ Welche Holzverbindungen können beim Polstergestellbau zum Einsatz kommen?
 </div>
 <div class="flex-child">
 
-![Zapfenverbindung](img/woodwall_corner.png "[_Quelle: Pixabay, angelikabeierle_](https://pixabay.com/photos/wood-connection-galvanized-beams-2162234/)")<!-- style="max-width: 250px; width: 100%; margin-left: 30px; margin-top:100px;" -->
+![Schlitz_Zapfen_Verbindung](img/wood_connection_wire_frame.jpg "_Quelle: HWK Dresden, Anne-Kristin Schmidt_")<!-- style="max-width: 250px; width: 100%; margin-left: 30px; margin-top:20px;" -->
 
 </div>
 </section> 
@@ -342,13 +342,13 @@ Welche Aussagen zu Blind- und Sichtholzgestellen sind richtig?
 > Es stimmen vier Antworten!
 
 <!-- data-randomize -->
-- [[X]] Blindholzgestelle sind vollständig verdeckt und gepolstert.  
+- [[X]] Blindholzgestelle sind vollständig verdeckt und überpolstert.  
 - [[X]] Sichtholzgestelle bleiben sichtbar und sind gestalterisches Element.
 - [[X]] Sichtholzgestelle erfordern eine saubere Verarbeitung.
 - [[ ]] Blindholzgestelle müssen keine hohe Maßhaltigkeit besitzen.
-- [[ ]] Für Sichtholzgestelle werden hochwertige Holzverbundstoffe verwendet.
+- [[ ]] Für Sichtholzgestelle werden Holzverbundstoffe verwendet.
 - [[ ]] Gebogene Elemente von Polstergestellen werden durch Spannfederung hergestellt.
-- [[X]] Buche eignet sich für Polstergestelle aufgrund seiner Härte, Festigkeit und Biegefähigkeit.
+- [[X]] Buche eignet sich für Polstergestelle aufgrund seiner Härte und Festigkeit.
 
 </div>
 <div class="flex-child">
