@@ -12,9 +12,10 @@ date: 2026-02-09
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: https://img.freepik.com/free-photo/professional-carpenter-working-with-sawing-machine_1157-35628.jpg
 attribute: "[[_Quelle: Freepik, prostooleh_](https://www.freepik.com/free-photo/professional-carpenter-working-with-sawing-machine_8819639.htm#fromView=search&page=1&position=6&uuid=c6171409-8c97-44bd-bb3d-d9cb55127139&query=Tischfr%C3%A4schmaschine)]]"
-comment:  Holzbearbeitungsmaschinen - TSM Handhabung und sicheres Arbeiten - Überprüfungsfragen TSM 1
 
-title: Holzbearbeitungsmaschinen - Überprüfungsfragen zu TSM 1
+comment:  TSM 1 Überprüfungsfragen
+
+title: TSM 1 Überprüfungsfragen
 
 link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
 link: https://raw.githubusercontent.com/vgoehler/TUBAF_Distributed_Software/refs/heads/main/./styles.css
@@ -38,8 +39,9 @@ In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das
 - sichere Arbeiten an stationären Hobelmaschinen (Abricht- und Dickenhobelmaschine)
 - sichere Arbeiten mit Handmaschinen (Oberfräse, Formfedernutfräse, Handhobel und Handkreissäge)
 
-Das vorliegende Quiz baut auf den Einführungskurs zum Bedienen der genannten Maschinen auf. 
-<br>
+Das vorliegende Quiz wiederholt Wissen aus G<!-- style="font-weight: bolder; font-size: 12pt; color: green;"-->-<!-- style="font-weight: bolder; font-size: 12pt; color: green;"-->TSM<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> und TSM<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> 1<!-- style="font-weight: bolder; font-size: 12pt; color: green;"-->.\
+Damit haben Sie eine optimale Vorbereitung auf Ihren Abschlusstest.
+
 Die Fragen bieten Ihnen die Möglichkeit, jederzeit nach und vor einem TSM-Lehrgang fachliche Impulse sowie Grundlagenwissen zu vertiefen und sich neues anzueignen.\
 Die Fragen sind gemäß den Vorgaben der BGHM und den geltenden Unfallverhütungsvorschriften formuliert.
 
@@ -344,7 +346,7 @@ Ordnen Sie die richtige Abbildung der Textaussage zu.\
 Ziehen Sie die Lösung in das Feld.
 
 <!-- style="; font-size: 14pt; color: black;"-->
-In dieser Abbildung wird ein positiver Spanwinkel grafisch dargestellt: [->[ (![Spanwinkel_positiv](img/saegeblatt_positiver_spanwinkel2.png)<!--style="height: 250px;"-->) | (![](img/saegeblatt_positiver_spanwinkel.png) <!--style="height: 250px;"-->) ]]
+In dieser Abbildung wird ein positiver Spanwinkel grafisch dargestellt: [->[ (![Spanwinkel_positiv](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_v0.1.8/courses/img/saegeblatt_positiver_spanwinkel2.png)<!--style="height: 250px;"-->) | (![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_v0.1.8/courses/img/saegeblatt_positiver_spanwinkel.png) <!--style="height: 250px;"-->) ]]
 
 ### Einstellung des Parallelanschlags
 
