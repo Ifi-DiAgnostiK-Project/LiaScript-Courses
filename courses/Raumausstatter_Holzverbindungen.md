@@ -15,7 +15,7 @@ attribute: "Quelle Titlebild: pixabay"
 
 comment:  Kurs zu den im Gestellbau für Polstermöbel übliche Holzverbindungen
 
-title: Holzverbindungen im Polstermöbelbau - Überblickswissen
+title: "R3/06: Holzverbindungen im Polstermöbelbau - Überblickswissen"
 
 link: ./style.css
 
