@@ -9,13 +9,13 @@ narrator: Deutsch Male
 edit: true
 date: 2026-01-28
 
-icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
+icon: img/maler_werkzeug_tapete_messer_etc.jpg
 logo: https://img.freepik.com/free-photo/old-construction-hand-tool-set-with-worker-hand-white-wooden-background_1150-6089.jpg
 attribute: Image by Freepik
 
 comment:  Typische Tapezierwerkzeuge (Maler-/Lackierer & Raumausstatter)
 
-title: Tapezierwerkzeuge - Quiz für Interessierte, Neugierige & Auszubildende
+title: GR-06 Tapezierwerkzeuge - Quiz für Interessierte, Neugierige & Auszubildende
 
 link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
 
@@ -249,16 +249,20 @@ data-max-trials="3"
 -->
 - [(X)] Tapetenabreißer - mit leicht gezackter Kante zum Zuschneiden von Tapetenbahnen und zum Abreißen alter Tapetenreste
 - [( )] Gleitfußmesser - speziell für den Doppelnahtschnitt
-- [( )] Cuttermeser - zum präzischen Schneiden mit abbrechenbaren Klingen
+- [( )] Cuttermesser - zum präzisen Schneiden mit abbrechenbaren Klingen
 - [( )] Beschneidekante - zum unteren Beschnitt an der Sockelleiste
 ********************
-Das gezeigte Werkzeug ist ein Tapetenabreißer, der mit seiner gezackten Kante zum Zuschneiden von Tapetenbahnen sowie zum Entfernen alter Reste verwendet wird. 
+Das gezeigte Werkzeug ist ein Tapetenabreißer, der mit seiner leicht gezackten Kante zum Zuschneiden von Tapetenbahnen sowie zum Entfernen alter Reste verwendet wird. 
 ********************
 
 </div>
 <div class="flex-child-2 center">
-@Maler_Werkzeuge.Abreisblech(20)\
-<br>_Quelle: HWK Dresden, Florian Riefling_
+![Tapetenabreißer](img/zackenbrett_in_gross.png "_Quelle: HWK Dresden, Kay Deblitz_")<!--style="max-width: 350px; width: 100%; margin-left: -20px; margin-top:-100px;" -->
+
+</div>
+<div class="flex-child-2 center">
+![Detail_Tapetenabreißer](img/zackenbrett_fuer_raumausstatter.png)<!--style="max-width: 200px; width: 100%; margin-left: 400px; margin-top:-150px;" -->
+
 
 </div>
 </section>
