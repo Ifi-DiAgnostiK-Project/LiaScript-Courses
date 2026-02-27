@@ -9,11 +9,12 @@ narrator: Deutsch Male
 edit: true
 date: 2026-02-13
 
-icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
+icon: img/wimmelbild_werkbank_tischler_kram.jpg
 logo: https://img.freepik.com/free-photo/circular-saw-miter-saw-photographed-workshop-atmosphere_169016-13187.jpg
-comment:  Holzbearbeitungsmaschinen - TSM Handhabung und sicheres Arbeiten - Abschlussfragen zu TSM 2
 
-title: Holzbearbeitungsmaschinen -Überprüfungsfragen zu TSM 2 
+comment:  TSM 2 Abschlusstest
+
+title: TSM 2 Abschlusstest der Tischler-Schreiner-Maschinenlehrgänge
 
 link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
 link: https://raw.githubusercontent.com/vgoehler/TUBAF_Distributed_Software/refs/heads/main/./styles.css
@@ -31,7 +32,7 @@ tags: [Tischler, Schreiner, Arbeitssicherheit, Holzbearbeitungsmaschinen, BGHM]
 
 -->
 
-# TSM 2 - Überprüfungsfragen zum Praxiskurs
+# TSM 2 - Abschlusstest
 
 Die praktischen überbetrieblichen TSM<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> -<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> Lehrgänge<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> sind ein wichtiger Bestandteil Ihrer Ausbildung.\
 In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das 
