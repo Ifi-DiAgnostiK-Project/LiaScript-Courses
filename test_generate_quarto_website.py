@@ -208,7 +208,7 @@ def test_write_category_page_contains_course_info():
         write_category_page("Tischler", cats["Tischler"], out)
         content = (out / "tischler.qmd").read_text(encoding="utf-8")
         assert "Holzarten I" in content
-        assert "liascript.github.io" in content
+        assert "https://liascript.github.io/course/?" in content
         assert "📄 PDF" in content
         assert "📦 SCORM" in content
         assert "`Tischler`" in content
