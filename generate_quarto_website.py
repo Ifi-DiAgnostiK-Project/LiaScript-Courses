@@ -260,6 +260,7 @@ def write_category_page(category: str, courses: list, output_dir: Path) -> None:
 
         if logo:
             lines.append(f"![{title}]({logo}){{.card-img-top}}")
+            lines.append("")
 
         lines += [
             "::: {.card-body}",
