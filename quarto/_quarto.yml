@@ -32,7 +32,7 @@ website:
         href: experimente.qmd
       - text: Sonstige
         href: sonstige.qmd
-  footer:
+  page-footer:
     center: "Besuchen Sie uns auf unserer Webseite: [https://uelu-digital.de](https://uelu-digital.de)"
 
 format:
