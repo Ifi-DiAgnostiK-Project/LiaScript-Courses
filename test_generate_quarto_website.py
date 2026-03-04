@@ -211,6 +211,24 @@ def test_write_category_page_no_release_links_when_empty():
     print("✓ test_write_category_page_no_release_links_when_empty")
 
 
+def test_write_category_page_blank_line_after_logo():
+    """A blank line must separate the logo image from the ::: {.card-body} fence.
+
+    Without the blank line, Quarto/Pandoc does not recognize the fenced div
+    and renders '::: {.card-body}' as literal text before the card heading.
+    """
+    cats = _sample_categories()
+    with tempfile.TemporaryDirectory() as tmpdir:
+        out = Path(tmpdir)
+        write_category_page("Tischler", cats["Tischler"], out)
+        content = (out / "tischler.qmd").read_text(encoding="utf-8")
+        # The image line must be followed by a blank line before the fence
+        assert "{.card-img-top}\n\n::: {.card-body}" in content, (
+            "Expected a blank line between the logo image and '::: {.card-body}'"
+        )
+    print("✓ test_write_category_page_blank_line_after_logo")
+
+
 # ---------------------------------------------------------------------------
 # Runner
 # ---------------------------------------------------------------------------
@@ -241,6 +259,7 @@ def run_all_tests():
         test_write_index_page_contains_category_links,
         test_write_category_page_contains_course_info,
         test_write_category_page_no_release_links_when_empty,
+        test_write_category_page_blank_line_after_logo,
     ]
 
     failed = []
