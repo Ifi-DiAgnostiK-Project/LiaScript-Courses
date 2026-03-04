@@ -34,6 +34,14 @@ website:
         href: sonstige.qmd
   page-footer:
     center: "Besuchen Sie uns auf unserer Webseite: [https://uelu-digital.de](https://uelu-digital.de)"
+    right:
+      - text: "Gefördert durch"
+      - text: "<img src='/assets/Kombi-EU-SN-horizontal.jpg' style='height:50px;'>"
+      - text: "Unsere Partner:"
+      - text: |
+          <a href='https://www.gkz-ev.de/'><img src='/assets/gkz.jpg' style='height:50px; margin-right:10px;'></a>
+          <a href='https://www.hwk-dresden.de'><img src='/assets/hwk.png' style='height:50px; margin-right:10px;'></a>
+          <a href='https://tu-freiberg.de/'><img src='/assets/tubaf.png' style='height:50px;'></a>
 
 format:
   html:
