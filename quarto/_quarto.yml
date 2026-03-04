@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: ../docs
+
+website:
+  title: DiAgnostiK Lehr- und Lernraum
+  description: Sammlung aller Kurse des DiAgnostik Projekts
+  favicon: icon.ico
+  navbar:
+    logo: https://raw.githubusercontent.com/vgoehler/DiAgnostiK_LiaScript/refs/heads/main/img/Logo_234px.png
+    title: DiAgnostiK
+    left:
+      - text: Tischler
+        href: tischler.qmd
+      - text: SHK
+        href: shk.qmd
+      - text: Zahntechniker
+        href: zahntechniker.qmd
+      - text: Maler
+        href: maler.qmd
+      - text: Raumausstatter
+        href: raumausstatter.qmd
+      - text: Belehrung
+        href: belehrung.qmd
+      - text: Arbeits- und Gesundheitsschutz
+        href: arbeits-und-gesundheitsschutz.qmd
+      - text: Umfragen
+        href: umfragen.qmd
+      - text: Wissensspeicher
+        href: wissensspeicher.qmd
+      - text: Experimente
+        href: experimente.qmd
+      - text: Sonstige
+        href: sonstige.qmd
+  footer:
+    center: "Besuchen Sie uns auf unserer Webseite: [https://uelu-digital.de](https://uelu-digital.de)"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
