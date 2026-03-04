@@ -14,8 +14,6 @@ from generate_quarto_website import (
     resolve_logo,
     write_index_page,
     write_category_page,
-    write_quarto_yml,
-    write_styles,
     COURSES_RAW_BASE,
 )
 from generate_project_yaml import CATEGORY_LIST
@@ -175,20 +173,6 @@ def _sample_categories():
     }
 
 
-def test_write_quarto_yml_creates_file():
-    cats = _sample_categories()
-    with tempfile.TemporaryDirectory() as tmpdir:
-        out = Path(tmpdir)
-        write_quarto_yml(cats, out)
-        yml_path = out / "_quarto.yml"
-        assert yml_path.exists()
-        content = yml_path.read_text(encoding="utf-8")
-        assert "website" in content
-        assert "tischler.qmd" in content
-        assert "shk.qmd" in content
-    print("✓ test_write_quarto_yml_creates_file")
-
-
 def test_write_index_page_contains_category_links():
     cats = _sample_categories()
     with tempfile.TemporaryDirectory() as tmpdir:
@@ -227,17 +211,6 @@ def test_write_category_page_no_release_links_when_empty():
     print("✓ test_write_category_page_no_release_links_when_empty")
 
 
-def test_write_styles_creates_file():
-    with tempfile.TemporaryDirectory() as tmpdir:
-        out = Path(tmpdir)
-        write_styles(out)
-        css_path = out / "styles.css"
-        assert css_path.exists()
-        content = css_path.read_text(encoding="utf-8")
-        assert "card-img-top" in content
-    print("✓ test_write_styles_creates_file")
-
-
 # ---------------------------------------------------------------------------
 # Runner
 # ---------------------------------------------------------------------------
@@ -265,11 +238,9 @@ def run_all_tests():
         test_resolve_logo_relative_path_expanded,
         test_resolve_logo_empty_string,
         test_resolve_logo_leading_slash_stripped,
-        test_write_quarto_yml_creates_file,
         test_write_index_page_contains_category_links,
         test_write_category_page_contains_course_info,
         test_write_category_page_no_release_links_when_empty,
-        test_write_styles_creates_file,
     ]
 
     failed = []

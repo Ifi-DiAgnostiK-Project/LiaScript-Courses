@@ -254,4 +254,4 @@ fabric.properties
 *.xcf
 project.yml
 .idea/.name
-quarto/
+quarto/*.qmd

@@ -271,10 +271,6 @@ jobs:
         run: |
           python3 generate_quarto_website.py
 
-      - name: Copy favicon to Quarto directory
-        run: |
-          cp docs/icon.ico quarto/icon.ico
-
       - name: Render Quarto website to docs/
         run: |
           quarto render quarto/
