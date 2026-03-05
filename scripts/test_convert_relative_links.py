@@ -128,6 +128,57 @@ def test_convert_body_markdown_image_with_title():
     print("✓ test_convert_body_markdown_image_with_title passed")
 
 
+def test_convert_body_markdown_image_liascript_citation():
+    """convert_body handles LiaScript-style inline citation: ![alt](path" [_Source_](url)")."""
+    # LiaScript courses use  ![alt](img/foo.jpg" [_Source_](https://...)")  where the
+    # " immediately follows the path and starts a title that contains a markdown link.
+    body = '![Alt](img/photo.jpg" [_Quelle: Test_](https://example.com/photo)")<!-- style="width:100%" -->\n'
+    result = convert_body(body, "courses")
+    # The image path must be correctly converted (no trailing " in the URL)
+    assert f"{RAW_BASE_URL}/courses/img/photo.jpg" in result, \
+        f"Expected absolute URL for img/photo.jpg; got: {result}"
+    # The citation title must be preserved
+    assert '" [_Quelle: Test_](https://example.com/photo)"' in result, \
+        f"Citation title should be preserved; got: {result}"
+    print("✓ test_convert_body_markdown_image_liascript_citation passed")
+
+
+def test_convert_body_markdown_image_liascript_plain_title():
+    """convert_body handles LiaScript-style plain-text title: ![alt](path" _Source_")."""
+    body = '![Alt](img/photo.png" _Quelle: BGHM_")<!-- style="max-width: 550px" -->\n'
+    result = convert_body(body, "courses")
+    assert f"{RAW_BASE_URL}/courses/img/photo.png" in result, \
+        f"Expected absolute URL for img/photo.png; got: {result}"
+    assert '" _Quelle: BGHM_"' in result, \
+        f"Plain-text title should be preserved; got: {result}"
+    print("✓ test_convert_body_markdown_image_liascript_plain_title passed")
+
+
+def test_convert_file_no_missing_for_liascript_citation_images():
+    """convert_file does not report missing paths for LiaScript citation-style images."""
+    body_line = '![Alt](img/photo.jpg" [_Quelle: Test_](https://example.com/)")<!-- style -->'
+    content = f"""\
+<!--
+author: Test Author
+version: 0.1.0
+-->
+# Course
+{body_line}
+"""
+    filepath, repo_root = make_course_file_with_images(content, ["img/photo.jpg"])
+    try:
+        result = convert_file(filepath, repo_root)
+        assert result.missing_paths == [], \
+            f"No missing paths expected for existing image; got: {result.missing_paths}"
+        # URL must be converted
+        written = filepath.read_text(encoding="utf-8")
+        assert f"{RAW_BASE_URL}/courses/img/photo.jpg" in written, \
+            f"Image URL was not converted; file content:\n{written}"
+        print("✓ test_convert_file_no_missing_for_liascript_citation_images passed")
+    finally:
+        cleanup(repo_root)
+
+
 def test_convert_body_markdown_image_already_absolute():
     """convert_body leaves absolute Markdown image links unchanged."""
     abs_url = "https://example.com/photo.jpg"
@@ -618,6 +669,8 @@ def run_all_tests():
         test_convert_yaml_header_already_absolute,
         test_convert_body_markdown_image,
         test_convert_body_markdown_image_with_title,
+        test_convert_body_markdown_image_liascript_citation,
+        test_convert_body_markdown_image_liascript_plain_title,
         test_convert_body_markdown_image_already_absolute,
         test_convert_body_html_img_double_quotes,
         test_convert_body_html_img_single_quotes,
@@ -634,6 +687,7 @@ def run_all_tests():
         test_convert_file_detects_missing_html_img,
         test_convert_file_absolute_urls_not_existence_checked,
         test_convert_file_mixed_existing_and_missing,
+        test_convert_file_no_missing_for_liascript_citation_images,
         # link: field tests
         test_yaml_image_fields_includes_link,
         test_convert_yaml_header_link_relative,
