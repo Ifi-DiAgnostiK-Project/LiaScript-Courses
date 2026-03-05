@@ -19,7 +19,9 @@ python3 scripts/install-pre-commit-hook.py
 ```
 
 **Benefits:**
-- ✅ Catches errors before they're committed
+- ✅ Converts relative `logo:`, `icon:`, `link:` paths to absolute URLs automatically
+- ✅ Warns when stylesheet/image fields use fragile `refs/tags/` URLs
+- ✅ Catches YAML errors before they're committed
 - ✅ No CI overhead or race conditions
 - ✅ Faster feedback (instant)
 - ✅ Works offline
@@ -41,6 +43,89 @@ python3 scripts/validate_course_yaml.py --verbose
 # Strict mode (treat warnings as errors)
 python3 scripts/validate_course_yaml.py --strict
 ```
+
+## Automatic Link Conversion
+
+The pre-commit hook (and `scripts/convert_relative_links.py`) automatically fixes
+common link issues in the YAML header and course body **before** YAML validation runs.
+
+### Relative paths → absolute URLs
+
+Relative paths in `logo:`, `icon:`, and `link:` fields are automatically converted
+to absolute `raw.githubusercontent.com` URLs pointing to `refs/heads/main`.
+
+**Example (automatic fix at commit time):**
+```yaml
+<!-- Before commit: -->
+logo: img/cover.jpg
+icon: img/icon.png
+link: style.css
+
+<!-- After hook runs (automatically re-staged): -->
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/cover.jpg
+icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/icon.png
+link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
+```
+
+The same conversion applies to Markdown images (`![alt](path)`) and HTML `<img src="path">` tags in the course body.
+
+### Tag-based URLs → warning
+
+If a `logo:`, `icon:`, or `link:` field contains an absolute URL that still points
+to a `refs/tags/…` snapshot of **this repository**, the hook emits a **non-blocking
+warning**. The commit is allowed, but you should update the URL before pushing.
+
+**❌ WRONG – uses a tag snapshot (fragile, will not update):**
+```yaml
+link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/raumausstatter_polstergestelle_v0.1.2/courses/style.css
+```
+
+**✅ CORRECT – points to the main branch (always up-to-date):**
+```yaml
+link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
+```
+
+**Why:** A tag URL is frozen at the version that was tagged.  If the stylesheet
+is updated in a later commit, courses using the old tag URL will not pick up the
+change.  Using `refs/heads/main` ensures the latest version is always used.
+
+**Hook output example:**
+```
+🔗 Converting relative image links in 1 staged course file(s)...
+   ⚠️  Tag-based URL in courses/Raumausstatter_polstergestelle.md:
+       https://raw.githubusercontent.com/.../refs/tags/raumausstatter_polstergestelle_v0.1.2/courses/style.css
+       Replace 'refs/tags/…' with 'refs/heads/main'
+
+======================================================================
+⚠️  WARNING – tag-based stylesheet URL(s) found in YAML header(s)
+======================================================================
+
+The link: (or logo:/icon:) field(s) above point to a refs/tags/ snapshot.
+This means the asset will not update when the course is republished.
+Replace 'refs/tags/<tag>' with 'refs/heads/main' in the URL(s).
+
+Example fix:
+  Before: link: https://raw.githubusercontent.com/.../refs/tags/<tag>/courses/style.css
+  After:  link: https://raw.githubusercontent.com/.../refs/heads/main/courses/style.css
+
+Commit allowed, but please fix these warnings.
+```
+
+### Manual conversion
+
+You can also run the conversion script manually at any time:
+```bash
+# Convert all courses
+python3 scripts/convert_relative_links.py
+
+# Dry-run – show what would change without writing files
+python3 scripts/convert_relative_links.py --dry-run
+
+# Convert a specific file
+python3 scripts/convert_relative_links.py courses/my_course.md
+```
+
+---
 
 ## Common YAML Errors and Fixes
 
@@ -149,14 +234,17 @@ version: 1.0.0
 
 ### With Pre-Commit Hook (Recommended)
 
-1. **Pre-Commit Check**: Hook runs automatically when you commit
-2. **Validation**: Checks all staged course files
-3. **Rejection**: Commit is rejected if YAML errors found
-4. **Clear Messages**: Shows exactly which file and what's wrong
-5. **Quick Fix**: Fix the error and commit again
+1. **Step 1 – Link conversion**: Hook converts relative `logo:`/`icon:`/`link:` paths and image links to absolute URLs, then re-stages modified files.  Warns (non-blocking) for `refs/tags/` URLs.
+2. **Step 2 – YAML validation**: Checks all staged course files.
+3. **Rejection**: Commit is rejected if YAML errors found (or if referenced image files are missing).
+4. **Clear Messages**: Shows exactly which file and what's wrong.
+5. **Quick Fix**: Fix the error and commit again.
 
-**Example:**
+**Example (YAML error):**
 ```
+🔗 Converting relative image links in 1 staged course file(s)...
+   (no relative links found)
+
 🔍 Validating 1 staged course file(s)...
 
 ❌ courses/example_course.md
@@ -248,9 +336,9 @@ These fields should be present in every course:
 ## Optional Fields
 
 - `comment` - Course description
-- `logo` - URL to course logo image
-- `icon` - URL to course icon
-- `link` - External stylesheets
+- `logo` - URL to course logo image *(relative paths auto-converted; use `refs/heads/main` for absolute URLs)*
+- `icon` - URL to course icon *(relative paths auto-converted; use `refs/heads/main` for absolute URLs)*
+- `link` - External stylesheet URL *(relative paths auto-converted; use `refs/heads/main` for absolute URLs)*
 - `import` - Import other LiaScript modules
 - `attribute` - Attribution for images/content
 - `date` - Course creation/update date
@@ -290,6 +378,31 @@ This skips validation, so errors may reach production.
 4. Run validation: `python3 scripts/validate_course_yaml.py`
 5. Commit (hook will validate automatically)
 
+**Q: I see a ⚠️ warning about a tag-based URL in my `link:` / `logo:` / `icon:` field.  What do I do?**
+
+A: The warning means the URL contains `refs/tags/<tag>` instead of `refs/heads/main`.  The commit is allowed but please fix it:
+
+1. Open the course file
+2. Find the `link:`, `logo:`, or `icon:` field in the YAML header
+3. Replace `refs/tags/<tag-name>` with `refs/heads/main`
+
+**Before:**
+```yaml
+link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/raumausstatter_polstergestelle_v0.1.2/courses/style.css
+```
+
+**After:**
+```yaml
+link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
+```
+
+**Q: Why are my `link:` / `logo:` / `icon:` paths automatically changed when I commit?**
+
+A: The pre-commit hook converts relative paths (e.g. `link: style.css`) to absolute
+`raw.githubusercontent.com` URLs so the assets load correctly regardless of which
+URL the course is accessed through (tag-based or head-based).  This change is
+applied automatically and the file is re-staged — you don't need to do anything.
+
 ## Getting Help
 
 If you encounter YAML errors you can't resolve:
@@ -303,6 +416,8 @@ If you encounter YAML errors you can't resolve:
 
 - **Pre-Commit Hook**: `scripts/pre-commit`
 - **Hook Installer**: `scripts/install-pre-commit-hook.py`
+- **Link Conversion Script**: `scripts/convert_relative_links.py`
+- **Link Conversion Tests**: `scripts/test_convert_relative_links.py`
 - **Validation Script**: `scripts/validate_course_yaml.py`
 - **Generation Script**: `generate_project_yaml.py`
 - **Test Suite**: `scripts/test_validate_course_yaml.py`
