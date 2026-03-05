@@ -1,7 +1,7 @@
 <!--
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.6
+version:  0.1.1
 language: de
 narrator: Deutsch Male
 
@@ -66,7 +66,7 @@ Testen Sie Ihr Wissen zum sicheren Umgang mit Holzbearbeitungsmaschinen!
 
 <center> 
 
-![Tischler_an_Maschine](img/mensch_an_abrichte.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/carpenter-hands-cutting-wood-with-electrical-saw_21149978.htm#fromView=search&page=3&position=13&uuid=c8990c62-ec23-42fe-94d9-8b83ca73725b&query=Bands%C3%A4ge)")<!-- style="max-width: 450px; width: 100%" -->
+![Tischler_an_Maschine](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/mensch_an_abrichte.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/carpenter-hands-cutting-wood-with-electrical-saw_21149978.htm#fromView=search&page=3&position=13&uuid=c8990c62-ec23-42fe-94d9-8b83ca73725b&query=Bands%C3%A4ge)")<!-- style="max-width: 450px; width: 100%" -->
 
 </center> 
 
@@ -91,7 +91,7 @@ Sicherheit im Umgang mit Sägemaschinen beruht auf Übung, Aufmerksamkeit – un
 
 <center> 
 
-![Tischler_in_Werkstatt](img/typ_guckt_ueber_brett.jpg" [_Quelle: Freepik, aleksandarlittlewolf_](https://www.freepik.com/free-photo/portrait-professional-woodworker-standing-machine-wood-material-his-carpentry-workshop_11137021.htm#fromView=search&page=2&position=7&uuid=53cd649e-c46c-4468-9851-db1bfc72aad2&query=wood+worker)")<!-- style="max-width: 450px; width: 100%" -->
+![Tischler_in_Werkstatt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/typ_guckt_ueber_brett.jpg" [_Quelle: Freepik, aleksandarlittlewolf_](https://www.freepik.com/free-photo/portrait-professional-woodworker-standing-machine-wood-material-his-carpentry-workshop_11137021.htm#fromView=search&page=2&position=7&uuid=53cd649e-c46c-4468-9851-db1bfc72aad2&query=wood+worker)")<!-- style="max-width: 450px; width: 100%" -->
 
 </center> 
 
@@ -167,7 +167,7 @@ data-max-trials="3"
 
 </div>
 <div class="flex-child-2 center">
-![Format_und_Tischkreissaege](img/kreissaege_schematisch_mit_nummern.png" _Quelle: BGHM_")<!-- style="max-width: 550px; width: 190%; margin-left: -240px; margin-top:0px;" -->
+![Format_und_Tischkreissaege](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/kreissaege_schematisch_mit_nummern.png" _Quelle: BGHM_")<!-- style="max-width: 550px; width: 190%; margin-left: -240px; margin-top:0px;" -->
 
 
 </div>
@@ -258,7 +258,7 @@ data-max-trials="3"
 
 </div>
 <div class="flex-child-2 center">
-![Tisch_und_Formatkreissaege_2](img/kreissaege_schematisch_mit_nummern_alt.png" _Quelle: BGHM_")<!-- style="max-width: 550px; width: 190%; margin-left: -240px; margin-top:0px;" -->
+![Tisch_und_Formatkreissaege_2](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/kreissaege_schematisch_mit_nummern_alt.png" _Quelle: BGHM_")<!-- style="max-width: 550px; width: 190%; margin-left: -240px; margin-top:0px;" -->
 
 
 </div>
@@ -332,7 +332,7 @@ Damit ergeben sich folgende Rechnungsschritte:
 
 </div>
 <div class="flex-child-2 center">
-![Sägeblatt](img/brett_kreissaege_finger_gefaehrlich.jpg" [_Quelle: Pixabay, Myriams-Fotos_](https://pixabay.com/photos/chop-saw-saw-blade-1337288/)")<!-- style="max-width: 450px; width: 130%; margin-left: -80px; margin-top:20px;" -->
+![Sägeblatt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/brett_kreissaege_finger_gefaehrlich.jpg" [_Quelle: Pixabay, Myriams-Fotos_](https://pixabay.com/photos/chop-saw-saw-blade-1337288/)")<!-- style="max-width: 450px; width: 130%; margin-left: -80px; margin-top:20px;" -->
 
 </div>
 </section>
@@ -381,7 +381,7 @@ Folgende Antworten sind richtig:\
 
 <center> 
 
-![verschmutzte_Saege](img/riesengrosse_kreissaege.png "_Quelle: BGHM_")<!-- style="max-width: 700px; width: 100%; margin-left: -80px; margin-top:0px;" -->
+![verschmutzte_Saege](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/riesengrosse_kreissaege.png "_Quelle: BGHM_")<!-- style="max-width: 700px; width: 100%; margin-left: -80px; margin-top:0px;" -->
 
 </center> 
 
@@ -413,7 +413,7 @@ Die Lösung lautet: 8 mm. - Siehe dazu das TSM-Lehrbuch, S. 17.
 
 <center> 
 
-![TFKS_Anleimer](img/Marfin_saege_mit_Schiebedingens.png "_Quelle: BGHM_")<!-- style="max-width: 700px; width: 100%; margin-left: -80px; margin-top:0px;" -->
+![TFKS_Anleimer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Marfin_saege_mit_Schiebedingens.png "_Quelle: BGHM_")<!-- style="max-width: 700px; width: 100%; margin-left: -80px; margin-top:0px;" -->
 
 </center> 
 
@@ -441,7 +441,7 @@ Die Lösung lautet: 2 mm. - Siehe dazu das TSM-Lehrbuch, S. 17.
 
 </div>
 <div class="flex-child-2 center">
-![Spaltkeil](img/saegezaehne_spaltkeil_closeup.png" _Quelle: BGHM_")<!-- style="max-width: 450px; width: 120%; margin-left: -40px; margin-top: 40px;" -->
+![Spaltkeil](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/saegezaehne_spaltkeil_closeup.png" _Quelle: BGHM_")<!-- style="max-width: 450px; width: 120%; margin-left: -40px; margin-top: 40px;" -->
 
 
 </div>
@@ -470,7 +470,7 @@ Der Anschlag erfolgt flach und vor das Sägeblatt zurückzuziehen, damit ein Kle
 </div>
 <div class="flex-child-2 center">
 
-![TFKS_Anleimer](img/Marfin_saege_mit_Schiebedingens.png "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 120%;margin-left: -50px; margin-top:20px;" -->
+![TFKS_Anleimer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Marfin_saege_mit_Schiebedingens.png "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 120%;margin-left: -50px; margin-top:20px;" -->
 
 </div>
 </section>
@@ -498,7 +498,7 @@ Die Schutzhaube ist auf Werkstückdicke einzustellen.
 </div>
 <div class="flex-child-2 center">
 
-![TFKS_Anleimer](img/Marfin_saege_mit_Schiebedingens.png "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 120%;margin-left: -50px; margin-top:20px;" -->
+![TFKS_Anleimer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Marfin_saege_mit_Schiebedingens.png "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 120%;margin-left: -50px; margin-top:20px;" -->
 
 </div>
 </section>
@@ -516,7 +516,7 @@ Bei der Arbeit an Maschinen ist geeignete Arbeitskleidung ein wichtiger Teil der
 
 <center> 
 
-![Arbeitsschutz](img/sicherheitsausruestung.jpg" [_Quelle: Freepik, pvproductions_](https://www.freepik.com/free-photo/work-helmet-boots-gloves-wooden-background-top-view_33090388.htm#fromView=search&page=1&position=35&uuid=b084009a-d4d3-4588-9a32-9ef6f5fdc1d0&query=arbeitsschutz)")<!-- style="max-width: 450px; width: 100%" -->
+![Arbeitsschutz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/sicherheitsausruestung.jpg" [_Quelle: Freepik, pvproductions_](https://www.freepik.com/free-photo/work-helmet-boots-gloves-wooden-background-top-view_33090388.htm#fromView=search&page=1&position=35&uuid=b084009a-d4d3-4588-9a32-9ef6f5fdc1d0&query=arbeitsschutz)")<!-- style="max-width: 450px; width: 100%" -->
 
 </center> 
 
@@ -553,7 +553,7 @@ Folgende Antworten sind richtig:\
 </div>
 <div class="flex-child-2 center">
 
-![Arbeitsschutz](img/Nagelneue_Sicherheitsausruestung.jpg "[_Quelle: Freepik_](https://pixabay.com/photos/chop-saw-saw-blade-1337288/)")<!-- style="max-width: 400px; width: 130%;margin-left: -80px; margin-top:20px;" -->
+![Arbeitsschutz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Nagelneue_Sicherheitsausruestung.jpg "[_Quelle: Freepik_](https://pixabay.com/photos/chop-saw-saw-blade-1337288/)")<!-- style="max-width: 400px; width: 130%;margin-left: -80px; margin-top:20px;" -->
 
 </div>
 </section>
@@ -686,7 +686,7 @@ data-max-trials="3"
 
 </div>
 <div class="flex-child-2 center">
-![Dickenhobelmaschine](img/Oberfraese_schematisch_seite.png" _Quelle: BGHM_")<!-- style="max-width: 550px; width: 190%; margin-left: -240px; margin-top:0px;" -->
+![Dickenhobelmaschine](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Oberfraese_schematisch_seite.png" _Quelle: BGHM_")<!-- style="max-width: 550px; width: 190%; margin-left: -240px; margin-top:0px;" -->
 
 
 </div>
@@ -774,7 +774,7 @@ Es ist wichtig, Aufbau, Einstellmöglichkeiten und Schutzeinrichtungen zu kennen
 <br>
 <center> 
 
-![Tischfräse](img/Seitenfraese_in_aktion.png" _Quelle: BGHM_")<!-- style="max-width: 350px; width: 100%" -->
+![Tischfräse](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Seitenfraese_in_aktion.png" _Quelle: BGHM_")<!-- style="max-width: 350px; width: 100%" -->
 
 </center> 
 
@@ -788,10 +788,10 @@ _Abb.: BGHM_<!-- style="margin-left: 750px;" -->
 
 <!--data-randomize -->
 - [  [Einteiliges Werkzeug]     [Verbundwerkzeug]        [Werkzeugsatz]     [zusammengesetztes Werkzeug]  ]
-- [           (x)                         ( )                  ( )                       ( )              ] ![Einteiliges_Werkzeug](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_vorbereitung_v0.0.5/courses/img/3_zuegiger_bohrere.png)<!-- style="max-width: 150px;" -->
-- [           ( )                         (X)                  ( )                       ( )              ] ![Verbundwerkzeug](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_vorbereitung_v0.0.5/courses/img/bohrer_fraes_kopf.png)<!-- style="max-width: 150px;" -->
-- [           ( )                         ( )                  (x)                       ( )              ] ![Werkzeugsatz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_vorbereitung_v0.0.5/courses/img/fraesenkopf_cutter.png)<!-- style="max-width: 150px;" -->
-- [           ( )                         ( )                  ( )                       (X)              ] ![zusammengesetztes_Werkzeug](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_vorbereitung_v0.0.5/courses/img/fraese_fetter_cutter.png)<!-- style="max-width: 150px;" -->
+- [           (x)                         ( )                  ( )                       ( )              ] ![Einteiliges_Werkzeug](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/3_zuegiger_bohrere.png)<!-- style="max-width: 150px;" -->
+- [           ( )                         (X)                  ( )                       ( )              ] ![Verbundwerkzeug](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bohrer_fraes_kopf.png)<!-- style="max-width: 150px;" -->
+- [           ( )                         ( )                  (x)                       ( )              ] ![Werkzeugsatz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fraesenkopf_cutter.png)<!-- style="max-width: 150px;" -->
+- [           ( )                         ( )                  ( )                       (X)              ] ![zusammengesetztes_Werkzeug](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fraese_fetter_cutter.png)<!-- style="max-width: 150px;" -->
 
 
 <!--style="background-color:#FFA500;color: white"-->
@@ -807,9 +807,9 @@ _Abb.: BGHM_<!-- style="margin-left: 750px;" -->
 
 <!--data-randomize -->
 - [  [Druck- und Schutzvorrichtung]     [Bogenfeder]        [Vorschubapparat]     ]
-- [           (x)                         ( )                  ( )                ] ![Druck-_und_Schutzvorrichtung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_vorbereitung_v0.0.5/courses/img/Seitenfraese_mit_anderen_sicherheitsmechanismen.png)<!-- style="max-width: 200px;" -->
-- [           ( )                         (X)                  ( )                ] ![Bogenfeder](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_vorbereitung_v0.0.5/courses/img/Seitenfraese_mit_sicherheitsmechanismen.png)<!-- style="max-width: 200px;" -->
-- [           ( )                         ( )                  (x)                ] ![Vorschubapparat](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_vorbereitung_v0.0.5/courses/img/alte_seiten_fraese.png)<!-- style="max-width: 200px;" -->
+- [           (x)                         ( )                  ( )                ] ![Druck-_und_Schutzvorrichtung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Seitenfraese_mit_anderen_sicherheitsmechanismen.png)<!-- style="max-width: 200px;" -->
+- [           ( )                         (X)                  ( )                ] ![Bogenfeder](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Seitenfraese_mit_sicherheitsmechanismen.png)<!-- style="max-width: 200px;" -->
+- [           ( )                         ( )                  (x)                ] ![Vorschubapparat](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/alte_seiten_fraese.png)<!-- style="max-width: 200px;" -->
 
 
 <!--style="background-color:#FFA500;color: white"-->
