@@ -2,16 +2,15 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.4
+version:  0.1.0
 language: de
 narrator: Deutsch Male
 
 edit: true
 date: 2026-01-28
 
-icon: img/maler_werkzeug_tapete_messer_etc.jpg
-logo: https://img.freepik.com/free-photo/old-construction-hand-tool-set-with-worker-hand-white-wooden-background_1150-6089.jpg
-attribute: Image by Freepik
+icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
+logo: img/maler_werkzeug_tapenkurs.jpg
 
 comment:  Typische Tapezierwerkzeuge (Maler-/Lackierer & Raumausstatter)
 
@@ -259,10 +258,7 @@ Das gezeigte Werkzeug ist ein Tapetenabreißer, der mit seiner leicht gezackten 
 <div class="flex-child-2 center">
 ![Tapetenabreißer](img/zackenbrett_in_gross.png "_Quelle: HWK Dresden, Kay Deblitz_")<!--style="max-width: 350px; width: 100%; margin-left: -20px; margin-top:-100px;" -->
 
-</div>
-<div class="flex-child-2 center">
-![Detail_Tapetenabreißer](img/zackenbrett_fuer_raumausstatter.png)<!--style="max-width: 200px; width: 100%; margin-left: 400px; margin-top:-150px;" -->
-
+![Detail_Tapetenabreißer](img/zackenbrett_fuer_raumausstatter.png)<!--style="max-width: 200px; width: 100%;  margin-top:-100px;" -->
 
 </div>
 </section>
@@ -315,7 +311,7 @@ Das gezeigte Werkzeug ist eine Igel- oder Perforationswalze zum Entfernen von Ta
 
 </div>
 <div class="flex-child-2 center">
-![Igelwalze](img/noppenbuerste.jpg "[_Quelle: Stabilo-Fachmarkt_](https://www.stabilo-fachmarkt.de/teleskop-tapeten-stachelwalze-igelwalze-nagelwalze-entlueftter-15-cm-59-5-102-cm_924928_38841/)")<!-- style="max-width: 350px; width: 100%; margin-left: 20px; margin-top:30px;" -->
+![Igelwalze](img/Igelwalze_KD.png ")<!-- style="max-width: 350px; width: 100%; margin-left: 20px; margin-top:30px;" -->
 
 </div>
 </section>
