@@ -59,7 +59,10 @@ _OUR_RAW_TAGS_PREFIX = (
 
 # Compiled regex patterns shared between conversion and existence checking
 # ── Markdown: ![alt](URL optional-title/whitespace)
-_MD_IMAGE_PATTERN = re.compile(r"!\[([^\]]*)\]\((\S+?)((?:\s[^)]*)?\))")
+# The URL group stops at whitespace, " and ' so that LiaScript-style inline
+# citations written as  ![alt](path" [_Source_](url)")  are handled correctly:
+# the opening " belongs to the title delimiter, not the image path.
+_MD_IMAGE_PATTERN = re.compile(r"!\[([^\]]*)\]\(([^\s\"']+?)((?:[\s\"'][^)]*)?\))")
 # ── HTML <img src="..."> double quotes
 _HTML_SRC_DQ_PATTERN = re.compile(r'(<img\b[^>]*?\bsrc=)"([^"]*)"')
 # ── HTML <img src='...'> single quotes
