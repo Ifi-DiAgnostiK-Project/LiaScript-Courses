@@ -106,12 +106,12 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [(X)] Malerspachtel - zum Verspachtel und Glätten kleiner Schadstellen sowie zum Entfernen von Farb- und Tapetenresten
+- [(X)] Metallspachtel - zum Verspachtel und Glätten kleiner Schadstellen sowie zum Entfernen von Farb- und Tapetenresten
 - [( )] Nahtzinken - zum Andrücken von Tapetennähten
 - [( )] Schlagblatt - zum Anzeichnen gerader Linien
 - [( )] Tapezierwischer - zum Andrücken von Tapeten
 ********************
-Das gezeigte Werkzeug ist ein Malerspachtel, der vor allem zum Verspachteln und Entfernen von Farb- oder Tapetenresten dient. 
+Das gezeigte Werkzeug ist ein (Maler-)Metallspachtel, der vor allem zum Verspachteln und Entfernen von Farb- oder Tapetenresten dient. 
 ********************
 
 </div>
@@ -271,7 +271,7 @@ Das gezeigte Werkzeug ist ein Tapetenabreißer, der mit seiner leicht gezackten 
 ><!--style="color: red; font-weight: bolder"-->Es sind drei Aussagen richtig!
 
 <!-- class="highlight" -->
-Wofür wird eine Malerspachtel beim Tapezieren typischerweise eingesetzt?
+Wofür wird ein Metallspachtel beim Tapezieren typischerweise eingesetzt?
 
 <!--
 data-randomize
@@ -284,7 +284,7 @@ data-max-trials="3"
 - [[ ]] als Hilfsmittel zum Anzeichnen gerader Linien an Wand und Decke
 - [[X]] zum Verspachteln und Glätten kleiner Schadstellen
 ********************
-Der Malerspachtel ist ein vielseitiges Werkzeug zur Untergrundvorbereitung. Es wird vor allem zum Verspachteln und zum Entfernen von Tapeten-, Farb- oder Putzresten genutzt.
+Der (Maler-)Metallspachtel ist ein vielseitiges Werkzeug zur Untergrundvorbereitung. Es wird vor allem zum Verspachteln und zum Entfernen von Tapeten-, Farb- oder Putzresten genutzt.
 ********************
 
 </div>
@@ -311,7 +311,7 @@ Das gezeigte Werkzeug ist eine Igel- oder Perforationswalze zum Entfernen von Ta
 
 </div>
 <div class="flex-child-2 center">
-![Igelwalze](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Igelwalze_KD.png ")<!-- style="max-width: 350px; width: 100%; margin-left: 20px; margin-top:30px;" -->
+![Igelwalze](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Igelwalze_KD.png "_Quelle: HWK Dresden, Kay Deblitz_")<!-- style="max-width: 350px; width: 100%; margin-left: 20px; margin-top:30px;" -->
 
 </div>
 </section>
