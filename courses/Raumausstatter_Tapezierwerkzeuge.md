@@ -10,7 +10,7 @@ edit: true
 date: 2026-01-28
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo: img/maler_werkzeug_tapenkurs.jpg
+logo: img/maler_werkzeug_tapetenkurs.jpg
 
 comment:  Typische Tapezierwerkzeuge (Maler-/Lackierer & Raumausstatter)
 
