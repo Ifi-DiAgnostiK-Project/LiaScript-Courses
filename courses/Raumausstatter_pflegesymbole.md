@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.0.7
+version:  0.1.0
 language: de
 narrator: Deutsch Female
 
@@ -297,7 +297,7 @@ Ziehen Sie die Wörter in die richtige Reihenfolge.
 
 Ziehen Sie die Zeichen in die richtige Reihenfolge.
 
-@dragdroporder(@uid, @Waschsymbole.Waschen_Grundsymbol(10).src | @Bleichsymbole.Chlor_oder_Sauerstoffbleichen(10).src | @Trocknersymbole.Trocknen_Grundsymbol(10).src | @Buegelsymbole.Buegeln_Grundsymbol(10).src | @Reinigungssymbole.Professionelle_Reinigung_Grundsymbol(10), 3)
+@dragdroporder(@uid, @Waschsymbole.Waschen_Grundsymbol.src | @Bleichsymbole.Chlor_oder_Sauerstoffbleichen.src | @Trocknersymbole.Trocknen_Grundsymbol.src | @Buegelsymbole.Buegeln_Grundsymbol.src | @Reinigungssymbole.Professionelle_Reinigung_Grundsymbol.src, 3)
 
 </div>
 </section>
@@ -308,16 +308,3 @@ Ziehen Sie die Zeichen in die richtige Reihenfolge.
 <center>
 ![Jubel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/colorfull_jumping.jpg "_Quelle: Pixabay, geralt_")
 </center>
-
-
-
-
-
-
-
-
-
-
-
-
-
