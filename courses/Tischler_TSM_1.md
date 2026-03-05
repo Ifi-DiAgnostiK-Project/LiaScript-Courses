@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.1.9
+version:  0.1.11
 language: de
 narrator: Deutsch Male
 
@@ -68,7 +68,7 @@ Testen Sie Ihr Wissen zum sicheren Umgang mit Holzbearbeitungsmaschinen!
 
 <center> 
 
-![Hand_mit_Sägeblatt](img/brett_kreissaege_finger_gefaehrlich.jpg" [_Quelle: Freepik, Myriams-Fotos](https://pixabay.com/photos/chop-saw-saw-blade-1337288/)")<!-- style="max-width: 450px; width: 100%" -->
+![Hand_mit_Sägeblatt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/brett_kreissaege_finger_gefaehrlich.jpg" [_Quelle: Freepik, Myriams-Fotos](https://pixabay.com/photos/chop-saw-saw-blade-1337288/)")<!-- style="max-width: 450px; width: 100%" -->
 
 </center> 
 
@@ -94,7 +94,7 @@ Ihre Hauptaufgaben sind:
 
 <center> 
 
-![Arbeitsschutz](img/Nagelneue_Sicherheitsausruestung.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/front-view-protective-glasses-with-hard-hat-headphones_11403385.htm#fromView=search&page=1&position=0&uuid=b084009a-d4d3-4588-9a32-9ef6f5fdc1d0&query=arbeitsschutz)")<!-- style="max-width: 450px; width: 100%" -->
+![Arbeitsschutz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Nagelneue_Sicherheitsausruestung.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/front-view-protective-glasses-with-hard-hat-headphones_11403385.htm#fromView=search&page=1&position=0&uuid=b084009a-d4d3-4588-9a32-9ef6f5fdc1d0&query=arbeitsschutz)")<!-- style="max-width: 450px; width: 100%" -->
 
 </center> 
 
@@ -125,7 +125,7 @@ Die richtige Lösung lautet: Träger der gesetzlichen Unfallversicherung.
 </div>
 <div class="flex-child-2 center">
 
-![BGHM_Logo](a82bf423aa23078432ee9633d4b165047620f0ac.svg "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 140%;margin-left: -50px; margin-top:20px;" -->
+![BGHM_Logo](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bghm.svg "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 140%;margin-left: -50px; margin-top:20px;" -->
 
 </div>
 </section>
@@ -155,7 +155,7 @@ Eine Berufsgenossenschaft ist für die Sicherheit und den Gesundheitsschutz am A
 </div>
 <div class="flex-child-2 center">
 
-![BGHM_Logo](a82bf423aa23078432ee9633d4b165047620f0ac.svg "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 140%;margin-left: -50px; margin-top:20px;" -->
+![BGHM_Logo](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bghm.svg "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 140%;margin-left: -50px; margin-top:20px;" -->
 
 </div>
 </section>
@@ -190,7 +190,7 @@ Folgende Antworten sind richtig:\
 
 </div>
 <div class="flex-child-2 center">
-![Versicherung](img/human-figure-dark-grey-table-flat.jpg "[_Quelle: Freepik, 8photo_](https://www.freepik.com/free-photo/family-concept-with-icons-wooden-cubes-human-figure-dark-grey-table-flat-lay_9486035.htm#from_element=cross_selling__photo)")<!-- style="max-width: 700px; width: 100%; margin-left: -80px; margin-top:0px;" -->
+![Versicherung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/human-figure-dark-grey-table-flat.jpg "[_Quelle: Freepik, 8photo_](https://www.freepik.com/free-photo/family-concept-with-icons-wooden-cubes-human-figure-dark-grey-table-flat-lay_9486035.htm#from_element=cross_selling__photo)")<!-- style="max-width: 700px; width: 100%; margin-left: -80px; margin-top:0px;" -->
 
 </div>
 </section>
@@ -219,7 +219,7 @@ Unter "eigenwirtschaftlicher Tätigkeit" werden Arbeiten im Betrieb für den eig
 </div>
 <div class="flex-child-2 center">
 
-![Tischlerin](img/side-view-female-carpenter-studio-using-electric-saw.jpg "[_Quelle: Freepik_](https://www.freepik.com/free-photo/side-view-female-carpenter-studio-using-electric-saw_11905226.htm)")<!-- style="max-width: 300px; width: 140%;margin-left: -50px; margin-top:20px;" -->
+![Tischlerin](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/side-view-female-carpenter-studio-using-electric-saw.jpg "[_Quelle: Freepik_](https://www.freepik.com/free-photo/side-view-female-carpenter-studio-using-electric-saw_11905226.htm)")<!-- style="max-width: 300px; width: 140%;margin-left: -50px; margin-top:20px;" -->
 
 </div>
 </section>
@@ -245,7 +245,7 @@ Sicherheit im Umgang mit Sägemaschinen beruht auf Übung, Aufmerksamkeit – un
 
 <center> 
 
-![Sägen_von_Hand](img/stichsaege_brett.jpg" [_Quelle: Freepik, pvproductions_](https://www.freepik.com/free-photo/close-up-carpenter-s-hands-process-cutting-wood-with-jigsaw_16771521.htm#fromView=search&page=1&position=19&uuid=c8990c62-ec23-42fe-94d9-8b83ca73725b&query=Bands%C3%A4ge)")<!-- style="max-width: 450px; width: 100%" -->
+![Sägen_von_Hand](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/stichsaege_brett.jpg" [_Quelle: Freepik, pvproductions_](https://www.freepik.com/free-photo/close-up-carpenter-s-hands-process-cutting-wood-with-jigsaw_16771521.htm#fromView=search&page=1&position=19&uuid=c8990c62-ec23-42fe-94d9-8b83ca73725b&query=Bands%C3%A4ge)")<!-- style="max-width: 450px; width: 100%" -->
 
 </center> 
 
@@ -284,7 +284,7 @@ Folgende Antworten sind richtig:\
 
 </div>
 <div class="flex-child-2 center">
-![Tischler_mit_Handkreissaege](img/construction-worker_11206723.jpg "[_Quelle: Freepik, gpointstudio_](https://www.freepik.com/free-photo/construction-worker_11206723.htm#fromView=search&page=2&position=26&uuid=8b59840e-0cf0-416e-8446-36b01d20fb6f&query=Handkreiss%C3%A4ge)")<!-- style="max-width: 700px; width: 100%; margin-left: -10px; margin-top:0px;" -->
+![Tischler_mit_Handkreissaege](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/construction-worker_11206723.jpg "[_Quelle: Freepik, gpointstudio_](https://www.freepik.com/free-photo/construction-worker_11206723.htm#fromView=search&page=2&position=26&uuid=8b59840e-0cf0-416e-8446-36b01d20fb6f&query=Handkreiss%C3%A4ge)")<!-- style="max-width: 700px; width: 100%; margin-left: -10px; margin-top:0px;" -->
 
 </div>
 </section>
@@ -313,7 +313,7 @@ Sicherheit im Umgang mit Sägemaschinen beruht auf Übung, Aufmerksamkeit – un
 
 <center> 
 
-![Tischler_in_Werkstatt](img/typ_guckt_ueber_brett.jpg" [_Quelle: Freepik, aleksandarlittlewolf_](https://www.freepik.com/free-photo/portrait-professional-woodworker-standing-machine-wood-material-his-carpentry-workshop_11137021.htm#fromView=search&page=2&position=7&uuid=53cd649e-c46c-4468-9851-db1bfc72aad2&query=wood+worker)")<!-- style="max-width: 450px; width: 100%" -->
+![Tischler_in_Werkstatt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/typ_guckt_ueber_brett.jpg" [_Quelle: Freepik, aleksandarlittlewolf_](https://www.freepik.com/free-photo/portrait-professional-woodworker-standing-machine-wood-material-his-carpentry-workshop_11137021.htm#fromView=search&page=2&position=7&uuid=53cd649e-c46c-4468-9851-db1bfc72aad2&query=wood+worker)")<!-- style="max-width: 450px; width: 100%" -->
 
 </center> 
 
@@ -346,7 +346,7 @@ Ordnen Sie die richtige Abbildung der Textaussage zu.\
 Ziehen Sie die Lösung in das Feld.
 
 <!-- style="; font-size: 14pt; color: black;"-->
-In dieser Abbildung wird ein positiver Spanwinkel grafisch dargestellt: [->[ (![Spanwinkel_positiv](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_v0.1.8/courses/img/saegeblatt_positiver_spanwinkel2.png)<!--style="height: 250px;"-->) | (![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/tischler_tsm_1_v0.1.8/courses/img/saegeblatt_positiver_spanwinkel.png) <!--style="height: 250px;"-->) ]]
+In dieser Abbildung wird ein positiver Spanwinkel grafisch dargestellt: [->[ (![Spanwinkel_positiv](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/saegeblatt_positiver_spanwinkel2.png)<!--style="height: 250px;"-->) | (![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/saegeblatt_positiver_spanwinkel.png) <!--style="height: 250px;"-->) ]]
 
 ### Einstellung des Parallelanschlags
 
@@ -372,7 +372,7 @@ Der Parallelanschlag ist vor das Sägeblatt zurückzuziehen, damit ein Klemmen d
 </div>
 <div class="flex-child-2 center">
 
-![Tischkreissäge](img/man-working-mdf-boards-warehouse.jpg "[_Quelle: Freepik_](https://www.freepik.com/free-photo/man-working-mdf-boards-warehouse_25625273.htm#fromView=search&page=2&position=18&uuid=0f2ec15a-2795-4466-ac97-65c99d13e39e&query=Formats%C3%A4ge)")<!-- style="max-width: 300px; width: 120%;margin-left: -20px; margin-top:20px;" -->
+![Tischkreissäge](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/man-working-mdf-boards-warehouse.jpg "[_Quelle: Freepik_](https://www.freepik.com/free-photo/man-working-mdf-boards-warehouse_25625273.htm#fromView=search&page=2&position=18&uuid=0f2ec15a-2795-4466-ac97-65c99d13e39e&query=Formats%C3%A4ge)")<!-- style="max-width: 300px; width: 120%;margin-left: -20px; margin-top:20px;" -->
 
 
 
@@ -412,7 +412,7 @@ Bei Abständen von weniger als 120 mm zum Sägeblatt ist ein Schiebstock, ggf. a
 
 </div>
 <div class="flex-child-2 center">
-![Tischler_Bandsaege](img/carpenter-working-with-sawing-machine.jpg" [_Quelle: Pixabay, prostooleh_](https://www.freepik.com/free-photo/professional-carpenter-working-with-sawing-machine_8819639.htm#fromView=search&page=1&position=6&uuid=c6171409-8c97-44bd-bb3d-d9cb55127139&query=Tischfr%C3%A4schmaschine)")<!-- style="max-width: 450px; width: 130%; margin-left: -120px; margin-top:80px;" -->
+![Tischler_Bandsaege](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/carpenter-working-with-sawing-machine.jpg" [_Quelle: Pixabay, prostooleh_](https://www.freepik.com/free-photo/professional-carpenter-working-with-sawing-machine_8819639.htm#fromView=search&page=1&position=6&uuid=c6171409-8c97-44bd-bb3d-d9cb55127139&query=Tischfr%C3%A4schmaschine)")<!-- style="max-width: 450px; width: 130%; margin-left: -120px; margin-top:80px;" -->
 
 </div>
 </section>
@@ -445,7 +445,7 @@ Man benötigt eine Zuführhilfe, z. B. Schiebelade, oder einen Anlagewinkel. - S
 </div>
 <div class="flex-child-2 center">
 
-![Fraeswerkzeug_MAN](img/fraeswerkzeug_man.png "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 100%;margin-left: -20px; margin-top:20px;" -->
+![Fraeswerkzeug_MAN](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fraeswerkzeug_man.png "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 100%;margin-left: -20px; margin-top:20px;" -->
 
 </div>
 </section>
@@ -479,7 +479,7 @@ Es ist wichtig, Aufbau, Einstellmöglichkeiten und Schutzeinrichtungen zu kennen
 <br>
 <center> 
 
-![Tischfräse](img/Seitenfraese_mit_sicherheitsmechanismen.png" _Quelle: BGHM_")<!-- style="max-width: 350px; width: 100%" -->
+![Tischfräse](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Seitenfraese_mit_sicherheitsmechanismen.png" _Quelle: BGHM_")<!-- style="max-width: 350px; width: 100%" -->
 
 </center> 
 
@@ -508,7 +508,7 @@ Das Werkzeug ist auf Tischfräsmaschinen für den Handvorschub geeignet.
 </div>
 <div class="flex-child-2 center">
 
-![Fraeswerkzeug_MAN](img/fraeswerkzeug_man.png "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 100%;margin-left: -20px; margin-top:20px;" -->
+![Fraeswerkzeug_MAN](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fraeswerkzeug_man.png "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 100%;margin-left: -20px; margin-top:20px;" -->
 
 </div>
 </section>
@@ -535,7 +535,7 @@ Mit der Angabe wird die höchstzulässige Drehzahl bezeichnet.
 </div>
 <div class="flex-child-2 center">
 
-![Fraeswerkzeug_Drehzahl](img/fraeswerkzeug_drehzahl.png "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 100%;margin-left: -20px; margin-top:20px;" -->
+![Fraeswerkzeug_Drehzahl](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fraeswerkzeug_drehzahl.png "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 100%;margin-left: -20px; margin-top:20px;" -->
 
 </div>
 </section>
@@ -574,7 +574,7 @@ Die Schnittgeschwindigkeit sollte im Bereich von 40 m/s bis 70 m/s liegen. - Sie
 
 </div>
 <div class="flex-child-2 center">
-![Quiz](img/quiz_on_keyboard.jpg" [_Quelle: Pixabay_](https://pixabay.com/illustrations/quiz-exam-questionnaire-2137664/)")<!-- style="max-width: 450px; width: 130%; margin-left: -120px; margin-top:80px;" -->
+![Quiz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/quiz_on_keyboard.jpg" [_Quelle: Pixabay_](https://pixabay.com/illustrations/quiz-exam-questionnaire-2137664/)")<!-- style="max-width: 450px; width: 130%; margin-left: -120px; margin-top:80px;" -->
 
 </div>
 </section>
@@ -602,7 +602,7 @@ Es unbedingt ein durchgehender Anschlag und ein Nachschiebeholz zu verwenden.
 
 <center> 
 
-![Fräswerkzeuge_Werkstückführung](img/fraeswerkzeuge_werkstueckfuehrung.png "_Quelle: BGHM_")<!-- style="max-width: 800px; width: 200%;margin-left: -20px; margin-top:20px;" -->
+![Fräswerkzeuge_Werkstückführung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fraeswerkzeuge_werkstueckfuehrung.png "_Quelle: BGHM_")<!-- style="max-width: 800px; width: 200%;margin-left: -20px; margin-top:20px;" -->
 
 </center> 
 
