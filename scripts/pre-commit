@@ -105,6 +105,7 @@ def main():
     print(f"🔗 Converting relative image links in {len(course_files)} staged course file(s)...")
     converted_count = 0
     has_missing_links = False
+    has_tag_warnings = False
 
     for filepath in course_files:
         conversion_result = convert_links(filepath, REPO_ROOT)
@@ -119,7 +120,14 @@ def main():
             for mp in conversion_result.missing_paths:
                 print(f"   ❌ Missing image '{mp}' in {filepath.relative_to(REPO_ROOT)}")
 
-    if converted_count == 0 and not has_missing_links:
+        if conversion_result.tag_url_warnings:
+            has_tag_warnings = True
+            for tw in conversion_result.tag_url_warnings:
+                print(f"   ⚠️  Tag-based URL in {filepath.relative_to(REPO_ROOT)}:")
+                print(f"       {tw}")
+                print(f"       Replace 'refs/tags/…' with 'refs/heads/main'")
+
+    if converted_count == 0 and not has_missing_links and not has_tag_warnings:
         print("   (no relative links found)")
     elif converted_count > 0:
         print(f"   {converted_count} file(s) updated and re-staged")
@@ -133,6 +141,18 @@ def main():
         print("\nTo bypass this check (NOT recommended):")
         print("  git commit --no-verify")
         sys.exit(1)
+
+    if has_tag_warnings:
+        print("\n" + "=" * 70)
+        print("⚠️  WARNING – tag-based stylesheet URL(s) found in YAML header(s)")
+        print("=" * 70)
+        print("\nThe link: (or logo:/icon:) field(s) above point to a refs/tags/ snapshot.")
+        print("This means the asset will not update when the course is republished.")
+        print("Replace 'refs/tags/<tag>' with 'refs/heads/main' in the URL(s).")
+        print("\nExample fix:")
+        print("  Before: link: https://raw.githubusercontent.com/.../refs/tags/<tag>/courses/style.css")
+        print("  After:  link: https://raw.githubusercontent.com/.../refs/heads/main/courses/style.css")
+        print("\nCommit allowed, but please fix these warnings.")
 
     # ── Step 2: Validate YAML headers ────────────────────────────────────
     print(f"\n🔍 Validating {len(course_files)} staged course file(s)...")
@@ -163,12 +183,13 @@ def main():
         print("\nTo bypass this check (NOT recommended):")
         print("  git commit --no-verify")
         sys.exit(1)
-    elif has_warnings:
+    elif has_warnings or has_tag_warnings:
         print("\n" + "="*70)
         print("⚠️  COMMIT ALLOWED - But warnings found")
         print("="*70)
         print("\nConsider fixing warnings before committing.")
-        print("See: docs/YAML_VALIDATION_GUIDE.md")
+        if has_warnings:
+            print("See: docs/YAML_VALIDATION_GUIDE.md")
         sys.exit(0)
     else:
         print("\n✅ All staged course files validated successfully")

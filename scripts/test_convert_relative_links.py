@@ -22,6 +22,9 @@ from convert_relative_links import (
     ConversionResult,
     RAW_BASE_URL,
     REPO_ROOT,
+    _OUR_RAW_TAGS_PREFIX,
+    _find_tag_url_warnings_in_yaml,
+    YAML_IMAGE_FIELDS,
 )
 
 
@@ -432,6 +435,173 @@ logo: img/exists.png
         cleanup(repo_root)
 
 
+# ── link: field tests ─────────────────────────────────────────────────────
+
+
+def test_yaml_image_fields_includes_link():
+    """YAML_IMAGE_FIELDS includes 'link' so stylesheet paths are handled."""
+    assert "link" in YAML_IMAGE_FIELDS, \
+        f"Expected 'link' in YAML_IMAGE_FIELDS, got: {YAML_IMAGE_FIELDS}"
+    print("✓ test_yaml_image_fields_includes_link passed")
+
+
+def test_convert_yaml_header_link_relative():
+    """convert_yaml_header converts a relative link: value."""
+    yaml_block = "\nauthor: Test\nlink: style.css\n"
+    result = convert_yaml_header(yaml_block, "courses")
+    expected = f"link: {RAW_BASE_URL}/courses/style.css"
+    assert expected in result, f"Expected '{expected}' in:\n{result}"
+    print("✓ test_convert_yaml_header_link_relative passed")
+
+
+def test_convert_yaml_header_link_dot_relative():
+    """convert_yaml_header converts a './style.css' link: value."""
+    yaml_block = "\nauthor: Test\nlink: ./style.css\n"
+    result = convert_yaml_header(yaml_block, "courses")
+    expected = f"link: {RAW_BASE_URL}/courses/style.css"
+    assert expected in result, f"Expected '{expected}' in:\n{result}"
+    print("✓ test_convert_yaml_header_link_dot_relative passed")
+
+
+def test_convert_yaml_header_link_already_absolute_heads():
+    """convert_yaml_header leaves refs/heads/main link: values unchanged."""
+    abs_url = f"{RAW_BASE_URL}/courses/style.css"
+    yaml_block = f"\nauthor: Test\nlink: {abs_url}\n"
+    result = convert_yaml_header(yaml_block, "courses")
+    assert result == yaml_block, "Absolute refs/heads link should not be modified"
+    print("✓ test_convert_yaml_header_link_already_absolute_heads passed")
+
+
+def test_convert_file_converts_relative_link_field():
+    """convert_file converts a relative link: stylesheet path."""
+    content = """\
+<!--
+author: Test Author
+version: 0.1.0
+link: style.css
+-->
+# Course
+"""
+    filepath, repo_root = make_course_file(content)
+    # create the stylesheet so existence check passes
+    (filepath.parent / "style.css").write_bytes(b"body{}")
+    try:
+        result = convert_file(filepath, repo_root)
+        assert result.modified, "File with relative link: should be modified"
+        written = filepath.read_text(encoding="utf-8")
+        assert f"link: {RAW_BASE_URL}/courses/style.css" in written, \
+            f"link: not converted:\n{written}"
+        assert result.missing_paths == [], \
+            f"No missing paths expected, got: {result.missing_paths}"
+        print("✓ test_convert_file_converts_relative_link_field passed")
+    finally:
+        cleanup(repo_root)
+
+
+# ── Tag-URL warning tests ──────────────────────────────────────────────────
+
+
+def test_find_tag_url_warnings_detects_tag_url():
+    """_find_tag_url_warnings_in_yaml detects a refs/tags/ link: URL."""
+    tag_url = f"{_OUR_RAW_TAGS_PREFIX}somecourse_v0.1.2/courses/style.css"
+    yaml_block = f"\nauthor: Test\nlink: {tag_url}\n"
+    warnings = _find_tag_url_warnings_in_yaml(yaml_block)
+    assert tag_url in warnings, f"Expected tag URL in warnings, got: {warnings}"
+    print("✓ test_find_tag_url_warnings_detects_tag_url passed")
+
+
+def test_find_tag_url_warnings_no_warning_for_heads_url():
+    """_find_tag_url_warnings_in_yaml does not warn for a refs/heads/main URL."""
+    heads_url = f"{RAW_BASE_URL}/courses/style.css"
+    yaml_block = f"\nauthor: Test\nlink: {heads_url}\n"
+    warnings = _find_tag_url_warnings_in_yaml(yaml_block)
+    assert warnings == [], f"No warning expected for refs/heads URL, got: {warnings}"
+    print("✓ test_find_tag_url_warnings_no_warning_for_heads_url passed")
+
+
+def test_find_tag_url_warnings_no_warning_for_relative():
+    """_find_tag_url_warnings_in_yaml does not warn for relative paths."""
+    yaml_block = "\nauthor: Test\nlink: style.css\n"
+    warnings = _find_tag_url_warnings_in_yaml(yaml_block)
+    assert warnings == [], f"No warning expected for relative path, got: {warnings}"
+    print("✓ test_find_tag_url_warnings_no_warning_for_relative passed")
+
+
+def test_find_tag_url_warnings_no_warning_for_other_repo():
+    """_find_tag_url_warnings_in_yaml does not warn for tag URLs from other repos."""
+    other_repo_tag_url = "https://raw.githubusercontent.com/other-org/other-repo/refs/tags/v1.0/style.css"
+    yaml_block = f"\nauthor: Test\nlink: {other_repo_tag_url}\n"
+    warnings = _find_tag_url_warnings_in_yaml(yaml_block)
+    assert warnings == [], \
+        f"No warning expected for other-repo tag URL, got: {warnings}"
+    print("✓ test_find_tag_url_warnings_no_warning_for_other_repo passed")
+
+
+def test_convert_file_tag_url_warning_in_result():
+    """convert_file populates tag_url_warnings for refs/tags/ link: URLs."""
+    tag_url = f"{_OUR_RAW_TAGS_PREFIX}somecourse_v0.1.2/courses/style.css"
+    content = f"""\
+<!--
+author: Test Author
+version: 0.1.0
+link: {tag_url}
+-->
+# Course
+"""
+    filepath, repo_root = make_course_file(content)
+    try:
+        result = convert_file(filepath, repo_root)
+        assert tag_url in result.tag_url_warnings, \
+            f"Expected tag URL in tag_url_warnings, got: {result.tag_url_warnings}"
+        # tag-based URLs should NOT be auto-converted (user must fix manually)
+        assert not result.modified, "File with tag-based URL should not be auto-modified"
+        print("✓ test_convert_file_tag_url_warning_in_result passed")
+    finally:
+        cleanup(repo_root)
+
+
+def test_convert_file_no_tag_warning_for_heads_url():
+    """convert_file does not warn for refs/heads/main link: URLs."""
+    heads_url = f"{RAW_BASE_URL}/courses/style.css"
+    content = f"""\
+<!--
+author: Test Author
+version: 0.1.0
+link: {heads_url}
+-->
+# Course
+"""
+    filepath, repo_root = make_course_file(content)
+    try:
+        result = convert_file(filepath, repo_root)
+        assert result.tag_url_warnings == [], \
+            f"No tag warning expected, got: {result.tag_url_warnings}"
+        print("✓ test_convert_file_no_tag_warning_for_heads_url passed")
+    finally:
+        cleanup(repo_root)
+
+
+def test_convert_file_tag_warning_for_logo_field():
+    """convert_file warns when logo: uses a refs/tags/ URL from our repo."""
+    tag_url = f"{_OUR_RAW_TAGS_PREFIX}somecourse_v0.1.2/courses/logo.png"
+    content = f"""\
+<!--
+author: Test Author
+version: 0.1.0
+logo: {tag_url}
+-->
+# Course
+"""
+    filepath, repo_root = make_course_file(content)
+    try:
+        result = convert_file(filepath, repo_root)
+        assert tag_url in result.tag_url_warnings, \
+            f"Expected tag URL warning for logo: field, got: {result.tag_url_warnings}"
+        print("✓ test_convert_file_tag_warning_for_logo_field passed")
+    finally:
+        cleanup(repo_root)
+
+
 def run_all_tests():
     """Run all tests."""
     print("\n" + "=" * 60)
@@ -464,6 +634,20 @@ def run_all_tests():
         test_convert_file_detects_missing_html_img,
         test_convert_file_absolute_urls_not_existence_checked,
         test_convert_file_mixed_existing_and_missing,
+        # link: field tests
+        test_yaml_image_fields_includes_link,
+        test_convert_yaml_header_link_relative,
+        test_convert_yaml_header_link_dot_relative,
+        test_convert_yaml_header_link_already_absolute_heads,
+        test_convert_file_converts_relative_link_field,
+        # tag-URL warning tests
+        test_find_tag_url_warnings_detects_tag_url,
+        test_find_tag_url_warnings_no_warning_for_heads_url,
+        test_find_tag_url_warnings_no_warning_for_relative,
+        test_find_tag_url_warnings_no_warning_for_other_repo,
+        test_convert_file_tag_url_warning_in_result,
+        test_convert_file_no_tag_warning_for_heads_url,
+        test_convert_file_tag_warning_for_logo_field,
     ]
 
     failed = []

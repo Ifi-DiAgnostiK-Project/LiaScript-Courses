@@ -1,17 +1,21 @@
 #!/usr/bin/env python3
 """
-Convert relative image links in course markdown files to absolute URLs.
+Convert relative image/stylesheet links in course markdown files to absolute URLs.
 
-Relative image paths in LiaScript courses are problematic when courses are
-served via tag-based URLs: LiaScript resolves the relative paths against the
-tag URL, which includes the tag name and makes copying/reusing links fragile.
+Relative paths in LiaScript courses are problematic when courses are served via
+tag-based URLs: LiaScript resolves relative paths against the tag URL, which
+includes the tag name and makes copying/reusing links fragile.
 
-This script converts all relative image paths to absolute raw.githubusercontent.com
-URLs that always point to the main branch (refs/heads/main), so images load
+This script converts all relative paths to absolute raw.githubusercontent.com
+URLs that always point to the main branch (refs/heads/main), so assets load
 correctly regardless of which URL the course is accessed through.
 
+It also warns when a YAML header field contains an absolute URL that still
+points to a ``refs/tags/…`` snapshot of this repository, which is equally
+fragile.
+
 Converted link types:
-  - YAML header fields:  logo:, icon:
+  - YAML header fields:  logo:, icon:, link:
   - Markdown images:     ![alt](relative/path)
   - HTML img tags:       <img src="relative/path">
 
@@ -41,8 +45,17 @@ RAW_BASE_URL = (
     f"/refs/heads/{BRANCH}"
 )
 
-# YAML fields that contain image paths
-YAML_IMAGE_FIELDS = ("logo", "icon")
+# YAML fields that contain image or stylesheet paths (images: logo, icon;
+# stylesheet: link) – converted from relative to absolute refs/heads/main
+# URLs and checked for tag-based URL warnings.
+YAML_IMAGE_FIELDS = ("logo", "icon", "link")
+
+# Prefix used to detect tag-based URLs pointing to this repository.
+# Any YAML field value starting with this prefix uses a tag-based URL that
+# should be updated to point to refs/heads/main instead.
+_OUR_RAW_TAGS_PREFIX = (
+    f"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/refs/tags/"
+)
 
 # Compiled regex patterns shared between conversion and existence checking
 # ── Markdown: ![alt](URL optional-title/whitespace)
@@ -110,10 +123,15 @@ class ConversionResult:
         modified: True if the file was modified on disk.
         missing_paths: Relative paths that were referenced in the file but do
                        not exist in the repository.  Empty list = all OK.
+        tag_url_warnings: Absolute URLs in YAML fields that point to a
+                          ``refs/tags/…`` snapshot of this repository.  These
+                          should be updated to point to ``refs/heads/main``
+                          instead.  Empty list = all OK.
     """
 
     modified: bool
     missing_paths: list[str] = field(default_factory=list)
+    tag_url_warnings: list[str] = field(default_factory=list)
 
     def __bool__(self) -> bool:
         """Allow ``if convert_file(...)`` to test for modification."""
@@ -236,6 +254,29 @@ def _find_relative_paths_in_yaml(
     return results
 
 
+def _find_tag_url_warnings_in_yaml(yaml_block: str) -> list[str]:
+    """
+    Return absolute URLs in YAML image/link fields that point to a
+    ``refs/tags/…`` snapshot of this repository.
+
+    Such URLs should be updated to point to ``refs/heads/main`` instead so
+    that the asset is always served from the latest version of the main branch.
+
+    Returns:
+        List of tag-based URL strings found in the header.
+    """
+    field_pattern = re.compile(
+        r"^\s*(?:" + "|".join(YAML_IMAGE_FIELDS) + r"):\s+(\S+)\s*$",
+        re.MULTILINE,
+    )
+    warnings = []
+    for m in field_pattern.finditer(yaml_block):
+        value = m.group(1)
+        if value.startswith(_OUR_RAW_TAGS_PREFIX):
+            warnings.append(value)
+    return warnings
+
+
 def _find_relative_paths_in_body(
     body: str, course_dir: str
 ) -> list[tuple[str, str]]:
@@ -318,6 +359,9 @@ def convert_file(filepath: Path, repo_root: Path = REPO_ROOT) -> "ConversionResu
         if not (repo_root / resolved).exists():
             missing_paths.append(orig_path)
 
+    # ── Check for tag-based URLs that should point to refs/heads/main ──────
+    tag_url_warnings = _find_tag_url_warnings_in_yaml(yaml_block)
+
     # ── Convert YAML header ────────────────────────────────────────────────
     new_yaml_block = convert_yaml_header(yaml_block, course_dir)
 
@@ -330,7 +374,11 @@ def convert_file(filepath: Path, repo_root: Path = REPO_ROOT) -> "ConversionResu
     if modified:
         filepath.write_text(new_content, encoding="utf-8")
 
-    return ConversionResult(modified=modified, missing_paths=missing_paths)
+    return ConversionResult(
+        modified=modified,
+        missing_paths=missing_paths,
+        tag_url_warnings=tag_url_warnings,
+    )
 
 
 def convert_all_courses(courses_dir: Path = None) -> list[Path]:
@@ -390,6 +438,7 @@ def main():
 
     modified_count = 0
     missing_count = 0
+    tag_warning_count = 0
     for filepath in targets:
         if not filepath.exists():
             print(f"⚠️  File not found: {filepath}")
@@ -415,6 +464,11 @@ def main():
             for mp in result.missing_paths:
                 print(f"  ❌ Missing image '{mp}' referenced in {filepath}")
                 missing_count += 1
+            for tw in result.tag_url_warnings:
+                print(f"  ⚠️  Tag-based URL in {filepath}:")
+                print(f"      {tw}")
+                print(f"      Replace 'refs/tags/…' with 'refs/heads/main'")
+                tag_warning_count += 1
         else:
             result = convert_file(filepath)
             if result.modified:
@@ -423,13 +477,21 @@ def main():
             for mp in result.missing_paths:
                 print(f"  ❌ Missing image '{mp}' referenced in {filepath}")
                 missing_count += 1
+            for tw in result.tag_url_warnings:
+                print(f"  ⚠️  Tag-based URL in {filepath}:")
+                print(f"      {tw}")
+                print(f"      Replace 'refs/tags/…' with 'refs/heads/main'")
+                tag_warning_count += 1
 
-    if modified_count == 0 and missing_count == 0:
+    if modified_count == 0 and missing_count == 0 and tag_warning_count == 0:
         print("✅ No relative image links found – all links are already absolute.")
     else:
         if modified_count:
             action = "would be" if args.dry_run else "were"
             print(f"\n✅ {modified_count} file(s) {action} updated.")
+        if tag_warning_count:
+            print(f"\n⚠️  {tag_warning_count} tag-based URL(s) found.")
+            print("   Update them to point to refs/heads/main.")
         if missing_count:
             print(f"\n❌ {missing_count} missing image path(s) found.")
             print("   Fix the typos above before committing.")
