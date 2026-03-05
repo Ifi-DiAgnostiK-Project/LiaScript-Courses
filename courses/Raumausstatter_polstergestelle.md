@@ -4,7 +4,7 @@ author: Hilke Domsch; Florian Riefling
 
 email:    hilke.domsch@gkz-ev.de
 
-version: 0.1.11
+version: 0.1.12
 
 language: de
 
@@ -13,13 +13,13 @@ narrator: Deutsch Male
 edit: true
 date: 2026-01-05
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo: img/armrest_pixabay.jpg
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/armrest_pixabay.jpg
 
 attribute: https://pixabay.com/de/photos/armlehne-sessel-polsterer-stoff-647300/
 
 comment:  Holzverarbeitung im Raumausstatter-Handwerk (Polsterei)
 
-link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/raumausstatter_polstergestelle_v0.1.2/courses/style.css
+link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
 
 import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
         https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
@@ -78,7 +78,7 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 <br> <br>
 <center> 
 
-![Polstergestelle](img/polstersessel_halfed.webp "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 550px; width: 100%" -->
+![Polstergestelle](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/polstersessel_halfed.webp "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 550px; width: 100%" -->
 
 </center> 
 
@@ -145,7 +145,7 @@ Welche Holzarten und Holzverbundarten werden typischerweise für ~~Blindholzgest
 </div>
 <div class="flex-child">
 
-![Blindholzgestell](img/build_eckbank.webp "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 350px; width: 100%; margin-left: 30px; margin-top:100px;" -->
+![Blindholzgestell](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/build_eckbank.webp "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 350px; width: 100%; margin-left: 30px; margin-top:100px;" -->
 
 </div>
 </section> 
@@ -172,7 +172,7 @@ Welche Holzarten werden typischerweise für ~~Vollholzgestelle~~ verwendet?
 </div>
 <div class="flex-child">
 
-![Vollholzgestell](img/polstergestell_production.webp "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 350px; width: 100%; margin-left: 30px; margin-top:100px;" -->
+![Vollholzgestell](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/polstergestell_production.webp "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 350px; width: 100%; margin-left: 30px; margin-top:100px;" -->
 
 </div>
 </section> 
@@ -199,7 +199,7 @@ Aus welchen Gestellteilen besteht ein Vollholzgestell?
 </div>
 <div class="flex-child">
 
-![Referenz_Sudenn](img/polstering.png "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 250px; width: 100%; margin-left: 30px; margin-top:100px;" -->
+![Referenz_Sudenn](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/polstering.png "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 250px; width: 100%; margin-left: 30px; margin-top:100px;" -->
 
 </div>
 </section> 
@@ -233,7 +233,7 @@ data-solution-button="off"
 <div class="flex-child" style="margin-top:100px;">
 
 
-![Vollholz:Sudenn](img/polstergestell_numbers.png "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 550px; width: 100%; margin-left:-30px; margin-top:-20px;" -->
+![Vollholz:Sudenn](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/polstergestell_numbers.png "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 550px; width: 100%; margin-left:-30px; margin-top:-20px;" -->
 
 </div>
 </section>
@@ -279,7 +279,7 @@ Welche Verbindungen können beim Polstergestellbau zum Einsatz kommen?
 </div>
 <div class="flex-child">
 
-![Schlitz_Zapfen_Verbindung](img/wood_connection_wire_frame.jpg "_Quelle: HWK Dresden, Anne-Kristin Schmidt_")<!-- style="max-width: 250px; width: 100%; margin-left: 30px; margin-top:20px;" -->
+![Schlitz_Zapfen_Verbindung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/wood_connection_wire_frame.jpg "_Quelle: HWK Dresden, Anne-Kristin Schmidt_")<!-- style="max-width: 250px; width: 100%; margin-left: 30px; margin-top:20px;" -->
 
 </div>
 </section> 
@@ -384,7 +384,7 @@ Welche Oberflächenbehandlungen sind bei ~~Sichtholzgestellen~~ üblich?
 <div class="flex-child">
 
 
-![Referenz_Sudenn](img/polstergestell_baroque.webp "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 550px; width: 100%; margin-left:-30px; margin-top:100px;" -->
+![Referenz_Sudenn](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/polstergestell_baroque.webp "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 550px; width: 100%; margin-left:-30px; margin-top:100px;" -->
 
 
 </div>
@@ -433,7 +433,7 @@ Welche vier Aussagen treffen zu?
 <div class="flex-child">
 
 
-![Pinsel_Acryllack](img/brush_and_paint.jpg "[_Quelle: Pixabay, MIH83_](https://pixabay.com/photos/paint-brush-paint-can-paint-can-1198172/)")<!-- style="max-width: 550px; width: 100%; margin-left: 0px; margin-top:50px;" -->
+![Pinsel_Acryllack](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/brush_and_paint.jpg "[_Quelle: Pixabay, MIH83_](https://pixabay.com/photos/paint-brush-paint-can-paint-can-1198172/)")<!-- style="max-width: 550px; width: 100%; margin-left: 0px; margin-top:50px;" -->
 
 </div>
 </section> 
@@ -460,7 +460,7 @@ Welche vier Aussagen treffen zu?
 <div class="flex-child">
 
 
-![Pinsel mit Farbe](img/paint_w_brush.jpg "[_Quelle: Pixabay, Carola68_](https://pixabay.com/de/photos/pinsel-lackieren-dose-lackdose-4974233/)")<!-- style="max-width: 550px; width: 100%; margin-left: 10px; margin-top:80px;" -->
+![Pinsel mit Farbe](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/paint_w_brush.jpg "[_Quelle: Pixabay, Carola68_](https://pixabay.com/de/photos/pinsel-lackieren-dose-lackdose-4974233/)")<!-- style="max-width: 550px; width: 100%; margin-left: 10px; margin-top:80px;" -->
 
 </div>
 </section> 
@@ -487,7 +487,7 @@ Welche vier Aussagen treffen zu?
 </div>
 <div class="flex-child">
 
-![Hartwachs](img/Hartwachs_Holz_FR.JPG "Hartwachs, Bild: Florian Riefling, HWK")<!-- style="max-width: 375px; width: 100%; margin-top:30px;" -->
+![Hartwachs](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Hartwachs_Holz_FR.JPG "Hartwachs, Bild: Florian Riefling, HWK")<!-- style="max-width: 375px; width: 100%; margin-top:30px;" -->
 
 </div>
 </section> 
