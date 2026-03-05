@@ -2,14 +2,14 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.2.1
+version:  0.2.2
 language: de
 narrator: Deutsch Male
 
 edit: true
 date: 2026-02-13
 
-icon: img/wimmelbild_werkbank_tischler_kram.jpg
+icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/wimmelbild_werkbank_tischler_kram.jpg
 logo: https://img.freepik.com/free-photo/circular-saw-miter-saw-photographed-workshop-atmosphere_169016-13187.jpg
 
 comment:  TSM 2 Abschlusstest
@@ -78,7 +78,7 @@ Testen Sie Ihr Wissen zum sicheren Umgang mit Holzbearbeitungsmaschinen!
 
 <center> 
 
-![Tischfaese_geschweiftes_Werkstueck](img/tischler_fraese_with_security_measures.jpg" [_Quelle: Pixabay, RUWI-Maschinenbau_](https://pixabay.com/photos/milling-machine-6827540/)")<!-- style="max-width: 500px; width: 130%;" -->
+![Tischfaese_geschweiftes_Werkstueck](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/tischler_fraese_with_security_measures.jpg" [_Quelle: Pixabay, RUWI-Maschinenbau_](https://pixabay.com/photos/milling-machine-6827540/)")<!-- style="max-width: 500px; width: 130%;" -->
 
 </center> 
 
@@ -122,7 +122,7 @@ Typische Arbeitsunfälle drehen sich meist um eine Handvoll immer wiederkehrende
 
 <center> 
 
-![BGHM](a82bf423aa23078432ee9633d4b165047620f0ac.svg "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 140%;margin-left: -50px; margin-top:20px;" -->
+![BGHM](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bghm.svg "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 140%;margin-left: -50px; margin-top:20px;" -->
 
 </center> 
 
@@ -150,7 +150,7 @@ Ein Arbeitsunfall liegt vor, wenn eine versicherte Person bei einer betriebliche
 </div>
 <div class="flex-child-2 center">
 
-![Fragezeichen](img/fragezeichen2.jpg "[_Quelle: Pixabay, Peggy+Marco_](https://pixabay.com/de/photos/fragezeichen-symbol-charakter-2309040/)")<!-- style="max-width: 150px; width: 120%;margin-left: -10px; margin-top:0px;" -->
+![Fragezeichen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fragezeichen2.jpg "[_Quelle: Pixabay, Peggy+Marco_](https://pixabay.com/de/photos/fragezeichen-symbol-charakter-2309040/)")<!-- style="max-width: 150px; width: 120%;margin-left: -10px; margin-top:0px;" -->
 
 </div>
 </section>
@@ -183,7 +183,7 @@ Ein Wegeunfall liegt vor, wenn ein körperschädigendes Unfallereignis auf einem
 </div>
 <div class="flex-child-2 center">
 
-![Unfall](img/man_ueberfaehrt_fahradfahrer_mit_seinem_benz.jpg "[_Quelle: Freepik, prostooleh_](https://www.freepik.com/free-photo/woman-crashed-into-car_12036475.htm#fromView=search&page=1&position=1&uuid=6d03d0e6-5c50-439c-b156-b897d5b9b1e3&query=Unfall)")<!-- style="max-width: 350px; width: 110%;margin-left: -10px; margin-top:0px;" -->
+![Unfall](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/man_ueberfaehrt_fahradfahrer_mit_seinem_benz.jpg "[_Quelle: Freepik, prostooleh_](https://www.freepik.com/free-photo/woman-crashed-into-car_12036475.htm#fromView=search&page=1&position=1&uuid=6d03d0e6-5c50-439c-b156-b897d5b9b1e3&query=Unfall)")<!-- style="max-width: 350px; width: 110%;margin-left: -10px; margin-top:0px;" -->
 
 </div>
 </section>
@@ -213,7 +213,7 @@ Die Maschine darf nicht verwendet werden; der Vorgesetzte ist zu informieren (M�
 </div>
 <div class="flex-child-2 center">
 
-![Kabelbruch](img/kabel_is_this_bad_advice.jpg "[_Quelle: Freepik, macrovector_](https://www.freepik.com/free-vector/three-damaged-repaired-electric-cables-realistic-set-isolated-vector-illustration_32471950.htm#fromView=search&page=1&position=3&uuid=da96b13a-4873-42d8-8385-792eb218f027&query=Kabelbruch)")<!-- style="max-width: 350px; width: 110%;margin-left: -10px; margin-top:0px;" -->
+![Kabelbruch](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/kabel_is_this_bad_advice.jpg "[_Quelle: Freepik, macrovector_](https://www.freepik.com/free-vector/three-damaged-repaired-electric-cables-realistic-set-isolated-vector-illustration_32471950.htm#fromView=search&page=1&position=3&uuid=da96b13a-4873-42d8-8385-792eb218f027&query=Kabelbruch)")<!-- style="max-width: 350px; width: 110%;margin-left: -10px; margin-top:0px;" -->
 
 </div>
 </section>
@@ -266,7 +266,7 @@ Die Lösung lautet: 2 m. - Siehe dazu das TSM-Lehrbuch, S. 166.
 </div>
 <div class="flex-child-2 center">
 
-![Mann auf Leiter](img/arbeitssicherheit_mit_mauern_und_leiter.jpg" [_Quelle: Freepik, gpointstudio_](https://www.freepik.com/free-photo/high-ladder-as-support-carpenter-worker_13250888.htm#from_element=cross_selling__photo)")<!-- style="max-width: 500px; width: 130%; margin-left: -120px; margin-top:20px;" -->
+![Mann auf Leiter](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/arbeitssicherheit_mit_mauern_und_leiter.jpg" [_Quelle: Freepik, gpointstudio_](https://www.freepik.com/free-photo/high-ladder-as-support-carpenter-worker_13250888.htm#from_element=cross_selling__photo)")<!-- style="max-width: 500px; width: 130%; margin-left: -120px; margin-top:20px;" -->
 
 
 </div>
@@ -292,7 +292,7 @@ data-solution-button="off"
 
 <center>
 
-![Mann in großer Höhe](img/franzose_auf_leiter.jpg" [_Quelle: Freepik, serhii-bobyk_](https://www.freepik.com/free-photo/athletic-builder-with-bare-torso-sitting-ladder-high-man-leaning-brick-wall-looking-away-extreme-building-hot-weather-crane-tv-tower-background_16317499.htm#fromView=search&page=1&position=31&uuid=87265676-1149-4e11-a718-de85967ab8bd&query=sicherung+h%C3%B6he)")<!-- style="max-width: 350px; width: 100%; margin-top:20px;" -->
+![Mann in großer Höhe](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/franzose_auf_leiter.jpg" [_Quelle: Freepik, serhii-bobyk_](https://www.freepik.com/free-photo/athletic-builder-with-bare-torso-sitting-ladder-high-man-leaning-brick-wall-looking-away-extreme-building-hot-weather-crane-tv-tower-background_16317499.htm#fromView=search&page=1&position=31&uuid=87265676-1149-4e11-a718-de85967ab8bd&query=sicherung+h%C3%B6he)")<!-- style="max-width: 350px; width: 100%; margin-top:20px;" -->
 
 </center>
 
@@ -326,7 +326,7 @@ Sicherheit im Umgang mit handgeführten Maschinen beruht auf Übung, Aufmerksamk
 
 <center> 
 
-![Tischler_an_Bandsaege](img/carpenter-working-with-sawing-machine.jpg" [_Quelle: Freepik, postooleh_](https://www.freepik.com/free-photo/professional-carpenter-working-with-sawing-machine_8819639.htm#fromView=search&page=1&position=6&uuid=c6171409-8c97-44bd-bb3d-d9cb55127139&query=Tischfr%C3%A4schmaschine)")<!-- style="max-width: 450px; width: 100%" -->
+![Tischler_an_Bandsaege](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/carpenter-working-with-sawing-machine.jpg" [_Quelle: Freepik, postooleh_](https://www.freepik.com/free-photo/professional-carpenter-working-with-sawing-machine_8819639.htm#fromView=search&page=1&position=6&uuid=c6171409-8c97-44bd-bb3d-d9cb55127139&query=Tischfr%C3%A4schmaschine)")<!-- style="max-width: 450px; width: 100%" -->
 
 </center> 
 
@@ -354,7 +354,7 @@ Als PSA sind mindestens Sicherheitsschuhe, Schutzbrille, Gehörschutz und Arbeit
 </div>
 <div class="flex-child-2 center">
 
-![Kettensäge](img/stihl_kettensaege.png "[_Quelle: Freepik, user18526052_](https://www.freepik.com/free-photo/outdoor-closeup-shot-chainsaw-stump-wood_15755904.htm#fromView=search&page=1&position=0&uuid=6b5360bf-881c-4d34-af0c-b7d0d9cb6dca&query=Kettens%C3%A4ge)")<!-- style="max-width: 350px; width: 110%;margin-left: -10px; margin-top:0px;" -->
+![Kettensäge](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/stihl_kettensaege.png "[_Quelle: Freepik, user18526052_](https://www.freepik.com/free-photo/outdoor-closeup-shot-chainsaw-stump-wood_15755904.htm#fromView=search&page=1&position=0&uuid=6b5360bf-881c-4d34-af0c-b7d0d9cb6dca&query=Kettens%C3%A4ge)")<!-- style="max-width: 350px; width: 110%;margin-left: -10px; margin-top:0px;" -->
 
 </div>
 </section>
@@ -388,7 +388,7 @@ Es ist eine rückschlagarme Sägekette mit Spandickenbegrenzung zu verwenden. - 
 </div>
 <div class="flex-child-2 center">
 
-![Saegekette](img/kettensaegekette_mit_maass.png "_Quelle: BGHM_")<!-- style="max-width: 350px; width: 110%;margin-left: -10px; margin-top:0px;" -->
+![Saegekette](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/kettensaegekette_mit_maass.png "_Quelle: BGHM_")<!-- style="max-width: 350px; width: 110%;margin-left: -10px; margin-top:0px;" -->
 
 </div>
 </section>
@@ -426,7 +426,7 @@ $n$  wird in dieser Formel mit  $U/min$  angegeben.
 </div>
 <div class="flex-child-2 center">
 
-![Berechnung](img/taschenrechner_und_stift.jpg "[_Quelle: Freepik, pvproduction_](https://www.freepik.com/free-photo/calculator-pencil-closeup-blurred-background_33650990.htm#fromView=search&page=1&position=1&uuid=2efd8143-9120-47f0-80f4-70258795eac9&query=Berechnung)")<!-- style="max-width: 350px; width: 110%;margin-left: -10px; margin-top:0px;" -->
+![Berechnung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/taschenrechner_und_stift.jpg "[_Quelle: Freepik, pvproduction_](https://www.freepik.com/free-photo/calculator-pencil-closeup-blurred-background_33650990.htm#fromView=search&page=1&position=1&uuid=2efd8143-9120-47f0-80f4-70258795eac9&query=Berechnung)")<!-- style="max-width: 350px; width: 110%;margin-left: -10px; margin-top:0px;" -->
 
 
 </div>
@@ -460,7 +460,7 @@ Beim Einsetzsägen wird der Spaltkeil entfernt. - Siehe TSM-Lehrgangsbegleitheft
 </div>
 <div class="flex-child-2 center">
 
-![Tischler_an_Kreissäge](img/einfach_mal_nachmessen_am_holz.jpg "[_Quelle: Freepik, prostooleh_](https://www.freepik.com/free-photo/man-workshop-with-wood_8819629.htm#from_element=cross_selling__photo)")<!-- style="max-width: 400px; width: 120%;margin-left: -80px; margin-top:30px;" -->
+![Tischler_an_Kreissäge](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/einfach_mal_nachmessen_am_holz.jpg "[_Quelle: Freepik, prostooleh_](https://www.freepik.com/free-photo/man-workshop-with-wood_8819629.htm#from_element=cross_selling__photo)")<!-- style="max-width: 400px; width: 120%;margin-left: -80px; margin-top:30px;" -->
 </div>
 </section>
 
@@ -532,7 +532,7 @@ Damit ergeben sich folgende Rechnungsschritte:
 </div>
 <div class="flex-child-2 center">
 
-![Arbeiter](img/tischler_werkzeug_note_taker_ai_two_persons.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/men-working-cutting-mdf-board_25625244.htm#fromView=search&page=1&position=3&uuid=7d70c1d4-3f32-44f4-95e4-d16a2deea78e&query=handwerksrechnung)")<!-- style="max-width: 500px; width: 130%; margin-left: -120px; margin-top:20px;" -->
+![Arbeiter](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/tischler_werkzeug_note_taker_ai_two_persons.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/men-working-cutting-mdf-board_25625244.htm#fromView=search&page=1&position=3&uuid=7d70c1d4-3f32-44f4-95e4-d16a2deea78e&query=handwerksrechnung)")<!-- style="max-width: 500px; width: 130%; margin-left: -120px; margin-top:20px;" -->
 
 
 </div>
@@ -563,7 +563,7 @@ Bei Bandsägerollen mit balligen Bandagen soll das Bandsägeblatt mittig auf der
 </div>
 <div class="flex-child-2 center">
 
-![Bandsaegerolle](img/die_unterhose_vom_horst.png "_Quelle: BGHM_")<!-- style="max-width: 400px; width: 120%;margin-left: -80px; margin-top:30px;" -->
+![Bandsaegerolle](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/die_unterhose_vom_horst.png "_Quelle: BGHM_")<!-- style="max-width: 400px; width: 120%;margin-left: -80px; margin-top:30px;" -->
 </div>
 </section>
 
@@ -596,7 +596,7 @@ Das Bandsägeblatt läuft unruhig.
 </div>
 <div class="flex-child-2 center">
 
-![Fragezeichen](img/fragezeichen2.jpg "[_Quelle: Pixabay, Peggy+Marco_](https://pixabay.com/de/photos/fragezeichen-symbol-charakter-2309040/)")<!-- style="max-width: 150px; width: 120%;margin-left: -30px; margin-top:0px;" -->
+![Fragezeichen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fragezeichen2.jpg "[_Quelle: Pixabay, Peggy+Marco_](https://pixabay.com/de/photos/fragezeichen-symbol-charakter-2309040/)")<!-- style="max-width: 150px; width: 120%;margin-left: -30px; margin-top:0px;" -->
 </div>
 </section>
 
@@ -629,7 +629,7 @@ Es ist wichtig, die Sicherheitseinrichtungen (z. B. Schutzhauben, Vorschub, Ansc
 
 <center> 
 
-![Hobelmaschine](img/dickenhobel_man_in_blue_wood.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/wood-worker-his-shop-working-with-tools-equipment_75523858.htm#fromView=image_search_similar&page=7&position=37&uuid=a74d5909-470b-49f0-9ee1-7ac6366a000f&query=handarbeit+holz)")<!-- style="max-width: 500px; width: 100%;margin-left: -50px; margin-top:20px;" -->
+![Hobelmaschine](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/dickenhobel_man_in_blue_wood.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/wood-worker-his-shop-working-with-tools-equipment_75523858.htm#fromView=image_search_similar&page=7&position=37&uuid=a74d5909-470b-49f0-9ee1-7ac6366a000f&query=handarbeit+holz)")<!-- style="max-width: 500px; width: 100%;margin-left: -50px; margin-top:20px;" -->
 
 
 </center> 
@@ -663,7 +663,7 @@ Der Abnahmetisch ist zu tief eingestellt; das verursacht unregelmäßige Einschl
 </div>
 <div class="flex-child-2 center">
 
-![Tischler](img/tischler_inspiziert_seine_Latte.jpg"[_Quelle: Freepik_](https://www.freepik.com/free-photo/male-carpenter-seriously-looking-wooden-plank_3579583.htm#fromView=search&page=2&position=15&uuid=2913ae38-d9c7-4bf8-97af-12d1c8ccb3bd&query=carpenter)")<!-- style="max-width: 350px; width: 120%;margin-left: -30px; margin-top:0px;" -->
+![Tischler](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/tischler_inspiziert_seine_Latte.jpg"[_Quelle: Freepik_](https://www.freepik.com/free-photo/male-carpenter-seriously-looking-wooden-plank_3579583.htm#fromView=search&page=2&position=15&uuid=2913ae38-d9c7-4bf8-97af-12d1c8ccb3bd&query=carpenter)")<!-- style="max-width: 350px; width: 120%;margin-left: -30px; margin-top:0px;" -->
 
 </div>
 </section>
@@ -700,7 +700,7 @@ Es ist wichtig, die Sicherheitsvorkehrungen zu kennen:
 
 <center> 
 
-![Tischfraesmaschine](img/router_theatrical_block.jpg" [_Quelle: Freepik, DC Studio_](https://www.freepik.com/free-photo/joiner-using-heavy-machinery-craft-furniture_314268423.htm#fromView=search&page=1&position=5&uuid=2c99c0e3-bdc3-477b-a0ee-ef2998bd2dd8&query=wood+fr%C3%A4sen)")<!-- style="max-width: 500px; width: 120%" -->
+![Tischfraesmaschine](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/router_theatrical_block.jpg" [_Quelle: Freepik, DC Studio_](https://www.freepik.com/free-photo/joiner-using-heavy-machinery-craft-furniture_314268423.htm#fromView=search&page=1&position=5&uuid=2c99c0e3-bdc3-477b-a0ee-ef2998bd2dd8&query=wood+fr%C3%A4sen)")<!-- style="max-width: 500px; width: 120%" -->
 
 </center> 
 
@@ -711,7 +711,7 @@ Es ist wichtig, die Sicherheitsvorkehrungen zu kennen:
 
 <center>
 
-![Tischfraesmaschine](img/router_schematisch_variables.png"_Quelle: BGHM_")<!-- style="max-width: 500px; width: 160%;margin-top: 20px;;" -->
+![Tischfraesmaschine](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/router_schematisch_variables.png"_Quelle: BGHM_")<!-- style="max-width: 500px; width: 160%;margin-top: 20px;;" -->
 
 </center>
 
@@ -773,7 +773,7 @@ Die Spandickenbegrenzung zum Abweiser darf max.  [[solution]]   mm betragen.
 
 <center> 
 
-![Tischler](img/arbeitszeitbetrug_mit_sicherheitsausruestung.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/smiling-male-carpenter-wearing-safety-glasses-ear-defender-around-his-neck-using-cellphone_3579549.htm#fromView=search&page=3&position=33&uuid=2913ae38-d9c7-4bf8-97af-12d1c8ccb3bd&query=carpenter)")<!-- style="max-width: 500px; width: 120%" -->
+![Tischler](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/arbeitszeitbetrug_mit_sicherheitsausruestung.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/smiling-male-carpenter-wearing-safety-glasses-ear-defender-around-his-neck-using-cellphone_3579549.htm#fromView=search&page=3&position=33&uuid=2913ae38-d9c7-4bf8-97af-12d1c8ccb3bd&query=carpenter)")<!-- style="max-width: 500px; width: 120%" -->
 
 </center> 
 
@@ -841,7 +841,7 @@ Das Werkstück muss an der Rückschlagsicherung und vorn am Anschlag liegen. - S
 </div>
 <div class="flex-child-2 center">
 
-![Rückschlagsicherung](img/abrichte_mit_brett_und_sicherheitsdingens.png"_Quelle: BGHM_")<!-- style="max-width: 350px; width: 120%;margin-left: -30px; margin-top:0px;" -->
+![Rückschlagsicherung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/abrichte_mit_brett_und_sicherheitsdingens.png"_Quelle: BGHM_")<!-- style="max-width: 350px; width: 120%;margin-left: -30px; margin-top:0px;" -->
 
 </div>
 </section>
@@ -871,7 +871,7 @@ Die Spannlade ist zu verwenden, sobald das Werkstück in die Spannlade passt.. -
 </div>
 <div class="flex-child-2 center">
 
-![Spannlade](img/fraese_anschlaege_drei_stueck.png"_Quelle: BGHM_")<!-- style="max-width: 350px; width: 120%;margin-left: -30px; margin-top:0px;" -->
+![Spannlade](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fraese_anschlaege_drei_stueck.png"_Quelle: BGHM_")<!-- style="max-width: 350px; width: 120%;margin-left: -30px; margin-top:0px;" -->
 
 </div>
 </section>
@@ -891,7 +891,7 @@ Folgende Angaben sind bekannt:
 </div>
 <div class="flex-child-2 center">
 
-![Fraeswerkzeug](img/fraeswerkzeug_man.png" _Quelle: BGHM_")<!-- style="max-width: 500px; width: 100%; margin-left: -70px; margin-top:20px;" -->
+![Fraeswerkzeug](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fraeswerkzeug_man.png" _Quelle: BGHM_")<!-- style="max-width: 500px; width: 100%; margin-left: -70px; margin-top:20px;" -->
 
 
 
@@ -947,7 +947,7 @@ Damit ergeben sich folgende Rechnungsschritte:
 </div>
 <div class="flex-child-2 center">
 
-![Arbeiter](img/tischler_werkzeug_note_taker_ai_two_persons.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/men-working-cutting-mdf-board_25625244.htm#fromView=search&page=1&position=3&uuid=7d70c1d4-3f32-44f4-95e4-d16a2deea78e&query=handwerksrechnung)")<!-- style="max-width: 500px; width: 130%; margin-left: -120px; margin-top:20px;" -->
+![Arbeiter](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/tischler_werkzeug_note_taker_ai_two_persons.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/men-working-cutting-mdf-board_25625244.htm#fromView=search&page=1&position=3&uuid=7d70c1d4-3f32-44f4-95e4-d16a2deea78e&query=handwerksrechnung)")<!-- style="max-width: 500px; width: 130%; margin-left: -120px; margin-top:20px;" -->
 
 
 </div>
