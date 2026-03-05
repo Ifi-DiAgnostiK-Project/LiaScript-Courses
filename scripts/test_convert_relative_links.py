@@ -19,6 +19,7 @@ from convert_relative_links import (
     convert_yaml_header,
     convert_body,
     convert_file,
+    ConversionResult,
     RAW_BASE_URL,
     REPO_ROOT,
 )
@@ -264,7 +265,171 @@ logo: img/logo.png
         cleanup(repo_root)
 
 
-# ── Runner ─────────────────────────────────────────────────────────────────
+def make_course_file_with_images(content: str, image_rel_paths: list[str]) -> tuple[Path, Path]:
+    """
+    Write *content* to a temporary file and also create stub image files for
+    each relative path listed in *image_rel_paths* (relative to the course
+    file's directory, i.e. ``<tmp_repo>/courses/``).
+
+    Returns (filepath, repo_root).
+    """
+    filepath, repo_root = make_course_file(content)
+    for rel_path in image_rel_paths:
+        img_file = filepath.parent / rel_path
+        img_file.parent.mkdir(parents=True, exist_ok=True)
+        img_file.write_bytes(b"stub")  # minimal non-empty stub
+    return filepath, repo_root
+
+
+# ── Existence-checking tests ───────────────────────────────────────────────
+
+
+def test_convert_file_returns_conversion_result():
+    """convert_file returns a ConversionResult, not a plain bool."""
+    content = """\
+<!--
+author: Test Author
+version: 0.1.0
+-->
+# Course
+"""
+    filepath, repo_root = make_course_file(content)
+    try:
+        result = convert_file(filepath, repo_root)
+        assert isinstance(result, ConversionResult), \
+            f"Expected ConversionResult, got {type(result)}"
+        print("✓ test_convert_file_returns_conversion_result passed")
+    finally:
+        cleanup(repo_root)
+
+
+def test_convert_file_no_missing_when_images_exist():
+    """convert_file reports no missing paths when the referenced images exist on disk."""
+    content = """\
+<!--
+author: Test Author
+version: 0.1.0
+logo: img/logo.png
+-->
+# Course
+![Photo](img/photo.jpg)
+"""
+    filepath, repo_root = make_course_file_with_images(
+        content, ["img/logo.png", "img/photo.jpg"]
+    )
+    try:
+        result = convert_file(filepath, repo_root)
+        assert result.modified, "Should have converted relative links"
+        assert result.missing_paths == [], \
+            f"No missing paths expected, got: {result.missing_paths}"
+        print("✓ test_convert_file_no_missing_when_images_exist passed")
+    finally:
+        cleanup(repo_root)
+
+
+def test_convert_file_detects_missing_markdown_image():
+    """convert_file reports a missing path for a Markdown image that doesn't exist."""
+    content = """\
+<!--
+author: Test Author
+version: 0.1.0
+-->
+# Course
+![Photo](img/typo_photo.jpg)
+"""
+    filepath, repo_root = make_course_file(content)  # no image files created
+    try:
+        result = convert_file(filepath, repo_root)
+        assert "img/typo_photo.jpg" in result.missing_paths, \
+            f"Expected missing path, got: {result.missing_paths}"
+        print("✓ test_convert_file_detects_missing_markdown_image passed")
+    finally:
+        cleanup(repo_root)
+
+
+def test_convert_file_detects_missing_yaml_logo():
+    """convert_file reports a missing path for a logo: field that doesn't exist."""
+    content = """\
+<!--
+author: Test Author
+version: 0.1.0
+logo: img/missing_logo.png
+-->
+# Course
+"""
+    filepath, repo_root = make_course_file(content)
+    try:
+        result = convert_file(filepath, repo_root)
+        assert "img/missing_logo.png" in result.missing_paths, \
+            f"Expected missing path, got: {result.missing_paths}"
+        print("✓ test_convert_file_detects_missing_yaml_logo passed")
+    finally:
+        cleanup(repo_root)
+
+
+def test_convert_file_detects_missing_html_img():
+    """convert_file reports a missing path for an HTML <img src> that doesn't exist."""
+    content = """\
+<!--
+author: Test Author
+version: 0.1.0
+-->
+# Course
+<img src="img/missing.png" alt="test">
+"""
+    filepath, repo_root = make_course_file(content)
+    try:
+        result = convert_file(filepath, repo_root)
+        assert "img/missing.png" in result.missing_paths, \
+            f"Expected missing path, got: {result.missing_paths}"
+        print("✓ test_convert_file_detects_missing_html_img passed")
+    finally:
+        cleanup(repo_root)
+
+
+def test_convert_file_absolute_urls_not_existence_checked():
+    """convert_file does not existence-check already-absolute URLs."""
+    abs_url = "https://example.com/remote_image.jpg"
+    content = f"""\
+<!--
+author: Test Author
+version: 0.1.0
+-->
+# Course
+![Remote]({abs_url})
+"""
+    filepath, repo_root = make_course_file(content)
+    try:
+        result = convert_file(filepath, repo_root)
+        assert result.missing_paths == [], \
+            f"Absolute URLs should not be existence-checked, got: {result.missing_paths}"
+        print("✓ test_convert_file_absolute_urls_not_existence_checked passed")
+    finally:
+        cleanup(repo_root)
+
+
+def test_convert_file_mixed_existing_and_missing():
+    """convert_file distinguishes between existing and missing relative paths."""
+    content = """\
+<!--
+author: Test Author
+version: 0.1.0
+logo: img/exists.png
+-->
+# Course
+![Exists](img/exists.png)
+![Missing](img/typo.png)
+"""
+    filepath, repo_root = make_course_file_with_images(content, ["img/exists.png"])
+    try:
+        result = convert_file(filepath, repo_root)
+        assert "img/typo.png" in result.missing_paths, \
+            f"Should report missing 'img/typo.png', got: {result.missing_paths}"
+        assert "img/exists.png" not in result.missing_paths, \
+            f"Should NOT report existing 'img/exists.png', got: {result.missing_paths}"
+        print("✓ test_convert_file_mixed_existing_and_missing passed")
+    finally:
+        cleanup(repo_root)
 
 
 def run_all_tests():
@@ -291,6 +456,14 @@ def run_all_tests():
         test_convert_file_no_changes_when_already_absolute,
         test_convert_file_no_yaml_header,
         test_convert_file_mixed_links,
+        # existence-checking tests
+        test_convert_file_returns_conversion_result,
+        test_convert_file_no_missing_when_images_exist,
+        test_convert_file_detects_missing_markdown_image,
+        test_convert_file_detects_missing_yaml_logo,
+        test_convert_file_detects_missing_html_img,
+        test_convert_file_absolute_urls_not_existence_checked,
+        test_convert_file_mixed_existing_and_missing,
     ]
 
     failed = []

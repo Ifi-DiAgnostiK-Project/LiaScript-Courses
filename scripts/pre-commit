@@ -104,16 +104,35 @@ def main():
     # ── Step 1: Convert relative image links to absolute URLs ────────────
     print(f"🔗 Converting relative image links in {len(course_files)} staged course file(s)...")
     converted_count = 0
+    has_missing_links = False
+
     for filepath in course_files:
-        if convert_links(filepath, REPO_ROOT):
+        conversion_result = convert_links(filepath, REPO_ROOT)
+
+        if conversion_result.modified:
             converted_count += 1
             print(f"   ✅ Converted links in {filepath.relative_to(REPO_ROOT)}")
             restage_file(filepath)
 
-    if converted_count == 0:
+        if conversion_result.missing_paths:
+            has_missing_links = True
+            for mp in conversion_result.missing_paths:
+                print(f"   ❌ Missing image '{mp}' in {filepath.relative_to(REPO_ROOT)}")
+
+    if converted_count == 0 and not has_missing_links:
         print("   (no relative links found)")
-    else:
+    elif converted_count > 0:
         print(f"   {converted_count} file(s) updated and re-staged")
+
+    if has_missing_links:
+        print("\n" + "=" * 70)
+        print("❌ COMMIT REJECTED – referenced image file(s) not found in the repo")
+        print("=" * 70)
+        print("\nFix the missing image paths listed above (check for typos)")
+        print("or add the missing files before committing.")
+        print("\nTo bypass this check (NOT recommended):")
+        print("  git commit --no-verify")
+        sys.exit(1)
 
     # ── Step 2: Validate YAML headers ────────────────────────────────────
     print(f"\n🔍 Validating {len(course_files)} staged course file(s)...")

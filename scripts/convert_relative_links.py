@@ -29,6 +29,7 @@ import os
 import posixpath
 import shutil
 import tempfile
+from dataclasses import dataclass, field
 from pathlib import Path
 
 # Repository constants (must match generate_project_yaml.py)
@@ -42,6 +43,14 @@ RAW_BASE_URL = (
 
 # YAML fields that contain image paths
 YAML_IMAGE_FIELDS = ("logo", "icon")
+
+# Compiled regex patterns shared between conversion and existence checking
+# ── Markdown: ![alt](URL optional-title/whitespace)
+_MD_IMAGE_PATTERN = re.compile(r"!\[([^\]]*)\]\((\S+?)((?:\s[^)]*)?\))")
+# ── HTML <img src="..."> double quotes
+_HTML_SRC_DQ_PATTERN = re.compile(r'(<img\b[^>]*?\bsrc=)"([^"]*)"')
+# ── HTML <img src='...'> single quotes
+_HTML_SRC_SQ_PATTERN = re.compile(r"(<img\b[^>]*?\bsrc=)'([^']*)'")
 
 # Determine repo root relative to this script file
 SCRIPT_PATH = Path(__file__).resolve()
@@ -58,6 +67,23 @@ def is_absolute_url(path: str) -> bool:
     return path.startswith("http://") or path.startswith("https://")
 
 
+def _resolve_relative_path(relative_path: str, course_dir: str) -> str:
+    """
+    Resolve a relative image path to a repo-relative POSIX path.
+
+    Args:
+        relative_path: Relative path as it appears in the course file
+        course_dir: Directory of the course file relative to the repo root
+
+    Returns:
+        Normalised POSIX path relative to the repository root
+        (e.g. 'courses/img/foo.jpg')
+    """
+    if relative_path.startswith("./"):
+        relative_path = relative_path[2:]
+    return posixpath.normpath(posixpath.join(course_dir, relative_path))
+
+
 def make_absolute_url(relative_path: str, course_dir: str) -> str:
     """
     Convert a relative path to an absolute GitHub raw content URL.
@@ -71,14 +97,27 @@ def make_absolute_url(relative_path: str, course_dir: str) -> str:
     Returns:
         Absolute raw.githubusercontent.com URL pointing to refs/heads/main
     """
-    # Strip leading ./
-    if relative_path.startswith("./"):
-        relative_path = relative_path[2:]
-
-    # Resolve the path relative to the course directory, normalising any ../
-    resolved = posixpath.normpath(posixpath.join(course_dir, relative_path))
-
+    resolved = _resolve_relative_path(relative_path, course_dir)
     return f"{RAW_BASE_URL}/{resolved}"
+
+
+@dataclass
+class ConversionResult:
+    """
+    Result returned by :func:`convert_file`.
+
+    Attributes:
+        modified: True if the file was modified on disk.
+        missing_paths: Relative paths that were referenced in the file but do
+                       not exist in the repository.  Empty list = all OK.
+    """
+
+    modified: bool
+    missing_paths: list[str] = field(default_factory=list)
+
+    def __bool__(self) -> bool:
+        """Allow ``if convert_file(...)`` to test for modification."""
+        return self.modified
 
 
 def _replace_yaml_image_field(match: re.Match, course_dir: str) -> str:
@@ -140,8 +179,6 @@ def convert_body(body: str, course_dir: str) -> str:
     #   group 1 = alt text
     #   group 2 = URL (no spaces)
     #   group 3 = everything after the URL up to and including ')'
-    md_image_pattern = re.compile(r"!\[([^\]]*)\]\((\S+?)((?:\s[^)]*)?\))")
-
     def _replace_md_image(m: re.Match) -> str:
         alt = m.group(1)
         path = m.group(2)
@@ -151,11 +188,9 @@ def convert_body(body: str, course_dir: str) -> str:
         abs_url = make_absolute_url(path, course_dir)
         return f"![{alt}]({abs_url}{rest}"
 
-    body = md_image_pattern.sub(_replace_md_image, body)
+    body = _MD_IMAGE_PATTERN.sub(_replace_md_image, body)
 
     # ── HTML <img src="..."> with double quotes ────────────────────────────
-    html_src_dq_pattern = re.compile(r'(<img\b[^>]*?\bsrc=)"([^"]*)"')
-
     def _replace_html_src_dq(m: re.Match) -> str:
         before = m.group(1)
         path = m.group(2)
@@ -164,11 +199,9 @@ def convert_body(body: str, course_dir: str) -> str:
         abs_url = make_absolute_url(path, course_dir)
         return f'{before}"{abs_url}"'
 
-    body = html_src_dq_pattern.sub(_replace_html_src_dq, body)
+    body = _HTML_SRC_DQ_PATTERN.sub(_replace_html_src_dq, body)
 
     # ── HTML <img src='...'> with single quotes ────────────────────────────
-    html_src_sq_pattern = re.compile(r"(<img\b[^>]*?\bsrc=)'([^']*)'")
-
     def _replace_html_src_sq(m: re.Match) -> str:
         before = m.group(1)
         path = m.group(2)
@@ -177,27 +210,83 @@ def convert_body(body: str, course_dir: str) -> str:
         abs_url = make_absolute_url(path, course_dir)
         return f"{before}'{abs_url}'"
 
-    body = html_src_sq_pattern.sub(_replace_html_src_sq, body)
+    body = _HTML_SRC_SQ_PATTERN.sub(_replace_html_src_sq, body)
 
     return body
 
 
-def convert_file(filepath: Path, repo_root: Path = REPO_ROOT) -> bool:
+def _find_relative_paths_in_yaml(
+    yaml_block: str, course_dir: str
+) -> list[tuple[str, str]]:
     """
-    Convert all relative image links in a course file to absolute URLs in-place.
+    Return all relative image paths found in the YAML header block.
+
+    Returns:
+        List of ``(original_relative_path, resolved_repo_relative_path)`` tuples.
+    """
+    field_pattern = re.compile(
+        r"^\s*(?:" + "|".join(YAML_IMAGE_FIELDS) + r"):\s+(\S+)\s*$",
+        re.MULTILINE,
+    )
+    results = []
+    for m in field_pattern.finditer(yaml_block):
+        path = m.group(1)
+        if not is_absolute_url(path):
+            results.append((path, _resolve_relative_path(path, course_dir)))
+    return results
+
+
+def _find_relative_paths_in_body(
+    body: str, course_dir: str
+) -> list[tuple[str, str]]:
+    """
+    Return all relative image paths found in the markdown/HTML body.
+
+    Returns:
+        List of ``(original_relative_path, resolved_repo_relative_path)`` tuples.
+    """
+    results = []
+
+    # Markdown images
+    for m in _MD_IMAGE_PATTERN.finditer(body):
+        path = m.group(2)  # group 1 = alt, group 2 = URL
+        if not is_absolute_url(path):
+            results.append((path, _resolve_relative_path(path, course_dir)))
+
+    # HTML img – double quotes
+    for m in _HTML_SRC_DQ_PATTERN.finditer(body):
+        path = m.group(2)
+        if path and not is_absolute_url(path):
+            results.append((path, _resolve_relative_path(path, course_dir)))
+
+    # HTML img – single quotes
+    for m in _HTML_SRC_SQ_PATTERN.finditer(body):
+        path = m.group(2)
+        if path and not is_absolute_url(path):
+            results.append((path, _resolve_relative_path(path, course_dir)))
+
+    return results
+
+
+def convert_file(filepath: Path, repo_root: Path = REPO_ROOT) -> "ConversionResult":
+    """
+    Convert all relative image links in a course file to absolute URLs in-place
+    and check that every referenced relative path actually exists on disk.
 
     Args:
         filepath: Absolute path to the course markdown file
         repo_root: Absolute path to the repository root
 
     Returns:
-        True if the file was modified, False if no changes were needed
+        :class:`ConversionResult` whose ``modified`` flag is ``True`` when the
+        file was rewritten and whose ``missing_paths`` list contains the
+        repo-relative paths of every referenced image that could not be found.
     """
     try:
         content = filepath.read_text(encoding="utf-8")
     except OSError as e:
         print(f"  ❌ Cannot read {filepath}: {e}", file=sys.stderr)
-        return False
+        return ConversionResult(modified=False)
 
     # Determine the course directory relative to the repo root (POSIX style)
     try:
@@ -211,13 +300,23 @@ def convert_file(filepath: Path, repo_root: Path = REPO_ROOT) -> bool:
     header_match = re.search(r"(<!--\s*)(.*?)(\s*-->)", content, re.DOTALL)
     if not header_match:
         # No YAML header found; nothing to do
-        return False
+        return ConversionResult(modified=False)
 
     before_header = content[: header_match.start()]
     open_tag = header_match.group(1)
     yaml_block = header_match.group(2)
     close_tag = header_match.group(3)
     after_header = content[header_match.end() :]
+
+    # ── Check existence of relative paths ─────────────────────────────────
+    missing_paths: list[str] = []
+    all_relative = (
+        _find_relative_paths_in_yaml(yaml_block, course_dir)
+        + _find_relative_paths_in_body(after_header, course_dir)
+    )
+    for orig_path, resolved in all_relative:
+        if not (repo_root / resolved).exists():
+            missing_paths.append(orig_path)
 
     # ── Convert YAML header ────────────────────────────────────────────────
     new_yaml_block = convert_yaml_header(yaml_block, course_dir)
@@ -227,11 +326,11 @@ def convert_file(filepath: Path, repo_root: Path = REPO_ROOT) -> bool:
 
     new_content = before_header + open_tag + new_yaml_block + close_tag + new_body
 
-    if new_content == content:
-        return False
+    modified = new_content != content
+    if modified:
+        filepath.write_text(new_content, encoding="utf-8")
 
-    filepath.write_text(new_content, encoding="utf-8")
-    return True
+    return ConversionResult(modified=modified, missing_paths=missing_paths)
 
 
 def convert_all_courses(courses_dir: Path = None) -> list[Path]:
@@ -290,6 +389,7 @@ def main():
         targets = sorted((REPO_ROOT / "courses").rglob("*.md"))
 
     modified_count = 0
+    missing_count = 0
     for filepath in targets:
         if not filepath.exists():
             print(f"⚠️  File not found: {filepath}")
@@ -305,24 +405,35 @@ def main():
                 tmp.write(content)
                 tmp_path = Path(tmp.name)
             try:
-                changed = convert_file(tmp_path, REPO_ROOT)
+                result = convert_file(tmp_path, REPO_ROOT)
             finally:
                 tmp_path.unlink(missing_ok=True)
 
-            if changed:
+            if result.modified:
                 print(f"  📝 Would convert: {filepath}")
                 modified_count += 1
+            for mp in result.missing_paths:
+                print(f"  ❌ Missing image '{mp}' referenced in {filepath}")
+                missing_count += 1
         else:
-            changed = convert_file(filepath)
-            if changed:
+            result = convert_file(filepath)
+            if result.modified:
                 print(f"  ✅ Converted: {filepath}")
                 modified_count += 1
+            for mp in result.missing_paths:
+                print(f"  ❌ Missing image '{mp}' referenced in {filepath}")
+                missing_count += 1
 
-    if modified_count == 0:
+    if modified_count == 0 and missing_count == 0:
         print("✅ No relative image links found – all links are already absolute.")
     else:
-        action = "would be" if args.dry_run else "were"
-        print(f"\n✅ {modified_count} file(s) {action} updated.")
+        if modified_count:
+            action = "would be" if args.dry_run else "were"
+            print(f"\n✅ {modified_count} file(s) {action} updated.")
+        if missing_count:
+            print(f"\n❌ {missing_count} missing image path(s) found.")
+            print("   Fix the typos above before committing.")
+            sys.exit(1)
 
 
 if __name__ == "__main__":
