@@ -2,7 +2,7 @@
 
 author:   Hilke Domsch
 email:    hilke.domsch@gkz-ev.de
-version:  0.1.1
+version:  0.1.2
 language: de
 narrator: Deutsch Male
 
@@ -10,7 +10,7 @@ edit: true
 date: 2026-01-28
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo: img/maler_werkzeug_tapetenkurs.jpg
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/maler_werkzeug_tapetenkurs.jpg
 
 comment:  Typische Tapezierwerkzeuge (Maler-/Lackierer & Raumausstatter)
 
@@ -89,7 +89,7 @@ Ordnen Sie die folgenden Aussagen in "richtig" und "falsch" ein.
 
 <center> 
 
-![Malergeselle_mit_Werkzeug](e2f1b82b5bee2365d304b54b122c1227c879cdfd.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/high-angle-young-man-taking-break_6349572.htm)")<!-- style="max-width: 400px; width: 100%" -->
+![Malergeselle_mit_Werkzeug](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/e2f1b82b5bee2365d304b54b122c1227c879cdfd.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/high-angle-young-man-taking-break_6349572.htm)")<!-- style="max-width: 400px; width: 100%" -->
 
 </center> 
 
@@ -228,7 +228,7 @@ Das gezeigte Werkzeug ist eine Tapezierbürste. Sie hat festere, kürzere Borste
 
 </div>
 <div class="flex-child-2 center">
-![Tapezierbürste](img/tapettenbuerste.jpg "[_Quelle: klebemeister.eu_](https://klebemeister.eu/products/tapezierburste-235x60mm)")<!-- style="max-width: 350px; width: 100%; margin-left: 20px; margin-top:10px;" -->
+![Tapezierbürste](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/tapettenbuerste.jpg "[_Quelle: klebemeister.eu_](https://klebemeister.eu/products/tapezierburste-235x60mm)")<!-- style="max-width: 350px; width: 100%; margin-left: 20px; margin-top:10px;" -->
 
 </div>
 </section>
@@ -256,9 +256,9 @@ Das gezeigte Werkzeug ist ein Tapetenabreißer, der mit seiner leicht gezackten 
 
 </div>
 <div class="flex-child-2 center">
-![Tapetenabreißer](img/zackenbrett_in_gross.png "_Quelle: HWK Dresden, Kay Deblitz_")<!--style="max-width: 350px; width: 100%; margin-left: -20px; margin-top:-100px;" -->
+![Tapetenabreißer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zackenbrett_in_gross.png "_Quelle: HWK Dresden, Kay Deblitz_")<!--style="max-width: 350px; width: 100%; margin-left: -20px; margin-top:-100px;" -->
 
-![Detail_Tapetenabreißer](img/zackenbrett_fuer_raumausstatter.png)<!--style="max-width: 200px; width: 100%;  margin-top:-100px;" -->
+![Detail_Tapetenabreißer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zackenbrett_fuer_raumausstatter.png)<!--style="max-width: 200px; width: 100%;  margin-top:-100px;" -->
 
 </div>
 </section>
@@ -311,7 +311,7 @@ Das gezeigte Werkzeug ist eine Igel- oder Perforationswalze zum Entfernen von Ta
 
 </div>
 <div class="flex-child-2 center">
-![Igelwalze](img/Igelwalze_KD.png ")<!-- style="max-width: 350px; width: 100%; margin-left: 20px; margin-top:30px;" -->
+![Igelwalze](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Igelwalze_KD.png ")<!-- style="max-width: 350px; width: 100%; margin-left: 20px; margin-top:30px;" -->
 
 </div>
 </section>
@@ -339,7 +339,7 @@ Die elektrischen Anschlüsse sind stromlos zu schalten = Ausschalten aller Siche
 
 </div>
 <div class="flex-child-2 center">
-![nachdenkender_Malerlehrling](img/arschidegt.jpg "[_Quelle: Freepik_](https://www.freepik.com/free-photo/front-view-young-man-thinking-with-copy-space_6349578.htm)")<!-- style="max-width: 350px; width: 100%; margin-left: 20px; margin-top:30px;" -->
+![nachdenkender_Malerlehrling](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/arschidegt.jpg "[_Quelle: Freepik_](https://www.freepik.com/free-photo/front-view-young-man-thinking-with-copy-space_6349578.htm)")<!-- style="max-width: 350px; width: 100%; margin-left: 20px; margin-top:30px;" -->
 
 </div>
 </section>
