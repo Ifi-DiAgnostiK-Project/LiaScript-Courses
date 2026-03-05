@@ -18,7 +18,7 @@ tags:
     - Grundkurs
 
 icon:      https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo:      img/farben.jpg
+logo:      https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/farben.jpg
 
 attribute: Title Image by Pixabay, Darkmoon Art
 
@@ -137,7 +137,7 @@ An oberster Stelle steht der erste Arbeitsschritt.
 
 
 <!-- data-randomize -->
-@dragdroporder(@uid,Makulatur/Glattvlies kleben.|Decken- und Wandanschlüsse beschneiden und Schlussbeschichtung applizieren.|Wand- und Deckenflächen nachwaschen.|Wand- und Deckenflächen schleifen/entstauben.|Wand- und Deckenflächen mit unpigmentierter sowie wasserverdünnter Grundbeschichtung grundieren.|Nicht tragfähige Beschichtung und Beläge von den Wand- und Deckenflächen entfernen.|Decken- und Wandanschlüsse beschneiden und Zwischenbeschichtung applizieren.|Wand- und Deckenflächen abkleben/abdecken.|Wand- und Deckenflächen spachteln.|Tapezieren von Raufaser an der Deckenfläche.,Nicht tragfähige Beschichtung und Beläge von den Wand- und Deckenflächen entfernen.|Wand- und Deckenflächen nachwaschen.|Wand- und Deckenflächen spachteln.|Wand- und Deckenflächen schleifen/entstauben.|Wand- und Deckenflächen mit unpigmentierter sowie wasserverdünnter Grundbeschichtung grundieren.|Makulatur/Glattvlies kleben.|Tapezieren von Raufaser an der Deckenfläche.|Wand- und Deckenflächen abkleben/abdecken.|Decken- und Wandanschlüsse beschneiden und Zwischenbeschichtung applizieren.|Decken- und Wandanschlüsse beschneiden und Schlussbeschichtung applizieren.)
+@dragdroporder(@uid,Nicht tragfähige Beschichtung und Beläge von den Wand- und Deckenflächen entfernen.|Wand- und Deckenflächen nachwaschen.|Wand- und Deckenflächen spachteln.|Wand- und Deckenflächen schleifen/entstauben.|Wand- und Deckenflächen mit unpigmentierter sowie wasserverdünnter Grundbeschichtung grundieren.|Makulatur/Glattvlies kleben.|Tapezieren von Raufaser an der Deckenfläche.|Wand- und Deckenflächen abkleben/abdecken.|Decken- und Wandanschlüsse beschneiden und Zwischenbeschichtung applizieren.|Decken- und Wandanschlüsse beschneiden und Schlussbeschichtung applizieren.)
 
 </div>
 <div class="flex-child-0">
@@ -151,7 +151,7 @@ An oberster Stelle steht der erste Arbeitsschritt.
 <br>
 <br>
 
-![Maler_lustig](img/maler_mini_holzwand.jpg"                                                                           [_Quelle: Pixabay, Ralphs-Fotos_](https://pixabay.com/de/photos/maler-malerei-lackierer-3177366/)")<!-- style="width: 500px" -->
+![Maler_lustig](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/maler_mini_holzwand.jpg"                                                                           [_Quelle: Pixabay, Ralphs-Fotos_](https://pixabay.com/de/photos/maler-malerei-lackierer-3177366/)")<!-- style="width: 500px" -->
 
 
 </div>
@@ -173,7 +173,7 @@ Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge.\
 An oberster Stelle steht der erste Arbeitsschritt.
 
 <!-- data-randomize -->
-@dragdroporder(@uid,Farbflächen mit Pinsel deckend farbig auslegen.|Radius auf der rechten Seite anzeichnen und deckend farbig auslegen.|Gestaltungswand: Flächengliederung abmessen und anzeichnen.|Wickeltechnik über die gesamte Gestaltung mit Latexbindemittel -glänzend- ausführen.|Kontrastlinien mit Lineal und Strichzieher ziehen.|Farbflächen mit Strichzieher und Lineal beschneiden.,Gestaltungswand: Flächengliederung abmessen und anzeichnen.|Farbflächen mit Strichzieher und Lineal beschneiden.|Farbflächen mit Pinsel deckend farbig auslegen.|Radius auf der rechten Seite anzeichnen und deckend farbig auslegen.|Kontrastlinien mit Lineal und Strichzieher ziehen.|Wickeltechnik über die gesamte Gestaltung mit Latexbindemittel -glänzend- ausführen.)
+@dragdroporder(@uid,Gestaltungswand: Flächengliederung abmessen und anzeichnen.|Farbflächen mit Strichzieher und Lineal beschneiden.|Farbflächen mit Pinsel deckend farbig auslegen.|Radius auf der rechten Seite anzeichnen und deckend farbig auslegen.|Kontrastlinien mit Lineal und Strichzieher ziehen.|Wickeltechnik über die gesamte Gestaltung mit Latexbindemittel -glänzend- ausführen.)
 
 
 </div>
@@ -184,7 +184,7 @@ An oberster Stelle steht der erste Arbeitsschritt.
 <br>
 <br>
 
-![Maler_lustig](img/maler_mini.jpg"                                                                           [_Quelle: Pixabay, Alexas-Fotos_](https://pixabay.com/photos/painter-to-brush-work-figure-1116746/)")<!-- style="width: 500px" -->
+![Maler_lustig](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/maler_mini.jpg"                                                                           [_Quelle: Pixabay, Alexas-Fotos_](https://pixabay.com/photos/painter-to-brush-work-figure-1116746/)")<!-- style="width: 500px" -->
 
 
 </div>
@@ -209,7 +209,7 @@ Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge.\
 An oberster Stelle steht der erste Arbeitsschritt.
 
 <!-- data-randomize -->
-@dragdroporder(@uid,Wickeltechnik zweifarbig im Sockelbereich ausführen.|Abklebung und Abdeckung entfernen. Abfälle sachgerecht entsorgen und Werkzeuge und Arbeitsmittel reinigen.|Fläche der Wickeltechnik mit Strichzieher und Lineal einrahmen.|Sockelfläche einmessen und abkleben/abdecken.,Sockelfläche einmessen und abkleben/abdecken.|Wickeltechnik zweifarbig im Sockelbereich ausführen.|Fläche der Wickeltechnik mit Strichzieher und Lineal einrahmen.|Abklebung und Abdeckung entfernen. Abfälle sachgerecht entsorgen und Werkzeuge und Arbeitsmittel reinigen.)
+@dragdroporder(@uid,Sockelfläche einmessen und abkleben/abdecken.|Wickeltechnik zweifarbig im Sockelbereich ausführen.|Fläche der Wickeltechnik mit Strichzieher und Lineal einrahmen.|Abklebung und Abdeckung entfernen. Abfälle sachgerecht entsorgen und Werkzeuge und Arbeitsmittel reinigen.)
 
 </div>
 <div class="flex-child-0">
@@ -217,7 +217,7 @@ An oberster Stelle steht der erste Arbeitsschritt.
 <br>
 <br>
 
-![Maler_lustig](img/maler_mini_back.jpg"                                                                           [_Quelle: Pixabay, Alexas-Fotos_](https://pixabay.com/photos/painter-to-brush-work-figure-1116763/)")<!-- style="width: 500px" -->
+![Maler_lustig](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/maler_mini_back.jpg"                                                                           [_Quelle: Pixabay, Alexas-Fotos_](https://pixabay.com/photos/painter-to-brush-work-figure-1116763/)")<!-- style="width: 500px" -->
 
 
 </div>
@@ -279,7 +279,7 @@ Mit welchen Methoden kann die Haftfestigkeit alter Anstriche geprüft werden?
 </div>
 <div class="flex-child">
 
-![Fragezeichen](img/fragezeichen.jpg"                         _Quelle: Pixabay, Peggy+Marco_")<!-- style="max-width: 250px; width: 100%" -->
+![Fragezeichen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fragezeichen.jpg"                         _Quelle: Pixabay, Peggy+Marco_")<!-- style="max-width: 250px; width: 100%" -->
 
 </div>
 </section>
@@ -366,7 +366,7 @@ Welche Prüfgeräte oder Hilfsmittel werden häufig bei Untergrundprüfungen im 
 <br>
 <br>
 
-![Malerzeugs](img/malerrollen_fensterbrett.jpg"                                                              [_Quelle: Pixabay, stux_](https://pixabay.com/photos/renovate-painting-work-painting-1186334/)")<!-- style="max-width: 400px; width: 100%" -->
+![Malerzeugs](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/malerrollen_fensterbrett.jpg"                                                              [_Quelle: Pixabay, stux_](https://pixabay.com/photos/renovate-painting-work-painting-1186334/)")<!-- style="max-width: 400px; width: 100%" -->
 
 </div>
 </section>
@@ -397,7 +397,7 @@ Welche der folgenden Geräte oder Werkzeuge gehören typischerweise zu einem Unt
 <br>
 <br>
 
-![Malerzeugs](img/maler_utensilien.jpg"                                                              [_Quelle: Pixabay, Skibka_](https://pixabay.com/photos/brush-roller-rollers-image-handles-1693784/)")<!-- style="max-width: 400px; width: 100%" -->
+![Malerzeugs](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/maler_utensilien.jpg"                                                              [_Quelle: Pixabay, Skibka_](https://pixabay.com/photos/brush-roller-rollers-image-handles-1693784/)")<!-- style="max-width: 400px; width: 100%" -->
 
 </div>
 </section>

@@ -10,7 +10,7 @@ edit: true
 date: 2025-09-08
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo: img/Textilpflegesymbole.png
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Textilpflegesymbole.png
 comment:  Kurs mit den Piktogrammen zur Textilpflege für Raumausstatter.
 
 title: Raumausstatter - Textilpflegesymbole
@@ -293,10 +293,11 @@ Was bedeutet dieses Symbol?
 In welcher standardisierten Reihenfolge sind die Pflegesymbole auf einem Etikett anzubringen?\
 Ziehen Sie die Wörter in die richtige Reihenfolge.
 
-@dragdroporder(@uid,Trocknen|Bleichen|Waschen|Professionelle Textilpflege|Bügeln,Waschen|Bleichen|Trocknen|Bügeln|Professionelle Textilpflege)
+@dragdroporder(@uid,Waschen|Bleichen|Trocknen|Bügeln|Professionelle Textilpflege,3)
 
->_Könnten auch die Grundsymbole in die richtige Reihenfolge gebracht werden?\
-Mit dem Befehl wie oben funktioniert das nicht._
+Ziehen Sie die Zeichen in die richtige Reihenfolge.
+
+@dragdroporder(@uid, @Waschsymbole.Waschen_Grundsymbol(10).src | @Bleichsymbole.Chlor_oder_Sauerstoffbleichen(10).src | @Trocknersymbole.Trocknen_Grundsymbol(10).src | @Buegelsymbole.Buegeln_Grundsymbol(10).src | @Reinigungssymbole.Professionelle_Reinigung_Grundsymbol(10), 3)
 
 </div>
 </section>
