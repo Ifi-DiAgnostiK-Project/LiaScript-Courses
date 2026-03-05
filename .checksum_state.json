@@ -3,7 +3,7 @@
   "checksums": {
     "courses/AuGSchutz_SHK.md": "b2b602f858a2f154a7b8f476ca4b374debe0392dc20d392258a04470037d6bd4",
     "courses/GIH1.md": "6a9dfe38a18756daa2dabbdb91d4dc906f0bc2231a62d04dd3961437bd3604e8",
-    "courses/GIH2.md": "4e92e2744cc8bbcb2b2766cbd7c9849738a4d324049ed83e2bbbb298ca956e81",
+    "courses/GIH2.md": "6e099a1b8daaeb0e23f222ee0b6c11d640407c73c2c5f0d03033c730fccc5155",
     "courses/GIH3.md": "6f576ca17b8cc1f6f11f105583cd7256c46b9d0d43fb99b63b3e665f5120edea",
     "courses/G_ML_24.md": "57ba7f949521da4b48e36f1aef74a65b8b0763f5f7ff9c4ba9c14aab5878acf0",
     "courses/Holzarten_01.md": "9d9a6d4b6a89284e2f13a5f8002ee7bfd72f3f1c303dc30eec7126c0f30351ae",
@@ -27,7 +27,7 @@
     "courses/Tischler_Holzverbindungen.md": "05895cd6221ab4e4b429eb9dd0bc8951421792d99f53a17ca8077ee69abc7549",
     "courses/Tischler_TSM_1.md": "460a2e7009fe5b604471c0628841ee6b75c2c1ce088423387676bfb65cb3d286",
     "courses/Tischler_TSM_1_Vorbereitung.md": "0b63e194a4452148a82075e34b4e4612072ac139bcd3598d075d50da7fe57f1d",
-    "courses/Tischler_TSM_2.md": "651753758c82573851095cbf45ce9dc6f25d34cd0074d28f5771e0077091806f",
+    "courses/Tischler_TSM_2.md": "acac0a65688911339b61605348cba70d90f551f3b6ddb51f1900c587448c402b",
     "courses/Tischler_TSM_2_Vorbereitung.md": "e2f8c3bea2f913c24545a30136ed08f794b2fa9b28c86e2f8b701df930bf1714",
     "courses/arbeitsschutz_Arbeitsundgesundheitsschutz.md": "2722923874d592e580ca0c7831c6fcc22e22ab75155b467ade523f08a7e65a9c",
     "courses/arbeitsschutz_brandschutzzeichen.md": "00a77352a78e4c8f974ec8f13f63ea4f0284ca501537c84fd3236d2ae6f191f2",
@@ -42,9 +42,9 @@
     "courses/jscad_example.md": "c69e933ccab7820f2cb49c23bba1929e412d97c1f61fe7ca6e21ee7cfaf72938",
     "courses/konva-quiz.md": "e478327ba59d1c8d55a2b3aace5b997780bc9cdc352cbc60879bae3d714f2f90",
     "courses/lueckentext_dropin.md": "5c7499373d148a3c430690253001fd271207d6f6d23dd4c918408ae7cb2d898f",
-    "courses/maler_mgi104.md": "14cc91825f4e9c6044c34dc7bc1e9dca89bfc14a948c975037d56022e2ca65cc",
+    "courses/maler_mgi104.md": "50f3875db227739b6a8cbb7cf7b7181d2b9605915e7657919fa8ca085bb88c5d",
     "courses/maler_tapetensymbole.md": "6156ce8f05c336eeee435f7a4c1c2bb0d368e21b2a3bca07422b1b47282edadf",
-    "courses/maler_untertapete.md": "8bb1ca30800858c2eadb69cd46513c153be047386d5d5cd50087ce5ac9bb1121",
+    "courses/maler_untertapete.md": "4fb1270cf87f99e0fda7c850c16c56dbdc54aa9dc55eaec790f97d696286eb82",
     "courses/mathe_bsp.md": "3901d543a9297a20e8c25275a12ea07176ef9714fdf770fb095250dae94cb0b5",
     "courses/teilnehmerbefragung_hwk.md": "0c24dac7bee3085beacda8f5b97cef603c6d6941bf7d833c848efd77af2a6adf",
     "courses/test_course_for_action.md": "5dafc9d0e0d813aff51d19cd53dda54f6b3013b975f5c20864d132380858615a",
@@ -55,10 +55,10 @@
     "courses/zahntechniker_0223_short.md": "68e9fdac092c8f68e9242eeb83f1d9dfd5feeed891792e6bc350693d810741b2",
     "courses/zahntechniker_einbettmasse.md": "6956521b36d32b72728a3ad6c36684de906b1931e4520d8c4c650aee824cd6e2",
     "courses/zahntechniker_grundkurs.md": "547407b4d6d34c56b430d6031f76087361ac9b973ae55593db5850da4d5a8da5",
-    "courses/zahntechniker_zahn123.md": "8edfb00ff41b196f2f88a9dfca3bfc5ed6e2fafb319cf8e7617bf6cf8efa12de",
+    "courses/zahntechniker_zahn123.md": "389141f2f465a8d5d79f5fb7fc7f3ab8a97a297e9cb14d2299a663baed6ad8f8",
     "courses/zahntechniker_zahn223.md": "3936af6efacb400c981462d52b8e6e286c77a6d23ba00378703d4b7b24025a25",
     "courses/zahntechniker_zahn323.md": "3f3d01efcf17ba4339dc427836d024573182c08f236649fbd53773138e028371",
-    "courses/zahntechniker_zahn423.md": "d2812fcf818d2c4c1e9257ee251fd62b831291989f070fc3b2d6d50db47712a7",
+    "courses/zahntechniker_zahn423.md": "33ad59680b1963d71396623642241d2d9cd9c30fc9cb64c10686d47acdccb630",
     "courses/zahntechniker_zahn523.md": "ab921a4941523cb992662cdbf010ab31619505def362fb40f4de8f768b5d278b"
   }
 }
