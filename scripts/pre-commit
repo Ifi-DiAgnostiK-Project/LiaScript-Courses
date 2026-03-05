@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
 """
-Pre-commit hook to validate YAML syntax in course markdown files.
+Pre-commit hook for course markdown files.
 
-This hook runs automatically before each commit to catch YAML syntax errors
-in course files before they are committed.
+Two things happen automatically before each commit:
+
+1. Relative image links are converted to absolute raw.githubusercontent.com
+   URLs pointing to refs/heads/main.  This ensures images display correctly
+   when courses are served via tag-based URLs in LiaScript.
+   (see scripts/convert_relative_links.py for details)
+
+2. YAML syntax in the course header is validated to catch errors before
+   they are committed.
 
 Installation:
     python3 scripts/install-pre-commit-hook.py
@@ -15,6 +22,7 @@ Manual installation:
 
 import sys
 import os
+import subprocess
 from pathlib import Path
 
 # Determine repo root - this script may be run from .git/hooks/ or scripts/
@@ -34,8 +42,9 @@ else:
 SCRIPTS_DIR = REPO_ROOT / 'scripts'
 sys.path.insert(0, str(SCRIPTS_DIR))
 
-# Import validation function
+# Import hook helpers
 from validate_course_yaml import validate_course_file
+from convert_relative_links import convert_file as convert_links
 
 
 def get_staged_course_files():
@@ -45,8 +54,6 @@ def get_staged_course_files():
     Returns:
         List of Path objects for staged .md files in courses/
     """
-    import subprocess
-    
     try:
         # Get list of staged files
         result = subprocess.run(
@@ -72,6 +79,18 @@ def get_staged_course_files():
         return []
 
 
+def restage_file(filepath: Path):
+    """Re-add a file to the git index after it has been modified in-place."""
+    try:
+        subprocess.run(
+            ['git', 'add', str(filepath)],
+            check=True,
+            cwd=REPO_ROOT,
+        )
+    except subprocess.CalledProcessError as e:
+        print(f"  ⚠️  Could not re-stage {filepath.name}: {e}", file=sys.stderr)
+
+
 def main():
     """Main pre-commit hook function."""
     
@@ -82,7 +101,22 @@ def main():
         # No course files staged, allow commit
         sys.exit(0)
     
-    print(f"🔍 Validating {len(course_files)} staged course file(s)...")
+    # ── Step 1: Convert relative image links to absolute URLs ────────────
+    print(f"🔗 Converting relative image links in {len(course_files)} staged course file(s)...")
+    converted_count = 0
+    for filepath in course_files:
+        if convert_links(filepath, REPO_ROOT):
+            converted_count += 1
+            print(f"   ✅ Converted links in {filepath.relative_to(REPO_ROOT)}")
+            restage_file(filepath)
+
+    if converted_count == 0:
+        print("   (no relative links found)")
+    else:
+        print(f"   {converted_count} file(s) updated and re-staged")
+
+    # ── Step 2: Validate YAML headers ────────────────────────────────────
+    print(f"\n🔍 Validating {len(course_files)} staged course file(s)...")
     
     # Validate each staged file
     has_errors = False
