@@ -117,7 +117,7 @@ _https://www.ikz.de/ikz-praxis-archiv/p0108/010808.php _
 
 <!--style="font-weight: bolder; color: blue"-->Bringen Sie die vorbereitenden Arbeitsschritte in die richtige Reihenfolge:
 
-@dragdroporder(@uid,Kalibrieren|Entgraten|Ablängen|Reinigen,Ablängen|Entgraten|Kalibrieren|Reinigen)
+@dragdroporder(@uid,Ablängen|Entgraten|Kalibrieren|Reinigen)
 
 ### 2. Einsatzgebiete des Hart- und Weichlötens
 
@@ -251,13 +251,13 @@ d) Für Rohre mit sehr geringer Wandstärke sollte besonders auf den Biegeradius
 Arbeitsvorbereitung<!--style="color:blue; font-weight: bolder;"-->
 
 
-@dragdroporder(@uid,Acetylen entzünden|Ventile an den Gasflaschen öffnen|Sauerstoffventil öffnen|Anschlüsse prüfen|Flamme einstellen|Acetylenventil am Brenner öffnen| Arbeitsdruck mit dem Druckminderer einstellen,Anschlüsse prüfen|Ventile an den Gasflaschen öffnen|Arbeitsdruck mit dem Druckminderer einstellen|Acetylenventil am Brenner öffnen|Acetylen entzünden|Sauerstoffventil öffnen|Flamme einstellen)
+@dragdroporder(@uid,Anschlüsse prüfen|Ventile an den Gasflaschen öffnen|Arbeitsdruck mit dem Druckminderer einstellen|Acetylenventil am Brenner öffnen|Acetylen entzünden|Sauerstoffventil öffnen|Flamme einstellen)
 
 
 <!--style="color:blue; font-weight: bolder;"-->Nach dem Schweißen
 
 
-@dragdroporder(@uid,Sauerstoffventil am Brenner schließen|Flaschenventile schließen|Acetylventil am Brenner schließen|Schläuche entlüften,Acetylventil am Brenner schließen|Sauerstoffventil am Brenner schließen|Flaschenventile schließen|Schläuche entlüften)
+@dragdroporder(@uid,Acetylventil am Brenner schließen|Sauerstoffventil am Brenner schließen|Flaschenventile schließen|Schläuche entlüften)
 
 ----
 
@@ -271,6 +271,6 @@ Arbeitsvorbereitung<!--style="color:blue; font-weight: bolder;"-->
 
 ## Super gemacht 👌
 
-![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 700px" -->
+![Jubel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/colorfull_jumping.jpg)<!-- style="width: 700px" -->
 
 _Quelle: Pixabay, geralt_

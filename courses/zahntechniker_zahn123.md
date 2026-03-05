@@ -13,7 +13,7 @@ narrator: Deutsch Male
 edit: true
 date: 2025-10-13
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo: img/bracket_closeup.jpg
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bracket_closeup.jpg
 
 attribute: image by pixabay https://pixabay.com/de/photos/zahnarzt-kieferorthop%C3%A4die-542252/
 
@@ -224,7 +224,7 @@ Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge.\
 An oberster Stelle seht der erste Arbeitsschritt.
 
 <!-- data-randomize -->
-@dragdroporder(@uid,Ausarbeiten der Platte|Politur und Fertigstellung|Modelltradierung|Polymerisieren|Halteelemente biegen|Modell wässern und isolieren|Dehnschraube platzieren|Halteelemente am Modell fixieren|Kunststoff streuen,Modelltradierung|Halteelemente biegen|Dehnschraube platzieren|Halteelemente am Modell fixieren|Modell wässern und isolieren|Kunststoff streuen|Polymerisieren|Ausarbeiten der Platte|Politur und Fertigstellung)
+@dragdroporder(@uid,Modelltradierung|Halteelemente biegen|Dehnschraube platzieren|Halteelemente am Modell fixieren|Modell wässern und isolieren|Kunststoff streuen|Polymerisieren|Ausarbeiten der Platte|Politur und Fertigstellung)
 
 </div>
 <div class="flex-child-0">

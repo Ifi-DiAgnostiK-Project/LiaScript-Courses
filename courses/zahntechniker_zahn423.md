@@ -13,7 +13,7 @@ narrator: Deutsch Female
 edit: true
 date: 2025-10-13
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo: img/code_pixabay.jpg
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/code_pixabay.jpg
 
 attribute: by pixabay https://pixabay.com/photos/code-source-programming-web-5421211/
 
@@ -97,7 +97,7 @@ Ziehen Sie die einzelnen Fertigungsschritte in die richtige Reihenfolge.
 
 <br>
 
-@dragdroporder(@uid,CAD = Konstruktion|Scannen = 3D Digitalisierung|Automatisierte Fertigung auf der CNC-gesteuerten Maschine|CAM = Nesting - Fräsbahnberechnung - Postprocessing,Scannen = 3D Digitalisierung|CAD = Konstruktion|CAM = Nesting - Fräsbahnberechnung - Postprocessing|Automatisierte Fertigung auf der CNC-gesteuerten Maschine)
+@dragdroporder(@uid,Scannen = 3D Digitalisierung|CAD = Konstruktion|CAM = Nesting - Fräsbahnberechnung - Postprocessing|Automatisierte Fertigung auf der CNC-gesteuerten Maschine)
 
 </div>
 </section>

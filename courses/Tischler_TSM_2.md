@@ -816,7 +816,7 @@ data-randomize
 data-max-trials="3"
 data-solution-button="off" 
 -->
-@dragdroporder(@uid,Anschlag parallel zu den Tischverlängerungen einstellen.|Queranschlag der hinteren Tischverlängerung als Vorschubbegrenzung an den Werkstückanfang oder die Spannlade schieben und festspannen.|Tischverlängerung mit Queranschlägen anbringen.|Das Fräswerkzeug vor dem Anschlag durch Bogenfeder oder Druckschuh oder Schutz- und Druckvorrichtung - ohne Andruckeinstellung - verdecken.|Einsetzpunkt ermitteln.|Als Rückschlagsicherung Queranschlag gegen das Ende des Werkstücks oder die Spannlade schieben und festspannen.|Aussetzpunkt ermitteln.,Tischverlängerung mit Queranschlägen anbringen.|Anschlag parallel zu den Tischverlängerungen einstellen.|Einsetzpunkt ermitteln.|Als Rückschlagsicherung Queranschlag gegen das Ende des Werkstücks oder die Spannlade schieben und festspannen.|Aussetzpunkt ermitteln.|Queranschlag der hinteren Tischverlängerung als Vorschubbegrenzung an den Werkstückanfang oder die Spannlade schieben und festspannen.|Das Fräswerkzeug vor dem Anschlag durch Bogenfeder oder Druckschuh oder Schutz- und Druckvorrichtung  -ohne Andruckeinstellung - verdecken.)
+@dragdroporder(@uid,Tischverlängerung mit Queranschlägen anbringen.|Anschlag parallel zu den Tischverlängerungen einstellen.|Einsetzpunkt ermitteln.|Als Rückschlagsicherung Queranschlag gegen das Ende des Werkstücks oder die Spannlade schieben und festspannen.|Aussetzpunkt ermitteln.|Queranschlag der hinteren Tischverlängerung als Vorschubbegrenzung an den Werkstückanfang oder die Spannlade schieben und festspannen.|Das Fräswerkzeug vor dem Anschlag durch Bogenfeder oder Druckschuh oder Schutz- und Druckvorrichtung  -ohne Andruckeinstellung - verdecken.)
 
 ### Rückschlagsicherung
 
@@ -965,7 +965,7 @@ data-randomize
 data-max-trials="3"
 data-solution-button="off" 
 -->
-@dragdroporder(@uid,Zwischenringe auswählen - dabei das Gewinde der Fräserdorn-Mutter voll ausnutzen.|Vor dem Aufspannen Drehzahlbereich des Fräswerkzeugs ermitteln.|Fräshöhe einstellen.|Obere Werkzeugverdeckung anbringen.|Fräserdorn-Mutter mit geeignetem Werkzeug anziehen.|Anschlagöffnung so weit wie möglich schließen.|Fräswerkzeug entsprechend der Drehrichtung auflegen.,Vor dem Aufspannen Drehzahlbereich des Fräswerkzeugs ermitteln.|Fräswerkzeug entsprechend der Drehrichtung auflegen.|Zwischenringe auswählen - dabei das Gewinde der Fräserdorn-Mutter voll ausnutzen.|Fräserdorn-Mutter mit geeignetem Werkzeug anziehen.|Fräshöhe einstellen.|Frästiefe einstellen.|Anschlagöffnung so weit wie möglich schließen.|Obere Werkzeugverdeckung anbringen.)
+@dragdroporder(@uid,Vor dem Aufspannen Drehzahlbereich des Fräswerkzeugs ermitteln.|Fräswerkzeug entsprechend der Drehrichtung auflegen.|Zwischenringe auswählen - dabei das Gewinde der Fräserdorn-Mutter voll ausnutzen.|Fräserdorn-Mutter mit geeignetem Werkzeug anziehen.|Fräshöhe einstellen.|Frästiefe einstellen.|Anschlagöffnung so weit wie möglich schließen.|Obere Werkzeugverdeckung anbringen.)
 
 ## Geschafft 🎉
 

@@ -13,7 +13,7 @@ narrator: Deutsch Male
 edit: true
 date: 2025-11-27
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
-logo: img/tapete_eimer.jpg
+logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/tapete_eimer.jpg
 
 attribute: title image, by pixabay https://pixabay.com/de/photos/kleister-quast-leim-tapezieren-4964886/
 
@@ -59,7 +59,7 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 <br> <br>
 <center>
 
-![Tapezierarbeitsplatz](img/tapete_eimer.jpg "[_Quelle: Pixabay, Vilkasss_](https://pixabay.com/illustrations/ai-generated-teeth-dental-miniature-9431605/)")<!-- style="width: 500px" -->
+![Tapezierarbeitsplatz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/tapete_eimer.jpg "[_Quelle: Pixabay, Vilkasss_](https://pixabay.com/illustrations/ai-generated-teeth-dental-miniature-9431605/)")<!-- style="width: 500px" -->
 
 </center> 
 
@@ -85,7 +85,7 @@ Sie sollen das konkrete Aufmaß für den Raum erstellen und alle benötigten Ger
 Bringen Sie den Arbeitsablauf zur Verarbeitung von Untertapeten in eine richtige Reihenfolge!
 
 <!-- data-randomize -->
-@dragdroporder(@uid,Tapeten verkleben: erst Decke - dann Wand|Bereitstellen der Geräte und Werkzeuge|Untergründe prüfen und vorbereiten|Anschlüsse an Wand - Decken - Scheuerleisten sauber abschneiden|Spachteln und schleifen|Kleber für Kleistergerät ansetzen|Altanstriche entfernen|Tapeten einkleistern|Kleistergerät mit Kleber und Tapete bestücken|Aufmaß der Flächen und Mengen - Berechnung des Materials der Makulatur,Untergründe prüfen und vorbereiten|Altanstriche entfernen|Spachteln und schleifen|Aufmaß der Flächen und Mengen - Berechnung des Materials der Makulatur|Bereitstellen der Geräte und Werkzeuge|Kleber für Kleistergerät ansetzen|Kleistergerät mit Kleber und Tapete bestücken|Tapeten einkleistern|Tapeten verkleben: erst Decke - dann Wand|Anschlüsse an Wand - Decken - Scheuerleisten sauber abschneiden)
+@dragdroporder(@uid,Untergründe prüfen und vorbereiten|Altanstriche entfernen|Spachteln und schleifen|Aufmaß der Flächen und Mengen - Berechnung des Materials der Makulatur|Bereitstellen der Geräte und Werkzeuge|Kleber für Kleistergerät ansetzen|Kleistergerät mit Kleber und Tapete bestücken|Tapeten einkleistern|Tapeten verkleben: erst Decke - dann Wand|Anschlüsse an Wand - Decken - Scheuerleisten sauber abschneiden)
 
 </div>
 <div class="flex-child-0">
@@ -95,7 +95,7 @@ Bringen Sie den Arbeitsablauf zur Verarbeitung von Untertapeten in eine richtige
 <br>
 
 
-![Maler](img/maler_gray.jpg "[_Quelle: Pixabay, jbooba_](https://pixabay.com/photos/man-painter-painting-worker-brush-7469738/)")<!-- style="width: 350px" -->
+![Maler](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/maler_gray.jpg "[_Quelle: Pixabay, jbooba_](https://pixabay.com/photos/man-painter-painting-worker-brush-7469738/)")<!-- style="width: 350px" -->
 
 </div>
 </section>
