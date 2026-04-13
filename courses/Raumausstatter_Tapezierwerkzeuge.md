@@ -12,9 +12,9 @@ date: 2026-01-28
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/maler_werkzeug_tapetenkurs.jpg
 
-comment:  Typische Tapezierwerkzeuge (Maler-/Lackierer & Raumausstatter)
+comment:  Typische Tapezierwerkzeuge - Raumausstatter: GR-06 | Maler/Lackiererhandwerk
 
-title: GR-06 Tapezierwerkzeuge - Quiz für Interessierte, Neugierige & Auszubildende
+title: Tapezierwerkzeuge - Quiz für Interessierte, Neugierige & Auszubildende
 
 link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
 
@@ -39,9 +39,9 @@ Wer die Werkzeuge und ihre Einsatzbereiche kennt,
 
 <!-- class="hash"-->
 - kann Untergründe richtig vorbereiten, 
-- Tapeten fachgerecht zuschneiden, 
+- Tapeten fachgerecht zuschneiden und verkleben, 
 - Blasen und Nähte sauber nacharbeiten und
-- Schäden an empfindlichen Belägen vermeiden. 
+- Schäden an empfindlichen Wandbelägen und Tapeten vermeiden. 
 
 
 Gleichzeitig werden "Nebeneffekte" erreicht:
@@ -106,7 +106,7 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [(X)] Metallspachtel - zum Verspachtel und Glätten kleiner Schadstellen sowie zum Entfernen von Farb- und Tapetenresten
+- [(X)] Malerspachtel - zum Verspachtel und Glätten kleiner Schadstellen sowie zum Entfernen von Farb- und Tapetenresten
 - [( )] Nahtzinken - zum Andrücken von Tapetennähten
 - [( )] Schlagblatt - zum Anzeichnen gerader Linien
 - [( )] Tapezierwischer - zum Andrücken von Tapeten
@@ -246,7 +246,7 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [(X)] Tapetenabreißer - mit leicht gezackter Kante zum Zuschneiden von Tapetenbahnen und zum Abreißen alter Tapetenreste
+- [(X)] Tapetenabreißer - mit leicht gezackter Kante zum Zuschneiden von Tapetenbahnen und zum Abreißen überstehender Tapeten
 - [( )] Gleitfußmesser - speziell für den Doppelnahtschnitt
 - [( )] Cuttermesser - zum präzisen Schneiden mit abbrechenbaren Klingen
 - [( )] Beschneidekante - zum unteren Beschnitt an der Sockelleiste
