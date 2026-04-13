@@ -80,7 +80,7 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 </center> 
 
 
-## Wichtige Arbeitsabläufe der Verarbeitung von Wärme-Dämm-Verbund-Systemen (WDVS) - Aufgabe 1
+## Wichtige Arbeitsabläufe (WDVS) - Reinigung
 
 
 In welcher Reihenfolge führen Sie die Verarbeitung von Wärme-Dämm-Verbund-Systemen aus?
@@ -102,7 +102,7 @@ An oberster Stelle steht der erste Arbeitsschritt.
 </div>
 </section>
 
-## Wichtige Arbeitsabläufe der Verarbeitung von Wärme-Dämm-Verbund-Systemen (WDVS) - Aufgabe 2
+## Wichtige Arbeitsabläufe (WDVS) - Aufbringen
 
 
 In welcher Reihenfolge führen Sie die Verarbeitung von Wärme-Dämm-Verbund-Systemen aus?
@@ -119,13 +119,13 @@ Ziehen Sie die Bilder der einzelnen Arbeitsschritte in die richtige Reihenfolge.
 An oberster Stelle steht der erste Arbeitsschritt.
 
 <!-- data-randomize -->
-@dragdropsort(@uid,Sockelschienen setzen;@Maler_WDVS.2_1_Sockelschienen_setzen.src|VDVS verkleben und Dübel setzen;@Maler_WDVS.2_2_WDVS_verkleben_Duebel.src|Auftragen der Armierungsmasse und Armierungsgewebe einbetten und Eckschutzschienen setzen;@Maler_WDVS.2_3_Armierungsmasse.src)
+@dragdropsort(@uid,Sockelschienen setzen;@Maler_WDVS.2_1_Sockelschienen_setzen.src|WDVS verkleben und Dübel setzen;@Maler_WDVS.2_2_WDVS_verkleben_Duebel.src|Eckschutzschienen setzen und Auftragen der Armierungsmasse sowie Armierungsgewebe einbetten;@Maler_WDVS.2_3_Armierungsmasse.src)
 
 
 </div>
 </section>
 
-## Wichtige Arbeitsabläufe der Verarbeitung von Wärme-Dämm-Verbund-Systemen (WDVS) - Aufgabe 3
+## Wichtige Arbeitsabläufe (WDVS) - Beschichtung
 
 
 In welcher Reihenfolge führen Sie die Verarbeitung von Wärme-Dämm-Verbund-Systemen aus?
@@ -142,13 +142,13 @@ Ziehen Sie die Bilder der einzelnen Arbeitsschritte in die richtige Reihenfolge.
 An oberster Stelle steht der erste Arbeitsschritt.
 
 <!-- data-randomize -->
-@dragdropsort(@uid,Grundierung aufbringen;@Maler_WDVS.3_1_Grundierung.src|Strukturputz aufbringen;@Maler_WDVS.3_2_Strukturputz_aufbringen.src|Fassadenanstrich auftragen;@Maler_WDVS.3_3_Fassadenanstrich.src)
+@dragdroporder(@uid,Grundierung aufbringen;@Maler_WDVS.3_1_Grundierung.src|Strukturputz aufbringen;@Maler_WDVS.3_2_Strukturputz_aufbringen.src|Fassadenanstrich auftragen;@Maler_WDVS.3_3_Fassadenanstrich.src)
 
 
 </div>
 </section>
 
-## Wichtige Arbeitsabläufe der Verarbeitung von Wärme-Dämm-Verbund-Systemen (WDVS) - Aufgabe 4
+## Wichtige Arbeitsabläufe (WDVS) - Aufbau
 
 
 In welcher Reihenfolge führen Sie die Verarbeitung von Wärme-Dämm-Verbund-Systemen aus?
@@ -422,7 +422,7 @@ data-max-trials="3"
 data-solution-button="off" 
 -->
 - [[ ]] Die Sockelschiene kann ohne Abstand zum Gelände montiert werden. 
-- [[ ]] Die Sockelschiene kann nach dem Kleben der Dämmplatten montiert werden. 
+- [[ ]] Die Sockelschiene ist vor dem Kleben der Dämmplatten wieder zu entfernen.
 - [[X]] Die Sockelschiene wird lot- und waagerecht an der Fassade ausgerichtet. 
 - [[X]] Ein gleitender Anschluss zum Dämmstoff ist erforderlich, um Spannungen abzubauen. 
 - [[ ]] Die Sockelschiene wird erst nach dem Armieren gesetzt.
@@ -453,10 +453,10 @@ data-randomize
 data-max-trials="3"
 data-solution-button="off" 
 -->
-- [[ ]] Das Armierungsgewebe wird mittig in die Armierungsmasse eingebettet.
+- [[X]] Das Armierungsgewebe wird mittig in die Armierungsmasse eingebettet.
 - [[ ]] Die Armierung kann auch ohne Eckschutzschienen erfolgen.
 - [[X]] Gewebebahnen müssen mindestens 10 cm überlappt werden. 
-- [[X]] Die Armierungsmasse muss vollflächig und gleichmäßig aufgespachtelt werden. 
+- [[ ]] Die Armierungsmasse muss vollflächig und gleichmäßig aufgespachtelt werden. 
 - [[X]] Eckschutzschienen werden vor der eigentlichen Armierung gesetzt. 
 - [[ ]] Gewebe darf sichtbar bleiben, da ein Oberputz aufgebracht wird. 
 
@@ -464,7 +464,7 @@ data-solution-button="off"
 </div>
 <div class="flex-child">
 
-![Maler](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/maler_gray.jpg "[_Quelle: Pixabay, jbooba_](tps://pixabay.com/photos/man-painter-painting-worker-brush-7469738/)")<!-- style="max-width: 300px; width: 100%" -->
+![Maler](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/maler_gray.jpg "[_Quelle: Pixabay, jbooba_](https://pixabay.com/photos/man-painter-painting-worker-brush-7469738/)")<!-- style="max-width: 300px; width: 100%" -->
 
 
 </div>
