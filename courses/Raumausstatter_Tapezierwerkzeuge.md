@@ -35,23 +35,23 @@ tags: [Tapezieren, Werkzeuge, Tapezierwerkzeuge, Raumausstatter, Maler, Lackiere
 Beim Tapezieren<!-- style="font-weight: bolder; font-size: 12pt; color: magenta;"--> entscheidet nicht nur handwerkliches Geschick über ein gutes Ergebnis.
 
 
-Wer die Werkzeuge und ihre Einsatzbereiche kennt, 
+Wer die Werkzeuge und ihre Einsatzbereiche kennt,
 
 <!-- class="hash"-->
-- kann Untergründe richtig vorbereiten, 
-- Tapeten fachgerecht zuschneiden und verkleben, 
+- kann Untergründe richtig vorbereiten,
+- Tapeten fachgerecht zuschneiden und verkleben,
 - Blasen und Nähte sauber nacharbeiten und
-- Schäden an empfindlichen Wandbelägen und Tapeten vermeiden. 
+- Schäden an empfindlichen Wandbelägen und Tapeten vermeiden.
 
 
 Gleichzeitig werden "Nebeneffekte" erreicht:
 
 <!-- class="blueball"-->
-- Erhöhung der Arbeitssicherheit, 
+- Erhöhung der Arbeitssicherheit,
 - Reduzierung von Materialverschwendung
-- Steigerung/Sicherung der Qualität 
+- Steigerung/Sicherung der Qualität
 
-<br> 
+<br>
 
 <!--class="highlight"-->
 Testen Sie Ihr Wissen zu den wichtigsten Tapezierwerkzeugen!
@@ -61,11 +61,11 @@ Testen Sie Ihr Wissen zu den wichtigsten Tapezierwerkzeugen!
 <br> <br>
 
 
-<center> 
+<center>
 
 ![Tapezierwerkzeug](https://img.freepik.com/free-photo/old-construction-hand-tool-set-with-worker-hand-white-wooden-background_1150-6089.jpg "[_Quelle: Freepik_](https://www.freepik.com/free-photo/various-sizes-paint-brushes-flat-lay_9988852.htm#fromView=search&page=2&position=46&uuid=89cff885-29c8-41c6-a4c6-327cb7365c4f&query=tapezierwerkzeuge)")<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ## Richtig/Falsch - Grundwissen zu Werkzeugen
 
@@ -81,17 +81,17 @@ Ordnen Sie die folgenden Aussagen in "richtig" und "falsch" ein.
 - [    ( )           (X)    ] Ein Cuttermesser<!-- style="font-weight: bolder; font-size: 11pt; color: blue;"--> ist beim Tapezieren nicht nötig, weil die Tapetenbahnen mit der Tapezierschere zugeschnitten werden.
 - [    (X)           ( )    ]  Die Andrückwalze<!-- style="font-weight: bolder; font-size: 11pt; color: blue;"--> wird aus weichem Kunststoff oder Moosgummi gefertigt, damit sie beim Andrücken die Tapete nicht beschädigt.
 - [    ( )           (X)    ]  Das Senklot<!-- style="font-weight: bolder; font-size: 11pt; color: blue;"--> wird vor allem zum Zuschneiden von Tapetenbahnen auf dem Tapeziertisch verwendet.
-- [    (X)           ( )    ]  Bei der Wandklebetechnik von Vliestapeten eignen sich Farbroller<!-- style="font-weight: bolder; font-size: 11pt; color: blue;"--> aus Kunstfasern<!-- style="font-weight: bolder; font-size: 11pt; color: blue;"--> besser als Pinsel, um den Kleister aufzutragen. 
+- [    (X)           ( )    ]  Bei der Wandklebetechnik von Vliestapeten eignen sich Farbroller<!-- style="font-weight: bolder; font-size: 11pt; color: blue;"--> aus Kunstfasern<!-- style="font-weight: bolder; font-size: 11pt; color: blue;"--> besser als Pinsel, um den Kleister aufzutragen.
 - [    (X)           ( )    ]  Die Perforations- oder Igelwalze<!-- style="font-weight: bolder; font-size: 11pt; color: blue;"--> wird vor allem dazu verwendet, alte Tapeten zu durchlöchern, damit Tapetenlöser besser eindringen kann.
 - [    ( )           (X)    ]  Mit dem Zahnspachtel<!-- style="font-weight: bolder; font-size: 11pt; color: blue;"--> werden Tapetenbahnen an der Wand glattgestrichen und Luftblasen aus der Tapete herausgedrückt.
 
 -------------------
 
-<center> 
+<center>
 
 ![Malergeselle_mit_Werkzeug](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/e2f1b82b5bee2365d304b54b122c1227c879cdfd.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/high-angle-young-man-taking-break_6349572.htm)")<!-- style="max-width: 400px; width: 100%" -->
 
-</center> 
+</center>
 
 ## Werkzeuge erkennen und zuordnen - Teil 1
 
@@ -111,7 +111,7 @@ data-max-trials="3"
 - [( )] Schlagblatt - zum Anzeichnen gerader Linien
 - [( )] Tapezierwischer - zum Andrücken von Tapeten
 ********************
-Das gezeigte Werkzeug ist ein (Maler-)Metallspachtel, der vor allem zum Verspachteln und Entfernen von Farb- oder Tapetenresten dient. 
+Das gezeigte Werkzeug ist ein (Maler-)Metallspachtel, der vor allem zum Verspachteln und Entfernen von Farb- oder Tapetenresten dient.
 ********************
 
 </div>
@@ -167,7 +167,7 @@ data-max-trials="3"
 - [( )] Tapezierbürste - zum Reinigen des Fußbodens nach dem Tapezieren
 - [( )] Tapezierbürste - zum Einstreichen der Tapeten mit Kleister
 ********************
-Das gezeigte Werkzeug ist ein Tapezierwischer. Im Unterschied zur Tapezierbürste verfügt der Tapezierwischer über besonders weiche Bürsten. Damit können vor allem Papier- und Vliestapeten schonend angedrückt werden.  
+Das gezeigte Werkzeug ist ein Tapezierwischer. Im Unterschied zur Tapezierbürste verfügt der Tapezierwischer über besonders weiche Bürsten. Damit können vor allem Papier- und Vliestapeten schonend angedrückt werden.
 ********************
 
 </div>
@@ -223,7 +223,7 @@ data-max-trials="3"
 - [( )] Kleisterbürste - zum Einstreichen der Tapeten mit Kleister
 - [( )] Frasenbürste - zum Herausstreichen von Luftblasen hinter der Tapete
 ********************
-Das gezeigte Werkzeug ist eine Tapezierbürste. Sie hat festere, kürzere Borsten und eignet sich für robuste Tapeten zum Andrücken und Glattstreichen. Für Vliestapeten ist sie weniger geeignet. 
+Das gezeigte Werkzeug ist eine Tapezierbürste. Sie hat festere, kürzere Borsten und eignet sich für robuste Tapeten zum Andrücken und Glattstreichen. Für Vliestapeten ist sie weniger geeignet.
 ********************
 
 </div>
@@ -251,7 +251,7 @@ data-max-trials="3"
 - [( )] Cuttermesser - zum präzisen Schneiden mit abbrechenbaren Klingen
 - [( )] Beschneidekante - zum unteren Beschnitt an der Sockelleiste
 ********************
-Das gezeigte Werkzeug ist ein Tapetenabreißer, der mit seiner leicht gezackten Kante zum Zuschneiden von Tapetenbahnen sowie zum Entfernen alter Reste verwendet wird. 
+Das gezeigte Werkzeug ist ein Tapetenabreißer, der mit seiner leicht gezackten Kante zum Zuschneiden von Tapetenbahnen sowie zum Entfernen alter Reste verwendet wird.
 ********************
 
 </div>
@@ -278,7 +278,7 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [[X]] zum Abkratzen von alten Farb-, Tapeten- oder Putzresten 
+- [[X]] zum Abkratzen von alten Farb-, Tapeten- oder Putzresten
 - [[ ]] zum Andrücken von Tapetennähten
 - [[X]] zum Auskratzen von Putzrissen
 - [[ ]] als Hilfsmittel zum Anzeichnen gerader Linien an Wand und Decke

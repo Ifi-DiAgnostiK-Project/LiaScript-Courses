@@ -17,21 +17,21 @@ import shutil
 
 def main():
     """Install the pre-commit hook."""
-    
+
     repo_root = Path(__file__).parent.parent.absolute()
     hooks_dir = repo_root / '.git' / 'hooks'
     hook_source = repo_root / 'scripts' / 'pre-commit'
     hook_dest = hooks_dir / 'pre-commit'
-    
+
     # Check if .git directory exists
     if not hooks_dir.parent.exists():
         print("❌ Error: .git directory not found")
         print("   This script must be run from a Git repository")
         sys.exit(1)
-    
+
     # Create hooks directory if it doesn't exist
     hooks_dir.mkdir(parents=True, exist_ok=True)
-    
+
     # Check if hook already exists
     if hook_dest.exists():
         print("⚠️  Pre-commit hook already exists")
@@ -40,7 +40,7 @@ def main():
             print("   Installation cancelled")
             sys.exit(0)
         hook_dest.unlink()
-    
+
     # Create symbolic link to hook script
     try:
         # Use relative path for the symlink
@@ -55,10 +55,10 @@ def main():
         print("   Copying file instead...")
         shutil.copy2(hook_source, hook_dest)
         print(f"✅ Pre-commit hook copied successfully")
-    
+
     # Make sure the hook is executable
     hook_dest.chmod(0o755)
-    
+
     # Verify installation
     if hook_dest.exists():
         print("\n📋 Hook installed and will run on every commit")

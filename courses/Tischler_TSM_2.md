@@ -35,7 +35,7 @@ tags: [Tischler, Schreiner, Arbeitssicherheit, Holzbearbeitungsmaschinen, BGHM]
 # TSM 2 - Abschlusstest
 
 Die praktischen überbetrieblichen TSM<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> -<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> Lehrgänge<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> sind ein wichtiger Bestandteil Ihrer Ausbildung.\
-In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das 
+In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das
 
 <!-- class="hash"-->
 - sichere Arbeiten an Sägemaschinen (Tisch- und Formatkreissäge, Bandsäge)
@@ -57,11 +57,11 @@ Die Fragen sind gemäß den Vorgaben der Berufsgenossenschaft Holz und Metall (B
 Gleichzeitig werden "Nebeneffekte" erreicht:
 
 <!-- class="blueball"-->
-- Erhöhung der Arbeitssicherheit, 
+- Erhöhung der Arbeitssicherheit,
 - Reduzierung von Materialverschwendung
-- Steigerung/Sicherung der Qualität 
+- Steigerung/Sicherung der Qualität
 
-<br> 
+<br>
 
 <!-- style="font-weight: bolder; font-size: 12pt; color: black;"-->
 Die Fragen ergänzen die fachpraktischen überbetrieblichen TSM-Lehrgänge.
@@ -73,14 +73,14 @@ Testen Sie Ihr Wissen zum sicheren Umgang mit Holzbearbeitungsmaschinen!
 
 ------------
 
-<br> 
+<br>
 
 
-<center> 
+<center>
 
 ![Tischfaese_geschweiftes_Werkstueck](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/tischler_fraese_with_security_measures.jpg" [_Quelle: Pixabay, RUWI-Maschinenbau_](https://pixabay.com/photos/milling-machine-6827540/)")<!-- style="max-width: 500px; width: 130%;" -->
 
-</center> 
+</center>
 
 ## Unfälle
 
@@ -103,7 +103,7 @@ Typische Arbeitsunfälle drehen sich meist um eine Handvoll immer wiederkehrende
 <br>
 3. **Unbeabsichtigtes Ingangsetzen von Maschinen**
 - Maschine wird gestartet, während noch im Gefahrenbereich gearbeitet oder gereinigt wird.
-- Fehlbedienung von Schaltern oder Fußtastern, z. B. Verwechseln von Tipp‑ und Automatikbetrieb.​ 
+- Fehlbedienung von Schaltern oder Fußtastern, z. B. Verwechseln von Tipp‑ und Automatikbetrieb.​
 <br>
 4. **Stolper-, Rutsch- und Sturzunfälle**
 - Stolpern über Kabel, Werkstücke, Abfälle oder unebenen Boden im Bereich der Maschinen.
@@ -120,11 +120,11 @@ Typische Arbeitsunfälle drehen sich meist um eine Handvoll immer wiederkehrende
 <br> <br>
 
 
-<center> 
+<center>
 
 ![BGHM](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bghm.svg "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 140%;margin-left: -50px; margin-top:20px;" -->
 
-</center> 
+</center>
 
 
 ### Arbeitsunfall
@@ -140,11 +140,11 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [(X)] Ein Arbeitsunfall liegt vor, wenn eine versicherte Person bei einer betrieblichen Tätigkeit durch ein zeitlich begrenztes, von außen einwirkendes Ereignis körperlich geschädigt wird. 
-- [( )] Ein Arbeitsunfall liegt vor, wenn eine versicherte Person bei einer eigenwirtschaftlichen Tätigkeit körperlich geschädigt wurde. 
-- [( )] Ein Arbeitsunfall liegt vor, wenn eine versicherte Person bei eigenwirtschaftlicher oder betrieblicher Tätigkeit körperlich geschädigt wurde. 
+- [(X)] Ein Arbeitsunfall liegt vor, wenn eine versicherte Person bei einer betrieblichen Tätigkeit durch ein zeitlich begrenztes, von außen einwirkendes Ereignis körperlich geschädigt wird.
+- [( )] Ein Arbeitsunfall liegt vor, wenn eine versicherte Person bei einer eigenwirtschaftlichen Tätigkeit körperlich geschädigt wurde.
+- [( )] Ein Arbeitsunfall liegt vor, wenn eine versicherte Person bei eigenwirtschaftlicher oder betrieblicher Tätigkeit körperlich geschädigt wurde.
 ********************
-Ein Arbeitsunfall liegt vor, wenn eine versicherte Person bei einer betrieblichen Tätigkeit durch ein zeitlich begrenztes, von außen einwirkendes Ereignis körperlich geschädigt wird.  - Siehe TSM-Lehrgangsbegleitheft, S. 6-7. 
+Ein Arbeitsunfall liegt vor, wenn eine versicherte Person bei einer betrieblichen Tätigkeit durch ein zeitlich begrenztes, von außen einwirkendes Ereignis körperlich geschädigt wird.  - Siehe TSM-Lehrgangsbegleitheft, S. 6-7.
 ********************
 
 </div>
@@ -172,12 +172,12 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [(X)] Ein Wegeunfall liegt vor, wenn ein körperschädigendes Unfallereignis auf einem versicherten Weg eintritt. 
+- [(X)] Ein Wegeunfall liegt vor, wenn ein körperschädigendes Unfallereignis auf einem versicherten Weg eintritt.
 - [( )] Ein Wegeunfall liegt vor, wenn ein Unfallereignis eintritt während einer betrieblichen oder eigenwirtschaftlichen Tätigkeit.
 - [( )] Ein Wegeunfall liegt vor, wenn auf dem Weg zur Toilette ein Unfallereignis eintritt.
 - [( )] Ein Wegeunfall liegt vor, wenn ein Unfallereignis eintritt, sobald das Haus verlassen wird - unabhängig vom Zweck des Weges.
 ********************
-Ein Wegeunfall liegt vor, wenn ein körperschädigendes Unfallereignis auf einem versicherten Weg eintritt. - Siehe TSM-Lehrgangsbegleitheft, S. 6-7. 
+Ein Wegeunfall liegt vor, wenn ein körperschädigendes Unfallereignis auf einem versicherten Weg eintritt. - Siehe TSM-Lehrgangsbegleitheft, S. 6-7.
 ********************
 
 </div>
@@ -203,11 +203,11 @@ data-max-trials="3"
 -->
 - [(X)] Die Maschine darf nicht verwendet werden; der Vorgesetzte ist zu informieren (Mängelmeldung).
 - [( )] Bei Benutzung von stromabweisenden Handschuhe kann die Maschine vorsichtig weiter verwendet werden, bis der Mangel behoben ist.
-- [( )] Das defekte Kabel ist mit Isolierband zu sichern; dann kann bis zum Austausch der Maschine weitergearbeitet werden. 
-- [( )] Die Maschine darf nicht mehr mit voller Leistung/Drehzahl betrieben werden. 
-- [( )] Ich informiere die Mitarbeiter. 
+- [( )] Das defekte Kabel ist mit Isolierband zu sichern; dann kann bis zum Austausch der Maschine weitergearbeitet werden.
+- [( )] Die Maschine darf nicht mehr mit voller Leistung/Drehzahl betrieben werden.
+- [( )] Ich informiere die Mitarbeiter.
 ********************
-Die Maschine darf nicht verwendet werden; der Vorgesetzte ist zu informieren (Mängelmeldung). - Siehe TSM-Lehrgangsbegleitheft, S. 6-7. 
+Die Maschine darf nicht verwendet werden; der Vorgesetzte ist zu informieren (Mängelmeldung). - Siehe TSM-Lehrgangsbegleitheft, S. 6-7.
 ********************
 
 </div>
@@ -225,10 +225,10 @@ Welcher Personenkreis hat Gehörschutzmittel im Betrieb zur Verfügung zu stelle
 Ziehen Sie die richtige Lösung in das leere Feld.
 
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdropmultiple(@uid,Der Unternehmer.,Die Berufsgenossenschaften.|Der im Lärmbereich Beschäftigte.|Die Regelungen variieren von Betrieb zu Betrieb.)
 
@@ -283,10 +283,10 @@ Welche Absturzsicherung kann bei kurzfristigen Montagearbeiten mit Absturzgefahr
 Ziehen Sie die richtige Antwort in das Antwortfeld.
 <br> <br>
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdropmultiple(@uid,Sicherheitsgeschirr mit Anschlageinrichtung,Auffangeinrichtung - z. B. Netz|Hubarbeitsbühne|fahrbares Gerüst)
 
@@ -301,7 +301,7 @@ data-solution-button="off"
 <div class="colorbox colorbox--info" style="width:auto;">
 Dieses Wiederholungsmodul dient der Auffrischung der sicherheitsrelevanten Kenntnisse von **Sägemaschinen** mit besonderem Augenmerk auf das motorisch sichere und vorausschauende Arbeiten.\
 <br>
-Das Ziel dieses Kurses ist: 
+Das Ziel dieses Kurses ist:
 
 <!-- class="blueball" -->
 - fundiertes Wissen über die Handhabung von Holzbearbeitungsmaschinen erreichen
@@ -309,11 +309,11 @@ Das Ziel dieses Kurses ist:
 - die konsequente Einhaltung aller Schutzmaßnahmen zu trainieren
 - typische Gefährdungssituationen beim Umgang an H zu erkennen
 <br>
-Nur wer seinen 
+Nur wer seinen
 
 - **Arbeitsablauf** kontrolliert,
 - **Schutzvorrichtungen** richtig einsetzt
-- und **potenzielle Gefahren** frühzeitig erkennt, 
+- und **potenzielle Gefahren** frühzeitig erkennt,
 
 kann sicher und effizient arbeiten.\
 <br>
@@ -324,11 +324,11 @@ Sicherheit im Umgang mit handgeführten Maschinen beruht auf Übung, Aufmerksamk
 
 <br>
 
-<center> 
+<center>
 
 ![Tischler_an_Bandsaege](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/carpenter-working-with-sawing-machine.jpg" [_Quelle: Freepik, postooleh_](https://www.freepik.com/free-photo/professional-carpenter-working-with-sawing-machine_8819639.htm#fromView=search&page=1&position=6&uuid=c6171409-8c97-44bd-bb3d-d9cb55127139&query=Tischfr%C3%A4schmaschine)")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Persönliche Schutzausrüstung
 
@@ -348,7 +348,7 @@ data-max-trials="3"
 - [(X)] Sicherheitsschuhe, Schutzbrille, Gehörschutz und Arbeitshandschuhe
 - [( )] Sicherheitsschuhe
 ********************
-Als PSA sind mindestens Sicherheitsschuhe, Schutzbrille, Gehörschutz und Arbeitshandschuhe erforderlich. - Siehe TSM-Lehrgangsbegleitheft, S. 155-156. 
+Als PSA sind mindestens Sicherheitsschuhe, Schutzbrille, Gehörschutz und Arbeitshandschuhe erforderlich. - Siehe TSM-Lehrgangsbegleitheft, S. 155-156.
 ********************
 
 </div>
@@ -382,7 +382,7 @@ data-max-trials="3"
 - [(X)] rückschlagarme Sägekette mit Spandickenbegrenzung
 - [( )] Sägenkette ohne Spandickenbegrenzung
 ********************
-Es ist eine rückschlagarme Sägekette mit Spandickenbegrenzung zu verwenden. - Siehe TSM-Lehrgangsbegleitheft, S. 155-156. 
+Es ist eine rückschlagarme Sägekette mit Spandickenbegrenzung zu verwenden. - Siehe TSM-Lehrgangsbegleitheft, S. 155-156.
 ********************
 
 </div>
@@ -416,7 +416,7 @@ data-max-trials="3"
 -->
 $r$ wird in  [[solution]]  angegeben.
 ********************
-Die Maßeinheit ist __cm__. Der Radius wird mit der Formel  $r$ $\text{=}$ $\frac{{d}}{2}$  berechnet. - Siehe TSM-Lehrgangsbegleitheft, S. 15. 
+Die Maßeinheit ist __cm__. Der Radius wird mit der Formel  $r$ $\text{=}$ $\frac{{d}}{2}$  berechnet. - Siehe TSM-Lehrgangsbegleitheft, S. 15.
 ********************
 <br>
 **Hinweis**:\
@@ -454,7 +454,7 @@ data-max-trials="3"
 - [(X)] beim Einsetzsägen
 - [( )] beim Sägen von Kunststoffen
 ********************
-Beim Einsetzsägen wird der Spaltkeil entfernt. - Siehe TSM-Lehrgangsbegleitheft, S. 27. 
+Beim Einsetzsägen wird der Spaltkeil entfernt. - Siehe TSM-Lehrgangsbegleitheft, S. 27.
 ********************
 
 </div>
@@ -526,7 +526,7 @@ Damit ergeben sich folgende Rechnungsschritte:
 4. $v$<!--style="font-size: large;font-weight: bold; Color: orange"--> ist als Schnittgeschwindigkeit gegeben:  $82$<!--style="font-weight: bold; color: orange"--> $\text{U/min}$<!--style=";font-weight: bold; color: orange"-->.
 5. Gesucht ist $n$<!--style="font-size: large;font-weight: bold; Color: orange"-->. Die Formel $v$ $\text{=}$ $r$ $\cdot$ $n$ wird nach $n$<!--style="font-size: large;font-weight: bold; Color: orange"--> umgestellt:  $n$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\frac{v {\cdot}}{r}$<!--style="font-size: large;font-weight: bold; color: orange"-->
 6. Eingesetzt mit den gegebenen bzw. ermittelten Zahlenwerten __ohne__ __Maßeinheiten__ ergibt sich:  $n$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\frac{82}{15}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\sim{5,5}$<!--style="font-weight: bold; color: orange"-->
-7. Zum Ergebnis werden die drei Nullen wieder hinzugefügt - damit lautet die Antwort  $5.500$<!--style="font-size: large;font-weight: bold; color: green"-->  $\text{U/min}$<!--style="font-size: large;font-weight: bold; color: green"--> 
+7. Zum Ergebnis werden die drei Nullen wieder hinzugefügt - damit lautet die Antwort  $5.500$<!--style="font-size: large;font-weight: bold; color: green"-->  $\text{U/min}$<!--style="font-size: large;font-weight: bold; color: green"-->
 ********************
 
 </div>
@@ -552,12 +552,12 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [( )] Das Bandsägeblatt soll vorn überstehen, damit der Schrank nicht beschädigt wird. 
+- [( )] Das Bandsägeblatt soll vorn überstehen, damit der Schrank nicht beschädigt wird.
 - [( )] Es sind keine speziellen Vorgaben zu beachten.
-- [(X)] Das Bandsägeblatt soll mittig auf der Rolle laufen. 
-- [( )] Das Bandsägeblatt soll auf der flachen Kante der Bandage laufen. 
+- [(X)] Das Bandsägeblatt soll mittig auf der Rolle laufen.
+- [( )] Das Bandsägeblatt soll auf der flachen Kante der Bandage laufen.
 ********************
-Bei Bandsägerollen mit balligen Bandagen soll das Bandsägeblatt mittig auf der Rolle laufen. - Siehe TSM-Lehrgangsbegleitheft, S. 44. 
+Bei Bandsägerollen mit balligen Bandagen soll das Bandsägeblatt mittig auf der Rolle laufen. - Siehe TSM-Lehrgangsbegleitheft, S. 44.
 ********************
 
 </div>
@@ -586,11 +586,11 @@ data-solution-button="off"
 data-max-trials="3"
 -->
 - [( )] Das Bandsägeblatt schneidet schräg oder "schwimmt ab".
-- [( )] Die Schnittleistung sinkt. 
+- [( )] Die Schnittleistung sinkt.
 - [(X)] Das Bandsägeblatt läuft unruhig.
-- [( )] Der Schnitt ist rau oder das Holz "verbrennt". 
+- [( )] Der Schnitt ist rau oder das Holz "verbrennt".
 ********************
-Das Bandsägeblatt läuft unruhig. 
+Das Bandsägeblatt läuft unruhig.
 ********************
 
 </div>
@@ -607,13 +607,13 @@ Das Bandsägeblatt läuft unruhig.
 Arbeiten an stationären Hobelmaschinen
 </div>
 
-Beim Arbeiten an stationären  Hobelmaschinen werden 
+Beim Arbeiten an stationären  Hobelmaschinen werden
 
 - Holzoberflächen geglättet,
 - auf Maß gebracht,
-- rechtwinklig bearbeitet. 
+- rechtwinklig bearbeitet.
 
-Dabei wirken 
+Dabei wirken
 
 <!-- class="blueball" -->
 - hohe Schnittgeschwindigkeiten
@@ -627,12 +627,12 @@ Es ist wichtig, die Sicherheitseinrichtungen (z. B. Schutzhauben, Vorschub, Ansc
 <br>
 
 
-<center> 
+<center>
 
 ![Hobelmaschine](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/dickenhobel_man_in_blue_wood.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/wood-worker-his-shop-working-with-tools-equipment_75523858.htm#fromView=image_search_similar&page=7&position=37&uuid=a74d5909-470b-49f0-9ee1-7ac6366a000f&query=handarbeit+holz)")<!-- style="max-width: 500px; width: 100%;margin-left: -50px; margin-top:20px;" -->
 
 
-</center> 
+</center>
 
 <!--style="background-color:#FFA500;color: white"-->
 > Hinweise zur Lösung für die nachfolgenden Aufgaben finden Sie im TSM-Lehrgangsbegleitheft, S. 57-68.
@@ -675,12 +675,12 @@ Der Abnahmetisch ist zu tief eingestellt; das verursacht unregelmäßige Einschl
 Arbeiten an stationären Tischfräsmaschinen
 </div>
 
-Stationäre  Tischfräsmaschinen dienen zum 
+Stationäre  Tischfräsmaschinen dienen zum
 
 - Fräsen von Holz, Spanplatten und ähnlichen Werkstoffen,
 - um Formen, Kanten, Nuten oder Verzierungen präzise herzustellen.
 
-Dabei besteht ein großes Verletzungsrisiko durch 
+Dabei besteht ein großes Verletzungsrisiko durch
 
 <!-- class="blueball" -->
 - rotierende Fräswerkzeuge mit hohen Drehzahlen
@@ -698,11 +698,11 @@ Es ist wichtig, die Sicherheitsvorkehrungen zu kennen:
 
 <br>
 
-<center> 
+<center>
 
 ![Tischfraesmaschine](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/router_theatrical_block.jpg" [_Quelle: Freepik, DC Studio_](https://www.freepik.com/free-photo/joiner-using-heavy-machinery-craft-furniture_314268423.htm#fromView=search&page=1&position=5&uuid=2c99c0e3-bdc3-477b-a0ee-ef2998bd2dd8&query=wood+fr%C3%A4sen)")<!-- style="max-width: 500px; width: 120%" -->
 
-</center> 
+</center>
 
 ### Werkzeugabdeckung
 
@@ -746,7 +746,7 @@ Die Werkzeugverdeckung soll den Schneidenkreis des Fräswerkzeugs im Arbeitsbere
 ### Handvorschub
 
 <div class="colorbox colorbox--info" style="width:auto;">
-Fräswerkzeuge sind für den Handvorschub zugelassen, wenn sie die Aufschrift 
+Fräswerkzeuge sind für den Handvorschub zugelassen, wenn sie die Aufschrift
 
 - "Handvorschub"
 - "MAN"
@@ -765,17 +765,17 @@ Für einen Handvorschub geeignete Fräswerkzeuge ist die Spandickenbegrenzung<!-
 <!-- class="highlight" -->
 Wie viel beträgt die Spandickenbegrenzung?
 
-Die Spandickenbegrenzung zum Abweiser darf max.  [[solution]]   mm betragen. 
+Die Spandickenbegrenzung zum Abweiser darf max.  [[solution]]   mm betragen.
 
 
 </div>
 </section>
 
-<center> 
+<center>
 
 ![Tischler](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/arbeitszeitbetrug_mit_sicherheitsausruestung.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/smiling-male-carpenter-wearing-safety-glasses-ear-defender-around-his-neck-using-cellphone_3579549.htm#fromView=search&page=3&position=33&uuid=2913ae38-d9c7-4bf8-97af-12d1c8ccb3bd&query=carpenter)")<!-- style="max-width: 500px; width: 120%" -->
 
-</center> 
+</center>
 
 ### Schnittgeschwindigkeit
 
@@ -785,10 +785,10 @@ Was passiert, wenn die Schnittgeschwindigkeit und die Drehzahl bei einem Fräswe
 Ziehen Sie die richtigen Antworten in das Antwortfeld.
 <br> <br>
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdropmultiple(@uid,erhöhte Lärmbelästigung|Bruchgefahr,erhöhte Rückschlaggefahr|raue Oberflächen)
 
@@ -798,10 +798,10 @@ Was passiert, wenn die Schnittgeschwindigkeit und die Drehzahl bei einem Fräswe
 Ziehen Sie die richtigen Antworten in das Antwortfeld.
 <br> <br>
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdropmultiple(@uid,erhöhte Rückschlaggefahr,raue Oberflächen|erhöhte Lärmbelästigung|Bruchgefahr)
 
@@ -809,12 +809,12 @@ data-solution-button="off"
 
 <!-- class="highlight" -->
 Die Tischfräsmaschine soll zum Einsetzfräsen eingestellt werden.\
-Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge. 
+Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge.
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdroporder(@uid,Tischverlängerung mit Queranschlägen anbringen.|Anschlag parallel zu den Tischverlängerungen einstellen.|Einsetzpunkt ermitteln.|Als Rückschlagsicherung Queranschlag gegen das Ende des Werkstücks oder die Spannlade schieben und festspannen.|Aussetzpunkt ermitteln.|Queranschlag der hinteren Tischverlängerung als Vorschubbegrenzung an den Werkstückanfang oder die Spannlade schieben und festspannen.|Das Fräswerkzeug vor dem Anschlag durch Bogenfeder oder Druckschuh oder Schutz- und Druckvorrichtung  -ohne Andruckeinstellung - verdecken.)
 
@@ -827,10 +827,10 @@ data-solution-button="off"
 Wo muss das Werkstück beim Einsatzfräsen anliegen, damit es zu keinem Werkstückrückschlag kommt?
 <br> <br>
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 - [( )] Das Werkstück muss an der Rückschlagsicherung und hinten am Anschlag liegen.
 - [(X)] Das Werkstück muss an der Rückschlagsicherung und vorn am Anschlag liegen.
@@ -855,10 +855,10 @@ Das Werkstück muss an der Rückschlagsicherung und vorn am Anschlag liegen. - S
 In welchem Fall ist beim Einsatzfräsen eine Spannlade zu benutzen?
 <br> <br>
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 - [(X)] Die Spannlade ist zu verwenden, sobald das Werkstück in die Spannlade passt.
 - [( )] Die Spannlade ist nur auf Anweisung des Vorgesetzten zu verwenden.
@@ -941,7 +941,7 @@ Damit ergeben sich folgende Rechnungsschritte:
 4. $v$<!--style="font-size: large;font-weight: bold; Color: orange"--> ist als Schnittgeschwindigkeit gegeben:  $43$<!--style="font-weight: bold; color: orange"--> $\text{U/min}$<!--style=";font-weight: bold; color: orange"-->.
 5. Gesucht ist $n$<!--style="font-size: large;font-weight: bold; Color: orange"-->. Die Formel $v$ $\text{=}$ $r$ $\cdot$ $n$ wird nach $n$<!--style="font-size: large;font-weight: bold; Color: orange"--> umgestellt:  $n$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\frac{v {\cdot}}{r}$<!--style="font-size: large;font-weight: bold; color: orange"-->
 6. Eingesetzt mit den gegebenen bzw. ermittelten Zahlenwerten __ohne__ __Maßeinheiten__ ergibt sich:  $n$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\frac{43}{7}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\sim{6,1}$<!--style="font-weight: bold; color: orange"-->
-7. Zum Ergebnis werden die drei Nullen wieder hinzugefügt - damit lautet die Antwort  $6.100$<!--style="font-size: large;font-weight: bold; color: green"-->  $\text{U/min}$<!--style="font-size: large;font-weight: bold; color: green"--> 
+7. Zum Ergebnis werden die drei Nullen wieder hinzugefügt - damit lautet die Antwort  $6.100$<!--style="font-size: large;font-weight: bold; color: green"-->  $\text{U/min}$<!--style="font-size: large;font-weight: bold; color: green"-->
 ********************
 
 </div>
@@ -958,12 +958,12 @@ Damit ergeben sich folgende Rechnungsschritte:
 
 <!-- class="highlight" -->
 Die Tischfräsmaschine soll zum Arbeiten vorbereitet werden.\
-Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge. 
+Ziehen Sie die einzelnen Arbeitsschritte in die richtige Reihenfolge.
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdroporder(@uid,Vor dem Aufspannen Drehzahlbereich des Fräswerkzeugs ermitteln.|Fräswerkzeug entsprechend der Drehrichtung auflegen.|Zwischenringe auswählen - dabei das Gewinde der Fräserdorn-Mutter voll ausnutzen.|Fräserdorn-Mutter mit geeignetem Werkzeug anziehen.|Fräshöhe einstellen.|Frästiefe einstellen.|Anschlagöffnung so weit wie möglich schließen.|Obere Werkzeugverdeckung anbringen.)
 

@@ -33,14 +33,14 @@ tags: [Tischler, Schreiner, Arbeitssicherheit, Holzbearbeitungsmaschinen, BGHM]
 # G-TSM - Überprüfungsfragen nach Abschluss des Praxiskurses
 
 Die praktischen überbetrieblichen TSM<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> -<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> Lehrgänge<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> sind ein wichtiger Bestandteil Ihrer Ausbildung.\
-In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das 
+In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das
 
 <!-- class="hash"-->
 - sichere Arbeiten an Sägemaschinen (Tisch- und Formatkreissäge, Bandsäge)
 - sichere Arbeiten an stationären Hobelmaschinen (Abricht- und Dickenhobelmaschine)
 - sichere Arbeiten mit Handmaschinen (Oberfräse, Formfedernutfräse, Handhobel und Handkreissäge)
 
-Das vorliegende Quiz baut auf den Einführungskurs zum Bedienen der genannten Maschinen auf. 
+Das vorliegende Quiz baut auf den Einführungskurs zum Bedienen der genannten Maschinen auf.
 <br>
 Die Fragen bieten Ihnen die Möglichkeit, jederzeit nach und vor einem TSM-Lehrgang fachliche Impulse sowie Grundlagenwissen zu vertiefen und sich neues anzueignen.\
 Die Fragen sind gemäß den Vorgaben der BGHM und den geltenden Unfallverhütungsvorschriften formuliert.
@@ -48,11 +48,11 @@ Die Fragen sind gemäß den Vorgaben der BGHM und den geltenden Unfallverhütung
 Gleichzeitig werden "Nebeneffekte" erreicht:
 
 <!-- class="blueball"-->
-- Erhöhung der Arbeitssicherheit, 
+- Erhöhung der Arbeitssicherheit,
 - Reduzierung von Materialverschwendung
-- Steigerung/Sicherung der Qualität 
+- Steigerung/Sicherung der Qualität
 
-<br> 
+<br>
 
 <!-- style="font-weight: bolder; font-size: 12pt; color: red;"-->
 Die Module ersetzen nicht die praktischen überbetrieblichen TSM-Lehrgänge.
@@ -66,11 +66,11 @@ Testen Sie Ihr Wissen zum sicheren Umgang mit Holzbearbeitungsmaschinen!
 
 <br>
 
-<center> 
+<center>
 
 ![Tischler_mit_Handmaschine](img/Man_zuschneiden.jpg" [_Quelle: Freepik, gpointstudio_](https://www.freepik.com/free-photo/carpenter-cutting-plank-by-circular-saw_11230030.htm#fromView=search&page=1&position=8&uuid=97824b16-cb12-47ce-88e1-8d3d56bdf004&query=carpenter)")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ## Umgang mit Handmaschinen
 
@@ -82,27 +82,27 @@ Welche Aussagen treffen für Handmaschinen zu (Mehrfachauswahl möglich)?
 
 <!-- data-randomize -->
 - [  [richtig]     (falsch) ]
-- [    (X)           ( )    ] Alle mit integrierter Absaugeinrichtung müssen abgesaugt werden. 
+- [    (X)           ( )    ] Alle mit integrierter Absaugeinrichtung müssen abgesaugt werden.
 - [    ( )           (X)    ] Vor dem Beseitigen von Störungen reicht es aus, die Anlaufautomatik des Staubsaugers abzuschalten.
-- [    (X)           ( )    ] Die Handmaschine ist grundsätzlich mit beiden Händen zu führen. 
+- [    (X)           ( )    ] Die Handmaschine ist grundsätzlich mit beiden Händen zu führen.
 - [    (X)           ( )    ] Für den Werkzeugwechsel ist die Maschine von der Energiezufuhr zu trennen (Akku/Strom).
-- [    (X)           ( )    ] Die Werkstücke sind festzuspannen und gegen Verschieben zu sichern. 
+- [    (X)           ( )    ] Die Werkstücke sind festzuspannen und gegen Verschieben zu sichern.
 - [    ( )           (X)    ] Die Maschine sollte nicht zwischen den Arbeitgängen ausgeschaltet werden, um Stromspitzen durch Ein-/Ausschalten zu vermeiden.
 ********************
 Folgende Aussagen sind richtig:\
 Alle mit integrierter Absaugeinrichtung müssen abgesaugt werden.\
 Die Handmschine ist grundsätzlich mit beiden Händen zu führen.\
 Für den Werkzeugwechsel ist die Maschine von der Energiezufuhr zu trennen (Akku/Strom).\
-Die Werkstücke sind festzuspannen und gegen Verschieben zu sichern. 
+Die Werkstücke sind festzuspannen und gegen Verschieben zu sichern.
 ********************
 
 -------------------
 
-<center> 
+<center>
 
 ![Tischler_](img/man_Handkreissaege_gloves.jpg" [_Quelle: Freepik, gpointstudio_](https://www.freepik.com/free-photo/hard-working-carpenter-cutting-wooden-plank_11230060.htm#from_element=cross_selling__photo)")<!-- style="max-width: 400px; width: 100%" -->
 
-</center> 
+</center>
 
 <!--style="background-color:#FFA500;color: white"-->
 > Hinweise zur Lösung finden Sie im TSM-Lehrgangsbegleitheft ab S. 137.
@@ -110,7 +110,7 @@ Die Werkstücke sind festzuspannen und gegen Verschieben zu sichern.
 
 ## Kreissägen - Fragen zum sicheren Umgang
 
-Die Kreissäge<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"--> gehört zu den wichtigsten, aber auch gefährlichsten<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"-->  Maschinen<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"-->  im Tischler-/ Schreinerhandwerk. Ihre sichere Handhabung erfordert 
+Die Kreissäge<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"--> gehört zu den wichtigsten, aber auch gefährlichsten<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"-->  Maschinen<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"-->  im Tischler-/ Schreinerhandwerk. Ihre sichere Handhabung erfordert
 
 <!-- class="blueball" -->
 - fundiertes Wissen
@@ -119,11 +119,11 @@ Die Kreissäge<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"-->
 
 -------
 <br>
-<center> 
+<center>
 
 ![Kreissäge](img/Kreissaege_blatt.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/circular-sharp-saw-wooden-table_3596130.htm#fromView=search&page=1&position=9&uuid=555403da-3815-4875-ad33-13a098268948&query=kreiss%C3%A4ge)")<!-- style="max-width: 500px; width: 100%" -->
 
-</center> 
+</center>
 
 
 ### Spaltkeil bei Handkreissägemaschinen
@@ -272,11 +272,11 @@ Die Schutzvorrichtungen sind korrekt zu beachten.
 
 -------
 <br>
-<center> 
+<center>
 
 ![Tischlerszene](img/clamped_door.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/creative-man-working-wood-workshop_14315189.htm#fromView=search&page=5&position=1&uuid=2187ca2a-71ab-4397-8f3f-50ea0d4eeb2c&query=Formatkreiss%C3%A4ge)")<!-- style="max-width: 500px; width: 100%" -->
 
-</center> 
+</center>
 
 
 
@@ -338,11 +338,11 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [(X)] Die rechte oder linke Seite; entscheidend ist, dass das Holz sicher aufliegt. 
+- [(X)] Die rechte oder linke Seite; entscheidend ist, dass das Holz sicher aufliegt.
 - [( )] Es ist immer die linke Seite vom Holz aufzulegen.
 - [( )] Es ist immer die rechte Seite vom Holz aufzulegen.
 ********************
-Welche Seite des Holzes aufgelegt wird, ist nicht entscheidend. Das Holz muss sicher<!-- style="font-weight: bolder; font-size: 12pt; color: color: #A00000;"--> aufliegen. 
+Welche Seite des Holzes aufgelegt wird, ist nicht entscheidend. Das Holz muss sicher<!-- style="font-weight: bolder; font-size: 12pt; color: color: #A00000;"--> aufliegen.
 ********************
 
 </div>
@@ -400,16 +400,16 @@ Folgende Antworten sind richtig:\
 
 ## Arbeiten an Sägemaschinen
 
-Die Bandsäge<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"--> gehört zu den Maschinen, die in der Werkstatt fast täglich eingesetzt werden: 
+Die Bandsäge<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"--> gehört zu den Maschinen, die in der Werkstatt fast täglich eingesetzt werden:
 
 <!-- class="blueball" -->
 - zum Zuschneiden von Massivholz
-- zum Aussägen von Rundungen 
+- zum Aussägen von Rundungen
 - beim Nacharbeiten von Formteilen
 
 -----------------------
 
-Doch genau diese Routine birgt Risiken<!-- style="font-weight: bolder; font-size: 12pt; color: #A00000;"-->: 
+Doch genau diese Routine birgt Risiken<!-- style="font-weight: bolder; font-size: 12pt; color: #A00000;"-->:
 
 🚑 Unachtsamkeit\
 🚑 falsche Werkstückführung\
@@ -419,11 +419,11 @@ Schwere Verletzungen können die Folge sein.
 
 -------
 <br>
-<center> 
+<center>
 
 ![Bandsäge](img/stichsaege_brett.jpg" [_Quelle: Freepik, pvproductions_](https://www.freepik.com/free-photo/close-up-carpenter-s-hands-process-cutting-wood-with-jigsaw_16771521.htm#fromView=search&page=1&position=19&uuid=c8990c62-ec23-42fe-94d9-8b83ca73725b&query=Bands%C3%A4ge)")<!-- style="max-width: 500px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Bandsägeblattführung
 
@@ -438,9 +438,9 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [(X)] Die Rückenrolle darf nur beim Schneiden mitlaufen. 
+- [(X)] Die Rückenrolle darf nur beim Schneiden mitlaufen.
 - [( )] Das Bandsägeblatt muss mindestens 2 mm Abstand zur Rückenrolle haben.
-- [( )] Die Rückenrolle muss ständig mitlaufen. 
+- [( )] Die Rückenrolle muss ständig mitlaufen.
 ********************
 Die Rückenrolle muss so eingestellt werden, dass sie sich nur bei belastetem Bandsägeblatt mitdreht.
 ********************

@@ -49,7 +49,7 @@ Sie haben in den letzten Tagen verschiedene fachpraktische und IT-gestützte Tä
 
 
 <!-- class="highlight" -->
-Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen! 
+Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 
 <br>
 <center>
@@ -57,7 +57,7 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 
 ![CAD-CAM](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/laserscanner.jpg "[_Quelle: jb-zahntechnik_](https://www.jb-zahntechnik.de/wp-content/uploads/2015/06/fraeszentrum-061.jpg)")<!-- style="width: 500px" -->
 
-</center> 
+</center>
 
 
 ## 1. Typische Abkürzungen CAD/CAM Zahntechnik
@@ -93,7 +93,7 @@ Ordnen Sie die Abkürzungen dem richtigen Bereich zu!
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Ziehen Sie die einzelnen Fertigungsschritte in die richtige Reihenfolge. 
+Ziehen Sie die einzelnen Fertigungsschritte in die richtige Reihenfolge.
 
 <br>
 
@@ -133,7 +133,7 @@ Welche Vorteile bietet die CAD/CAM-Technologie?
 
 <!-- data-randomize -->
 - [[ ]] hohe Unabhängigkeit von technischer Infrastruktur
-- [[ ]] rasche Anpassung bei Änderungen 
+- [[ ]] rasche Anpassung bei Änderungen
 - [[ ]] keine Nachbearbeitung notwendig aufgrund hoher Präzision
 - [[X]] hohe Wiederholungsgenauigkeit
 - [[X]] Zeitersparnis durch automatisierte Prozesse

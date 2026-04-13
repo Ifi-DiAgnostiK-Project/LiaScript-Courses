@@ -273,7 +273,7 @@ If YAML errors slip through (e.g., via `--no-verify`):
 [ERROR] ❌ YAML parsing error in courses/example_course.md
 [ERROR]    Error: while parsing a flow sequence
            in "<unicode string>", line 3, column 12:
-             attribute: [[_Source: Example_](https://... 
+             attribute: [[_Source: Example_](https://...
                         ^
 [ERROR]    Please check the YAML header syntax (especially attribute fields with special characters like [[ ]])
 [ERROR]    Tip: Quote values that contain special YAML characters

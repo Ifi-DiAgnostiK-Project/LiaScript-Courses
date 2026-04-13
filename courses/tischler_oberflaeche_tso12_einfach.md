@@ -31,7 +31,7 @@ tags: [ Oberflächenveredelung, Tischler, Schleifen, Ölen, Lacke]
 
 -->
 
-# Oberflächenveredelung Tischlerhandwerk TSO 1+2/24 
+# Oberflächenveredelung Tischlerhandwerk TSO 1+2/24
 <!-- class="highlight" -->
 Einfache Fragen
 ===
@@ -44,7 +44,7 @@ Im Rahmen Ihrer Ausbildung haben Sie sich mit den wichtigsten Verfahren – vom 
 Die nachfolgenden Fragen dienen dazu, Ihr Wissen zu prüfen und zu festigen. Es soll Ihnen helfen, das Gelernte aktiv abzurufen und mit Freude in die praktische Arbeit einzubringen.
 
 <!-- class="highlight" -->
-Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen! 
+Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen!
 
 <br>
 <center>

@@ -14,7 +14,7 @@ edit: true
 date: 2025-10-06
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: img/point_to_teeth.jpg
-attribute: https://unsplash.com/de/fotos/ein-mann-und-eine-frau-mit-einem-touchscreen-gerat-Bd0RmCsJOCc 
+attribute: https://unsplash.com/de/fotos/ein-mann-und-eine-frau-mit-einem-touchscreen-gerat-Bd0RmCsJOCc
 
 comment:  G-ZAHN 23 Arbeitsunterlagen und zahntechnische Vorprodukte erstellen
 
@@ -46,7 +46,7 @@ Sie haben in den letzten Tagen verschiedene Fachbegriffe aus der Morphologie der
 
 
 <!-- class="highlight" -->
-Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen! 
+Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen!
 
 <br>
 <center>
@@ -54,16 +54,16 @@ Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen!
 
 ![Zahnarztpraxis](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/point_to_teeth.jpg "[_Quelle: unsplash.com, Filip Rankovic_](https://unsplash.com/de/fotos/ein-mann-und-eine-frau-mit-einem-touchscreen-gerat-Bd0RmCsJOCc)")<!-- style="width: 400px" -->
 
-</center> 
+</center>
 
 
-## 1. Topografie des Zahnes 
+## 1. Topografie des Zahnes
 
 <section class="flex-container border">
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Ordnen Sie den Zahlen 1 - 4 im Bild den jeweils richtigen Fachbegriff zu.  
+Ordnen Sie den Zahlen 1 - 4 im Bild den jeweils richtigen Fachbegriff zu.
 
 <br>
 
@@ -111,7 +111,7 @@ Die Zahl 2<!--style="color: red; font-weight: bolder"--> meint  [->[  (die Kondy
 ------------
 
 <!-- data-randomize -->
-Die Zahl 3<!--style="color: red; font-weight: bolder"--> zeigt zum [->[  (Stützstift) | Quersteg]]. <br> 
+Die Zahl 3<!--style="color: red; font-weight: bolder"--> zeigt zum [->[  (Stützstift) | Quersteg]]. <br>
 Die Zahl 4<!--style="color: red; font-weight: bolder"--> bezeichnet den [->[  (Inzisalzeiger) | Inzisalstift ]].
 
 
@@ -151,7 +151,7 @@ Welche Begriffe werden synonym für "Kauebene" verwendet?
 
 ![](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/arbeiter_an_gebiss.jpg "_Quelle: Pixabay, marofedermann_")<!-- style="width: 400px" -->
 
-</center> 
+</center>
 
 
 ## 4. CAD und CAM
@@ -163,7 +163,7 @@ Welche Begriffe werden synonym für "Kauebene" verwendet?
 
 
 <!-- data-randomize -->
-Mittels CAD<!--style="color: green; font-weight: bolder"--> erfolgt die [->[  (digitale Konstruktion) | automatisierte Fertigung ]] von Objekten. 
+Mittels CAD<!--style="color: green; font-weight: bolder"--> erfolgt die [->[  (digitale Konstruktion) | automatisierte Fertigung ]] von Objekten.
 
 </div>
 </section>

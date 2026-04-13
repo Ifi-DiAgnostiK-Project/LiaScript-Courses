@@ -33,7 +33,7 @@ tags: [ Oberflächenveredelung, Tischler, Schleifen, Ölen, Lacke]
 
 -->
 
-# Oberflächenveredelung Tischlerhandwerk TSO 1+2/24 
+# Oberflächenveredelung Tischlerhandwerk TSO 1+2/24
 <!-- class="highlight" -->
 Spezialfragen
 ===
@@ -46,14 +46,14 @@ Im Rahmen Ihrer Ausbildung haben Sie sich mit den wichtigsten Verfahren – vom 
 Die nachfolgenden Fragen dienen dazu, Ihr Wissen zu prüfen und zu festigen. Es soll Ihnen helfen, das Gelernte aktiv abzurufen und mit Freude in die praktische Arbeit einzubringen.
 
 <!-- class="highlight" -->
-Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen! 
+Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen!
 
 <br>
 <center>
 ![Tischlerwerkstatt](img/kappsaege_dewalt.jpg"_Foto: Pixabay, ekenamillwork_")<!-- style="max-width: 600px; width: 100%" -->
 </center>
 
-## Vorbereiten der Oberfläche - Spezialfragen 
+## Vorbereiten der Oberfläche - Spezialfragen
 
 <section class="flex-container border">
 <div class="flex-child">
@@ -63,10 +63,10 @@ Ein Kunde beklagt sich über eine raue Oberfläche, obwohl der Lack glänzt.\
 Was könnte die Ursache sein?
 
 <!-- data-randomize -->
-- [( )] Der Lack war zu dick. 
-- [(X)] Vor der Endlackierung wurde der Untergrund nicht gereinigt. 
+- [( )] Der Lack war zu dick.
+- [(X)] Vor der Endlackierung wurde der Untergrund nicht gereinigt.
 - [( )] Das Spritzen erfolgte mit zu hohem Luftdruck.
-- [( )] Die Holzart war für das Verfahren ungeeignet. 
+- [( )] Die Holzart war für das Verfahren ungeeignet.
 
 </div>
 <div class="flex-child-2 center">
@@ -178,9 +178,9 @@ Was ist bei der Technik zu beachten?
 
 <!-- data-randomize -->
 - [( )] Die Beize muss vollständig ausgeschliffen werden.
-- [(X)] Der Lack muss beizkompatibel sein. 
+- [(X)] Der Lack muss beizkompatibel sein.
 - [( )] Die Fläche wird vorher geölt.
-- [( )] Eine Farbschicht wird dazwischen aufgetragen. 
+- [( )] Eine Farbschicht wird dazwischen aufgetragen.
 
 
 </div>
@@ -248,9 +248,9 @@ Welche Gefahr besteht beim Lagern von ölgetränkten Lappen in einem Eimer?
 
 <!-- data-randomize -->
 - [( )] Sie färben auf andere Werkstücke ab.
-- [(X)] Es kann durch die Oxidation des Öls zu einer Selbstentzündung kommen. 
+- [(X)] Es kann durch die Oxidation des Öls zu einer Selbstentzündung kommen.
 - [( )] Sie zerfallen.
-- [( )] Es kommt zu einer Geruchsbildung durch das Lösungsmittel. 
+- [( )] Es kommt zu einer Geruchsbildung durch das Lösungsmittel.
 
 </div>
 </section>

@@ -33,7 +33,7 @@ tags: [ Oberflächenveredelung, Tischler, Schleifen, Ölen, Lacke]
 
 -->
 
-# Oberflächenveredelung Tischlerhandwerk TSO 1+2/24 
+# Oberflächenveredelung Tischlerhandwerk TSO 1+2/24
 <!-- class="highlight" -->
 Schwere Fragen
 ===
@@ -46,7 +46,7 @@ Im Rahmen Ihrer Ausbildung haben Sie sich mit den wichtigsten Verfahren – vom 
 Die nachfolgenden Fragen dienen dazu, Ihr Wissen zu prüfen und zu festigen. Es soll Ihnen helfen, das Gelernte aktiv abzurufen und mit Freude in die praktische Arbeit einzubringen.
 
 <!-- class="highlight" -->
-Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen! 
+Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen!
 
 <br>
 <center>
@@ -63,7 +63,7 @@ Warum ist das sorgfältige Entfernen von Schleifstaub vor dem Lackieren besonder
 
 <!-- data-randomize -->
 - [( )] Schleifstaub fördert die Haftung.
-- [(X)] Schleifstaub kann matte und raue Stellen entstehen lassen. 
+- [(X)] Schleifstaub kann matte und raue Stellen entstehen lassen.
 - [( )] Schleifstaub verzögert die Trocknung.
 - [( )] Schleifstaub verändert den pH-Wert des Lacks.
 
@@ -175,9 +175,9 @@ Welche Folge kann ein zu feiner Zwischenschliff zwischen Lackschichten haben?
 
 <!-- data-randomize -->
 - [( )] Es wird eine schnellere Trocknung erreicht.
-- [(X)] Daraus resultiert eine mangelnde Haftung bei der nächsten Lackschicht. 
+- [(X)] Daraus resultiert eine mangelnde Haftung bei der nächsten Lackschicht.
 - [( )] Schleifspuren werden sichtbar.
-- [( )] Es wird eine höhere Farbintensität erreicht. 
+- [( )] Es wird eine höhere Farbintensität erreicht.
 
 </div>
 <div class="flex-child-2 center">
@@ -190,7 +190,7 @@ Welche Folge kann ein zu feiner Zwischenschliff zwischen Lackschichten haben?
 ![Fragezeichen](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fragezeichen.jpg "_Quelle: Pixabay, Peggy+Marco_")<!-- style="max-width: 200px; width: 100%" -->
 </center>
 
-## Lackauftragsverfahren - schwere Fragen 
+## Lackauftragsverfahren - schwere Fragen
 
 <section class="flex-container border">
 <div class="flex-child">
@@ -202,7 +202,7 @@ Warum ist die Viskosität beim Spritzlackieren entscheidend?
 - [( )] Sie beeinflusst die Farbwirkung.
 - [(X)] Sie bestimmt das Spritzbild.
 - [( )] Sie reguliert die Trocknungszeit.
-- [( )] Sie macht eine Grundierung unnötig. 
+- [( )] Sie macht eine Grundierung unnötig.
 
 
 </div>

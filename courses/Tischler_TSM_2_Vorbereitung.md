@@ -37,7 +37,7 @@ tags: [Tischler, Schreiner, Arbeitssicherheit, Holzbearbeitungsmaschinen, BGHM]
 # TSM 2 - Vorbereitung auf den Praxiskurs
 
 Die praktischen überbetrieblichen TSM<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> -<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> Lehrgänge<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> sind ein wichtiger Bestandteil Ihrer Ausbildung.\
-In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das 
+In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das
 
 <!-- class="hash"-->
 - sichere Arbeiten an Sägemaschinen (Tisch- und Formatkreissäge, Bandsäge)
@@ -59,11 +59,11 @@ Die Fragen sind gemäß den Vorgaben der Berufsgenossenschaft Holz und Metall (B
 Gleichzeitig werden "Nebeneffekte" erreicht:
 
 <!-- class="blueball"-->
-- Erhöhung der Arbeitssicherheit, 
+- Erhöhung der Arbeitssicherheit,
 - Reduzierung von Materialverschwendung
-- Steigerung/Sicherung der Qualität 
+- Steigerung/Sicherung der Qualität
 
-<br> 
+<br>
 
 <!-- style="font-weight: bolder; font-size: 12pt; color: red;"-->
 Die Module ersetzen nicht die praktischen überbetrieblichen TSM-Lehrgänge.
@@ -78,11 +78,11 @@ Testen Sie Ihr Wissen zum sicheren Umgang mit Holzbearbeitungsmaschinen!
 <br> <br>
 
 
-<center> 
+<center>
 
 ![Tischler_an_Bandsaege](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/carpenter_working_with_band_saw.jpg" [_Quelle: Freepik, prostooleh_](https://www.freepik.com/free-photo/professional-carpenter-working-with-sawing-machine_8819641.htm#from_element=cross_selling__photo)")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ## Die gesetzliche Unfallversicherung
 
@@ -94,7 +94,7 @@ Was ist eine gesetzliche Unfallversicherung?
 Die gesetzliche Unfallversicherung ist ein Teil der sozialen Sicherung in Deutschland und schützt Menschen
 
 1. vor den Folgen von **Arbeitsunfällen**
-2. vor **Berufskrankheiten** 
+2. vor **Berufskrankheiten**
 
 Sie greift z. B. bei
 
@@ -103,18 +103,18 @@ Sie greift z. B. bei
 - bei Wegeunfällen zur Arbeit oder Ausbildung
 
 Träger der gesetzlichen Unfallversicherung sind Berufsgenossenschaften und Unfallkassen, je nach Branche und Zuständigkeit.\
-Sie finanzieren sich ausschließlich durch die Unternehmen. 
+Sie finanzieren sich ausschließlich durch die Unternehmen.
 
 </div>
 
 <br> <br>
 
 
-<center> 
+<center>
 
 ![BGHM_Logo](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bghm.svg "_Quelle: BGHM_")<!-- style="max-width: 300px; width: 140%;margin-left: -50px; margin-top:20px;" -->
 
-</center> 
+</center>
 
 <!--style="background-color:#FFA500;color: white"-->
 > Hinweise zur Lösung für die nachfolgenden Aufgaben finden Sie im TSM-Lehrgangsbegleitheft, S. 6-7.
@@ -137,7 +137,7 @@ data-max-trials="3"
 - [( )] die Versicherten und Unternehmensverantwortlichen je zur Hälfte
 - [( )] je zu einem Drittel die Sozialversicherung, die Arbeitnehmer und die Unternehmen
 ********************
-Die gesetzliche Unfallversicherung wird ausschließlich durch die Unternehmen finanziert. 
+Die gesetzliche Unfallversicherung wird ausschließlich durch die Unternehmen finanziert.
 ********************
 
 </div>
@@ -198,11 +198,11 @@ Bei der Arbeit an Maschinen ist geeignete Arbeitskleidung ein wichtiger Teil der
 
 <br>
 
-<center> 
+<center>
 
 ![Arbeitsschutz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/sicherheitsausruestung.jpg" [_Quelle: Freepik, pvproductions_](https://www.freepik.com/free-photo/work-helmet-boots-gloves-wooden-background-top-view_33090388.htm#fromView=search&page=1&position=35&uuid=b084009a-d4d3-4588-9a32-9ef6f5fdc1d0&query=arbeitsschutz)")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Persönliche Schutzausrüstung
 
@@ -222,15 +222,15 @@ data-solution-button="off"
 data-max-trials="3"
 -->
 - [[ ]] Beim Arbeiten mit Handmaschinen ist kein Gehörschutz notwendig.
-- [[ ]] Sicherheitsschuhe müssen nur auf der Baustelle getragen werden. 
-- [[X]] Es ist eng anliegende Kleidung zu tragen. 
-- [[X]] Insbesondere beim Arbeiten mit Handmaschinen über Kopf und mit Gehrungskappsägen ist eine Schutzbrille zu tragen. 
+- [[ ]] Sicherheitsschuhe müssen nur auf der Baustelle getragen werden.
+- [[X]] Es ist eng anliegende Kleidung zu tragen.
+- [[X]] Insbesondere beim Arbeiten mit Handmaschinen über Kopf und mit Gehrungskappsägen ist eine Schutzbrille zu tragen.
 - [[X]] Im Lärmbereich ist Gehörschutz zu tragen.
 - [[X]] An Maschinen mit drehenden Werkzeugen dürfen keine Handschuhe getragen werden.
-- [[X]] Sicherheitsschuhe sind in der Werkstatt und auf der Baustelle vorgeschrieben. 
+- [[X]] Sicherheitsschuhe sind in der Werkstatt und auf der Baustelle vorgeschrieben.
 ********************
 Folgende Antworten sind richtig:\
-- Es ist eng anliegende Kleidung zu tragen. 
+- Es ist eng anliegende Kleidung zu tragen.
 - Insbesondere beim Arbeiten mit Handmaschinen über Kopf und mit Gehrungskappsägen ist eine Schutzbrille zu tragen.\
 - Im Lärmbereich ist Gehörschutz zu tragen.\
 - An Maschinen mit drehenden Werkzeugen dürfen keine Handschuhe getragen werden.\
@@ -253,7 +253,7 @@ Folgende Antworten sind richtig:\
 <div class="colorbox colorbox--info" style="width:auto;">
 Dieses Wiederholungsmodul dient der Auffrischung der sicherheitsrelevanten Kenntnisse von **Sägemaschinen** mit besonderem Augenmerk auf das motorisch sichere und vorausschauende Arbeiten.\
 <br>
-Das Ziel dieses Kurses ist: 
+Das Ziel dieses Kurses ist:
 
 <!-- class="blueball" -->
 - fundiertes Wissen über die Handhabung von Holzbearbeitungsmaschinen erreichen
@@ -261,11 +261,11 @@ Das Ziel dieses Kurses ist:
 - die konsequente Einhaltung aller Schutzmaßnahmen zu trainieren
 - typische Gefährdungssituationen zu erkennen
 <br>
-Nur wer seinen 
+Nur wer seinen
 
 - **Arbeitsablauf** kontrolliert,
 - **Schutzvorrichtungen** richtig einsetzt
-- und **potenzielle Gefahren** frühzeitig erkennt, 
+- und **potenzielle Gefahren** frühzeitig erkennt,
 
 kann sicher und effizient arbeiten.\
 <br>
@@ -276,11 +276,11 @@ Sicherheit im Umgang mit Sägemaschinen beruht auf Übung, Aufmerksamkeit – un
 
 <br>
 
-<center> 
+<center>
 
 ![Tischlerarbeit](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bandsaege_sehr_gross_holz.jpg" [_Quelle: Pixabay, ekenamillwork_](https://pixabay.com/de/photos/sah-holzbearbeitung-fabrik-4074238/)")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Handbetätigte Sägemaschinen
 
@@ -289,10 +289,10 @@ Welcher Arbeitsgang wird mit der Pendelkreissägemaschine durchgeführt?\
 Ziehen Sie die richtige Lösung in das leere Feld.
 
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdropmultiple(@uid,Ablängen von Massivholz,Zuschnitt von Kunststoffen|Zuschnitt von Plattenwerkstoffen|Besäumen von Massivholz)
 
@@ -342,7 +342,7 @@ Folgende Antworten sind richtig:\
 #### Längsschneiden und Besäumen
 
 <!-- class="highlight" -->
-Schauen Sie sich das Video der Berufsgenossenschaft Holz und Metall (BGHM) an. 
+Schauen Sie sich das Video der Berufsgenossenschaft Holz und Metall (BGHM) an.
 
 <br>
 
@@ -384,10 +384,10 @@ Welche Handhaltung ist beim Vorschieben des Werkstückes richtig?\
 Ziehen Sie die richtige Lösung in das leere Feld.
 
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdropmultiple(@uid,Hände mit geschlossenen Fingern flach auf das Werkstück legen,das Werkstück nur mit den Fingerspitzen schieben|das Werkstück nur am hinteren Ende festhalten und nachschieben|mit einer locker geballten Hand schieben)
 
@@ -487,13 +487,13 @@ Die Lösung lautet: 2 mm. - Siehe dazu das TSM-Lehrbuch, S. 38.
 Arbeiten an stationären Hobelmaschinen
 </div>
 
-Beim Arbeiten an stationären  Hobelmaschinen werden 
+Beim Arbeiten an stationären  Hobelmaschinen werden
 
 - Holzoberflächen geglättet,
 - auf Maß gebracht,
-- rechtwinklig bearbeitet. 
+- rechtwinklig bearbeitet.
 
-Dabei wirken 
+Dabei wirken
 
 <!-- class="blueball" -->
 - hohe Schnittgeschwindigkeiten
@@ -507,11 +507,11 @@ Es ist wichtig, die Sicherheitseinrichtungen (z. B. Schutzhauben, Vorschub, Ansc
 <br>
 
 
-<center> 
+<center>
 
  ![Hobelmaschine](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/dickenhobel_man_in_blue_wood.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/wood-worker-his-shop-working-with-tools-equipment_75523858.htm#fromView=image_search_similar&page=7&position=37&uuid=a74d5909-470b-49f0-9ee1-7ac6366a000f&query=handarbeit+holz)")<!-- style="max-width: 500px; width: 100%;margin-left: -50px; margin-top:20px;" -->
 
-</center> 
+</center>
 
 <!--style="background-color:#FFA500;color: white"-->
 > Hinweise zur Lösung für die nachfolgenden Aufgaben finden Sie im TSM-Lehrgangsbegleitheft, S. 57-68.
@@ -529,11 +529,11 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [(X)] Von einem kurzen Werkstück spricht man, wenn die Werkstücklänge unter 2x Handlänge plus 1x Handbreite liegt. 
-- [( )] Von einem kurzen Werkstück spricht man, die die Werkstücklänge unter 2x Handbreite plus 1x Handlänge liegt. 
-- [( )] Von einem kurzen Werkstück spricht man, wenn das Werkstück länger als 50 cm ist.  
+- [(X)] Von einem kurzen Werkstück spricht man, wenn die Werkstücklänge unter 2x Handlänge plus 1x Handbreite liegt.
+- [( )] Von einem kurzen Werkstück spricht man, die die Werkstücklänge unter 2x Handbreite plus 1x Handlänge liegt.
+- [( )] Von einem kurzen Werkstück spricht man, wenn das Werkstück länger als 50 cm ist.
 ********************
-Von einem kurzen Werkstück spricht man, wenn die Werkstücklänge unter 2x Handlänge plus 1x Handbreite liegt. 
+Von einem kurzen Werkstück spricht man, wenn die Werkstücklänge unter 2x Handlänge plus 1x Handbreite liegt.
 ********************
 
 </div>
@@ -553,10 +553,10 @@ Welches Hilfsmittel ist beim Abrichten von schmalen Werkstücken (Werkstücken m
 Ziehen Sie die richtige Lösung in das leere Feld.
 
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdropmultiple(@uid,Hilfsanschlag,Schiebestock|Anlagewinkel|angefertigte Schablone|Spannlade)
 
@@ -567,12 +567,12 @@ data-solution-button="off"
 Arbeiten an stationären Tischfräsmaschinen
 </div>
 
-Stationäre  Tischfräsmaschinen dienen zum 
+Stationäre  Tischfräsmaschinen dienen zum
 
 - Fräsen von Holz, Spanplatten und ähnlichen Werkstoffen,
 - um Formen, Kanten, Nuten oder Verzierungen präzise herzustellen.
 
-Dabei besteht ein großes Verletzungsrisiko durch 
+Dabei besteht ein großes Verletzungsrisiko durch
 
 <!-- class="blueball" -->
 - rotierende Fräswerkzeuge mit hohen Drehzahlen
@@ -590,11 +590,11 @@ Es ist wichtig, die Sicherheitsvorkehrungen zu kennen:
 
 <br>
 
-<center> 
+<center>
 
 ![Fraesmaschine](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/router_theatrical_block.jpg" [_Quelle: Freepik, DC Studio_](https://www.freepik.com/free-photo/joiner-using-heavy-machinery-craft-furniture_314268423.htm#fromView=search&page=1&position=5&uuid=2c99c0e3-bdc3-477b-a0ee-ef2998bd2dd8&query=wood+fr%C3%A4sen)")<!-- style="max-width: 500px; width: 120%" -->
 
-</center> 
+</center>
 
 ### Aufbau einer Tischfräsmaschine
 
@@ -602,7 +602,7 @@ Es ist wichtig, die Sicherheitsvorkehrungen zu kennen:
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Ordnen Sie die Maschinenbauteile 1 - 5 im Bild richtig zu.  
+Ordnen Sie die Maschinenbauteile 1 - 5 im Bild richtig zu.
 
 <br>
 
@@ -688,12 +688,12 @@ data-max-trials="3"
 Die Werkzeugverdeckung soll den Schneidenkreis des Fräswerkzeugs im Arbeitsbereich um die Werkstückdicke überragen; mindestens jedoch um 15 mm.
 ********************
 
-<center> 
+<center>
 
 ![Tischfraesmaschine_Abdeckung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/router_schematisch_variables.png "_Quelle: BGHM_")<!-- style="max-width: 450px; width: 100%;margin-left: 5
 0px; margin-top:20px;" -->
 
-</center> 
+</center>
 
 </div>
 </section>
@@ -708,7 +708,7 @@ Wie wird diese Drehrichtung umgangssprachlich genannt?\
 Geben Sie die richtige Bezeichnung als Text ein.
 
 <!-- style="font-weight: bolder; font-size: 10pt; color: #A00000;"-->
-Hinweis: Das Lösungswort beginnt mit einem Großbuchstaben. 
+Hinweis: Das Lösungswort beginnt mit einem Großbuchstaben.
 
 <br> <br>
 
@@ -738,7 +738,7 @@ Wie wird diese Drehrichtung umgangssprachlich genannt?\
 Geben Sie die richtige Bezeichnung als Text ein.
 
 <!-- style="font-weight: bolder; font-size: 10pt; color: #A00000;"-->
-Hinweis: Das Lösungswort beginnt mit einem Großbuchstaben. 
+Hinweis: Das Lösungswort beginnt mit einem Großbuchstaben.
 
 <br> <br>
 
@@ -822,7 +822,7 @@ Damit ergeben sich folgende Rechnungsschritte:
 4. $v$<!--style="font-size: large;font-weight: bold; Color: orange"--> ist als Schnittgeschwindigkeit gegeben:  $54$<!--style="font-weight: bold; color: orange"--> $\text{U/min}$<!--style=";font-weight: bold; color: orange"-->.
 5. Gesucht ist $n$<!--style="font-size: large;font-weight: bold; Color: orange"-->. Die Formel $v$ $\text{=}$ $r$ $\cdot$ $n$ wird nach $n$<!--style="font-size: large;font-weight: bold; Color: orange"--> umgestellt:  $n$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\frac{v {\cdot}}{r}$<!--style="font-size: large;font-weight: bold; color: orange"-->
 6. Eingesetzt mit den gegebenen bzw. ermittelten Zahlenwerten __ohne__ __Maßeinheiten__ ergibt sich:  $n$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\frac{54}{6}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $9$<!--style="font-weight: bold; color: orange"-->
-7. Zum Ergebnis werden die drei Nullen wieder hinzugefügt - damit lautet die Antwort  $9.000$<!--style="font-size: large;font-weight: bold; color: green"-->  $\text{U/min}$<!--style="font-size: large;font-weight: bold; color: green"--> 
+7. Zum Ergebnis werden die drei Nullen wieder hinzugefügt - damit lautet die Antwort  $9.000$<!--style="font-size: large;font-weight: bold; color: green"-->  $\text{U/min}$<!--style="font-size: large;font-weight: bold; color: green"-->
 ********************
 
 </div>
@@ -881,10 +881,10 @@ Wie wird der Ein- und Aussetzpunkt zum Einsetzfräsen an der Tischfräsmaschine 
 Ziehen Sie die richtige Lösung in das leere Feld.
 
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdropmultiple(@uid,mit einem rechtwinkligen Hilfsmittel wie z. B. einem Holzklotz,mit Anstrichen z. B. per Bleistift am Frästisch|mit Anstrichen z. B. per Bleistift am Fräsanschlag|durch eine Leere)
 
@@ -900,10 +900,10 @@ Welches Hilfsmittel ist beim Einsetzfräsen von kurzen Werkstücken zu nutzen?\
 Ziehen Sie die richtige Lösung in das leere Feld.
 
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdropmultiple(@uid,Spannlade,Fräshilfe|Schiebeholz|Schablone|Schiebestock)
 

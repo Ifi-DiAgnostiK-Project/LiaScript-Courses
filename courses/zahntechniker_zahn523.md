@@ -39,7 +39,6 @@ tags:
     - Krone
     - Doppelkrone
     - Verblendung
-    
 -->
 
 # ZAHN 5-23: Herstellen eines funktionellen ästhetischen Zahnersatzes
@@ -48,7 +47,7 @@ Sie haben in den letzten Tagen verschiedene fachpraktische Tätigkeiten zum Hers
 
 
 <!-- class="highlight" -->
-Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen! 
+Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 
 <br> <br>
 <center>
@@ -56,7 +55,7 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 
 ![Zahntechnikerin](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zahntechniker_et_work.jpg "[_Quelle: Pixabay, Ri-Ya_](https://pixabay.com/photos/dental-lab-models-dental-crowns-7660684/)")<!-- style="width: 500px" -->
 
-</center> 
+</center>
 
 
 ## 1. Das Primärteleskop
@@ -65,7 +64,7 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Ordnen Sie den Zahlen 1 - 6 im Bild den jeweils richtigen Fachbegriff zu.  
+Ordnen Sie den Zahlen 1 - 6 im Bild den jeweils richtigen Fachbegriff zu.
 
 <br>
 
@@ -126,7 +125,7 @@ Welche Fügetechnik gibt es in der Zahntechnik NICHT?
 
 ![kleine Zahnarbeiter](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zaehne_und_maennl.jpg "[_Quelle: Pixabay, Vilkasss_](https://pixabay.com/illustrations/ai-generated-teeth-dental-miniature-9431605/)")<!-- style="width: 500px" -->
 
-</center> 
+</center>
 
 
 ## 3. Die Klebeverbindung in der Zahntechnik
@@ -159,7 +158,7 @@ Welche Aussage zum Kleben in der Zahntechnik ist korrekt?
 
 
 <!-- data-randomize -->
-- [( )] Kleben ist ein lösbares Fügeverfahren, da die beiden zu verklebenden Teile zusätzlich durch mechanisches Verhaken miteinander verbunden werden. 
+- [( )] Kleben ist ein lösbares Fügeverfahren, da die beiden zu verklebenden Teile zusätzlich durch mechanisches Verhaken miteinander verbunden werden.
 - [(X)] Kleben ist ein stoffschlüssiges Fügen zweier fester Teile, welche aus gleichen oder unterschiedlichen Materialien bestehen können.
 - [( )] Beim Kleben werden die Oberflächen der zwei Teile durch Hitze aufgeschmolzen und anschließend miteinander verschmolzen.
 - [( )] Kleben bezeichnet ein Verfahren, bei dem ein dünner Metallfilm zwischen zwei Teile eingebracht wird, um diese anschließend durch Druck dauerhaft miteinander zu verbinden.
@@ -172,7 +171,7 @@ Welche Aussage zum Kleben in der Zahntechnik ist korrekt?
 
 ## 4. Berechnung des Metallgewichts
 
-<!--style="font-size: large;font-weight: bolder"-->Folgende Daten sind gegeben: 
+<!--style="font-size: large;font-weight: bolder"-->Folgende Daten sind gegeben:
 
 <!--style="font-size: large;"-->Wachgewicht: 1,2 g
 <br>
@@ -191,10 +190,10 @@ Für die Berechnung des Metallgewichts wird der klassische Dreisatz angewendet.
 
 
 <!-- class="highlight"-->
-Wählen Sie die richtige Formel zum Berechnen von $W_{M}$ aus. 
+Wählen Sie die richtige Formel zum Berechnen von $W_{M}$ aus.
 
 <!-- data-randomize -->
-- [( )] $W_{M}$<!-- style="color: blue" --> $\text{=}$ $\frac{{0,98 g/cm³}  {\cdot}   {8,2g/cm³}}{1,2g}$<!--style="font-size: large;font-weight: bold"--> 
+- [( )] $W_{M}$<!-- style="color: blue" --> $\text{=}$ $\frac{{0,98 g/cm³}  {\cdot}   {8,2g/cm³}}{1,2g}$<!--style="font-size: large;font-weight: bold"-->
 - [( )] $W_{M}$<!-- style="color: blue" --> $\text{=}$ $\frac{\pi   {\cdot}   {1,2g}   {\cdot}   {8,2g/cm³}}{0,98 g/cm³}$<!--style="font-size: large;font-weight: bold"-->
 - [(X)] $W_{M}$<!-- style="color: blue" --> $\text{=}$ $\frac{{1,2g}   {\cdot}   {8,2g/cm³}}{0,98 g/cm³}$<!--style="font-size: large;font-weight: bold"-->
 

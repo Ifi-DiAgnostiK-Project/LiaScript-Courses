@@ -34,7 +34,7 @@ tags: [Polstern, Polstermöbel, Gestellbau, Polstergestellbau, Holzverbindung, H
 # Holzverbindungen im Polstermöbelbau - Überblickswissen
 
 Holzverbindungen sind ein wichtiger Bestandteil von Polstermöbeln.\
-Sie sorgen dafür, dass Gestelle 
+Sie sorgen dafür, dass Gestelle
 
 <!-- class="bluefolder"-->
 - stabil
@@ -45,7 +45,7 @@ Sie sorgen dafür, dass Gestelle
 
 sind - auch dann, wenn sie später nicht mehr sichtbar sind.\
 
-Als angehende Raumausstatterin bzw. angehender Raumausstatter sollten Sie die wichtigsten Holzverbindungen 
+Als angehende Raumausstatterin bzw. angehender Raumausstatter sollten Sie die wichtigsten Holzverbindungen
 
 <!-- class="intdes"-->
 - erkennen
@@ -54,12 +54,12 @@ Als angehende Raumausstatterin bzw. angehender Raumausstatter sollten Sie die wi
 
 <br>
 
-In diesem Quiz testen Sie Ihr Grundwissen zu 
+In diesem Quiz testen Sie Ihr Grundwissen zu
 
 <!-- class="blueball"-->
 - typischen Holzverbindungen
 - deren Grundprinzip
-- Einsatz im Polstermöbelbau 
+- Einsatz im Polstermöbelbau
 
 <br>
 <!--class="highlight"-->
@@ -69,11 +69,11 @@ Viel Erfolg!
 <br> <br>
 
 
-<center> 
+<center>
 
 ![Polster_Sudenn](img/Holzverb_Couchrahmen.webp "[_Quelle: Sudenn Holzbearbeitung_](https://sudenn-holzbearbeitung.de/)")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ## Erkennen & Benennen von typischen Holzverbindungen
 
@@ -97,11 +97,11 @@ Ordnen Sie jeweils das Bild der richtigen Holzverbindung zu.
 <br> <br>
 
 
-<center> 
+<center>
 
 ![Lochzapfen](img/Holzverb_rund_durch.jpg "_Lochzapfen - abgesetzt und durchbohrt, mit Rundzapfen verkeilt; Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 
 ### Holzverbindung 1
@@ -125,11 +125,11 @@ Welche Holzverbindung ist abgebildet?
 </div>
 </section>
 
-<center> 
+<center>
 
 ![durchbohrt_und_gezapft_fertig](img/Holzverb_rund_durch_unfertig.jpg "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Holzverbindung 2
 
@@ -152,11 +152,11 @@ Welche Holzverbindung ist abgebildet?
 </div>
 </section>
 
-<center> 
+<center>
 
 ![Dübelverbindung_groß](img/Holzverb_duebel.png "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Holzverbindung 3
 
@@ -179,11 +179,11 @@ Welche Holzverbindung ist abgebildet?
 </div>
 </section>
 
-<center> 
+<center>
 
 ![Schlitzverbindung_fertig](img/Holzverb_platten_fertig.jpg "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Holzverbindung 4
 
@@ -206,11 +206,11 @@ Welche Holzverbindung ist abgebildet?
 </div>
 </section>
 
-<center> 
+<center>
 
 ![Zinkung_klein](img/Holzverb_zinken.jpg "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Holzverbindung 5
 
@@ -233,11 +233,11 @@ Welche Holzverbindung ist abgebildet?
 </div>
 </section>
 
-<center> 
+<center>
 
 ![Überplattung_fertig](img/Holzverb_glue.jpg "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Holzverbindung 6
 
@@ -260,11 +260,11 @@ Welche Holzverbindung ist abgebildet?
 </div>
 </section>
 
-<center> 
+<center>
 
 ![Zapfenverbindung_fertig](img/Holzverb_zapfen_durch.jpg "_Quelle: HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ## Anwendung von Holzverbindungen im Polstergestellbau
 
@@ -282,17 +282,17 @@ Ordnen Sie die folgenden Aussagen in "richtig" und "falsch" ein.
 - [    ( )           (X)    ]  Die überplattete Verbindung wird ausschließlich bei Vollholz- bzw. Sichtholzgestellen verwendet.
 - [    (X)           ( )    ]  Gedübelte Verbindungen zeichnen sich durch eine hohe Stabilität, einfache Fertigung und Ästhetik aus.
 - [    ( )           (X)    ]  Die durchbohrte und gezapfte Verbindung eignet sich für weniger beanspruchte Gestellteile.
-- [    (X)           ( )    ]  Die Wahl der Holzverbindung hängt im Polstergestellbau auch davon ab, ob das Gestell sichtbar bleibt oder nicht. 
+- [    (X)           ( )    ]  Die Wahl der Holzverbindung hängt im Polstergestellbau auch davon ab, ob das Gestell sichtbar bleibt oder nicht.
 - [    (X)           ( )    ]  Die (Schlitz-)Zapfen-Verbindung wird aufgrund der hohen Stabilität und schönen Optik oft bei Sichtholzgestellen eingesetzt.
 - [    ( )           (X)    ]  Die gezinkte Verbindung ist die am häufigsten eingesetzte Holzverbindung im Polstergestellbau.
 
 -------------------
 
-<center> 
+<center>
 
 ![Holzverbindung_Stuhl_KI](img/Holzverb_Stuhl.png "_Quelle: KI generiert, bearbeitet GKZ_")<!-- style="max-width: 350px; width: 100%" -->
 
-</center> 
+</center>
 
 ## Geschafft 🎉
 

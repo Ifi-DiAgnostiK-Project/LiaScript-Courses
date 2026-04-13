@@ -37,7 +37,7 @@ Arbeits- und Gesundheitsschutz bedeutet:
 
 <!-- class="thumbup"-->
 - Unfälle vermeiden
-- gesund bleiben 
+- gesund bleiben
 - aufeinander achten
 
 Dazu gehören, z.B.:
@@ -90,7 +90,7 @@ __Entscheiden Sie, welche Maßnahmen des Arbeitssicherheit und Gesundheitsschutz
 - [[ ]] Beaufsichtigung der Arbeiten durch einen erfahrenen Fachmann
 
 </div>
-</section> 
+</section>
 
 <!-- class="highlight" -->
 __Welche Schutzausrüstung und Sicherheitsmaßnahmen sind beim Löten zu beachten? Ziehen Sie die richtigen Bilder ins Antwortfeld. 🤔__
@@ -116,7 +116,7 @@ __Sind besondere Schutzmaßnahmen gegen elektrischen Strom beim Schweißen notwe
 - [[ ]] Es sind keine besonderen Maßnahmen notwendig.
 
 </div>
-</section> 
+</section>
 
 <section class="flex-container border">
 <div class="flex-child">

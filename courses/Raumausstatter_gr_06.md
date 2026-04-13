@@ -189,7 +189,7 @@ Entscheiden Sie sich für die richtige Handnaht: 🤷‍♀️
 ## 5. Welche Bodenbeläge verarbeitet der Raumausstatter ~~nicht~~?
 
 <!--style="color:blue; font-weight: bolder; font-size: large"-->
-Wählen Sie die entsprechenden Antworten aus. 
+Wählen Sie die entsprechenden Antworten aus.
 
 -------------------------------
 
@@ -264,10 +264,10 @@ Ordnen Sie auch auch hier richtig zu:
 <!--style="color:blue; font-weight: bolder; font-size: large"-->
 Welche Teile gehören zum Schnellnäher? Wählen Sie richtig aus!
 
-<!--style="font-size: huge; color: red"--> 
-Kleiner Tipp: 
+<!--style="font-size: huge; color: red"-->
+Kleiner Tipp:
 
-<!--style="font-size: huge; color: blue"-->  10 Angaben sind richtig 😄 
+<!--style="font-size: huge; color: blue"-->  10 Angaben sind richtig 😄
 
 ------------
 

@@ -40,7 +40,7 @@ tags:
 
 # Mini-Lernkurs: Berechnung von Anmischflüssigkeiten für Einbettmassen (ZAHN 2-23)
 
-Für den überbetrieblichen Ausbildungskurs ZAHN 2-23, in Vorbereitung auf Ihre Prüfung sowie für Ihren Arbeitsalltag können Sie in diesem Kurs wichtige Grundlagen zur Berechnung von Mischungen für Einbettmassen wiederholen. <br> 
+Für den überbetrieblichen Ausbildungskurs ZAHN 2-23, in Vorbereitung auf Ihre Prüfung sowie für Ihren Arbeitsalltag können Sie in diesem Kurs wichtige Grundlagen zur Berechnung von Mischungen für Einbettmassen wiederholen. <br>
 
 Als mathematische Grundlage wird der **Dreisatz**<!--style="color:blue; font-weight:bolder;"--> angewandt. <br>
 
@@ -69,7 +69,7 @@ Fehler<!--style="color:red; font-weight:bolder;"--> beim Anmischen führen oftma
 
 <br> __Frischen Sie Ihr Wissen auf und üben Sie Dreisatzrechnungen im zahntechnischen Alltag!__
 
-<br> 
+<br>
 
 <center>
 
@@ -112,7 +112,7 @@ Gesamtmenge in diesem Beispiel: 80<!--style="color:black; font-weight: bolder"--
 
 <div class="flex-child">
 
-Sheraliquid<!--style="color:black; font-weight: bolder"-->:<!--style="color:green; font-weight: bolder"--> 
+Sheraliquid<!--style="color:black; font-weight: bolder"-->:<!--style="color:green; font-weight: bolder"-->
 
 </div>
 <div class="flex-child-2">
@@ -167,7 +167,7 @@ Für __eine Packung (400 g) Einbettmasse__ benötigen Sie:
 
 
 
-## Übungsaufgabe 1 
+## Übungsaufgabe 1
 
 Eine Packung Einbettmasse (400 g) wird mit 80<!--style="color:black; font-weight: bolder"--> ml<!--style="color:black; font-weight: bolder"--> einer<!--style="color:black; font-weight: bolder"--> 50%igen<!--style="color:black; font-weight: bolder"--> Lösung<!--style="color:black; font-weight: bolder"--> gemischt.
 
@@ -218,10 +218,10 @@ Eine Packung Einbettmasse (400 g) wird mit 80<!--style="color:black; font-weight
 <!--style="color: blue; font-weight: bolder"-->Wie lautet der richtige Rechenweg für die Berechnung ml ~~Sheraliquid~~?
 
 <!-- data-randomize -->
-- [( )] ${80}$ $\text{ml}$ $\text{x}$ ${0,40}$ 
-- [(X)] ${80}$ $\text{ml}$ $\text{x}$ ${0,50}$ 
-- [( )] ${50}$ $\text{ml}$ $\text{x}$ ${0,50}$ 
-- [( )] ${400}$ $\text{g}$ $\text{x}$ ${0,40}$ 
+- [( )] ${80}$ $\text{ml}$ $\text{x}$ ${0,40}$
+- [(X)] ${80}$ $\text{ml}$ $\text{x}$ ${0,50}$
+- [( )] ${50}$ $\text{ml}$ $\text{x}$ ${0,50}$
+- [( )] ${400}$ $\text{g}$ $\text{x}$ ${0,40}$
 
 </div>
 </section>
@@ -244,7 +244,7 @@ Eine Packung Einbettmasse (400 g) wird mit 80<!--style="color:black; font-weight
 </div>
 </section>
 
-## Übungsaufgabe 2 
+## Übungsaufgabe 2
 
 Eine Packung Einbettmasse (400 g) wird mit 80<!--style="color:black; font-weight: bolder"--> ml<!--style="color:black; font-weight: bolder"--> einer<!--style="color:black; font-weight: bolder"--> 100%igen<!--style="color:black; font-weight: bolder"--> Lösung<!--style="color:black; font-weight: bolder"--> gemischt.
 
@@ -305,14 +305,14 @@ Eine Packung Einbettmasse (400 g) wird mit 80<!--style="color:black; font-weight
 </section>
 
 
-## Übungsaufgabe 3 
+## Übungsaufgabe 3
 
 Für eine kleinere Arbeit werden 200<!--style="color:black; font-weight: bolder"--> g<!--style="color:black; font-weight: bolder"--> benötigt. Dazu brauchen Sie 40<!--style="color:black; font-weight: bolder"--> ml<!--style="color:black; font-weight: bolder"--> einer<!--style="color:black; font-weight: bolder"--> 70%igen<!--style="color:black; font-weight: bolder"--> Lösung<!--style="color:black; font-weight: bolder"-->.
 
 <section class="flex-container border">
 <div class="flex-child">
 
-<!--style="color: blue; font-weight: bolder"-->Wie viel ml Sheraliquid und destilliertes Wasser sind anzumischen? 
+<!--style="color: blue; font-weight: bolder"-->Wie viel ml Sheraliquid und destilliertes Wasser sind anzumischen?
 
 <!-- data-randomize -->
 - [(X)] 28 ml Sheraliquid + 12 ml destilliertes Wasser
@@ -331,10 +331,10 @@ Für eine kleinere Arbeit werden 200<!--style="color:black; font-weight: bolder"
 <!--style="color: blue; font-weight: bolder"-->Wie berechnet man die Menge ~~Sheraliquid~~ bei einer 70%igen Lösung mit 40 ml Gesamtmenge?
 
 <!-- data-randomize -->
-- [(X)] ${40}$ $\text{ml}$ $\text{x}$ ${0,70}$ 
-- [( )] ${40}$ $\text{ml}$ $\text{x}$ ${0,30}$ 
-- [( )] ${40}$ $\text{ml}$ $\text{+}$ ${0,70}$ 
-- [( )] ${40}$ $\text{ml}$ $\text{÷}$ ${0,70}$ 
+- [(X)] ${40}$ $\text{ml}$ $\text{x}$ ${0,70}$
+- [( )] ${40}$ $\text{ml}$ $\text{x}$ ${0,30}$
+- [( )] ${40}$ $\text{ml}$ $\text{+}$ ${0,70}$
+- [( )] ${40}$ $\text{ml}$ $\text{÷}$ ${0,70}$
 
 </div>
 </section>
@@ -342,13 +342,13 @@ Für eine kleinere Arbeit werden 200<!--style="color:black; font-weight: bolder"
 <section class="flex-container border">
 <div class="flex-child">
 
-<!--style="color: blue; font-weight: bolder"-->Wie berechnet man die Menge ~~Sheraliquid~~ bei einer 70%igen Lösung mit 40 ml Gesamtmenge? 
+<!--style="color: blue; font-weight: bolder"-->Wie berechnet man die Menge ~~Sheraliquid~~ bei einer 70%igen Lösung mit 40 ml Gesamtmenge?
 
 <!-- data-randomize -->
-- [(X)] ${40}$ $\text{ml}$ $\text{x}$ ${0,30}$ 
-- [( )] ${40}$ $\text{ml}$ $\text{x}$ ${0,70}$ 
-- [( )] ${40}$ $\text{ml}$ $\text{-}$ ${0,30}$ 
-- [( )] ${40}$ $\text{ml}$ $\text{÷}$ ${30}$ 
+- [(X)] ${40}$ $\text{ml}$ $\text{x}$ ${0,30}$
+- [( )] ${40}$ $\text{ml}$ $\text{x}$ ${0,70}$
+- [( )] ${40}$ $\text{ml}$ $\text{-}$ ${0,30}$
+- [( )] ${40}$ $\text{ml}$ $\text{÷}$ ${30}$
 
 </div>
 </section>

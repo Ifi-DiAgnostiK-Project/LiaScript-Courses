@@ -11,7 +11,7 @@ date: 2026-02-06
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 logo: https://img.freepik.com/free-photo/carpenter-works-with-tree_1157-18913.jpg
 
-comment:  TSM 1 Vorbereitungsfragen 
+comment:  TSM 1 Vorbereitungsfragen
 
 title: TSM 1 Fragen zur Kursvorbereitung
 
@@ -30,7 +30,7 @@ tags: [Tischler, Schreiner, Arbeitssicherheit, Holzbearbeitungsmaschinen, BGHM]
 # TSM 1 - Vorbereitung auf den Praxiskurs
 
 Die praktischen überbetrieblichen TSM<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> -<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> Lehrgänge<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> sind ein wichtiger Bestandteil Ihrer Ausbildung.\
-In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das 
+In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das
 
 <!-- class="hash"-->
 - sichere Arbeiten an Sägemaschinen (Tisch- und Formatkreissäge, Bandsäge)
@@ -45,11 +45,11 @@ Die Fragen sind gemäß den Vorgaben der Berufsgenossenschaft Holz und Metall (B
 Gleichzeitig werden "Nebeneffekte" erreicht:
 
 <!-- class="blueball"-->
-- Erhöhung der Arbeitssicherheit, 
+- Erhöhung der Arbeitssicherheit,
 - Reduzierung von Materialverschwendung
-- Steigerung/Sicherung der Qualität 
+- Steigerung/Sicherung der Qualität
 
-<br> 
+<br>
 
 <!-- style="font-weight: bolder; font-size: 12pt; color: red;"-->
 Die Module ersetzen nicht die praktischen überbetrieblichen TSM-Lehrgänge.
@@ -64,17 +64,17 @@ Testen Sie Ihr Wissen zum sicheren Umgang mit Holzbearbeitungsmaschinen!
 <br>
 
 
-<center> 
+<center>
 
 ![Tischler_an_Maschine](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/mensch_an_abrichte.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/carpenter-hands-cutting-wood-with-electrical-saw_21149978.htm#fromView=search&page=3&position=13&uuid=c8990c62-ec23-42fe-94d9-8b83ca73725b&query=Bands%C3%A4ge)")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ## Sägemaschinen
 
 Dieses Wiederholungsmodul dient der Auffrischung der sicherheitsrelevanten Kenntnisse von Sägemaschinen<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"-->  mit besonderem Augenmerk auf das motorisch sichere und vorausschauende Arbeiten.\
 <br>
-Das Ziel dieses Kurses ist: 
+Das Ziel dieses Kurses ist:
 
 <!-- class="blueball" -->
 - fundiertes Wissen über die Handhabung von Holzbearbeitungsmaschinen erreichen
@@ -89,11 +89,11 @@ Sicherheit im Umgang mit Sägemaschinen beruht auf Übung, Aufmerksamkeit – un
 
 ----------------------
 
-<center> 
+<center>
 
 ![Tischler_in_Werkstatt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/typ_guckt_ueber_brett.jpg" [_Quelle: Freepik, aleksandarlittlewolf_](https://www.freepik.com/free-photo/portrait-professional-woodworker-standing-machine-wood-material-his-carpentry-workshop_11137021.htm#fromView=search&page=2&position=7&uuid=53cd649e-c46c-4468-9851-db1bfc72aad2&query=wood+worker)")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Bauteile einer Tisch- und Formatkreissäge - Teil 1
 
@@ -101,7 +101,7 @@ Sicherheit im Umgang mit Sägemaschinen beruht auf Übung, Aufmerksamkeit – un
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Ordnen Sie die Maschinenbauteile 1 - 6 im Bild richtig zu.  
+Ordnen Sie die Maschinenbauteile 1 - 6 im Bild richtig zu.
 
 <br>
 
@@ -182,7 +182,7 @@ data-max-trials="3"
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Ordnen Sie die Maschinenbauteile 7 - 13 im Bild richtig zu.  
+Ordnen Sie die Maschinenbauteile 7 - 13 im Bild richtig zu.
 
 <br>
 
@@ -233,7 +233,7 @@ data-max-trials="3"
 -->
 11<!--style="color: blue; font-weight: bolder"-->  =  [[  Parallelanschlag |  Spaltkeil    | Tischeinlage, auswechselbar  |   (Schiebestock mit Halterung)   |   Queranschlag   |   Besäumniederhalter -Klemmschuh-  | Drehzahlanzeige ]]
 ********************
-11. Schiebestock mit Halterung 
+11. Schiebestock mit Halterung
 ********************
 
 <!--
@@ -327,7 +327,7 @@ Damit ergeben sich folgende Rechnungsschritte:
 4. $v$<!--style="font-size: large;font-weight: bold; Color: orange"--> ist als Schnittgeschwindigkeit gegeben:  $79$<!--style="font-weight: bold; color: orange"--> $\text{U/min}$<!--style=";font-weight: bold; color: orange"-->.
 5. Gesucht ist $n$<!--style="font-size: large;font-weight: bold; Color: orange"-->. Die Formel $v$ $\text{=}$ $r$ $\cdot$ $n$ wird nach $n$<!--style="font-size: large;font-weight: bold; Color: orange"--> umgestellt:  $n$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\frac{v {\cdot}}{r}$<!--style="font-size: large;font-weight: bold; color: orange"-->
 6. Eingesetzt mit den gegebenen bzw. ermittelten Zahlenwerten __ohne__ __Maßeinheiten__ ergibt sich:  $n$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\frac{79 {\cdot}}{17,5}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\text{=}$<!--style="font-size: large;font-weight: bold; color: orange"--> $\sim4,5$<!--style="font-weight: bold; color: orange"-->
-7. Zum Ergebnis werden die drei Nullen wieder hinzugefügt, d. h. mit 1.000 multiplizert. Das Ergebnis lautet  $\sim4.500$<!--style="font-size: large;font-weight: bold; color: green"-->  $\text{U/min}$<!--style="font-size: large;font-weight: bold; color: green"--> 
+7. Zum Ergebnis werden die drei Nullen wieder hinzugefügt, d. h. mit 1.000 multiplizert. Das Ergebnis lautet  $\sim4.500$<!--style="font-size: large;font-weight: bold; color: green"-->  $\text{U/min}$<!--style="font-size: large;font-weight: bold; color: green"-->
 ********************
 
 </div>
@@ -362,12 +362,12 @@ data-max-trials="3"
 - [[ ]] Die Schutzhaube kann so belassen werden.
 - [[X]] Stolperstellen vor der Säge sind zu entfernen.
 - [[ ]] Der Spaltkeil ist auszubauen.
-- [[ ]] Die Abfallstücke brauchen erst nach der eigenen Arbeit insgesamt entfernt zu werden. 
+- [[ ]] Die Abfallstücke brauchen erst nach der eigenen Arbeit insgesamt entfernt zu werden.
 - [[X]] Die Maschine ist sauber zu machen - Abfallstücke und Sägespäne sind zu entfernen.
 - [[X]] Die Schutzhaube ist über das Sägeblatt zu schieben.
 - [[X]] Der Spaltkeil ist einzustellen.
 - [[X]] Der Schiebestock gehört griffbereit an die Maschine.
-- [[ ]] Derjenige, der die Maschine zuletzt so hinterlassen hat, ist in Arbeitssicherheit zu unterweisen. 
+- [[ ]] Derjenige, der die Maschine zuletzt so hinterlassen hat, ist in Arbeitssicherheit zu unterweisen.
 ********************
 Folgende Antworten sind richtig:\
 - Stolperstellen vor der Säge beseitigen
@@ -379,11 +379,11 @@ Folgende Antworten sind richtig:\
 </div>
 </section>
 
-<center> 
+<center>
 
 ![verschmutzte_Saege](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/riesengrosse_kreissaege.png "_Quelle: BGHM_")<!-- style="max-width: 700px; width: 100%; margin-left: -80px; margin-top:0px;" -->
 
-</center> 
+</center>
 
 ### Einstellung des Spaltkeils - Frage 1
 
@@ -411,11 +411,11 @@ Die Lösung lautet: 8 mm. - Siehe dazu das TSM-Lehrbuch, S. 17.
 </div>
 </section>
 
-<center> 
+<center>
 
 ![TFKS_Anleimer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Marfin_saege_mit_Schiebedingens.png "_Quelle: BGHM_")<!-- style="max-width: 700px; width: 100%; margin-left: -80px; margin-top:0px;" -->
 
-</center> 
+</center>
 
 ### Einstellung des Spaltkeils - Frage 2
 
@@ -460,11 +460,11 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [(X)] Anschlag flach und vor das Sägeblatt zurückziehen, damit ein Klemmen des Werkstücks vermieden wird. 
+- [(X)] Anschlag flach und vor das Sägeblatt zurückziehen, damit ein Klemmen des Werkstücks vermieden wird.
 - [( )] Anschlag flach und nach "Faustregel" - Sägeblattvorderkante 45° nach hinten.
 - [( )] Anschlag hoch und nach "Faustregel" - Sägeblattvorderkante 45° nach hinten.
 ********************
-Der Anschlag erfolgt flach und vor das Sägeblatt zurückzuziehen, damit ein Klemmen des Werkstücks verhindert wird. 
+Der Anschlag erfolgt flach und vor das Sägeblatt zurückzuziehen, damit ein Klemmen des Werkstücks verhindert wird.
 ********************
 
 </div>
@@ -514,11 +514,11 @@ Bei der Arbeit an Maschinen ist geeignete Arbeitskleidung ein wichtiger Teil der
 
 ----------------------
 
-<center> 
+<center>
 
 ![Arbeitsschutz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/sicherheitsausruestung.jpg" [_Quelle: Freepik, pvproductions_](https://www.freepik.com/free-photo/work-helmet-boots-gloves-wooden-background-top-view_33090388.htm#fromView=search&page=1&position=35&uuid=b084009a-d4d3-4588-9a32-9ef6f5fdc1d0&query=arbeitsschutz)")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 
 
@@ -569,7 +569,7 @@ Ziehen Sie das jeweilige Symbol der Persönlichen Schutzausrichtung in das Feld 
 ## Dickenhobelmaschine - Hobeln breiter Werkstücke
 
 <!-- class="highlight" -->
-Schauen Sie sich das Video der Berufsgenossenschaft Holz und Metall (BGHM) an. 
+Schauen Sie sich das Video der Berufsgenossenschaft Holz und Metall (BGHM) an.
 
 <br>
 
@@ -583,10 +583,10 @@ Aus was ergibt sich die Hobeldicke?\
 Ziehen Sie die richtige Lösung in das leere Feld.
 
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdropmultiple(@uid,Ausgangsdicke abzüglich Spanabnahme,Fertigdicke|Ausgangsdicke zuzüglich Spanabnahme)
 
@@ -594,13 +594,13 @@ data-solution-button="off"
 <!--style="background-color:#FFA500;color: white"-->
 > Hinweise zur Lösung finden Sie im TSM-Lehrgangsbegleitheft, S. 73-78.
 
-### Bauteile einer Dickenhobelmaschine 
+### Bauteile einer Dickenhobelmaschine
 
 <section class="flex-container border">
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Ordnen Sie die Maschinenbauteile 1 - 8 im Bild richtig zu.  
+Ordnen Sie die Maschinenbauteile 1 - 8 im Bild richtig zu.
 
 <br>
 
@@ -698,7 +698,7 @@ data-max-trials="3"
 ## Dickenhobelmaschine - Hobeln schmaler Werkstücke
 
 <!-- class="highlight" -->
-Schauen Sie sich das Video der Berufsgenossenschaft Holz und Metall (BGHM) an. 
+Schauen Sie sich das Video der Berufsgenossenschaft Holz und Metall (BGHM) an.
 
 <br>
 
@@ -711,10 +711,10 @@ Wann dürfen mehrere schmale Werkstücke gleichzeitig bearbeitet werden?\
 Ziehen Sie die richtige Lösung in das leere Feld.
 
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdropmultiple(@uid,wenn die Maschine Gliedereinzugswalzen und Gliederdruckbalken hat,wenn die Maschine Einzugswalze und Druckbalken hat|wenn die Maschine starre Einzugswalze und starren Druckbalken hat)
 
@@ -725,7 +725,7 @@ data-solution-button="off"
 ## Abrichthobelmaschine - Abrichten kurzer Werkstücke
 
 <!-- class="highlight" -->
-Schauen Sie sich das Video der Berufsgenossenschaft Holz und Metall (BGHM) an. 
+Schauen Sie sich das Video der Berufsgenossenschaft Holz und Metall (BGHM) an.
 
 <br>
 
@@ -738,10 +738,10 @@ Welches Hilfsmittel wird im Video benutzt?\
 Ziehen Sie die richtige Lösung in das leere Feld.
 
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdropmultiple(@uid,Schiebeholz,Zuführlade|Schiebestock)
 
@@ -759,7 +759,7 @@ Die Tischfräsmaschine<!-- style="font-weight: bolder; font-size: 12pt; color: b
 
 -----------------------
 
-Die Tischfräsmaschine gehört zu den wichtigsten, aber auch gefährlichsten<!-- style="font-weight: bolder; font-size: 12pt; color: #A00000;"--> Maschinen in der Tischlerwerkstatt: 
+Die Tischfräsmaschine gehört zu den wichtigsten, aber auch gefährlichsten<!-- style="font-weight: bolder; font-size: 12pt; color: #A00000;"--> Maschinen in der Tischlerwerkstatt:
 
 🚑 Es wirken hohe Drehzahlen und große Schnittkräfte.\
 🚑 Die Hände müssen Abstand zur Frässpindel behalten.\
@@ -772,11 +772,11 @@ Es ist wichtig, Aufbau, Einstellmöglichkeiten und Schutzeinrichtungen zu kennen
 
 -------
 <br>
-<center> 
+<center>
 
 ![Tischfräse](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Seitenfraese_in_aktion.png" _Quelle: BGHM_")<!-- style="max-width: 350px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Fräswerkzeuge
 

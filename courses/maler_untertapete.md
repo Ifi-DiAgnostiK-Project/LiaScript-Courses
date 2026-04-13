@@ -40,7 +40,6 @@ tags:
     - Schleifen
     - Kleister
     - Aufmaß
-       
 
 -->
 
@@ -49,29 +48,29 @@ tags:
 Sie haben in den letzten Tagen gelernt, wie Untertapeten verarbeitet werden und welche Werkzeuge und Materialien Sie dafür benötigen.
 <br>
 
-Mit den folgenden Fragen können Sie Ihr Wissen überprüfen. 
+Mit den folgenden Fragen können Sie Ihr Wissen überprüfen.
 
 
 
 <!-- class="highlight" -->
-Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen! 
+Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 
 <br> <br>
 <center>
 
 ![Tapezierarbeitsplatz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/tapete_eimer.jpg "[_Quelle: Pixabay, Vilkasss_](https://pixabay.com/illustrations/ai-generated-teeth-dental-miniature-9431605/)")<!-- style="width: 500px" -->
 
-</center> 
+</center>
 
 # Arbeitsablauf zur Verarbeitung von Untertapeten
 
 Familie Farbe hat die Renovierung ihres Einfamilienhauses beauftragt.
 
-Sie arbeiten mit Kollegen auf dieser Baustelle. 
+Sie arbeiten mit Kollegen auf dieser Baustelle.
 
-Alle notwendigen Arbeitsmaterialien und -werkzeuge sind bereits vor Ort. 
+Alle notwendigen Arbeitsmaterialien und -werkzeuge sind bereits vor Ort.
 <br> <br>
-Ihr Vorabeiter beauftragt Sie, das Wohnzimmer zu tapezieren. 
+Ihr Vorabeiter beauftragt Sie, das Wohnzimmer zu tapezieren.
 
 Er bittet Sie, ihm den notwendigen Arbeitsablauf vorzulegen.
 
@@ -115,9 +114,9 @@ Was sind wesentliche Kriterien bei der Untergrundprüfung vor dem Aufbringen ein
 
 <!-- data-randomize -->
 - [[X]] Der Untergrund muss trocken, tragfähig, sauber und frei von losen Teilen sein.
-- [[X]] Bei stark saugenden oder sandenden Untergründen sollte zuvor eine Grundierung erfolgen. 
+- [[X]] Bei stark saugenden oder sandenden Untergründen sollte zuvor eine Grundierung erfolgen.
 - [[ ]] Der Untergrund darf geringe Anteile Staub und Sand enthalten, solange er trocken ist.
-- [[ ]] Alte Tapeten oder Farbanstriche brauchen nicht entfernt werden, wenn sie sich nicht entfernen lassen und kaum "auftragen". 
+- [[ ]] Alte Tapeten oder Farbanstriche brauchen nicht entfernt werden, wenn sie sich nicht entfernen lassen und kaum "auftragen".
 
 
 </div>
@@ -144,8 +143,8 @@ Welche Funktion erfüllt eine Makulatur bzw. Untertapete?
 <!-- data-randomize -->
 - [[X]] Sie gleicht Unebenheiten und kleine Risse aus.
 - [[X]] Sie reduziert die Saugfähigkeit des Untergrundes und verbessert die Haftung der Dekortapete.
-- [[ ]] Sie kann bei sorgfältiger Verarbeitung auch als Endtapete verwendet werden. 
-- [[X]] Mit einer Untertapete wird eine größere Blickdichtigkeit erreicht. 
+- [[ ]] Sie kann bei sorgfältiger Verarbeitung auch als Endtapete verwendet werden.
+- [[X]] Mit einer Untertapete wird eine größere Blickdichtigkeit erreicht.
 
 </div>
 <div class="flex-child-0">

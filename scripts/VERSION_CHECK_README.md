@@ -292,7 +292,7 @@ This design ensures that the repository state can always be recovered automatica
 
 ### Q1: What happens if I manually change the version?
 
-**A**: The script respects your manual version change! 
+**A**: The script respects your manual version change!
 
 When you edit a course file and manually update the version (e.g., 1.2.3 → 2.0.0), the script:
 1. Detects that the version has changed between commits

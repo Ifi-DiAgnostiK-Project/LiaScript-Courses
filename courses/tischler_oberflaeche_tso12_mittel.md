@@ -33,7 +33,7 @@ tags: [ Oberflächenveredelung, Tischler, Schleifen, Ölen, Lacke]
 
 -->
 
-# Oberflächenveredelung Tischlerhandwerk TSO 1+2/24 
+# Oberflächenveredelung Tischlerhandwerk TSO 1+2/24
 <!-- class="highlight" -->
 Mittelschwere Fragen
 ===
@@ -46,7 +46,7 @@ Im Rahmen Ihrer Ausbildung haben Sie sich mit den wichtigsten Verfahren – vom 
 Die nachfolgenden Fragen dienen dazu, Ihr Wissen zu prüfen und zu festigen. Es soll Ihnen helfen, das Gelernte aktiv abzurufen und mit Freude in die praktische Arbeit einzubringen.
 
 <!-- class="highlight" -->
-Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen! 
+Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen!
 
 <br>
 <center>
@@ -171,7 +171,7 @@ Was versteht man unter einem "Zwischenschliff"?
 </div>
 </section>
 
-## Lackauftragsverfahren - mittelschwere Fragen 
+## Lackauftragsverfahren - mittelschwere Fragen
 
 <section class="flex-container border">
 <div class="flex-child">
@@ -183,7 +183,7 @@ Welche Aussage zum Spritzverfahren ist korrekt?
 - [( )] Es eignet sich nur für kleine Flächen.
 - [(X)] Es ermöglicht einen gleichmäßigen Auftrag auf komplexe Geometrien.
 - [( )] Es funktioniert nur mit lösungsfreien Lacken.
-- [( )] Es wird ausschließlich bei wasserbasierten Lacken eingesetzt. 
+- [( )] Es wird ausschließlich bei wasserbasierten Lacken eingesetzt.
 
 
 </div>

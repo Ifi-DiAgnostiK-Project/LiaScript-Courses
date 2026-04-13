@@ -11,7 +11,7 @@ title: Layout Elemente Sammlung
 
 tags:
   - Wissensspeicher
-  
+
 link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
 
 icon: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
@@ -39,10 +39,10 @@ link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses
 
 ## Bilder
 
-Markdown Bilder können mit `![Alt Text/Beschreibung](bildadresse)` eingefügt werden. 
+Markdown Bilder können mit `![Alt Text/Beschreibung](bildadresse)` eingefügt werden.
 
 > ![Brandenburger Tor, Thomas Wolf, www.foto-tw.de, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/b/b1/Brandenburger_Tor_morgens.jpg)
-> 
+>
 > Thomas Wolf, www.foto-tw.de, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
 
 Der Untertitle ist in diesem Fall händisch unter das Bild geschrieben.
@@ -81,8 +81,10 @@ Wenn nur eines der Attribute `width` oder `height` angegeben wird, skaliert das 
 Eine Zentrierung ist über prozent semantik ebenso möglich. Die Prozente beziehen sich auf die Breite des Containers in dem das Bild aktuell existiert. `<!-- style="width: 50%; margin-left: 25%;" -->` z.B. schiebt dies das Bild um 25% nach rechts.
 
 Der `margin` kontrolliert einen Bereich um einen Block (div) in dem keine anderen Objekte sein dürfen, also wie das weiße auf einer Buchseite bis zum textblock. Man kann mit `margin: 0 0 0 0;` das anpassen (dieser Fall löscht alle margins). Jedes dieser Zahlen steuert einen der Bereiche. In Reihenfolge “oben”, “rechts”, “unten”, “link”.
-Angaben sind zB in `px`, `%` oder auch `cm` möglich.  
-Z.B. 
+Angaben sind zB in `px`, `%` oder auch `cm` möglich.
+
+Z.B.
+
 - `margin: 1cm 100px 0 20px;`
 - `margin: 2% 3% 10% 2%;`
 Ebenso ist es möglich nur die speziellen Werte anzugeben:
@@ -110,7 +112,7 @@ Um das Bild also "runterzuschieben" muss der top margin angepasst werden.
 
 ### LiaScript Makros für Bilder
 
-Das DiAgnostiK Projekt hat eine Reihe von Makrobibliotheken um Bilder einzubinden. 
+Das DiAgnostiK Projekt hat eine Reihe von Makrobibliotheken um Bilder einzubinden.
 Um Bilder zum Beispiel aus  unserem ISO 7010 Repository zu importieren:
 
 > `@Brandschutzzeichen.Richtungspfeil_Rechts(10)`

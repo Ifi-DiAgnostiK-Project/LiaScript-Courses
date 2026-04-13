@@ -53,11 +53,11 @@ _Quelle: Pixabay, dental-inno_
 
 ## 1. Biokompatible Materialien in der Zahntechnik
 
-Biokompatible Materialien in der Zahntechnik sind besonders wichtig, weil sie im Mund langzeitig mit Gewebe und Schleimhaut in Kontakt stehen. <br> Sie müssen gut verträglich sein, keine Allergien auslösen und biologisch „neutral“ bleiben. 
+Biokompatible Materialien in der Zahntechnik sind besonders wichtig, weil sie im Mund langzeitig mit Gewebe und Schleimhaut in Kontakt stehen. <br> Sie müssen gut verträglich sein, keine Allergien auslösen und biologisch „neutral“ bleiben.
 
 ----------------
 
-<!--style="color: blue; font-weight: bolder"-->Welches Material zählt zu den biokompatiblen Werkstoffen in der Zahntechnik? 
+<!--style="color: blue; font-weight: bolder"-->Welches Material zählt zu den biokompatiblen Werkstoffen in der Zahntechnik?
 
 <!--style="color: blue"-->Ziehe die richtigen Antworten in das Feld.
 
@@ -156,7 +156,7 @@ Bei diesem Verfahren wird im Zusammenspiel von zwei Elektroden eine extrem hohe 
 <!--class="highlight"-->
 Ziehe die passenden Begriffe in das entsprechende Feld.
 
-Fügen<!--style="color: green; font-weight: bolder"--> meint  [->[  (lösbare) | lockere ]] oder [->[  feste | (unlösbare) ]] Verbindungen. 
+Fügen<!--style="color: green; font-weight: bolder"--> meint  [->[  (lösbare) | lockere ]] oder [->[  feste | (unlösbare) ]] Verbindungen.
 
 In der Zahntechnik unterscheidet man verschiedene Verbindungen. Eine davon sind die [->[  (stoffschlüssige) | materialschlüssige ]] Verbindungen.
 
@@ -252,7 +252,7 @@ Welche Lote werden in der Zahntechnik unterschieden?
 - [[ ]] Es ist besonders hitzebeständig bei hohen Temperaturen.
 - [[X]] Es ist geeignet für unterschiedliche Materialkombinationen.
 - [[ ]] Es erfordert immer zusätzliche Metallverbindungen.
-- [[X]] Belastungen können elastisch verteilt werden. 
+- [[X]] Belastungen können elastisch verteilt werden.
 
 </div>
 </section>
@@ -269,7 +269,7 @@ Welche Lote werden in der Zahntechnik unterschieden?
 - [[ ]] Unebenheiten verbessern die Haftung.
 - [[X]] Saubere und fettfreie Oberflächen sind notwendig.
 - [[ ]] Durch die innovativen Klebemittel ist keine Trocknungs- oder Aushärtungszeit notwendig.
-- [[X]] Für das jeweilige Material ist ein geeigneter Klebstoff auszuwählen. 
+- [[X]] Für das jeweilige Material ist ein geeigneter Klebstoff auszuwählen.
 
 </div>
 <div class="flex-child-2 center">
@@ -363,7 +363,7 @@ Die Festigkeitswerte<!--style="color: green; font-weight: bolder"--> der Lotnaht
 - [[ ]] Es ist besonders hitzebeständig bei hohen Temperaturen.
 - [[X]] Es ist geeignet für unterschiedliche Materialkombinationen.
 - [[ ]] Es erfordert immer zusätzliche Metallverbindungen.
-- [[X]] Belastungen können elastisch verteilt werden. 
+- [[X]] Belastungen können elastisch verteilt werden.
 
 </div>
 </section>
@@ -415,8 +415,8 @@ Ziehe die richtigen Antworten in das Feld.
 - [[ ]] Acetylen gehört zu den Standardgasen im Zahntechniklabor.
 - [[X]] Sauerstoff wird häufig als Reaktionspartner für Flammen oder im Schweißprozess eingesetzt.
 - [[ ]] Stickstoff ist ein typisches Prozessgas in der Zahntechnik.
-- [[X]] Argon wird als Schutzgas beim Laserschweißen eingesetzt. 
-- [[ ]] Kohlendioxid wird regelmäßig im Dentallabor verwendet. 
+- [[X]] Argon wird als Schutzgas beim Laserschweißen eingesetzt.
+- [[ ]] Kohlendioxid wird regelmäßig im Dentallabor verwendet.
 
 </div>
 </section>
@@ -442,7 +442,7 @@ Ziehe die richtigen Antworten in das Feld.
 <!-- data-randomize -->
 - [[ ]] Lagern von Gasflaschen im Freien ist erlaubt.
 - [[X]] Schläuche und Anschlüsse sind regelmäßig auf Dichtigkeit zu prüfen.
-- [[ ]] Gasflaschen dürfen in einem Arbeitsraum offen gelagert werden. 
+- [[ ]] Gasflaschen dürfen in einem Arbeitsraum offen gelagert werden.
 - [[X]] Gasflaschen sind gegen Umfallen zu sichern.
 
 
@@ -496,8 +496,8 @@ Ziehe die richtigen Antworten in das Feld.
 - [[ ]] Acetylen gehört zu den Standardgasen im Zahntechniklabor.
 - [[X]] Sauerstoff wird häufig als Reaktionspartner für Flammen oder im Schweißprozess eingesetzt.
 - [[ ]] Stickstoff ist ein typisches Prozessgas in der Zahntechnik.
-- [[X]] Argon wird als Schutzgas beim Laserschweißen eingesetzt. 
-- [[ ]] Kohlendioxid wird regelmäßig im Dentallabor verwendet. 
+- [[X]] Argon wird als Schutzgas beim Laserschweißen eingesetzt.
+- [[ ]] Kohlendioxid wird regelmäßig im Dentallabor verwendet.
 
 </div>
 <div class="flex-child-2 center">

@@ -112,7 +112,7 @@ __Wann darf eine Leiter als Arbeitsplatz genutzt werden?__
 > __Auflösung:__
 >
 > Die richtigen Antworten sind:
-> 
+>
 > - __Wenn die Arbeit weniger als 2 Stunden pro Schicht dauert.__
 > - __Nur in dem Fall, dass laut Gefährdungsbeurteilung kein anderes sicheres Arbeitsmittel verhältnismäßig ist.__
 >

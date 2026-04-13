@@ -29,7 +29,7 @@ import: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragA
 
 title: Kurztest - Partielle Prothese (MoGu)
 
-tags: 
+tags:
     - Zahntechniker
     - Zahnersatz
     - Prothese
@@ -43,7 +43,7 @@ Sie haben in den letzten Tagen den Herstellungsprozess sowie die Arbeits- und Hi
 
 
 <!-- class="highlight" -->
-Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen! 
+Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen!
 
 <br>
 <center>
@@ -51,15 +51,15 @@ Wir wünschen Ihnen viel Erfolg und Spaß beim Beantworten der Fragen!
 
 ![Modellguss](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bruecke_old.jpeg "[_Quelle: Wikipedia, Von www.dr-horn.com_, CC BY-SA 3.0](https://de.wikipedia.org/wiki/Modellgussprothese)")<!-- style="width: 600px" -->
 
-</center> 
+</center>
 
 
-## 1. Mindestabstand 
+## 1. Mindestabstand
 
 <section class="flex-container border">
 <div class="flex-child">
 
-<!--style="color: blue; font-weight: bolder"-->Wie hoch sollte der Mindesabstand zum marginalen Parodontium des Sublingualbügels sein? 
+<!--style="color: blue; font-weight: bolder"-->Wie hoch sollte der Mindesabstand zum marginalen Parodontium des Sublingualbügels sein?
 
 <!-- data-randomize -->
 - [( )] 2 mm
@@ -139,12 +139,12 @@ Welche Art der Klammergestaltung sollte hier genutzt werden?
 </section>
 
 
-## 3. Schmelzverfahren - Metall 
+## 3. Schmelzverfahren - Metall
 
 <section class="flex-container border">
 <div class="flex-child">
 
-<!--style="color: blue; font-weight: bolder"-->Welche Methoden gibt es zum Schmelzen von Metall? 
+<!--style="color: blue; font-weight: bolder"-->Welche Methoden gibt es zum Schmelzen von Metall?
 
 <!--style="color: red"-->Hinweis: Es sind mehrere Antworten richtig.
 
@@ -262,7 +262,7 @@ x  ml =  80% = 0,8
 
 80 ml x 0,8 = 64 ml Liquid
 <br>
-80 ml - 64 ml = 16 ml destilliertes Wasser 
+80 ml - 64 ml = 16 ml destilliertes Wasser
 
 
 *****

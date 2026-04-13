@@ -44,7 +44,7 @@ Sie haben in den letzten Tagen verschiedene fachpraktische Tätigkeiten zum Hers
 
 
 <!-- class="highlight" -->
-Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen! 
+Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 
 <br> <br>
 <center>
@@ -52,7 +52,7 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 
 ![Zahnersatz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/zahnimplantat.jpg "[_Quelle: Pixabay, muklinika_](https://pixabay.com/photos/dentistry-dentals-teeth-model-jaw-668214/)")<!-- style="width: 500px" -->
 
-</center> 
+</center>
 
 
 ## 1. Die Bissschablone
@@ -61,7 +61,7 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Ordnen Sie den Zahlen 1 - 5 im Bild den jeweils richtigen Fachbegriff zu.  
+Ordnen Sie den Zahlen 1 - 5 im Bild den jeweils richtigen Fachbegriff zu.
 
 <br>
 
@@ -126,7 +126,7 @@ Welche Funktion hat der Camper'sche Ebene bei der Herstellung einer Vollprothese
 - [( )] Sie sorgt für eine harmonische Ästhetik und Lautbildung.
 - [( )] Sie gibt die Lage der Kauebene im Unterkiefer exakt anatomisch vor.
 - [( )] Sie wird zur Bestimmung der Zahnfarben verwendet.
-- [( )] Sie ersetzt die Kauebene im Artikulator vollständig. 
+- [( )] Sie ersetzt die Kauebene im Artikulator vollständig.
 
 </div>
 <div class="flex-child-0">
@@ -147,10 +147,10 @@ Wie wird die Camper'sche Ebene in der Praxis überprüft oder eingestellt?
 
 <!-- data-randomize -->
 - [[X]] Mit Hilfe eines Gerberlineals.
-- [[X]] Durch Sichtkontrolle, dass die Okklusionsebene parallel zur Camper'schen Ebene verläuft. 
+- [[X]] Durch Sichtkontrolle, dass die Okklusionsebene parallel zur Camper'schen Ebene verläuft.
 - [[ ]] Durch Anzeichnen der Ebene auf dem Modellgips mit einem Zirkel.
-- [[ ]] Sie wird ausschließlich im Artikulator eingestellt. 
-- [[ ]] Sie orientiert sich parallel zur Pupillenlinie. 
+- [[ ]] Sie wird ausschließlich im Artikulator eingestellt.
+- [[ ]] Sie orientiert sich parallel zur Pupillenlinie.
 
 </div>
 </section>
@@ -163,7 +163,7 @@ Wie wird die Camper'sche Ebene in der Praxis überprüft oder eingestellt?
 
 <!-- class="highlight"-->
 Was versteht man unter der Ruheschwebelage (auch "Ruhelage" oder "physiologische Ruheposition") in der Zahntechnik?\
-Welche Aussagen sind richtig? 
+Welche Aussagen sind richtig?
 
 <!--style="color: red"-->Es sind mehrere Antworten möglich.
 
@@ -188,7 +188,7 @@ Ordnen Sie die richtigen Begriffe den Aussagen zu!
 Die Ruheschwebelage ist eine [->[ (muskulär) | aktiv ]] bestimmte Lage des [->[  Oberkiefers | (Unterkiefers) ]].
 
 <!-- data-randomize -->
-Sie ist [->[ identisch | (nicht identisch) ]] mit der Zentrik. Sie wird genutzt, um die [->[ (Bisshöhe) | Kaubewegung ]] bei der Herstellung von Vollprothesen festzustellen. 
+Sie ist [->[ identisch | (nicht identisch) ]] mit der Zentrik. Sie wird genutzt, um die [->[ (Bisshöhe) | Kaubewegung ]] bei der Herstellung von Vollprothesen festzustellen.
 
 
 </div>
@@ -203,13 +203,13 @@ Wie kann die Ruheschwebelage in der Praxis bestimmt oder überprüft werden?
 <!--style="color: red"-->Es sind mehrere Antworten möglich.
 
 <!-- data-randomize -->
-- [[X]] Durch Beobachtung der Unterkieferposition beim entspannten Sprechen („M“-Laut-Methode).  
-- [[X]] Indem der Patient einige Male schluckt und anschließend locker die Lippen schließt. 
-- [[X]] Durch Messung des Abstands zwischen zwei Referenzpunkten (z. B. Nasenspitze und Kinn) in Ruhe. 
-- [[ ]] Durch Zusammenbeißen in maximaler Interkuspidation. 
+- [[X]] Durch Beobachtung der Unterkieferposition beim entspannten Sprechen („M“-Laut-Methode).
+- [[X]] Indem der Patient einige Male schluckt und anschließend locker die Lippen schließt.
+- [[X]] Durch Messung des Abstands zwischen zwei Referenzpunkten (z. B. Nasenspitze und Kinn) in Ruhe.
+- [[ ]] Durch Zusammenbeißen in maximaler Interkuspidation.
 - [[ ]] Durch manuelles Vorschieben des Unterkiefers in die Protrusion.
-- [[ ]] Mit einer Gesichtsbogenübertragung allein, ohne Patientenbeteiligung. 
-- [[X]] Durch wiederholte Entspannungsübungen, um die natürliche Ruhesituation zu erfassen. 
+- [[ ]] Mit einer Gesichtsbogenübertragung allein, ohne Patientenbeteiligung.
+- [[X]] Durch wiederholte Entspannungsübungen, um die natürliche Ruhesituation zu erfassen.
 
 </div>
 </section>
@@ -228,7 +228,7 @@ Ordnen Sie die richtigen Begriffe den Aussagen zu!
 Die Methode wird besonders bei [->[ (zahnlosen) | vollbezahnten ]] Patienten eingesetzt, um die  [->[ (zentrische) | okkulare ]] Kieferrelation zu bestimmen.
 
 <!-- data-randomize -->
-Sie gehört zu einer [->[ enddiagnostischen | (funktionsdiagnostischen) ]] Untersuchung  [->[ (vor) | nach ]] der Herstellung von Vollprothesen. 
+Sie gehört zu einer [->[ enddiagnostischen | (funktionsdiagnostischen) ]] Untersuchung  [->[ (vor) | nach ]] der Herstellung von Vollprothesen.
 
 </div>
 </section>
@@ -245,7 +245,7 @@ Welche Werte können aus einer Stützregistrierung ermittelt werden?
 - [[X]] die zentrale Relation des Unterkiefers zum Oberkiefer
 - [[X]] die individuellen Bewegungen des Unterkiefers
 - [[X]] die Bisshöhe
-- [[ ]] die Farbbestimmung für die Prothese 
+- [[ ]] die Farbbestimmung für die Prothese
 - [[ ]] die Abdrucknahme der Kieferverhältnisse
 - [[ ]] die Position der Kondylen in maximaler Interkuspidation
 
@@ -266,11 +266,11 @@ Was entsteht während der Stützstiftregistrierung bei den Unterkieferbewegungen
 <!--style="color: red"-->Es sind mehrere Antworten möglich.
 
 <!-- data-randomize -->
-- [[X]] Eine grafische Darstellung der Kieferbewegungen, meist in Form eines Pfeiles.   
-- [[X]] Ein sogenanntes „Gothisches Bogenbild“. 
-- [[ ]] Eine Aufnahme der Zahnkontakte in Zentrik. 
-- [[ ]] Ein dreidimensionales Röntgenbild. 
-- [[X]] Eine Linie, die die Bewegungsrichtung des Kondylus zeigt. 
+- [[X]] Eine grafische Darstellung der Kieferbewegungen, meist in Form eines Pfeiles.
+- [[X]] Ein sogenanntes „Gothisches Bogenbild“.
+- [[ ]] Eine Aufnahme der Zahnkontakte in Zentrik.
+- [[ ]] Ein dreidimensionales Röntgenbild.
+- [[X]] Eine Linie, die die Bewegungsrichtung des Kondylus zeigt.
 - [[ ]] Das "Gothische Bogenbild" entsteht durch Bewegungen der Kaumuskulator beim Sprechen.
 
 </div>
@@ -283,7 +283,7 @@ Was entsteht während der Stützstiftregistrierung bei den Unterkieferbewegungen
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Ordnen Sie den Zahlen 1 - 6 im Bild den jeweils richtigen Fachbegriff zu.  
+Ordnen Sie den Zahlen 1 - 6 im Bild den jeweils richtigen Fachbegriff zu.
 
 <br>
 

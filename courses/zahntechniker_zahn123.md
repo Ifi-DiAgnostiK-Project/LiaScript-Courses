@@ -44,7 +44,7 @@ Sie haben in den letzten Tagen verschiedene fachpraktische Tätigkeiten aus dem 
 
 
 <!-- class="highlight" -->
-Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen! 
+Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 
 <br>
 <center>
@@ -52,7 +52,7 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 
 ![Zahnspange](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bracket_closeup.jpg "[_Quelle: Pixabay, guentherbraun0_](https://pixabay.com/de/photos/zahnarzt-kieferorthop%C3%A4die-542252/)")<!-- style="width: 400px" -->
 
-</center> 
+</center>
 
 
 ## 1. Typische Klammerarten in der Zahntechnik
@@ -105,8 +105,8 @@ Welche Aussage ist richtig?
 - [[X]] Die Klammerschulter gibt Form und Richtung vor.
 - [[X]] Die Klammerspitze sorg für die sichere Fixierung am Zahn.
 - [[ ]] Der Klammerunterarm ist als reines Deko-Element integriert.
-- [[ ]] Der Appendix erzeugt Druck auf das Zahnfleich für Zahnbewegungen. 
-- [[ ]] Die Klammerschulter entfernt aktiv Plaque. 
+- [[ ]] Der Appendix erzeugt Druck auf das Zahnfleich für Zahnbewegungen.
+- [[ ]] Die Klammerschulter entfernt aktiv Plaque.
 
 </div>
 </section>
@@ -117,7 +117,7 @@ Welche Aussage ist richtig?
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Ordnen Sie den Zahlen 1 - 6 im Bild den jeweils richtigen Fachbegriff zu.  
+Ordnen Sie den Zahlen 1 - 6 im Bild den jeweils richtigen Fachbegriff zu.
 
 <br>
 
@@ -162,7 +162,7 @@ Ordnen Sie den Zahlen 1 - 6 im Bild den jeweils richtigen Fachbegriff zu.
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Ordnen Sie den Zahlen 1 - 4 im Bild den jeweils richtigen Fachbegriff zu.  
+Ordnen Sie den Zahlen 1 - 4 im Bild den jeweils richtigen Fachbegriff zu.
 
 <br>
 
@@ -197,7 +197,7 @@ Ordnen Sie den Zahlen 1 - 4 im Bild den jeweils richtigen Fachbegriff zu.
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Welche Aussagen zu den einzelnen Elementen der abnehmbaren kieferorthopädischen Platte sind richtig? 
+Welche Aussagen zu den einzelnen Elementen der abnehmbaren kieferorthopädischen Platte sind richtig?
 
 <!--style="color: red"-->Es sind mehrere Antworten möglich.
 
@@ -206,7 +206,7 @@ Welche Aussagen zu den einzelnen Elementen der abnehmbaren kieferorthopädischen
 - [[X]] Die Adamsklammer bewirkt eine stabile Verankerung an den Molaren.
 - [[X]] Die Pfeilklammer dient der Führung und Fixierung einzelner Zähne.
 - [[ ]] Die Dreiecksklammer ist ein reines Stützelement.
-- [[ ]] Die Adamsklammer löst gezielt die Gaumennaht auf. 
+- [[ ]] Die Adamsklammer löst gezielt die Gaumennaht auf.
 - [[ ]] Der Labialbogen sorgt für die Verbesserung der Kiefergelenksfunktion.
 
 </div>
@@ -241,7 +241,7 @@ An oberster Stelle seht der erste Arbeitsschritt.
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Welche Aussagen treffen auf Interimsprothesen (Sofortprothesen) zu? 
+Welche Aussagen treffen auf Interimsprothesen (Sofortprothesen) zu?
 
 <!--style="color: red"-->Es sind mehrere Antworten möglich.
 

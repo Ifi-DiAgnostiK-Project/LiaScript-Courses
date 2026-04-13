@@ -30,9 +30,9 @@ tags: [Tapezieren, Tapeten, Maler, Lackierer, Raumausstatter]
 
 -->
 
-# Tapetenzeichen - Kennzeichnung und Symbole 
+# Tapetenzeichen - Kennzeichnung und Symbole
 
-Während Ihrer Arbeit im Betrieb oder in der überbetrieblichen Ausbildung haben Sie sich mit der Verarbeitung von Tapeten beschäftigt. <br> Zur Kennzeichnung von Wandbekleidungen gilt die DIN<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> EN<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> 235<!-- style="font-weight: bolder; font-size: 12pt; color: green"-->.  
+Während Ihrer Arbeit im Betrieb oder in der überbetrieblichen Ausbildung haben Sie sich mit der Verarbeitung von Tapeten beschäftigt. <br> Zur Kennzeichnung von Wandbekleidungen gilt die DIN<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> EN<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> 235<!-- style="font-weight: bolder; font-size: 12pt; color: green"-->.
 
 Sie umfasst im Wesentlichen Angaben über
 
@@ -52,11 +52,11 @@ Viel Erfolg!
 <br> <br>
 
 
-<center> 
+<center>
 
 ![Tapetensymbole_zusammengefuegt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/maler_tapetensymbole_v0.0.3/courses/img/tapete_tapetensymbole_closeup.png "[_Quelle: Deutsches Tapeten-Institut_](https://tapeten.de/wissenswertes/tapetensymbole)")<!-- style="max-width: 350px; width: 100%" -->
 
-</center> 
+</center>
 
 ## 1. Warum gibt es Tapetenkennzeichen?
 
@@ -99,13 +99,13 @@ Was sagt diese Nummer aus?
 ><!--style="color: red; font-weight: bolder"-->Es stimmen drei Aussagen!
 
 <!-- data-randomize -->
-- [[X]] Sie kennzeichnet die Herstellungscharge der Tapete. 
+- [[X]] Sie kennzeichnet die Herstellungscharge der Tapete.
 - [[X]] Eine gleiche Anfertigungsnummer stellt sicher, dass die damit gekennzeichneten Tapetenrollen farb- und mustergleich sind.
 - [[X]] Stimmt die Chargennummer nicht überein, sind Farb- oder Musterabweichungen selbst bei gleichen Rollen wahrscheinlich.
 - [[ ]] Die Anfertigungsnummer gibt die Haltbarkeit der Tapete an.
-- [[ ]] Die Chargennummer zeigt an, wie viele Rollen einer Sorte angefertigt worden sind. 
-- [[ ]] Die Anfertigungsnummern werden den Tapetenherstellern vom landeseigenen Tapeten-Institut zugeordnet. 
-- [[ ]] Sie beschreibt den Rapport in Zentimetern. 
+- [[ ]] Die Chargennummer zeigt an, wie viele Rollen einer Sorte angefertigt worden sind.
+- [[ ]] Die Anfertigungsnummern werden den Tapetenherstellern vom landeseigenen Tapeten-Institut zugeordnet.
+- [[ ]] Sie beschreibt den Rapport in Zentimetern.
 
 
 </div>
@@ -114,11 +114,11 @@ Was sagt diese Nummer aus?
 <br>
 <br>
 
-<center> 
+<center>
 
 ![Ausschnitt_Anfertigungsnummer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/maler_tapetensymbole_v0.0.3/courses/img/tapete_tapetensymbole.png "_Quelle: Ausschnitt Tapetenettikett, GKZ_")<!-- style="max-width: 350px; width: 100%" -->
 
-</center> 
+</center>
 
 ## 3. Tapetensymbole - Wasser und Licht
 
@@ -217,7 +217,7 @@ Was bedeutet dieses Symbol?
 - [( )] Die Tapete ist wasserbeständig.
 - [(X)] Die Tapete ist ausreichend lichtbeständig.
 - [( )] Die Tapete ist gut lichtbeständig.
-- [( )] Die Tapete verfügt über versetzte Ansätze. 
+- [( )] Die Tapete verfügt über versetzte Ansätze.
 
 </div>
 <div class="flex-child-2 center">
@@ -261,7 +261,7 @@ Was zeigt Ihnen das Symbol mit mehreren Wasserlinien an?
 Welche Bedeutung hat das Symbol "vorgekleistert"?
 
 <!-- data-randomize -->
-- [( )] Der Kleister wird direkt auf die Wand aufgetragen. 
+- [( )] Der Kleister wird direkt auf die Wand aufgetragen.
 - [(X)] Die Tapete hat schon Kleister auf der Rückseite, der durch Wasser aktiviert wird.
 - [( )] Die Tapete eignet sich insbesondere für feuchte Räume.
 - [( )] Die Tapete braucht keinen Rapport.
@@ -326,11 +326,11 @@ Die Anfertigungsnummer kennzeichnet die [->[ (Herstellungsserie) | Produktionsza
 </section>
 
 <br> <br>
-<center> 
+<center>
 
 ![Tapetenzeichen_marburg](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/maler_tapetensymbole_v0.0.3/courses/img/tapete_label.jpg "_Quelle: HWK Dresden, Kay Deblitz_")<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ## Geschafft 🎉
 

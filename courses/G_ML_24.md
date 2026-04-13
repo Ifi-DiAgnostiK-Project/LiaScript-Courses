@@ -13,7 +13,7 @@ date:      2025-08-01
 title:     Grundkurs Maler/Lackierer G-ML-24
 comment:   Grundkurs Maler/Lackierer
 
-tags:      
+tags:
     - Maler
     - Grundkurs
 
@@ -36,7 +36,7 @@ Sie haben in den letzten Tagen Werkzeuge und Grundhandgriffe im Maler- und Lacki
 
 
 <!-- class="highlight" -->
-Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen! 
+Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 
 <br> <br>
 <center>
@@ -157,7 +157,7 @@ An oberster Stelle steht der erste Arbeitsschritt.
 </div>
 </section>
 
-## Wichtige Arbeitsabläufe für Gestaltungsflächen -  Wände 
+## Wichtige Arbeitsabläufe für Gestaltungsflächen -  Wände
 
 
 Sie sollen in einem Raum Wände und Sockel gestalten. -- In welcher Reihenfolge führen Sie diesen Auftrag aus?
@@ -298,7 +298,7 @@ Wie prüft man am besten die Saugfähigkeit eines Untergrunds?
 - [(X)] Benetzungsprobe mit Wasser
 - [( )] Farbauftragstest
 - [( )] Kratzprobe mit Messer
-- [( )] Klopfprobe 
+- [( )] Klopfprobe
 
 </div>
 <div class="flex-child-3">

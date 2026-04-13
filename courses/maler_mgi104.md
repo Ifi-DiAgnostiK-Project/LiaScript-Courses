@@ -54,12 +54,12 @@ tags:
         padding-left: 2px !important;
     }
 @end
-    
+
 -->
 
 # MGI 1-04: Verarbeitung von Wärme-Dämm-Verbund-Systemen (WDVS) 🧑‍🎨
 
-Sie haben im Kurs gelernt, wie ein Wärme-Dämm-Verbund-System verarbeitet wird. 
+Sie haben im Kurs gelernt, wie ein Wärme-Dämm-Verbund-System verarbeitet wird.
 
 Mit den folgenden Fragen, können Sie Ihr Wissen überprüfen...
 
@@ -70,14 +70,14 @@ Mit den folgenden Fragen, können Sie Ihr Wissen überprüfen...
 
 
 <!-- class="highlight" -->
-Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen! 
+Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 
 <br> <br>
-<center> 
+<center>
 
 ![Aufbau WDVS](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/bauwerk_schichten.jpg "[_Quelle: energie-experten.org, Grafik: Südwest_](https://www.energie-experten.org/bauen-und-sanieren/daemmung/wdvs/aufbau#fancy_group_6844)")<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 
 ## Wichtige Arbeitsabläufe (WDVS) - Reinigung
@@ -177,14 +177,14 @@ An oberster Stelle steht der erste Arbeitsschritt.
 <div class="flex-child">
 
 <!-- class="highlight" style="margin-bottom:40px;"-->
-Ordnen Sie den Zahlen 1 - 7 im Bild den jeweils richtigen Fachbegriff zu.  
+Ordnen Sie den Zahlen 1 - 7 im Bild den jeweils richtigen Fachbegriff zu.
 
 
 <ol class="styled-list">
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 <li> [[ Dämmstoff | Kleber   | Oberputz/Endbeschichtung  |  (Wand)  |  Grundierung |  Armierungsgewebe  |  Armierungsmasse ]]</li>
 <li> [[ Dämmstoff | (Kleber)   | Oberputz/Endbeschichtung  |  Wand  |  Grundierung |  Armierungsgewebe  |  Armierungsmasse ]]</li>
@@ -241,11 +241,11 @@ Es soll berechnet werden, wie viel Kleber/Armierungsmörtel und Strukturputz K 2
 </section>
 
 <br> <br>
-<center> 
+<center>
 
 ![Hausberechnung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/haus_klimaqualitaet.jpg "[_Quelle: Designed bey Freepik, kjpargeter_](https://de.freepik.com/fotos-kostenlos/im-modernen-stil-haus-im-bau_997935.htm#fromView=keyword&page=2&position=46&uuid=e3d1e428-80f1-4fcc-b9e4-1cd4e3b5de48&query=Waermedaemmung)")<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 
 ### Schritt 1: Fassadenflächen berechnen
@@ -274,10 +274,10 @@ Es soll berechnet werden, wie viel Kleber/Armierungsmörtel und Strukturputz K 2
 Berechnen Sie die Fläche ohne Abzüge.\
 Welche m²-Zahl ist richtig?
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 - [( )] 80 m²
 - [(X)] 84 m²
@@ -316,10 +316,10 @@ $Fläche = 84 m^2$
 <!-- class="highlight"-->
 Wie viel kg Kleber-/Armierung benötigen Sie?
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 - [(X)] 420 kg
 - [( )] 390 kg
@@ -355,10 +355,10 @@ $Kleberbedarf = 420 kg$
 <!-- class="highlight"-->
 Wie viel kg Strukturputz benötigen Sie?
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 - [( )] 390 kg
 - [(X)] 210 kg
@@ -385,16 +385,16 @@ Welche Aussagen sind richtig?
 
 ><!--style="color: red; font-weight: bolder"-->Es sind insgesamt drei Antworten richtig!
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 - [[ ]] Kreidende Altanstriche können überarbeitet werden.
 - [[ ]] Gering durchfeuchtete Stellen sind unkritisch.
 - [[X]] Der Untergrund muss tragfähig sein.
 - [[X]] Abplatzender Putz muss entfernt werden.
-- [[ ]] Haarrisse können überklebt werden. 
+- [[ ]] Haarrisse können überklebt werden.
 - [[X]] Der Untergrund muss sauber und frei von Trennmitteln sein.
 
 </div>
@@ -416,17 +416,17 @@ Was gehört zu den Anforderungen beim Setzen der Sockelschiene?
 
 ><!--style="color: red; font-weight: bolder"-->Es sind insgesamt drei Antworten richtig!
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
-- [[ ]] Die Sockelschiene kann ohne Abstand zum Gelände montiert werden. 
+- [[ ]] Die Sockelschiene kann ohne Abstand zum Gelände montiert werden.
 - [[ ]] Die Sockelschiene ist vor dem Kleben der Dämmplatten wieder zu entfernen.
-- [[X]] Die Sockelschiene wird lot- und waagerecht an der Fassade ausgerichtet. 
-- [[X]] Ein gleitender Anschluss zum Dämmstoff ist erforderlich, um Spannungen abzubauen. 
+- [[X]] Die Sockelschiene wird lot- und waagerecht an der Fassade ausgerichtet.
+- [[X]] Ein gleitender Anschluss zum Dämmstoff ist erforderlich, um Spannungen abzubauen.
 - [[ ]] Die Sockelschiene wird erst nach dem Armieren gesetzt.
-- [[X]] Die Sockelschiene dient als Startprofil für die erste Dämmplattenreihe. 
+- [[X]] Die Sockelschiene dient als Startprofil für die erste Dämmplattenreihe.
 
 </div>
 </section>
@@ -448,17 +448,17 @@ Welche Aussagen zur Armierungsmasse und zum eingelegten Gewebe stimmen?
 
 ><!--style="color: red; font-weight: bolder"-->Es sind drei Antworten richtig!
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 - [[X]] Das Armierungsgewebe wird mittig in die Armierungsmasse eingebettet.
 - [[ ]] Die Armierung kann auch ohne Eckschutzschienen erfolgen.
-- [[X]] Gewebebahnen müssen mindestens 10 cm überlappt werden. 
-- [[ ]] Die Armierungsmasse muss vollflächig und gleichmäßig aufgespachtelt werden. 
-- [[X]] Eckschutzschienen werden vor der eigentlichen Armierung gesetzt. 
-- [[ ]] Gewebe darf sichtbar bleiben, da ein Oberputz aufgebracht wird. 
+- [[X]] Gewebebahnen müssen mindestens 10 cm überlappt werden.
+- [[ ]] Die Armierungsmasse muss vollflächig und gleichmäßig aufgespachtelt werden.
+- [[X]] Eckschutzschienen werden vor der eigentlichen Armierung gesetzt.
+- [[ ]] Gewebe darf sichtbar bleiben, da ein Oberputz aufgebracht wird.
 
 
 </div>
@@ -480,16 +480,16 @@ Welche Aussagen sind richtig?
 
 ><!--style="color: red; font-weight: bolder"-->Es sind drei Antworten richtig!
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
-- [[ ]] Strukturputz kann direkt auf die Dämmplatten aufgetragen werden. 
+- [[ ]] Strukturputz kann direkt auf die Dämmplatten aufgetragen werden.
 - [[ ]] Trocknungszeiten zwischen den Arbeitsschritten entfallen, wenn die Umgebungstemperatur eine rasche Trocknung unterstützt.
-- [[X]] Vor dem Strukturputz wird eine geeignete Grundierung aufgebracht. 
-- [[X]] Nach dem Trocknen des Strukturputzes erfolgt der Fassadenanstrich. 
-- [[X]] Der Strukturputz dient als dekorative und schützende Schicht.  
+- [[X]] Vor dem Strukturputz wird eine geeignete Grundierung aufgebracht.
+- [[X]] Nach dem Trocknen des Strukturputzes erfolgt der Fassadenanstrich.
+- [[X]] Der Strukturputz dient als dekorative und schützende Schicht.
 
 
 </div>

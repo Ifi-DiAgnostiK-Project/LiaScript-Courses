@@ -30,15 +30,15 @@ The race condition has been eliminated by consolidating the `update-course-count
 jobs:
   check_changes:
     # Detects changes, manages version increments (Phase 1/2)
-    
+
   generate_outputs:
     needs: [check_changes]
     # Generates SCORM packages and releases
-    
+
   create_project_index_html:
     needs: [check_changes, generate_outputs]
     # Generates index.html (skipped in Phase 1)
-    
+ 
   update_course_count:
     needs: [check_changes]
     # Updates course count badge (skipped in Phase 1)

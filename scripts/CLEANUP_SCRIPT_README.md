@@ -109,7 +109,7 @@ python3 scripts/cleanup_old_releases.py --keep 5
 3. **Group by Course**: Tags are grouped by their course name
 4. **Sort Versions**: Within each course, versions are sorted using semantic versioning
 5. **Select for Deletion**: All but the N highest versions are marked for deletion
-6. **Delete**: 
+6. **Delete**:
    - First, the corresponding GitHub release is deleted (if exists and not using `--tags-only`)
    - Then, the tag is deleted both locally and from the remote repository
 
@@ -230,13 +230,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0  # Fetch all tags
-      
+
       - name: Setup GitHub CLI
         run: |
           gh auth setup-git
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
+
       - name: Run cleanup script
         run: |
           python3 scripts/cleanup_old_releases.py --execute --keep 2

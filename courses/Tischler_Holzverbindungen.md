@@ -49,7 +49,7 @@ Holz "arbeitet" - es dehnt sich aus und zieht sich zusammen. Gute Verbindungen b
 - **Ästhetik und Handwerkskunst**\
 Sichtbare Verbindungen wie Zinken oder Schwalbenschwanzverbindungen zeigen handwerkliches Können und sind of gestalterisches Element.
 
-<br> 
+<br>
 
 <!--class="highlight"-->
 Testen Sie Ihr Wissen zu den wichtigsten Holzverbindungen!
@@ -59,11 +59,11 @@ Testen Sie Ihr Wissen zu den wichtigsten Holzverbindungen!
 <br> <br>
 
 
-<center> 
+<center>
 
 ![Collage_Holzverbindung](img/zinken_comparison_through.png"_Abbildung von zwei typischen Holzverbindungen, Fotos: HWK Dresden, Florian Riefling_")<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ## Erkennen & Benennen von typischen Holzverbindungen
 
@@ -87,11 +87,11 @@ Ordnen Sie jeweils das Bild der richtigen Holzverbindung zu.
 <br> <br>
 
 
-<center> 
+<center>
 
 ![Tischlerwerkzeuge](img/assortment_of_tools.jpg" [_Quelle: Freepik_](https://de.freepik.com/fotos-kostenlos/vorderansicht-verschiedene-tischlerwerkzeuge_9698135.htm)")<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 
 ### Holzverbindung 1
@@ -119,11 +119,11 @@ data-max-trials="3"
 </div>
 </section>
 
-<center> 
+<center>
 
 ![durchbohrt_und_gezapft_fertig](img/Holzverb_rund_durch.jpg)<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Holzverbindung 2
 
@@ -150,11 +150,11 @@ data-max-trials="3"
 </div>
 </section>
 
-<center> 
+<center>
 
 ![Dübelverbindung_groß](img/Holzverb_duebel.png)<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Holzverbindung 3
 
@@ -181,11 +181,11 @@ data-max-trials="3"
 </div>
 </section>
 
-<center> 
+<center>
 
 ![doppelte_Schlitzverbindung_fertig](img/Holzverb_platten_fertig.jpg)<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Holzverbindung 4
 
@@ -214,11 +214,11 @@ data-max-trials="3"
 </div>
 </section>
 
-<center> 
+<center>
 
 ![Schwalbenschwanz_durchgehend](img/zinken_auseinander.png)<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Holzverbindung 5
 
@@ -245,11 +245,11 @@ data-max-trials="3"
 </div>
 </section>
 
-<center> 
+<center>
 
 ![Überplattung_fertig](img/Holzverb_glue.jpg)<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Holzverbindung 6
 
@@ -278,11 +278,11 @@ data-max-trials="3"
 </div>
 </section>
 
-<center> 
+<center>
 
 ![Lochzapfenverbindung_fertig](img/Holzverb_zapfen_durch.jpg)<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Holzverbindung 7
 
@@ -311,11 +311,11 @@ data-max-trials="3"
 </div>
 </section>
 
-<center> 
+<center>
 
 ![Dominoverbindung_klein](img/verbinder_langduebel.jpg)<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Holzverbindung 8
 
@@ -344,11 +344,11 @@ data-max-trials="3"
 </div>
 </section>
 
-<center> 
+<center>
 
 ![Schlitz_Zapfen_fertig](img/schiebeverbinder_zusammen.jpg)<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Holzverbindung 9
 
@@ -375,11 +375,11 @@ data-max-trials="3"
 </div>
 </section>
 
-<center> 
+<center>
 
 ![Rundzapfen_verkeilt](img/loch_prepared_wall.jpg)<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ## Typische Einsatzgebiete und passende Verbindungen
 
@@ -390,11 +390,11 @@ Die nachfolgenden Fragen testen, ob Sie den typischen Einsatzgebieten die jeweil
 <!-- class="highlight" -->
 Viel Erfolg!
 
-<center> 
+<center>
 
 ![Anzeichnen_auf_Holz](img/wood_signed.jpg" [_Quelle: Pixabay, azboomer_](https://pixabay.com/photos/carpentry-hobby-work-bench-tools-854287/)")<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 
 ### Einsatzgebiete von Holzverbindungen - Teil 1

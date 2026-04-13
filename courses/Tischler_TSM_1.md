@@ -32,7 +32,7 @@ tags: [Tischler, Schreiner, Arbeitssicherheit, Holzbearbeitungsmaschinen, BGHM]
 # TSM 1 - Überprüfungsfragen nach Abschluss des Praxiskurses
 
 Die praktischen überbetrieblichen TSM<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> -<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> Lehrgänge<!-- style="font-weight: bolder; font-size: 12pt; color: green;"--> sind ein wichtiger Bestandteil Ihrer Ausbildung.\
-In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das 
+In diesen Lehrgängen festigen und erweitern Sie Ihre Kenntnisse über das
 
 <!-- class="hash"-->
 - sichere Arbeiten an Sägemaschinen (Tisch- und Formatkreissäge, Bandsäge)
@@ -48,11 +48,11 @@ Die Fragen sind gemäß den Vorgaben der BGHM und den geltenden Unfallverhütung
 Gleichzeitig werden "Nebeneffekte" erreicht:
 
 <!-- class="blueball"-->
-- Erhöhung der Arbeitssicherheit, 
+- Erhöhung der Arbeitssicherheit,
 - Reduzierung von Materialverschwendung
-- Steigerung/Sicherung der Qualität 
+- Steigerung/Sicherung der Qualität
 
-<br> 
+<br>
 
 <!-- style="font-weight: bolder; font-size: 12pt; color: red;"-->
 Die Module ersetzen nicht die praktischen überbetrieblichen TSM-Lehrgänge.
@@ -66,11 +66,11 @@ Testen Sie Ihr Wissen zum sicheren Umgang mit Holzbearbeitungsmaschinen!
 
 <br>
 
-<center> 
+<center>
 
 ![Hand_mit_Sägeblatt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/brett_kreissaege_finger_gefaehrlich.jpg" [_Quelle: Freepik, Myriams-Fotos](https://pixabay.com/photos/chop-saw-saw-blade-1337288/)")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ## Die Berufsgenossenschaft Holz und Metall (BGHM)
 
@@ -85,18 +85,18 @@ Sie ist eine Körperschaft des öffentlichen Rechts mit Selbstverwaltung und geh
 
 Ihre Hauptaufgaben sind:
 
-1. **Verhütung** von Arbeitsunfällen, Berufskrankheiten und arbeitsbedingten Gesundheitsgefahren, zum Beispiel durch Regeln, Schulungen und Praxishilfen für eine sichere Arbeit im Tischlerhandwerk 
+1. **Verhütung** von Arbeitsunfällen, Berufskrankheiten und arbeitsbedingten Gesundheitsgefahren, zum Beispiel durch Regeln, Schulungen und Praxishilfen für eine sichere Arbeit im Tischlerhandwerk
 2. **Versorgung** nach einem Unfall oder bei einer Berufskrankheit: medizinische Behandlung, Rehabilitation und finanzielle Entschädigung für Versicherte und Hinterbliebene
 
 </div>
 
 <br>
 
-<center> 
+<center>
 
 ![Arbeitsschutz](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Nagelneue_Sicherheitsausruestung.jpg" [_Quelle: Freepik_](https://www.freepik.com/free-photo/front-view-protective-glasses-with-hard-hat-headphones_11403385.htm#fromView=search&page=1&position=0&uuid=b084009a-d4d3-4588-9a32-9ef6f5fdc1d0&query=arbeitsschutz)")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 <!--style="background-color:#FFA500;color: white"-->
 > Hinweise zur Lösung für die nachfolgenden Aufgaben finden Sie im TSM-Lehrgangsbegleitheft, S. 6-7.
@@ -224,7 +224,7 @@ Unter "eigenwirtschaftlicher Tätigkeit" werden Arbeiten im Betrieb für den eig
 </div>
 </section>
 
-## Handmaschinen 
+## Handmaschinen
 
 Handmaschinen<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"-->  gehören im Tischlerhandwerk zum Alltag und ermöglichen viele Arbeiten flexibel und direkt am Bauteil - zum Beispiel:
 <br>
@@ -243,11 +243,11 @@ Sicherheit im Umgang mit Sägemaschinen beruht auf Übung, Aufmerksamkeit – un
 
 ----------------------
 
-<center> 
+<center>
 
 ![Sägen_von_Hand](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/stichsaege_brett.jpg" [_Quelle: Freepik, pvproductions_](https://www.freepik.com/free-photo/close-up-carpenter-s-hands-process-cutting-wood-with-jigsaw_16771521.htm#fromView=search&page=1&position=19&uuid=c8990c62-ec23-42fe-94d9-8b83ca73725b&query=Bands%C3%A4ge)")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Umgang mit der Handkreissägemaschine
 
@@ -270,7 +270,7 @@ data-max-trials="3"
 - [[X]] Es ist Gehörschutz zu tragen.
 - [[ ]] Mit einer Hand ist das Werkstück gegen Verrutschen zu sichern.
 - [[X]] Die Werkstücke sind gegen Verschieben zu sichern.
-- [[X]] Es das richtige Kreissägeblatt für den Querschnitt zu wählen. 
+- [[X]] Es das richtige Kreissägeblatt für den Querschnitt zu wählen.
 - [[ ]] Beim Ablängen sind nur Handkreissägen mit Pendelschutzhaube zu benutzen.
 - [[X]] Handkreissägen müssen abgesaugt werden.
 ********************
@@ -279,7 +279,7 @@ Folgende Antworten sind richtig:\
 - Es ist Gehörschutz zu tragen.
 - Die Werkstücke sind gegen Verschieben zu sichern.
 - Handkreissägen müssen abgesaugt werden.
-- Es das richtige Kreissägeblatt für den Querschnitt zu wählen. 
+- Es das richtige Kreissägeblatt für den Querschnitt zu wählen.
 ********************
 
 </div>
@@ -296,7 +296,7 @@ Folgende Antworten sind richtig:\
 
 Dieses Wiederholungsmodul dient der Auffrischung der sicherheitsrelevanten Kenntnisse von Sägemaschinen<!-- style="font-weight: bolder; font-size: 12pt; color: blue;"-->  mit besonderem Augenmerk auf das motorisch sichere und vorausschauende Arbeiten.\
 <br>
-Das Ziel dieses Kurses ist: 
+Das Ziel dieses Kurses ist:
 
 <!-- class="blueball" -->
 - fundiertes Wissen über die Handhabung von Holzbearbeitungsmaschinen erreichen
@@ -311,11 +311,11 @@ Sicherheit im Umgang mit Sägemaschinen beruht auf Übung, Aufmerksamkeit – un
 
 ----------------------
 
-<center> 
+<center>
 
 ![Tischler_in_Werkstatt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/typ_guckt_ueber_brett.jpg" [_Quelle: Freepik, aleksandarlittlewolf_](https://www.freepik.com/free-photo/portrait-professional-woodworker-standing-machine-wood-material-his-carpentry-workshop_11137021.htm#fromView=search&page=2&position=7&uuid=53cd649e-c46c-4468-9851-db1bfc72aad2&query=wood+worker)")<!-- style="max-width: 450px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Pendelsäge
 
@@ -324,10 +324,10 @@ Welches Sägeblatt ist auf der Pendelsäge zu verwenden?\
 Ziehen Sie die richtige Lösung in das leere Feld.
 
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdropmultiple(@uid,Querschnittsägeblatt mit negativem Spanwinkel ≤ 0°/≤ 5°,Längsschnittsägeblatt|Trapezzahnsägeblatt|Querschnittsägeblatt|Hohlzahnsägeblatt)
 
@@ -361,12 +361,12 @@ data-randomize
 data-solution-button="off"
 data-max-trials="3"
 -->
-- [(X)] Der Parallelanschlag ist vor das Sägeblatt zurückzuziehen, damit ein Klemmen des Werkstücks vermieden wird. 
+- [(X)] Der Parallelanschlag ist vor das Sägeblatt zurückzuziehen, damit ein Klemmen des Werkstücks vermieden wird.
 - [( )] Der Anschlag ist so zu benutzen, wie er werksseitig eingestellt ist.
 - [( )] Der Parallelanschlag ist etwa gedachte 45° ab Sägeblattmitte zurückzuziehen, um ein Klemmen des Werkstücks zu vermeiden.
 - [( )] Der Parallelanschlag ist etwa gedachte 45° ab Sägeblattvorderkante zurückzuziehen.
 ********************
-Der Parallelanschlag ist vor das Sägeblatt zurückzuziehen, damit ein Klemmen des Werkstücks vermieden wird. 
+Der Parallelanschlag ist vor das Sägeblatt zurückzuziehen, damit ein Klemmen des Werkstücks vermieden wird.
 ********************
 
 </div>
@@ -465,7 +465,7 @@ Die Tischfräsmaschine<!-- style="font-weight: bolder; font-size: 12pt; color: b
 
 -----------------------
 
-Die Tischfräsmaschine gehört zu den wichtigsten, aber auch gefährlichsten<!-- style="font-weight: bolder; font-size: 12pt; color: #A00000;"--> Maschinen in der Tischlerwerkstatt: 
+Die Tischfräsmaschine gehört zu den wichtigsten, aber auch gefährlichsten<!-- style="font-weight: bolder; font-size: 12pt; color: #A00000;"--> Maschinen in der Tischlerwerkstatt:
 
 🚑 Es wirken hohe Drehzahlen und große Schnittkräfte.\
 🚑 Die Hände müssen Abstand zur Frässpindel behalten.\
@@ -477,11 +477,11 @@ Es ist wichtig, Aufbau, Einstellmöglichkeiten und Schutzeinrichtungen zu kennen
 
 -------
 <br>
-<center> 
+<center>
 
 ![Tischfräse](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Seitenfraese_mit_sicherheitsmechanismen.png" _Quelle: BGHM_")<!-- style="max-width: 350px; width: 100%" -->
 
-</center> 
+</center>
 
 ### Kennzeichnung der Fräswerkzeuge
 
@@ -502,7 +502,7 @@ data-max-trials="3"
 - [( )] Nur für mechanischen Vorschub (z. B. Vierseitenhobelmaschinen, Doppelendprofiler, CNC) verwenden.
 - [( )] Werkzeug unterliegt den Sicherheitsvorgaben der Berufsgenossenschaft.
 ********************
-Das Werkzeug ist auf Tischfräsmaschinen für den Handvorschub geeignet.  
+Das Werkzeug ist auf Tischfräsmaschinen für den Handvorschub geeignet.
 ********************
 
 </div>
@@ -527,9 +527,9 @@ data-max-trials="3"
 - [(X)] Die Angabe bezeichnet die höchstzulässige Drehzahl.
 - [( )] Das gibt die arbeitstechnisch grünstige Drehzahl an.
 - [( )] Damit wird die Prüfziffer der Werkzeugprüfstelle angegeben.
-- [( )] Das Werkzeug darf nur mit der Drehzahl 9000 betrieben werden. 
+- [( )] Das Werkzeug darf nur mit der Drehzahl 9000 betrieben werden.
 ********************
-Mit der Angabe wird die höchstzulässige Drehzahl bezeichnet.  
+Mit der Angabe wird die höchstzulässige Drehzahl bezeichnet.
 ********************
 
 </div>
@@ -600,11 +600,11 @@ data-max-trials="3"
 Es unbedingt ein durchgehender Anschlag und ein Nachschiebeholz zu verwenden.
 ********************
 
-<center> 
+<center>
 
 ![Fräswerkzeuge_Werkstückführung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/fraeswerkzeuge_werkstueckfuehrung.png "_Quelle: BGHM_")<!-- style="max-width: 800px; width: 200%;margin-left: -20px; margin-top:20px;" -->
 
-</center> 
+</center>
 
 </div>
 </section>
