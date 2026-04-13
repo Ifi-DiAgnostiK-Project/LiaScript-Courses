@@ -54,7 +54,7 @@ Viel Erfolg!
 
 <center> 
 
-![Tapetensymbole_zusammengefuegt](img/tapete_tapetensymbole_closeup.png "[_Quelle: Deutsches Tapeten-Institut_](https://tapeten.de/wissenswertes/tapetensymbole)")<!-- style="max-width: 350px; width: 100%" -->
+![Tapetensymbole_zusammengefuegt](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/maler_tapetensymbole_v0.0.3/courses/img/tapete_tapetensymbole_closeup.png "[_Quelle: Deutsches Tapeten-Institut_](https://tapeten.de/wissenswertes/tapetensymbole)")<!-- style="max-width: 350px; width: 100%" -->
 
 </center> 
 
@@ -81,7 +81,7 @@ Welche Aussagen über Tapetensymbole sind richtig?
 </div>
 <div class="flex-child">
 
-![Tapetenregal](img/tapete_lager.jpg "_Quelle: HWK Dresden_ ")<!-- style="max-width: 250px; width: 100%; margin-left: 80px; margin-top:50px;" -->
+![Tapetenregal](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/maler_tapetensymbole_v0.0.3/courses/img/tapete_lager.jpg "_Quelle: HWK Dresden_ ")<!-- style="max-width: 250px; width: 100%; margin-left: 50px; margin-top:50px;" -->
 
 </div>
 </section>
@@ -116,7 +116,7 @@ Was sagt diese Nummer aus?
 
 <center> 
 
-![Ausschnitt_Anfertigungsnummer](img/tapete_tapetensymbole.png "_Quelle: Ausschnitt Tapetenettikett, GKZ_")<!-- style="max-width: 350px; width: 100%" -->
+![Ausschnitt_Anfertigungsnummer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/maler_tapetensymbole_v0.0.3/courses/img/tapete_tapetensymbole.png "_Quelle: Ausschnitt Tapetenettikett, GKZ_")<!-- style="max-width: 350px; width: 100%" -->
 
 </center> 
 
@@ -126,7 +126,7 @@ Was sagt diese Nummer aus?
 <div class="flex-child">
 
 <!-- class="highlight" -->
-Welche Symbole geben die Wasser- und Waschbeständigkeit an?\
+Welche Symbole geben die Wasser-  und Waschbeständigkeit an?\
 Ziehen Sie die richtigen Piktogramme ins Antwortfeld.
 
 <!-- data-randomize -->
@@ -135,6 +135,9 @@ Ziehen Sie die richtigen Piktogramme ins Antwortfeld.
 </div>
 </section>
 
+<section class="flex-container border">
+<div class="flex-child">
+
 <!-- class="highlight" -->
 Welche Symbole sagen etwas über die Lichtbeständigkeit aus?\
 Ziehen Sie die richtigen Piktogramme ins Antwortfeld.
@@ -142,6 +145,8 @@ Ziehen Sie die richtigen Piktogramme ins Antwortfeld.
 <!-- data-randomize -->
 @dragdropmultiple(@uid,@Farbbestaendigkeit_gegen_Licht.Ausgezeichnet_Lichtbestaendig.src|@Farbbestaendigkeit_gegen_Licht.Befriedigend_Lichtbestaendig.src, @Trocknersymbole.Trocknen_Grundsymbol.src|@Pflegeeigenschaft.Waschbestaendig.src|@Verschiedenes.Dupliert.src)
 
+</div>
+</section>
 
 ## 4. Tapetensymbole - Verarbeitung und Entfernen
 
@@ -149,7 +154,7 @@ Ziehen Sie die richtigen Piktogramme ins Antwortfeld.
 <div class="flex-child">
 
 <!-- class="highlight" -->
-Welche Symbole geben Hinweise zur Verarbeitung der Tapete?\
+Welche Symbole geben Hinweise zur Verarbeitung<!-- style="font-weight: bolder; font-size: 13pt; color: magenta;"-->  der Tapete?\
 Ziehen Sie die richtigen Piktogramme ins Antwortfeld.
 
 <!-- data-randomize -->
@@ -158,12 +163,18 @@ Ziehen Sie die richtigen Piktogramme ins Antwortfeld.
 </div>
 </section>
 
+<section class="flex-container border">
+<div class="flex-child">
+
 <!-- class="highlight" -->
-Welche Symbole zeigen das Verfahren für das Entfernen der Wandbekleidung an?\
+Welche Symbole zeigen das Verfahren für das Entfernen<!-- style="font-weight: bolder; font-size: 13pt; color: magenta;"-->  der Wandbekleidung an?\
 Ziehen Sie die richtigen Piktogramme ins Antwortfeld.
 
 <!-- data-randomize -->
 @dragdropmultiple(@uid,@Verfahren_fuer_das_Entfernen.Nass_zu_entfernen.src|@Verfahren_fuer_das_Entfernen.Spaltbar_trocken_abziehbar.src,@Bleichsymbole.Chlor_oder_Sauerstoffbleichen.src|@Verschiedenes.Stossfest.src|@Verarbeitung.Wand_einkleistern.src)
+
+</div>
+</section>
 
 ## 5. Tapetensymbole - Musteransatz und Verschiedenes
 
@@ -180,13 +191,18 @@ Ziehen Sie die richtigen Piktogramme ins Antwortfeld.
 </div>
 </section>
 
+<section class="flex-container border">
+<div class="flex-child">
+
 <!-- class="highlight" -->
-Welche Symbole gehören nicht in die Kategorien "Wasser & Licht", "Verarbeitung und Entfernen", "Ansatz des Musters?\
+Welche Symbole gehören nicht<!-- style="font-weight: bolder; font-size: 13pt; color: magenta;"-->  in die Kategorien "Wasser & Licht", "Verarbeitung und Entfernen", "Ansatz des Musters?" oder "Pflegeeigenschaft"?\
 Ziehen Sie die Piktogramme, die "Spezialaussagen" liefern, ins Antwortfeld.
 
 <!-- data-randomize -->
 @dragdropmultiple(@uid,@Verschiedenes.Dupliert.src|@Verschiedenes.Doppelnahtschnitt.src|@Verschiedenes.Stossfest.src, @Pflegeeigenschaft.Hochscheuerbestaendig.src|@Bleichsymbole.Chlor_oder_Sauerstoffbleichen.src)
 
+</div>
+</section>
 
 ## 6. Tapetenkennzeichen - Vermischtes Quiz 1
 
@@ -217,12 +233,10 @@ Was bedeutet dieses Symbol?
 <!-- class="highlight" -->
 Was zeigt Ihnen das Symbol mit mehreren Wasserlinien an?
 
-><!--style="color: red; font-weight: bolder"-->Es sind zwei Antworten richtig!
-
 
 <!-- data-randomize -->
 - [( )] Die Tapete ist wasserbeständig.
-- [(X)] Die Tapete ist waschbeständig.
+- [( )] Die Tapete ist waschbeständig.
 - [(X)] Die Tapete ist hochwaschbeständig.
 - [( )] Die Tapete ist nicht lichtbeständig.
 - [( )] Die Tapete ist für außen geeignet.
@@ -314,7 +328,7 @@ Die Anfertigungsnummer kennzeichnet die [->[ (Herstellungsserie) | Produktionsza
 <br> <br>
 <center> 
 
-![Tapetenzeichen_marburg](img/tapete_label.jpg "_Quelle: HWK Dresden, Kay Deblitz_")<!-- style="max-width: 550px; width: 100%" -->
+![Tapetenzeichen_marburg](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/maler_tapetensymbole_v0.0.3/courses/img/tapete_label.jpg "_Quelle: HWK Dresden, Kay Deblitz_")<!-- style="max-width: 550px; width: 100%" -->
 
 </center> 
 
