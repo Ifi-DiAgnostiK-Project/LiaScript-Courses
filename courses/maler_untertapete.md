@@ -17,7 +17,7 @@ logo: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses
 
 attribute: title image, by pixabay https://pixabay.com/de/photos/kleister-quast-leim-tapezieren-4964886/
 
-comment:  Verarbeitung von Untertapeten - Maler-/Lackiererhandwerk & Raumausstattung
+comment: Kurse G-ML-24, ML2-24, ML3-24, MLGI2-24, MLGI4-24, MLGI5-24, MB2-24, MB3-24, MB4-24, MGI2-04, MGI3-04, MGI4-04
 
 link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/style.css
 
@@ -71,7 +71,7 @@ Sie arbeiten mit Kollegen auf dieser Baustelle.
 
 Alle notwendigen Arbeitsmaterialien und -werkzeuge sind bereits vor Ort. 
 <br> <br>
-Ihr Vorabeiter beauftragt Sie, im Wohnzimmer zu tapezieren. 
+Ihr Vorabeiter beauftragt Sie, das Wohnzimmer zu tapezieren. 
 
 Er bittet Sie, ihm den notwendigen Arbeitsablauf vorzulegen.
 
@@ -85,7 +85,7 @@ Sie sollen das konkrete Aufmaß für den Raum erstellen und alle benötigten Ger
 Bringen Sie den Arbeitsablauf zur Verarbeitung von Untertapeten in eine richtige Reihenfolge!
 
 <!-- data-randomize -->
-@dragdroporder(@uid,Untergründe prüfen und vorbereiten|Altanstriche entfernen|Spachteln und schleifen|Aufmaß der Flächen und Mengen - Berechnung des Materials der Makulatur|Bereitstellen der Geräte und Werkzeuge|Kleber für Kleistergerät ansetzen|Kleistergerät mit Kleber und Tapete bestücken|Tapeten einkleistern|Tapeten verkleben: erst Decke - dann Wand|Anschlüsse an Wand - Decken - Scheuerleisten sauber abschneiden)
+@dragdroporder(@uid,Aufmaß der Flächen und Mengen - Berechnung des Materials der Makulatur|Bereitstellen der Geräte und Werkzeuge|Untergründe prüfen und vorbereiten|Altanstriche bzw. Alttapteten entfernen|spachteln und schleifen|Kleber für Kleistergerät ansetzen|Kleistergerät mit Kleber und Tapete bestücken|Tapeten einkleistern|Tapeten verkleben: erst Decke - dann Wand|Anschlüsse an Wand - Decken - Scheuerleisten sauber abschneiden)
 
 </div>
 <div class="flex-child-0">
@@ -145,7 +145,7 @@ Welche Funktion erfüllt eine Makulatur bzw. Untertapete?
 - [[X]] Sie gleicht Unebenheiten und kleine Risse aus.
 - [[X]] Sie reduziert die Saugfähigkeit des Untergrundes und verbessert die Haftung der Dekortapete.
 - [[ ]] Sie kann bei sorgfältiger Verarbeitung auch als Endtapete verwendet werden. 
-- [[ ]] Sie erhöht den Farbauftrag der Endtapete, so dass eine größere Blickdichtigkeit erreicht wird. 
+- [[X]] Mit einer Untertapete wird eine größere Blickdichtigkeit erreicht. 
 
 </div>
 <div class="flex-child-0">
@@ -166,7 +166,7 @@ _Quelle: HWK Dresden, Florian Riefling_<!-- style="max-width: 250px; width: 100%
 <div class="flex-child">
 
 <!-- class="highlight"-->
-Ordnen Sie die angegebenen Werkzeugen und Materialien richtig zu.\
+Ordnen Sie die angegebenen Werkzeuge und Materialien richtig zu.\
 <br>
 "JA" steht für die typische Verwendung des Werkzeugs oder Materials.\
 <br>
@@ -174,12 +174,13 @@ Ordnen Sie die angegebenen Werkzeugen und Materialien richtig zu.\
 
 <!-- data-randomize -->
 - [    [JA]           [NEIN]  ]
-- [    (x)             ( )       ] @Maler_Werkzeuge.Tapezierbuerste(10)
-- [    ( )             (x)       ] @Maler_Werkzeuge.Handschleifklotz(10)
-- [    ( )             (x)       ] @Maler_Werkzeuge.Heiluftfoehn_Geraet(10)
-- [    (x)             ( )       ] @Maler_Werkzeuge.Gliedermassstab_Zollstock(10)
-- [    (x)             ( )       ] @Maler_Werkzeuge.Cuttermesser(10)
-- [    (x)             ( )       ] @Maler_Taetigkeiten.Makulatur88PRO(10)
+- [    (x)             ( )       ] @Maler_Werkzeuge.Tapezierbuerste(15)
+- [    ( )             (x)       ] @Maler_Werkzeuge.Malerstock2(15)
+- [    ( )             (x)       ] @Maler_Werkzeuge.Heiluftfoehn_Geraet(15)
+- [    (x)             ( )       ] @Maler_Werkzeuge.Gliedermassstab_Zollstock(15)
+- [    (x)             ( )       ] @Maler_Werkzeuge.Cuttermesser(15)
+- [    (x)             ( )       ] @Maler_Taetigkeiten.Makulatur88PRO(15)
+- [    ( )             (x)       ] @Maler_Werkzeuge.Naturschwaemme2(15)
 
 </div>
 </section>
