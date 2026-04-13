@@ -29,12 +29,7 @@ tags:
     user-select: none;
     cursor: pointer;
 }
-@end
 
--->
-
-
-@style
 .flex-container {
     display: flex;
     flex-wrap: wrap; /* Allows the items to wrap as needed */
@@ -55,6 +50,7 @@ tags:
 }
 @end
 -->
+
 # Gefahrensymbole als Testquizze und Layout
 LiaScript Badges
 ====
