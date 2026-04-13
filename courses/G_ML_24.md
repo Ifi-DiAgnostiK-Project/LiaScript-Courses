@@ -137,7 +137,7 @@ An oberster Stelle steht der erste Arbeitsschritt.
 
 
 <!-- data-randomize -->
-@dragdroporder(@uid,Nicht tragfähige Beschichtung und Beläge von den Wand- und Deckenflächen entfernen.|Wand- und Deckenflächen nachwaschen.|Wand- und Deckenflächen spachteln.|Wand- und Deckenflächen schleifen/entstauben.|Wand- und Deckenflächen mit unpigmentierter sowie wasserverdünnter Grundbeschichtung grundieren.|Makulatur/Glattvlies kleben.|Tapezieren von Raufaser an der Deckenfläche.|Wand- und Deckenflächen abkleben/abdecken.|Decken- und Wandanschlüsse beschneiden und Zwischenbeschichtung applizieren.|Decken- und Wandanschlüsse beschneiden und Schlussbeschichtung applizieren.)
+@dragdroporder(@uid,Anschlussflächen abdecken und abkleben wie Türen - Fenster - Fußboden| Nicht tragfähige Beschichtung und Beläge von den Wand- und Deckenflächen entfernen.|Wand- und Deckenflächen nachwaschen.|Wand- und Deckenflächen spachteln.|Wand- und Deckenflächen schleifen und entstauben.|Wand- und Deckenflächen mit unpigmentierter sowie wasserverdünnter Grundbeschichtung grundieren.|Tapezieren von Raufaser an der Deckenfläche.|Makulatur oder Glattvlies kleben.|Decken- und Wandanschlüsse beschneiden und Zwischenbeschichtung applizieren.|Decken- und Wandanschlüsse beschneiden und Schlussbeschichtung applizieren.)
 
 </div>
 <div class="flex-child-0">
@@ -157,7 +157,7 @@ An oberster Stelle steht der erste Arbeitsschritt.
 </div>
 </section>
 
-## Wichtige Arbeitsabläufe für Gestaltungsflächen: Wände und Sockel - Teil 1
+## Wichtige Arbeitsabläufe für Gestaltungsflächen -  Wände 
 
 
 Sie sollen in einem Raum Wände und Sockel gestalten. -- In welcher Reihenfolge führen Sie diesen Auftrag aus?
@@ -192,7 +192,7 @@ An oberster Stelle steht der erste Arbeitsschritt.
 
 
 
-## Wichtige Arbeitsabläufe für Gestaltungsflächen: Wände und Sockel - Teil 2
+## Wichtige Arbeitsabläufe für Gestaltungsflächen - Sockel
 
 
 Sie sollen in einem Raum Wände und Sockel gestalten. -- In welcher Reihenfolge führen Sie diesen Auftrag aus?
@@ -226,7 +226,7 @@ An oberster Stelle steht der erste Arbeitsschritt.
 
 ### Beschaffenheit von Untergründen
 
-><!--style="color: red; font-weight: bolder"-->Es sind insgesamt sechs Antworten richtig!
+><!--style="color: red; font-weight: bolder"-->Es sind insgesamt fünf Antworten richtig!
 
 <section class="flex-container border">
 <div class="flex-child">
@@ -239,7 +239,6 @@ Wie sollte ein Untergrund beschaffen sein, damit dieser beschichtet oder tapezie
 <!-- data-randomize -->
 - [[X]] sauber
 - [[X]] trocken
-- [[X]] fest
 - [[X]] tragfähig
 - [[X]] frei von trennenden Substanzen
 - [[X]] gleichmäßig saugfähig
@@ -258,7 +257,7 @@ Wie sollte ein Untergrund beschaffen sein, damit dieser beschichtet oder tapezie
 
 ### Haftfestigkeit alter Anstriche
 
-><!--style="color: red; font-weight: bolder"-->Es sind insgesamt drei Antworten richtig!
+><!--style="color: red; font-weight: bolder"-->Es sind insgesamt vier Antworten richtig!
 
 <section class="flex-container border">
 <div class="flex-child">
@@ -273,7 +272,7 @@ Mit welchen Methoden kann die Haftfestigkeit alter Anstriche geprüft werden?
 - [[X]] Kratzprobe mit dem Spachtel
 - [[X]] Tragfähigkeitsprüfung mit Klebebandtest
 - [[ ]] Besprühen der Wand mit Parfüm oder Duftstoffen
-- [[ ]] Abklopfen mit dem Finger
+- [[X]] Abklopfen mit dem Finger
 - [[ ]] Farbauftragstest
 
 </div>
@@ -299,7 +298,7 @@ Wie prüft man am besten die Saugfähigkeit eines Untergrunds?
 - [(X)] Benetzungsprobe mit Wasser
 - [( )] Farbauftragstest
 - [( )] Kratzprobe mit Messer
-- [( )] Wischprobe mit trockenem Tuch
+- [( )] Klopfprobe 
 
 </div>
 <div class="flex-child-3">
@@ -324,10 +323,10 @@ Wann ist eine Feuchtigkeitsprüfung sinnvoll?
 - [[X]] bei sichtbarem oder vermuteten Schimmelbefall
 - [[X]] bei sichtbaren oder vermuteten Wasserschäden
 - [[X]] wenn dunkle Flecken an den Wänden sichtbar sind
-- [[X]] bei einem muffigen Geruch
+- [[ ]] Die Prüfung der Feuchte ersetzt immer die Kontrolle von Rissen, Staub und Tragfähigkeit.
 - [[ ]] immer - auch wenn die Umgebung trocken ist
 - [[ ]] Eine Feuchtigkeitsprüfung ist zugleich eine Temperaturmessung und daher immer sinnvoll.
-- [[ ]] Eine Feuchtigkeitsprüfung geht jedem Farbanstrich voraus, um die Haftfestigkeit zu prüfen.
+- [[X]] Eine Feuchtigkeitsprüfung geht jedem Farbanstrich voraus, um die Haftfestigkeit zu prüfen.
 
 </div>
 <div class="flex-child-1">
@@ -339,9 +338,9 @@ Wann ist eine Feuchtigkeitsprüfung sinnvoll?
 
 
 
-### Prüfgeräte für Untergrundprüfungen I
+### Prüfgeräte für Untergrundprüfungen
 
-><!--style="color: red; font-weight: bolder"-->Es sind insgesamt vier Antworten richtig!
+><!--style="color: red; font-weight: bolder"-->Es sind insgesamt drei Antworten richtig!
 
 <section class="flex-container border">
 <div class="flex-child">
@@ -353,12 +352,10 @@ Welche Prüfgeräte oder Hilfsmittel werden häufig bei Untergrundprüfungen im 
 <!-- data-randomize -->
 - [[ ]] Rückprallbolzen
 - [[ ]] Haftmessgerät
-- [[ ]] CO2-Messgerät
+- [[ ]] Lupe
 - [[X]] Hydrometer
 - [[X]] Gitterschnitt
-- [[X]] Profometer (Betonüberdeckung)
 - [[X]] Schichtdickenmessgerät (Lack)
-- [[X]] Lupe
 
 </div>
 <div class="flex-child-0">
@@ -366,38 +363,7 @@ Welche Prüfgeräte oder Hilfsmittel werden häufig bei Untergrundprüfungen im 
 <br>
 <br>
 
-![Malerzeugs](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/malerrollen_fensterbrett.jpg"                                                              [_Quelle: Pixabay, stux_](https://pixabay.com/photos/renovate-painting-work-painting-1186334/)")<!-- style="max-width: 400px; width: 100%" -->
-
-</div>
-</section>
-
-
-
-### Prüfgeräte für Untergrundprüfungen II
-
-><!--style="color: red; font-weight: bolder"-->Es sind insgesamt vier Antworten richtig!
-
-<section class="flex-container border">
-<div class="flex-child">
-
-<!-- class="highlight" -->
-Welche der folgenden Geräte oder Werkzeuge gehören typischerweise zu einem Untergrundprüfkoffer?
-
-<!-- data-randomize -->
-- [[X]] Meißel
-- [[X]] Taschenmesser
-- [[X]] Hammer
-- [[ ]] Föhn
-- [[X]] Spritzflasche
-- [[ ]] mobiler Gasbrenner
-
-</div>
-<div class="flex-child">
-
-<br>
-<br>
-
-![Malerzeugs](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/maler_utensilien.jpg"                                                              [_Quelle: Pixabay, Skibka_](https://pixabay.com/photos/brush-roller-rollers-image-handles-1693784/)")<!-- style="max-width: 400px; width: 100%" -->
+![Malerzeugs](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/malerrollen_fensterbrett.jpg "[_Quelle: Pixabay, stux_](https://pixabay.com/photos/renovate-painting-work-painting-1186334/)")<!-- style="max-width: 400px; width: 100%" -->
 
 </div>
 </section>
