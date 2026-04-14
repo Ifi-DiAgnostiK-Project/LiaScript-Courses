@@ -1,9 +1,9 @@
 {
   "version": "1.0",
   "checksums": {
-    "courses/AuGSchutz_SHK.md": "c263fc1690f8f51469c37722f1542eec7248bd9fbb1d26b0e3b3eadd56080c77",
-    "courses/GIH1.md": "6a9dfe38a18756daa2dabbdb91d4dc906f0bc2231a62d04dd3961437bd3604e8",
-    "courses/GIH2.md": "6e099a1b8daaeb0e23f222ee0b6c11d640407c73c2c5f0d03033c730fccc5155",
+    "courses/AuGSchutz_SHK.md": "8581ce0208f48d6aecc543fb6e856b88cec3efbfcfa51b90cf8f174c15f6d4cf",
+    "courses/GIH1.md": "5f9b832c5d43df91792349467d54961c6cc217313aa06be6548b60187b2ec9b5",
+    "courses/GIH2.md": "df16e4ecf55fc4be537dd5c456ff08f57708dc4ffa18170b46c3dc9f44266ec5",
     "courses/GIH3.md": "6f576ca17b8cc1f6f11f105583cd7256c46b9d0d43fb99b63b3e665f5120edea",
     "courses/G_ML_24.md": "877775abe0efd2facc0ed4200f953fc3627f037e20a740886bda8df615ed4ec4",
     "courses/Holzarten_01.md": "9d9a6d4b6a89284e2f13a5f8002ee7bfd72f3f1c303dc30eec7126c0f30351ae",
@@ -18,8 +18,8 @@
     "courses/Raumausstatter_golderner_schnitt.md": "0634896a7bd9be26a7a83a49ca339f04f8d5a5e33fd2c054c8b88b3be37f2c3e",
     "courses/Raumausstatter_golderner_schnitt_kurz.md": "f2351af917fadc23111c8383af8c5839d661fee39584a2a863301b321dd97709",
     "courses/Raumausstatter_gr_06.md": "010306f75ccc6e6c50ffe839bb6199e6c5c9f9b33eb82701d2928fa1626762d1",
-    "courses/Raumausstatter_pflegesymbole.md": "a11dcca259c04d46a94239bc5de2d5a55c7ba8f4ba469c192c2afaa7da67b094",
-    "courses/Raumausstatter_polstergestelle.md": "8a624b86429ce29a4ef947773dabaffc0f9d9c8cff1d34843bf689b996501143",
+    "courses/Raumausstatter_pflegesymbole.md": "98a3561d22d9c9d16a589a598d725d11fdf560459d9171c786ec9b98321fff49",
+    "courses/Raumausstatter_polstergestelle.md": "5c7987e2a2dd11128ace3d1486cdcf456e3ab05af8a0689bcb37130847fcd645",
     "courses/Saege_Test.md": "219a05148483a6a373272997f674296c35205b92b80dd99f9908cd586bed76bf",
     "courses/TSM1.md": "33751bbabff7c589624abb55c1cda66b93e2e64eb206b0450583829d1c5e4fa2",
     "courses/TSM2.md": "d3c2e9f4713a5c621e8d139c00e71d8a2f41d051736e62e011ae2b289a1d697a",
