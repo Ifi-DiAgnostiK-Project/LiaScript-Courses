@@ -3,7 +3,7 @@ author: Volker Göhler
 email: volker.goehler@informatik.tu-freiberg.de
 language: de
 narrator: German Female
-version: 0.0.2
+version: 0.0.3
 edit: true
 date: 2025-12-04
 comment: Kurs zum Sammeln von Layout Elementen
