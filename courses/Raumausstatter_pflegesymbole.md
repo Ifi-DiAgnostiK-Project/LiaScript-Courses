@@ -28,11 +28,11 @@ tags: [ Textilpflege, Bügeln, Waschen, Bleichen, Trocknen, Raumausstatter]
 
 -->
 
-# Textilpflege - Symbole 
+# Textilpflege - Symbole
 
 ![Waschschüssel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/wash.png)<!-- style="max-width: 100px; width: 100%;" -->
 
-Jede Textilfaser und Stoffart benötigt eine besondere Behandlung. Pflegeetiketten sind die "Geheimschrift" der Textilien-Hersteller. Sie enthalten wichtige Hinweise für die Reinigung und Bearbeitung. Die Textilpflegesymbole sind international standardisiert. Sie geben nicht nur Empfehlungen, sondern auch Einschränkungen wie "nicht bleichen" an. 
+Jede Textilfaser und Stoffart benötigt eine besondere Behandlung. Pflegeetiketten sind die "Geheimschrift" der Textilien-Hersteller. Sie enthalten wichtige Hinweise für die Reinigung und Bearbeitung. Die Textilpflegesymbole sind international standardisiert. Sie geben nicht nur Empfehlungen, sondern auch Einschränkungen wie "nicht bleichen" an.
 
 Im Alltag eines Raumausstatters ist es unerlässlich, die kleinen Symbole zu entschlüsseln bzw. richtig an gefertigte Arbeiten anzubringen.
 
@@ -56,7 +56,7 @@ Viel Erfolg!
 Was versteht man unter textilen Artikeln?\
 Setzen Sie den jeweils richtigen Begriff an die passende Stelle.
 
-[->[ (Garn) ]], Stückware und konfektionierte Produkte mit einem Gewichtsanteil an [->[ (Textilfasern) ]] von mindestens [->[  55% | (80%)  ]], einschließlich nichttextiler Bestandteile.  
+[->[ (Garn) ]], Stückware und konfektionierte Produkte mit einem Gewichtsanteil an [->[ (Textilfasern) ]] von mindestens [->[  55% | (80%)  ]], einschließlich nichttextiler Bestandteile.
 
 </div>
 </section>
@@ -71,7 +71,7 @@ Ziehen Sie die richtigen Begriffe ins Antwortfeld.
 
 
 
-## 2. Bügeln und Pressen 🔳 
+## 2. Bügeln und Pressen 🔳
 
 <section class="flex-container border">
 <div class="flex-child">
@@ -244,7 +244,7 @@ Was bedeutet dieses Symbol?
 <!-- data-randomize -->
 - [( )] Die Wäsche darf nur bei niedrigen Temperaturen getrocknet werden.
 - [(X)] Die Wäsche ist auf der Leine zu trocknen.
-- [( )] Es darf nur Wäsche einer Stoffart zusammen im Trockner getrocknet werden. 
+- [( )] Es darf nur Wäsche einer Stoffart zusammen im Trockner getrocknet werden.
 - [( )] Die Wäsche ist im tropfnassen Zustand zu trocknen.
 
 </div>
@@ -271,7 +271,7 @@ Ziehen Sie das richtige Piktrogramm ins Antwortfeld.
 Was bedeutet dieses Symbol?
 
 <!-- data-randomize -->
-- [( )] Professionelle Nassreinigung 
+- [( )] Professionelle Nassreinigung
 - [(X)] Professionelle Trockenreinigung mit Perchlorethylen, Dibutoxymethan und Kohlenwasserstoffen - schonend
 - [( )] Professionelle Trockenreinigung nur mit Kohlenwasserstoffen
 - [( )] Trocknen im Wäschetrockner

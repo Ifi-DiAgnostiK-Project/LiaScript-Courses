@@ -110,6 +110,11 @@ _Quelle: HWK Dresden, Florian Riefling_
 
 ## 2. Die Hiebnummern
 
+><!--style="color: red; font-weight: bolder"-->Es sind insgesamt vier Antworten richtig!
+
+<section class="flex-container border">
+<div class="flex-child">
+
 <!--style="color:blue; font-weight: bolder"-->Die Hiebnummern H1, H2 und H3 bei der Feile stehen für:
 
 
@@ -121,6 +126,9 @@ _Quelle: HWK Dresden, Florian Riefling_
 - [[ ]] Die Kürzel H1, H2 und H3 stehen für die Vornamen der drei Erfinderbrüder: Hans, Heinrich und Hugo Hieb.
 - [[X]] H3 steht für Schlicht-Feilen.
 - [[X]] Je höher die Zahl nach dem "H", desto feiner der Hieb.
+
+</div>
+</section>
 
 ## 3. Die Abwicklung eines Werkstücks
 
@@ -154,7 +162,7 @@ Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="col
 
 Es ist der [[ kleinste | (mittlere)   |  größte ]] Abstand zwischen dem eingebaute Rohrende und der Achse des [[ Fichtenings | (Fittings)   |  Frittings ]] oder den Enden von zwei eingebauten Rohren.
 
-Die z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="color:orange;"--> sind aus den [[ Zeichnungen   |  Stücklisten  | (Baulängen)]] abzüglich der mittleren [[ Einschublängen | (Einschraublängen)   |  Einbaulängen ]] zu berechnen.
+Die z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maße<!--style="color:orange;"--> sind aus den [[ Zeichnungen   |  Stücklisten  | (Baulängen)]] abzüglich der mittleren [[ Einschublängen | (Einschraublängen)   |  Einbaulängen ]] zu berechnen.
 
 Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="color:orange;"--> und ein [[ gutes Lagersystem   |  gutes Miteinander  | (einheitliches Messverfahren)]] sind der Kern der Montage-Methode von Georg Fischer.
 
@@ -174,12 +182,12 @@ Das z<!--style="color:orange;"-->-<!--style="color:orange;"-->Maß<!--style="col
 
 <!-- data-randomize -->
 - [[X]] genaue Abklärung der Leitungsführung
-- [[X]] Kenntnis der Baumaße von Armaturen, Apparaten und deren Standorte
+- [[ ]] Kenntnis der Baumaße des Gebäudes
 - [[X]] normgerechte Rohrgewinde
 - [[ ]] einschlägige Rechenprogramme für die notwendigen Berechnungen
 - [[X]] einheitliches Messverfahren
 
-## 6. Gestreckte Längen berechnen I
+## 6. Gestreckte Längen berechnen
 
 <!--style="font-size: large;font-weight: bold"-->Zur Erinnerung:
 
@@ -207,7 +215,7 @@ _Quelle: https://lernarchiv.bildung.hessen.de/sek/mathematik/geometrie/kreis/kre
 - [( )] Den Außendurchmesser
 - [( )] Die Wandstärke
 
-### Gestreckte Längen berechnen II
+### Teilaufgaben 1
 
 
 Die gestreckte<!--style="font-weight: bold"--> Länge<!--style="font-weight: bold"--> ist die Summer aller
@@ -227,7 +235,7 @@ Die gestreckte<!--style="font-weight: bold"--> Länge<!--style="font-weight: bol
 
 
 
-Gebogene<!--style="font-weight: bold"--> Abschnitte<!--style="font-weight: bold"--> werden mit dieser Formel berechnet:
+Gebogene<!--style="font-weight: bold"--> Rohrsegmente<!--style="font-weight: bold"--> werden mit dieser Formel berechnet:
 
 <!-- data-randomize -->
 - [( )] $l_{b}$<!-- style="color: orange" --> $\text{=}$ $\frac{{Umfang}}{2}$<!--style="font-size: large;font-weight: bold"-->
@@ -243,19 +251,28 @@ Die neutrale<!--style="font-weight: bold"--> Faser<!--style="font-weight: bold"-
 - [( )] durch Zug oder durch Druck
 - [( )] im Wert von $\pi$
 
-### Gestreckte Längen berechnen III
+### Teilaufgaben 2
 
-<!--style="font-size: large"-->Die gestreckte Länge eines Fallrohrs Ø ${100}$ $\text{mm}$ soll berechnet werden.
+Die gestreckte Länge eines Fallrohrs Ø ${100}$ $\text{mm}$ soll berechnet werden.
 
-<!--style="font-size: large"-->1. Gerader Abschnitt: ${600}$ $\text{mm}$ $\text{=}$ $l_{1}$<!-- style="color: orange" -->
+1. Gerader Abschnitt: ${600}$ $\text{mm}$ $\text{=}$ $l_{1}$<!-- style="color: orange" -->
 
-<!--style="font-size: large"-->2. Gebogener Abschnitt: $\text{90°-Bogen}$ $\text{=}$ $l_{2}$<!-- style="color: orange" -->
+2. Gebogener Abschnitt: $\text{90°-Bogen}$ $\text{=}$ $l_{2}$<!-- style="color: orange" -->
+
+<section class="flex-container border">
+<div class="flex-child">
 
 <!--style="color:blue; font-weight: bolder"-->Wie lang muss das Ausgangsrohr **mindestens** sein, damit es nach dem Biegen passt?
 
 $l_{1}$ $\text{=}$ [[  600  ]] $\text{mm}$
 
-<!--style="font-size: large"-->Für die Berechnung des gebogenen Abschnitts benötigst du eine Formel. Wähle die richtige Formel aus:
+</div>
+</section>
+
+<section class="flex-container border">
+<div class="flex-child">
+
+Für die Berechnung des gebogenen Abschnitts benötigst du eine Formel. Wähle die richtige Formel aus:
 
 <!-- data-randomize -->
 - [( )] $l_{2}$<!-- style="color: orange" --> $\text{=}$ $\frac{{Umfang}}{2}$<!--style="font-size: large;font-weight: bold"-->
@@ -333,6 +350,12 @@ $\boxed{l_2 \approx 78{,}5\,\text{mm}}$
 
 ****************************************
 
+</div>
+</section>
+
+<section class="flex-container border">
+<div class="flex-child">
+
 <!--style="font-size: large"-->Jetzt rechne die Gesamtlänge aus:
 
 $l_{1}$ $\text{=}$ [[  600  ]] $\text{mm}$ $\text{+}$ $l_{2}$  [[  78,5  ]] $\text{mm}$ $\text{=}$ [[  678,5  ]] $\text{mm}$
@@ -354,10 +377,12 @@ $l_{gesamt} = 678{,}5\,\text{mm}$
 
 ****************************************
 
+</div>
+</section>
 
 ## Super gemacht 👌
 
-![Jubel](img/colorfull_jumping.jpg)<!-- style="width: 700px" -->
+![Jubel](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/gih1_v0.1.1/courses/img/colorfull_jumping.jpg)<!-- style="width: 700px" -->
 
 _Quelle: Pixabay, geralt_
 

@@ -115,22 +115,24 @@ _https://www.ikz.de/ikz-praxis-archiv/p0108/010808.php _
 
 ### 1. Vorbereitende Arbeitsschritte beim Hart- und Weichlöten
 
-<!--style="font-weight: bolder; color: blue"-->Bringen Sie die vorbereitenden Arbeitsschritte in die richtige Reihenfolge:
+<!--style="font-weight: bolder; color: blue"-->Bringen Sie die vorbereitenden Arbeitsschritte in die richtige Reihenfolge. <br>
+Der erste Arbeitsschritt muss ganz oben stehen.
 
+<!-- data-randomize -->
 @dragdroporder(@uid,Ablängen|Entgraten|Kalibrieren|Reinigen)
 
 ### 2. Einsatzgebiete des Hart- und Weichlötens
 
-<!--style="font-weight: bolder; color: blue"-->Entscheiden Sie, welche Fügetechnik für welchen Installationsbereich zulässig ist:
+<!--style="font-weight: bolder; color: blue"-->Entscheiden Sie, welche Fügetechnik für welchen Installationsbereich zulässig ist. <br>
+Beachten Sie, dass bei einigen Einsatzgebieten BEIDE Fügetechniken zulässig sind!
 
 <!-- data-randomize -->
 - [[Hartlöten] [Weichlöten]]
 - [    [ ]          [X]     ]  Trinkwasser Cu-Rohr weich (R220)
-- [    [X]          [X]     ]  Trinkwasser Cu-Rohr ziehhart (R290) ab ${d}$ 35 mm
 - [    [X]          [X]     ]  Heizung
 - [    [X]          [X]     ]  Dachrinnen und Regenfallrohre
 - [    [X]          [ ]     ]  Stadt-, Erd-, Flüssiggas
-- [    [X]          [X]     ]  Kälte, Klima
+- [    [X]          [ ]     ]  Kälte, Klima
 - [    [X]          [ ]     ]  Öl
 - [    [X]          [ ]     ]  Druckluft
 
@@ -166,24 +168,28 @@ Löten ist ein Verfahren zum Verbinden von [[ Kunsttoffen   |  Glas  | (metallis
 
 Die Schmelztemperatur des Lotes liegt [[ oberhalb   |  gleich  | (unterhalb)]] der Schmelztemperaturen der zu verbindenden Grundwerkstoffe.
 
-----
+<section class="flex-container border">
+<div class="flex-child">
 
-<!--style="font-weight: bolder; color: blue"-->Welche Aufgaben hat das Flussmittel?
+<!--style="font-weight: bolder; color: blue"-->Welche Aufgaben hat das Flussmittel? <br>
+Es sind zwei Antworten richtig!
 
 <!-- data-randomize -->
 - [[ ]] das Werkstück zu kühlen
 - [[ ]] Flussmittel werden nur beim Hartlöten benötigt
-- [[ ]] Entfernen der Oxidschichten
 - [[X]] Zerstörung der vorhandenen Oberflächenoxide
 - [[X]] Verhindern, dass sich neue Oxidschichten während der Erwärmung bilden
 - [[ ]] Entfernen jeder Art von Verschmutzung
+
+</div>
+</section>
 
 <!--style="font-weight: bolder; color: blue"-->Zu welcher Farbe wechselt das Weichlötflussmittel bei Erwärmung? Ziehen Sie die richtige Antwort in das Feld.
 
 <!-- data-randomize -->
 @dragdropmultiple(@uid,Silber,Gold |Grün|Weiß|Blau)
 
-### 5.1 Fehler beim Rohrbiegen I
+### 5.1 Fehler beim Rohrbiegen - Teil 1
 
 <!--style="font-weight: bolder; color: blue"-->Ein geschweißtes Rohr reißt beim Biegen auf. Was könnte die Ursache sein?
 
@@ -196,7 +202,8 @@ Die Schmelztemperatur des Lotes liegt [[ oberhalb   |  gleich  | (unterhalb)]] d
 
 -----
 
-<!--style="font-weight: bolder; color: blue"-->Wie kann beim Biegen von Stahlrohren ein Knicken der Rohrwandung verhindert werden?
+<!--style="font-weight: bolder; color: blue"-->Wie kann beim Biegen von Stahlrohren ein Knicken der Rohrwandung verhindert werden? <br>
+Beachten Sie, dass sich die Frage auf alle Biegearten bezieht!
 
 <!-- data-randomize -->
 - [[ ]] durch Zwischenkühlen des Rohres
@@ -206,17 +213,18 @@ Die Schmelztemperatur des Lotes liegt [[ oberhalb   |  gleich  | (unterhalb)]] d
 - [[X]] durch Gegendrücken an der neutralen Faser
 - [[X]] durch Biegematritzen
 
-### 5.2 Fehler beim Rohrbiegen II
+### 5.2 Fehler beim Rohrbiegen - Teil 2
 
-<!--style="font-weight: bolder; color: blue"-->Welche Fehler können beim Rohrbiegen auftreten?
+<!--style="font-weight: bolder; color: blue"-->Welche Fehler können beim Rohrbiegen auftreten? <br>
+Beachten Sie, dass sich die Frage auf alle Biegearten bezieht!
 
 <!-- data-randomize -->
-- [[X]] Ovalisierung des Rohrquerschnittes bei der Biegung
-- [[X]] Abflachung der Biegung
-- [[X]] Platzierung des Dorns hinter der Biegestelle
-- [[X]] Rückfederung nach dem Biegen
+- [[X]] Ovalisierung oder Abflachung des Rohrquerschnittes bei der Biegung
+- [[ ]] zu langer Biegeschenkel
+- [[ ]] Anzeichnen der Biegelänge
+- [[ ]] Das Rohr wird beim Biegen magnetisiert.
 - [[X]] sehr enger Biegeradius
-- [[X]] unzureichender Druck
+- [[X]] unzureichender Gegendruck am Biegeschenkel
 
 ----
 
@@ -246,17 +254,18 @@ d) Für Rohre mit sehr geringer Wandstärke sollte besonders auf den Biegeradius
 
 ### 6. Schweißen mit Acetylen-Sauerstoff
 
-<!--style="font-size: Large; font-weight: bolder;color: grey"-->Bringen Sie die Arbeitsschritte in die richtige Reihenfolge.
+<!--style="font-size: Large; font-weight: bolder;color: grey"-->Bringen Sie die Arbeitsschritte in die richtige Reihenfolge.<br>
+Der erste Arbeitsschritt steht an oberster Stelle.
 
 Arbeitsvorbereitung<!--style="color:blue; font-weight: bolder;"-->
 
-
-@dragdroporder(@uid,Anschlüsse prüfen|Ventile an den Gasflaschen öffnen|Arbeitsdruck mit dem Druckminderer einstellen|Acetylenventil am Brenner öffnen|Acetylen entzünden|Sauerstoffventil öffnen|Flamme einstellen)
+<!-- data-randomize -->
+@dragdroporder(@uid,Anschlüsse prüfen|Ventile an den Gasflaschen öffnen|Arbeitsdruck mit dem Druckminderer einstellen|Sauerstoffventil öffnen|Acetylenventil am Brenner öffnen|Sauerstoff-Acetylen-Gemisch entzünden|Flamme einstellen)
 
 
 <!--style="color:blue; font-weight: bolder;"-->Nach dem Schweißen
 
-
+<!-- data-randomize -->
 @dragdroporder(@uid,Acetylventil am Brenner schließen|Sauerstoffventil am Brenner schließen|Flaschenventile schließen|Schläuche entlüften)
 
 ----

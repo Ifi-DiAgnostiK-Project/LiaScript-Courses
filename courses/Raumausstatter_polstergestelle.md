@@ -40,8 +40,8 @@ tags:
 
 @style
 .emphasis {
-        font-weight: bolder; 
-        font-size: 12pt; 
+        font-weight: bolder;
+        font-size: 12pt;
 }
 .green {
         color: green;
@@ -51,12 +51,12 @@ tags:
     font-weight: bolder;
 }
 @end
-  
+
 -->
 
 # Holzgestelle als Baugerüst für Polstermöbel  🪑
 
-Holzgestelle bilden die tragende Grundlage vieler gepolsteter Möbel. <br> Sie beeinflussen sowohl Stabilität<!-- class="emphasis green"-->, Funktion<!-- class="emphasis green"--> als auch die spätere Gestaltung<!-- class="emphasis green"--> eines Möbelstücks maßgeblich.  
+Holzgestelle bilden die tragende Grundlage vieler gepolsteter Möbel. <br> Sie beeinflussen sowohl Stabilität<!-- class="emphasis green"-->, Funktion<!-- class="emphasis green"--> als auch die spätere Gestaltung<!-- class="emphasis green"--> eines Möbelstücks maßgeblich.
 
 Sie haben sich während Ihrer fachpraktischen Ausbildung grundlegende Kenntnisse zum Aufbau und zur Konstruktion von Holzgestellen im Raumausstatter-Handwerk angeeignet.
 
@@ -70,17 +70,17 @@ Die nachfolgenden Fragen dienen der Überprüfung Ihres erworbenen Fachwissens z
 
 <br>
 
-<!-- class="emphasis"-->Bitte beachten Sie, dass mehrere Antworten richtig sein können. 
+<!-- class="emphasis"-->Bitte beachten Sie, dass mehrere Antworten richtig sein können.
 
 <!-- class="highlight" -->
-Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen! 
+Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 
 <br> <br>
-<center> 
+<center>
 
 ![Polstergestelle](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/polstersessel_halfed.webp "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 550px; width: 100%" -->
 
-</center> 
+</center>
 
 ## Arten von Holzgestellen
 
@@ -90,15 +90,15 @@ Wir wünschen Ihnen viel Erfolg beim Beantworten der Fragen!
 <!-- class="highlight"-->
 Ziehen Sie den richtigen Begriff in das Antwortfeld.
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
-Holzgestelle bestehen aus [->[  (mehreren Holzteilen) | einem Holzteil ]]. 
+Holzgestelle bestehen aus [->[  (mehreren Holzteilen) | einem Holzteil ]].
 
 </div>
-</section> 
+</section>
 
 <section class="flex-container border">
 <div class="flex-child">
@@ -106,23 +106,23 @@ Holzgestelle bestehen aus [->[  (mehreren Holzteilen) | einem Holzteil ]].
 
 <!-- class="highlight"-->
 Welche Arten von Holzgestellen werden im Raumausstatter-Handwerk unterschieden?\
-Wählen Sie alle richtigen Begriffe aus. 
+Wählen Sie alle richtigen Begriffe aus.
 
 <!-- class="redbold"-->
 > Es sind insgesamt vier Antworten richtig!
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 @dragdropmultiple(@uid,Vollholzgestell|Massivholzgestell|Blindholzgestell|Sichtholzgestell,Metall-Holz-Verbundgestell|Kunststoffgestell)
 
 
 </div>
-</section> 
+</section>
 
-## Typische Holzarten für Polstergestelle 
+## Typische Holzarten für Polstergestelle
 
 <section class="flex-container border">
 <div class="flex-child">
@@ -148,7 +148,7 @@ Welche Holzarten und Holzverbundarten werden typischerweise für ~~Blindholzgest
 ![Blindholzgestell](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/build_eckbank.webp "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 350px; width: 100%; margin-left: 30px; margin-top:100px;" -->
 
 </div>
-</section> 
+</section>
 
 <section class="flex-container border">
 <div class="flex-child">
@@ -175,7 +175,7 @@ Welche Holzarten werden typischerweise für ~~Vollholzgestelle~~ verwendet?
 ![Vollholzgestell](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/polstergestell_production.webp "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 350px; width: 100%; margin-left: 30px; margin-top:100px;" -->
 
 </div>
-</section> 
+</section>
 
 ## Aufbau von Vollholzgestellen
 
@@ -202,7 +202,7 @@ Aus welchen Gestellteilen besteht ein Vollholzgestell?
 ![Referenz_Sudenn](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/polstering.png "[_Quelle: Sudenn-Holzbearbeitung_](https://sudenn-holzbearbeitung.de/polstergestellbau/)")<!-- style="max-width: 250px; width: 100%; margin-left: 30px; margin-top:100px;" -->
 
 </div>
-</section> 
+</section>
 
 
 <section class="flex-container border">
@@ -210,14 +210,14 @@ Aus welchen Gestellteilen besteht ein Vollholzgestell?
 
 <!-- class="highlight" style="margin-bottom:40px;"-->
 Aus welchen Gestellteilen besteht ein Vollholzgestell?\
-Ordnen Sie den Zahlen 1 - 8 im Bild den jeweils richtigen Fachbegriff zu.  
+Ordnen Sie den Zahlen 1 - 8 im Bild den jeweils richtigen Fachbegriff zu.
 
 
 <ol class="styled-list">
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
 <li> [[ (Vorderschwinge/-zarge) | Hinterschwinge/-zarge   | Seitenschwinge/-zarge  |  Füße |  Armlehnstütze/Vorderstollen |  Armlehnbrett/Armlehnfederbrett  |  Backenhölzer | Kopfleiste ]]</li>
 <li> [[ Vorderschwinge/-zarge | (Hinterschwinge/-zarge)   | Seitenschwinge/-zarge  |  Füße |  Armlehnstütze/Vorderstollen |  Armlehnbrett/Armlehnfederbrett  |  Backenhölzer | Kopfleiste  ]]</li>
@@ -238,7 +238,7 @@ data-solution-button="off"
 </div>
 </section>
 
-### Typische Holzverbindungen 
+### Typische Holzverbindungen
 
 
 <section class="flex-container border">
@@ -247,15 +247,15 @@ data-solution-button="off"
 <!-- class="highlight"-->
 Ziehen Sie den richtigen Begriff in das Antwortfeld.
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
-Eine der typischen Holzverbindungen im Polstergestellbau ist die [->[  (verleimte Dübelung) | Steckverbindung ]]. 
+Eine der typischen Holzverbindungen im Polstergestellbau ist die [->[  (verleimte Dübelung) | Steckverbindung ]].
 
 </div>
-</section> 
+</section>
 
 <section class="flex-container border">
 <div class="flex-child">
@@ -267,7 +267,7 @@ Welche Verbindungen können beim Polstergestellbau zum Einsatz kommen?
 > Es sind insgesamt fünf Antworten richtig!
 
 <!-- data-randomize -->
-- [[X]] Schlitz-Zapfen-Verbindung 
+- [[X]] Schlitz-Zapfen-Verbindung
 - [[X]] Dübelverbindung
 - [[X]] gezinkte Verbindung
 - [[X]] Überblattung
@@ -282,7 +282,7 @@ Welche Verbindungen können beim Polstergestellbau zum Einsatz kommen?
 ![Schlitz_Zapfen_Verbindung](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/wood_connection_wire_frame.jpg "_Quelle: HWK Dresden, Anne-Kristin Schmidt_")<!-- style="max-width: 250px; width: 100%; margin-left: 30px; margin-top:20px;" -->
 
 </div>
-</section> 
+</section>
 
 
 ## Blindholzgestelle
@@ -293,15 +293,15 @@ Welche Verbindungen können beim Polstergestellbau zum Einsatz kommen?
 <!-- class="highlight"-->
 Ziehen Sie den richtigen Begriff in das Antwortfeld.
 
-<!-- 
+<!--
 data-randomize
 data-max-trials="3"
-data-solution-button="off" 
+data-solution-button="off"
 -->
-Bei Blindholzgestellen werden alle Gestellteile [->[  (überpolstert bzw. bezogen) | holzsichtig gelassen ]]. 
+Bei Blindholzgestellen werden alle Gestellteile [->[  (überpolstert bzw. bezogen) | holzsichtig gelassen ]].
 
 </div>
-</section> 
+</section>
 
 <section class="flex-container border">
 <div class="flex-child">
@@ -328,7 +328,7 @@ Welche Holzarten und Holzverbundarten werden typischerweise für ~~Blindholzgest
 "Holzbild" Buche; _Quelle: Florian Riefling, HWK Dresden_
 
 </div>
-</section> 
+</section>
 
 ## Unterschiede Blindholz- und Sichtholzgestelle
 
@@ -342,7 +342,7 @@ Welche Aussagen zu Blind- und Sichtholzgestellen sind richtig?
 > Es stimmen vier Antworten!
 
 <!-- data-randomize -->
-- [[X]] Blindholzgestelle sind vollständig verdeckt und überpolstert.  
+- [[X]] Blindholzgestelle sind vollständig verdeckt und überpolstert.
 - [[X]] Sichtholzgestelle bleiben sichtbar und sind gestalterisches Element.
 - [[X]] Sichtholzgestelle erfordern eine saubere Verarbeitung.
 - [[ ]] Blindholzgestelle müssen keine hohe Maßhaltigkeit besitzen.
@@ -358,7 +358,7 @@ Welche Aussagen zu Blind- und Sichtholzgestellen sind richtig?
 
 
 </div>
-</section> 
+</section>
 
 ## Oberflächenbehandlungen für Sichtholzgestelle
 
@@ -372,7 +372,7 @@ Welche Oberflächenbehandlungen sind bei ~~Sichtholzgestellen~~ üblich?
 > Es sind insgesamt vier Antworten richtig!
 
 <!-- data-randomize -->
-- [[X]] Lackieren 
+- [[X]] Lackieren
 - [[X]] Ölen
 - [[X]] Beizen
 - [[ ]] Sandstrahlen
@@ -388,7 +388,7 @@ Welche Oberflächenbehandlungen sind bei ~~Sichtholzgestellen~~ üblich?
 
 
 </div>
-</section> 
+</section>
 
 <section class="flex-container border">
 <div class="flex-child">
@@ -408,7 +408,7 @@ Warum werden Oberflächen von ~~Sichtholzgestellen~~ behandelt?
 - [[ ]] Ausgleich von Holzfeuchteunterschieden im Kernholz
 
 </div>
-</section> 
+</section>
 
 ### Lackieren
 
@@ -421,9 +421,9 @@ Welche vier Aussagen treffen zu?
 
 
 <!-- data-randomize -->
-- [[X]] Der Lack bildet einen geschlossenen Film auf der Holzoberfläche. 
+- [[X]] Der Lack bildet einen geschlossenen Film auf der Holzoberfläche.
 - [[X]] Die Oberfläche wird widerstandsfähig gegen Feuchtigkeit und Schmutz.
-- [[X]] Die Holzmaserung kann vollständig oder teilweise überdeckt sein. 
+- [[X]] Die Holzmaserung kann vollständig oder teilweise überdeckt sein.
 - [[X]] Es können Zwischenschliffe erforderlich sein.
 - [[ ]] Um die Holzmaserung vollständig zur Geltung zu bringen, bildet der Lack eine weiche Oberfläche.
 - [[ ]] Das Lackieren erfordert keine Vorbehandlung.
@@ -436,7 +436,7 @@ Welche vier Aussagen treffen zu?
 ![Pinsel_Acryllack](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/brush_and_paint.jpg "[_Quelle: Pixabay, MIH83_](https://pixabay.com/photos/paint-brush-paint-can-paint-can-1198172/)")<!-- style="max-width: 550px; width: 100%; margin-left: 0px; margin-top:50px;" -->
 
 </div>
-</section> 
+</section>
 
 ### Beizen
 
@@ -448,13 +448,13 @@ Beizen:\
 Welche vier Aussagen treffen zu?
 
 <!-- data-randomize -->
-- [[X]] Die natürliche Holzfarbe wird durch ein farberzeugendes Beizmittel verändert. 
-- [[X]] Die Holzmaserung bleibt erhalten. 
-- [[X]] Es ist zusätzlich eine weitere Oberflächenbehandlung notwendig. 
-- [[X]] Die Beize reagiert mit den Inhaltsstoffen des Holzes. 
+- [[X]] Die natürliche Holzfarbe wird durch ein farberzeugendes Beizmittel verändert.
+- [[X]] Die Holzmaserung bleibt erhalten.
+- [[X]] Es ist zusätzlich eine weitere Oberflächenbehandlung notwendig.
+- [[X]] Die Beize reagiert mit den Inhaltsstoffen des Holzes.
 - [[ ]] Die Beize ist wasserfest.
 - [[ ]] Beizen schützt das Holz zusätzlich vor mechanischer Beansprachung.
-- [[ ]] Beizen verschließt die Poren des Holzes vollständig. 
+- [[ ]] Beizen verschließt die Poren des Holzes vollständig.
 
 </div>
 <div class="flex-child">
@@ -463,7 +463,7 @@ Welche vier Aussagen treffen zu?
 ![Pinsel mit Farbe](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/paint_w_brush.jpg "[_Quelle: Pixabay, Carola68_](https://pixabay.com/de/photos/pinsel-lackieren-dose-lackdose-4974233/)")<!-- style="max-width: 550px; width: 100%; margin-left: 10px; margin-top:80px;" -->
 
 </div>
-</section> 
+</section>
 
 ### Wachsen
 
@@ -482,7 +482,7 @@ Welche vier Aussagen treffen zu?
 - [[X]] Es werden Natur- und Kunstwachse verwendet.
 - [[ ]] Die Wachsschicht bietet einen zusätzlichen Kratz- und Abriebschutz.
 - [[ ]] Die mit Wachs behandelten Oberflächen sind nicht atmungsaktiv.
-- [[ ]] Wachsen verschließt die Poren des Holzes dauerhaft. 
+- [[ ]] Wachsen verschließt die Poren des Holzes dauerhaft.
 
 </div>
 <div class="flex-child">
@@ -490,7 +490,7 @@ Welche vier Aussagen treffen zu?
 ![Hartwachs](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/Hartwachs_Holz_FR.JPG "Hartwachs, Bild: Florian Riefling, HWK")<!-- style="max-width: 375px; width: 100%; margin-top:30px;" -->
 
 </div>
-</section> 
+</section>
 
 ## Geschafft 🎉
 

@@ -14,7 +14,7 @@ date:     2025-07-23
 logo:     https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/courses/img/burning.jpg
 icon:     https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/heads/main/img/Logo_234px.png
 
-link:     style.css
+link: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.1.2/courses/style.css
 import:   https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Piktogramme/refs/heads/main/makros.md
           https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
           https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_ImageQuiz/refs/heads/main/README.md
@@ -62,7 +62,7 @@ __Sicheres Arbeiten ist Teamarbeit – und Sie sind ein wichtiger Teil davon.__
 
 
 
-## 1. Welche persönliche Schutzausrüstung (PSA) ist beim Schweißen unbedingt erforderlich?
+## 1. Welche persönliche Schutzausrüstung (PSA) ist bei allen üblichen Schweißverfahren unbedingt erforderlich?
 
 <!-- class="highlight" -->
 __Ziehe alle richtigen Symbole in das Antwortfeld. 🤔__
@@ -79,7 +79,7 @@ _Piktogramme Quelle: BGHM_
 <div class="flex-child">
 
 <!-- class="highlight" -->
-__Entscheiden Sie, welche Maßnahmen des Arbeitssicherheit und Gesundheitsschutz für Löt- und Schweißarbeiten zu beachten sind.  🤔__
+__Entscheiden Sie, welche Maßnahmen der Arbeitssicherheit und des Gesundheitsschutzes für Löt- und Schweißarbeiten zu beachten sind.  🤔__
 
 <!-- data-randomize -->
 - [[X]] Schutzausrüstung
@@ -93,7 +93,7 @@ __Entscheiden Sie, welche Maßnahmen des Arbeitssicherheit und Gesundheitsschutz
 </section>
 
 <!-- class="highlight" -->
-__Welche Schutzausrüstung und Sicherheitsmaßnahmen sind beim Löten zu beachten? Ziehen Sie die richtigen Bilder ins Antwortfeld. 🤔__
+__Welche Schutzausrüstung und Sicherheitsmaßnahmen sind beim Löten und nach Arbeitsende zu beachten? Ziehen Sie die richtigen Bilder ins Antwortfeld. 🤔__
 
 <!-- data-randomize -->
 @dragdropmultiple(@uid,@Gebotszeichen.Augenschutz.src|@Gebotszeichen.Handschuh.src|@Gebotszeichen.Schutzkleidung.src|@Brandschutzzeichen.Feuerloescher.src|@Gebotszeichen.Haende_waschen.src,@Gebotszeichen.Rettungsweste_benutzen.src|@Warnzeichen.Brandfoerdernde_Stoffe.src|@Warnzeichen.Heisse_Oberflaeche.src|@Warnzeichen.Laserstrahl.src|@Gebotszeichen.Kopfschutz.src)
@@ -127,15 +127,15 @@ __Welche Risiken bestehen beim Schweißen?  🤔__
 
 <!-- data-randomize -->
 - [[X]] Gase und Dämpfe
-- [[X]] Lärm
+- [[ ]] magnetische Strahlung
 - [[X]] Elektrischer Schlag
-- [[X]] UV-Strahlung
+- [[ ]] Schädigung des Gehörs durch Lichtbögen
 - [[X]] Brände und Explosionen
 
 </div>
 <div class="flex-child-2 center">
 
-![Schweißer](img/stick_welding_pipe.jpg "[_Quelle: Pixabay, saldahnae_](https://pixabay.com/photos/welder-industrial-welding-working-5408909/)")<!-- style="max-width: 550px; width: 100%; margin-left: -60px; margin-top:50px;" -->
+![Schweißer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.1.2/courses/img/stick_welding_pipe.jpg "[_Quelle: Pixabay, saldahnae_](https://pixabay.com/photos/welder-industrial-welding-working-5408909/)")<!-- style="max-width: 550px; width: 100%; margin-left: -60px; margin-top:50px;" -->
 
 </div>
 </section>
@@ -155,7 +155,7 @@ __Was ist beim Elektroschweißen zum Schutz vor elektrischem Strom zu beachten? 
 </div>
 </section>
 
-## 4. Weitere Quizfragen zum Thema Schweißen I
+## 4. Weitere Quizfragen zum Thema Schweißen - Teil 1
 
 > __Hinweis:__ Es können mehrere Antworten richtig sein.
 
@@ -169,14 +169,14 @@ __Wie zünde ich die Flamme eines Gasschweißgeräts korrekt an?__
 
 <!-- data-randomize -->
 - [( )] Mit einem herkömmlichen Feuerzeug
-- [(X)] Mit einem speziellen Gasanzünder
+- [(X)] Mit einem speziellen Gasanzünder mit Feuerstein
 - [( )] Mit einem Streichholz
 
 </div>
 <div class="flex-child">
 
 
-![Schweißerflamme](img/welding_torch.jpg "[_Quelle: Pixabay, Shutterbug78_](https://pixabay.com/photos/acetylene-aluminium-aluminum-blow-1239330/)")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:50px;" -->
+![Schweißerflamme](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.1.2/courses/img/welding_torch.jpg "[_Quelle: Pixabay, Shutterbug78_](https://pixabay.com/photos/acetylene-aluminium-aluminum-blow-1239330/)")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:50px;" -->
 
 </div>
 </section>
@@ -201,7 +201,7 @@ __Was ist beim Elektro-Handschweißen zu beachten? 🤔__
 <div class="flex-child">
 
 
-![Schweißerzubehör](img/welding_hat.jpg "[_Quelle: Pixabay, Benfe_](https://pixabay.com/photos/work-material-vacancy-work-welder-3954244/)")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:100px;" -->
+![Schweißerzubehör](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.1.2/courses/img/welding_hat.jpg "[_Quelle: Pixabay, Benfe_](https://pixabay.com/photos/work-material-vacancy-work-welder-3954244/)")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:100px;" -->
 
 
 </div>
@@ -223,12 +223,12 @@ __Was ist beim Arbeiten mit dem Schweißbrenner zu beachten? 🤔__
 <div class="flex-child">
 
 
-![Schweißgasbehälter](img/welding_bottles.jpg "[_Quelle: Pixabay, Bru-nO_](https://pixabay.com/photos/gas-welding-welder-protective-gas-2147487/)")<!-- style="max-width: 250px; width: 100%; margin-left: 20px; margin-top:30px;" -->
+![Schweißgasbehälter](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.1.2/courses/img/welding_bottles.jpg "[_Quelle: Pixabay, Bru-nO_](https://pixabay.com/photos/gas-welding-welder-protective-gas-2147487/)")<!-- style="max-width: 250px; width: 100%; margin-left: 20px; margin-top:30px;" -->
 
 </div>
 </section>
 
-## 5. Weitere Quizfragen zum Schweißen II
+## 5. Weitere Quizfragen zum Schweißen - Teil 2
 
 > __Hinweis:__ Es können mehrere Antworten richtig sein.
 
@@ -242,13 +242,13 @@ __Welche Maßnahmen sind bei Schweißarbeiten an Behältern, die entzündbare od
 - [[ ]] Reste der Stoffe sind ungefährlich, solange diese nicht mit dem Lichtbogen des Schweißapparates in Berührung kommen.
 - [[X]] Schweißarbeiten an geschlossenen Behältern darf ich nur unter Aufsicht ausführen.
 - [[X]] Die Behälter müssen gereinigt und mit Wasser oder Schutzgas geflutet werden.
-- [[ ]] Eine gründliche Reinigung der Behälter ist ausreichend.
+- [[ ]] Eine einfache Reinigung der Behälter mit Wasser ist ausreichend.
 
 </div>
 <div class="flex-child">
 
 
-![Arbeiten_am_Schweißbehälter](img/pipe_weld.jpg "[_Quelle: Pixabay, wyllyston_](https://pixabay.com/photos/welder-welding-industry-worker-4086983//)")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:50px;" -->
+![Arbeiten_am_Schweißbehälter](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.1.2/courses/img/pipe_weld.jpg "[_Quelle: Pixabay, wyllyston_](https://pixabay.com/photos/welder-welding-industry-worker-4086983//)")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:50px;" -->
 
 
 </div>
@@ -262,15 +262,15 @@ __Welche Gefahren ergeben sich beim Autogenschweißen? Wie verhalten Sie sich? �
 
 <!-- data-randomize -->
 - [[X]] Durch die Enden der langen Schweißdrähte können Augen- und Gesichtsverletzungen verursacht werden. Deshalb biege ich die Enden rund.
-- [[X]] Von der Schweißflamme und dem Schweißbad geht infrarote Strahlung aus. Deshalb ist das Tragen einer Schutzbrille mit Seitenschutz Pflicht.
-- [[ ]] Die Stärke der schädlichen Strahlung ist höher als beim Schutzgasschweißen, ich sollte deshalb einen kompletten Kopfschutz tragen.
+- [[X]] Von der Schweißflamme und dem Schweißbad geht infrarote UV-Strahlung aus. Deshalb ist das Tragen einer Schutzbrille mit Seitenschutz Pflicht.
+- [[ ]] Die Stärke der schädlichen Strahlung ist höher als beim Schutzgasschweißen, ich sollte deshalb einen kompletten Ganzkörperschutz tragen.
 - [[ ]] Wegspritzende Schweißperlen kühlen so schnell ab, dass diese keine Verbrennungen verursachen.
 
 </div>
 <div class="flex-child">
 
 
-![Cartoon_Schweißer](img/soldering_puppet.jpg "[_Quelle: Pixabay, Peggy+Marco_](https://pixabay.com/de/illustrations/schwei%c3%9fer-metall-angestellte-1825675/)")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:50px;" -->
+![Cartoon_Schweißer](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.1.2/courses/img/soldering_puppet.jpg "[_Quelle: Pixabay, Peggy+Marco_](https://pixabay.com/de/illustrations/schwei%c3%9fer-metall-angestellte-1825675/)")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:50px;" -->
 
 
 </div>
@@ -291,14 +291,14 @@ __Wie verhalten Sie sich bei Entstehungsbränden in der Nähe von Gasflaschen? �
 <div class="flex-child">
 
 
-![Feuerlöscher](img/fire_extinguisher.png "[_Quelle: Pixabay, maja7777_](https://pixabay.com/photos/fire-extinguisher-isolated-2976921/)")<!-- style="max-width: 150px; width: 100%; margin-left: 20px; margin-top:50px;" -->
+![Feuerlöscher](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.1.2/courses/img/fire_extinguisher.png "[_Quelle: Pixabay, maja7777_](https://pixabay.com/photos/fire-extinguisher-isolated-2976921/)")<!-- style="max-width: 150px; width: 100%; margin-left: 20px; margin-top:50px;" -->
 
 
 </div>
 
 </section>
 
-## 6. Weitere Quizfragen zum Schweißen III
+## 6. Weitere Quizfragen zum Schweißen - Teil 3
 
 > __Hinweis:__ Es können mehrere Antworten richtig sein.
 
@@ -317,7 +317,7 @@ Welche Kennzeichnung steht für Schweißstromquellen, die beim Schweißen mit er
 <div class="flex-child">
 
 
-![CE+S](img/CE_sign.jpg "_Quelle: Hilke Domsch, GKZ_")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:0px;" -->
+![CE+S](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.1.2/courses/img/CE_sign.jpg "_Quelle: Hilke Domsch, GKZ_")<!-- style="max-width: 250px; width: 100%; margin-left: 0px; margin-top:0px;" -->
 
 </div>
 </section>
@@ -338,7 +338,7 @@ __Was tun Sie gegen elektrische Gefährdung beim Schweißen? 🤔__
 <div class="flex-child">
 
 
-![Feuerflamme](img/burning.jpg "[_Quelle: Pixabay, popmelon_](https://pixabay.com/illustrations/flaming-torch-torch-flame-fire-8765143/)")<!-- style="max-width: 550px; width: 100%; margin-left: 20px; margin-top:50px;" -->
+![Feuerflamme](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.1.2/courses/img/burning.jpg "[_Quelle: Pixabay, popmelon_](https://pixabay.com/illustrations/flaming-torch-torch-flame-fire-8765143/)")<!-- style="max-width: 550px; width: 100%; margin-left: 20px; margin-top:50px;" -->
 
 
 </div>
@@ -357,7 +357,7 @@ __Sie löten. Worauf achten Sie? 🤔__
 
 <!-- data-randomize -->
 - [[X]] Ich darf den Kopf nicht direkt über die Lötstelle beugen.
-- [[ ]] Bei Weichlötarbeiten Wasser als Feuerlöschmittel bereithalten.
+- [[ ]] Bei Weichlötarbeiten Holzhäcksel als Feuerlöschmittel bereithalten.
 - [[X]] Löt- und Flussmitteldämpfe sind gesundheitsschädlich, deshalb ist die richtige Einstellung der Absauganlage wichtig.
 
 
@@ -365,7 +365,7 @@ __Sie löten. Worauf achten Sie? 🤔__
 <div class="flex-child">
 
 
-![Löten](img/soldering.jpg "[_Quelle: Pixabay, This-is-Engineering_](https://pixabay.com/photos/engineer-engineering-solder-4904910/)")<!-- style="max-width: 200px; width: 100%; margin-left: 0px; margin-top:0px;" -->
+![Löten](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.1.2/courses/img/soldering.jpg "[_Quelle: Pixabay, This-is-Engineering_](https://pixabay.com/photos/engineer-engineering-solder-4904910/)")<!-- style="max-width: 200px; width: 100%; margin-left: 0px; margin-top:0px;" -->
 
 
 </div>
@@ -382,13 +382,13 @@ Auf was achten Sie beim Weichlöten?  🤔
 - [[ ]] Weichlote können nicht überhitzen.
 - [[ ]] Das Lötgerät bedarf im Gegensatz zum Schweißgerät keiner besonderen Überprüfung.
 - [[X]] Beim Weichlöten besteht erhöhte Brandgefahr.
-- [[X]] Beim Flammlöten muss die Schutzbrille zusätzlich Schutz gegen Infrarotstrahlung bieten.
+- [[X]] Beim Flammlöten muss die Schutzbrille zusätzlich Schutz gegen UV-Infrarotstrahlung bieten.
 
 </div>
 <div class="flex-child">
 
 
-![Lötmaterial](img/soldering_utensils.jpg "[_Quelle: Pixabay, bru-nO_](https://pixabay.com/photos/soldering-soldering-station-tin-1038518/)")<!-- style="max-width: 350px; width: 100%; margin-left: 0px; margin-top:0px;" -->
+![Lötmaterial](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.1.2/courses/img/soldering_utensils.jpg "[_Quelle: Pixabay, bru-nO_](https://pixabay.com/photos/soldering-soldering-station-tin-1038518/)")<!-- style="max-width: 350px; width: 100%; margin-left: 0px; margin-top:0px;" -->
 
 
 </div>
@@ -409,7 +409,7 @@ __Welche Gesundheitsgefahren bestehen beim Weichlöten? 🤔__
 <div class="flex-child">
 
 
-![Löten2](img/fine_soldering.jpg "[_Quelle: Pixabay, photosforyou_](https://pixabay.com/photos/work-hand-man-craft-jewellery-3748395/)")<!-- style="max-width: 300px; width: 100%; margin-left: 0px; margin-top:0px;" -->
+![Löten2](https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript-Courses/refs/tags/augschutz_shk_v0.1.2/courses/img/fine_soldering.jpg "[_Quelle: Pixabay, photosforyou_](https://pixabay.com/photos/work-hand-man-craft-jewellery-3748395/)")<!-- style="max-width: 300px; width: 100%; margin-left: 0px; margin-top:0px;" -->
 
 
 </div>
